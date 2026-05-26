@@ -7,10 +7,10 @@ const AboutHero = ({ lang }) => {
       h1accent: 'revenue engine',
       h1b: 'for brands.',
       sub: 'WE Marketing is a TikTok Shop Partner Agency built to drive performance at scale. We combine shop strategy, creator activation, content systems, and live operations into one unified system, so brands move from cold start validation to sustainable, repeatable growth on TikTok Shop.',
-      badge1: 'TIKTOK SHOP PARTNER AGENCY · CERTIFIED SINCE 2024',
+      badge1: 'TIKTOK SHOP PARTNER AGENCY · CERTIFIED SINCE 2025',
       badge2: 'EN · ES · 中文 SUPPORT',
       cta1: 'Book a discovery call →',
-      cta2: 'See our work',
+      cta2: 'See our work'
     },
     zh: {
       pill: '关于 WE MARKETING',
@@ -18,21 +18,21 @@ const AboutHero = ({ lang }) => {
       h1accent: '增长引擎',
       h1b: '助品牌持续放大。',
       sub: 'WE Marketing 是 TikTok Shop 官方合作机构（TSP），专注规模化业绩增长。我们将店铺策略、达人激活、内容体系与直播运营整合为一体化方案，帮助品牌从冷启动验证走向可持续、可复制的稳定增长。',
-      badge1: 'TIKTOK SHOP 官方合作机构 · 2024 获得认证',
+      badge1: 'TIKTOK SHOP 官方合作机构 · 2025 起认证',
       badge2: '中 · 英 · 西 三语支持',
       cta1: '预约咨询 →',
-      cta2: '查看案例',
-    },
+      cta2: '查看案例'
+    }
   }[lang];
   return (
     <section style={abhStyles.wrap}>
-      <div style={abhStyles.orb1}/>
-      <div style={abhStyles.orb2}/>
+      <div style={abhStyles.orb1} />
+      <div style={abhStyles.orb2} />
       <div style={abhStyles.inner}>
         <div style={abhStyles.pill}>{t.pill}</div>
-        <h1 style={abhStyles.h1}>
-          {t.h1a}<br/>
-          <span style={abhStyles.accent}>{t.h1accent}</span><br/>{t.h1b}
+        <h1 style={{ ...abhStyles.h1, fontSize: "99px" }}>
+          {t.h1a}<br />
+          <span style={abhStyles.accent}>{t.h1accent}</span><br />{t.h1b}
         </h1>
         <p style={abhStyles.sub}>{t.sub}</p>
         <div style={abhStyles.badges}>
@@ -44,8 +44,8 @@ const AboutHero = ({ lang }) => {
           <a href="index.html#Our Work" style={abhStyles.ghost}>{t.cta2}</a>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 const abhStyles = {
   wrap: { position: 'relative', background: '#000', color: '#fff', overflow: 'hidden' },
@@ -60,6 +60,6 @@ const abhStyles = {
   badge: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', color: '#FF1493', border: '1px solid rgba(255,20,147,.4)', borderRadius: 999, padding: '8px 16px' },
   badgeAlt: { color: '#00E5FF', borderColor: 'rgba(0,229,255,.4)' },
   ctas: { display: 'flex', gap: 14, marginTop: 44, justifyContent: 'center', flexWrap: 'wrap' },
-  ghost: { background: 'transparent', border: '1.5px solid rgba(255,255,255,.4)', color: '#fff', padding: '16px 30px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', cursor: 'pointer', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' },
+  ghost: { background: 'transparent', border: '1.5px solid rgba(255,255,255,.4)', color: '#fff', padding: '16px 30px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', cursor: 'pointer', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }
 };
 window.AboutHero = AboutHero;
