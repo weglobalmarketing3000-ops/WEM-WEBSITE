@@ -1,4 +1,4 @@
-// NumbersStrip.jsx, 4-tile stat strip for /work.html
+// NumbersStrip.jsx, 4-tile stat strip for /showcase.html
 const NumbersStrip = ({ lang }) => {
   const t = {
     en: {

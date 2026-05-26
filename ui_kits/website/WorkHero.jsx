@@ -1,4 +1,4 @@
-// WorkHero.jsx, hero for /work.html
+// WorkHero.jsx, hero for /showcase.html
 const WorkHero = ({ lang }) => {
   const t = {
     en: {

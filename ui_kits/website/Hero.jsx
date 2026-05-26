@@ -34,7 +34,7 @@ const Hero = ({ lang }) => {
           <p style={heroStyles.sub}>{t.sub}</p>
           <div style={heroStyles.ctas}>
             <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => window.open('https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925','_blank')}>{t.cta1}</button>
-            <button style={heroStyles.ghost} onClick={() => location.href='work.html'}>{t.cta2}</button>
+            <button style={heroStyles.ghost} onClick={() => location.href='showcase.html'}>{t.cta2}</button>
           </div>
         </div>
       </section>

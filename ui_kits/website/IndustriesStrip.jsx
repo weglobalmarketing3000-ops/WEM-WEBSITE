@@ -1,4 +1,4 @@
-// IndustriesStrip.jsx, category + logo strip for /work.html
+// IndustriesStrip.jsx, category + logo strip for /showcase.html
 const IndustriesStrip = ({ lang }) => {
   const t = {
     en: {
