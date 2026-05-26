@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://weglobalmarketing.com/sitemap.xml

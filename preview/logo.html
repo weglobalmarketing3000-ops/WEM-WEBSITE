@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Logo</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:0; font-family: var(--font-sans); display:grid; grid-template-columns: 1fr 1fr; height: 220px; }
+  .panel { display:flex; align-items:center; justify-content:center; position:relative; }
+  .light { background: #fff; }
+  .dark { background: linear-gradient(135deg,#A130CF 0%,#6B14A3 100%); }
+  .light img { height: 140px; }
+  .dark img { height: 140px; }
+  .tag { position:absolute; bottom:10px; left:14px; font-family: var(--font-mono); font-size: 10px; letter-spacing:.2em; text-transform:uppercase; color: var(--fg-3); }
+  .dark .tag { color: rgba(255,255,255,.7); }
+</style></head>
+<body>
+  <div class="panel light"><img src="../assets/we-logo.png" alt="WE Marketing"><span class="tag">Primary · on light</span></div>
+  <div class="panel dark"><img src="../assets/we-logo-white.png" alt="WE Marketing"><span class="tag">White · on brand</span></div>
+</body></html>

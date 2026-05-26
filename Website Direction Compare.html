@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WE Marketing — Website Direction Compare</title>
+<link rel="stylesheet" href="colors_and_type.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>
+  html, body { margin:0; padding:0; background:#1a1a1a; font-family: var(--font-sans); }
+  * { box-sizing: border-box; }
+
+  /* Switcher chrome */
+  .switcher {
+    position: fixed; top: 16px; left: 50%; transform: translateX(-50%);
+    z-index: 999; display: flex; gap: 4px; padding: 4px;
+    background: rgba(0,0,0,.85); backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,.15); border-radius: 999px;
+  }
+  .switcher button {
+    background: transparent; border: 0; color: rgba(255,255,255,.7);
+    font-family: var(--font-sans); font-weight: 700; font-size: 13px;
+    letter-spacing: .08em; text-transform: uppercase;
+    padding: 10px 22px; border-radius: 999px; cursor: pointer;
+    transition: all .2s;
+  }
+  .switcher button.active {
+    background: #FF1493; color: #fff;
+  }
+  .switcher button:hover:not(.active) { color: #fff; }
+
+  .frame { display: none; }
+  .frame.show { display: block; }
+
+  /* ============ DARK MODE ============ */
+  .dark-page { background: #000; color: #fff; min-height: 100vh; }
+  .dark-page .nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(0,0,0,.85); backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .dark-page .nav-inner {
+    max-width: 1280px; margin: 0 auto; padding: 18px 32px;
+    display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  }
+  .dark-page .nav-links { display: flex; gap: 32px; }
+  .dark-page .nav-links a {
+    color: #fff; text-decoration: none; font-family: var(--font-sans);
+    font-weight: 600; font-size: 14px; letter-spacing: .04em; text-transform: uppercase;
+  }
+  .dark-page .nav-cta {
+    background: #FF1493; color: #fff; border: 0; padding: 12px 22px;
+    border-radius: 999px; font-family: var(--font-sans); font-weight: 700;
+    font-size: 14px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+  .dark-page .lang-btn {
+    background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.3);
+    width: 36px; height: 36px; border-radius: 999px; font-family: var(--font-mono);
+    font-weight: 700; font-size: 12px; cursor: pointer;
+  }
+
+  .dark-hero {
+    position: relative; padding: 120px 32px 100px; max-width: 1280px; margin: 0 auto;
+    overflow: hidden;
+  }
+  .dark-hero::before {
+    content:''; position: absolute; top: -100px; right: -150px; width: 700px; height: 700px;
+    background: radial-gradient(circle, #FF1493 0%, transparent 50%);
+    filter: blur(60px); opacity: .35; pointer-events: none;
+  }
+  .dark-hero::after {
+    content:''; position: absolute; bottom: -100px; left: -100px; width: 500px; height: 500px;
+    background: radial-gradient(circle, #9B30FF 0%, transparent 60%);
+    filter: blur(80px); opacity: .35; pointer-events: none;
+  }
+  .dark-hero .pill {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: #fff; color: #000; border-radius: 999px;
+    padding: 10px 22px; font-family: var(--font-sans); font-weight: 800;
+    font-size: 14px; letter-spacing: .06em; position: relative;
+  }
+  .dark-hero h1 {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(64px, 8vw, 128px); line-height: 1;
+    letter-spacing: -.01em; text-transform: uppercase;
+    margin: 32px 0 0; color: #fff; position: relative;
+  }
+  .dark-hero .sub {
+    font-family: var(--font-sans); font-weight: 600; font-size: 24px;
+    color: #FF1493; max-width: 700px; margin: 24px 0 40px; line-height: 1.4;
+    position: relative;
+  }
+  .dark-hero .ctas { display: flex; gap: 14px; position: relative; }
+  .dark-hero .btn-primary {
+    background: #FF1493; color: #fff; border: 0; padding: 16px 32px;
+    border-radius: 999px; font-family: var(--font-sans); font-weight: 700;
+    font-size: 16px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+  .dark-hero .btn-ghost {
+    background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.4);
+    padding: 16px 32px; border-radius: 999px; font-family: var(--font-sans);
+    font-weight: 700; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+
+  .dark-stats {
+    background: #000; padding: 60px 32px; border-top: 1px solid rgba(255,255,255,.08);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .dark-stats-inner {
+    max-width: 1280px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+  }
+  .dark-stats .stat {
+    background: #0A0A0A; border: 1px solid rgba(255,255,255,.12);
+    border-radius: 16px; padding: 32px; text-align: center;
+    box-shadow: 0 0 0 1px rgba(255,20,147,.15), 0 0 40px rgba(155,48,255,.18);
+  }
+  .dark-stats .stat-num {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: 72px; line-height: 1; color: #fff;
+  }
+  .dark-stats .stat-lbl {
+    font-family: var(--font-sans); font-weight: 700; font-size: 13px;
+    letter-spacing: .08em; text-transform: uppercase; color: #fff;
+    margin-top: 14px;
+  }
+
+  .dark-services { padding: 120px 32px; max-width: 1280px; margin: 0 auto; position: relative; }
+  .dark-services h2 {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(60px, 8vw, 110px); line-height: .95;
+    letter-spacing: -.005em; text-transform: uppercase;
+    margin: 0 0 18px; color: #fff;
+  }
+  .dark-services .section-sub {
+    font-family: var(--font-sans); font-weight: 600; font-size: 22px;
+    color: #FF1493; margin: 0 0 60px; max-width: 800px;
+  }
+  .dark-services-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+  }
+  .dark-services .card {
+    padding: 40px; border-radius: 18px; background: #0A0A0A;
+    border: 1px solid rgba(255,255,255,.08);
+    transition: all .3s; cursor: pointer;
+  }
+  .dark-services .card:hover {
+    border-color: rgba(255,20,147,.4);
+    box-shadow: 0 0 0 1px rgba(255,20,147,.3), 0 0 60px rgba(255,20,147,.15);
+    transform: translateY(-4px);
+  }
+  .dark-services .card-title {
+    font-family: var(--font-sans); font-weight: 800; font-size: 22px;
+    color: #FF1493; text-transform: uppercase; letter-spacing: .02em;
+    margin: 0 0 18px;
+  }
+  .dark-services .card-body {
+    font-family: var(--font-sans); font-size: 17px; line-height: 1.55; color: #fff;
+  }
+
+  .dark-cta {
+    background: linear-gradient(135deg, #FF1493 0%, #9B30FF 100%);
+    padding: 100px 32px; text-align: center; position: relative; overflow: hidden;
+  }
+  .dark-cta::before {
+    content:''; position: absolute; inset: 0;
+    background: radial-gradient(circle at 50% 50%, rgba(255,255,255,.2) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .dark-cta h2 {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(60px, 8vw, 96px); line-height: .95; letter-spacing: -.005em;
+    text-transform: uppercase; margin: 0 0 32px; color: #fff; position: relative;
+  }
+  .dark-cta .ctas { display: inline-flex; gap: 14px; position: relative; }
+  .dark-cta .btn-light {
+    background: #fff; color: #000; border: 0; padding: 18px 36px;
+    border-radius: 999px; font-family: var(--font-sans); font-weight: 800;
+    font-size: 17px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+
+  .dark-footer {
+    background: #000; padding: 60px 32px; color: rgba(255,255,255,.55);
+    border-top: 1px solid rgba(255,255,255,.08);
+  }
+  .dark-footer-inner {
+    max-width: 1280px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 60px; align-items: start;
+  }
+  .dark-footer h4 {
+    font-family: var(--font-sans); font-weight: 800; font-size: 13px;
+    letter-spacing: .1em; text-transform: uppercase; color: #fff;
+    margin: 0 0 18px;
+  }
+  .dark-footer ul { list-style: none; padding: 0; margin: 0; }
+  .dark-footer li { font-size: 14px; line-height: 2; }
+  .dark-footer a { color: rgba(255,255,255,.6); text-decoration: none; }
+  .dark-footer a:hover { color: #FF1493; }
+
+  /* ============ LIGHT MODE ============ */
+  .light-page { background: #fff; color: #0A0A0A; min-height: 100vh; }
+  .light-page .nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255,255,255,.92); backdrop-filter: blur(12px);
+    border-bottom: 1px solid #E5E5E5;
+  }
+  .light-page .nav-inner {
+    max-width: 1280px; margin: 0 auto; padding: 18px 32px;
+    display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  }
+  .light-page .nav-links { display: flex; gap: 32px; }
+  .light-page .nav-links a {
+    color: #0A0A0A; text-decoration: none; font-family: var(--font-sans);
+    font-weight: 600; font-size: 14px; letter-spacing: .04em; text-transform: uppercase;
+  }
+  .light-page .nav-cta {
+    background: #FF1493; color: #fff; border: 0; padding: 12px 22px;
+    border-radius: 999px; font-family: var(--font-sans); font-weight: 700;
+    font-size: 14px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+  .light-page .lang-btn {
+    background: transparent; color: #0A0A0A; border: 1.5px solid #0A0A0A;
+    width: 36px; height: 36px; border-radius: 999px; font-family: var(--font-mono);
+    font-weight: 700; font-size: 12px; cursor: pointer;
+  }
+
+  .light-hero {
+    background: #fff; padding: 80px 32px 0; max-width: 1280px; margin: 0 auto; position: relative;
+  }
+  .light-hero .pill {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: #FF1493; color: #fff; border-radius: 999px;
+    padding: 10px 22px; font-family: var(--font-sans); font-weight: 800;
+    font-size: 14px; letter-spacing: .06em;
+  }
+  .light-hero h1 {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(64px, 8vw, 128px); line-height: 1;
+    letter-spacing: -.01em; text-transform: uppercase;
+    margin: 32px 0 0; color: #0A0A0A;
+  }
+  .light-hero h1 .accent { color: #FF1493; }
+  .light-hero .sub {
+    font-family: var(--font-sans); font-weight: 500; font-size: 24px;
+    color: #2A2A2A; max-width: 700px; margin: 24px 0 40px; line-height: 1.4;
+  }
+  .light-hero .ctas { display: flex; gap: 14px; padding-bottom: 80px; }
+  .light-hero .btn-primary {
+    background: #FF1493; color: #fff; border: 0; padding: 16px 32px;
+    border-radius: 999px; font-family: var(--font-sans); font-weight: 700;
+    font-size: 16px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+  .light-hero .btn-ghost {
+    background: transparent; color: #0A0A0A; border: 1.5px solid #0A0A0A;
+    padding: 16px 32px; border-radius: 999px; font-family: var(--font-sans);
+    font-weight: 700; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+
+  .light-stats { background: #0A0A0A; padding: 80px 32px; }
+  .light-stats-inner {
+    max-width: 1280px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+  }
+  .light-stats .stat {
+    border-left: 4px solid #FF1493; padding-left: 28px;
+  }
+  .light-stats .stat-num {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: 72px; line-height: 1; color: #fff;
+  }
+  .light-stats .stat-lbl {
+    font-family: var(--font-sans); font-weight: 700; font-size: 13px;
+    letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.7);
+    margin-top: 14px;
+  }
+
+  .light-services { padding: 120px 32px; max-width: 1280px; margin: 0 auto; background: #fff; }
+  .light-services h2 {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(60px, 8vw, 110px); line-height: .95;
+    letter-spacing: -.005em; text-transform: uppercase;
+    margin: 0 0 18px; color: #0A0A0A;
+  }
+  .light-services .section-sub {
+    font-family: var(--font-sans); font-weight: 600; font-size: 22px;
+    color: #FF1493; margin: 0 0 60px; max-width: 800px;
+  }
+  .light-services-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+  }
+  .light-services .card {
+    padding: 40px; border-radius: 18px; background: #fff;
+    border: 1.5px solid #E5E5E5;
+    transition: all .3s; cursor: pointer;
+  }
+  .light-services .card:hover {
+    border-color: #FF1493;
+    box-shadow: 0 12px 40px rgba(255,20,147,.15);
+    transform: translateY(-4px);
+  }
+  .light-services .card-title {
+    font-family: var(--font-sans); font-weight: 800; font-size: 22px;
+    color: #FF1493; text-transform: uppercase; letter-spacing: .02em;
+    margin: 0 0 18px;
+  }
+  .light-services .card-body {
+    font-family: var(--font-sans); font-size: 17px; line-height: 1.55; color: #2A2A2A;
+  }
+
+  .light-cta {
+    background: #FF1493; padding: 100px 32px; text-align: center;
+  }
+  .light-cta h2 {
+    font-family: var(--font-display); font-weight: 900;
+    font-size: clamp(60px, 8vw, 96px); line-height: .95; letter-spacing: -.005em;
+    text-transform: uppercase; margin: 0 0 32px; color: #fff;
+  }
+  .light-cta .btn-dark {
+    background: #0A0A0A; color: #fff; border: 0; padding: 18px 36px;
+    border-radius: 999px; font-family: var(--font-sans); font-weight: 800;
+    font-size: 17px; letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
+  }
+
+  .light-footer { background: #fff; padding: 60px 32px; color: #5C5C5C; border-top: 1px solid #E5E5E5; }
+  .light-footer-inner {
+    max-width: 1280px; margin: 0 auto;
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 60px; align-items: start;
+  }
+  .light-footer h4 {
+    font-family: var(--font-sans); font-weight: 800; font-size: 13px;
+    letter-spacing: .1em; text-transform: uppercase; color: #0A0A0A;
+    margin: 0 0 18px;
+  }
+  .light-footer ul { list-style: none; padding: 0; margin: 0; }
+  .light-footer li { font-size: 14px; line-height: 2; }
+  .light-footer a { color: #5C5C5C; text-decoration: none; }
+  .light-footer a:hover { color: #FF1493; }
+</style>
+</head>
+<body>
+
+<div class="switcher">
+  <button data-mode="dark" class="active">⬛ Dark</button>
+  <button data-mode="light">⬜ Light</button>
+</div>
+
+<!-- ===================== DARK FRAME ===================== -->
+<div class="frame show" id="frame-dark">
+  <div class="dark-page">
+    <nav class="nav">
+      <div class="nav-inner">
+        <img src="assets/we-logo-white.png" alt="WE" style="height: 40px"/>
+        <div class="nav-links">
+          <a href="#">Services</a><a href="#">Our Work</a><a href="#">About</a><a href="#">Contact</a>
+        </div>
+        <div style="display:flex; gap:12px; align-items:center">
+          <button class="lang-btn">中</button>
+          <button class="nav-cta">Book a call →</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="dark-hero">
+      <div class="pill">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#000"><path d="M12 0l2.5 7L22 8l-5.5 5L18 22l-6-3.5L6 22l1.5-9L2 8l7.5-1z"/></svg>
+        TIKTOK SHOP PARTNER AGENCY
+      </div>
+      <h1>We help brands<br/>scale on TikTok.</h1>
+      <p class="sub">From cold start validation to scalable performance — creator activation, content systems, live operations, and shop management. One team, one P&L.</p>
+      <div class="ctas">
+        <button class="btn-primary">Book a discovery call →</button>
+        <button class="btn-ghost">See our work</button>
+      </div>
+    </section>
+
+    <section class="dark-stats">
+      <div class="dark-stats-inner">
+        <div class="stat"><div class="stat-num">160+</div><div class="stat-lbl">Shop Partners</div></div>
+        <div class="stat"><div class="stat-num">200K+</div><div class="stat-lbl">U.S. Influencers</div></div>
+        <div class="stat"><div class="stat-num">15M+</div><div class="stat-lbl">Annual Sales</div></div>
+        <div class="stat"><div class="stat-num">6K+</div><div class="stat-lbl">Vetted Creators</div></div>
+      </div>
+    </section>
+
+    <section class="dark-services">
+      <h2>OUR SERVICES</h2>
+      <p class="section-sub">A unified system powering creator, content, live and shop operations.</p>
+      <div class="dark-services-grid">
+        <div class="card"><h3 class="card-title">COLDSTART LAUNCHPAD</h3><p class="card-body">Build social proof, generate early orders, create momentum, optimize listings, and design campaigns for new products.</p></div>
+        <div class="card"><h3 class="card-title">AFFILIATE MARKETING</h3><p class="card-body">Full-cycle management from outreach and sampling to affiliate campaigns, livestreams, and performance tracking.</p></div>
+        <div class="card"><h3 class="card-title">SHORT VIDEO MANAGEMENT</h3><p class="card-body">Produce and test diverse short-form content, analyze product angles, craft strong hooks and scripts, and optimize for performance.</p></div>
+        <div class="card"><h3 class="card-title">LIVE MANAGEMENT</h3><p class="card-body">Strategy and management for brand live and affiliate live, including planning, host training, content flow, and performance optimization.</p></div>
+        <div class="card"><h3 class="card-title">CREATOR MATCHMAKING</h3><p class="card-body">Connect brands with the right creators to reach the right audience at the right time.</p></div>
+        <div class="card"><h3 class="card-title">SHOP MANAGEMENT</h3><p class="card-body">Strategy and execution across assortment, listings, campaigns, and pricing to drive sales and long-term growth.</p></div>
+      </div>
+    </section>
+
+    <section class="dark-cta">
+      <h2>READY TO SCALE<br/>ON TIKTOK?</h2>
+      <div class="ctas">
+        <button class="btn-light">Book a discovery call →</button>
+      </div>
+    </section>
+
+    <footer class="dark-footer">
+      <div class="dark-footer-inner">
+        <div>
+          <img src="assets/we-logo-white.png" alt="WE" style="height: 36px; margin-bottom: 18px"/>
+          <p style="font-size:14px; line-height:1.5; max-width:300px">TikTok Shop Partner Agency. We help brands &amp; sellers scale on TikTok.</p>
+        </div>
+        <div><h4>Services</h4><ul><li><a href="#">Cold Start</a></li><li><a href="#">Affiliate</a></li><li><a href="#">Live</a></li><li><a href="#">Shop Mgmt</a></li></ul></div>
+        <div><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li>wendy@weglobalmarketing.com</li><li>(626) 600-0360</li></ul></div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<!-- ===================== LIGHT FRAME ===================== -->
+<div class="frame" id="frame-light">
+  <div class="light-page">
+    <nav class="nav">
+      <div class="nav-inner">
+        <img src="assets/we-logo.png" alt="WE" style="height: 40px"/>
+        <div class="nav-links">
+          <a href="#">Services</a><a href="#">Our Work</a><a href="#">About</a><a href="#">Contact</a>
+        </div>
+        <div style="display:flex; gap:12px; align-items:center">
+          <button class="lang-btn">中</button>
+          <button class="nav-cta">Book a call →</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="light-hero">
+      <div class="pill">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M12 0l2.5 7L22 8l-5.5 5L18 22l-6-3.5L6 22l1.5-9L2 8l7.5-1z"/></svg>
+        TIKTOK SHOP PARTNER AGENCY
+      </div>
+      <h1>We help brands<br/>scale on <span class="accent">TikTok.</span></h1>
+      <p class="sub">From cold start validation to scalable performance — creator activation, content systems, live operations, and shop management. One team, one P&L.</p>
+      <div class="ctas">
+        <button class="btn-primary">Book a discovery call →</button>
+        <button class="btn-ghost">See our work</button>
+      </div>
+    </section>
+
+    <section class="light-stats">
+      <div class="light-stats-inner">
+        <div class="stat"><div class="stat-num">160+</div><div class="stat-lbl">Shop Partners</div></div>
+        <div class="stat"><div class="stat-num">200K+</div><div class="stat-lbl">U.S. Influencers</div></div>
+        <div class="stat"><div class="stat-num">15M+</div><div class="stat-lbl">Annual Sales</div></div>
+        <div class="stat"><div class="stat-num">6K+</div><div class="stat-lbl">Vetted Creators</div></div>
+      </div>
+    </section>
+
+    <section class="light-services">
+      <h2>OUR SERVICES</h2>
+      <p class="section-sub">A unified system powering creator, content, live and shop operations.</p>
+      <div class="light-services-grid">
+        <div class="card"><h3 class="card-title">COLDSTART LAUNCHPAD</h3><p class="card-body">Build social proof, generate early orders, create momentum, optimize listings, and design campaigns for new products.</p></div>
+        <div class="card"><h3 class="card-title">AFFILIATE MARKETING</h3><p class="card-body">Full-cycle management from outreach and sampling to affiliate campaigns, livestreams, and performance tracking.</p></div>
+        <div class="card"><h3 class="card-title">SHORT VIDEO MANAGEMENT</h3><p class="card-body">Produce and test diverse short-form content, analyze product angles, craft strong hooks and scripts, and optimize for performance.</p></div>
+        <div class="card"><h3 class="card-title">LIVE MANAGEMENT</h3><p class="card-body">Strategy and management for brand live and affiliate live, including planning, host training, content flow, and performance optimization.</p></div>
+        <div class="card"><h3 class="card-title">CREATOR MATCHMAKING</h3><p class="card-body">Connect brands with the right creators to reach the right audience at the right time.</p></div>
+        <div class="card"><h3 class="card-title">SHOP MANAGEMENT</h3><p class="card-body">Strategy and execution across assortment, listings, campaigns, and pricing to drive sales and long-term growth.</p></div>
+      </div>
+    </section>
+
+    <section class="light-cta">
+      <h2>READY TO SCALE<br/>ON TIKTOK?</h2>
+      <button class="btn-dark">Book a discovery call →</button>
+    </section>
+
+    <footer class="light-footer">
+      <div class="light-footer-inner">
+        <div>
+          <img src="assets/we-logo.png" alt="WE" style="height: 36px; margin-bottom: 18px"/>
+          <p style="font-size:14px; line-height:1.5; max-width:300px">TikTok Shop Partner Agency. We help brands &amp; sellers scale on TikTok.</p>
+        </div>
+        <div><h4>Services</h4><ul><li><a href="#">Cold Start</a></li><li><a href="#">Affiliate</a></li><li><a href="#">Live</a></li><li><a href="#">Shop Mgmt</a></li></ul></div>
+        <div><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li>wendy@weglobalmarketing.com</li><li>(626) 600-0360</li></ul></div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<script>
+  const buttons = document.querySelectorAll('.switcher button');
+  const setMode = (mode) => {
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
+    document.getElementById('frame-dark').classList.toggle('show', mode === 'dark');
+    document.getElementById('frame-light').classList.toggle('show', mode === 'light');
+    localStorage.setItem('we-website-mode', mode);
+  };
+  buttons.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+  const saved = localStorage.getItem('we-website-mode');
+  if (saved) setMode(saved);
+</script>
+
+</body>
+</html>

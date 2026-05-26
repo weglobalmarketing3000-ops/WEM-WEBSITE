@@ -1,0 +1,264 @@
+/* ============================================================
+   WE MARKETING — Core CSS Variables
+   Sampled from official deck + logo.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
+
+:root {
+  /* --- BRAND — hot magenta on jet black --- */
+  --we-magenta: #FF1493;        /* primary — bright pink subtitle / accent */
+  --we-magenta-bright: #FF38A8;
+  --we-magenta-soft: #FF5BB8;
+  --we-magenta-hot: #FF0080;    /* pressed */
+  --we-pink-pale: #FFC0E0;      /* tints, highlights */
+
+  /* Secondary brand — iridescent purple/violet (3D orbs, edge shapes) */
+  --we-violet: #9B30FF;
+  --we-violet-deep: #6B14A3;
+  --we-purple-orb: #B040FF;     /* 3D orb chrome highlight */
+
+  /* --- BLACK / DARK SYSTEM (deck is black-first) --- */
+  --we-black: #000000;          /* deck background — pure black */
+  --we-ink: #0A0A0A;            /* near-black for surfaces */
+  --we-ink-2: #1A1A1A;
+  --we-ink-3: #333333;
+  --we-line-dark: #2A2A2A;      /* subtle dark borders */
+  --we-line-glow: rgba(255,20,147,.35); /* magenta rim on cards */
+
+  /* --- LIGHT NEUTRALS (web only — deck is dark) --- */
+  --we-white: #FFFFFF;
+  --we-off-white: #FAFAFA;
+  --we-line: #E5E5E5;
+  --we-text-light: #0D0D0D;
+  --we-text-light-2: #2A2A2A;
+  --we-text-light-3: #5C5C5C;
+
+  /* --- SEMANTIC --- */
+  --we-success: #22C55E;
+  --we-warning: #F5A524;
+  --we-danger:  #EF4444;
+  --we-info:    #38BDF8;
+
+  /* --- GRADIENTS (signature) --- */
+  --we-grad-iridescent: linear-gradient(135deg, #4A8FFF 0%, #9B30FF 35%, #FF1493 75%, #FF80B0 100%); /* pill chart, edge shapes */
+  --we-grad-orb: radial-gradient(circle at 30% 30%, #FF80F9 0%, #B040FF 35%, #6B14A3 70%, #2A0A45 100%);
+  --we-grad-rim: linear-gradient(135deg, rgba(255,20,147,.4), rgba(155,48,255,.3));
+  --we-grad-magenta: linear-gradient(135deg, #FF1493 0%, #FF38A8 100%);
+
+  /* --- SEMANTIC tokens (deck-first) --- */
+  --fg-1: var(--we-white);          /* primary on dark */
+  --fg-2: rgba(255,255,255,.78);
+  --fg-3: rgba(255,255,255,.55);
+  --fg-pink: var(--we-magenta);     /* signature pink subtitle */
+  --bg-1: var(--we-black);          /* primary surface */
+  --bg-2: var(--we-ink);
+  --bg-3: var(--we-ink-2);
+  --accent: var(--we-magenta);
+
+  /* --- TYPOGRAPHY ---
+     Display: Barlow Condensed Black — official brand display font.
+     Heavy, condensed, uppercase. Used for slide titles, hero text, stat values. */
+  --font-display: 'Barlow Condensed', 'Helvetica Neue', Impact, sans-serif;
+  --font-sans: 'Inter', 'Helvetica Neue', -apple-system, system-ui, sans-serif;
+  --font-zh: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  /* --- TYPE SCALE (deck-tuned) --- */
+  --t-hero: 140px;        /* WE MARKETING wordmark */
+  --t-display: 96px;      /* slide titles: OUR SERVICES, etc */
+  --t-display-sm: 72px;
+  --t-h1: 48px;
+  --t-h2: 32px;
+  --t-h3: 24px;
+  --t-body: 18px;
+  --t-small: 16px;
+  --t-caption: 14px;
+  --t-overline: 12px;
+
+  /* --- SPACING --- */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
+  --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px; --s-10: 128px;
+
+  /* --- RADII (deck stats use ~16px radius cards) --- */
+  --r-1: 4px;
+  --r-2: 8px;
+  --r-3: 16px;       /* stat card radius */
+  --r-4: 24px;
+  --r-pill: 999px;   /* pill badges */
+
+  /* --- SHADOWS — magenta glow + soft orb glow --- */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.5);
+  --shadow-md: 0 6px 16px rgba(0,0,0,.4);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,.55);
+  --glow-magenta: 0 0 24px rgba(255,20,147,.55), 0 0 64px rgba(255,20,147,.25);
+  --glow-violet: 0 0 32px rgba(155,48,255,.55);
+  --glow-rim: 0 0 0 1px rgba(255,20,147,.25), 0 0 24px rgba(155,48,255,.15);
+  --glow-soft: 0 0 12px rgba(255,20,147,.4);
+
+  /* --- MOTION --- */
+  --ease-out: cubic-bezier(.2,.8,.2,1);
+  --ease-in-out: cubic-bezier(.65,.05,.36,1);
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-slow: 420ms;
+}
+
+/* ============================================================
+   SEMANTIC ELEMENT STYLES
+   ============================================================ */
+
+.we-display, h1.we-display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-display);
+  line-height: .92;
+  letter-spacing: -.005em;
+  color: var(--fg-1);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.we-hero {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-hero);
+  line-height: .88;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1, .we-h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-h1);
+  line-height: 1;
+  letter-spacing: -.005em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2, .we-h2 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: var(--t-h2);
+  line-height: 1.15;
+  letter-spacing: -.005em;
+  margin: 0;
+}
+
+h3, .we-h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: var(--t-h3);
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* The signature pink subtitle (used everywhere in deck) */
+.we-subtitle, .we-pink-subtitle {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.35;
+  color: var(--fg-pink);
+  margin: 0;
+}
+
+p, .we-body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--t-body);
+  line-height: 1.55;
+  color: var(--fg-2);
+  margin: 0;
+}
+
+.we-overline {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: var(--t-overline);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+code, .we-code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background: var(--we-ink-2);
+  padding: 2px 6px;
+  border-radius: var(--r-1);
+  color: var(--we-magenta);
+}
+
+/* ============================================================
+   PILL BADGE — recurring "TIKTOK SHOP PARTNER AGENCY" motif
+   ============================================================ */
+.we-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--we-white);
+  color: var(--we-black);
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: .02em;
+  padding: 14px 28px;
+  border-radius: var(--r-pill);
+  text-transform: uppercase;
+}
+
+/* ============================================================
+   STAT CARD — recurring rounded square with rim glow
+   ============================================================ */
+.we-stat-card {
+  background: var(--we-black);
+  border: 1px solid var(--we-line-glow);
+  border-radius: var(--r-3);
+  padding: 36px;
+  text-align: center;
+  box-shadow: var(--glow-rim);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.we-btn {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: .01em;
+  padding: 14px 28px;
+  border-radius: var(--r-pill);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  transition: transform var(--dur-fast) var(--ease-out),
+              box-shadow var(--dur-base) var(--ease-out),
+              background var(--dur-base) var(--ease-out);
+}
+.we-btn-primary {
+  background: var(--we-magenta);
+  color: var(--we-white);
+}
+.we-btn-primary:hover { box-shadow: var(--glow-magenta); background: var(--we-magenta-bright); }
+.we-btn-primary:active { transform: scale(.97); }
+
+.we-btn-light {
+  background: var(--we-white);
+  color: var(--we-black);
+}
+.we-btn-light:hover { transform: translateY(-1px); }
+
+.we-btn-ghost-dark {
+  background: transparent;
+  color: var(--we-white);
+  border: 1.5px solid var(--we-white);
+}
+.we-btn-ghost-dark:hover { background: var(--we-white); color: var(--we-black); }

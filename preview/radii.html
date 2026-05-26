@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Radii</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:24px; background:#fff; font-family: var(--font-sans); }
+  .row { display:flex; gap:14px; align-items:flex-end; }
+  .box { width: 80px; height: 80px; background: #F2F2F2; border:1px solid var(--we-line); display:flex; align-items:flex-end; justify-content:center; padding-bottom: 6px; font-family: var(--font-mono); font-size:10px; color: var(--fg-3); }
+  .b1 { border-radius: 4px; }
+  .b2 { border-radius: 8px; }
+  .b3 { border-radius: 14px; }
+  .b4 { border-radius: 20px; }
+  .b5 { border-radius: 999px; background: var(--we-grad-neon); color:#fff; border:none; }
+</style></head>
+<body>
+  <div class="row">
+    <div class="box b1">4 · r-1</div>
+    <div class="box b2">8 · r-2</div>
+    <div class="box b3">14 · r-3</div>
+    <div class="box b4">20 · r-4</div>
+    <div class="box b5">pill</div>
+  </div>
+</body></html>

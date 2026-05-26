@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About WE Marketing | Certified TikTok Shop Partner Agency</title>
+<meta name="description" content="WE Marketing is a certified TikTok Shop Partner (TSP) agency based in California. 160+ brands served, 8,000+ creator community.">
+<link rel="canonical" href="https://weglobalmarketing.com/about.html">
+<meta property="og:title" content="About WE Marketing | TikTok Shop Partner Agency">
+<meta property="og:description" content="WE Marketing is a TikTok Shop Partner Agency that combines shop strategy, creator activation, content systems and live operations. 160+ shop partners, 200K+ creators, $15M+ annual sales managed.">
+<meta property="og:image:alt" content="WE Marketing, TikTok Shop Partner Agency. 160+ shop partners. 200K+ creators. $15M+ annual sales. Certified since 2025.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://weglobalmarketing.com/about.html">
+<meta property="og:image" content="https://weglobalmarketing.com/assets/we-banner.png">
+<link rel="stylesheet" href="../../colors_and_type.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "WE Marketing",
+  "alternateName": "WEM",
+  "url": "https://weglobalmarketing.com",
+  "logo": "https://weglobalmarketing.com/assets/we-logo.png",
+  "description": "WE Marketing is a TikTok Shop Partner Agency that combines shop strategy, creator activation, content systems and live operations.",
+  "founder": { "@type": "Person", "name": "Wendy Lin" },
+  "foundingDate": "2024",
+  "foundingLocation": { "@type": "Place", "name": "Los Angeles, CA, USA" },
+  "email": "wendy@weglobalmarketing.com",
+  "telephone": "+1-626-600-0360",
+  "knowsLanguage": ["en", "es", "zh"],
+  "areaServed": "US"
+}
+</script>
+<style>
+  html, body { margin:0; padding:0; font-family: var(--font-sans); color: #fff; background:#000; }
+  * { box-sizing: border-box; }
+  :root {
+    --accent-pink: #FF1493;
+    --accent-purple: #9B30FF;
+    --accent-cyan: #00E5FF;
+    --accent-lime: #C6FF3D;
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="NavBar.jsx"></script>
+<script type="text/babel" src="AboutHero.jsx"></script>
+<script type="text/babel" src="AboutCapability.jsx"></script>
+<script type="text/babel" src="CtaFooter.jsx"></script>
+<script type="text/babel" src="Footer.jsx"></script>
+<script type="text/babel">
+  const { useState, useEffect } = React;
+  function App() {
+    const [lang, setLang] = useState(() => localStorage.getItem('we-lang') || 'en');
+    useEffect(() => { localStorage.setItem('we-lang', lang); }, [lang]);
+    useEffect(() => { if (window.lucide) window.lucide.createIcons(); }, [lang]);
+    return (
+      <div data-screen-label="WE About">
+        <NavBar lang={lang} onLang={setLang} />
+        <AboutHero lang={lang} />
+        <AboutCapability lang={lang} />
+        <CtaFooter lang={lang} />
+        <Footer lang={lang} />
+      </div>
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

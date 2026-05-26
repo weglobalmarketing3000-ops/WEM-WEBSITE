@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Cards</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:24px; background:#FAFAFA; font-family: var(--font-sans); }
+  .row { display:flex; gap:16px; }
+  .card { flex:1; background:#fff; border-radius: 14px; padding: 18px; box-shadow: var(--shadow-md); }
+  .card.brand { background: var(--we-grad-neon); color:#fff; }
+  .card.dark { background: var(--we-ink); color:#fff; }
+  .eyebrow { font-family: var(--font-mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; opacity:.7; margin-bottom: 8px; }
+  .title { font-family: var(--font-display); text-transform:uppercase; font-size: 22px; line-height: 1; letter-spacing: -.01em; }
+  .sub { font-size: 13px; line-height:1.5; opacity:.8; margin-top: 8px; }
+</style></head>
+<body>
+  <div class="row">
+    <div class="card">
+      <div class="eyebrow">Service</div>
+      <div class="title">Live Selling</div>
+      <div class="sub">Fully-produced TikTok Shop LIVEs with data-backed ad spend.</div>
+    </div>
+    <div class="card brand">
+      <div class="eyebrow">Featured</div>
+      <div class="title">$4.2M GMV</div>
+      <div class="sub">in 90 days with one creator team.</div>
+    </div>
+    <div class="card dark">
+      <div class="eyebrow">Case study</div>
+      <div class="title">Higround</div>
+      <div class="sub">Gaming category breakout. 18x ROAS.</div>
+    </div>
+  </div>
+</body></html>

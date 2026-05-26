@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Bilingual Type</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:24px; background:#fff; font-family: var(--font-sans); }
+  .pair { display:grid; grid-template-columns: 1fr 1fr; gap:24px; align-items:baseline; }
+  .en { font-family: var(--font-display); font-size: 44px; line-height:1; text-transform:uppercase; letter-spacing:-.015em; }
+  .zh { font-family: var(--font-zh); font-weight: 900; font-size: 44px; line-height:1.05; letter-spacing:.02em; color: var(--we-ink); }
+  .meta { font-family: var(--font-mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; color: var(--fg-3); margin-bottom: 12px; }
+  .body { font-family: var(--font-sans); font-size:14px; color: var(--fg-2); line-height:1.5; margin-top: 10px; }
+  .body.zh { font-family: var(--font-zh); font-weight: 400; font-size: 14px; letter-spacing: .01em; }
+</style></head>
+<body>
+  <div class="meta">EN · Archivo Black  ·  ZH · Noto Sans SC 900</div>
+  <div class="pair">
+    <div>
+      <div class="en">Turn scrolls<br>into sales.</div>
+      <div class="body">Every swipe is a checkout opportunity.</div>
+    </div>
+    <div>
+      <div class="zh">让每一次<br>滑动变成成交</div>
+      <div class="body zh">每一次滑动，都是一次下单机会。</div>
+    </div>
+  </div>
+</body></html>

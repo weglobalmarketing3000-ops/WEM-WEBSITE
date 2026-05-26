@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Badges & Tags</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:28px; background:#fff; font-family: var(--font-sans); display:flex; flex-direction:column; gap:12px; }
+  .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  .badge { display:inline-flex; align-items:center; gap:6px; padding: 6px 12px; border-radius: 999px; font-family: var(--font-mono); font-size: 11px; letter-spacing:.05em; text-transform:uppercase; font-weight:700; }
+  .neon { background: var(--we-grad-neon); color:#fff; }
+  .dark { background: var(--we-ink); color:#fff; }
+  .ghost { border: 1.5px solid var(--we-ink); color: var(--we-ink); }
+  .soft { background: #FFE5FC; color: #6B14A3; }
+  .live { background: var(--we-magenta); color:#fff; }
+  .live::before { content:""; width:6px; height:6px; background:#fff; border-radius:999px; animation: pulse 1s infinite; }
+  @keyframes pulse { 50% { opacity:.3; } }
+</style></head>
+<body>
+  <div class="row">
+    <span class="badge neon">#1 TSP</span>
+    <span class="badge live">LIVE NOW</span>
+    <span class="badge dark">New</span>
+    <span class="badge ghost">Case study</span>
+    <span class="badge soft">Beauty</span>
+  </div>
+  <div class="row">
+    <span class="badge soft">美妆</span>
+    <span class="badge soft">食品</span>
+    <span class="badge soft">科技</span>
+    <span class="badge soft">服饰</span>
+  </div>
+</body></html>

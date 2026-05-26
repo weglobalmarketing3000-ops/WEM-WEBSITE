@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Shadows & Glow</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:28px; background:#FAFAFA; font-family: var(--font-sans); }
+  .row { display:flex; gap:24px; }
+  .box { background:#fff; border-radius: 14px; width:130px; height:90px; display:flex; align-items:flex-end; padding:10px; font-family: var(--font-mono); font-size:10px; color: var(--fg-3); }
+  .sm { box-shadow: 0 1px 2px rgba(13,13,13,.06); }
+  .md { box-shadow: 0 6px 16px rgba(13,13,13,.08); }
+  .lg { box-shadow: 0 20px 40px rgba(13,13,13,.12); }
+  .glow { background: var(--we-grad-neon); color:#fff; box-shadow: 0 0 24px rgba(255,91,248,.55), 0 0 64px rgba(255,91,248,.25); }
+</style></head>
+<body>
+  <div class="row">
+    <div class="box sm">sm</div>
+    <div class="box md">md</div>
+    <div class="box lg">lg</div>
+    <div class="box glow">glow-magenta</div>
+  </div>
+</body></html>

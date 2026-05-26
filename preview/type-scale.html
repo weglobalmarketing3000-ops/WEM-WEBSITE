@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Type Scale</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:24px; background:#fff; font-family: var(--font-sans); }
+  table { width:100%; border-collapse: collapse; }
+  td { padding: 6px 12px 6px 0; vertical-align: baseline; }
+  .token { font-family: var(--font-mono); font-size:11px; color: var(--fg-3); width: 90px; }
+  .size { font-family: var(--font-mono); font-size:10px; color: var(--fg-3); width: 60px; text-align:right; }
+  .s-hero { font-family: var(--font-display); font-size:44px; line-height:1; text-transform:uppercase; letter-spacing:-.02em; }
+  .s-h1 { font-family: var(--font-display); font-size:32px; line-height:1; text-transform:uppercase; letter-spacing:-.015em; }
+  .s-h2 { font-family: var(--font-sans); font-weight:700; font-size:24px; letter-spacing:-.01em; }
+  .s-h3 { font-family: var(--font-sans); font-weight:600; font-size:18px; }
+  .s-body { font-family: var(--font-sans); font-size:15px; color: var(--fg-2); }
+  .s-cap { font-family: var(--font-sans); font-size:12px; color: var(--fg-3); }
+</style></head>
+<body>
+  <table>
+    <tr><td class="token">--t-hero</td><td class="s-hero">Go Viral.</td><td class="size">72–120</td></tr>
+    <tr><td class="token">--t-h1</td><td class="s-h1">Section Title</td><td class="size">40–72</td></tr>
+    <tr><td class="token">--t-h2</td><td class="s-h2">Subsection heading</td><td class="size">30–48</td></tr>
+    <tr><td class="token">--t-h3</td><td class="s-h3">Card heading</td><td class="size">28</td></tr>
+    <tr><td class="token">--t-body</td><td class="s-body">Body copy reads at this size.</td><td class="size">16</td></tr>
+    <tr><td class="token">--t-caption</td><td class="s-cap">Caption / fine print</td><td class="size">12</td></tr>
+  </table>
+</body></html>

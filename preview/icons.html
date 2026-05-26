@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Iconography</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+  body { margin:0; padding:24px; background:#fff; font-family: var(--font-sans); }
+  .meta { font-family: var(--font-mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; color: var(--fg-3); margin-bottom: 16px; }
+  .row { display:flex; gap:22px; color: var(--we-ink); align-items:center; }
+  .row i { stroke-width: 1.75; width: 32px; height: 32px; }
+  .row.brand { color: var(--we-magenta); }
+</style></head>
+<body>
+  <div class="meta">Lucide · 1.75 stroke · currentColor</div>
+  <div class="row">
+    <i data-lucide="shopping-bag"></i>
+    <i data-lucide="video"></i>
+    <i data-lucide="sparkles"></i>
+    <i data-lucide="trending-up"></i>
+    <i data-lucide="users"></i>
+    <i data-lucide="play-circle"></i>
+    <i data-lucide="zap"></i>
+    <i data-lucide="target"></i>
+  </div>
+  <div style="height:18px"></div>
+  <div class="row brand">
+    <i data-lucide="flame"></i>
+    <i data-lucide="badge-check"></i>
+    <i data-lucide="bar-chart-3"></i>
+    <i data-lucide="package"></i>
+    <i data-lucide="hash"></i>
+  </div>
+  <script>lucide.createIcons();</script>
+</body></html>

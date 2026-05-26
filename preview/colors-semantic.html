@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Semantic Colors</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; font-family: var(--font-sans); background:#fff; padding:20px; }
+  .row { display:flex; gap:10px; }
+  .sw { flex:1; border-radius:10px; aspect-ratio:1.2/1; display:flex; flex-direction:column; justify-content:flex-end; padding:10px; color:#fff; font-family: var(--font-mono); font-size:11px; box-shadow: var(--shadow-sm); }
+  .sw .name { font-weight:700; letter-spacing:.05em; text-transform:uppercase; font-size:10px; }
+</style></head>
+<body>
+  <div class="row">
+    <div class="sw" style="background:#22C55E"><span class="name">Success</span><span>#22C55E</span></div>
+    <div class="sw" style="background:#F5A524"><span class="name">Warning</span><span>#F5A524</span></div>
+    <div class="sw" style="background:#EF4444"><span class="name">Danger</span><span>#EF4444</span></div>
+    <div class="sw" style="background:#38BDF8"><span class="name">Info</span><span>#38BDF8</span></div>
+  </div>
+</body></html>

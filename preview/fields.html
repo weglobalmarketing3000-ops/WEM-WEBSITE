@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Form Fields</title>
+<link rel="stylesheet" href="../colors_and_type.css">
+<style>
+  body { margin:0; padding:24px; background:#fff; font-family: var(--font-sans); display:flex; flex-direction:column; gap:14px; }
+  label { font-family: var(--font-mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; color: var(--fg-3); display:block; margin-bottom: 6px; }
+  input, select, textarea { width: 320px; padding: 12px 14px; border:1px solid var(--we-line); border-radius: 8px; font-family: var(--font-sans); font-size: 15px; color: var(--we-ink); background: #fff; outline: none; transition: border-color 140ms, box-shadow 220ms; }
+  input:focus { border-color: var(--we-magenta); box-shadow: 0 0 0 3px rgba(255,91,248,.2); }
+  .row { display:flex; gap:20px; }
+</style></head>
+<body>
+  <div class="row">
+    <div><label>Brand name</label><input placeholder="Your brand"/></div>
+    <div><label>Monthly GMV</label><select><option>$0–50k</option><option>$50–500k</option><option>$500k+</option></select></div>
+  </div>
+  <div><label>Email</label><input type="email" placeholder="hello@brand.com" value="we@brand.com" style="border-color: var(--we-magenta); box-shadow: 0 0 0 3px rgba(255,91,248,.2);"/></div>
+</body></html>
