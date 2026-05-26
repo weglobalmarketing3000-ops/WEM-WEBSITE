@@ -12,12 +12,12 @@ const AffiliateCommunity = ({ lang }) => {
         { icon: 'trending-up', label: 'Trending sound & hook library' },
       ],
       cta: 'Join our Discord →',
-      stats: [['8K+','Creators in Discord'], ['24/7','Moderation + support'], ['2', 'Languages, EN + 中文']],
+      stats: [['8K+','Creators in Discord'], ['24/7','Moderation + support'], ['3', 'Languages, EN + ES + 中文']],
     },
     zh: {
       eyebrow: '// 达人社群',
       h: '8,000+ 达人\n同一个 Discord',
-      sub: '品牌资源对接、寄样申请、内容答疑、直播复盘，全部专属频道。中英文分组 24 小时活跃。',
+      sub: '品牌资源对接、寄样申请、内容答疑、直播复盘，全部专属频道。\n英语&西语双语频道 24 小时活跃。',
       features: [
         { icon: 'message-square', label: '实时品牌资源与寄样提醒' },
         { icon: 'video', label: '每周直播内容复盘' },
@@ -25,7 +25,7 @@ const AffiliateCommunity = ({ lang }) => {
         { icon: 'trending-up', label: '热门 BGM 与钩子素材库' },
       ],
       cta: '加入 Discord →',
-      stats: [['8K+','社群达人数'], ['24/7','管理 + 支持'], ['2', '中英双语服务']],
+      stats: [['8K+','社群达人数'], ['24/7','管理 + 支持'], ['3', '英中西三语服务']],
     },
   }[lang];
   // Fake handle strings for avatar wall — no real PII

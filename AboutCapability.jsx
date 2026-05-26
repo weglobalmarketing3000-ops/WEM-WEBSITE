@@ -11,46 +11,46 @@ const AboutCapability = ({ lang }) => {
       author: '\u2014 Wendy Lin, Founder',
       eyeR: 'BY THE NUMBERS',
       stats: [
-        { num: '160+', lab: 'SHOP PARTNERS\nSERVED' },
-        { num: '200K+', lab: 'U.S. CREATORS\nCOLLABORATED' },
-        { num: '$15M+', lab: 'ANNUAL SALES\nMANAGED' },
-        { num: '8,000+', lab: 'CREATORS IN WE\nAFFILIATE COMMUNITY' },
-      ],
+      { num: '160+', lab: 'SHOP PARTNERS\nSERVED' },
+      { num: '200K+', lab: 'U.S. CREATORS\nCOLLABORATED' },
+      { num: '$15M+', lab: 'ANNUAL SALES\nMANAGED' },
+      { num: '8,000+', lab: 'CREATORS IN WE\nAFFILIATE COMMUNITY' }],
+
       caps: [
-        ['COLDSTART LAUNCHPAD', 'New product validation in 30-90 days.'],
-        ['AFFILIATE MARKETING', 'Outreach, sampling, campaigns, livestream activation.'],
-        ['SHORT VIDEO MANAGEMENT', 'Diverse formats, hooks, scripts, performance optimization.'],
-        ['LIVE MANAGEMENT', 'Brand and affiliate live, planning, host training, content flow.'],
-        ['CREATOR MATCHMAKING', 'Right creator, right audience, right moment.'],
-        ['SHOP MANAGEMENT', 'Listings, pricing, campaigns, fulfillment, SPS, compliance.'],
-      ],
-      seeAll: 'See our full services →',
+      ['COLDSTART LAUNCHPAD', 'New product validation in 30-90 days.'],
+      ['AFFILIATE MARKETING', 'Outreach, sampling, campaigns, livestream activation.'],
+      ['SHORT VIDEO MANAGEMENT', 'Diverse formats, hooks, scripts, performance optimization.'],
+      ['LIVE MANAGEMENT', 'Brand and affiliate live, planning, host training, content flow.'],
+      ['CREATOR MATCHMAKING', 'Right creator, right audience, right moment.'],
+      ['SHOP MANAGEMENT', 'Listings, pricing, campaigns, fulfillment, SPS, compliance.']],
+
+      seeAll: 'See our full services →'
     },
     zh: {
       eyeL: '我们为什么创立 WEM',
       h2: '一支精干团队，跑通 TikTok Shop 全链路。',
       p1: 'WE Marketing 由 Wendy Lin 于 2024 年在洛杉矶创立。多年来我们目睹品牌与达人被传统代理机构的模式所束缚，那些模式从未为 TikTok Shop 而设计。大多数机构把 TikTok Shop当成又一个社交渠道或电商平台；而真正在 TikTok Shop 上赢的品牌都明白：这是一场全新的游戏，达人驱动、内容优先、直播为王、运营密集。',
-      p2: '我们创立 WEM，就是为了把整个链路打通。一支团队，同时负责店铺策略、达人激活、短视频内容、直播运营和店铺代运营，统一管理，统一交付。没有交接断层，没有互相推诿，达人团队和店铺团队之间不存在真空地带。',
-      p3: '这就是为什么一家美妆品牌能在 30 天内从月 GMV 31.2 万美金跃升至 98.2 万美金。也是为什么一个男装品牌能在达人稀缺的品类里，从零冷启动，做到 10,000+ 订单。方法论是一样的，区别在于谁来执行。',
-      quote: '"TikTok Shop 不只是一个电商平台，它是一个让品牌被发现的引擎。达人的价值，在于帮你和从未听说过你的消费者之间建立信任。我们的工作，就是把这件事规模化。"',
+      p2: '我们创立 WEM，就是要把整个链路打通。一支团队同时负责店铺策略、达人激活、短视频内容、直播运营与店铺代运营，在同一个 P&L 下统筹推进。没有交接断层，没有责任推诿，"达人团队"和"店铺团队"之间也没有真空地带。',
+      p3: '这就是为什么我们合作的一家美妆品牌能在 30 天内从月 GMV 31.2 万美金跃升到 98.2 万美金；也是一个男装品牌能在几乎没有达人库存、大多数代理难以调动达人的品类中冷启动并完成 10000+ 订单。打法是一样的，差别在执行。',
+      quote: '"TikTok Shop 是一个发现引擎，不是一个店铺。达人帮你跟一个从未听过你品牌的消费者间架起信任。我们的工作是让这件事规模化发生。"',
       author: '— Wendy Lin, 创始人',
       eyeR: '关键数据',
       stats: [
-        { num: '160+', lab: '合作品牌数' },
-        { num: '24K+', lab: '认证达人社群' },
-        { num: '$15M+', lab: '年管理 GMV' },
-        { num: '8,000+', lab: 'WE 联盟社群达人' },
-      ],
+      { num: '160+', lab: '合作品牌数' },
+      { num: '24K+', lab: '认证达人社群' },
+      { num: '$15M+', lab: '年管理 GMV' },
+      { num: '8,000+', lab: 'WE 联盟社群达人' }],
+
       caps: [
-        ['冷启动 LAUNCHPAD', '新品 30-90 天验证起量。'],
-        ['联盟营销', '达人外联、寄样、活动、直播激活。'],
-        ['短视频运营', '多样形式、钩子、脚本、效果优化。'],
-        ['直播运营', '品牌与达人直播：策划、主播培训、内容流。'],
-        ['达人匹配', '对的达人、对的受众、对的时机。'],
-        ['店铺代运营', '商品、定价、活动、履约、SPS、合规。'],
-      ],
-      seeAll: '查看全部服务 →',
-    },
+      ['冷启动 LAUNCHPAD', '新品 30-90 天验证起量。'],
+      ['联盟营销', '达人外联、寄样、活动、直播激活。'],
+      ['短视频运营', '多样形式、钩子、脚本、效果优化。'],
+      ['直播运营', '品牌与达人直播：策划、主播培训、内容流。'],
+      ['达人匹配', '对的达人、对的受众、对的时机。'],
+      ['店铺代运营', '商品、定价、活动、履约、SPS、合规。']],
+
+      seeAll: '查看全部服务 →'
+    }
   }[lang];
   return (
     <section style={acStyles.wrap}>
@@ -62,9 +62,9 @@ const AboutCapability = ({ lang }) => {
           <p style={acStyles.p}>{t.p2}</p>
           <p style={acStyles.p}>{t.p3}</p>
           <div style={acStyles.quoteWrap}>
-            <div style={acStyles.quoteBar}/>
+            <div style={acStyles.quoteBar} />
             <div>
-              <div style={acStyles.quote}>{t.quote}</div>
+              <div style={{ ...acStyles.quote, color: "rgb(244, 22, 160)" }}>{t.quote}</div>
               <div style={acStyles.author}>{t.author}</div>
             </div>
           </div>
@@ -72,34 +72,34 @@ const AboutCapability = ({ lang }) => {
         <div style={acStyles.right}>
           <div style={acStyles.eye}>{t.eyeR}</div>
           <div style={acStyles.statGrid}>
-            {t.stats.map((s, i) => (
-              <div key={i} style={acStyles.statCard}>
+            {t.stats.map((s, i) =>
+            <div key={i} style={acStyles.statCard}>
                 <div style={acStyles.statNum}>
                   {s.num.replace(/[+$]/g, '').replace(/^/, '')}
                   <span style={acStyles.statSym}>{s.num.match(/[+$]/g)?.join('')}</span>
                 </div>
                 <div style={acStyles.statLab}>{s.lab}</div>
               </div>
-            ))}
+            )}
           </div>
           <div style={acStyles.capList}>
-            {t.caps.map(([h, d], i) => (
-              <div key={i} style={acStyles.capRow}>
+            {t.caps.map(([h, d], i) =>
+            <div key={i} style={acStyles.capRow}>
                 <div style={acStyles.capCheck}>
-                  <i data-lucide="check" style={{ width: 14, height: 14, color: '#000', strokeWidth: 3 }}/>
+                  <i data-lucide="check" style={{ width: 14, height: 14, color: '#000', strokeWidth: 3 }} />
                 </div>
                 <div>
                   <div style={acStyles.capTitle}>{h}</div>
                   <div style={acStyles.capDesc}>{d}</div>
                 </div>
               </div>
-            ))}
+            )}
           </div>
           <a href="index.html#Services" style={acStyles.seeAll}>{t.seeAll}</a>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 // Render stat numbers cleanly: keep $/+ as inline accent
 const acStyles = {
@@ -124,6 +124,6 @@ const acStyles = {
   capCheck: { width: 22, height: 22, borderRadius: 6, background: '#C6FF3D', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 },
   capTitle: { fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', color: '#fff' },
   capDesc: { fontFamily: 'var(--font-sans)', fontSize: 14, color: 'rgba(255,255,255,.65)', marginTop: 4, lineHeight: 1.5 },
-  seeAll: { display: 'inline-block', marginTop: 28, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.16em', textTransform: 'uppercase', color: '#FF1493', textDecoration: 'none', borderBottom: '1px solid rgba(255,20,147,.5)', paddingBottom: 4 },
+  seeAll: { display: 'inline-block', marginTop: 28, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.16em', textTransform: 'uppercase', color: '#FF1493', textDecoration: 'none', borderBottom: '1px solid rgba(255,20,147,.5)', paddingBottom: 4 }
 };
 window.AboutCapability = AboutCapability;

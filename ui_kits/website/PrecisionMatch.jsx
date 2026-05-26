@@ -1,4 +1,4 @@
-// PrecisionMatch.jsx, replaces IndustriesStrip on /showcase.html — proprietary matching system
+// PrecisionMatch.jsx, replaces IndustriesStrip on /work.html — proprietary matching system
 const PrecisionMatch = ({ lang }) => {
   const t = {
     en: {

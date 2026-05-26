@@ -23,7 +23,7 @@ const AffiliateBenefits = ({ lang }) => {
         { icon: 'handshake', accent: '#9B30FF', tag: '02', title: '独家品牌合作', body: '活动在 TikTok Shop 公开之前，社群达人优先对接。包含寄样、付费 UGC、直播场次。' },
         { icon: 'package', accent: '#C6FF3D', tag: '03', title: '免费寄样', body: '可向 160+ 合作店铺申请样品，大多 5-7 个工作日内发出。新手无粉丝门槛。' },
         { icon: 'sparkles', accent: '#00E5FF', tag: '04', title: '达人支持', body: '专属运营团队处理店铺违规、申诉、账号问题。提供基础视频剪辑与封面协助。' },
-        { icon: 'users', accent: '#FF1493', tag: '05', title: '8,000+ 达人社群', body: '认证达人社群：合拍搭档、合集联动、热门音乐预警，中英文 Discord 频道 24h 在线。' },
+        { icon: 'users', accent: '#FF1493', tag: '05', title: '8,000+ 达人社群', body: '认证达人社群：合拍搭档、合集联动、热门音乐预警，经验分享，英西语 Discord 社群 24h 在线。' },
         { icon: 'graduation-cap', accent: '#9B30FF', tag: '06', title: 'Top 1% 达人指导', body: '每周由 Top 1% TikTok Shop 达人进行内容复盘：开头钩子、节奏、定价、CTA —— 都是真正拉 GMV 的点。' },
       ],
     },

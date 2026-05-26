@@ -5,17 +5,17 @@ window.DISCORD_URL = DISCORD_URL;
 const AffiliateHero = ({ lang }) => {
   const t = {
     en: {
-      pill: 'WE AFFILIATE · CREATOR COMMUNITY',
+      pill: 'WEM AFFILIATE · CREATOR COMMUNITY',
       h1a: 'Build. Post.', h1accent: 'Earn.',
-      sub: 'Join 8,000+ TikTok Shop creators in the WE Affiliate community. Boosted commission, exclusive brand collabs, free product samples, and content coaching from Top 1% creators, all in one place.',
+      sub: 'Join 8,000+ TikTok Shop creators in the WEM Affiliate community. Boosted commission, exclusive brand collabs, free product samples, and content coaching from Top 1% creators, all in one place.',
       cta1: 'Join our Discord →',
       cta2: 'See creator perks',
       meta: ['Free to join', 'No agency link required', 'English + Espinol + 中文 support'],
     },
     zh: {
-      pill: 'WE 联盟 · 达人社群',
+      pill: 'WEM 联盟 · 达人社群',
       h1a: '拍内容', h1accent: '赚佣金',
-      sub: '加入 WE 联盟社群，与 8,000+ TikTok Shop 达人一起：更高佣金、独家品牌合作、免费寄样、Top 1% 达人内容指导，一站齐全。',
+      sub: '加入 WEM 联盟社群，与 8,000+ TikTok Shop 达人一起：更高佣金、独家品牌合作、免费寄样、Top 1% 达人内容指导，一站齐全。',,
       cta1: '加入 Discord 社群 →',
       cta2: '查看达人权益',
       meta: ['免费加入', '无粉丝门槛', '中英双语支持'],

@@ -13,7 +13,7 @@ const Hero = ({ lang }) => {
       h1a: '我们帮品牌', h1accent: '起量', h1b: '在 TikTok',
       sub: '从冷启动验证到规模化增长：达人激活、内容系统、直播运营、店铺代管。一支团队，一本账。',
       cta1: '预约咨询 →', cta2: '查看案例',
-      stats: [[8000,'+','社群创作者'],[14000,'+','认证达人'],[160,'+','服务店铺'],[15,'M+','年销售额']],
+      stats: [[8000,'+','社群创作者'],[24000,'+','认证达人'],[160,'+','服务店铺'],[15,'M+','年销售额']],
     },
   }[lang];
   return (
@@ -34,7 +34,7 @@ const Hero = ({ lang }) => {
           <p style={heroStyles.sub}>{t.sub}</p>
           <div style={heroStyles.ctas}>
             <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => window.open('https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925','_blank')}>{t.cta1}</button>
-            <button style={heroStyles.ghost} onClick={() => location.href='showcase.html'}>{t.cta2}</button>
+            <button style={heroStyles.ghost} onClick={() => location.href='work.html'}>{t.cta2}</button>
           </div>
         </div>
       </section>
