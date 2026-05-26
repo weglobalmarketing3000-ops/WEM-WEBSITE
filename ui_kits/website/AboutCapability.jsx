@@ -95,7 +95,7 @@ const AboutCapability = ({ lang }) => {
               </div>
             ))}
           </div>
-          <a href="index.html#Services" style={acStyles.seeAll}>{t.seeAll}</a>
+          <a href="index.html#services" style={acStyles.seeAll}>{t.seeAll}</a>
         </div>
       </div>
     </section>

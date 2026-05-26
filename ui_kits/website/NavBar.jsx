@@ -2,8 +2,8 @@
 const NavBar = ({ lang, onLang, basePath = '' }) => {
   const b = basePath;
   const t = {
-    en: { nav: [['Services', b + 'index.html#Services'], ['Creator Content', b + 'services/creator-content.html'], ['Our Work', b + 'work.html'], ['Affiliate', b + 'affiliate.html'], ['About', b + 'about.html'], ['Blog', b + 'blog.html']], cta: 'Book a call →' },
-    zh: { nav: [['服务', b + 'index.html#Services'], ['达人内容', b + 'services/creator-content.html'], ['案例', b + 'work.html'], ['联盟达人', b + 'affiliate.html'], ['关于', b + 'about.html'], ['博客', b + 'blog.html']], cta: '预约咨询 →' },
+    en: { nav: [['Services', b + 'index.html#services'], ['Creator Content', b + 'services/creator-content.html'], ['Our Work', b + 'showcase.html'], ['Affiliate', b + 'affiliate.html'], ['About', b + 'about.html'], ['Blog', b + 'blog.html']], cta: 'Book a call →' },
+    zh: { nav: [['服务', b + 'index.html#services'], ['达人内容', b + 'services/creator-content.html'], ['案例', b + 'showcase.html'], ['联盟达人', b + 'affiliate.html'], ['关于', b + 'about.html'], ['博客', b + 'blog.html']], cta: '预约咨询 →' },
   }[lang];
   return (
     <nav style={navStyles.wrap}>

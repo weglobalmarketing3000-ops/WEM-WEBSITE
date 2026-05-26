@@ -4,15 +4,15 @@ const Footer = ({ lang, basePath = '' }) => {
   const t = {
     en: {
       cols: [
-        ['Services', [['Coldstart', b + 'index.html#Services'], ['Affiliate', b + 'affiliate.html'], ['Short Video', b + 'index.html#Services'], ['Live', b + 'index.html#Services'], ['Creator Matchmaking', b + 'index.html#Services'], ['Shop Mgmt', b + 'index.html#Services']]],
-        ['Company', [['About', b + 'about.html'], ['Our Work', b + 'work.html'], ['Blog', b + 'blog.html'], ['Contact', b + 'index.html#Contact']]],
+        ['Services', [['Coldstart', b + 'index.html#services'], ['Affiliate', b + 'affiliate.html'], ['Short Video', b + 'index.html#services'], ['Live', b + 'index.html#services'], ['Creator Matchmaking', b + 'index.html#services'], ['Shop Mgmt', b + 'index.html#services']]],
+        ['Company', [['About', b + 'about.html'], ['Our Work', b + 'showcase.html'], ['Blog', b + 'blog.html'], ['Contact', b + 'index.html#Contact']]],
         ['Contact', [['wendy@weglobalmarketing.com','mailto:wendy@weglobalmarketing.com'], ['(626) 600-0360','tel:+16266000360']]],
       ],
     },
     zh: {
       cols: [
-        ['服务', [['冷启动', b + 'index.html#Services'], ['联盟分销', b + 'affiliate.html'], ['短视频', b + 'index.html#Services'], ['直播', b + 'index.html#Services'], ['达人匹配', b + 'index.html#Services'], ['店铺代运营', b + 'index.html#Services']]],
-        ['公司', [['关于', b + 'about.html'], ['案例', b + 'work.html'], ['博客', b + 'blog.html'], ['联系', b + 'index.html#Contact']]],
+        ['服务', [['冷启动', b + 'index.html#services'], ['联盟分销', b + 'affiliate.html'], ['短视频', b + 'index.html#services'], ['直播', b + 'index.html#services'], ['达人匹配', b + 'index.html#services'], ['店铺代运营', b + 'index.html#services']]],
+        ['公司', [['关于', b + 'about.html'], ['案例', b + 'showcase.html'], ['博客', b + 'blog.html'], ['联系', b + 'index.html#Contact']]],
         ['联系方式', [['wendy@weglobalmarketing.com','mailto:wendy@weglobalmarketing.com'], ['(626) 600-0360','tel:+16266000360']]],
       ],
     },
