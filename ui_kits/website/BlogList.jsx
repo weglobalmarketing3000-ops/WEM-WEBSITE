@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'best-tiktok-shop-agencies-us',
+    cat: { en: 'TIKTOK SHOP · AGENCY GUIDE', zh: 'TIKTOK SHOP · 代运营指南' },
+    title: { en: 'Best TikTok Shop Agencies in the U.S. for Brands', zh: '美国 TikTok Shop 代运营公司怎么选？2026 品牌指南' },
+    excerpt: { en: 'A practical shortlist and evaluation framework for choosing a U.S. TikTok Shop agency, with data-backed context and bilingual guidance for cross-border brands.', zh: '美国 TikTok Shop agency 怎么选？从店铺运营、达人联盟、内容生产、广告放大和数据复盘五个角度拆解。' },
+    date: { en: 'May 27, 2026', zh: '2026 年 5 月 27 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
+    image: 'hero-best-tiktok-shop-agencies-us-v3.png',
+  },
+  {
     slug: 'ugc-video-strategy-for-brands',
     cat: { en: 'UGC · STRATEGY', zh: 'UGC · 策略' },
     title: { en: 'UGC Video Strategy: How to Build a Content Pipeline That Drives Sales', zh: 'UGC 视频策略：搭建驱动销售的内容流水线' },
@@ -68,7 +76,7 @@ const BLOG_POSTS = [
     slug: 'tiktok-shop-management-what-to-expect',
     cat: { en: 'AGENCY · MANAGEMENT', zh: '代理 · 全托管' },
     title: { en: 'TikTok Shop Management: What Brands Should Expect from an Agency', zh: 'TikTok Shop 全托管：品牌应该期待代理交付什么' },
-    excerpt: { en: "Thinking about hiring a TikTok Shop management agency? Here’s what a good partner actually delivers, what it costs, and how to evaluate results.", zh: '考虑找 TikTok Shop 全托管代理？奺的合作伙伴会交付什么、如何计费、怎么评估结果。' },
+    excerpt: { en: "Thinking about hiring a TikTok Shop management agency? Here’s what a good partner actually delivers, what it costs, and how to evaluate results.", zh: '考虑找 TikTok Shop 全托管代理？好的合作伙伴会交付什么、如何计费、怎么评估结果。' },
     date: { en: 'Jan 8, 2026', zh: '2026 年 1 月 8 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
     image: 'hero-6-tiktok-shop-management-what-to-expect.png',
   },
@@ -120,7 +128,7 @@ const BlogList = ({ lang }) => {
     <section style={blStyles.wrap}>
       <div style={blStyles.inner}>
         {BLOG_POSTS.map(p => (
-          <a key={p.slug} href={`blog/${p.slug}.html`} style={blStyles.card} className="blog-card">
+          <a key={p.slug} href={`blog/${p.slug}.html${lang === 'zh' ? '?lang=zh' : ''}`} style={blStyles.card} className="blog-card">
             {p.image && (
               <div style={blStyles.thumb}>
                 <img src={`blog/${p.image}`} alt={p.title.en} style={blStyles.thumbImg}/>

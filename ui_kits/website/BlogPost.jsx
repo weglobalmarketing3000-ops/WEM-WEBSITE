@@ -8,7 +8,14 @@
 //   - { kind:'cta', label, href }
 //   - { kind:'callout', text }
 //   - { kind:'sub', text }   // sub-heading lighter than h3
-const BlogPost = ({ meta, sections, faqs, related }) => {
+const BlogPost = ({ meta, sections, faqs, related, labels }) => {
+  const ui = {
+    back: 'Blog',
+    toc: 'On this page',
+    faq: 'Frequently asked questions',
+    related: 'Related guides',
+    ...(labels || {}),
+  };
   const [openFaq, setOpenFaq] = React.useState(null);
   const [activeSection, setActiveSection] = React.useState(sections[0]?.id);
   React.useEffect(() => {
@@ -78,7 +85,7 @@ const BlogPost = ({ meta, sections, faqs, related }) => {
       <header style={bpStyles.header}>
         <div style={bpStyles.headerInner}>
           <a href="../blog.html" style={bpStyles.back}>
-            <i data-lucide="arrow-left" style={{ width: 14, height: 14 }}/> Blog
+            <i data-lucide="arrow-left" style={{ width: 14, height: 14 }}/> {ui.back}
           </a>
           <div style={bpStyles.cat}>{meta.cat}</div>
           <h1 style={bpStyles.h1}>{meta.title}</h1>
@@ -99,14 +106,14 @@ const BlogPost = ({ meta, sections, faqs, related }) => {
 
       <div style={bpStyles.body}>
         <aside style={bpStyles.toc}>
-          <div style={bpStyles.tocLabel}>On this page</div>
+          <div style={bpStyles.tocLabel}>{ui.toc}</div>
           <nav style={bpStyles.tocNav}>
             {sections.map(s => (
               <a key={s.id} href={`#${s.id}`} style={{ ...bpStyles.tocLink, ...(activeSection === s.id ? bpStyles.tocLinkActive : {}) }}>
                 {s.h}
               </a>
             ))}
-            <a href="#faq" style={bpStyles.tocLink}>FAQ</a>
+            <a href="#faq" style={bpStyles.tocLink}>{ui.faq}</a>
           </nav>
         </aside>
 
@@ -119,7 +126,7 @@ const BlogPost = ({ meta, sections, faqs, related }) => {
           ))}
 
           <section id="faq" style={bpStyles.section}>
-            <h2 style={bpStyles.h2}>Frequently asked questions</h2>
+            <h2 style={bpStyles.h2}>{ui.faq}</h2>
             <div style={bpStyles.faqList}>
               {faqs.map((f, i) => (
                 <div key={i} style={bpStyles.faqItem}>
@@ -135,7 +142,7 @@ const BlogPost = ({ meta, sections, faqs, related }) => {
 
           {related && related.length > 0 && (
             <section style={bpStyles.section}>
-              <h2 style={bpStyles.h2}>Related guides</h2>
+              <h2 style={bpStyles.h2}>{ui.related}</h2>
               <div style={bpStyles.relatedList}>
                 {related.map((r, i) => (
                   <a key={i} href={r.href} style={bpStyles.relatedLink}>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop U.S. market signals for agency selection</title>
+  <desc id="desc">A data graphic showing TikTok Shop U.S. launch in 2023, 200,000 registered sellers, 100,000 affiliate creators, and projected 2025 U.S. sales of 15.82 billion dollars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".55" stop-color="#120015"/>
+      <stop offset="1" stop-color="#03010a"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff1493"/>
+      <stop offset=".55" stop-color="#9b30ff"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="16" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="820" fill="url(#bg)"/>
+  <circle cx="1120" cy="110" r="260" fill="#ff1493" opacity=".16" filter="url(#glow)"/>
+  <circle cx="210" cy="700" r="260" fill="#00e5ff" opacity=".10" filter="url(#glow)"/>
+  <text x="72" y="84" fill="#ff1493" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">MARKET SIGNALS</text>
+  <text x="72" y="146" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="900">Why TikTok Shop agencies became a U.S. category</text>
+  <text x="72" y="190" fill="rgba(255,255,255,.72)" font-family="Arial, Helvetica, sans-serif" font-size="24">Fast platform adoption means brands now need creator recruitment, affiliate ops, shop strategy, and content systems.</text>
+  <g transform="translate(72 270)">
+    <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+    <text x="28" y="72" fill="#c6ff3d" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">SEPT 2023</text>
+    <text x="28" y="138" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900">U.S. launch</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">TikTok Shop officially launches in the United States.</text>
+  </g>
+  <g transform="translate(385 270)">
+    <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+    <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900">200K+</text>
+    <text x="28" y="138" fill="#ff1493" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">registered sellers</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">Reported at U.S. launch by AP.</text>
+  </g>
+  <g transform="translate(698 270)">
+    <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+    <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900">100K+</text>
+    <text x="28" y="138" fill="#00e5ff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">affiliate creators</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">Creators already in the affiliate program at launch.</text>
+  </g>
+  <g transform="translate(1011 270)">
+    <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+    <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900">$15.82B</text>
+    <text x="28" y="138" fill="#9b30ff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">2025 U.S. sales</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">eMarketer estimate for TikTok Shop U.S. sales.</text>
+  </g>
+  <path d="M105 650 H1295" stroke="url(#hot)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="112" cy="650" r="16" fill="#c6ff3d"/>
+  <circle cx="518" cy="650" r="16" fill="#ff1493"/>
+  <circle cx="924" cy="650" r="16" fill="#00e5ff"/>
+  <circle cx="1288" cy="650" r="16" fill="#9b30ff"/>
+  <text x="72" y="744" fill="rgba(255,255,255,.58)" font-family="Arial, Helvetica, sans-serif" font-size="18">Sources: TikTok Newsroom; Associated Press, Sept. 2023; eMarketer forecast cited in 2025 TikTok Shop coverage.</text>
+</svg>

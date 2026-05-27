@@ -28,8 +28,18 @@
 <script type="text/babel">
   const { useState, useEffect } = React;
   function App() {
-    const [lang, setLang] = useState(() => localStorage.getItem('we-lang') || 'en');
-    useEffect(() => { localStorage.setItem('we-lang', lang); }, [lang]);
+    const [lang, setLang] = useState(() => {
+      const urlLang = new URLSearchParams(window.location.search).get('lang');
+      if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+      return localStorage.getItem('we-lang') || 'en';
+    });
+    useEffect(() => {
+      localStorage.setItem('we-lang', lang);
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+      document.title = lang === 'zh'
+        ? '博客 | TikTok Shop 策略与实战指南 · WE Marketing'
+        : 'Blog | TikTok Shop Strategy & Playbooks · WE Marketing';
+    }, [lang]);
     useEffect(() => { if (window.lucide) window.lucide.createIcons(); }, [lang]);
     return (
       <div data-screen-label="WE Blog">
