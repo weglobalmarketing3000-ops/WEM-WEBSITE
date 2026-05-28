@@ -105,6 +105,14 @@ const BLOG_POSTS = [
     image: 'hero-3-tiktok-shop-affiliate-program-brand-guide.png',
   },
   {
+    slug: 'tiktok-shop-product-listing-optimization',
+    cat: { en: 'SHOP OPS · CONVERSION', zh: '店铺运营 · 转化' },
+    title: { en: 'TikTok Shop Product Listing Optimization: Convert Creator Traffic', zh: '达人把流量带来了，TikTok Shop 商品页接得住吗？' },
+    excerpt: { en: 'Creator content can drive traffic, but the product page has to convert it. A practical audit for titles, images, benefits, offers, reviews, and FAQ.', zh: '达人内容负责带来兴趣，商品页负责让兴趣变成订单。拆解主图、标题、卖点、offer、评价和 FAQ 怎么接住流量。' },
+    date: { en: 'Sep 29, 2025', zh: '2025 年 9 月 29 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-tiktok-shop-product-listing-optimization.png',
+  },
+  {
     slug: 'how-to-choose-tiktok-shop-agency-as-creator',
     cat: { en: 'CREATORS · AGENCY GUIDE', zh: '达人 · 选代理机构' },
     title: { en: 'How to Choose a TikTok Shop Agency as a Creator', zh: '达人如何选择 TikTok Shop 代理机构' },
@@ -119,6 +127,22 @@ const BLOG_POSTS = [
     excerpt: { en: 'A TikTok Shop agency handles creator recruitment, affiliate management, shop operations, and content strategy so brands can focus on product.', zh: '代理机构负责达人招募、联盟管理、店铺运营和内容策略，让品牌专注产品。' },
     date: { en: 'Aug 20, 2025', zh: '2025 年 8 月 20 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
     image: 'hero-1-what-does-a-tiktok-shop-agency-do.png',
+  },
+  {
+    slug: 'tiktok-shop-sample-seeding-strategy',
+    cat: { en: 'CREATORS · SAMPLE SEEDING', zh: '达人 · 寄样策略' },
+    title: { en: 'TikTok Shop Sample Seeding Strategy for Brands', zh: 'TikTok Shop 寄样不是撒样品：品牌怎么把样品变成内容' },
+    excerpt: { en: 'How brands can turn samples into creator content with better vetting, briefs, tracking, follow-up, affiliate links, and reuse.', zh: '寄样不是谁申请就寄。品牌要先筛达人、写清 brief、跟进物流和发布，把样品变成可复用内容。' },
+    date: { en: 'Feb 18, 2025', zh: '2025 年 2 月 18 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-sample-seeding-strategy.png',
+  },
+  {
+    slug: 'tiktok-shop-us-launch-checklist',
+    cat: { en: 'CROSS-BORDER · U.S. LAUNCH', zh: '出海 · 美国上线' },
+    title: { en: 'TikTok Shop U.S. Launch Checklist for Cross-Border Brands', zh: '出海品牌做美国 TikTok Shop，第一步到底该准备什么？' },
+    excerpt: { en: 'A practical launch checklist for cross-border brands preparing U.S. shop setup, product pages, creator seeding, logistics, and go-live cadence.', zh: '出海品牌不是开个店就结束。先把美国市场判断、商品页、物流、达人寄样和上线节奏准备好。' },
+    date: { en: 'Oct 22, 2024', zh: '2024 年 10 月 22 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-us-launch-checklist.png',
   },
 ];
 window.BLOG_POSTS = BLOG_POSTS;

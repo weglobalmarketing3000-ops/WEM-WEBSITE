@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Four-week U.S. launch timeline</title>
+  <desc id="desc">A four-week TikTok Shop U.S. launch timeline showing setup, content, sampling, and optimization phases.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#FF1493"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="#070707"/>
+  <text x="70" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">U.S. Launch Timeline</text>
+  <text x="70" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">四周上线节奏：先跑通，再放量</text>
+  <g transform="translate(92 190)" font-family="Inter, Arial, sans-serif">
+    <g stroke="rgba(255,255,255,.14)" stroke-width="1">
+      <line x1="170" y1="0" x2="170" y2="360"/><line x1="390" y1="0" x2="390" y2="360"/><line x1="610" y1="0" x2="610" y2="360"/><line x1="830" y1="0" x2="830" y2="360"/>
+    </g>
+    <g fill="rgba(255,255,255,.55)" font-size="15" font-weight="700">
+      <text x="210" y="-18">Week 1</text><text x="430" y="-18">Week 2</text><text x="650" y="-18">Week 3</text><text x="870" y="-18">Week 4</text>
+    </g>
+    <g fill="#fff" font-size="17" font-weight="800">
+      <text x="0" y="45">Store setup</text><text x="0" y="115">Product page</text><text x="0" y="185">Creator seeding</text><text x="0" y="255">Content review</text><text x="0" y="325">Scale plan</text>
+    </g>
+    <g fill="rgba(255,255,255,.45)" font-size="13">
+      <text x="0" y="66">店铺基础</text><text x="0" y="136">商品页</text><text x="0" y="206">达人寄样</text><text x="0" y="276">内容审核</text><text x="0" y="346">放量计划</text>
+    </g>
+    <g fill="url(#g)">
+      <rect x="188" y="24" width="260" height="32" rx="16"/><rect x="230" y="94" width="350" height="32" rx="16"/>
+      <rect x="370" y="164" width="410" height="32" rx="16"/><rect x="560" y="234" width="290" height="32" rx="16"/>
+      <rect x="740" y="304" width="220" height="32" rx="16"/>
+    </g>
+    <circle cx="960" cy="320" r="18" fill="#FF1493"/><text x="988" y="326" fill="#fff" font-size="17" font-weight="800">Go-live review</text>
+  </g>
+  <text x="70" y="624" fill="rgba(255,255,255,.5)" font-family="Inter, Arial, sans-serif" font-size="14">A practical launch calendar for brands entering TikTok Shop U.S.</text>
+</svg>
