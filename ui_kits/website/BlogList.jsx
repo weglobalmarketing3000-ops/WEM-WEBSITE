@@ -1,6 +1,30 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'cross-border-tiktok-shop-entry-models',
+    cat: { en: 'CHINA BRAND EXPANSION · ENTRY MODELS', zh: '中国品牌出海 · 入驻路径' },
+    title: { en: 'TikTok Shop U.S. Entry Models for China-Based Brands', zh: '中国品牌入驻美国 TikTok Shop：POP、ACCU、全托管、品牌托管怎么选' },
+    excerpt: { en: 'A WEM guide to U.S. TikTok Shop entry paths for China-based brands: China/Hong Kong entity POP, U.S. entity ACCU, fully managed, and brand-managed.', zh: '中国品牌和厂家出海美国 TikTok Shop，先看主体、履约、材料和经营责任，再决定 POP、ACCU、全托管或品牌托管。' },
+    date: { en: 'May 28, 2026', zh: '2026 年 5 月 28 日' }, read: { en: '10 min read', zh: '11 分钟阅读' },
+    image: 'hero-cross-border-tiktok-shop-entry-models.png',
+  },
+  {
+    slug: 'us-pop-for-chinese-owned-sellers',
+    cat: { en: 'ACCU · U.S. ENTITY POP', zh: 'ACCU · 美国主体 POP' },
+    title: { en: 'U.S. TikTok Shop POP for Chinese-Owned Sellers: ACCU Checklist', zh: '美国主体但中国受益人：TikTok Shop ACCU 入驻要准备什么' },
+    excerpt: { en: 'What Chinese-owned U.S. entity sellers should prepare for the ACCU path: U.S. company files, Chinese UBO ID, contact documents, fulfillment, and possible extra review materials.', zh: '美国公司、中国最终受益人、本地仓发货、IRS Letter、联系人证件：WEM 拆解美区 POP ACCU 入驻准备。' },
+    date: { en: 'May 21, 2026', zh: '2026 年 5 月 21 日' }, read: { en: '8 min read', zh: '9 分钟阅读' },
+    image: 'hero-us-pop-for-chinese-owned-sellers.png',
+  },
+  {
+    slug: 'tiktok-shop-managed-models-for-manufacturers',
+    cat: { en: 'MANUFACTURERS · MANAGED MODELS', zh: '中国厂家出海 · 托管模式' },
+    title: { en: 'TikTok Shop Managed Models for Manufacturers: Full-Service vs Brand-Managed', zh: '中国厂家出海做 TikTok Shop：全托管和品牌托管适合谁' },
+    excerpt: { en: 'A practical WEM guide for manufacturers comparing TikTok Shop fully managed and brand-managed paths, based on official Global Selling entry materials.', zh: '中国厂家、工贸一体和品牌商出海 TikTok Shop，该选全托管还是品牌托管？看供应链、品牌基础和邀请机制。' },
+    date: { en: 'May 14, 2026', zh: '2026 年 5 月 14 日' }, read: { en: '8 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-managed-models-for-manufacturers.png',
+  },
+  {
     slug: 'los-angeles-tiktok-shop-agency-guide',
     cat: { en: 'LOCAL SEO · LOS ANGELES', zh: '本地 SEO · 洛杉矶' },
     title: { en: 'TikTok Shop Agency in Los Angeles: What Brands Should Look For', zh: '洛杉矶 TikTok Shop 代运营怎么选' },

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">Four U.S. TikTok Shop entry models</title>
+  <desc id="desc">Comparison of China/Hong Kong entity POP, U.S. entity ACCU, fully managed, and brand-managed entry paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#050505"/>
+      <stop offset=".54" stop-color="#111017"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+    <radialGradient id="pink" cx=".16" cy=".08" r=".55">
+      <stop stop-color="#FF1493" stop-opacity=".32"/>
+      <stop offset=".62" stop-color="#FF1493" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#FF1493" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="780" fill="url(#bg)"/>
+  <rect width="1400" height="780" fill="url(#pink)"/>
+  <text x="70" y="86" fill="#fff" font-size="42" font-weight="800" font-family="Arial, Helvetica, sans-serif">U.S. TikTok Shop Entry Models</text>
+  <text x="70" y="126" fill="#FF1493" font-size="18" font-weight="700" letter-spacing="2" font-family="Arial, Helvetica, sans-serif">POP · ACCU · FULLY MANAGED · BRAND-MANAGED</text>
+  <g transform="translate(70 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#180813"/>
+    <text x="24" y="46" fill="#FF1493" font-size="24" font-weight="800">China/HK Entity POP</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">Best fit</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">China or Hong Kong entity</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">with U.S. local fulfillment</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">Materials</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">Business license, legal rep</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">ID, unique phone/email,</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">optional ecommerce proof</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
+    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">US$1,500 per store</text>
+  </g>
+  <g transform="translate(395 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#111026"/>
+    <text x="24" y="46" fill="#FF1493" font-size="24" font-weight="800">U.S. Entity ACCU</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">Best fit</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">U.S. registered business</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">with Chinese UBO</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">Materials</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">U.S. registration docs,</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">Chinese UBO ID, contact ID,</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">possible IRS/address proof</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
+    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">Currently not required</text>
+  </g>
+  <g transform="translate(720 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#101B1F"/>
+    <text x="24" y="46" fill="#FF1493" font-size="24" font-weight="800">Fully Managed</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">Best fit</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">Factories, trade sellers,</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">supply-chain operators</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">Materials</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">License, legal rep ID,</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">office/warehouse photos,</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">factory license info</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
+    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">RMB 1,000</text>
+  </g>
+  <g transform="translate(1045 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#1A0D22"/>
+    <text x="24" y="46" fill="#FF1493" font-size="24" font-weight="800">Brand-Managed</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">Best fit</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">Top domestic ecommerce</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">or cross-border sellers</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">Materials</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">Similar to fully managed;</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">invite-based registration</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">through an ops manager</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
+    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">RMB 1,000</text>
+  </g>
+  <text x="70" y="728" fill="#A8A8AD" font-size="16" font-family="Arial, Helvetica, sans-serif">Based on TikTok Shop Global Selling's Chinese official entry page. Platform rules may change; final review results are controlled by TikTok Shop.</text>
+</svg>
