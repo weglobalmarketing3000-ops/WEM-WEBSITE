@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Blog | TikTok Shop Strategy & Playbooks · WE Marketing</title>
-<meta name="description" content="TikTok Shop strategy, creator partnerships, affiliate playbooks, and brand launch guides from WE Marketing, a TikTok Shop Partner Agency. Updated 2026.">
+<meta name="description" content="TikTok Shop strategy, creator partnerships, affiliate playbooks, multilingual creator insights, and WEM operating frameworks from WE Marketing, a TikTok Shop Partner Agency.">
 <meta property="og:title" content="Blog | TikTok Shop Strategy & Playbooks · WE Marketing">
-<meta property="og:description" content="TikTok Shop strategy, creator partnerships, affiliate playbooks, and brand launch guides from WE Marketing, a TikTok Shop Partner Agency. Updated 2026.">
+<meta property="og:description" content="TikTok Shop strategy, creator partnerships, affiliate playbooks, multilingual creator insights, and WEM operating frameworks from WE Marketing, a TikTok Shop Partner Agency.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="/blog.html">
 <link rel="stylesheet" href="colors_and_type.css">
@@ -19,12 +19,27 @@
 </style>
 </head>
 <body>
-<div id="root"></div>
-<script type="text/babel" src="NavBar.jsx"></script>
+<div id="root">
+  <main style="max-width:900px;margin:0 auto;padding:72px 24px;color:#fff;background:#000;font-family:Arial,sans-serif;">
+    <p style="color:#ff1493;text-transform:uppercase;letter-spacing:.14em;font-size:13px;">WE Marketing · WEM Blog</p>
+    <h1>TikTok Shop strategy, creator insights, and WEM frameworks</h1>
+    <p style="font-size:18px;line-height:1.65;color:#ddd;">WE Marketing publishes TikTok Shop agency guides, creator affiliate playbooks, UGC strategy, multilingual creator insights, and WEM operating frameworks for brands scaling through creator-led commerce.</p>
+    <ul style="line-height:1.8;color:#ddd;padding-left:22px;">
+      <li><a href="/blog/spanish-speaking-creators-tiktok-shop.html" style="color:#ff1493;">Spanish-Speaking TikTok Shop Creators: WEM Field Notes for Brands</a></li>
+      <li><a href="/blog/tiktok-shop-content-factory-framework.html" style="color:#ff1493;">The WEM TikTok Shop Content Factory Framework</a></li>
+      <li><a href="/blog/best-tiktok-shop-agencies-us.html" style="color:#ff1493;">Best TikTok Shop Agencies in the U.S. for Brands</a></li>
+      <li><a href="/blog/ugc-video-strategy-for-brands.html" style="color:#ff1493;">UGC Video Strategy: How to Build a Content Pipeline That Drives Sales</a></li>
+      <li><a href="/blog/tiktok-shop-product-listing-optimization.html" style="color:#ff1493;">TikTok Shop Product Listing Optimization: Convert Creator Traffic</a></li>
+    </ul>
+    <p lang="zh-CN" style="line-height:1.75;color:#ddd;">中文读者也可以在页面右上角切换语言，阅读美国 TikTok Shop 代运营、达人联盟、UGC、寄样和多语种达人策略相关内容。</p>
+  </main>
+</div>
+<script type="text/babel" src="CursorStars.jsx?v=20260527-blog-stars"></script>
+<script type="text/babel" src="NavBar.jsx?v=20260528-services"></script>
 <script type="text/babel" src="BlogIndexHero.jsx"></script>
 <script type="text/babel" src="BlogList.jsx"></script>
-<script type="text/babel" src="CtaFooter.jsx"></script>
-<script type="text/babel" src="Footer.jsx"></script>
+<script type="text/babel" src="CtaFooter.jsx?v=20260528-services2"></script>
+<script type="text/babel" src="Footer.jsx?v=20260528-services2"></script>
 <script type="text/babel">
   const { useState, useEffect } = React;
   function App() {
@@ -43,6 +58,7 @@
     useEffect(() => { if (window.lucide) window.lucide.createIcons(); }, [lang]);
     return (
       <div data-screen-label="WE Blog">
+        <CursorStars />
         <NavBar lang={lang} onLang={setLang} />
         <BlogIndexHero lang={lang} />
         <BlogList lang={lang} />

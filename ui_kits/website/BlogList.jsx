@@ -25,12 +25,28 @@ const BLOG_POSTS = [
     image: 'hero-13-where-to-find-ugc-video-creators.png',
   },
   {
+    slug: 'spanish-speaking-creators-tiktok-shop',
+    cat: { en: 'CREATORS · SPANISH MARKET', zh: '达人 · 西语市场' },
+    title: { en: 'Spanish-Speaking TikTok Shop Creators: WEM Field Notes for Brands', zh: '西语 TikTok Shop 达人：WEM 给品牌的美国市场观察' },
+    excerpt: { en: 'WEM field notes on Spanish-speaking TikTok Shop creators: language-market fit, localized briefs, creator trust, and multilingual content strategy.', zh: 'WEM 对美国西语 TikTok Shop 达人的观察：语言市场匹配、本地化 brief、达人信任和多语种内容策略。' },
+    date: { en: 'May 12, 2026', zh: '2026 年 5 月 12 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
+    image: 'hero-spanish-speaking-creators-tiktok-shop.png',
+  },
+  {
     slug: 'how-retail-brands-use-tiktok-shop',
     cat: { en: 'RETAIL · STRATEGY', zh: '零售 · 策略' },
     title: { en: 'How Retail Brands Use TikTok Shop to Reach New Customers', zh: '零售品牌如何用 TikTok Shop 触达新客户' },
     excerpt: { en: 'Retail brands are using TikTok Shop to reach younger buyers, test products, and create content at scale.', zh: '零售品牌在用 TikTok Shop 触达年轻客户、测试新品、批量产出内容。' },
     date: { en: 'May 8, 2026', zh: '2026 年 5 月 8 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
     image: 'hero-12-how-retail-brands-use-tiktok-shop.png',
+  },
+  {
+    slug: 'tiktok-shop-content-factory-framework',
+    cat: { en: 'WEM FRAMEWORK · CONTENT', zh: 'WEM 框架 · 内容' },
+    title: { en: 'The WEM TikTok Shop Content Factory Framework', zh: 'WEM TikTok Shop 内容工厂框架' },
+    excerpt: { en: 'A citeable WEM framework for turning creator briefs, samples, UGC, product pages, and weekly data into a repeatable content-to-conversion system.', zh: 'WEM 可引用框架：把达人 brief、寄样、UGC、商品页和每周数据复盘连成可重复的内容转化系统。' },
+    date: { en: 'Apr 24, 2026', zh: '2026 年 4 月 24 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-content-factory-framework.png',
   },
   {
     slug: 'how-to-find-creators-for-your-brand-tiktok-shop',
