@@ -25,6 +25,16 @@
     <h1>TikTok Shop strategy, creator insights, and WEM frameworks</h1>
     <p style="font-size:18px;line-height:1.65;color:#ddd;">WE Marketing publishes TikTok Shop agency guides, creator affiliate playbooks, UGC strategy, multilingual creator insights, and WEM operating frameworks for brands scaling through creator-led commerce.</p>
     <ul style="line-height:1.8;color:#ddd;padding-left:22px;">
+      <li><a href="/blog/los-angeles-tiktok-shop-agency-guide.html" style="color:#ff1493;">TikTok Shop Agency in Los Angeles: What Brands Should Look For</a></li>
+      <li><a href="/blog/california-tiktok-shop-agency-guide.html" style="color:#ff1493;">California TikTok Shop Agency Guide for Creator-Led Commerce</a></li>
+      <li><a href="/blog/tiktok-shop-live-selling-agency-guide.html" style="color:#ff1493;">TikTok Shop Live Selling Agency Guide: What Good Support Looks Like</a></li>
+      <li><a href="/blog/tiktok-shop-creator-affiliate-management.html" style="color:#ff1493;">TikTok Shop Creator Affiliate Management: The WEM Operating System</a></li>
+      <li><a href="/blog/tiktok-shop-sample-roi-tracking.html" style="color:#ff1493;">TikTok Shop Sample ROI Tracking: How Brands Should Measure Seeding</a></li>
+      <li><a href="/blog/tiktok-shop-agency-cost-guide.html" style="color:#ff1493;">TikTok Shop Agency Cost Guide: What Brands Are Really Paying For</a></li>
+      <li><a href="/blog/tiktok-shop-agency-vs-in-house.html" style="color:#ff1493;">TikTok Shop Agency vs. In-House Team: How Brands Should Decide</a></li>
+      <li><a href="/blog/tiktok-shop-creator-brief-template.html" style="color:#ff1493;">TikTok Shop Creator Brief Template: What WEM Gives Creators</a></li>
+      <li><a href="/blog/tiktok-shop-beauty-brand-agency-guide.html" style="color:#ff1493;">TikTok Shop Agency for Beauty Brands: What Actually Matters</a></li>
+      <li><a href="/blog/tiktok-shop-ugc-agency-amazon-dtc.html" style="color:#ff1493;">TikTok Shop UGC Agency for Amazon and DTC Sellers</a></li>
       <li><a href="/blog/spanish-speaking-creators-tiktok-shop.html" style="color:#ff1493;">Spanish-Speaking TikTok Shop Creators: WEM Field Notes for Brands</a></li>
       <li><a href="/blog/tiktok-shop-content-factory-framework.html" style="color:#ff1493;">The WEM TikTok Shop Content Factory Framework</a></li>
       <li><a href="/blog/best-tiktok-shop-agencies-us.html" style="color:#ff1493;">Best TikTok Shop Agencies in the U.S. for Brands</a></li>
@@ -35,21 +45,22 @@
   </main>
 </div>
 <script type="text/babel" src="CursorStars.jsx?v=20260527-blog-stars"></script>
-<script type="text/babel" src="NavBar.jsx?v=20260528-nav-labels"></script>
+<script type="text/babel" src="NavBar.jsx?v=20260528-default-en"></script>
 <script type="text/babel" src="BlogIndexHero.jsx"></script>
 <script type="text/babel" src="BlogList.jsx"></script>
-<script type="text/babel" src="CtaFooter.jsx?v=20260528-services2"></script>
-<script type="text/babel" src="Footer.jsx?v=20260528-services2"></script>
+<script type="text/babel" src="TaglineBand.jsx?v=20260528-ugc-gradient"></script>
+<script type="text/babel" src="CtaFooter.jsx?v=20260528-cta-motion"></script>
+<script type="text/babel" src="Footer.jsx?v=20260528-service-groups"></script>
 <script type="text/babel">
   const { useState, useEffect } = React;
   function App() {
     const [lang, setLang] = useState(() => {
       const urlLang = new URLSearchParams(window.location.search).get('lang');
       if (urlLang === 'zh' || urlLang === 'en') return urlLang;
-      return localStorage.getItem('we-lang') || 'en';
+      return window.getWemInitialLang ? window.getWemInitialLang() : 'en';
     });
     useEffect(() => {
-      localStorage.setItem('we-lang', lang);
+      window.persistWemLang ? window.persistWemLang(lang) : localStorage.setItem('we-lang', lang);
       document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
       document.title = lang === 'zh'
         ? '博客 | TikTok Shop 策略与实战指南 · WE Marketing'
@@ -62,6 +73,7 @@
         <NavBar lang={lang} onLang={setLang} />
         <BlogIndexHero lang={lang} />
         <BlogList lang={lang} />
+        <TaglineBand lang={lang} variant="blog" />
         <CtaFooter lang={lang} />
         <Footer lang={lang} />
       </div>
