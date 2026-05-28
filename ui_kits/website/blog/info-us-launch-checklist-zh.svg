@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop 美国上线准备表</title>
+  <desc id="desc">出海品牌准备美国 TikTok Shop 上线的检查表。</desc>
+  <defs>
+    <linearGradient id="pink" x1="0" x2="1"><stop stop-color="#FF1493"/><stop offset="1" stop-color="#9B30FF"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="675" fill="#070707"/>
+  <circle cx="1030" cy="80" r="260" fill="#FF1493" opacity=".12" filter="url(#glow)"/>
+  <text x="72" y="84" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">TikTok Shop 美国上线准备表</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">出海品牌美国上线准备表</text>
+  <g transform="translate(72 170)" font-family="Inter, Arial, sans-serif">
+    <g fill="#111" stroke="rgba(255,255,255,.14)">
+      <rect x="0" y="0" width="320" height="180" rx="18"/>
+      <rect x="368" y="0" width="320" height="180" rx="18"/>
+      <rect x="736" y="0" width="320" height="180" rx="18"/>
+      <rect x="0" y="224" width="320" height="180" rx="18"/>
+      <rect x="368" y="224" width="320" height="180" rx="18"/>
+      <rect x="736" y="224" width="320" height="180" rx="18"/>
+    </g>
+    <g font-size="18" font-weight="800" fill="#fff">
+      <text x="28" y="44">1. 市场匹配</text><text x="396" y="44">2. 店铺设置</text><text x="764" y="44">3. 商品页</text>
+      <text x="28" y="268">4. 达人计划</text><text x="396" y="268">5. 物流履约</text><text x="764" y="268">6. 上线节奏</text>
+    </g>
+    <g font-size="14" fill="rgba(255,255,255,.72)">
+      <text x="28" y="78">品类需求、价格带、</text><text x="28" y="102">毛利和达人表达空间</text><text x="28" y="138" fill="#FF1493">市场、价格、毛利、达人表达</text>
+      <text x="396" y="78">主体、税务、收款、退货、</text><text x="396" y="102">规则和客服负责人</text><text x="396" y="138" fill="#FF1493">主体、税务、收款、退货</text>
+      <text x="764" y="78">标题、图片、卖点、</text><text x="764" y="102">优惠、评价和 常见问题</text><text x="764" y="138" fill="#FF1493">标题、图片、卖点、常见问题</text>
+      <text x="28" y="302">联盟规则、样品、内容要求、</text><text x="28" y="326">达人匹配和内容节奏</text><text x="28" y="362" fill="#FF1493">联盟、寄样、达人内容节奏</text>
+      <text x="396" y="302">库存、物流模板、</text><text x="396" y="326">样品追踪和时效</text><text x="396" y="362" fill="#FF1493">库存、物流、寄样追踪</text>
+      <text x="764" y="302">小规模上线、达人跟进、</text><text x="764" y="326">促销测试和周复盘</text><text x="764" y="362" fill="#FF1493">小规模上线、复盘、放量</text>
+    </g>
+    <g fill="none" stroke="url(#pink)" stroke-width="4" stroke-linecap="round">
+      <path d="M292 32 l10 10 l22 -28"/><path d="M660 32 l10 10 l22 -28"/><path d="M1028 32 l10 10 l22 -28"/>
+      <path d="M292 256 l10 10 l22 -28"/><path d="M660 256 l10 10 l22 -28"/><path d="M1028 256 l10 10 l22 -28"/>
+    </g>
+  </g>
+  <text x="72" y="628" fill="rgba(255,255,255,.48)" font-family="Inter, Arial, sans-serif" font-size="14">WE Marketing 框架 · 运营检查表，非法律建议</text>
+</svg>

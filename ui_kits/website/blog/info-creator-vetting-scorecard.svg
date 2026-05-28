@@ -3,7 +3,7 @@
   <desc id="desc">A scorecard for vetting TikTok Shop creators before sending samples.</desc>
   <rect width="1200" height="675" fill="#070707"/>
   <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Creator Vetting Scorecard</text>
-  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">寄样前先判断：这个达人值得寄吗？</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Evaluate creator fit before approving samples</text>
   <g transform="translate(80 176)" font-family="Inter, Arial, sans-serif">
     <rect width="1040" height="390" rx="20" fill="#101010" stroke="rgba(255,255,255,.14)"/>
     <g fill="rgba(255,255,255,.48)" font-size="13" font-weight="800">
@@ -25,5 +25,5 @@
     </g>
     <g stroke="rgba(255,255,255,.08)"><line x1="24" y1="70" x2="1016" y2="70"/><line x1="24" y1="126" x2="1016" y2="126"/><line x1="24" y1="184" x2="1016" y2="184"/><line x1="24" y1="242" x2="1016" y2="242"/><line x1="24" y1="300" x2="1016" y2="300"/></g>
   </g>
-  <text x="80" y="622" fill="rgba(255,255,255,.5)" font-family="Inter, Arial, sans-serif" font-size="14">Use before sample approval · 审批样品前使用</text>
+  <text x="80" y="622" fill="rgba(255,255,255,.5)" font-family="Inter, Arial, sans-serif" font-size="14">Use before sample approval</text>
 </svg>

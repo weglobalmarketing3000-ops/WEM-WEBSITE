@@ -3,7 +3,7 @@
   <desc id="desc">A sample seeding funnel from creator matching through content and reuse.</desc>
   <rect width="1200" height="675" fill="#070707"/>
   <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Sample Seeding Funnel</text>
-  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">寄样不是结束，是内容生产流程的开始</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Samples start the content production workflow</text>
   <g transform="translate(120 178)" font-family="Inter, Arial, sans-serif">
     <g fill="#101010" stroke="rgba(255,255,255,.14)">
       <rect x="0" y="0" width="960" height="86" rx="18"/><rect x="80" y="110" width="800" height="86" rx="18"/>
@@ -17,8 +17,8 @@
       <text x="250" y="260">Follow up until content posts</text><text x="330" y="370">Reuse winning content</text>
     </g>
     <g fill="rgba(255,255,255,.62)" font-size="14">
-      <text x="90" y="64">品类、受众、内容质量、过往发布习惯</text><text x="170" y="174">不是谁申请都寄，先看匹配度和执行可能性</text>
-      <text x="250" y="284">物流、提醒、brief、问题解答、发布时间</text><text x="330" y="394">剪辑、Spark Ads、商品页素材、复盘</text>
+      <text x="90" y="64">Category, audience, content quality, posting habits</text><text x="170" y="174">Approve based on fit and execution likelihood</text>
+      <text x="250" y="284">Shipping, reminders, briefs, questions, timing</text><text x="330" y="394">Editing, ads, product-page assets, review</text>
     </g>
     <path d="M480 92 v18 M480 202 v18 M480 312 v18" stroke="#FF1493" stroke-width="4" stroke-linecap="round"/>
   </g>

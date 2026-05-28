@@ -30,10 +30,11 @@
 </head>
 <body>
 <div id="root"></div>
-<script type="text/babel" src="../NavBar.jsx"></script>
+<script type="text/babel" src="../CursorStars.jsx?v=20260527-blog-stars"></script>
+<script type="text/babel" src="../NavBar.jsx?v=20260528-services"></script>
 <script type="text/babel" src="../BlogPost.jsx"></script>
-<script type="text/babel" src="../CtaFooter.jsx"></script>
-<script type="text/babel" src="../Footer.jsx"></script>
+<script type="text/babel" src="../CtaFooter.jsx?v=20260528-services"></script>
+<script type="text/babel" src="../Footer.jsx?v=20260528-services"></script>
 <script type="text/babel">
 const { useState, useEffect } = React;
 const P = (text) => ({ kind: 'p', text });
@@ -133,7 +134,7 @@ const POSTS = {
         P(<>TikTok 官方在 2023 年 9 月 12 日宣布 TikTok Shop 在美国全面上线，形式包括可购物短视频、LIVE 购物、商品橱窗和联盟计划。AP 当时也报道，平台已有 200,000+ 注册卖家和 100,000+ 参与联盟计划的创作者。</>),
         P('对出海品牌来说，TikTok Shop 看起来是一个新渠道，但真正落地时，它更像一次美国市场进入项目。店铺、商品页、达人、英文表达、物流、退货、客服和内容节奏，都要同时跑起来。'),
         P('很多品牌不是输在产品不好，而是输在上线前没有把基础准备好。达人想合作，但样品寄不出；内容能拍，但商品页接不住；店铺开了，但没人知道第一周该看什么数据。'),
-        INFO('TikTok Shop 美国上线准备表', 'info-us-launch-checklist.svg', '出海品牌上线美国 TikTok Shop 前需要准备的六个模块', '开始找达人前，先把这张表走一遍。'),
+        INFO('TikTok Shop 美国上线准备表', 'info-us-launch-checklist-zh.svg', '出海品牌上线美国 TikTok Shop 前需要准备的六个模块', '开始找达人前，先把这张表走一遍。'),
       ]},
       { id: 'market-fit', h: '先判断产品适不适合被美国达人讲清楚', body: [
         P('TikTok Shop 不是把货架搬到美国就结束。你要先判断：一个美国达人能不能在视频开头几秒，把产品的价值讲出来？能不能展示？能不能对比？能不能开箱、试用、穿搭、入口、上脸、上手？'),
@@ -166,7 +167,7 @@ const POSTS = {
           '寄样规则：谁能申请、寄什么、多久发布、谁跟进。',
           '联盟结构：open collaboration、targeted collaboration，或分阶段组合。',
         ]),
-        INFO('四周上线节奏', 'info-us-launch-timeline.svg', '美国 TikTok Shop 四周上线节奏图', '先跑通基础，再寄样出内容，最后看数据放量。'),
+        INFO('四周上线节奏', 'info-us-launch-timeline-zh.svg', '美国 TikTok Shop 四周上线节奏图', '先跑通基础，再寄样出内容，最后看数据放量。'),
       ]},
       { id: 'localization', h: '本地化不是翻译，是换一种表达逻辑', body: [
         P('很多出海品牌已经有很好的产品资料，但那些资料不一定适合美国 TikTok 达人。品牌想讲成分、工艺、专利、供应链，达人更需要的是一句能拍出来的话：省时间、上镜好看、解决日常麻烦、比我之前用的更方便。'),
@@ -209,6 +210,7 @@ function App() {
   useEffect(() => { if (window.lucide) window.lucide.createIcons(); });
   return (
     <div data-screen-label="WE Blog · U.S. Launch Checklist">
+      <CursorStars />
       <NavBar lang={lang} onLang={setLang} basePath="../" />
       <BlogPost {...post} labels={LABELS[lang]} />
       <CtaFooter lang={lang} />

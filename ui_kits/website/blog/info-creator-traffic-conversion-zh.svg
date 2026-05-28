@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Creator traffic conversion loop</title>
-  <desc id="desc">A loop showing creator content, product page, offer testing, and reporting.</desc>
+  <title id="title">达人流量转化闭环</title>
+  <desc id="desc">展示达人内容、商品页、优惠 测试和复盘的闭环。</desc>
   <rect width="1200" height="675" fill="#070707"/>
-  <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Creator Traffic → Conversion Loop</text>
-  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Traffic is not the end; conversion review creates the growth loop</text>
+  <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">达人流量 → 转化闭环</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">流量不是终点，转化复盘才是增长系统</text>
   <g transform="translate(190 178)" font-family="Inter, Arial, sans-serif">
     <circle cx="410" cy="205" r="188" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="28"/>
     <path d="M410 17 A188 188 0 0 1 598 205" fill="none" stroke="#FF1493" stroke-width="28" stroke-linecap="round"/>
@@ -15,12 +15,12 @@
       <rect x="670" y="250" width="230" height="104" rx="18"/><rect x="-80" y="250" width="230" height="104" rx="18"/>
     </g>
     <g fill="#fff" font-size="18" font-weight="900">
-      <text x="-46" y="106">Creator Content</text><text x="704" y="106">Product Page</text><text x="704" y="292">Offer Testing</text><text x="-46" y="292">Weekly Review</text>
+      <text x="-46" y="106">达人内容</text><text x="704" y="106">商品页</text><text x="704" y="292">优惠测试</text><text x="-46" y="292">每周复盘</text>
     </g>
     <g fill="rgba(255,255,255,.64)" font-size="13">
-      <text x="-46" y="132">Hooks, demos, proof</text><text x="704" y="132">Title, image, FAQ</text><text x="704" y="318">Bundle, price, shipping</text><text x="-46" y="318">Sales, content, blockers</text>
+      <text x="-46" y="132">开头、展示、信任</text><text x="704" y="132">标题、图片、常见问题</text><text x="704" y="318">组合、价格、物流</text><text x="-46" y="318">销售、内容、卡点</text>
     </g>
-    <text x="342" y="197" fill="#fff" font-size="26" font-weight="900">Optimize</text>
-    <text x="320" y="230" fill="#FF1493" font-size="16" font-weight="800">Content + product page + offer</text>
+    <text x="342" y="197" fill="#fff" font-size="26" font-weight="900">持续优化</text>
+    <text x="320" y="230" fill="#FF1493" font-size="16" font-weight="800">内容 + 商品页 + 优惠</text>
   </g>
 </svg>

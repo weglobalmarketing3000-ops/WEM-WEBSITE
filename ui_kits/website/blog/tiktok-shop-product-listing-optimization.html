@@ -30,10 +30,11 @@
 </head>
 <body>
 <div id="root"></div>
-<script type="text/babel" src="../NavBar.jsx"></script>
+<script type="text/babel" src="../CursorStars.jsx?v=20260527-blog-stars"></script>
+<script type="text/babel" src="../NavBar.jsx?v=20260528-services"></script>
 <script type="text/babel" src="../BlogPost.jsx"></script>
-<script type="text/babel" src="../CtaFooter.jsx"></script>
-<script type="text/babel" src="../Footer.jsx"></script>
+<script type="text/babel" src="../CtaFooter.jsx?v=20260528-services"></script>
+<script type="text/babel" src="../Footer.jsx?v=20260528-services"></script>
 <script type="text/babel">
 const { useState, useEffect } = React;
 const P = (text) => ({ kind: 'p', text });
@@ -138,7 +139,7 @@ const POSTS = {
         P('很多品牌判断问题时会跳得太快：达人视频有播放、有点击，但订单不明显，于是马上觉得“达人不够好”。有时候确实是达人问题，但更多时候，漏水点在商品页。'),
         P('达人内容负责制造兴趣，商品详情页负责让兴趣变成购买。如果页面没有快速回答利益点、使用场景、价格、物流、信任和顾虑，用户就会在下单前停住。'),
         P('本文日期是 2025 年 9 月 29 日，重点写商品页和转化的操作方法，不引用 2026 的市场预测。TikTok Business 和 TikTok Shop 相关材料说明了购物入口、Product Details Page 和广告形式，本文把这些入口转成品牌可执行的检查表。'),
-        INFO('Product Page Audit', 'info-product-page-audit.svg', 'TikTok Shop 商品页转化检查框架', '达人带来的流量，最后要由商品页承接。'),
+        INFO('商品页转化检查', 'info-product-page-audit-zh.svg', 'TikTok Shop 商品页转化检查框架', '达人带来的流量，最后要由商品页承接。'),
       ]},
       { id: 'title-images', h: '用户点进来后，要立刻看懂这是卖什么', body: [
         P('TikTok Shop 商品页不能慢慢解释。用户通常是从达人视频跳进来，不一定带着强搜索意图。所以页面前几秒要确认三件事：这是刚才视频里的产品，我知道它解决什么问题，这个 offer 看起来值得继续看。'),
@@ -169,7 +170,7 @@ const POSTS = {
           'FAQ：尺码、成分、物流时效、退货、适配问题、保养方法。',
           '风险降低：清楚写明物流和退货信息，让用户不用猜。',
         ]),
-        INFO('Creator Traffic Conversion Loop', 'info-creator-traffic-conversion.svg', '达人流量、商品页、offer 和复盘如何形成闭环', '内容和商品页数据要互相反馈，转化才会越来越稳。'),
+        INFO('达人流量转化闭环', 'info-creator-traffic-conversion-zh.svg', '达人流量、商品页、优惠和复盘如何形成闭环', '内容和商品页数据要互相反馈，转化才会越来越稳。'),
       ]},
       { id: 'weekly-loop', h: '每周用数据同时改内容和商品页', body: [
         P('商品页优化不是一次性的文案工作。真正有效的团队，会把达人内容和商品页数据放在一起看。点击多但购买少，可能是页面弱；播放多但点击少，可能是内容角度弱；加购多但支付少，可能是 offer 或物流承诺有问题。'),
@@ -218,6 +219,7 @@ function App() {
   useEffect(() => { if (window.lucide) window.lucide.createIcons(); });
   return (
     <div data-screen-label="WE Blog · Product Listing Optimization">
+      <CursorStars />
       <NavBar lang={lang} onLang={setLang} basePath="../" />
       <BlogPost {...post} labels={LABELS[lang]} />
       <CtaFooter lang={lang} />

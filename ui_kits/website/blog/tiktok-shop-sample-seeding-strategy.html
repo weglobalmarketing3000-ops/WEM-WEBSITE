@@ -30,10 +30,11 @@
 </head>
 <body>
 <div id="root"></div>
-<script type="text/babel" src="../NavBar.jsx"></script>
+<script type="text/babel" src="../CursorStars.jsx?v=20260527-blog-stars"></script>
+<script type="text/babel" src="../NavBar.jsx?v=20260528-services"></script>
 <script type="text/babel" src="../BlogPost.jsx"></script>
-<script type="text/babel" src="../CtaFooter.jsx"></script>
-<script type="text/babel" src="../Footer.jsx"></script>
+<script type="text/babel" src="../CtaFooter.jsx?v=20260528-services"></script>
+<script type="text/babel" src="../Footer.jsx?v=20260528-services"></script>
 <script type="text/babel">
 const { useState, useEffect } = React;
 const P = (text) => ({ kind: 'p', text });
@@ -140,7 +141,7 @@ const POSTS = {
         P('在 TikTok Shop 里，样品不是简单的营销成本。它是达人内容、联盟销售、产品教育和社交证明的起点。但如果没有流程，寄样很容易变成“货发出去了，内容没回来”。'),
         P('一套靠谱的寄样策略，至少要在样品出库前回答四个问题：寄给谁？对方要理解什么？什么时候发布？品牌怎么跟进？'),
         P('本文日期是 2025 年 2 月 18 日，所以只写当时已经稳定存在的 TikTok Shop 联盟和达人运营逻辑，不引用 2025 后期或 2026 的市场数据。'),
-        INFO('Sample Seeding Funnel', 'info-sample-seeding-funnel.svg', '从达人匹配到内容复用的寄样漏斗', '把寄样当作内容流水线，而不是一次性发货。'),
+        INFO('寄样内容漏斗', 'info-sample-seeding-funnel-zh.svg', '从达人匹配到内容复用的寄样漏斗', '把寄样当作内容流水线，而不是一次性发货。'),
       ]},
       { id: 'vetting', h: '寄样前先筛达人', body: [
         P('最浪费样品的方式，是谁申请就寄。第二浪费的方式，是只看粉丝数。TikTok Shop 里，品类匹配、内容表达、发布习惯和沟通效率，往往比粉丝量更重要。'),
@@ -151,7 +152,7 @@ const POSTS = {
           '发布可靠性：收到样品后是否真的会发内容。',
           '沟通效率：回复快，后续 brief 和修改才不会卡住。',
         ]),
-        INFO('Creator Vetting Scorecard', 'info-creator-vetting-scorecard.svg', '寄样前使用的达人筛选表', '库存有限时，更要先评分再寄样。'),
+        INFO('达人筛选评分表', 'info-creator-vetting-scorecard-zh.svg', '寄样前使用的达人筛选表', '库存有限时，更要先评分再寄样。'),
       ]},
       { id: 'briefs', h: 'brief 要让达人用得上', body: [
         P('达人 brief 不是品牌手册，也不是广告脚本。它应该帮助达人更快理解产品，同时保留自己的表达方式。太空泛会拍偏，太像脚本又会假。'),
@@ -222,6 +223,7 @@ function App() {
   useEffect(() => { if (window.lucide) window.lucide.createIcons(); });
   return (
     <div data-screen-label="WE Blog · Sample Seeding Strategy">
+      <CursorStars />
       <NavBar lang={lang} onLang={setLang} basePath="../" />
       <BlogPost {...post} labels={LABELS[lang]} />
       <CtaFooter lang={lang} />

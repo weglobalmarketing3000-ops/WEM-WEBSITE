@@ -3,7 +3,7 @@
   <desc id="desc">A TikTok Shop product page audit framework for converting creator traffic.</desc>
   <rect width="1200" height="675" fill="#070707"/>
   <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Product Page Audit</text>
-  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">达人带来流量，商品页负责成交</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Creator content drives traffic; the product page converts</text>
   <g transform="translate(82 170)" font-family="Inter, Arial, sans-serif">
     <rect x="0" y="0" width="330" height="420" rx="22" fill="#101010" stroke="rgba(255,255,255,.14)"/>
     <rect x="40" y="42" width="250" height="180" rx="18" fill="#191919"/>
@@ -19,13 +19,13 @@
       </g>
       <g fill="#fff" font-size="18" font-weight="900">
         <text x="26" y="42">1. Main Image</text><text x="386" y="42">2. Search Title</text><text x="26" y="192">3. Benefit Bullets</text>
-        <text x="386" y="192">4. Offer & Shipping</text><text x="26" y="342">5. Social Proof</text><text x="386" y="342">6. FAQ / Objections</text>
+        <text x="386" y="192">4. Offer &amp; Shipping</text><text x="26" y="342">5. Social Proof</text><text x="386" y="342">6. FAQ / Objections</text>
       </g>
       <g fill="rgba(255,255,255,.62)" font-size="13">
         <text x="26" y="72">Recognizable product + use case</text><text x="386" y="72">Plain-language keywords</text><text x="26" y="222">What changes after purchase?</text>
         <text x="386" y="222">Lower friction before checkout</text><text x="26" y="372">Reviews, creator proof, trust cues</text><text x="386" y="372">Answer the hesitation fast</text>
       </g>
-      <g fill="#FF1493" font-size="13"><text x="26" y="96">主图要一眼看懂</text><text x="386" y="96">标题要像买家会搜索的话</text><text x="26" y="246">卖点要讲结果</text><text x="386" y="246">优惠和物流降低犹豫</text><text x="26" y="396">评价和达人内容建立信任</text><text x="386" y="396">FAQ 处理顾虑</text></g>
+      <g fill="#FF1493" font-size="13"><text x="26" y="96">Make the main image instantly clear</text><text x="386" y="96">Write titles in buyer language</text><text x="26" y="246">Make benefits outcome-based</text><text x="386" y="246">Use offers and shipping to reduce hesitation</text><text x="26" y="396">Use reviews and creator proof for trust</text><text x="386" y="396">Use FAQ to answer objections</text></g>
     </g>
   </g>
 </svg>
