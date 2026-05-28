@@ -3,15 +3,15 @@ const BlogIndexHero = ({ lang }) => {
   const t = {
     en: {
       pill: 'WE MARKETING BLOG',
-      h1a: 'TikTok Shop strategy,',
-      h1accent: 'without the fluff.',
-      sub: 'Playbooks, frameworks, and field notes from running $15M+ in annual TikTok Shop sales across 160+ brands. Updated as the platform changes.',
+      h1a: 'Creator commerce,',
+      h1accent: 'paid social, and ecommerce growth.',
+      sub: 'WEM field notes on TikTok Shop, Meta ads, Instagram, UGC, creators, influencers, Amazon, Walmart, Shopify, DTC, retail, and brand growth. Practical enough for operators, readable enough for founders.',
     },
     zh: {
       pill: 'WE MARKETING 博客',
-      h1a: 'TikTok Shop 策略，',
-      h1accent: '只讲干货。',
-      sub: '来自 160+ 品牌、年管理 $15M+ GMV 的实战手册、框架与一线笔记。平台在变，我们持续更新。',
+      h1a: '达人电商、',
+      h1accent: '付费社媒和电商增长。',
+      sub: 'WEM 关于 TikTok Shop、Meta 广告、Instagram、UGC、达人、influencer、Amazon、Walmart、Shopify、DTC、零售和品牌增长的一线笔记。给运营能用，给老板也能看懂。',
     },
   }[lang];
   return (
