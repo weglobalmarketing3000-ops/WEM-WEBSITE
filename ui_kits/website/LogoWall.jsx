@@ -1,7 +1,7 @@
 // LogoWall.jsx, partner/brand logo row (mono text logos as placeholders)
 const LogoWall = ({ lang }) => {
   const brands = ['HIGROUND', 'WNP', 'CANVAS BEAUTY', 'MEDICUBE', 'MAGNETOPIA', 'ALLCLAIR', 'SWEETUMS', 'BYTEDANCE'];
-  const eye = lang === 'en' ? 'Trusted by 200+ brands' : '200+ 品牌的选择';
+  const eye = lang === 'en' ? 'Trusted by 200+ brands' : '200+ 跨境与美国品牌合作经验';
   return (
     <section style={lwStyles.wrap}>
       <div style={lwStyles.inner}>

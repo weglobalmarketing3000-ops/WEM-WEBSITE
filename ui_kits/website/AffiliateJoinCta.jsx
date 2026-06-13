@@ -10,12 +10,12 @@ const AffiliateJoinCta = ({ lang }) => {
       fine: 'Free to join. No follower minimum. Open to creators in the US market only.',
     },
     zh: {
-      eyebrow: '// 一起开始',
-      h: '你的下一个品牌\n合作从这里开始',
-      sub: '加入 Discord，备注 TikTok 账号，选择适合你的品牌合作机会，最快今天就可以开始申样推广！',
+      eyebrow: '// 加入社群',
+      h: '想优先看到\n新的品牌合作？',
+      sub: '加入 Discord 后，提交你的 TikTok 账号、内容方向和常用语言。我们会根据你的品类和受众，提醒你适合申请的合作。',
       cta: '加入 Discord',
-      alt: '申请加入达人网络',
-      fine: '免费加入。无粉丝门槛。仅面向美国地区达人。',
+      alt: '邮件联系 WE 团队',
+      fine: '免费加入。新账号也可以申请。主要面向服务美国市场的创作者。',
     },
   }[lang];
   return (

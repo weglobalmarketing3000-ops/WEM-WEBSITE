@@ -1,12 +1,47 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-us-july-4-seasonal-products',
+    cat: { en: 'TIKTOK SHOP U.S. · JULY 4', zh: 'TIKTOK SHOP 美区 · JULY 4' },
+    title: { en: 'Selling Seasonal Products on TikTok Shop US Before July 4', zh: '7 月 4 日前，TikTok Shop 美区卖什么更容易转化' },
+    excerpt: { en: 'A practical WEM guide to July 4 seasonal products on TikTok Shop US: summer use cases, hero SKU selection, creator angles, and cross-border execution.', zh: 'WEM 拆解 TikTok Shop 美区 July 4 前更适合卖什么：夏季使用场景、hero SKU、达人内容和跨境执行。' },
+    date: { en: 'Jun 6, 2026', zh: '2026 年 6 月 6 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
+    image: 'hero-tiktok-shop-us-july-4-seasonal-products.png',
+  },
+  {
+    slug: 'tiktok-shop-us-trust-signals',
+    cat: { en: 'TRUST SIGNALS · CUSTOMER EXPERIENCE', zh: '信任信号 · 用户体验' },
+    title: { en: 'TikTok Shop US Trust Signals: Why Customer Service Starts Before the Order', zh: 'TikTok Shop 美区的信任感，为什么不是客服部门一个人的事' },
+    excerpt: { en: 'A practical WEM guide for TikTok Shop US brands on trust signals, product-page clarity, shipping expectations, review health, and how customer service shapes conversion before the order.', zh: 'WEM 拆解 TikTok Shop 美区的信任层：商品页、达人话术、配送预期、评论和支持体系，为什么会在下单前就影响转化。' },
+    date: { en: 'Jun 5, 2026', zh: '2026 年 6 月 5 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
+    image: 'hero-wem-trust-signals.png',
+  },
+  {
+    slug: 'tiktok-shop-affiliate-marketing-for-brands',
+    cat: { en: 'AFFILIATE MARKETING · OPERATIONS', zh: '达人分销 · 运营系统' },
+    title: { en: 'TikTok Shop Affiliate Marketing for Brands: A Better Operating Playbook', zh: 'TikTok Shop 达人分销为什么经常跑不顺' },
+    excerpt: { en: 'A practical WEM playbook for TikTok Shop affiliate marketing for brands: hero SKUs, creator fit, sample seeding, product-page conversion, and weekly optimization for the US market.', zh: 'WEM 拆解 TikTok Shop affiliate 为什么常常跑不顺，以及品牌该怎么把选品、寄样、brief、商品页和周复盘连成一套。' },
+    date: { en: 'Jun 3, 2026', zh: '2026 年 6 月 3 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-3-tiktok-shop-affiliate-program-brand-guide.png',
+  },
+  {
+    slug: 'tiktok-shop-us-deals-for-you-days',
+    cat: { en: 'TIKTOK SHOP U.S. · DEALS FOR YOU DAYS', zh: 'TIKTOK SHOP 美区 · DEALS FOR YOU DAYS' },
+    title: { en: 'TikTok Shop US Deals for You Days: What Brands Should Fix Before the Sale', zh: 'TikTok Shop 美区 Deals for You Days：品牌在活动前该先补什么' },
+    excerpt: { en: 'A practical WEM guide to TikTok Shop US Deals for You Days: hero SKUs, creator seeding, storefront readiness, pricing, fulfillment, and what brands should fix before the sale window opens.', zh: 'WEM 拆解 TikTok Shop 美区 Deals for You Days：品牌在活动前要先补的 SKU、达人寄样、店铺承接、价格、履约和搜索承接。' },
+    date: { en: 'May 28, 2026', zh: '2026 年 5 月 28 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-us-deals-for-you-days-v7.png',
+  },
+  {
     slug: 'cross-border-tiktok-shop-entry-models',
     cat: { en: 'CHINA BRAND EXPANSION · ENTRY MODELS', zh: '中国品牌出海 · 入驻路径' },
     title: { en: 'TikTok Shop U.S. Entry Models for China-Based Brands', zh: '中国品牌入驻美国 TikTok Shop：POP、ACCU、全托管、品牌托管怎么选' },
     excerpt: { en: 'A WEM guide to U.S. TikTok Shop entry paths for China-based brands: China/Hong Kong entity POP, U.S. entity ACCU, fully managed, and brand-managed.', zh: '中国品牌和厂家出海美国 TikTok Shop，先看主体、履约、材料和经营责任，再决定 POP、ACCU、全托管或品牌托管。' },
     date: { en: 'May 28, 2026', zh: '2026 年 5 月 28 日' }, read: { en: '10 min read', zh: '11 分钟阅读' },
-    image: 'hero-cross-border-tiktok-shop-entry-models.png',
+    image: {
+      en: 'hero-cross-border-tiktok-shop-entry-models-en.png',
+      zh: 'hero-cross-border-tiktok-shop-entry-models.png',
+    },
   },
   {
     slug: 'us-pop-for-chinese-owned-sellers',
@@ -39,6 +74,14 @@ const BLOG_POSTS = [
     excerpt: { en: 'How California brands should evaluate a TikTok Shop agency for creator commerce, affiliate management, content production, and scalable operations.', zh: '加州品牌选择 TikTok Shop 代运营时，重点看达人管理、内容生产、店铺承接和复盘机制。' },
     date: { en: 'May 6, 2026', zh: '2026 年 5 月 6 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
     image: 'hero-california-tiktok-shop-agency-guide.png',
+  },
+  {
+    slug: 'tiktok-shop-feedback-loop-amazon-meta',
+    cat: { en: 'CONTENT FEEDBACK LOOP · AMAZON & META', zh: '内容反馈闭环 · AMAZON 与 META' },
+    title: { en: 'Your Best TikTok Shop Video Should Rewrite Your Amazon PDP and Meta Creative', zh: '一条 TikTok Shop 跑出来的视频，应该反过来改你的 Amazon 页面和 Meta 素材' },
+    excerpt: { en: 'A WEM playbook for using TikTok Shop creator content to improve Amazon PDPs, Meta creative tests, Shopify product pages, and cross-channel halo effect.', zh: 'WEM 拆解如何把 TikTok Shop 创作者内容反过来改 Amazon 页面、Meta 素材、Shopify 商品页，以及带动跨渠道 halo effect。' },
+    date: { en: 'Apr 30, 2026', zh: '2026 年 4 月 30 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-feedback-loop-amazon-meta.png',
   },
   {
     slug: 'tiktok-shop-live-selling-agency-guide',
@@ -265,17 +308,42 @@ const BLOG_POSTS = [
     image: 'hero-tiktok-shop-us-launch-checklist.png',
   },
 ];
-window.BLOG_POSTS = BLOG_POSTS;
+const MONTH_INDEX = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+const parseBlogDate = (value) => {
+  const match = String(value || '').match(/^([A-Z][a-z]{2})\s+(\d{1,2}),\s+(\d{4})$/);
+  if (!match) return 0;
+  const [, month, day, year] = match;
+  return new Date(Number(year), MONTH_INDEX[month], Number(day)).getTime();
+};
+const SORTED_BLOG_POSTS = [...BLOG_POSTS].sort(
+  (a, b) => parseBlogDate(b.date.en) - parseBlogDate(a.date.en)
+);
+const blogPostHref = (slug, lang) => `/blog/${slug}${lang === 'zh' ? '?lang=zh' : ''}`;
+const resolveBlogImage = (image, lang) => {
+  if (!image) return '';
+  if (typeof image === 'string') return image;
+  return image[lang] || image.en || image.zh || '';
+};
+const blogThumbSrc = (image, lang) => `/blog/thumbs/${resolveBlogImage(image, lang).replace(/\.png$/i, '.jpg')}`;
 
 const BlogList = ({ lang }) => {
   return (
     <section style={blStyles.wrap}>
       <div style={blStyles.inner}>
-        {BLOG_POSTS.map(p => (
-          <a key={p.slug} href={`blog/${p.slug}.html${lang === 'zh' ? '?lang=zh' : ''}`} style={blStyles.card} className="blog-card">
+        {SORTED_BLOG_POSTS.map((p, index) => (
+          <a key={p.slug} href={blogPostHref(p.slug, lang)} style={blStyles.card} className="blog-card">
             {p.image && (
               <div style={blStyles.thumb}>
-                <img src={`blog/${p.image}`} alt={p.title.en} style={blStyles.thumbImg}/>
+                <img
+                  src={blogThumbSrc(p.image, lang)}
+                  alt={p.title.en}
+                  loading={index < 2 ? 'eager' : 'lazy'}
+                  decoding="async"
+                  fetchPriority={index === 0 ? 'high' : 'auto'}
+                  width="900"
+                  height="506"
+                  style={blStyles.thumbImg}
+                />
               </div>
             )}
             <div style={blStyles.cat}>{p.cat[lang]}</div>
@@ -295,7 +363,7 @@ const BlogList = ({ lang }) => {
       <style>{`
         .blog-card { transition: border-color .25s, transform .25s; }
         .blog-card:hover { border-color: rgba(255,20,147,.5) !important; }
-        .blog-card:hover .blog-card-title { background: linear-gradient(90deg,#FF1493,#9B30FF,#00E5FF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .blog-card:hover .blog-card-title { background: linear-gradient(90deg,#FF1493,#9B30FF,#4A8FFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
       `}</style>
     </section>
   );
@@ -313,4 +381,5 @@ const blStyles = {
   dot: { opacity: .5 },
   arrow: { marginLeft: 'auto', color: '#FF1493', display: 'inline-flex' },
 };
+window.BLOG_POSTS = SORTED_BLOG_POSTS;
 window.BlogList = BlogList;

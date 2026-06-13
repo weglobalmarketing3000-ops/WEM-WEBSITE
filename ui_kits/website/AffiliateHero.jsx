@@ -7,18 +7,18 @@ const AffiliateHero = ({ lang }) => {
     en: {
       pill: 'WEM AFFILIATE · CREATOR COMMUNITY',
       h1a: 'Build. Post.', h1accent: 'Earn.',
-      sub: 'Join 8,000+ TikTok Shop creators in the WEM Affiliate community. Boosted commission, exclusive brand collabs, free product samples, and content coaching from Top 1% creators, all in one place.',
-      cta1: 'Join our Discord →',
+      sub: 'Join 8,000+ TikTok Shop creators in the WEM Affiliate community. Boosted commission, priority brand opportunities, free product samples, and private training from Top 1% creators, all in one place.',
+      cta1: 'Join our Discord',
       cta2: 'See creator perks',
-      meta: ['Free to join', 'No agency link required', 'English + Espinol + 中文 support'],
+      meta: ['Free to join', 'No agency link required', 'English + Español + 中文 support'],
     },
     zh: {
-      pill: 'WEM 联盟 · 达人社群',
-      h1a: '拍内容', h1accent: '赚佣金',
-      sub: '加入 WEM 联盟社群，与 8,000+ TikTok Shop 达人一起：更高佣金、独家品牌合作、免费寄样、Top 1% 达人内容指导，一站齐全。',,
-      cta1: '加入 Discord 社群 →',
-      cta2: '查看达人权益',
-      meta: ['免费加入', '无粉丝门槛', '中英双语支持'],
+      pill: 'WE 达人联盟 · TikTok Shop 创作者社群',
+      h1a: '接品牌', h1accent: '赚佣金',
+      sub: '加入 WE 达人联盟，优先看到品牌合作、寄样名额和佣金活动，也能获得内容建议。适合在美国市场做 TikTok Shop 带货的创作者。',
+      cta1: '加入 Discord 社群',
+      cta2: '了解可申请的合作',
+      meta: ['免费加入', '新手可申请', '英西中三语支持'],
     },
   }[lang];
   return (
@@ -46,7 +46,7 @@ const AffiliateHero = ({ lang }) => {
           <div style={ahStyles.meta}>
             {t.meta.map((m, i) => (
               <div key={i} style={ahStyles.metaItem}>
-                <i data-lucide="check-circle-2" style={{ width: 16, height: 16, color: '#C6FF3D' }}/>
+                <i data-lucide="check-circle-2" style={{ width: 16, height: 16, color: '#4A8FFF' }}/>
                 {m}
               </div>
             ))}
@@ -60,25 +60,25 @@ const AffiliateHero = ({ lang }) => {
   );
 };
 
-// NetworkGraphic — irregular creator network with avatars + WEM core
+// NetworkGraphic, irregular creator network with avatars + WEM core
 // Avatars use DiceBear (open source, deterministic from seed); diverse mix w/ women majority
 const NetworkGraphic = () => {
   const center = { x: 260, y: 250 };
-  // Irregular node placement — varied distances + angles so edges feel organic
+  // Irregular node placement with varied distances and angles.
   // seeds pick illustrated avatars; gender/ethnicity cues baked into seed selection
   // style "avataaars" supports varied skin tones + hairstyles
   const nodes = [
     // women (6 of 9)
     { x: 235, y:  55, r: 30, seed: 'Maya',     ring: '#FF1493' },  // woman, Black
     { x: 430, y: 100, r: 22, seed: 'Sofia',    ring: '#9B30FF' },  // woman, Hispanic
-    { x: 475, y: 215, r: 26, seed: 'Amara',    ring: '#00E5FF' },  // woman, Black
-    { x: 450, y: 380, r: 20, seed: 'Lily',     ring: '#C6FF3D' },  // woman, Asian
+    { x: 475, y: 215, r: 26, seed: 'Amara',    ring: '#4A8FFF' },  // woman, Black
+    { x: 450, y: 380, r: 20, seed: 'Lily',     ring: '#4A8FFF' },  // woman, Asian
     { x: 290, y: 450, r: 28, seed: 'Emma',     ring: '#FF1493' },  // woman, Caucasian
     { x:  95, y: 410, r: 22, seed: 'Priya',    ring: '#9B30FF' },  // woman, South Asian
     // men (3 of 9)
-    { x:  35, y: 270, r: 26, seed: 'Marcus',   ring: '#C6FF3D' },  // man, Black
-    { x:  80, y: 125, r: 20, seed: 'Diego',    ring: '#00E5FF' },  // man, Hispanic
-    { x: 200, y: 190, r: 16, seed: 'Kenji',    ring: '#FF1493' },  // man, Asian — closer in
+    { x:  35, y: 270, r: 26, seed: 'Marcus',   ring: '#4A8FFF' },  // man, Black
+    { x:  80, y: 125, r: 20, seed: 'Diego',    ring: '#4A8FFF' },  // man, Hispanic
+    { x: 200, y: 190, r: 16, seed: 'Kenji',    ring: '#FF1493' },  // man, Asian, closer in
   ];
   const centerR = 58;
 
@@ -104,7 +104,7 @@ const NetworkGraphic = () => {
       {/* soft glow behind center */}
       <circle cx={center.x} cy={center.y} r="240" fill="url(#coreGlow)"/>
 
-      {/* edges — from center to each node (varied lengths because positions are irregular) */}
+      {/* edges from center to each node */}
       {nodes.map((n, i) => (
         <line key={`e${i}`} x1={center.x} y1={center.y} x2={n.x} y2={n.y}
               stroke={n.ring} strokeWidth="1" strokeOpacity="0.4" strokeDasharray="3 5">
@@ -168,7 +168,7 @@ const ahStyles = {
   right: { display: 'flex', justifyContent: 'center', alignItems: 'center' },
   pill: { display: 'inline-flex', alignItems: 'center', gap: 12, background: '#fff', color: '#000', borderRadius: 999, padding: '10px 22px', fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 14, letterSpacing: '.06em' },
   h1: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(60px, 7.5vw, 124px)', lineHeight: .95, letterSpacing: '-.01em', textTransform: 'uppercase', margin: '32px 0 0', color: '#fff' },
-  h1accent: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #C6FF3D 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
+  h1accent: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 600, fontSize: 20, lineHeight: 1.45, color: 'rgba(255,255,255,.85)', maxWidth: 620, marginTop: 28 },
   ctas: { display: 'flex', gap: 14, marginTop: 40, flexWrap: 'wrap' },
   ghost: { background: 'transparent', border: '1.5px solid rgba(255,255,255,.4)', color: '#fff', padding: '16px 30px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', cursor: 'pointer', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' },

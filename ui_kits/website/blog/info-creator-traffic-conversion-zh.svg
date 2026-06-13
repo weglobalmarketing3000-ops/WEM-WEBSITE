@@ -8,7 +8,7 @@
     <circle cx="410" cy="205" r="188" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="28"/>
     <path d="M410 17 A188 188 0 0 1 598 205" fill="none" stroke="#FF1493" stroke-width="28" stroke-linecap="round"/>
     <path d="M598 205 A188 188 0 0 1 410 393" fill="none" stroke="#9B30FF" stroke-width="28" stroke-linecap="round"/>
-    <path d="M410 393 A188 188 0 0 1 222 205" fill="none" stroke="#00E5FF" stroke-width="28" stroke-linecap="round"/>
+    <path d="M410 393 A188 188 0 0 1 222 205" fill="none" stroke="#4A8FFF" stroke-width="28" stroke-linecap="round"/>
     <path d="M222 205 A188 188 0 0 1 410 17" fill="none" stroke="#FF1493" stroke-width="28" stroke-linecap="round" opacity=".55"/>
     <g fill="#101010" stroke="rgba(255,255,255,.16)">
       <rect x="-80" y="64" width="230" height="104" rx="18"/><rect x="670" y="64" width="230" height="104" rx="18"/>

@@ -8,7 +8,7 @@ const PrecisionMatch = ({ lang }) => {
       sub: 'TAP helps brands move beyond mass creator outreach. We use a structured scoring system to match creators by target audience, language, demographics, content category, GMV history, follower size, posting behavior, and campaign fit, then activate them through our vetted TikTok Shop creator community.',
       cards: [
         ['01', 'Audience Fit', 'Matched by target shopper profile, lifestyle signals, interests, and purchase intent.'],
-        ['02', 'Language & Market Fit', 'Matched by English, Spanish, bilingual content ability, and audience communication style.'],
+        ['02', 'Language & Market Fit', 'Matched by English, Spanish, Chinese, multilingual content ability, and audience communication style.'],
         ['03', 'Demographic Alignment', 'Matched by cultural relevance, creator identity, audience demographics, and campaign goals.'],
         ['04', 'Content Category', 'Matched by niche, content format, product education ability, review style, and live selling fit.'],
         ['05', 'Commerce Signals', 'Matched by GMV history, posting rate, affiliate activity, conversion behavior, and product fit.'],
@@ -17,23 +17,25 @@ const PrecisionMatch = ({ lang }) => {
       proof: 'Powered by our 8,000+ vetted TikTok Shop creator community.',
       ctaH: 'Need creators who actually fit your product?',
       ctaBtn: "Let's build your creator match strategy →",
+      cardTag: 'MATCH PARAM',
     },
     zh: {
       eye: '// 精准达人匹配',
-      h1: '不是更多达人。',
-      h2: '是更准的匹配。',
-      sub: 'TAP 让品牌摆脱"广撒网"式的达人合作。我们用一套结构化评分系统，根据目标受众、语言、人群、内容品类、GMV 历史、粉丝量级、发布频率、与活动契合度来匹配达人，再通过我们认证的 TikTok Shop 达人社群进行激活。',
+      h1: '达人不是越多越好。',
+      h2: '关键是选得准。',
+      sub: '我们不建议品牌一上来就广撒网。先看目标买家是谁，再看语言、文化背景、内容品类、历史销售表现、发布习惯和预算，把更可能带来订单的达人筛出来。',
       cards: [
-        ['01', '受众契合度', '基于目标购物人群画像、生活方式信号、兴趣偏好、购买意图进行匹配。'],
-        ['02', '语言与市场', '基于英语、西语、双语内容能力，以及受众沟通方式进行匹配。'],
-        ['03', '人群对齐', '基于文化相关性、达人身份、受众人群结构和活动目标进行匹配。'],
-        ['04', '内容品类', '基于细分赛道、内容形式、产品讲解力、测评风格、直播带货契合度进行匹配。'],
-        ['05', '电商表现信号', '基于 GMV 历史、发布频率、联盟活跃度、转化行为、产品契合度进行匹配。'],
-        ['06', '达人量级与规模', '基于粉丝量、互动质量、内容稳定性、赛道权威度、预算契合度进行匹配。'],
+        ['01', '目标买家', '达人受众是否接近你的真实买家，包括生活方式、兴趣和购买动机。'],
+        ['02', '语言市场', '英语、西语、中文和多语内容能力，都会影响美国用户愿不愿意相信。'],
+        ['03', '人群文化', '达人身份、受众结构和文化语境，要和品牌想卖给的人对得上。'],
+        ['04', '内容品类', '看达人是否真的会讲这类产品，能不能做测评、开箱、教程或直播。'],
+        ['05', '销售信号', '参考历史销售表现、发布率、联盟活跃度和产品适配度。'],
+        ['06', '预算规模', '粉丝量不是唯一标准。互动质量、稳定性和预算更重要。'],
       ],
-      proof: '由 8,000+ 认证 TikTok Shop 达人社群驱动。',
-      ctaH: '想要真正契合你产品的达人？',
-      ctaBtn: '为你定制达人匹配策略 →',
+      proof: '基于 8,000+ TikTok Shop 达人社群和真实合作经验。',
+      ctaH: '想找到真正适合你产品的美国达人？',
+      ctaBtn: '定制达人匹配策略',
+      cardTag: '匹配维度',
     },
   }[lang];
   return (
@@ -52,7 +54,7 @@ const PrecisionMatch = ({ lang }) => {
               <div style={pmStyles.cardHead}>
                 <span style={pmStyles.cardNum}>{num}</span>
                 <span style={pmStyles.cardDot}/>
-                <span style={pmStyles.cardTag}>MATCH PARAM</span>
+                <span style={pmStyles.cardTag}>{t.cardTag}</span>
               </div>
               <div style={pmStyles.cardName}>{name}</div>
               <div style={pmStyles.cardDesc}>{desc}</div>
@@ -68,7 +70,7 @@ const PrecisionMatch = ({ lang }) => {
         </div>
         <div style={pmStyles.ctaBlock}>
           <div style={pmStyles.ctaH}>{t.ctaH}</div>
-          <a href="index.html#Contact" style={pmStyles.ctaBtn}>{t.ctaBtn}</a>
+          <a href="/#Contact" style={pmStyles.ctaBtn}>{t.ctaBtn}</a>
         </div>
       </div>
     </section>
@@ -81,7 +83,7 @@ const pmStyles = {
   eye: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.18em', fontWeight: 700, color: '#FF1493', marginBottom: 28 },
   h: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(56px, 7vw, 104px)', lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', margin: 0 },
   hWhite: { color: '#fff' },
-  hGrad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #00E5FF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' },
+  hGrad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 500, fontSize: 18, lineHeight: 1.55, color: 'rgba(255,255,255,.75)', maxWidth: 820, marginTop: 28 },
   grid: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16, marginTop: 64 },
   card: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 16, padding: 28, position: 'relative', boxShadow: '0 0 0 1px rgba(255,20,147,.08), 0 0 40px rgba(155,48,255,.08)' },
@@ -92,9 +94,9 @@ const pmStyles = {
   cardName: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 26, letterSpacing: '.01em', textTransform: 'uppercase', color: '#fff', lineHeight: 1.1 },
   cardDesc: { fontFamily: 'var(--font-sans)', fontWeight: 500, fontSize: 14, lineHeight: 1.5, color: 'rgba(255,255,255,.65)', marginTop: 14 },
   cardBar: { height: 3, background: 'rgba(255,255,255,.08)', borderRadius: 2, marginTop: 24, overflow: 'hidden' },
-  cardBarFill: { height: '100%', background: 'linear-gradient(90deg, #FF1493, #9B30FF, #00E5FF)', borderRadius: 2 },
+  cardBarFill: { height: '100%', background: 'linear-gradient(90deg, #FF1493, #9B30FF, #4A8FFF)', borderRadius: 2 },
   proof: { display: 'inline-flex', alignItems: 'center', gap: 10, marginTop: 56, padding: '12px 20px', borderRadius: 999, border: '1px solid rgba(255,20,147,.3)', background: 'rgba(255,20,147,.06)', fontFamily: 'var(--font-mono)', fontSize: 13, fontWeight: 600, color: 'rgba(255,255,255,.85)', letterSpacing: '.04em' },
-  proofPulse: { width: 8, height: 8, borderRadius: '50%', background: '#00E5FF', boxShadow: '0 0 10px #00E5FF, 0 0 20px rgba(0,229,255,.5)' },
+  proofPulse: { width: 8, height: 8, borderRadius: '50%', background: '#4A8FFF', boxShadow: '0 0 10px #4A8FFF, 0 0 20px rgba(74,143,255,.5)' },
   ctaBlock: { marginTop: 56, padding: '40px 0 0', borderTop: '1px solid rgba(255,255,255,.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 24 },
   ctaH: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(24px, 2.5vw, 32px)', textTransform: 'uppercase', color: '#fff', letterSpacing: '.005em' },
   ctaBtn: { display: 'inline-flex', alignItems: 'center', padding: '18px 32px', borderRadius: 999, background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 100%)', color: '#fff', fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', textDecoration: 'none', boxShadow: '0 0 30px rgba(255,20,147,.4)' },

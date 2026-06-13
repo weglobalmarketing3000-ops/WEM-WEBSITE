@@ -13,15 +13,15 @@ const IndustriesStrip = ({ lang }) => {
       close: '160+ brand partners and counting.',
     },
     zh: {
-      eye: '// 服务行业',
+      eye: '// 适合的品牌品类',
       rows: [
         ['美妆', ['Skin1004', 'Missha', 'Canvas Beauty', 'Medicube', 'Magnetopia', 'Bask & Lather', 'Ena Skin']],
-        ['健康', ['WNP', 'Ritual', 'Ananke', 'Ina Labs']],
-        ['科技', ['Higround']],
-        ['时尚', ['Zayndeals', 'TGIDeas', 'FIFA WC Merch', 'Guyu Global']],
-        ['食品 & 其他', ['Brew', 'Miniso', 'Clomoon', 'Moonbrew']],
+        ['健康保健', ['WNP', 'Ritual', 'Ananke', 'Ina Labs']],
+        ['科技配件', ['Higround']],
+        ['服饰时尚', ['Zayndeals', 'TGIDeas', 'FIFA WC Merch', 'Guyu Global']],
+        ['食品与生活方式', ['Brew', 'Miniso', 'Clomoon', 'Moonbrew']],
       ],
-      close: '160+ 品牌合作伙伴，仍在持续增长。',
+      close: '服务 160+ 品牌与店铺，覆盖跨境消费品和美国本土 DTC 品牌。',
     },
   }[lang];
   return (

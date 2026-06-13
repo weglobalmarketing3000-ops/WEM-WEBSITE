@@ -2,36 +2,40 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>About WE Marketing | Certified TikTok Shop Partner Agency</title>
-<meta name="description" content="WE Marketing is a certified TikTok Shop Partner (TSP) agency based in California. 160+ brands served, 8,000+ creator community.">
-<link rel="canonical" href="https://weglobalmarketing.com/about.html">
-<meta property="og:title" content="About WE Marketing | TikTok Shop Partner Agency">
-<meta property="og:description" content="WE Marketing is a TikTok Shop Partner Agency that combines shop strategy, creator activation, content systems and live operations. 160+ shop partners, 200K+ creators, $15M+ annual sales managed.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About WE Marketing | Los Angeles TikTok Shop Partner Agency</title>
+<meta name="description" content="WE Marketing is a Southern California TikTok Shop Partner Agency serving cross-border brands, Amazon sellers, and Chinese-speaking founders with U.S. creator affiliates, UGC content, live selling, and shop operations.">
+<meta name="keywords" content="about WE Marketing, Los Angeles TikTok Shop agency, Southern California TikTok Shop agency, TikTok Shop Partner Agency, TikTok Shop TSP California, Chinese-speaking TikTok Shop agency, cross-border ecommerce agency, 美国 TikTok Shop 代运营, 洛杉矶 TikTok Shop 代运营, 南加州 TSP 机构, 跨境品牌美国营销, 在美华人品牌 TikTok Shop">
+<meta name="geo.region" content="US-CA">
+<meta name="geo.placename" content="Los Angeles, California">
+<link rel="canonical" href="https://www.weglobalmarketing.com/about">
+<meta property="og:title" content="About WE Marketing | Los Angeles TikTok Shop Partner Agency">
+<meta property="og:description" content="Chinese-speaking U.S. TikTok Shop Partner Agency for cross-border brands, Amazon sellers, creator affiliates, UGC content, live selling, and shop operations.">
 <meta property="og:image:alt" content="WE Marketing, TikTok Shop Partner Agency. 160+ shop partners. 200K+ creators. $15M+ annual sales. Certified since 2025.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://weglobalmarketing.com/about.html">
-<meta property="og:image" content="https://weglobalmarketing.com/assets/we-banner.png">
+<meta property="og:url" content="https://www.weglobalmarketing.com/about">
+<meta property="og:image" content="https://www.weglobalmarketing.com/assets/we-banner.png">
 <link rel="stylesheet" href="colors_and_type.css">
-<script src="https://unpkg.com/lucide@latest"></script>
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="/lucide-lite.js?v=20260528-lite"></script>
+<script src="/vendor/react.production.min.js?v=18.3.1"></script>
+<script src="/vendor/react-dom.production.min.js?v=18.3.1"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "WE Marketing",
   "alternateName": "WEM",
-  "url": "https://weglobalmarketing.com",
-  "logo": "https://weglobalmarketing.com/assets/we-logo.png",
-  "description": "WE Marketing is a TikTok Shop Partner Agency that combines shop strategy, creator activation, content systems and live operations.",
+  "url": "https://www.weglobalmarketing.com",
+  "logo": "https://www.weglobalmarketing.com/assets/we-logo.png",
+  "description": "WE Marketing is a Southern California TikTok Shop Partner Agency serving cross-border brands, Amazon sellers, and Chinese-speaking founders with U.S. creator affiliates, UGC content, live selling, and shop operations.",
   "founder": { "@type": "Person", "name": "Wendy Lin" },
   "foundingDate": "2024",
   "foundingLocation": { "@type": "Place", "name": "Los Angeles, CA, USA" },
   "email": "wendy@weglobalmarketing.com",
   "telephone": "+1-626-600-0360",
   "knowsLanguage": ["en", "es", "zh"],
-  "areaServed": "US"
+  "areaServed": ["United States", "California", "Los Angeles", "Canada"],
+  "knowsAbout": ["TikTok Shop Partner Agency", "TikTok Shop TSP", "TikTok Shop Management", "Creator Affiliate Marketing", "UGC Content Production", "Cross-Border E-commerce", "Amazon Sellers", "Chinese Brands in U.S. Market", "美国 TikTok Shop 代运营", "跨境品牌出海"]
 }
 </script>
 <style>
@@ -40,35 +44,43 @@
   :root {
     --accent-pink: #FF1493;
     --accent-purple: #9B30FF;
-    --accent-cyan: #00E5FF;
-    --accent-lime: #C6FF3D;
+    --accent-cyan: #4A8FFF;
+    --accent-blue: #4A8FFF;
   }
 </style>
 </head>
 <body>
-<div id="root"></div>
-<script type="text/babel" src="NavBar.jsx"></script>
-<script type="text/babel" src="AboutHero.jsx"></script>
-<script type="text/babel" src="AboutCapability.jsx"></script>
-<script type="text/babel" src="CtaFooter.jsx"></script>
-<script type="text/babel" src="Footer.jsx"></script>
-<script type="text/babel">
-  const { useState, useEffect } = React;
-  function App() {
-    const [lang, setLang] = useState(() => localStorage.getItem('we-lang') || 'en');
-    useEffect(() => { localStorage.setItem('we-lang', lang); }, [lang]);
-    useEffect(() => { if (window.lucide) window.lucide.createIcons(); }, [lang]);
-    return (
-      <div data-screen-label="WE About">
-        <NavBar lang={lang} onLang={setLang} />
-        <AboutHero lang={lang} />
-        <AboutCapability lang={lang} />
-        <CtaFooter lang={lang} />
-        <Footer lang={lang} />
-      </div>
-    );
-  }
-  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-</script>
+<div id="root">
+  <main style="max-width:960px;margin:0 auto;padding:72px 24px;color:#fff;background:#000;font-family:Arial,sans-serif;">
+    <p style="color:#ff1493;text-transform:uppercase;letter-spacing:.14em;font-size:13px;margin:0 0 16px;">About WE Marketing · WEM</p>
+    <h1 style="font-size:44px;line-height:1.08;margin:0 0 20px;">A Southern California TikTok Shop agency for creator-led commerce.</h1>
+    <p style="font-size:18px;line-height:1.65;color:#ddd;margin:0 0 22px;">WE Marketing, also known as WEM, helps cross-border brands, Amazon sellers, DTC teams, and Chinese-speaking founders grow in the U.S. market through TikTok Shop operations, creator affiliates, UGC content, live selling, and product-page conversion work.</p>
+    <section aria-label="Who WE Marketing serves" style="display:grid;gap:14px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0;">Who WEM is built for</h2>
+      <p style="line-height:1.65;color:#ddd;margin:0;">WEM is strongest for brands that need a bilingual operating partner, not only a campaign vendor: teams entering TikTok Shop US, Chinese brands localizing for American shoppers, Amazon sellers adding creator commerce, and U.S. brands that need creator outreach, sample tracking, and shop execution under one roof.</p>
+    </section>
+    <section aria-label="WEM service focus" style="display:grid;gap:14px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0;">What WEM connects</h2>
+      <ul style="line-height:1.8;color:#ddd;margin:0;padding-left:22px;">
+        <li>TikTok Shop setup, listing optimization, operations, and reporting.</li>
+        <li>Creator affiliate recruitment, vetting, briefing, sample coordination, and follow-up.</li>
+        <li>UGC, short video, live selling, product-page localization, and paid amplification support.</li>
+        <li>English, Chinese, and Spanish creator-market execution for U.S. social commerce.</li>
+      </ul>
+    </section>
+    <section aria-label="Chinese overview" lang="zh-CN" style="border-top:1px solid rgba(255,255,255,.15);padding-top:24px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0 0 12px;">美国 TikTok Shop 代运营与跨境品牌增长伙伴</h2>
+      <p style="line-height:1.75;color:#ddd;margin:0;">WEM / WE Marketing 帮跨境品牌、美国本土品牌和 Amazon 卖家把美国 TikTok Shop 的达人、内容、店铺、直播、商品页和数据复盘接起来。重点不是只做曝光，而是把达人流量变成可持续成交。</p>
+    </section>
+  </main>
+</div>
+<script src="./CursorStars.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./NavBar.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./AboutHero.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./AboutCapability.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./TaglineBand.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./CtaFooter.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./Footer.compiled.js?v=20260612-rbp-all1"></script>
+<script src="./_compiled/about.8143af03.js?v=20260612-rbp-all1"></script>
 </body>
 </html>

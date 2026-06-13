@@ -1,0 +1,122 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const {
+  useState,
+  useEffect
+} = React;
+const P = t => ({
+  kind: 'p',
+  text: t
+});
+const H3 = t => ({
+  kind: 'h3',
+  text: t
+});
+const UL = items => ({
+  kind: 'list',
+  items
+});
+const OL = items => ({
+  kind: 'list',
+  items,
+  ordered: true
+});
+const INFO = (title, src, alt) => ({
+  kind: 'infographic',
+  title,
+  src: src ? src : undefined,
+  alt
+});
+const CTA = label => ({
+  kind: 'cta',
+  label,
+  href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925'
+});
+const POST = {
+  meta: {
+    title: "TikTok Shop Affiliate Program: A Brand's Complete Guide",
+    cat: 'AFFILIATE · BRAND GUIDE',
+    author: 'WE Marketing Team',
+    date: 'Oct 8, 2025',
+    read: '10 min read',
+    heroImage: 'hero-3-tiktok-shop-affiliate-program-brand-guide.png',
+    heroAlt: 'A brand operator reviewing skincare product commission rates on a TikTok Shop affiliate dashboard, with product samples and shipping boxes on the desk.'
+  },
+  sections: [{
+    id: 'intro',
+    h: 'The other side of the affiliate program',
+    body: [P("Most of the content written about TikTok Shop's affiliate program is aimed at creators. This guide is for the other side of the equation: brands that want to use the affiliate program to drive sales."), P("TikTok Shop's affiliate system is the engine behind most successful TikTok Shop brands. It connects your products with creators who promote them through videos and live streams, earning a commission on every sale they drive. But the difference between a program that generates a handful of orders and one that becomes a consistent revenue channel comes down to how you set it up and manage it.")]
+  }, {
+    id: 'how-it-works',
+    h: 'How the affiliate program works (from the brand side)',
+    body: [P("As a brand on TikTok Shop, you set a commission rate for your products. Creators browse available products through TikTok's affiliate marketplace and choose which ones to promote. When a viewer watches a creator's video and buys your product through the embedded link, the creator earns their commission and you get the sale."), P("There are two ways to make your products available to creators:"), H3('Open collaboration'), P("You set a commission rate and any eligible creator on TikTok Shop can pick up your product and promote it. This maximizes reach. The downside is you have less control over who promotes your brand."), H3('Targeted collaboration'), P("You invite specific creators directly, often with a custom commission rate or exclusive terms. This gives you more control over brand fit and content quality, but requires you to identify and recruit creators proactively."), P("Most successful brands use both: open collaboration as a baseline to catch interested creators organically, and targeted collaboration for strategic creator partnerships.")]
+  }, {
+    id: 'commission',
+    h: 'Setting the right commission rate',
+    body: [P("Commission rates on TikTok Shop typically range from 10% to 20%, with the U.S. average sitting around 13%. The right rate for your brand depends on your margins, your category, and your competition."), P("Too low and creators won't bother promoting your product. They have thousands of options, and they'll choose the ones that pay better. If your commission is significantly below your category average, you'll struggle to attract quality creators."), P("Too high and you eat into your margins on every sale. This can work as a launch strategy to build momentum, but it's not sustainable long-term."), P("A good starting point: check what competing brands in your category are offering, set your rate slightly above the average to stand out, and adjust after 30 days based on creator response. You can always lower the rate once you have momentum and proven content driving sales.")]
+  }, {
+    id: 'tiers',
+    h: 'Understanding creator tiers',
+    body: [P("Not all TikTok Shop creators are equal. The platform assigns creators to tiers based on their monthly GMV:"), UL(['L1 ($0 to $5K/month): Newer creators, high volume, very responsive to outreach', 'L2 ($5K to $25K/month): Active sellers with proven conversion. Still accessible for commission-only deals', 'L3 ($25K to $60K/month): Strong performers with consistent output. Many expect some form of payment beyond commission', 'L4 ($60K to $150K/month): Established creators, selective about partnerships', 'L5 ($150K to $400K/month): Top tier, often with management', 'L6 ($400K to $1.5M/month): Elite sellers', 'L7 ($1.5M+/month): The highest performers on the platform']), INFO('Creator Tier Chart', 'info-3a-creator-tiers.png', 'TikTok Shop Creator Tiers (L1–L7) with monthly GMV bands and program-fit notes'), P("Where you focus depends on your program model:"), P("Commission-only programs work best with L1 and L2 creators. These creators are actively looking for products to promote, respond well to outreach, and are willing to create content in exchange for free product and commission. You get volume and discoverability without upfront costs."), P("Retainer or hybrid programs work best with L3 creators. They have proven conversion ability and produce reliable content, but they've moved beyond pure commission deals. L3 delivers the best balance of performance and cost."), P("L4 and above are best reserved for specific campaigns like product launches or seasonal pushes. Their reach is significant, but the cost structure is higher and they're harder to recruit.")]
+  }, {
+    id: 'workflow',
+    h: 'The sample seeding workflow',
+    body: [P("For most affiliate programs, the cycle works like this:"), H3('Creator requests or is invited'), P("They either find your product through open collaboration or you reach out through targeted collaboration."), H3('You vet the creator'), P("Before sending product, check their post rate history, recent content, GMV performance, and category relevance. This step is critical. Sending samples to unvetted creators wastes product and budget."), H3('You ship the sample'), P("Speed matters here. From the moment a creator says yes, you have a limited window of enthusiasm. Shipping typically takes 3 to 5 days depending on location."), H3('Creator produces content'), P("Most programs give creators 14 days to post after receiving the product. Content production typically takes 3 to 5 days. Total time from shipment to published content: about two to three weeks."), H3('You follow up'), P("This is the step most brands skip, and it's the one that makes the biggest difference. A simple check-in after delivery and a light reminder before the posting deadline keeps you top of mind. Brands that communicate proactively with creators see post rates of 80% or higher. Brands that send samples and go silent typically see 30-50%."), INFO('Post Rate Comparison', 'info-3b-post-rate.png', 'Post rate comparison: 30–50% without active management vs. 80%+ with vetting and follow-up')]
+  }, {
+    id: 'mistakes',
+    h: 'Common mistakes brands make',
+    body: [H3('Setting it and forgetting it'), P("Opening an affiliate program and waiting for creators to come to you rarely works, especially for new brands with no track record on the platform. You need to actively recruit and manage creator relationships."), H3('Ignoring post rate data'), P("Before sending product to any creator, check their post rate. If it's below 70%, the chances of them posting your content are low. Your samples have a real cost, and sending them to unreliable creators is money wasted."), H3('Not re-engaging top performers'), P("When a creator drives strong sales for your brand, reach out with a better offer: higher commission, early access to new products, or exclusive discount codes. A creator who has already converted for you is far more valuable than a new recruit."), H3('Treating all creators the same'), P("A generic mass message gets ignored. Personalize your outreach based on the creator's content style and audience. Show them you've actually looked at what they do.")]
+  }, {
+    id: 'metrics',
+    h: 'Measuring your affiliate program',
+    body: [P("The metrics that matter:"), H3('GMV by creator'), P("Which creators are actually driving sales? This tells you where to reinvest."), H3('Content volume'), P("How many creator videos are being published per week? Consistent content is what keeps the algorithm working in your favor."), H3('Post rate'), P("What percentage of creators who receive samples actually post content? If this is below 50%, your vetting or follow-up process needs work."), H3('Cost per acquisition'), P("Factor in product samples, shipping, and commission. Compare this to your other acquisition channels."), P("An affiliate program is not a set-and-forget channel. It requires ongoing management, but the returns compound over time as your creator base grows and your content library deepens."), P("If you want help building or optimizing your TikTok Shop affiliate program, talk to our team."), CTA('Book a discovery call →')]
+  }],
+  faqs: [{
+    q: "How does TikTok Shop's affiliate program work for brands?",
+    a: "Brands set a commission rate for their products on TikTok Shop. Creators (affiliates) can then promote those products through videos and live streams. When a viewer buys through a creator's affiliate link, the creator earns the commission and the brand gets the sale. Brands can run open collaborations (any creator can join) or targeted collaborations (invite specific creators)."
+  }, {
+    q: 'What commission rate should brands offer on TikTok Shop?',
+    a: "Commission rates typically range from 10-20% depending on category and product margins. The U.S. average is around 13%. Higher commission rates attract more creators but reduce margins. Start at a competitive rate for your category, then adjust based on creator response and conversion data."
+  }, {
+    q: 'What is the difference between open and targeted collaboration on TikTok Shop?',
+    a: "Open collaboration makes your products available to any creator on TikTok Shop who wants to promote them. Targeted collaboration lets you invite specific creators directly, often with a different commission rate or exclusive terms. Most brands use both: open collaboration for volume and targeted collaboration for high-value creator relationships."
+  }],
+  related: [{
+    label: 'What Does a TikTok Shop Agency Do?',
+    href: 'what-does-a-tiktok-shop-agency-do.html'
+  }, {
+    label: 'How to Choose a TikTok Shop Agency as a Creator',
+    href: 'how-to-choose-tiktok-shop-agency-as-creator.html'
+  }]
+};
+function App() {
+  const slug = window.location.pathname.split('/').pop().replace('.html', '');
+  const [lang, setLang] = useState(() => {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+    return localStorage.getItem('we-lang') || 'en';
+  });
+  const post = lang === 'zh' && window.BLOG_ZH_POSTS?.[slug] ? window.BLOG_ZH_POSTS[slug] : POST;
+  useEffect(() => {
+    localStorage.setItem('we-lang', lang);
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    if (post?.meta?.title) document.title = (post.meta.title || "WE Blog") + " | WE Marketing";
+  }, [lang, post]);
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+  return React.createElement("div", {
+    "data-screen-label": "WE Blog \xB7 Affiliate Brand Guide"
+  }, React.createElement(CursorStars, null), React.createElement(NavBar, {
+    lang: lang,
+    onLang: setLang,
+    basePath: "../"
+  }), React.createElement(BlogPost, _extends({}, post, {
+    labels: lang === 'zh' ? window.BLOG_ZH_LABELS : undefined
+  })), React.createElement(CtaFooter, {
+    lang: lang
+  }), React.createElement(Footer, {
+    lang: lang,
+    basePath: "../"
+  }));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App, null));

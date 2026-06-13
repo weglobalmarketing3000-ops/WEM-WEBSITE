@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://weglobalmarketing.com/sitemap.xml
+Allow: /llms.txt
+Sitemap: https://www.weglobalmarketing.com/sitemap.xml

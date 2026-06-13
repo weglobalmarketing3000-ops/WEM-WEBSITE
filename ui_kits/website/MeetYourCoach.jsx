@@ -1,4 +1,4 @@
-// MeetYourCoach.jsx — sits between AffiliateBenefits and AffiliateCommunity
+// MeetYourCoach.jsx, sits between AffiliateBenefits and AffiliateCommunity
 const MeetYourCoach = ({ lang }) => {
   const t = {
     en: {
@@ -15,17 +15,17 @@ const MeetYourCoach = ({ lang }) => {
       name: 'APRIL ALDANA · LEAD CONTENT COACH',
     },
     zh: {
-      eyebrow: '// 你的教练',
-      h: '真正会卖货的人\n手把手教你。',
-      sub: 'WEM Affiliate 的每位创作者都能每周接受 TikTok Shop Top 1% 达人指导。',
-      body: 'April Aldana 过去一年创造了 $1M+ GMV，单场直播突破 $30K+。她每周会从短视频策略、直播带货和真正能转化的内容上指导我们的达人。对品牌而言，这意味着推广你产品的达人不是在猜。',
-      pills: ['TIKTOK SHOP TOP 1% 达人', '$1M+ GMV · 过去 12 个月', '$30K+ 单场直播 GMV'],
+      eyebrow: '// 内容建议',
+      h: '让真正卖过货的人\n帮你看内容。',
+      sub: 'WE 达人联盟成员可以获得 TikTok Shop 头部达人的短视频和直播建议。',
+      body: 'April Aldana 过去一年带来 $1M+ 销售额，单场直播突破 $30K+。她会帮达人看选题、hook、节奏、产品植入、价格表达和直播话术，重点是怎么讲，才能让内容更有转化力。',
+      pills: ['TIKTOK SHOP 头部达人', '过去 12 个月 $1M+ 销售额', '单场直播 $30K+ 销售额'],
       bullets: [
-        { icon: 'video', text: '每周短视频策略' },
-        { icon: 'radio', text: '直播带货指导' },
-        { icon: 'message-square-text', text: '1:1 内容评审与反馈' },
+        { icon: 'video', text: '短视频选题和 hook 建议' },
+        { icon: 'radio', text: '直播话术和节奏指导' },
+        { icon: 'message-square-text', text: '内容修改建议' },
       ],
-      name: 'APRIL ALDANA · 首席内容教练',
+      name: 'APRIL ALDANA · 内容教练',
     },
   }[lang];
   return (
@@ -74,7 +74,7 @@ const MeetYourCoach = ({ lang }) => {
 const mcStyles = {
   wrap: { position: 'relative', background: '#000', padding: '120px 0', borderTop: '1px solid rgba(255,255,255,.08)', overflow: 'hidden' },
   orb1: { position: 'absolute', top: '20%', left: -200, width: 500, height: 500, background: 'radial-gradient(circle, #FF1493 0%, transparent 60%)', filter: 'blur(80px)', opacity: .25, pointerEvents: 'none' },
-  orb2: { position: 'absolute', bottom: '10%', right: -200, width: 500, height: 500, background: 'radial-gradient(circle, #00E5FF 0%, transparent 60%)', filter: 'blur(80px)', opacity: .18, pointerEvents: 'none' },
+  orb2: { position: 'absolute', bottom: '10%', right: -200, width: 500, height: 500, background: 'radial-gradient(circle, #4A8FFF 0%, transparent 60%)', filter: 'blur(80px)', opacity: .18, pointerEvents: 'none' },
   inner: { position: 'relative', maxWidth: 1280, margin: '0 auto', padding: '0 32px' },
   eyebrow: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.18em', color: '#FF1493', marginBottom: 32 },
   grid: { display: 'grid', gridTemplateColumns: '1.1fr 1fr', gap: 64, alignItems: 'start' },
@@ -93,7 +93,7 @@ const mcStyles = {
   right: { position: 'relative', minHeight: 620 },
   frame: { position: 'absolute', borderRadius: 18, overflow: 'hidden', background: '#0A0A0A', border: '2px solid', transition: 'transform .3s' },
   frameTop: { top: 0, right: 0, width: '78%', aspectRatio: '4 / 3', borderColor: '#FF1493', boxShadow: '0 0 0 1px rgba(255,20,147,.5), 0 0 40px rgba(255,20,147,.4), 0 20px 50px rgba(0,0,0,.6)', transform: 'rotate(2deg)', zIndex: 3 },
-  frameMid: { top: '32%', left: 0, width: '70%', aspectRatio: '4 / 3', borderColor: '#00E5FF', boxShadow: '0 0 0 1px rgba(0,229,255,.5), 0 0 40px rgba(0,229,255,.35), 0 20px 50px rgba(0,0,0,.6)', transform: 'rotate(-3deg)', zIndex: 2 },
+  frameMid: { top: '32%', left: 0, width: '70%', aspectRatio: '4 / 3', borderColor: '#4A8FFF', boxShadow: '0 0 0 1px rgba(74,143,255,.5), 0 0 40px rgba(74,143,255,.35), 0 20px 50px rgba(0,0,0,.6)', transform: 'rotate(-3deg)', zIndex: 2 },
   frameBot: { bottom: 0, right: '8%', width: '72%', aspectRatio: '1 / 1', borderColor: '#9B30FF', boxShadow: '0 0 0 1px rgba(155,48,255,.5), 0 0 40px rgba(155,48,255,.35), 0 20px 50px rgba(0,0,0,.6)', transform: 'rotate(4deg)', zIndex: 1 },
   img: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' },
 };

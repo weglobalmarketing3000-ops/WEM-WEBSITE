@@ -1,5 +1,5 @@
 // CaseStudies.jsx, dark showcase cards
-const CS_ACCENTS = ['#FF1493', '#00E5FF', '#9B30FF', '#C6FF3D'];
+const CS_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF', '#4A8FFF'];
 
 const CaseStudies = ({ lang }) => {
   const t = {
@@ -14,8 +14,8 @@ const CaseStudies = ({ lang }) => {
       ],
     },
     zh: {
-      title: '只看结果',
-      sub: '真实项目，真实数据：美妆、健康、科技、时尚全覆盖。',
+      title: '结果不是口号',
+      sub: '真实项目，真实数据：美国 TikTok Shop 上的美妆、健康、科技、服饰和跨境消费品案例。',
       items: [
         { brand: 'Canvas Beauty', creator: '@stormisteele', stat: '$1.5M', unit: '单场直播', cat: '美妆' },
         { brand: 'Higround', creator: '@carterpcs', stat: '18x', unit: 'ROAS', cat: '科技' },
@@ -31,7 +31,7 @@ const CaseStudies = ({ lang }) => {
         <h2 style={csStyles.h2}>
           {lang === 'en'
             ? <>Results, <span style={csStyles.h2grad}>not promises.</span></>
-            : <>只看<span style={csStyles.h2grad}>结果</span></>}
+            : <>结果<span style={csStyles.h2grad}>不是口号</span></>}
         </h2>
         <p style={csStyles.sub}>{t.sub}</p>
         <div style={csStyles.grid}>
@@ -61,7 +61,7 @@ const csStyles = {
   orb: { position: 'absolute', top: '30%', right: -200, width: 500, height: 500, background: 'radial-gradient(circle, #9B30FF 0%, transparent 60%)', filter: 'blur(80px)', opacity: .3, pointerEvents: 'none' },
   inner: { maxWidth: 1280, margin: '0 auto', padding: '0 32px', position: 'relative' },
   h2: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(60px, 7vw, 108px)', lineHeight: .95, letterSpacing: '-.005em', textTransform: 'uppercase', margin: '0 0 18px', color: '#fff' },
-  h2grad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #00E5FF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
+  h2grad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 600, fontSize: 22, color: 'rgba(255,255,255,.85)', margin: '0 0 60px', maxWidth: 800 },
   grid: { display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20 },
   card: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 16, padding: 28, minHeight: 300, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', cursor: 'pointer', color: '#fff', transition: 'all .3s', boxShadow: '0 0 0 1px rgba(255,20,147,.08)' },

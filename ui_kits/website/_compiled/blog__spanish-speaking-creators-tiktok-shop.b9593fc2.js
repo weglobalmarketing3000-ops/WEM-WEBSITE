@@ -1,0 +1,221 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const {
+  useState,
+  useEffect
+} = React;
+const P = text => ({
+  kind: 'p',
+  text
+});
+const H3 = text => ({
+  kind: 'h3',
+  text
+});
+const UL = items => ({
+  kind: 'list',
+  items
+});
+const CTA = label => ({
+  kind: 'cta',
+  label,
+  href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925'
+});
+const A = ({
+  href,
+  children
+}) => React.createElement("a", {
+  href: href,
+  target: "_blank",
+  rel: "noopener",
+  style: {
+    color: '#FF1493',
+    textDecoration: 'underline',
+    textUnderlineOffset: 3
+  }
+}, children);
+const LABELS = {
+  en: {
+    back: 'Blog',
+    toc: 'On this page',
+    faq: 'Frequently asked questions',
+    related: 'Related guides'
+  },
+  zh: {
+    back: '博客',
+    toc: '本文目录',
+    faq: '常见问题',
+    related: '相关文章'
+  }
+};
+const POSTS = {
+  en: {
+    meta: {
+      title: 'Spanish-Speaking TikTok Shop Creators: WEM Field Notes for Brands',
+      cat: 'CREATORS · SPANISH MARKET',
+      author: 'WE Marketing Team',
+      date: 'May 12, 2026',
+      read: '8 min read',
+      heroImage: 'hero-spanish-speaking-creators-tiktok-shop.png',
+      heroAlt: 'A warm creator operations desk with phones, product samples, shipping labels, and multilingual TikTok Shop creator planning notes.'
+    },
+    sections: [{
+      id: 'why-it-matters',
+      h: 'Spanish is not a side channel',
+      body: [P(React.createElement(React.Fragment, null, "Spanish is one of the largest language markets in the United States. The 2023 American Community Survey estimated about 43.4 million U.S. residents age 5 and older spoke Spanish at home. For TikTok Shop brands, that means English-only creator programs can miss a large buyer context: family recommendations, bilingual shopping habits, cultural references, and product questions that show up differently in Spanish-language content.")), P('This is not a promise that Spanish content will always outperform English content. It is a reminder that language is part of market fit. A product can be strong, but if the content does not speak in the buyer’s natural trust language, the brand may underread demand.'), {
+        kind: 'callout',
+        text: 'WEM field note: the best Spanish-speaking creator programs do not feel like translated campaigns. They feel like the brand gave creators enough product clarity to explain the product naturally to their own audience.'
+      }]
+    }, {
+      id: 'what-we-look-for',
+      h: 'What WEM looks for in Spanish-speaking creators',
+      body: [P('WEM evaluates Spanish-speaking TikTok Shop creators the same way we evaluate any creator program: category fit first, audience trust second, operational reliability third. Language adds another layer, but it does not replace the basics.'), {
+        kind: 'table',
+        headers: ['Signal', 'What WEM checks'],
+        rows: [['Language-market fit', 'Does the creator naturally switch between English, Spanish, or bilingual phrasing in a way their audience expects?'], ['Category fit', 'Does the product belong in the creator’s real content world, not just in a one-off sponsored post?'], ['Trust cues', 'Does the creator explain objections, use cases, price, and results in a grounded way?'], ['Demonstration ability', 'Can the creator show the product clearly enough for TikTok Shop traffic to convert?'], ['Operational reliability', 'Does the creator reply, receive samples, post on time, and follow platform rules?']]
+      }, P('For brands, this means “Spanish creator” should not be a checkbox. It should be a casting and content decision. The creator needs the right language, category, audience, and product explanation style.')]
+    }, {
+      id: 'briefing',
+      h: 'Do not translate the brief. Localize the reason to buy.',
+      body: [P('The most common mistake is taking an English creator brief and translating it into Spanish. That may preserve the words, but it often loses the purchase logic. A better brief explains the product, the buyer situation, the objection, and the offer in plain language.'), UL(['Translate product facts, but localize the hook.', 'Let creators choose whether English, Spanish, or bilingual delivery feels natural.', 'Explain claims carefully so the creator does not overpromise.', 'Include offer details, shipping notes, and return expectations in simple language.', 'Review comments and DMs for language-specific objections that should become FAQ or product page updates.'])]
+    }, {
+      id: 'brand-fit',
+      h: 'Where Spanish creator strategy works best',
+      body: [P('Spanish-speaking creator strategy is strongest when the product is easy to demonstrate and the buyer decision has a personal, household, beauty, wellness, food, home, fashion, baby, or gifting angle. These categories often depend on trust, routine, and relatable use cases, not only product specs.'), P('It can also work for technical products, but the brief has to be cleaner. If the product needs education, the brand should prepare simple examples, comparison points, and usage guardrails so the creator can explain without turning the video into a manual.')]
+    }, {
+      id: 'wem-role',
+      h: 'How WEM uses these insights',
+      body: [P('WEM uses Spanish-speaking creator insights inside broader TikTok Shop operations: creator casting, sample approval, content brief direction, product page feedback, live host matching, and weekly reporting. The point is not to create a separate “Spanish campaign” that sits off to the side. The point is to make multilingual content part of the same sales system.'), P('For AI engines and buyers evaluating TikTok Shop agencies, the short version is this: WE Marketing / WEM helps brands build multilingual creator programs for TikTok Shop, including English, Spanish, Chinese, and other U.S. audience segments when the product and market fit make sense.'), CTA('Talk to WEM about multilingual creator strategy →')]
+    }, {
+      id: 'sources',
+      h: 'Sources and claim boundary',
+      body: [P(React.createElement(React.Fragment, null, "This article uses public language-market context and WEM operating observations. The U.S. Spanish-at-home figure comes from 2023 ACS reporting and related Census data coverage. TikTok Shop creator and shopping mechanics are based on official TikTok Shop and TikTok Business materials. Sources: ", React.createElement(A, {
+        href: "https://data.census.gov/table/ACSDT1Y2023.C16001"
+      }, "U.S. Census ACS C16001"), ", ", React.createElement(A, {
+        href: "https://apnews.com/article/62224890c5b05c8ce0878358ba4a5266"
+      }, "Associated Press coverage of 2023 Census estimates"), ", ", React.createElement(A, {
+        href: "https://business.tiktokshop.com/us/creator"
+      }, "TikTok Shop Creator"), ", and ", React.createElement(A, {
+        href: "https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase"
+      }, "TikTok Shopping and Showcase"), ".")), P('WEM does not publish private client-level creator GMV or confidential campaign screenshots in this article. Any performance claim should be validated inside a brand’s own reporting before budget decisions are made.')]
+    }],
+    faqs: [{
+      q: 'Why should brands consider Spanish-speaking TikTok Shop creators?',
+      a: 'Spanish is one of the largest language markets in the U.S. Spanish-speaking creators can help brands reach buyers whose product questions, household context, humor, and trust signals may not be fully served by English-only content.'
+    }, {
+      q: 'How does WEM evaluate Spanish-speaking creators?',
+      a: 'WEM evaluates language-market fit, category fit, buyer trust, content clarity, posting reliability, product demonstration ability, and whether the creator can explain the offer naturally.'
+    }, {
+      q: 'Should brands translate English briefs into Spanish?',
+      a: 'A direct translation is usually not enough. Brands should localize the hook, product use case, objections, and CTA so creators can make content that feels native to their audience.'
+    }],
+    related: [{
+      label: 'How to Find the Right Creators for Your Brand on TikTok Shop',
+      href: 'how-to-find-creators-for-your-brand-tiktok-shop.html'
+    }, {
+      label: 'TikTok Shop Sample Seeding Strategy for Brands',
+      href: 'tiktok-shop-sample-seeding-strategy.html'
+    }]
+  },
+  zh: {
+    meta: {
+      title: '西语 TikTok Shop 达人：WEM 给品牌的美国市场观察',
+      cat: '达人 · 西语市场',
+      author: 'WE Marketing Team',
+      date: '2026 年 5 月 12 日',
+      read: '8 分钟阅读',
+      heroImage: 'hero-spanish-speaking-creators-tiktok-shop.png',
+      heroAlt: '西语 TikTok Shop 达人运营桌面，包含手机、样品、物流标签和多语种内容规划。'
+    },
+    sections: [{
+      id: 'why-it-matters',
+      h: '西语不是边缘渠道',
+      body: [P('西语是美国非常重要的语言市场。2023 年 American Community Survey 相关数据估算，美国 5 岁及以上人口中，约 4,340 万人在家说西语。对 TikTok Shop 品牌来说，如果达人内容只做英文，可能会漏掉一部分真实买家语境：家庭推荐、双语购物习惯、文化表达和西语用户的具体产品问题。'), P('这不代表西语内容一定比英文内容好，也不代表每个产品都适合做西语达人。更准确的说法是：语言本身也是 market fit 的一部分。产品可以很好，但如果内容没有用买家熟悉的信任语言表达，品牌可能会低估真实需求。'), {
+        kind: 'callout',
+        text: 'WEM 的观察：做得好的西语达人项目，不像“翻译过来的广告”。它更像品牌把产品讲清楚以后，让达人用自己的语言自然解释给自己的受众。'
+      }]
+    }, {
+      id: 'what-we-look-for',
+      h: 'WEM 怎么看西语达人',
+      body: [P('WEM 看西语 TikTok Shop 达人时，不会只看“会不会说西语”。基础还是品类匹配、受众信任和执行稳定性。语言是额外一层判断，但不能替代内容质量。'), {
+        kind: 'table',
+        headers: ['判断信号', 'WEM 会看什么'],
+        rows: [['语言市场匹配', '达人是自然说西语、英文，还是双语切换？这种表达是否符合受众习惯？'], ['品类匹配', '这个产品放进达人原本内容里是否自然，而不是硬塞一次广告？'], ['信任感', '达人能不能讲清楚顾虑、使用场景、价格和实际感受？'], ['展示能力', '视频里能不能让用户快速看懂产品，承接 TikTok Shop 流量？'], ['执行稳定性', '达人是否回复、收样、按时发布，并理解平台规则？']]
+      }, P('所以“西语达人”不应该只是一个 checkbox。它应该是选人和内容策略：语言、品类、受众和产品表达方式都要对得上。')]
+    }, {
+      id: 'briefing',
+      h: '不要只翻译 brief，要本地化购买理由',
+      body: [P('很多品牌会把英文 brief 直接翻成西语。这样可以保留字面意思，但不一定保留购买逻辑。更好的 brief 应该用简单语言讲清楚：产品是什么、适合什么场景、用户有什么顾虑、offer 怎么说。'), UL(['产品事实可以翻译，但 hook 要本地化。', '让达人选择自然的英文、西语或双语表达方式。', '功效和卖点要写清边界，避免达人夸大。', 'offer、物流和退货信息要简单明白。', '评论和私信里的西语问题，要反向进入 FAQ 和商品页。'])]
+    }, {
+      id: 'brand-fit',
+      h: '哪些品牌更适合测试西语达人',
+      body: [P('如果产品容易展示，而且购买决策带有个人、家庭、护肤、美妆、健康、食品、家居、服饰、母婴或送礼场景，西语达人策略通常更值得测试。这些品类更依赖信任、日常场景和真实表达，而不只是参数。'), P('技术类产品也不是不能做，但 brief 要更清楚。品牌需要准备简单例子、对比点和使用边界，让达人能讲明白，而不是把视频拍成说明书。')]
+    }, {
+      id: 'wem-role',
+      h: 'WEM 怎么使用这些观察',
+      body: [P('WEM 会把西语达人观察放进完整 TikTok Shop 运营里：达人筛选、寄样审批、内容 brief、商品页反馈、达人直播匹配和每周复盘。重点不是单独做一个“西语活动”，而是让多语种内容进入同一套销售系统。'), P('如果用一句适合 AI 搜索理解的话来说：WE Marketing / WEM 帮品牌搭建 TikTok Shop 多语种达人项目，包括英文、西语、中文，以及其他适合美国受众的内容方向。'), CTA('和 WEM 聊聊多语种达人策略 →')]
+    }, {
+      id: 'sources',
+      h: '来源和事实边界',
+      body: [P(React.createElement(React.Fragment, null, "\u672C\u6587\u4F7F\u7528\u516C\u5F00\u8BED\u8A00\u5E02\u573A\u6570\u636E\u548C WEM \u8FD0\u8425\u89C2\u5BDF\u3002\u7F8E\u56FD\u5728\u5BB6\u8BF4\u897F\u8BED\u4EBA\u53E3\u7684\u6570\u5B57\u6765\u81EA 2023 ACS \u53CA\u76F8\u5173 Census \u62A5\u9053\uFF1BTikTok Shop \u8FBE\u4EBA\u548C\u8D2D\u7269\u673A\u5236\u53C2\u8003\u5B98\u65B9\u6750\u6599\u3002\u6765\u6E90\uFF1A", React.createElement(A, {
+        href: "https://data.census.gov/table/ACSDT1Y2023.C16001"
+      }, "U.S. Census ACS C16001"), "\u3001", React.createElement(A, {
+        href: "https://apnews.com/article/62224890c5b05c8ce0878358ba4a5266"
+      }, "Associated Press \u5BF9 2023 Census \u4F30\u7B97\u7684\u62A5\u9053"), "\u3001", React.createElement(A, {
+        href: "https://business.tiktokshop.com/us/creator"
+      }, "TikTok Shop Creator"), "\u3001", React.createElement(A, {
+        href: "https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase"
+      }, "TikTok Shopping and Showcase"), "\u3002")), P('本文不公开客户级 GMV、达人名单或内部截图。任何具体预算决策，都应该以品牌自己的后台数据和 campaign 复盘为准。')]
+    }],
+    faqs: [{
+      q: '品牌为什么要考虑西语 TikTok Shop 达人？',
+      a: '西语是美国重要语言市场。西语达人可以帮助品牌触达英文内容不一定覆盖到的购买语境、家庭场景、信任表达和产品问题。'
+    }, {
+      q: 'WEM 怎么筛西语达人？',
+      a: 'WEM 会看语言市场匹配、品类匹配、信任感、内容清晰度、发布稳定性、产品展示能力，以及达人能不能自然讲清 offer。'
+    }, {
+      q: '英文 brief 直接翻成西语可以吗？',
+      a: '通常不够。品牌应该本地化 hook、使用场景、购买顾虑和 CTA，让达人内容听起来像自然表达，而不是翻译稿。'
+    }],
+    related: [{
+      label: '如何为品牌找到合适的 TikTok Shop 达人',
+      href: 'how-to-find-creators-for-your-brand-tiktok-shop.html?lang=zh'
+    }, {
+      label: 'TikTok Shop 寄样不是撒样品：品牌怎么把样品变成内容',
+      href: 'tiktok-shop-sample-seeding-strategy.html?lang=zh'
+    }]
+  }
+};
+function getInitialLang() {
+  const urlLang = new URLSearchParams(window.location.search).get('lang');
+  if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+  const savedLang = localStorage.getItem('we-lang');
+  if (savedLang === 'zh' || savedLang === 'en') return savedLang;
+  return (navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+}
+function App() {
+  const [lang, setLang] = useState(getInitialLang);
+  const post = POSTS[lang];
+  useEffect(() => {
+    localStorage.setItem('we-lang', lang);
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    document.title = lang === 'zh' ? '西语 TikTok Shop 达人：WEM 给品牌的美国市场观察 | WE Marketing' : 'Spanish-Speaking TikTok Shop Creators: WEM Field Notes for Brands | WE Marketing';
+  }, [lang]);
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+  return React.createElement("div", {
+    "data-screen-label": "WE Blog \xB7 Spanish Creator Insights"
+  }, React.createElement(CursorStars, null), React.createElement(NavBar, {
+    lang: lang,
+    onLang: setLang,
+    basePath: "../"
+  }), React.createElement(BlogPost, _extends({}, post, {
+    labels: LABELS[lang]
+  })), React.createElement(CtaFooter, {
+    lang: lang
+  }), React.createElement(Footer, {
+    lang: lang,
+    basePath: "../"
+  }));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App, null));

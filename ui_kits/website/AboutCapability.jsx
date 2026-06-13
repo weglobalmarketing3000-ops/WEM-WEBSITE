@@ -27,30 +27,30 @@ const AboutCapability = ({ lang }) => {
       seeAll: 'See our full services →'
     },
     zh: {
-      eyeL: '我们为什么创立 WEM',
-      h2: '一支精干团队，跑通 TikTok Shop 全链路。',
-      p1: 'WE Marketing 由 Wendy Lin 于 2024 年在洛杉矶创立。多年来我们目睹品牌与达人被传统代理机构的模式所束缚，那些模式从未为 TikTok Shop 而设计。大多数机构把 TikTok Shop当成又一个社交渠道或电商平台；而真正在 TikTok Shop 上赢的品牌都明白：这是一场全新的游戏，达人驱动、内容优先、直播为王、运营密集。',
-      p2: '我们创立 WEM，就是要把整个链路打通。一支团队同时负责店铺策略、达人激活、短视频内容、直播运营与店铺代运营，在同一个 P&L 下统筹推进。没有交接断层，没有责任推诿，"达人团队"和"店铺团队"之间也没有真空地带。',
-      p3: '这就是为什么我们合作的一家美妆品牌能在 30 天内从月 GMV 31.2 万美金跃升到 98.2 万美金；也是一个男装品牌能在几乎没有达人库存、大多数代理难以调动达人的品类中冷启动并完成 10000+ 订单。打法是一样的，差别在执行。',
-      quote: '"TikTok Shop 是一个发现引擎，不是一个店铺。达人帮你跟一个从未听过你品牌的消费者间架起信任。我们的工作是让这件事规模化发生。"',
-      author: '— Wendy Lin, 创始人',
+      eyeL: '为什么选择 WEM',
+      h2: '能跨语言沟通，也能在美国把事落地。',
+      p1: '很多跨境品牌来美国 TikTok Shop，不是产品不行，而是打法没换。国内电商那套节奏，直接搬到美国，很容易出现达人不发、内容没人信、店铺数据接不上的问题。',
+      p2: '美国 TikTok Shop 不是单纯开个店，也不是找几个人拍视频。它更像内容、电商、达人联盟和直播叠在一起的生意。WEM 用一支团队同时管店铺、达人、短视频、直播和数据，减少中间反复沟通的损耗。',
+      p3: '我们已经帮美妆、健康、男装、食品和科技类品牌做过冷启动、平台期突破和爆款放大。对跨境团队来说，价值很直接：英西中沟通更顺，美国本地执行更快，内容更贴近真实买家。',
+      quote: '"跨境品牌在美国 TikTok Shop 的难点，通常不是产品本身，而是内容本地化、达人信任和执行节奏没有接上。"',
+      author: 'Wendy Lin，创始人',
       eyeR: '关键数据',
       stats: [
-      { num: '160+', lab: '合作品牌数' },
-      { num: '24K+', lab: '认证达人社群' },
-      { num: '$15M+', lab: '年管理 GMV' },
-      { num: '8,000+', lab: 'WE 联盟社群达人' }],
-
+        { num: '160+', lab: '服务品牌与店铺' },
+        { num: '200K+', lab: '美国达人合作资源' },
+        { num: '$15M+', lab: '年管理销售额' },
+        { num: '8,000+', lab: 'WE 达人社群成员' },
+      ],
       caps: [
-      ['冷启动 LAUNCHPAD', '新品 30-90 天验证起量。'],
-      ['联盟营销', '达人外联、寄样、活动、直播激活。'],
-      ['短视频运营', '多样形式、钩子、脚本、效果优化。'],
-      ['直播运营', '品牌与达人直播：策划、主播培训、内容流。'],
-      ['达人匹配', '对的达人、对的受众、对的时机。'],
-      ['店铺代运营', '商品、定价、活动、履约、SPS、合规。']],
-
-      seeAll: '查看全部服务 →'
-    }
+        ['美国冷启动', '30 到 90 天完成开店、内容、达人和首批订单验证。'],
+        ['达人联盟运营', '找达人、寄样、谈佣金、催发布、看数据，一起管。'],
+        ['UGC 内容生产', '脚本、hook、素材测试和广告可用内容交付。'],
+        ['直播运营', '品牌直播与达人直播的排期、培训、脚本和销售数据跟进。'],
+        ['精准达人匹配', '按品类、人群、语言和销售表现找更合适的美国达人。'],
+        ['店铺代运营', '商品 SEO、定价、活动、履约、SPS、合规和 Seller Center 操作。'],
+      ],
+      seeAll: '查看全部服务',
+    },
   }[lang];
   return (
     <section style={acStyles.wrap}>
@@ -95,7 +95,7 @@ const AboutCapability = ({ lang }) => {
               </div>
             )}
           </div>
-          <a href="index.html#Services" style={acStyles.seeAll}>{t.seeAll}</a>
+          <a href="/#Services" style={acStyles.seeAll}>{t.seeAll}</a>
         </div>
       </div>
     </section>);
@@ -121,7 +121,7 @@ const acStyles = {
   statLab: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.16em', textTransform: 'uppercase', color: 'rgba(255,255,255,.6)', whiteSpace: 'pre-line', lineHeight: 1.5, marginTop: 16 },
   capList: { display: 'flex', flexDirection: 'column', gap: 14, marginTop: 12 },
   capRow: { display: 'flex', gap: 14, alignItems: 'flex-start' },
-  capCheck: { width: 22, height: 22, borderRadius: 6, background: '#C6FF3D', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 },
+  capCheck: { width: 22, height: 22, borderRadius: 6, background: '#4A8FFF', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 },
   capTitle: { fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', color: '#fff' },
   capDesc: { fontFamily: 'var(--font-sans)', fontSize: 14, color: 'rgba(255,255,255,.65)', marginTop: 4, lineHeight: 1.5 },
   seeAll: { display: 'inline-block', marginTop: 28, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.16em', textTransform: 'uppercase', color: '#FF1493', textDecoration: 'none', borderBottom: '1px solid rgba(255,20,147,.5)', paddingBottom: 4 }

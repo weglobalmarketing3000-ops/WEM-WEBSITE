@@ -4,36 +4,38 @@ const AffiliateCommunity = ({ lang }) => {
     en: {
       eyebrow: '// THE COMMUNITY',
       h: '8,000+ creators.\nOne Discord.',
-      sub: 'Direct channels for brand drops, sample requests, content Q&A, and live coaching. English and Español, both active 24/7.',
+      sub: 'Direct channels for brand drops, sample requests, content Q&A, and live coaching. Discord has English and dedicated Spanish channels, with English, Spanish, and Chinese support from WEM.',
       features: [
         { icon: 'message-square', label: 'Exclusive collaborations & sample alerts' },
         { icon: 'video', label: 'Weekly 1:1 content reviews' },
         { icon: 'shield-check', label: 'Violation + appeals help desk' },
         { icon: 'trending-up', label: 'Trending sound & hook library' },
       ],
-      cta: 'Join our Discord →',
-      stats: [['8K+','Creators in Discord'], ['24/7','Moderation + support'], ['3', 'Languages, EN + ES + 中文']],
+      cta: 'Join our Discord',
+      stats: [['8K+','Fellow creators'], ['24/7','Community access'], ['3', 'EN · ES · 中文 support']],
+      status: 'online',
     },
     zh: {
       eyebrow: '// 达人社群',
-      h: '8,000+ 达人\n同一个 Discord',
-      sub: '品牌资源对接、寄样申请、内容答疑、直播复盘，全部专属频道。\n英语&西语双语频道 24 小时活跃。',
+      h: '8,000+ 达人\n一起交流合作',
+      sub: '在 Discord 里，你可以看到品牌公告、寄样提醒和佣金活动，也可以和其他创作者交流选品、内容、直播和账号问题。英文、西语、中文都有支持。',
       features: [
-        { icon: 'message-square', label: '实时品牌资源与寄样提醒' },
-        { icon: 'video', label: '每周直播内容复盘' },
-        { icon: 'shield-check', label: '违规 / 申诉应急支持' },
-        { icon: 'trending-up', label: '热门 BGM 与钩子素材库' },
+        { icon: 'message-square', label: '品牌合作和寄样提醒' },
+        { icon: 'video', label: '短视频和直播交流' },
+        { icon: 'shield-check', label: '账号问题和申诉建议' },
+        { icon: 'trending-up', label: '热门声音和 hook 参考' },
       ],
-      cta: '加入 Discord →',
-      stats: [['8K+','社群达人数'], ['24/7','管理 + 支持'], ['3', '英中西三语服务']],
+      cta: '加入 Discord',
+      stats: [['8K+','创作者交流'], ['24/7','社群支持'], ['3', '英西中支持']],
+      status: '在线',
     },
   }[lang];
-  // Fake handle strings for avatar wall — no real PII
+  // Fake handle strings for avatar wall, no real PII.
   const handles = [
-    ['@mia.styles', '#FF1493'], ['@jayseattle', '#9B30FF'], ['@evie.tries', '#C6FF3D'],
-    ['@ohsokai', '#00E5FF'], ['@leoxbeauty', '#FF6B9D'], ['@tate.reviews', '#5865F2'],
-    ['@ruby.living', '#C6FF3D'], ['@deezeats', '#FF1493'], ['@noor.home', '#9B30FF'],
-    ['@bee.mua', '#00E5FF'], ['@sam.wearsit', '#FF6B9D'], ['@kai.kitchen', '#C6FF3D'],
+    ['@mia.styles', '#FF1493'], ['@jayseattle', '#9B30FF'], ['@evie.tries', '#4A8FFF'],
+    ['@ohsokai', '#4A8FFF'], ['@leoxbeauty', '#FF6B9D'], ['@tate.reviews', '#5865F2'],
+    ['@ruby.living', '#4A8FFF'], ['@deezeats', '#FF1493'], ['@noor.home', '#9B30FF'],
+    ['@bee.mua', '#4A8FFF'], ['@sam.wearsit', '#FF6B9D'], ['@kai.kitchen', '#4A8FFF'],
   ];
   return (
     <section style={acStyles.wrap}>
@@ -61,7 +63,7 @@ const AffiliateCommunity = ({ lang }) => {
               <div key={i} style={{ ...acStyles.chip, animationDelay: `${i * 0.12}s` }}>
                 <div style={{ ...acStyles.dot, background: c }}/>
                 <span style={acStyles.handle}>{h}</span>
-                <div style={acStyles.status}>online</div>
+                <div style={acStyles.status}>{t.status}</div>
               </div>
             ))}
           </div>
@@ -87,7 +89,7 @@ const acStyles = {
   sub: { fontFamily: 'var(--font-sans)', fontSize: 18, lineHeight: 1.5, color: 'rgba(255,255,255,.7)', marginTop: 24 },
   list: { listStyle: 'none', padding: 0, margin: '32px 0 40px', display: 'grid', gap: 14 },
   li: { display: 'flex', alignItems: 'center', gap: 14 },
-  liIcon: { width: 32, height: 32, borderRadius: 10, background: '#C6FF3D', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
+  liIcon: { width: 32, height: 32, borderRadius: 10, background: '#4A8FFF', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
   liTxt: { fontFamily: 'var(--font-sans)', fontSize: 16, fontWeight: 600, color: '#fff' },
   btn: { display: 'inline-flex', alignItems: 'center', gap: 12, background: '#5865F2', color: '#fff', padding: '16px 28px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', cursor: 'pointer', textDecoration: 'none' },
   right: { position: 'relative' },
@@ -95,7 +97,7 @@ const acStyles = {
   chip: { background: '#000', border: '1px solid rgba(255,255,255,.12)', borderRadius: 14, padding: '14px 16px', display: 'flex', alignItems: 'center', gap: 12 },
   dot: { width: 32, height: 32, borderRadius: 999, flexShrink: 0, boxShadow: '0 0 20px currentColor' },
   handle: { fontFamily: 'var(--font-mono)', fontSize: 13, fontWeight: 700, color: '#fff', flex: 1, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' },
-  status: { fontFamily: 'var(--font-mono)', fontSize: 10, color: '#C6FF3D', textTransform: 'uppercase', letterSpacing: '.08em', fontWeight: 700 },
+  status: { fontFamily: 'var(--font-mono)', fontSize: 10, color: '#4A8FFF', textTransform: 'uppercase', letterSpacing: '.08em', fontWeight: 700 },
   statsRow: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12, marginTop: 20 },
   statBox: { background: '#000', border: '1px solid rgba(255,255,255,.1)', borderRadius: 12, padding: 18, textAlign: 'center' },
   statN: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 32, color: '#FF1493', lineHeight: 1 },

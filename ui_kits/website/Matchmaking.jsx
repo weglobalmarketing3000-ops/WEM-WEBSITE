@@ -11,7 +11,7 @@ const MATCHES = [
     ],
     creatorPill: '@zarinascart',
     body_en: 'Precision-matched creator delivered a 1.5M+ view hero video on the first drop. WEM doubled down within days with a comment-reply follow-up that hit 4.2M views.',
-    body_zh: '精准匹配的达人首条视频即突破 150 万播放。WE 在数天内以评论回复跟进视频再度引爆，触达 420 万播放。',
+    body_zh: '我们匹配的首位达人发出第一条视频后，播放很快冲到 150 万。热度起来后，我们马上用评论回复视频接住流量，几天内又放大到 420 万播放。',
     statKind: 'metric',
     stats_en: [
       { val: '1.5M+', label: 'Hero video views' },
@@ -19,16 +19,16 @@ const MATCHES = [
       { val: '$10K+', label: 'Black Friday GMV' },
     ],
     stats_zh: [
-      { val: '1.5M+', label: '爆款视频播放' },
-      { val: '4.2M',  label: '跟进视频播放' },
-      { val: '$10K+', label: '黑五 GMV' },
+      { val: '1.5M+', label: '首条播放' },
+      { val: '4.2M',  label: '跟进播放' },
+      { val: '$10K+', label: '黑五销售额' },
     ],
     pull_en: 'The right match is the moment. Speed to compound it is the system.',
-    pull_zh: '对的匹配是时机，复利的速度是系统。',
+    pull_zh: '找对达人只是开始。真正拉开差距的是反应速度。',
   },
   {
     tag_en: 'MATCH #02 · SKINCARE',
-    tag_zh: '匹配 #02 · 韩妆护肤',
+    tag_zh: '匹配 #02 · 护肤品牌',
     brand: 'Medicube',
     layout: 'grid',
     creators: [
@@ -38,7 +38,7 @@ const MATCHES = [
       { handle: 'LIVE session',   lang: 'LIVE', video: '../../assets/match-medicube-4.mp4' },
     ],
     body_en: 'WEM deployed a multilingual, multi-format creator network to scale Medicube across the U.S. market. The campaign spanned English, Spanish, and Vietnamese creators, LIVE and short video formats, and a gender-diverse roster. Top LIVE sessions converted 2,000+ units per SKU.',
-    body_zh: 'WE 为 Medicube 部署多语言、多形式的达人网络，覆盖美国市场。活动涵盖英语、西班牙语、越南语达人，短视频与直播双轨并行，性别多元化阵容。头部直播单 SKU 转化 2,000+ 单。',
+    body_zh: '我们为 Medicube 在美国组织多语种达人合作，覆盖英语、西语和越南语内容，同时推进短视频和直播。头部直播里，单个 SKU 卖出 2,000 多单。',
     statKind: 'pill',
     stats_en: [
       { val: '3', label: 'Languages', sub: 'EN · ES · VI' },
@@ -49,15 +49,15 @@ const MATCHES = [
     stats_zh: [
       { val: '3', label: '语种', sub: '英 · 西 · 越' },
       { val: '2', label: '形式', sub: '直播 · 短视频' },
-      { val: '2K+', label: '单 SKU 单量', sub: '头部直播' },
-      { val: '多元', label: '达人阵容', sub: '性别 · 人群' },
+      { val: '2K+', label: '单 SKU 订单', sub: '头部直播' },
+      { val: '多元', label: '达人组合', sub: '性别 · 人群' },
     ],
     pull_en: 'The U.S. TikTok Shop market is segmented by language, format, and demographic. A diversified creator network is how brands reach all of it.',
-    pull_zh: '美国 TikTok Shop 市场按语言、形式和人群高度切分。只有多元化的达人网络，才能触达全部。',
+    pull_zh: '美国市场不是一种人群。语言、文化和内容形式都对了，才有放量空间。',
   },
 ];
 
-const MATCH_ACCENTS = ['#FF1493', '#00E5FF', '#9B30FF', '#C6FF3D'];
+const MATCH_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF', '#4A8FFF'];
 
 const Matchmaking = ({ lang }) => {
   const t = {
@@ -68,10 +68,10 @@ const Matchmaking = ({ lang }) => {
       sub: 'Precision matches that compound into breakout moments, without a full-service engagement.',
     },
     zh: {
-      kicker: '达人匹配 · 单点突破',
-      h2a: '对的达人，',
-      h2b: '对的时机。',
-      sub: '精准匹配，让单点合作放大为爆款瞬间，无需全托管投入。',
+      kicker: '达人匹配 · 先验证再放大',
+      h2a: '先找对人，',
+      h2b: '再放大内容。',
+      sub: '适合想先试美国市场的品牌。不必一上来就全托管，先用精准达人合作验证产品、内容和受众。',
     },
   }[lang];
   return (
@@ -175,14 +175,14 @@ const MatchPlaceholder = ({ lang }) => (
     <div style={mmStyles.mediaSide}>
       <div style={{ ...mmStyles.polaroidFrame, transform: 'none', boxShadow: 'none', border: '2px dashed rgba(255,255,255,.2)', background: 'transparent', width: 220 }}>
         <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,.4)', fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.1em', textAlign: 'center' }}>
-          MORE CASES<br/>COMING
+          {lang === 'en' ? <>MORE CASES<br/>COMING</> : <>更多案例<br/>更新中</>}
         </div>
       </div>
     </div>
     <div style={mmStyles.body}>
-      <div style={{ ...mmStyles.tag, color: 'rgba(255,255,255,.5)', background: 'rgba(255,255,255,.06)' }}>NEXT MATCH</div>
-      <div style={{ ...mmStyles.brand, color: 'rgba(255,255,255,.5)' }}>{lang === 'en' ? 'Your brand here.' : '你的品牌'}</div>
-      <p style={mmStyles.bodyText}>{lang === 'en' ? 'More matchmaking wins are shipping soon.' : '更多精准匹配案例即将上线。'}</p>
+      <div style={{ ...mmStyles.tag, color: 'rgba(255,255,255,.5)', background: 'rgba(255,255,255,.06)' }}>{lang === 'en' ? 'NEXT MATCH' : '下一个匹配案例'}</div>
+      <div style={{ ...mmStyles.brand, color: 'rgba(255,255,255,.5)' }}>{lang === 'en' ? 'Your brand here.' : '下一个案例'}</div>
+      <p style={mmStyles.bodyText}>{lang === 'en' ? 'More matchmaking wins are shipping soon.' : '更多美国达人匹配案例正在整理。'}</p>
     </div>
   </div>
 );
@@ -193,7 +193,7 @@ const mmStyles = {
   header: { maxWidth: 780, marginBottom: 64, paddingTop: 40, borderTop: '1px solid rgba(255,255,255,.08)' },
   kicker: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.18em', color: 'rgba(255,255,255,.6)', marginBottom: 24, marginTop: 40 },
   h2: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(44px, 5.2vw, 76px)', lineHeight: .98, letterSpacing: '-.005em', textTransform: 'uppercase', margin: 0, color: '#fff' },
-  h2grad: { background: 'linear-gradient(90deg, #00E5FF 0%, #9B30FF 60%, #FF1493 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
+  h2grad: { background: 'linear-gradient(90deg, #4A8FFF 0%, #9B30FF 60%, #FF1493 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 500, fontSize: 19, lineHeight: 1.5, color: 'rgba(255,255,255,.75)', marginTop: 24 },
   list: { display: 'flex', flexDirection: 'column', gap: 32 },
   card: { display: 'grid', gridTemplateColumns: '1fr 1.3fr', gap: 48, alignItems: 'center', background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 24, padding: 40 },

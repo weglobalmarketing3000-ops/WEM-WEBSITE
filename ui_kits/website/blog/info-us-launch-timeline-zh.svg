@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">美国上线四周节奏</title>
   <desc id="desc">美国 TikTok Shop 上线四周节奏图。</desc>
-  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#FF1493"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#FF1493"/><stop offset="1" stop-color="#4A8FFF"/></linearGradient></defs>
   <rect width="1200" height="675" fill="#070707"/>
   <text x="70" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">美国上线节奏</text>
   <text x="70" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">四周上线节奏：先跑通，再放量</text>

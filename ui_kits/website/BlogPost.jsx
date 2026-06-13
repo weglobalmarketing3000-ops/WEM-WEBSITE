@@ -8,6 +8,14 @@
 //   - { kind:'cta', label, href }
 //   - { kind:'callout', text }
 //   - { kind:'sub', text }   // sub-heading lighter than h3
+const resolveBlogImage = (src, kind = 'asset') => {
+  if (!src || /^https?:\/\//i.test(src) || src.startsWith('/')) return src;
+  if (kind === 'hero' && /^hero-.*\.png$/i.test(src)) {
+    return `/blog/optimized/${src.replace(/\.png$/i, '.jpg')}`;
+  }
+  return `/blog/${src}`;
+};
+
 const BlogPost = ({ meta, sections, faqs, related, labels }) => {
   const ui = {
     back: 'Blog',
@@ -64,7 +72,7 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
       if (b.src) {
         return (
           <figure key={i} style={bpStyles.infoWrap}>
-            <img src={b.src} alt={b.alt || ''} style={bpStyles.infoImg}/>
+            <img src={resolveBlogImage(b.src)} alt={b.alt || ''} loading="lazy" decoding="async" style={bpStyles.infoImg}/>
             {b.caption && <figcaption style={bpStyles.infoCap}>{b.caption}</figcaption>}
           </figure>
         );
@@ -84,7 +92,7 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
       <div style={bpStyles.orb}/>
       <header style={bpStyles.header}>
         <div style={bpStyles.headerInner}>
-          <a href="../blog.html" style={bpStyles.back}>
+          <a href="../blog" style={bpStyles.back}>
             <i data-lucide="arrow-left" style={{ width: 14, height: 14 }}/> {ui.back}
           </a>
           <div style={bpStyles.cat}>{meta.cat}</div>
@@ -98,7 +106,14 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
           </div>
           {meta.heroImage && (
             <div style={bpStyles.heroWrap}>
-              <img src={meta.heroImage} alt={meta.heroAlt || meta.title} style={bpStyles.heroImg}/>
+              <img
+                src={resolveBlogImage(meta.heroImage, 'hero')}
+                alt={meta.heroAlt || meta.title}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+                style={bpStyles.heroImg}
+              />
             </div>
           )}
         </div>
@@ -190,15 +205,15 @@ const bpStyles = {
     margin: '28px 0 34px',
     border: '1px solid rgba(255,20,147,.22)',
     borderRadius: 16,
-    background: 'radial-gradient(circle at 16% 0%, rgba(255,20,147,.13), transparent 34%), radial-gradient(circle at 88% 12%, rgba(0,229,255,.08), transparent 32%), linear-gradient(135deg, rgba(255,255,255,.045), rgba(255,255,255,.01))',
+    background: 'radial-gradient(circle at 16% 0%, rgba(255,20,147,.13), transparent 34%), radial-gradient(circle at 88% 12%, rgba(74,143,255,.08), transparent 32%), linear-gradient(135deg, rgba(255,255,255,.045), rgba(255,255,255,.01))',
     boxShadow: '0 0 0 1px rgba(255,255,255,.035), 0 24px 70px rgba(0,0,0,.38)',
     padding: 1,
   },
   table: { width: '100%', borderCollapse: 'separate', borderSpacing: 0, fontFamily: 'var(--font-sans)', fontSize: 14, lineHeight: 1.5, color: 'rgba(255,255,255,.82)', background: 'rgba(2,2,2,.72)', borderRadius: 15, overflow: 'hidden' },
-  th: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', color: '#FF1493', textAlign: 'left', padding: '16px 18px', borderBottom: '1px solid rgba(255,255,255,.12)', background: 'linear-gradient(90deg, rgba(255,20,147,.13), rgba(155,48,255,.08), rgba(0,229,255,.04))' },
+  th: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', color: '#FF1493', textAlign: 'left', padding: '16px 18px', borderBottom: '1px solid rgba(255,255,255,.12)', background: 'linear-gradient(90deg, rgba(255,20,147,.13), rgba(155,48,255,.08), rgba(74,143,255,.04))' },
   td: { padding: '16px 18px', borderBottom: '1px solid rgba(255,255,255,.07)', verticalAlign: 'top' },
   ctaBtn: { display: 'inline-block', background: 'linear-gradient(90deg,#FF1493,#9B30FF)', color: '#fff', padding: '16px 30px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 15, letterSpacing: '.04em', textTransform: 'uppercase', textDecoration: 'none', margin: '12px 0 8px' },
-  infoWrap: { margin: '34px 0', borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,20,147,.22)', background: 'radial-gradient(circle at 10% 0%, rgba(255,20,147,.14), transparent 32%), radial-gradient(circle at 90% 10%, rgba(0,229,255,.10), transparent 34%), #080808', boxShadow: '0 20px 60px rgba(0,0,0,.36)' },
+  infoWrap: { margin: '34px 0', borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,20,147,.22)', background: 'radial-gradient(circle at 10% 0%, rgba(255,20,147,.14), transparent 32%), radial-gradient(circle at 90% 10%, rgba(74,143,255,.10), transparent 34%), #080808', boxShadow: '0 20px 60px rgba(0,0,0,.36)' },
   infoImg: { width: '100%', height: 'auto', display: 'block' },
   infoCap: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,.55)', padding: '14px 18px', borderTop: '1px solid rgba(255,255,255,.08)' },
   infoPlaceholder: { margin: '32px 0', padding: '40px 32px', borderRadius: 14, border: '1px dashed rgba(255,20,147,.4)', background: 'rgba(255,20,147,.04)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 },

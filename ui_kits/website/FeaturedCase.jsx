@@ -2,11 +2,11 @@
 const CASES = [
   {
     tag_en: 'CASE #01 · WELLNESS',
-    tag_zh: '案例 #01 · 健康品类',
+    tag_zh: '案例 #01 · 健康保健',
     title_en: 'Full-Funnel Affiliate.\n90 Days to Viral.',
-    title_zh: '全漏斗联盟\n90 天引爆平台',
+    title_zh: '90 天把新品\n推成爆款',
     body_en: 'Ran seeding, paid, LIVE, and top-GMV creator layers in parallel from day one. Turned a wellness product that needs education into a platform-wide breakout.',
-    body_zh: '从 Day 1 开始，并行推进种草、付费、直播和头部 GMV 达人四条线。把一个需要用户教育的健康产品，做成平台级爆款。',
+    body_zh: '这个健康产品卖点不简单，用户需要先理解，才会愿意下单。我们没有慢慢等内容发酵，而是从第一天就同时做达人种草、付费放大、直播带货和头部达人合作，把复杂卖点讲成美国用户看得懂的内容。',
     stats_en: [
       { kind: 'num', num: 10000, suffix: '+', label: 'Creators sampled in month 1' },
       { kind: 'num', num: 33000, suffix: '+', label: 'Affiliate videos in 90 days' },
@@ -14,26 +14,26 @@ const CASES = [
       { kind: 'num', num: 150,   suffix: 'K+', label: 'Monthly GMV by month 5', prefix: '$' },
     ],
     stats_zh: [
-      { kind: 'num', num: 10000, suffix: '+', label: '首月触达达人数' },
-      { kind: 'num', num: 33000, suffix: '+', label: '90 天联盟视频数' },
-      { kind: 'num', num: 4.7,   suffix: 'M', label: '单条爆款视频播放量', decimals: 1 },
-      { kind: 'num', num: 150,   suffix: 'K+', label: '第 5 个月月 GMV', prefix: '$' },
+      { kind: 'num', num: 10000, suffix: '+', label: '首月联系达人' },
+      { kind: 'num', num: 33000, suffix: '+', label: '90 天达人内容' },
+      { kind: 'num', num: 4.7,   suffix: 'M', label: '单条视频播放', decimals: 1 },
+      { kind: 'num', num: 150,   suffix: 'K+', label: '第 5 个月销售额', prefix: '$' },
     ],
     pull_en: 'In education-heavy categories, sequential creator strategies lose. Parallel ones compound.',
-    pull_zh: '在教育型品类里，串行达人策略会失败；并行策略会复利。',
-    video: '../../assets/case-smitty.mp4',
-    creatorHandle: '@shopwithsmitty',
+    pull_zh: '需要教育用户的产品，不能只靠一条爆款。达人、内容、直播和广告要一起跑，数据才会叠起来。',
+    video: '../../assets/case-wellness-hero.mp4',
+    creatorHandle: 'Creator S',
     creatorMeta_en: '4.7M views · hero video',
-    creatorMeta_zh: '470 万播放 · 爆款视频',
+    creatorMeta_zh: '470 万播放 · 爆款内容',
     flip: false,
   },
   {
     tag_en: 'CASE #02 · BEAUTY',
     tag_zh: '案例 #02 · 美妆品类',
     title_en: 'Breaking a Stalled\nGMV Ceiling in 30 Days.',
-    title_zh: '30 天打破\nGMV 天花板',
+    title_zh: '30 天打破\n销售停滞',
     body_en: 'Beauty brand plateaued for months despite strong reviews and proven product-market fit. WEM restructured the hero-product strategy, scaled creator seeding, and unified content direction around a single problem-solution narrative. The ceiling broke in one month.',
-    body_zh: '美妆品牌即使拥有良好口碑和验证过的产品市场契合度，仍然停滞数月。WE 重构了主推品策略，扩大达人种草规模，并统一所有内容方向到一条"问题-方案"叙事。一个月后，天花板被打破。',
+    body_zh: '这个美妆品牌产品评价不错，但 TikTok Shop 销售几个月没有明显增长。我们重新梳理主推品，扩大达人种草，并把内容统一到一个清楚的痛点和卖点。30 天后，销售重新动起来。',
     stats_en: [
       { kind: 'num', num: 982, suffix: 'K', label: 'GMV in a single month', prefix: '$' },
       { kind: 'num', num: 215, suffix: '%+', label: 'Month-over-month growth' },
@@ -41,31 +41,31 @@ const CASES = [
       { kind: 'check', label: 'One unified narrative\nacross all creators' },
     ],
     stats_zh: [
-      { kind: 'num', num: 982, suffix: 'K', label: '单月 GMV', prefix: '$' },
+      { kind: 'num', num: 982, suffix: 'K', label: '单月销售额', prefix: '$' },
       { kind: 'num', num: 215, suffix: '%+', label: '月环比增长' },
-      { kind: 'check', label: '主推品策略\n全面重构' },
-      { kind: 'check', label: '所有达人\n统一叙事' },
+      { kind: 'check', label: '重做主推品\n打法' },
+      { kind: 'check', label: '统一达人\n内容方向' },
     ],
     pull_en: 'Plateaus are almost never a creator-volume problem. They are a story dilution problem.',
-    pull_zh: '平台期几乎从来不是达人数量问题，而是叙事稀释问题。',
+    pull_zh: '很多品牌不是缺达人，而是每个人都在讲不同的卖点。说法统一后，内容才会形成合力。',
     video: null,
     media: 'dashboards',
     dashboards: {
-      before: { src: '../../assets/case2-before-feb.png', label_en: 'BEFORE · FEB 2025', label_zh: '之前 · 2025 年 2 月', stat_en: '$312K GMV', stat_zh: '$312K GMV' },
-      after:  { src: '../../assets/case2-after-mar.png',  label_en: 'AFTER · MAR 2025',  label_zh: '之后 · 2025 年 3 月', stat_en: '$982K GMV', stat_zh: '$982K GMV' },
+      before: { src: '../../assets/case2-before-feb.png', label_en: 'BEFORE · FEB 2025', label_zh: '优化前 · 2025 年 2 月', stat_en: '$312K GMV', stat_zh: '$312K 销售额' },
+      after:  { src: '../../assets/case2-after-mar.png',  label_en: 'AFTER · MAR 2025',  label_zh: '优化后 · 2025 年 3 月', stat_en: '$982K GMV', stat_zh: '$982K 销售额' },
     },
     creatorHandle: 'Beauty DTC brand',
     creatorMeta_en: 'Hero product relaunch',
-    creatorMeta_zh: '主推品重启',
+    creatorMeta_zh: '主推品重新启动',
     flip: true,
   },
   {
     tag_en: 'CASE #03 · MEN’S FASHION',
-    tag_zh: '案例 #03 · 男装品类',
+    tag_zh: '案例 #03 · 男装',
     title_en: 'Unlocking an Underbuilt\nCategory. Cold Start to 10K.',
-    title_zh: '冷启动突破\n空白品类 10K 订单',
+    title_zh: '冷门男装\n跑出 10K+ 订单',
     body_en: 'Six months on the platform with no meaningful traction. Men’s fashion is an underbuilt category on TikTok Shop with limited creator supply. WEM unlocked scale through diversified creator casting, listing optimization, and hero-content engineering designed for algorithmic lift.',
-    body_zh: '上线六个月仍无明显增长。男装在 TikTok Shop 属于供给空白品类，达人资源有限。WE 通过多元化达人选择、商品列表优化和面向算法的爆款内容工程，打开规模增长空间。',
+    body_zh: '品牌上线六个月，销售一直没有起色。男装在美国 TikTok Shop 上本来就不是成熟品类，达人少，内容模板也少。我们先拓宽达人类型，再优化商品页和内容角度，终于把订单跑起来。',
     stats_en: [
       { kind: 'num', num: 10000, suffix: '+', label: 'Orders after relaunch' },
       { kind: 'num', num: 5.1,   suffix: 'M', label: 'Views on one hero video', decimals: 1 },
@@ -73,23 +73,23 @@ const CASES = [
       { kind: 'check', label: 'Creator-first launch\nwith minimal paid spend' },
     ],
     stats_zh: [
-      { kind: 'num', num: 10000, suffix: '+', label: '重启后总订单数' },
-      { kind: 'num', num: 5.1,   suffix: 'M', label: '单条爆款视频播放量', decimals: 1 },
-      { kind: 'check', label: '多元化达人选角\n拓宽目标受众' },
-      { kind: 'check', label: '以达人为先的启动\n低付费投入' },
+      { kind: 'num', num: 10000, suffix: '+', label: '重启后订单数' },
+      { kind: 'num', num: 5.1,   suffix: 'M', label: '单条视频播放', decimals: 1 },
+      { kind: 'check', label: '拓宽达人类型\n找到新受众' },
+      { kind: 'check', label: '先跑达人内容\n再加预算' },
     ],
     pull_en: 'In underbuilt categories, scale is unlocked by broadening the creator pool, not narrowing it.',
-    pull_zh: '在供给空白品类里，规模来自于拓宽达人池，而不是收窄。',
+    pull_zh: '冷门品类先别急着砸广告。先找到会买的人，再放大有效内容。',
     video: '../../assets/case3-zayndeals.mp4',
     media: 'phone',
     creatorHandle: '@zayndeals',
     creatorMeta_en: '5.1M views · hero video',
-    creatorMeta_zh: '510 万播放 · 爆款视频',
+    creatorMeta_zh: '510 万播放 · 爆款内容',
     flip: false,
   },
 ];
 
-const CASE_ACCENTS = ['#FF1493', '#00E5FF', '#9B30FF']; // pink / cyan / purple
+const CASE_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF']; // pink / cyan / purple
 
 const FeaturedCase = ({ lang }) => {
   const h = {
@@ -102,10 +102,10 @@ const FeaturedCase = ({ lang }) => {
     },
     zh: {
       anchor: '案例',
-      kicker: '全托管 · 完整案例',
-      h2a: '从策略到执行',
-      h2b: '我们接管。',
-      sub: '端到端合作：WE 负责策略、达人、内容和店铺运营。',
+      kicker: '美国 TikTok Shop 增长案例',
+      h2a: '内容要好看，',
+      h2b: '更要能卖。',
+      sub: '我们负责策略、达人、内容、直播和店铺运营，目标很简单：让品牌在美国少试错，更快看到真实销售。',
     },
   }[lang];
   return (
@@ -154,8 +154,8 @@ const CaseBlock = ({ c, lang, last, accent }) => {
             <video style={fcStyles.video} src={c.video} autoPlay loop muted playsInline/>
           ) : (
             <div style={fcStyles.placeholder}>
-              <div style={fcStyles.placeholderLabel}>CASE VIDEO</div>
-              <div style={fcStyles.placeholderSub}>Coming soon</div>
+              <div style={fcStyles.placeholderLabel}>{lang === 'en' ? 'CASE VIDEO' : '案例视频'}</div>
+              <div style={fcStyles.placeholderSub}>{lang === 'en' ? 'Coming soon' : '即将上线'}</div>
             </div>
           )}
           <div style={fcStyles.phoneNotch}/>
@@ -266,7 +266,7 @@ const fcStyles = {
   anchor: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.24em', color: '#FF1493', marginBottom: 32, textTransform: 'uppercase' },
   kicker: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 12, letterSpacing: '.18em', color: 'rgba(255,255,255,.6)', marginBottom: 24, textTransform: 'uppercase' },
   sectionH2: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(56px, 6.5vw, 96px)', lineHeight: .98, letterSpacing: '-.005em', textTransform: 'uppercase', margin: 0, color: '#fff' },
-  sectionH2grad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #00E5FF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
+  sectionH2grad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
   sectionSub: { fontFamily: 'var(--font-sans)', fontWeight: 500, fontSize: 19, lineHeight: 1.5, color: 'rgba(255,255,255,.75)', marginTop: 24 },
   inner: { position: 'relative', maxWidth: 1280, margin: '0 auto', padding: '0 32px' },
   block: {},

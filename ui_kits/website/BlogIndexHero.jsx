@@ -34,7 +34,7 @@ const bihStyles = {
   inner: { position: 'relative', maxWidth: 880, margin: '0 auto', padding: '120px 32px 80px', textAlign: 'center' },
   pill: { display: 'inline-block', background: '#fff', color: '#000', borderRadius: 999, padding: '10px 22px', fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 13, letterSpacing: '.08em' },
   h1: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(48px, 6vw, 96px)', lineHeight: .95, letterSpacing: '-.01em', textTransform: 'uppercase', margin: '32px auto 0', color: '#fff' },
-  accent: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 60%, #00E5FF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' },
+  accent: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 60%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 500, fontSize: 18, lineHeight: 1.55, color: 'rgba(255,255,255,.75)', maxWidth: 640, margin: '28px auto 0' },
 };
 window.BlogIndexHero = BlogIndexHero;

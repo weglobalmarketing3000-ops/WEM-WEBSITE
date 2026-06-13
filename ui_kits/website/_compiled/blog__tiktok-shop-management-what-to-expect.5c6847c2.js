@@ -1,0 +1,106 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const {
+  useState,
+  useEffect
+} = React;
+const P = t => ({
+  kind: 'p',
+  text: t
+});
+const H3 = t => ({
+  kind: 'h3',
+  text: t
+});
+const CTA = label => ({
+  kind: 'cta',
+  label,
+  href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925'
+});
+const POST = {
+  meta: {
+    title: 'TikTok Shop Management: What Brands Should Expect from an Agency',
+    cat: 'AGENCY · MANAGEMENT',
+    author: 'WE Marketing Team',
+    date: 'Jan 8, 2026',
+    read: '9 min read',
+    heroImage: 'hero-6-tiktok-shop-management-what-to-expect.png',
+    heroAlt: 'An agency team reviewing a large TikTok Shop performance dashboard with total creators, engagements, content volume, and audience demographics charts.'
+  },
+  sections: [{
+    id: 'intro',
+    h: 'What to expect from a TikTok Shop management agency',
+    body: [P("Hiring a TikTok Shop management agency is a significant decision. You're handing over a sales channel that requires daily attention, creator relationships, and platform-specific expertise. The right partner accelerates your growth. The wrong one wastes your time and budget."), P("Here's what a good TikTok Shop management engagement actually looks like, so you know what to expect and what to demand.")]
+  }, {
+    id: 'includes',
+    h: 'What "management" actually includes',
+    body: [P("A full-service TikTok Shop management agency handles everything between your product and the customer. That breaks down into five core areas:"), H3('Creator operations'), P("This is the biggest piece. Recruiting creators, vetting them (checking post rate, GMV history, content quality, and category fit), sending samples, following up to ensure content gets posted, and re-engaging top performers. This alone is a daily, multi-hour process that most brands can't handle alongside their other responsibilities."), H3('Affiliate program management'), P("Setting commission rates, managing open and targeted collaborations, adjusting rates based on performance data, and running creator incentive campaigns to boost content volume during key periods."), H3('Shop operations'), P("Product listing optimization, pricing strategy, promotional campaigns, and platform compliance. The details that affect whether someone who lands on your product page actually buys."), H3('Content strategy'), P("Identifying which content angles and creator types drive the best conversion rates for your products, then doubling down on what works. This includes deciding which videos to amplify with Spark Ads."), H3('Reporting and optimization'), P("Weekly and monthly performance reports that show you exactly what's happening: impressions, GMV, content volume and variety, creator activity, post rates, top-performing content, and clear recommendations for what to do next.")]
+  }, {
+    id: 'pricing',
+    h: 'How pricing typically works',
+    body: [P("Most TikTok Shop management agencies use one of three models:"), H3('Monthly retainer plus GMV commission'), P("The most common structure. You pay a fixed monthly fee for the management work, plus a percentage of the GMV the agency helps generate. This aligns incentives: the agency earns more when you sell more."), H3('Commission-only'), P("Some agencies work on pure commission. The upside is lower upfront cost. The downside is these agencies may prioritize quick wins over sustainable program building, since they only earn when sales happen."), H3('Flat monthly fee'), P("Less common, but some agencies charge a flat rate regardless of sales performance. This gives you predictable costs but removes the agency's performance incentive."), P("For most brands, the retainer-plus-commission model offers the best balance of accountability and alignment.")]
+  }, {
+    id: 'first-90',
+    h: 'What to expect in the first 90 days',
+    body: [H3('Month 1: Foundation'), P("The agency audits your shop, optimizes listings, sets up the affiliate program, and starts recruiting and seeding creators. Content starts going live toward the end of the first month. Sales during this period are usually modest. This is the building phase."), H3('Month 2: Momentum'), P("Your content library grows. The algorithm has more signals to work with. The agency identifies which creators and content angles are driving conversions and doubles down on them. GMV starts picking up."), H3('Month 3: Optimization'), P("With 60-90 days of data, the agency can make informed decisions: which products to push, which creators to re-engage, where to apply Spark Ads budget. This is when most brands see meaningful and consistent growth."), P("If an agency promises overnight results, be skeptical. TikTok Shop is a content flywheel that takes time to build. But once it's spinning, it compounds.")]
+  }, {
+    id: 'evaluate',
+    h: "How to evaluate your agency's performance",
+    body: [P("Beyond GMV growth, track these indicators:"), H3('Impressions and reach'), P("Especially in the early months, conversions may be modest while your content base is building. Track how many impressions your creator content is generating. Growing impressions mean the algorithm is picking up your content, and conversions will follow."), H3('Content volume and variety'), P("How many creator videos are being published each week? Is the number growing? But volume alone isn't enough. Look at variety: are you getting different content angles, different creator styles, different product use cases? A mix of unboxing, tutorials, before-and-afters, and routine videos gives the algorithm more to work with and helps you identify what converts best."), H3('Post rate'), P("What percentage of creators who receive samples actually post? Good agencies achieve 80% or higher through proper vetting and proactive follow-up. If your agency's post rate is below 50%, their creator management process needs work."), H3('Creator quality'), P("Are the creators posting content that feels authentic and drives engagement? A high volume of low-quality, scripted-feeling videos won't convert."), H3('Communication'), P("Is the agency proactive? Do they surface insights and recommendations, or do they just send you a spreadsheet? Good agency partners flag issues before they become problems and bring ideas to the table without being asked."), H3('Transparency'), P("Can you see exactly where your sample budget is going? Which creators received product? Who posted and who didn't? If you can't see the details, you can't evaluate the work.")]
+  }, {
+    id: 'models',
+    h: 'In-house, agency, or hybrid?',
+    body: [P("There's no one-size-fits-all answer. The right model depends on your team, your budget, and how fast you want to move."), H3('Consider in-house if'), P("You want full control over every aspect of your TikTok Shop. At minimum, you'll need one person dedicated to shop operations (listings, pricing, promotions, compliance) and a separate full-time role for creator outreach and collaboration management. These are two very different skill sets, and combining them into one role usually means one side gets neglected."), P("The challenge with in-house is the learning curve. TikTok Shop is a unique ecosystem with its own rules, tools, and creator dynamics. Starting a team from zero without anyone who has hands-on TTS experience is difficult. Training takes time, and mistakes during the ramp-up period cost you in wasted samples, missed opportunities, and slow content velocity."), H3('Consider an agency if'), P("You want to scale quickly without building and managing an in-house team. This makes sense for brands that want to focus their energy on product development, supply chain, and overall business growth rather than the day-to-day of creator communication, sample logistics, and content management."), P("An agency is generally a similar cost to hiring your own team, sometimes less, when you factor in salaries, benefits, and the time it takes to recruit and train. But an agency gives you a head start with their existing creator network and operational experience. Instead of spending months building a pipeline from scratch, you're plugging into a system that's already running."), P("If you don't plan on building an in-house team at all, an agency is the clear path. You get execution without the overhead of hiring, managing, and training people in a very specialized field."), H3('Consider a hybrid model if'), P("You want the best of both worlds. This works well when you already have someone with e-commerce or shop operations experience on your team. In a hybrid setup, your in-house team handles shop operations and paid ads, giving you full control over the storefront, while the agency handles all affiliate and creator management, giving you access to their creator network and outreach systems."), P("This model is also smart for brands that want to eventually bring everything in-house. Start with an agency to get momentum and learn the playbook, then gradually transition creator operations to your own team as you build internal expertise. The agency accelerates your launch while you build the foundation for long-term independence."), P("If you're evaluating TikTok Shop management options, talk to our team about what a partnership looks like for your brand."), CTA('Book a discovery call →')]
+  }],
+  faqs: [{
+    q: 'How much does TikTok Shop management cost?',
+    a: "Pricing depends on the scope of your program. Most agencies charge a monthly retainer in the thousands plus a GMV commission, typically 5-15%. The exact rate depends on factors like your brand's size, how many products you're running, how many creators need to be activated, and what services are included (creator management only vs. full shop operations). This retainer-plus-commission structure keeps the agency invested in your growth, not just billing hours."
+  }, {
+    q: 'How long before I see results from TikTok Shop management?',
+    a: "Timeline depends on whether you're starting from scratch or optimizing an existing program. For a cold start, expect 4 to 5 weeks before your first creator content goes live. Samples ship in week 1 to 2, creators receive them by week 3, and content typically posts by week 4 to 5. If your shop is already running and the agency is optimizing, initial content improvements can show within 2 to 3 weeks. Sales timing is harder to predict. Content-driven platforms are inherently variable. We've seen products go viral on day 3 of content going live, and we've seen brands build steadily over 3 months before hitting their stride. It depends on your product's content fit, your category, and how the algorithm responds. Plan for a minimum 90-day evaluation window, especially for cold starts. The brands that commit to 90 days almost always see meaningful results. The ones that pull out after 30 days rarely give the flywheel enough time to spin."
+  }, {
+    q: 'What should a TikTok Shop management agency report on?',
+    a: "At minimum, weekly reports should cover: impressions and reach, GMV by product and creator, number of new creators activated, content volume and variety (videos posted across different formats), post rate, top-performing content with links, and recommendations for the coming week. Monthly reports should add trend analysis, commission costs, and ROI calculations."
+  }],
+  related: [{
+    label: 'What Does a TikTok Shop Agency Do?',
+    href: 'what-does-a-tiktok-shop-agency-do.html'
+  }, {
+    label: "TikTok Shop Affiliate Program: A Brand's Complete Guide",
+    href: 'tiktok-shop-affiliate-program-brand-guide.html'
+  }, {
+    label: '5 Signs Your Brand Is Ready for TikTok Shop',
+    href: 'signs-your-brand-is-ready-for-tiktok-shop.html'
+  }]
+};
+function App() {
+  const slug = window.location.pathname.split('/').pop().replace('.html', '');
+  const [lang, setLang] = useState(() => {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+    return localStorage.getItem('we-lang') || 'en';
+  });
+  const post = lang === 'zh' && window.BLOG_ZH_POSTS?.[slug] ? window.BLOG_ZH_POSTS[slug] : POST;
+  useEffect(() => {
+    localStorage.setItem('we-lang', lang);
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    if (post?.meta?.title) document.title = (post.meta.title || "WE Blog") + " | WE Marketing";
+  }, [lang, post]);
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+  return React.createElement("div", {
+    "data-screen-label": "WE Blog \xB7 Management Expectations"
+  }, React.createElement(CursorStars, null), React.createElement(NavBar, {
+    lang: lang,
+    onLang: setLang,
+    basePath: "../"
+  }), React.createElement(BlogPost, _extends({}, post, {
+    labels: lang === 'zh' ? window.BLOG_ZH_LABELS : undefined
+  })), React.createElement(CtaFooter, {
+    lang: lang
+  }), React.createElement(Footer, {
+    lang: lang,
+    basePath: "../"
+  }));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App, null));

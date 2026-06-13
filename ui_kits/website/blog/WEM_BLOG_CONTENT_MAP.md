@@ -37,4 +37,6 @@ Keep one WEM editorial system, but vary the scene by article category.
 - UGC/influencer: creator briefing, rights review, content library, editing bay.
 - Branding: positioning workshop, moodboards, product language, customer trust signals.
 
+Scene realism matters as much as human realism. Objects and backgrounds should feel used, slightly imperfect, and naturally lit: uneven product placement, soft clutter, cables, open boxes, sample labels, half-used makeup, fingerprints on phones, fabric wrinkles, imperfect shelves, real shadows, and mixed light from windows, lamps, or screens. Avoid perfectly centered objects, showroom symmetry, fake glossy tabletops, and backgrounds that look like a digital set.
+
 Avoid repeating the same black desk, laptop, and sticky-note setup. Use varied people, ages, body types, ethnicities, rooms, props, and camera distance while keeping the same dark cinematic WEM palette.

@@ -1,0 +1,73 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop 美区 Deals for You Days 备战时间线</title>
+  <desc id="desc">活动前三周到活动周的四阶段 WEM 时间线，覆盖选品、达人、店铺与履约。</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1480" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E0E0E"/>
+      <stop offset="1" stop-color="#040404"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF6D3A"/>
+      <stop offset="0.55" stop-color="#FF1493"/>
+      <stop offset="1" stop-color="#8F5BFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1420" cy="160" r="200" fill="#8F5BFF" fill-opacity="0.08"/>
+  <circle cx="180" cy="900" r="160" fill="#FF1493" fill-opacity="0.08"/>
+
+  <text x="120" y="110" fill="#FF8FB9" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="4">WEM EXECUTION TIMELINE</text>
+  <text x="120" y="176" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">TikTok Shop 美区 Deals for You Days 备战时间线</text>
+  <text x="120" y="228" fill="#CFCFCF" font-family="Arial, Helvetica, sans-serif" font-size="28">活动前先把达人、店铺承接和履约节奏对齐，流量进来时才接得住。</text>
+
+  <path d="M170 380H1420" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="250" cy="380" r="22" fill="#FF6D3A"/>
+    <circle cx="620" cy="380" r="22" fill="#FF1493"/>
+    <circle cx="990" cy="380" r="22" fill="#FF3E9E"/>
+    <circle cx="1360" cy="380" r="22" fill="#8F5BFF"/>
+
+    <text x="182" y="330" fill="#FFFFFF" font-size="28" font-weight="700">前 3 到 2 周</text>
+    <text x="552" y="330" fill="#FFFFFF" font-size="28" font-weight="700">前 2 到 1 周</text>
+    <text x="946" y="330" fill="#FFFFFF" font-size="28" font-weight="700">前 1 周</text>
+    <text x="1314" y="330" fill="#FFFFFF" font-size="28" font-weight="700">活动周</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="152" y="496" fill="#FF5BB8" font-size="18" letter-spacing="2">选品 + 价格</text>
+    <text x="152" y="540" fill="#FFFFFF" font-size="28" font-weight="700">锁定主推 SKU</text>
+    <text x="152" y="584" fill="#D5D5D5" font-size="22">先定活动价格、组合和</text>
+    <text x="152" y="616" fill="#D5D5D5" font-size="22">库存优先级，不要摊太开。</text>
+    <text x="152" y="704" fill="#D5D5D5" font-size="22">WEM 作用：先帮品牌</text>
+    <text x="152" y="736" fill="#D5D5D5" font-size="22">收敛焦点，再放大资源。</text>
+
+    <rect x="490" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="522" y="496" fill="#FF8FC4" font-size="18" letter-spacing="2">达人 + 内容</text>
+    <text x="522" y="540" fill="#FFFFFF" font-size="28" font-weight="700">寄样和预热前置</text>
+    <text x="522" y="584" fill="#D5D5D5" font-size="22">收内容、定 brief、补齐</text>
+    <text x="522" y="616" fill="#D5D5D5" font-size="22">品牌账号预热内容。</text>
+    <text x="522" y="704" fill="#D5D5D5" font-size="22">WEM 作用：把寄样和</text>
+    <text x="522" y="736" fill="#D5D5D5" font-size="22">审核节奏往前推。</text>
+
+    <rect x="860" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="892" y="496" fill="#FF8FC4" font-size="18" letter-spacing="2">店铺 + 搜索</text>
+    <text x="892" y="540" fill="#FFFFFF" font-size="28" font-weight="700">清理承接层</text>
+    <text x="892" y="584" fill="#D5D5D5" font-size="22">活动页、商品页、搜索词</text>
+    <text x="892" y="616" fill="#D5D5D5" font-size="22">和评价承接都要统一。</text>
+    <text x="892" y="704" fill="#D5D5D5" font-size="22">WEM 作用：让内容语言</text>
+    <text x="892" y="736" fill="#D5D5D5" font-size="22">和成交语言保持一致。</text>
+
+    <rect x="1230" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="1262" y="496" fill="#C5B1FF" font-size="18" letter-spacing="2">履约 + 监控</text>
+    <text x="1262" y="540" fill="#FFFFFF" font-size="28" font-weight="700">守住用户体验</text>
+    <text x="1262" y="584" fill="#D5D5D5" font-size="22">盯库存、客服、评论区和</text>
+    <text x="1262" y="616" fill="#D5D5D5" font-size="22">实际发货表现，别被动救火。</text>
+    <text x="1262" y="704" fill="#D5D5D5" font-size="22">WEM 作用：把达人反馈</text>
+    <text x="1262" y="736" fill="#D5D5D5" font-size="22">和店铺执行连起来看。</text>
+  </g>
+
+  <text x="120" y="872" fill="#B8B8B8" font-family="Arial, Helvetica, sans-serif" font-size="22">为什么重要：Deals for You Days 不只考流量，也在考你的选品、内容、店铺和履约是不是在同一条时间线上。</text>
+</svg>

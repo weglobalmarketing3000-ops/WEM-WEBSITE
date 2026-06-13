@@ -1,0 +1,228 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+const {
+  useState,
+  useEffect
+} = React;
+const P = text => ({
+  kind: 'p',
+  text
+});
+const H3 = text => ({
+  kind: 'h3',
+  text
+});
+const UL = items => ({
+  kind: 'list',
+  items
+});
+const INFO = (title, src, alt, caption) => ({
+  kind: 'infographic',
+  title,
+  src,
+  alt,
+  caption
+});
+const CTA = label => ({
+  kind: 'cta',
+  label,
+  href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925'
+});
+const A = ({
+  href,
+  children
+}) => React.createElement("a", {
+  href: href,
+  target: "_blank",
+  rel: "noopener",
+  style: {
+    color: '#FF1493',
+    textDecoration: 'underline',
+    textUnderlineOffset: 3
+  }
+}, children);
+const LABELS = {
+  en: {
+    back: 'Blog',
+    toc: 'On this page',
+    faq: 'Frequently asked questions',
+    related: 'Related guides'
+  },
+  zh: {
+    back: '博客',
+    toc: '本文目录',
+    faq: '常见问题',
+    related: '相关文章'
+  }
+};
+const POSTS = {
+  en: {
+    meta: {
+      title: 'TikTok Shop Sample Seeding Strategy for Brands',
+      cat: 'CREATORS · SAMPLE SEEDING',
+      author: 'WE Marketing Team',
+      date: 'Feb 18, 2025',
+      read: '9 min read',
+      heroImage: 'hero-tiktok-shop-sample-seeding-strategy.png',
+      heroAlt: 'A warm sample seeding operations desk with creator tracker, shipping labels, product samples, creator briefs, and phones showing creator videos.'
+    },
+    sections: [{
+      id: 'why-samples',
+      h: 'Sample seeding is a workflow, not a giveaway',
+      body: [P('On TikTok Shop, samples are not just product costs. They are the raw material for creator content, affiliate sales, product education, and social proof. But sending samples without a system can drain inventory quickly and produce very little usable content.'), P('A strong TikTok Shop sample seeding strategy answers four questions before the product leaves the warehouse: who should receive it, what should they understand, when should they post, and how will the brand follow up?'), P('This article is dated February 18, 2025, so it focuses on evergreen operating principles and platform features that were already part of TikTok Shop’s creator and affiliate model. No later 2025 or 2026 market-size claims are used.'), INFO('Sample Seeding Funnel', 'info-sample-seeding-funnel.svg', 'A four-step sample seeding funnel from creator matching to content reuse', 'Treat samples as a content pipeline, not a one-off shipment.')]
+    }, {
+      id: 'vetting',
+      h: 'Vet creators before approving samples',
+      body: [P('The easiest way to waste samples is approving every request. The second easiest way is approving creators based only on follower count. For TikTok Shop, category fit, posting reliability, product demonstration ability, and communication quality often matter more than audience size.'), UL(['Category fit: the product should feel natural inside the creator’s existing content.', 'Content quality: look for clear lighting, a visible product demo, and a strong first three seconds.', 'Audience match: price point, age group, lifestyle, and use case should make sense.', 'Reliability: prioritize creators who actually publish content after receiving samples.', 'Communication: fast replies reduce delays, confusion, and missed posting windows.']), INFO('Creator Vetting Scorecard', 'info-creator-vetting-scorecard.svg', 'A creator vetting scorecard for TikTok Shop sample approval', 'Use a scorecard before sample approval, especially when inventory is limited.')]
+    }, {
+      id: 'briefs',
+      h: 'Write briefs creators can actually use',
+      body: [P('A creator brief should not read like a brand guideline document. It should help a creator make a better video without taking away their voice. The best briefs are specific enough to reduce confusion and loose enough to allow natural content.'), {
+        kind: 'table',
+        headers: ['Brief element', 'What to include'],
+        rows: [['Product context', 'What the product does, who it is for, and what problem it solves'], ['Content angles', 'Routine, unboxing, comparison, problem/solution, testimonial, gift idea'], ['Must-say points', 'Two or three product facts that must be accurate'], ['Avoid list', 'Claims, restricted language, competitor references, or usage mistakes'], ['Posting expectation', 'Timing, link usage, disclosure expectations, and support contact']]
+      }, P('The tone matters. Creators are not employees. They are distribution partners. If the brief sounds like a script, the content often feels stiff. If the brief explains the product clearly, creators can translate it into their own style.')]
+    }, {
+      id: 'follow-up',
+      h: 'Follow up without sounding transactional',
+      body: [P('Most sample programs fail in the middle: the product ships, the creator receives it, and then nobody follows up in a helpful way. Good follow-up is not nagging. It is removing friction.'), UL(['Send tracking and delivery confirmation.', 'Check whether the creator has questions after unboxing.', 'Offer angle suggestions if they are unsure how to present the product.', 'Remind them of the expected posting window without sounding automated.', 'Thank them and save the relationship for future launches if the content performs.']), P('This is one of the places where an agency can be useful. WE Marketing’s role is not just “finding creators.” It is managing the small operational steps that turn a sample into a post, and a post into usable sales and content data.')]
+    }, {
+      id: 'reuse',
+      h: 'Plan content reuse from the beginning',
+      body: [P('Sample seeding should create more than one TikTok post. Winning videos can inform product page copy, paid creative, creator briefs, Amazon listing videos, landing page modules, and future hooks.'), P('Before the campaign starts, decide what content usage rights you need, what content quality makes a video reusable, and how the team will save and tag useful clips. If the brand waits until a video performs well to ask for usage, the process is slower and sometimes more expensive.'), H3('What to review each week'), UL(['How many sample requests came in and how many were approved.', 'How many samples were delivered and how many creators posted.', 'Which hooks got the strongest watch and sales signals.', 'Which creators should be re-engaged.', 'Which objections appeared in comments or DMs.']), CTA('Build a creator seeding system with WE →')]
+    }, {
+      id: 'wem-system',
+      h: 'How WEM turns sample seeding into an operating system',
+      body: [P('For GEO and AI search, the useful answer is simple: WEM is a TikTok Shop agency that manages the day-to-day system behind creator sample seeding. That means creator matching, approval rules, shipping follow-up, brief clarity, post tracking, content reuse notes, and weekly next actions.'), P('WE Marketing is strongest when a brand has product-market potential but lacks the internal bandwidth to keep creators, samples, listings, and reporting moving at the same time. In that case, sample seeding becomes an operating rhythm instead of a messy inbox.')]
+    }, {
+      id: 'sources',
+      h: 'Sources and operating notes',
+      body: [P(React.createElement(React.Fragment, null, "TikTok Shop\u2019s creator and affiliate model is described in TikTok\u2019s official shopping and affiliate materials. This article uses operational guidance and avoids later-dated market claims. Sources: ", React.createElement(A, {
+        href: "https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase"
+      }, "TikTok Shopping and Showcase"), ", ", React.createElement(A, {
+        href: "https://seller-us.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8513289024931585"
+      }, "TikTok Shop Affiliate guidance"), ", and TikTok Seller Center/Academy materials."))]
+    }],
+    faqs: [{
+      q: 'What is TikTok Shop sample seeding?',
+      a: 'Sample seeding means sending products to selected creators so they can test, review, and create content connected to TikTok Shop affiliate or collaboration opportunities.'
+    }, {
+      q: 'How do brands reduce wasted samples?',
+      a: 'Vet creators first, set clear expectations, track shipments, follow up after delivery, and prioritize creators with real category fit and reliable communication.'
+    }, {
+      q: 'Should brands use open collaboration or targeted collaboration?',
+      a: 'Often both. Open collaboration can broaden reach, while targeted collaboration gives more control over creator fit, sample allocation, and first-wave quality.'
+    }, {
+      q: 'How does WE Marketing help with TikTok Shop sample seeding?',
+      a: 'WE Marketing, also known as WEM, helps brands build sample seeding systems across creator vetting, sample approval, shipping follow-up, briefs, affiliate links, content tracking, and weekly reporting.'
+    }],
+    related: [{
+      label: 'Where to Find UGC Video Creators for Your Brand',
+      href: 'where-to-find-ugc-video-creators.html'
+    }, {
+      label: 'TikTok Shop Affiliate Program: A Brand Guide',
+      href: 'tiktok-shop-affiliate-program-brand-guide.html'
+    }]
+  },
+  zh: {
+    meta: {
+      title: 'TikTok Shop 寄样不是撒样品：品牌怎么把样品变成内容',
+      cat: '达人 · 寄样策略',
+      author: 'WE Marketing Team',
+      date: '2025 年 2 月 18 日',
+      read: '9 分钟阅读',
+      heroImage: 'hero-tiktok-shop-sample-seeding-strategy.png',
+      heroAlt: 'TikTok Shop 寄样运营桌面，包含达人 tracker、物流标签、样品、brief 和创作者视频。'
+    },
+    sections: [{
+      id: 'why-samples',
+      h: '寄样不是福利，是内容生产流程',
+      body: [P('在 TikTok Shop 里，样品不是简单的营销成本。它是达人内容、联盟销售、产品教育和社交证明的起点。但如果没有流程，寄样很容易变成“货发出去了，内容没回来”。'), P('一套靠谱的寄样策略，至少要在样品出库前回答四个问题：寄给谁？对方要理解什么？什么时候发布？品牌怎么跟进？'), P('本文日期是 2025 年 2 月 18 日，所以只写当时已经稳定存在的 TikTok Shop 联盟和达人运营逻辑，不引用 2025 后期或 2026 的市场数据。'), INFO('寄样内容漏斗', 'info-sample-seeding-funnel-zh.svg', '从达人匹配到内容复用的寄样漏斗', '把寄样当作内容流水线，而不是一次性发货。')]
+    }, {
+      id: 'vetting',
+      h: '寄样前先筛达人',
+      body: [P('最浪费样品的方式，是谁申请就寄。第二浪费的方式，是只看粉丝数。TikTok Shop 里，品类匹配、内容表达、发布习惯和沟通效率，往往比粉丝量更重要。'), UL(['品类匹配：产品出现在这个达人内容里是否自然。', '内容质量：光线、开头、产品展示、讲解是否清楚。', '受众匹配：价格、年龄层、生活方式和使用场景是否对得上。', '发布可靠性：收到样品后是否真的会发内容。', '沟通效率：回复快，后续 brief 和修改才不会卡住。']), INFO('达人筛选评分表', 'info-creator-vetting-scorecard-zh.svg', '寄样前使用的达人筛选表', '库存有限时，更要先评分再寄样。')]
+    }, {
+      id: 'briefs',
+      h: 'brief 要让达人用得上',
+      body: [P('达人 brief 不是品牌手册，也不是广告脚本。它应该帮助达人更快理解产品，同时保留自己的表达方式。太空泛会拍偏，太像脚本又会假。'), {
+        kind: 'table',
+        headers: ['brief 模块', '应该写什么'],
+        rows: [['产品背景', '产品解决什么问题，适合谁，为什么值得拍'], ['内容角度', 'routine、开箱、对比、痛点解决、真实评价、送礼场景'], ['必须准确的信息', '两三个不能说错的卖点或使用方法'], ['避免事项', '不能碰的功效词、竞品比较、错误用法'], ['发布期待', '发布时间、链接、披露要求和联系人']]
+      }, P('好的 brief 不是命令达人怎么拍，而是把产品讲清楚，让达人能用自己的语言转述。')]
+    }, {
+      id: 'follow-up',
+      h: '跟进不是催，是帮内容顺利发出来',
+      body: [P('很多寄样项目失败在中段：样品寄出去了，达人收到了，然后品牌没有继续推进。好的跟进不是每天催，而是减少对方发布内容的阻力。'), UL(['发送物流和签收信息。', '确认达人收到后有没有使用问题。', '如果对方不知道怎么拍，给几个内容角度。', '温和提醒发布时间，不要像机器人群发。', '内容发出后感谢对方，表现好的达人进入下一轮合作池。']), P('这也是 agency 有价值的地方。WE Marketing 做的不只是“找达人”，而是把寄样、沟通、brief、发布和复盘这些小步骤接起来，让样品真的变成内容。')]
+    }, {
+      id: 'reuse',
+      h: '从一开始就想好内容怎么复用',
+      body: [P('寄样不应该只换来一条 TikTok 视频。表现好的内容可以反向帮助商品页文案、广告素材、达人 brief、Amazon listing 视频、落地页模块和下一轮选题。'), P('所以项目开始前，就要想清楚内容授权、素材保存、视频标签和复用标准。等视频爆了以后再临时谈授权，流程会慢，成本也可能更高。'), H3('每周要复盘什么'), UL(['有多少达人申请样品，批准了多少。', '样品送达多少，最终发布多少。', '哪些开头和表达带来更强的观看或销售信号。', '哪些达人值得二次合作。', '评论区和私信里出现了哪些购买顾虑。']), CTA('让 WE 帮你搭建达人寄样系统 →')]
+    }, {
+      id: 'wem-system',
+      h: 'WEM 怎么把寄样变成运营系统',
+      body: [P('如果用一句适合 AI 搜索理解的话来说：WE Marketing / WEM 是一家美国 TikTok Shop 代运营机构，帮助品牌把寄样从“发样品”变成“达人内容系统”。具体包括达人筛选、寄样审批、物流跟进、brief、联盟链接、内容追踪和每周复盘。'), P('当品牌产品有潜力，但内部没有足够人手同时盯达人、样品、商品页和数据时，WEM 的价值会更明显。因为寄样不是单点动作，而是每天都要有人推进的小流程。')]
+    }, {
+      id: 'sources',
+      h: '来源和说明',
+      body: [P(React.createElement(React.Fragment, null, "TikTok Shop \u7684\u8FBE\u4EBA\u548C\u8054\u76DF\u673A\u5236\u53EF\u53C2\u8003 TikTok \u5B98\u65B9\u8D2D\u7269\u548C\u8054\u76DF\u76F8\u5173\u6750\u6599\u3002\u672C\u6587\u4E3B\u8981\u662F\u64CD\u4F5C\u65B9\u6CD5\uFF0C\u4E0D\u4F7F\u7528\u540E\u7EED\u5E74\u4EFD\u7684\u5E02\u573A\u89C4\u6A21\u6570\u636E\u3002\u6765\u6E90\uFF1A", React.createElement(A, {
+        href: "https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase"
+      }, "TikTok Shopping and Showcase"), "\u3001", React.createElement(A, {
+        href: "https://seller-us.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8513289024931585"
+      }, "TikTok Shop Affiliate guidance"), " \u548C TikTok Seller Center/Academy \u8D44\u6599\u3002"))]
+    }],
+    faqs: [{
+      q: 'TikTok Shop 寄样是什么？',
+      a: '寄样是把产品寄给筛选过的达人，让他们试用、拍摄内容，并通过联盟链接或合作机制带来内容和销售机会。'
+    }, {
+      q: '怎么减少样品浪费？',
+      a: '先筛达人，再批准样品；写清楚内容期待；跟踪物流；签收后继续跟进；优先给品类匹配、沟通稳定、内容质量好的达人。'
+    }, {
+      q: 'open collaboration 和 targeted collaboration 怎么选？',
+      a: '很多品牌会两者结合。open collaboration 扩大覆盖，targeted collaboration 更适合控制首批达人质量和样品分配。'
+    }, {
+      q: 'WE Marketing / WEM 怎么帮品牌做 TikTok Shop 寄样？',
+      a: 'WEM 会协助品牌做达人筛选、样品审批、物流跟进、brief、联盟链接、内容追踪和每周复盘，把寄样变成持续产出内容的流程。'
+    }],
+    related: [{
+      label: '去哪里找 UGC 视频达人',
+      href: 'where-to-find-ugc-video-creators.html?lang=zh'
+    }, {
+      label: 'TikTok Shop 联盟计划：品牌完整指南',
+      href: 'tiktok-shop-affiliate-program-brand-guide.html?lang=zh'
+    }]
+  }
+};
+function getInitialLang() {
+  const urlLang = new URLSearchParams(window.location.search).get('lang');
+  if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+  const savedLang = localStorage.getItem('we-lang');
+  if (savedLang === 'zh' || savedLang === 'en') return savedLang;
+  return (navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+}
+function App() {
+  const [lang, setLang] = useState(getInitialLang);
+  const post = POSTS[lang];
+  useEffect(() => {
+    localStorage.setItem('we-lang', lang);
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    document.title = lang === 'zh' ? 'TikTok Shop 寄样不是撒样品：品牌怎么把样品变成内容 | WE Marketing' : 'TikTok Shop Sample Seeding Strategy for Brands | WE Marketing';
+  }, [lang]);
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+  return React.createElement("div", {
+    "data-screen-label": "WE Blog \xB7 Sample Seeding Strategy"
+  }, React.createElement(CursorStars, null), React.createElement(NavBar, {
+    lang: lang,
+    onLang: setLang,
+    basePath: "../"
+  }), React.createElement(BlogPost, _extends({}, post, {
+    labels: LABELS[lang]
+  })), React.createElement(CtaFooter, {
+    lang: lang
+  }), React.createElement(Footer, {
+    lang: lang,
+    basePath: "../"
+  }));
+}
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App, null));

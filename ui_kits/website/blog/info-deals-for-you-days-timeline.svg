@@ -1,0 +1,77 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop US Deals for You Days prep timeline</title>
+  <desc id="desc">A four-phase WEM timeline for preparing TikTok Shop US Deals for You Days with product, creator, storefront, and operations tasks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1480" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E0E0E"/>
+      <stop offset="1" stop-color="#040404"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF6D3A"/>
+      <stop offset="0.55" stop-color="#FF1493"/>
+      <stop offset="1" stop-color="#8F5BFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1420" cy="160" r="200" fill="#8F5BFF" fill-opacity="0.08"/>
+  <circle cx="180" cy="900" r="160" fill="#FF1493" fill-opacity="0.08"/>
+
+  <text x="120" y="110" fill="#FF8FB9" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="4">WEM PREP TIMELINE</text>
+  <text x="120" y="176" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">TikTok Shop US Deals for You Days Prep Timeline</text>
+  <text x="120" y="228" fill="#CFCFCF" font-family="Arial, Helvetica, sans-serif" font-size="28">Build creator momentum, clean store handoff, and protect fulfillment before the promo window opens.</text>
+
+  <path d="M170 380H1420" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="250" cy="380" r="22" fill="#FF6D3A"/>
+    <circle cx="620" cy="380" r="22" fill="#FF1493"/>
+    <circle cx="990" cy="380" r="22" fill="#FF3E9E"/>
+    <circle cx="1360" cy="380" r="22" fill="#8F5BFF"/>
+
+    <text x="180" y="330" fill="#FFFFFF" font-size="28" font-weight="700">Week -3 to -2</text>
+    <text x="560" y="330" fill="#FFFFFF" font-size="28" font-weight="700">Week -2 to -1</text>
+    <text x="945" y="330" fill="#FFFFFF" font-size="28" font-weight="700">Week -1</text>
+    <text x="1300" y="330" fill="#FFFFFF" font-size="28" font-weight="700">Sale Week</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="152" y="496" fill="#FF5BB8" font-size="18" letter-spacing="2">PRODUCT + PLANNING</text>
+    <text x="152" y="540" fill="#FFFFFF" font-size="28" font-weight="700">Lock hero SKUs</text>
+    <text x="152" y="584" fill="#D5D5D5" font-size="22">Approve pricing logic.</text>
+    <text x="152" y="616" fill="#D5D5D5" font-size="22">Confirm bundles and</text>
+    <text x="152" y="648" fill="#D5D5D5" font-size="22">inventory priorities.</text>
+    <text x="152" y="704" fill="#D5D5D5" font-size="22">WEM role: narrow focus</text>
+    <text x="152" y="736" fill="#D5D5D5" font-size="22">before resources get split.</text>
+
+    <rect x="490" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="522" y="496" fill="#FF8FC4" font-size="18" letter-spacing="2">CREATORS + CONTENT</text>
+    <text x="522" y="540" fill="#FFFFFF" font-size="28" font-weight="700">Ship and brief early</text>
+    <text x="522" y="584" fill="#D5D5D5" font-size="22">Collect creator content.</text>
+    <text x="522" y="616" fill="#D5D5D5" font-size="22">Publish merchant warm-up</text>
+    <text x="522" y="648" fill="#D5D5D5" font-size="22">posts before the sale opens.</text>
+    <text x="522" y="704" fill="#D5D5D5" font-size="22">WEM role: move sample and</text>
+    <text x="522" y="736" fill="#D5D5D5" font-size="22">review timing forward.</text>
+
+    <rect x="860" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="892" y="496" fill="#FF8FC4" font-size="18" letter-spacing="2">SHOP + SEARCH</text>
+    <text x="892" y="540" fill="#FFFFFF" font-size="28" font-weight="700">Clean store handoff</text>
+    <text x="892" y="584" fill="#D5D5D5" font-size="22">Update landing, PDPs,</text>
+    <text x="892" y="616" fill="#D5D5D5" font-size="22">search terms, and reviews.</text>
+    <text x="892" y="648" fill="#D5D5D5" font-size="22">Make the sale easy to follow.</text>
+    <text x="892" y="704" fill="#D5D5D5" font-size="22">WEM role: keep content and</text>
+    <text x="892" y="736" fill="#D5D5D5" font-size="22">conversion language aligned.</text>
+
+    <rect x="1230" y="446" width="270" height="320" rx="24" fill="#151515" stroke="#2B2B2B"/>
+    <text x="1262" y="496" fill="#C5B1FF" font-size="18" letter-spacing="2">OPS + MONITORING</text>
+    <text x="1262" y="540" fill="#FFFFFF" font-size="28" font-weight="700">Protect the promise</text>
+    <text x="1262" y="584" fill="#D5D5D5" font-size="22">Watch sell-through, support,</text>
+    <text x="1262" y="616" fill="#D5D5D5" font-size="22">inventory, and comments.</text>
+    <text x="1262" y="648" fill="#D5D5D5" font-size="22">Adjust quickly, not reactively.</text>
+    <text x="1262" y="704" fill="#D5D5D5" font-size="22">WEM role: connect creator</text>
+    <text x="1262" y="736" fill="#D5D5D5" font-size="22">signals with store execution.</text>
+  </g>
+
+  <text x="120" y="872" fill="#B8B8B8" font-family="Arial, Helvetica, sans-serif" font-size="22">Why this matters: Deals for You Days does not only test traffic. It tests whether product, creator, store, and ops move on the same schedule.</text>
+</svg>

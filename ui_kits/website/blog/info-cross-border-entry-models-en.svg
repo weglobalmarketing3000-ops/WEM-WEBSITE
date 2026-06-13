@@ -29,7 +29,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">ID, unique phone/email,</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">optional ecommerce proof</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">US$1,500 per store</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">US$1,500 per store</text>
   </g>
   <g transform="translate(395 180)" font-family="Arial, Helvetica, sans-serif">
     <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
@@ -43,7 +43,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">Chinese UBO ID, contact ID,</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">possible IRS/address proof</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">Currently not required</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">Currently not required</text>
   </g>
   <g transform="translate(720 180)" font-family="Arial, Helvetica, sans-serif">
     <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
@@ -57,7 +57,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">office/warehouse photos,</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">factory license info</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">RMB 1,000</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">RMB 1,000</text>
   </g>
   <g transform="translate(1045 180)" font-family="Arial, Helvetica, sans-serif">
     <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
@@ -71,7 +71,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">invite-based registration</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">through an ops manager</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">Deposit</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">RMB 1,000</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">RMB 1,000</text>
   </g>
   <text x="70" y="728" fill="#A8A8AD" font-size="16" font-family="Arial, Helvetica, sans-serif">Based on TikTok Shop Global Selling's Chinese official entry page. Platform rules may change; final review results are controlled by TikTok Shop.</text>
 </svg>

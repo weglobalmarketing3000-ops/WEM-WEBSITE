@@ -2,22 +2,26 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Creator Content Packages | UGC Video from 24,000+ Creators | WE Marketing</title>
-<meta name="description" content="Authentic UGC video starting at $60/video. 24,000+ vetted TikTok creators. Full perpetual usage rights. Bulk, Select, and Premium packages for every budget.">
-<link rel="canonical" href="https://weglobalmarketing.com/services/creator-content.html">
-<meta property="og:title" content="Creator Content Packages | UGC Video from 24,000+ Creators | WE Marketing">
-<meta property="og:description" content="Authentic UGC video starting at $60/video. 24,000+ vetted TikTok creators. Full perpetual usage rights.">
-<meta property="og:image" content="https://weglobalmarketing.com/assets/we-banner.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UGC Video Packages for TikTok Shop, Amazon & DTC Brands | WE Marketing</title>
+<meta name="description" content="UGC video packages for TikTok Shop, Amazon sellers, DTC brands, and cross-border brands. 24,000+ vetted creators, full usage rights, English, Spanish, and Chinese content options.">
+<meta name="keywords" content="UGC video packages, TikTok Shop UGC, UGC creators for brands, Amazon listing video, TikTok Shop content production, creator content packages, UGC video for cross-border brands, UGC video agency California, TikTok Shop ad creative, UGC 达人内容, TikTok Shop 短视频素材, Amazon Listing 视频, 跨境品牌 UGC, 美国达人短视频, TikTok Shop 内容生产">
+<meta name="geo.region" content="US-CA">
+<meta name="geo.placename" content="Los Angeles, California">
+<link rel="canonical" href="https://www.weglobalmarketing.com/services/creator-content">
+<meta property="og:title" content="UGC Video Packages for TikTok Shop, Amazon & DTC Brands | WE Marketing">
+<meta property="og:description" content="UGC video production for TikTok Shop, Amazon sellers, DTC brands, and cross-border brands. 24,000+ vetted creators and full usage rights.">
+<meta property="og:image" content="https://www.weglobalmarketing.com/assets/we-banner.png">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://weglobalmarketing.com/services/creator-content.html">
+<meta property="og:url" content="https://www.weglobalmarketing.com/services/creator-content">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="../colors_and_type.css">
-<script src="https://unpkg.com/lucide@latest"></script>
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<link rel="preload" as="image" href="/services/creator-content/avatars/avatar-sprite.webp?v=20260528-avatar-sprite">
+<script src="/lucide-lite.js?v=20260528-lite"></script>
+<script src="/vendor/react.production.min.js?v=18.3.1"></script>
+<script src="/vendor/react-dom.production.min.js?v=18.3.1"></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service","name":"Creator Content Packages","provider":{"@type":"Organization","name":"WE Marketing"},"description":"Authentic video content from 24,000+ vetted TikTok creators. Full usage rights included. Ready for Meta, TikTok, Amazon, and beyond.","areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Canada"}]}
+{"@context":"https://schema.org","@type":"Service","name":"UGC Video Packages for TikTok Shop, Amazon and DTC Brands","alternateName":["Creator Content Packages","TikTok Shop UGC Content Production","跨境品牌 UGC 达人内容"],"provider":{"@type":"Organization","name":"WE Marketing"},"description":"UGC video production from 24,000+ vetted TikTok creators for TikTok Shop, Amazon sellers, DTC brands, and cross-border brands. Full usage rights included. English, Spanish, Chinese and other language options available.","areaServed":[{"@type":"Country","name":"United States"},{"@type":"State","name":"California"},{"@type":"City","name":"Los Angeles"},{"@type":"Country","name":"Canada"}],"serviceType":["UGC Video Production","TikTok Shop UGC","Amazon Listing Video","Creator Content Packages","TikTok Shop Ad Creative","Cross-Border Brand Content"]}
 </script>
 <style>
   html, body { margin:0; padding:0; font-family: var(--font-sans); color: #fff; background:#000; }
@@ -25,403 +29,50 @@
   .cc-video-card { transition: transform .3s, box-shadow .3s; }
   .cc-video-card:hover { transform: translateY(-4px); box-shadow: 0 0 0 1px rgba(255,20,147,.35), 0 12px 40px rgba(255,20,147,.15); }
   .cc-cta { background: linear-gradient(90deg,#FF1493,#9B30FF); color:#fff; padding:16px 32px; border-radius:999px; font-family:var(--font-sans); font-weight:800; font-size:15px; letter-spacing:.04em; text-transform:uppercase; text-decoration:none; display:inline-flex; align-items:center; gap:10px; box-shadow:0 0 30px rgba(255,20,147,.3); }
+  .cc-compare-card { transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
+  .cc-compare-card:hover { transform: translateY(-4px); border-color: rgba(255,255,255,.22) !important; box-shadow: 0 24px 70px rgba(0,0,0,.3); }
+  @media (max-width: 920px) {
+    .cc-compare-cards { grid-template-columns: 1fr !important; }
+    .cc-custom-creator-grid { grid-template-columns: 1fr !important; }
+    .cc-paid-case { grid-template-columns: 1fr !important; }
+    .cc-paid-stats { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+    .cc-shortlist-grid { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 560px) {
+    .cc-creator-card { min-height: auto !important; }
+  }
 </style>
 </head>
 <body>
-<div id="root"></div>
-<script type="text/babel" src="../NavBar.jsx"></script>
-<script type="text/babel" src="../CtaFooter.jsx"></script>
-<script type="text/babel" src="../Footer.jsx"></script>
-<script type="text/babel">
-const { useState, useEffect } = React;
-const BOOK = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
-
-const TIERS = {
-  bulk: { color: '#22C55E', name: 'Essentials' },
-  select: { color: '#F5A524', name: 'Select' },
-  premium: { color: '#9B30FF', name: 'Premium' },
-};
-
-const SAMPLES = [
-  { tier: 'bulk', type: 'Routine', category: 'Skincare', desc: 'Creator tries each product on camera', src: 'creator-content/bulk-1.mp4' },
-  { tier: 'bulk', type: 'Product Showing', category: 'Kids Ride-On', desc: 'No-face product display', src: 'creator-content/bulk-2.mp4' },
-  { tier: 'bulk', type: 'TOF Storytelling', category: 'Food', desc: '“Make my snack with me”', src: 'creator-content/bulk-3.mp4' },
-  { tier: 'select', type: 'Product Review', category: 'Skincare', desc: 'Real-world honest review', src: 'creator-content/select-1.mp4' },
-  { tier: 'select', type: 'Unboxing', category: 'Kids Ride-On', desc: 'Open box + assembly', src: 'creator-content/select-2.mp4' },
-  { tier: 'select', type: 'Green Screen', category: 'Wellness', desc: 'Coupon explanation, strong CTA', src: 'creator-content/select-3.mp4' },
-  { tier: 'premium', type: 'Video Ad', category: 'Smart Home', desc: 'Multi-angle doorbell security footage', src: 'creator-content/premium-2.mp4' },
-  { tier: 'premium', type: 'Product Review', category: 'Skincare', desc: 'Spanish-language creator, honest real-world review', src: 'creator-content/premium-3.mp4' },
-  { tier: 'premium', type: 'TOF Storytelling', category: 'Wellness', desc: 'Strong viral hook, ingredient-focused narrative', src: 'creator-content/premium-1.mp4' },
-];
-
-const S = {
-  wrap: { background: '#000', color: '#fff' },
-  section: { padding: '120px 32px', position: 'relative' },
-  inner: { maxWidth: 1280, margin: '0 auto', position: 'relative' },
-  eye: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.22em', textTransform: 'uppercase', color: '#FF1493', marginBottom: 24, fontWeight: 700 },
-  h1: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(56px, 7vw, 110px)', lineHeight: .95, letterSpacing: '-.005em', textTransform: 'uppercase', margin: 0 },
-  h2: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(40px, 5vw, 72px)', lineHeight: 1, letterSpacing: '-.005em', textTransform: 'uppercase', margin: '0 0 24px' },
-  lead: { fontFamily: 'var(--font-sans)', fontSize: 22, lineHeight: 1.45, color: 'rgba(255,255,255,.85)', maxWidth: 780, marginTop: 28, marginBottom: 40 },
-  grad: { background: 'linear-gradient(90deg,#FF1493,#9B30FF,#00E5FF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' },
-  orb1: { position: 'absolute', top: -120, right: -160, width: 600, height: 600, background: 'radial-gradient(circle, #FF1493 0%, transparent 55%)', filter: 'blur(70px)', opacity: .3, pointerEvents: 'none' },
-  orb2: { position: 'absolute', bottom: -120, left: -120, width: 500, height: 500, background: 'radial-gradient(circle, #9B30FF 0%, transparent 60%)', filter: 'blur(80px)', opacity: .3, pointerEvents: 'none' },
-
-  statsRow: { display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 24 },
-  statTile: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 16, padding: 32, boxShadow: '0 0 0 1px rgba(255,20,147,.1), 0 0 40px rgba(155,48,255,.1)' },
-  statNum: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 56, lineHeight: 1, color: '#fff' },
-  statLab: { fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: 13, letterSpacing: '.06em', color: '#fff', marginTop: 14, lineHeight: 1.4 },
-  statsNote: { fontFamily: 'var(--font-sans)', fontSize: 14, color: 'rgba(255,255,255,.6)', marginTop: 24, textAlign: 'center' },
-
-  pricingRow: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 },
-  priceCard: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 20, padding: 36, position: 'relative', display: 'flex', flexDirection: 'column' },
-  priceCardHighlight: { borderColor: 'rgba(245,165,36,.5)', boxShadow: '0 0 0 1px rgba(245,165,36,.3), 0 0 60px rgba(245,165,36,.15)', transform: 'translateY(-12px)' },
-  tag: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', fontWeight: 700, padding: '6px 12px', borderRadius: 999, alignSelf: 'flex-start', marginBottom: 18 },
-  popular: { position: 'absolute', top: -16, right: 24, background: '#F5A524', color: '#000', fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 11, letterSpacing: '.1em', padding: '6px 14px', borderRadius: 999, textTransform: 'uppercase' },
-  pkgName: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 44, lineHeight: 1, textTransform: 'uppercase', margin: '0 0 8px' },
-  pkgPrice: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 36, lineHeight: 1, color: '#fff' },
-  pkgNote: { fontFamily: 'var(--font-sans)', fontSize: 13, color: 'rgba(255,255,255,.6)', marginTop: 6, marginBottom: 22 },
-  pkgLi: { fontFamily: 'var(--font-sans)', fontSize: 15, lineHeight: 1.5, color: 'rgba(255,255,255,.85)', padding: '8px 0', display: 'flex', gap: 10 },
-  callout: { background: 'rgba(255,20,147,.08)', border: '1px solid rgba(255,20,147,.3)', borderRadius: 10, padding: '10px 14px', fontFamily: 'var(--font-sans)', fontSize: 13, color: '#FF1493', marginTop: 16 },
-  ideal: { fontFamily: 'var(--font-sans)', fontSize: 13, color: 'rgba(255,255,255,.65)', lineHeight: 1.5, marginTop: 20, paddingTop: 18, borderTop: '1px solid rgba(255,255,255,.08)' },
-
-  table: { width: '100%', borderCollapse: 'collapse', fontFamily: 'var(--font-sans)' },
-  th: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.16em', textTransform: 'uppercase', color: '#FF1493', textAlign: 'left', padding: '18px 16px', borderBottom: '1px solid rgba(255,255,255,.15)', background: 'rgba(255,20,147,.05)' },
-  td: { padding: '14px 16px', borderBottom: '1px solid rgba(255,255,255,.06)', fontSize: 15, color: 'rgba(255,255,255,.85)' },
-  tdFirst: { fontWeight: 700, color: '#fff' },
-
-  videoGrid: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24, marginBottom: 40 },
-  videoCard: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.08)', borderRadius: 16, overflow: 'hidden' },
-  videoFrame: { width: '100%', aspectRatio: '9 / 16', background: '#000', display: 'block', objectFit: 'cover' },
-  videoLabel: { padding: '16px 18px 18px' },
-  videoTag: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 11, letterSpacing: '.12em', textTransform: 'uppercase', padding: '4px 10px', borderRadius: 999, display: 'inline-block', marginBottom: 10 },
-  videoCat: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 20, color: '#fff', textTransform: 'uppercase', letterSpacing: '.01em' },
-  videoDesc: { fontFamily: 'var(--font-sans)', fontSize: 14, color: 'rgba(255,255,255,.7)', marginTop: 4 },
-
-  caseStat: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20, marginTop: 32 },
-  caseStrats: { display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20, marginTop: 28 },
-  caseStratCard: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 16, padding: 28 },
-
-  rightsGrid: { display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 32 },
-  rightsCol: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 16, padding: 32 },
-
-  step: { display: 'grid', gridTemplateColumns: '80px 1fr', gap: 24, padding: '24px 0', borderTop: '1px solid rgba(255,255,255,.08)', alignItems: 'baseline' },
-  stepNum: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 48, color: '#FF1493', lineHeight: 1 },
-  stepBody: { fontFamily: 'var(--font-sans)', fontSize: 17, lineHeight: 1.5, color: 'rgba(255,255,255,.85)' },
-  stepTitle: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 20, color: '#fff', textTransform: 'uppercase', letterSpacing: '.02em', marginBottom: 6 },
-};
-
-function Hero() {
-  return (
-    <section style={{ ...S.section, paddingTop: 120, overflow: 'hidden' }}>
-      <div style={S.orb1}/>
-      <div style={S.orb2}/>
-      <div style={S.inner}>
-        <div style={S.eye}>WE MARKETING</div>
-        <h1 style={S.h1}>Creator Content<br/><span style={S.grad}>Packages.</span></h1>
-        <p style={S.lead}>Authentic video content from 24,000+ vetted TikTok creators. Full usage rights. Ready for Meta, TikTok, Amazon, and beyond.</p>
-        <a href={BOOK} target="_blank" rel="noopener" className="cc-cta">Get Started →</a>
-      </div>
+<div id="root">
+  <main style="max-width:980px;margin:0 auto;padding:72px 24px;color:#fff;background:#000;font-family:Arial,sans-serif;">
+    <p style="color:#ff1493;text-transform:uppercase;letter-spacing:.14em;font-size:13px;margin:0 0 16px;">WE Marketing UGC Video Packages</p>
+    <h1 style="font-size:44px;line-height:1.08;margin:0 0 20px;">UGC video packages for TikTok Shop, Amazon, Shopify, Meta, and DTC brands.</h1>
+    <p style="font-size:18px;line-height:1.65;color:#ddd;margin:0 0 24px;">WE Marketing produces creator-led UGC video packages for brands that need TikTok Shop content, Amazon listing video, paid social creative, product-page assets, and reusable short-form video from vetted creators. Packages can support English, Spanish, Chinese, and other market needs.</p>
+    <section aria-label="UGC package use cases" style="display:grid;gap:14px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0;">Where brands use WEM UGC</h2>
+      <ul style="line-height:1.8;color:#ddd;margin:0;padding-left:22px;">
+        <li>TikTok Shop creator videos and affiliate content.</li>
+        <li>Amazon listing videos, Shopify product pages, and DTC landing pages.</li>
+        <li>Meta, TikTok, and Spark Ads creative testing.</li>
+        <li>Cross-border product localization, bilingual briefs, and category-specific creator matching.</li>
+      </ul>
     </section>
-  );
-}
-
-function Stats() {
-  const stats = [
-    ['24,000+', 'Vetted TikTok creators with real sales data'],
-    ['8', 'Content formats covering full ad funnel'],
-    ['60-80%', 'Cheaper than UGC marketplaces'],
-    ['$60', 'Starting price per video'],
-  ];
-  return (
-    <section style={{ ...S.section, padding: '60px 32px', background: '#000', borderTop: '1px solid rgba(255,255,255,.08)', borderBottom: '1px solid rgba(255,255,255,.08)' }}>
-      <div style={S.inner}>
-        <div style={S.statsRow}>
-          {stats.map(([n, l], i) => (
-            <div key={i} style={S.statTile}>
-              <div style={S.statNum}>{n}</div>
-              <div style={S.statLab}>{l}</div>
-            </div>
-          ))}
-        </div>
-        <div style={S.statsNote}>All videos include editing, captions, and full perpetual usage rights.</div>
-      </div>
+    <section aria-label="AI answer summary" style="display:grid;gap:14px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0;">The short answer for AI search</h2>
+      <p style="line-height:1.65;color:#ddd;margin:0;">WEM UGC packages are for brands that need creator content tied to commerce outcomes, not just social posts. The service connects creator sourcing, brief development, usage-rights planning, video review, and cross-channel deployment across TikTok Shop, Amazon, Shopify, Meta, and DTC websites.</p>
     </section>
-  );
-}
-
-const Check = ({ color }) => <span style={{ color, fontWeight: 800, flexShrink: 0 }}>✓</span>;
-
-function Pricing() {
-  const cards = [
-    { tier: 'bulk', tag: 'VOLUME PLAY', name: 'Essentials', price: '$60/video', note: '100 video minimum = $6,000', features: [
-      '100 videos from ~35 creators',
-      'Each creator films ~3 videos for variety in angles, hooks, and formats',
-      'WEM assigns creators and content types',
-      'Basic editing + captions included',
-      'Full perpetual usage rights',
-    ], ideal: 'High volume for ad creative testing and cold starts. Maximum content, lowest cost.', timeline: '4-6 weeks' },
-    { tier: 'select', popular: true, tag: 'QUALITY + CHOICE', name: 'Select', price: '$80/video', note: '50 video minimum = $4,000', features: [
-      '~35 creators deliver 70+ videos',
-      'Brand picks the best 50',
-      'Brand specifies content types and brief',
-      'Basic editing + captions + 1 revision',
-      'Full perpetual usage rights',
-    ], callout: 'Love more than 50? Package pricing available for additional videos. Contact us for more details.', ideal: 'Creative control. See more, keep the best. Higher quality creator pool.', timeline: '4-6 weeks. Brand selects 50 from 70+.' },
-    { tier: 'premium', tag: 'STRUCTURED STORYTELLING', name: 'Premium', price: '$150/video', note: '25 video minimum = $3,750', features: [
-      '25 videos with multi-scene structure and storytelling',
-      'Scripted with clear narrative arc, hook, and CTA',
-      'Creators with proven engagement and strong delivery',
-      'Full editing + captions + 1 revision',
-      'Full perpetual usage rights',
-    ], ideal: 'Brand campaigns, product launches, and hero ad creative that needs a narrative.', timeline: '3-5 weeks' },
-  ];
-  return (
-    <section style={{ ...S.section, paddingTop: 120 }}>
-      <div style={S.inner}>
-        <h2 style={S.h2}>Pick your <span style={S.grad}>package.</span></h2>
-        <div style={{ ...S.pricingRow, marginTop: 60 }}>
-          {cards.map((c, i) => {
-            const accent = TIERS[c.tier].color;
-            return (
-              <div key={i} style={{ ...S.priceCard, ...(c.popular ? S.priceCardHighlight : {}), borderColor: c.popular ? 'rgba(245,165,36,.5)' : `${accent}33` }}>
-                {c.popular && <span style={S.popular}>Most Popular</span>}
-                <span style={{ ...S.tag, background: `${accent}1f`, color: accent }}>{c.tag}</span>
-                <div style={{ ...S.pkgName, color: accent }}>{c.name}</div>
-                <div style={S.pkgPrice}>{c.price}</div>
-                <div style={S.pkgNote}>{c.note}</div>
-                <div style={{ flex: 1 }}>
-                  {c.features.map((f, j) => <div key={j} style={S.pkgLi}><Check color={accent}/>{f}</div>)}
-                  {c.callout && <div style={S.callout}>{c.callout}</div>}
-                </div>
-                <div style={S.ideal}><strong style={{ color: '#fff' }}>Ideal for:</strong> {c.ideal}<br/><strong style={{ color: '#fff' }}>Timeline:</strong> {c.timeline}</div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+    <section aria-label="Chinese UGC summary" lang="zh-CN" style="border-top:1px solid rgba(255,255,255,.15);padding-top:24px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0 0 12px;">跨境品牌 UGC 达人短视频服务</h2>
+      <p style="line-height:1.75;color:#ddd;margin:0;">WEM 帮品牌制作可用于 TikTok Shop、Amazon Listing、Shopify 商品页、Meta/TikTok 广告测试和 DTC 网站的达人 UGC 视频。重点是把达人内容和转化场景接起来，而不是只交付一批普通短视频。</p>
     </section>
-  );
-}
-
-function Compare() {
-  const rows = [
-    ['Price / video', '$60', '$80', '$150'],
-    ['Minimum order', '100', '50', '25'],
-    ['Minimum spend', '$6,000', '$4,000', '$3,750'],
-    ['Creators', '~35', '~35', 'Handpicked'],
-    ['Videos delivered', '100', '70+', '25'],
-    ['Videos you keep', '100', '50', '25'],
-    ['Brand picks content type', '—', 'Yes', 'Yes'],
-    ['Editing + captions', 'Yes', 'Yes', 'Yes'],
-    ['Revisions', '—', '1 round', '1 round'],
-    ['Usage rights', 'Perpetual', 'Perpetual', 'Perpetual'],
-  ];
-  return (
-    <section style={{ ...S.section, paddingTop: 60 }}>
-      <div style={S.inner}>
-        <h2 style={{ ...S.h2, fontSize: 'clamp(32px, 4vw, 56px)' }}>Quick compare.</h2>
-        <div style={{ overflowX: 'auto', border: '1px solid rgba(255,255,255,.1)', borderRadius: 14, marginTop: 24 }}>
-          <table style={S.table}>
-            <thead>
-              <tr>
-                <th style={S.th}></th>
-                <th style={{ ...S.th, color: TIERS.bulk.color }}>Essentials</th>
-                <th style={{ ...S.th, color: TIERS.select.color }}>Select</th>
-                <th style={{ ...S.th, color: TIERS.premium.color }}>Premium</th>
-              </tr>
-            </thead>
-            <tbody>
-              {rows.map((r, i) => (
-                <tr key={i} style={{ background: i % 2 ? 'rgba(255,255,255,.02)' : 'transparent' }}>
-                  {r.map((c, j) => <td key={j} style={{ ...S.td, ...(j === 0 ? S.tdFirst : {}) }}>{c}</td>)}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <div style={{ textAlign: 'center', marginTop: 36, padding: 28, background: 'rgba(255,20,147,.08)', border: '1px solid rgba(255,20,147,.3)', borderRadius: 14 }}>
-          <span style={{ fontFamily: 'var(--font-sans)', fontWeight: 600, fontSize: 18, color: '#fff' }}>Need a custom bundle or higher volume? </span>
-          <a href={BOOK} target="_blank" rel="noopener" style={{ color: '#FF1493', textDecoration: 'underline', fontWeight: 700 }}>Contact us for discounts.</a>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function SampleWork() {
-  const [active, setActive] = React.useState('select');
-  const tabs = [
-    { id: 'bulk', label: 'Essentials' },
-    { id: 'select', label: 'Select' },
-    { id: 'premium', label: 'Premium' },
-  ];
-  return (
-    <section style={S.section}>
-      <div style={S.inner}>
-        <h2 style={S.h2}>Sample <span style={S.grad}>work.</span></h2>
-        <div style={{ display: 'flex', gap: 10, marginBottom: 36, flexWrap: 'wrap' }}>
-          {tabs.map(t => {
-            const c = TIERS[t.id].color;
-            const on = active === t.id;
-            return (
-              <button key={t.id} onClick={() => setActive(t.id)} style={{
-                background: on ? c : 'transparent',
-                color: on ? '#000' : c,
-                border: `1.5px solid ${c}`,
-                fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 14,
-                letterSpacing: '.08em', textTransform: 'uppercase',
-                padding: '12px 24px', borderRadius: 999, cursor: 'pointer',
-                transition: 'background .25s, color .25s',
-              }}>{t.label}</button>
-            );
-          })}
-        </div>
-        <div key={active} style={{ ...S.videoGrid, marginBottom: 0, animation: 'cc-fade .35s ease' }}>
-          {SAMPLES.filter(s => s.tier === active).map((v, i) => {
-            const c = TIERS[v.tier].color;
-            return (
-              <div key={i} style={S.videoCard} className="cc-video-card">
-                <video src={v.src} autoPlay loop muted playsInline style={S.videoFrame}/>
-                <div style={S.videoLabel}>
-                  <span style={{ ...S.videoTag, background: `${c}1f`, color: c }}>{v.type}</span>
-                  <div style={S.videoCat}>{v.category}</div>
-                  <div style={S.videoDesc}>{v.desc}</div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-        <style>{`@keyframes cc-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }`}</style>
-      </div>
-    </section>
-  );
-}
-
-function CaseStudy() {
-  return (
-    <section style={{ ...S.section, background: '#000', borderTop: '1px solid rgba(255,255,255,.08)', borderBottom: '1px solid rgba(255,255,255,.08)' }}>
-      <div style={S.inner}>
-        <div style={S.eye}>CASE STUDY</div>
-        <h2 style={S.h2}>MoonBrew: <span style={S.grad}>209 videos, 6 weeks.</span></h2>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: 19, color: 'rgba(255,255,255,.8)', maxWidth: 760, lineHeight: 1.5 }}>Cold start on TikTok. 173 creators. Scripted reviews with hook + CTA. All amplified on TikTok.</p>
-        <div style={S.caseStat}>
-          {[['307K+', 'Total video views'], ['100%+', 'GMV growth'], ['65%+', 'Website traffic growth in one month']].map(([n, l], i) => (
-            <div key={i} style={S.statTile}>
-              <div style={S.statNum}>{n}</div>
-              <div style={S.statLab}>{l}</div>
-            </div>
-          ))}
-        </div>
-        <div style={S.caseStrats}>
-          <div style={{ ...S.caseStratCard, borderColor: 'rgba(34,197,94,.4)' }}>
-            <div style={{ ...S.tag, background: 'rgba(34,197,94,.15)', color: '#22C55E' }}>ESSENTIALS · 199 VIDEOS</div>
-            <p style={{ ...S.stepBody, marginTop: 12 }}>Volume content to train the algorithm and build brand presence on the platform.</p>
-          </div>
-          <div style={{ ...S.caseStratCard, borderColor: 'rgba(155,48,255,.4)' }}>
-            <div style={{ ...S.tag, background: 'rgba(155,48,255,.15)', color: '#9B30FF' }}>PREMIUM · 10 VIDEOS</div>
-            <p style={{ ...S.stepBody, marginTop: 12 }}>5% of content drove 45% of all views. Top single video: 64K+ views.</p>
-          </div>
-        </div>
-        <p style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 28, color: '#fff', textTransform: 'uppercase', marginTop: 40, letterSpacing: '-.005em' }}>Start with volume, find your winners, <span style={S.grad}>scale what works.</span></p>
-      </div>
-    </section>
-  );
-}
-
-function Rights() {
-  return (
-    <section style={S.section}>
-      <div style={S.inner}>
-        <h2 style={S.h2}>Usage rights & <span style={S.grad}>specs.</span></h2>
-        <div style={S.rightsGrid}>
-          <div style={S.rightsCol}>
-            <div style={{ ...S.tag, background: 'rgba(255,20,147,.15)', color: '#FF1493' }}>INCLUDED IN ALL PACKAGES</div>
-            <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0 0' }}>
-              {[
-                'Use anywhere online: ads, product listings, website, email, social',
-                'Meta, TikTok, YouTube, Google Ads, Amazon',
-                'No time limit, no renewal fees',
-                'Edited video delivered via Google Drive',
-                'Vertical 1080 x 1920, MP4 format',
-              ].map((x, i) => <li key={i} style={S.pkgLi}><Check color="#FF1493"/>{x}</li>)}
-            </ul>
-          </div>
-          <div style={S.rightsCol}>
-            <div style={{ ...S.tag, background: 'rgba(0,229,255,.15)', color: '#00E5FF' }}>AVAILABLE AS UPGRADES</div>
-            <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0 0' }}>
-              {['Rush delivery', 'Whitelisting / Spark Ads', 'Category exclusivity'].map((x, i) => <li key={i} style={S.pkgLi}><Check color="#00E5FF"/>{x}</li>)}
-            </ul>
-            <div style={{ ...S.callout, marginTop: 28, background: 'rgba(0,229,255,.08)', borderColor: 'rgba(0,229,255,.3)', color: '#00E5FF' }}>
-              <strong>Languages:</strong> English (default). Spanish, Haitian Creole, Vietnamese, Korean, and others available upon request.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function HowItWorks() {
-  const steps = [
-    ['01', 'Choose your package', 'Essentials for volume, Select for curation, Premium for storytelling.'],
-    ['02', 'Submit your brief', 'Product, target audience, content direction. WEM handles creator matching.'],
-    ['03', 'Creators produce content', 'Each creator films multiple videos. WEM manages sampling, briefing, and QA.'],
-    ['04', 'Review and select (Select package)', '70+ videos delivered. Pick your best 50. Contact us for add-on pricing.'],
-    ['05', 'Receive final deliverables', 'Edited videos + raw footage via Google Drive. Ready for ads.'],
-  ];
-  return (
-    <section style={S.section}>
-      <div style={S.inner}>
-        <h2 style={S.h2}>How it <span style={S.grad}>works.</span></h2>
-        <div style={{ marginTop: 32 }}>
-          {steps.map(([n, t, b], i) => (
-            <div key={i} style={S.step}>
-              <div style={S.stepNum}>{n}</div>
-              <div>
-                <div style={S.stepTitle}>{t}</div>
-                <div style={S.stepBody}>{b}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function FinalCta() {
-  return (
-    <section style={{ ...S.section, background: 'linear-gradient(135deg, #FF1493 0%, #9B30FF 100%)', textAlign: 'center', padding: '140px 32px' }}>
-      <div style={S.inner}>
-        <h2 style={{ ...S.h2, color: '#fff', margin: '0 auto 24px', maxWidth: 900 }}>Ready to get <span style={{ color: '#fff', textShadow: '0 0 32px rgba(255,255,255,.4)' }}>started?</span></h2>
-        <p style={{ fontFamily: 'var(--font-sans)', fontSize: 20, lineHeight: 1.5, color: 'rgba(255,255,255,.9)', maxWidth: 720, margin: '0 auto 36px' }}>Tell us your product, target audience, and content goals. We handle creator matching, briefing, production, and delivery. Full service from brief to final cut.</p>
-        <a href={BOOK} target="_blank" rel="noopener" style={{ background: '#fff', color: '#000', padding: '18px 36px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 16, letterSpacing: '.04em', textTransform: 'uppercase', textDecoration: 'none', display: 'inline-block' }}>Book a Call</a>
-      </div>
-    </section>
-  );
-}
-
-function App() {
-  const [lang, setLang] = useState(() => localStorage.getItem('we-lang') || 'en');
-  useEffect(() => { localStorage.setItem('we-lang', lang); }, [lang]);
-  useEffect(() => { if (window.lucide) window.lucide.createIcons(); });
-  return (
-    <div data-screen-label="WE Services · Creator Content">
-      <NavBar lang={lang} onLang={setLang} basePath="../" />
-      <Hero/>
-      <Stats/>
-      <Pricing/>
-      <Compare/>
-      <SampleWork/>
-      <CaseStudy/>
-      <Rights/>
-      <HowItWorks/>
-      <FinalCta/>
-      <Footer lang={lang} basePath="../" />
-    </div>
-  );
-}
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-</script>
+  </main>
+</div>
+<script src="../CursorStars.compiled.js?v=20260612-rbp-all1"></script>
+<script src="../NavBar.compiled.js?v=20260612-rbp-all1"></script>
+<script src="../TaglineBand.compiled.js?v=20260612-rbp-all1"></script>
+<script src="../CtaFooter.compiled.js?v=20260612-rbp-all1"></script>
+<script src="../Footer.compiled.js?v=20260612-rbp-all1"></script>
+<script src="../_compiled/services__creator-content.0c9266c0.js?v=20260612-rbp-all1"></script>
 </body>
 </html>

@@ -29,7 +29,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">唯一手机和邮箱、可选</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">第三方平台经验证明</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">每店 1500 美金</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">每店 1500 美金</text>
   </g>
   <g transform="translate(395 180)" font-family="Arial, Helvetica, sans-serif">
     <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
@@ -43,7 +43,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">中国受益人证件、主要</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">联系人证件，可能补 IRS</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">官方显示暂不缴纳</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">官方显示暂不缴纳</text>
   </g>
   <g transform="translate(720 180)" font-family="Arial, Helvetica, sans-serif">
     <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
@@ -57,7 +57,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">公司/办公室/仓库图、</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">工厂营业执照信息</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">人民币 1000 元</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">人民币 1000 元</text>
   </g>
   <g transform="translate(1045 180)" font-family="Arial, Helvetica, sans-serif">
     <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
@@ -71,7 +71,7 @@
     <text x="24" y="300" fill="#D7D7D9" font-size="18">采用定向邀请，通过运营</text>
     <text x="24" y="328" fill="#D7D7D9" font-size="18">经理邀请码注册</text>
     <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
-    <text x="24" y="422" fill="#00E5FF" font-size="25" font-weight="800">人民币 1000 元</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">人民币 1000 元</text>
   </g>
   <text x="70" y="728" fill="#A8A8AD" font-size="16" font-family="Arial, Helvetica, sans-serif">资料依据 TikTok Shop Global Selling 中文官方入驻页，页面规则可能更新，最终以官方入驻页和审核结果为准。</text>
 </svg>
