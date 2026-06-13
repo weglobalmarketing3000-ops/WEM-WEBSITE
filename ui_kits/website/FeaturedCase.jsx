@@ -89,7 +89,7 @@ const CASES = [
   },
 ];
 
-const CASE_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF']; // pink / cyan / purple
+const CASE_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF']; // pink / blue / purple
 
 const FeaturedCase = ({ lang }) => {
   const h = {

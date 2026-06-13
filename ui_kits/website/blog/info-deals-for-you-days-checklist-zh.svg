@@ -21,7 +21,7 @@
 
   <rect width="1600" height="1260" fill="url(#bg)"/>
   <circle cx="1320" cy="180" r="220" fill="#FF1493" fill-opacity="0.12"/>
-  <circle cx="250" cy="1050" r="180" fill="#FF6D3A" fill-opacity="0.09"/>
+  <circle cx="250" cy="1050" r="180" fill="#FF1493" fill-opacity="0.09"/>
 
   <text x="120" y="116" fill="#FF8FB9" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="4">WEM OPERATING CHECKLIST</text>
   <text x="120" y="184" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">TikTok Shop 美区 Deals for You Days</text>

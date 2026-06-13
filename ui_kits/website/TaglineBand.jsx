@@ -36,7 +36,7 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
       wrap: { background: 'linear-gradient(90deg, #4A8FFF 0%, #2563EB 42%, #7C3AED 74%, #FF1493 100%)', borderTop: '1px solid rgba(74,143,255,.35)', borderBottom: '1px solid rgba(255,20,147,.35)', boxShadow: 'inset 0 24px 70px rgba(74,143,255,.12), inset 0 -24px 70px rgba(0,0,0,.2)' },
       solid: { color: '#fff', textShadow: '0 6px 22px rgba(0,0,0,.22)' },
       outline: { WebkitTextStroke: '2px rgba(255,255,255,.9)' },
-      cyan: { color: '#4A8FFF', textShadow: '0 6px 20px rgba(0,0,0,.25)' },
+      blue: { color: '#4A8FFF', textShadow: '0 6px 20px rgba(0,0,0,.25)' },
     }
     : {};
   return (
@@ -47,7 +47,7 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
             ? { ...tbStyles.solid, ...(variantStyle.solid || {}) }
             : i % 3 === 1
               ? { ...tbStyles.outline, ...(variantStyle.outline || {}) }
-              : { ...tbStyles.cyan, ...(variantStyle.cyan || {}) };
+              : { ...tbStyles.blue, ...(variantStyle.blue || {}) };
           return <span key={i} style={style}>{phrase}</span>;
         })}
       </div>
@@ -60,6 +60,6 @@ const tbStyles = {
   track: { display: 'flex', gap: 20, whiteSpace: 'nowrap' },
   solid: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: '#fff' },
   outline: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: 'transparent', WebkitTextStroke: '2px #fff' },
-  cyan: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: '#4A8FFF' },
+  blue: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: '#4A8FFF' },
 };
 window.TaglineBand = TaglineBand;

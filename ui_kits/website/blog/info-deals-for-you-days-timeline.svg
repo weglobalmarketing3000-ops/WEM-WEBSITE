@@ -7,7 +7,7 @@
       <stop offset="1" stop-color="#040404"/>
     </linearGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#FF6D3A"/>
+      <stop stop-color="#FF1493"/>
       <stop offset="0.55" stop-color="#FF1493"/>
       <stop offset="1" stop-color="#8F5BFF"/>
     </linearGradient>
@@ -24,7 +24,7 @@
   <path d="M170 380H1420" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
 
   <g font-family="Arial, Helvetica, sans-serif">
-    <circle cx="250" cy="380" r="22" fill="#FF6D3A"/>
+    <circle cx="250" cy="380" r="22" fill="#FF1493"/>
     <circle cx="620" cy="380" r="22" fill="#FF1493"/>
     <circle cx="990" cy="380" r="22" fill="#FF3E9E"/>
     <circle cx="1360" cy="380" r="22" fill="#8F5BFF"/>

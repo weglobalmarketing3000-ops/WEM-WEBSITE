@@ -5,11 +5,11 @@ const {
 const BOOK = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
 const TIERS = {
   bulk: {
-    color: '#22C55E',
+    color: '#FF1493',
     name: 'Essentials'
   },
   select: {
-    color: '#F5A524',
+    color: '#4A8FFF',
     name: 'Select'
   },
   premium: {
@@ -540,7 +540,7 @@ const S = {
     marginBottom: 40
   },
   grad: {
-    background: 'linear-gradient(90deg,#FF1493,#9B30FF,#00E5FF)',
+    background: 'linear-gradient(90deg,#FF1493,#9B30FF,#4A8FFF)',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
     backgroundClip: 'text'
@@ -617,8 +617,8 @@ const S = {
     flexDirection: 'column'
   },
   priceCardHighlight: {
-    borderColor: 'rgba(245,165,36,.5)',
-    boxShadow: '0 0 0 1px rgba(245,165,36,.3), 0 0 60px rgba(245,165,36,.15)',
+    borderColor: 'rgba(74,143,255,.5)',
+    boxShadow: '0 0 0 1px rgba(74,143,255,.3), 0 0 60px rgba(74,143,255,.15)',
     transform: 'translateY(-12px)'
   },
   tag: {
@@ -636,7 +636,7 @@ const S = {
     position: 'absolute',
     top: -16,
     right: 24,
-    background: '#F5A524',
+    background: '#4A8FFF',
     color: '#000',
     fontFamily: 'var(--font-sans)',
     fontWeight: 800,
@@ -851,7 +851,7 @@ const S = {
     fontSize: 10,
     letterSpacing: '.18em',
     textTransform: 'uppercase',
-    color: '#00E5FF',
+    color: '#4A8FFF',
     fontWeight: 800
   },
   paidCaseTitle: {
@@ -917,7 +917,7 @@ const S = {
     padding: 22,
     borderRadius: 20,
     minHeight: 390,
-    background: 'linear-gradient(145deg, rgba(0,229,255,.07), rgba(255,20,147,.045))',
+    background: 'linear-gradient(145deg, rgba(74,143,255,.07), rgba(255,20,147,.045))',
     border: '1px solid rgba(255,255,255,.1)'
   },
   shortlistHead: {
@@ -956,7 +956,7 @@ const S = {
     alignItems: 'center',
     padding: 20,
     background: 'rgba(0,0,0,.22)',
-    border: '1px dashed rgba(0,229,255,.26)',
+    border: '1px dashed rgba(74,143,255,.26)',
     fontFamily: 'var(--font-sans)',
     fontSize: 14,
     lineHeight: 1.5,
@@ -984,7 +984,7 @@ const S = {
     borderRadius: '50%',
     objectFit: 'cover',
     display: 'block',
-    border: '3px solid #00E5FF',
+    border: '3px solid #4A8FFF',
     boxShadow: '0 0 0 4px rgba(255,255,255,.08), 0 16px 34px rgba(0,0,0,.34)',
     flexShrink: 0,
     background: '#111'
@@ -997,8 +997,8 @@ const S = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: 'radial-gradient(circle at 28% 22%, rgba(255,255,255,.72), transparent 18%), radial-gradient(circle at 50% 58%, var(--avatar-bg, #ffd24a), #f6a6c8 78%)',
-    border: '3px solid var(--clay-accent, #00E5FF)',
+    background: 'radial-gradient(circle at 28% 22%, rgba(255,255,255,.72), transparent 18%), radial-gradient(circle at 50% 58%, var(--avatar-bg, #FF5BB8), #9B30FF 78%)',
+    border: '3px solid var(--clay-accent, #4A8FFF)',
     boxShadow: '0 0 0 4px rgba(255,255,255,.08), 0 16px 34px rgba(0,0,0,.34)',
     overflow: 'hidden',
     flexShrink: 0
@@ -1063,7 +1063,7 @@ const S = {
     width: 36,
     height: 26,
     borderRadius: '18px 18px 8px 8px',
-    background: 'linear-gradient(145deg, var(--clay-accent, #00E5FF), rgba(255,255,255,.12))',
+    background: 'linear-gradient(145deg, var(--clay-accent, #4A8FFF), rgba(255,255,255,.12))',
     boxShadow: 'inset -4px -5px 8px rgba(0,0,0,.22), inset 4px 3px 7px rgba(255,255,255,.22)',
     zIndex: 1
   },
@@ -1171,7 +1171,7 @@ const S = {
     fontWeight: 900,
     fontSize: 20,
     lineHeight: 1.02,
-    color: '#00E5FF',
+    color: '#4A8FFF',
     textTransform: 'uppercase',
     maxWidth: '100%',
     wordBreak: 'normal',
@@ -1436,7 +1436,7 @@ function Pricing({
       style: {
         ...S.priceCard,
         ...(c.popular ? S.priceCardHighlight : {}),
-        borderColor: c.popular ? 'rgba(245,165,36,.5)' : `${accent}33`
+        borderColor: c.popular ? 'rgba(74,143,255,.5)' : `${accent}33`
       }
     }, c.popular && React.createElement("span", {
       style: S.popular
@@ -1518,7 +1518,7 @@ function Compare({
     style: {
       ...S.section,
       paddingTop: 70,
-      background: 'radial-gradient(circle at 12% 20%, rgba(0,229,255,.12), transparent 32%), radial-gradient(circle at 88% 8%, rgba(255,20,147,.12), transparent 30%), #000'
+      background: 'radial-gradient(circle at 12% 20%, rgba(74,143,255,.12), transparent 32%), radial-gradient(circle at 88% 8%, rgba(255,20,147,.12), transparent 30%), #000'
     }
   }, React.createElement("div", {
     style: S.inner
@@ -1646,7 +1646,7 @@ function LazyVideo({
       ...style,
       position: 'relative',
       overflow: 'hidden',
-      background: 'linear-gradient(145deg, rgba(255,20,147,.14), rgba(0,229,255,.1), rgba(0,0,0,.9))'
+      background: 'linear-gradient(145deg, rgba(255,20,147,.14), rgba(74,143,255,.1), rgba(0,0,0,.9))'
     }
   }, shouldLoad ? React.createElement("video", {
     ref: videoRef,
@@ -1789,11 +1789,11 @@ function CustomCreatorCampaigns({
   const t = COPY[lang].customCreator;
   const [activeMode, setActiveMode] = React.useState('kol');
   const activeCreators = t.creators.filter(creator => creator.mode === activeMode);
-  const activeAccent = activeMode === 'kol' ? '#00E5FF' : '#FF1493';
+  const activeAccent = activeMode === 'kol' ? '#4A8FFF' : '#FF1493';
   return React.createElement("section", {
     style: {
       ...S.section,
-      background: 'radial-gradient(circle at 10% 8%, rgba(0,229,255,.14), transparent 34%), radial-gradient(circle at 90% 16%, rgba(255,20,147,.14), transparent 32%), #000'
+      background: 'radial-gradient(circle at 10% 8%, rgba(74,143,255,.14), transparent 34%), radial-gradient(circle at 90% 16%, rgba(255,20,147,.14), transparent 32%), #000'
     }
   }, React.createElement("div", {
     style: S.inner
@@ -1815,7 +1815,7 @@ function CustomCreatorCampaigns({
     style: S.modeGrid
   }, t.modes.map((mode, i) => {
     const active = activeMode === mode.id;
-    const c = i === 0 ? '#00E5FF' : '#FF1493';
+    const c = i === 0 ? '#4A8FFF' : '#FF1493';
     return React.createElement("div", {
       key: mode.id,
       onMouseEnter: () => setActiveMode(mode.id),
@@ -1824,7 +1824,7 @@ function CustomCreatorCampaigns({
       tabIndex: "0",
       style: {
         ...S.modeCard,
-        borderColor: active ? c : i === 0 ? 'rgba(0,229,255,.22)' : 'rgba(255,20,147,.24)',
+        borderColor: active ? c : i === 0 ? 'rgba(74,143,255,.22)' : 'rgba(255,20,147,.24)',
         boxShadow: active ? `0 0 0 1px ${c}33, 0 18px 52px rgba(0,0,0,.28)` : 'none',
         cursor: 'pointer'
       }
@@ -1978,13 +1978,13 @@ function CaseStudy({
   }, React.createElement("div", {
     style: {
       ...S.caseStratCard,
-      borderColor: 'rgba(34,197,94,.4)'
+      borderColor: 'rgba(255,20,147,.4)'
     }
   }, React.createElement("div", {
     style: {
       ...S.tag,
-      background: 'rgba(34,197,94,.15)',
-      color: '#22C55E'
+      background: 'rgba(255,20,147,.15)',
+      color: '#FF1493'
     }
   }, t.cards[0][0]), React.createElement("p", {
     style: {
@@ -2059,8 +2059,8 @@ function Rights({
   }, React.createElement("div", {
     style: {
       ...S.tag,
-      background: 'rgba(0,229,255,.15)',
-      color: '#00E5FF'
+      background: 'rgba(74,143,255,.15)',
+      color: '#4A8FFF'
     }
   }, t.upgrades), React.createElement("ul", {
     style: {
@@ -2072,14 +2072,14 @@ function Rights({
     key: i,
     style: S.pkgLi
   }, React.createElement(Check, {
-    color: "#00E5FF"
+    color: "#4A8FFF"
   }), x))), React.createElement("div", {
     style: {
       ...S.callout,
       marginTop: 28,
-      background: 'rgba(0,229,255,.08)',
-      borderColor: 'rgba(0,229,255,.3)',
-      color: '#00E5FF'
+      background: 'rgba(74,143,255,.08)',
+      borderColor: 'rgba(74,143,255,.3)',
+      color: '#4A8FFF'
     }
   }, t.languages)))));
 }

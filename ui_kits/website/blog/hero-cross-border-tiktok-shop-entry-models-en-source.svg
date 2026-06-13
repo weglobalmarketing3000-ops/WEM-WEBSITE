@@ -19,7 +19,7 @@
     </radialGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FF2E9F"/>
-      <stop offset="1" stop-color="#1CD6FF"/>
+      <stop offset="1" stop-color="#4A8FFF"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000000" flood-opacity=".34"/>
@@ -68,8 +68,8 @@
     <g transform="translate(130 486)">
       <circle cx="44" cy="42" r="42" fill="#15131A" stroke="#323546"/>
       <rect x="20" y="24" width="48" height="34" rx="8" fill="none" stroke="#FF4AAA" stroke-width="4"/>
-      <path d="M28 66 L60 66" stroke="#1CD6FF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M34 18 L54 18" stroke="#1CD6FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M28 66 L60 66" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 18 L54 18" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
       <text x="104" y="22" class="module-sub">SELF-OPERATED</text>
       <text x="104" y="72" class="module-title">POP</text>
       <text x="104" y="108" class="module-copy">China or Hong Kong entity</text>
@@ -83,9 +83,9 @@
     <g transform="translate(648 486)">
       <circle cx="44" cy="42" r="42" fill="#15131A" stroke="#323546"/>
       <rect x="24" y="18" width="40" height="48" rx="8" fill="none" stroke="#FF4AAA" stroke-width="4"/>
-      <path d="M34 30 L54 30" stroke="#1CD6FF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M34 42 L54 42" stroke="#1CD6FF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M34 54 L48 54" stroke="#1CD6FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 30 L54 30" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 42 L54 42" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 54 L48 54" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
       <text x="104" y="22" class="module-sub">U.S. ENTITY POP</text>
       <text x="104" y="72" class="module-title">ACCU</text>
       <text x="104" y="108" class="module-copy">U.S. company path</text>
@@ -99,7 +99,7 @@
     <g transform="translate(1166 486)">
       <circle cx="44" cy="42" r="42" fill="#15131A" stroke="#323546"/>
       <path d="M18 58 L30 26 L46 46 L60 18 L70 58 Z" fill="none" stroke="#FF4AAA" stroke-width="4" stroke-linejoin="round"/>
-      <path d="M20 62 L68 62" stroke="#1CD6FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M20 62 L68 62" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
       <text x="104" y="22" class="module-sub">SUPPLY-LED MODEL</text>
       <text x="104" y="72" class="module-title">Fully Managed</text>
       <text x="104" y="108" class="module-copy">Supply-side path</text>
@@ -112,8 +112,8 @@
 
     <path d="M540 612 C575 612 578 612 614 612" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
     <path d="M1058 612 C1093 612 1096 612 1132 612" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
-    <polygon points="606,605 624,612 606,619" fill="#1CD6FF"/>
-    <polygon points="1124,605 1142,612 1124,619" fill="#1CD6FF"/>
+    <polygon points="606,605 624,612 606,619" fill="#4A8FFF"/>
+    <polygon points="1124,605 1142,612 1124,619" fill="#4A8FFF"/>
 
     <line x1="96" y1="840" x2="1576" y2="840" stroke="#1D1E24"/>
     <text x="96" y="885" class="note">Brand-managed is usually discussed separately because it is more invitation-led. Final requirements still depend on TikTok Shop Global Selling rules and review results.</text>
