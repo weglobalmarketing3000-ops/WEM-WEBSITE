@@ -139,7 +139,16 @@ const CaseBlock = ({ c, lang, last, accent }) => {
       <div style={{ ...fcStyles.tag, color: accent, background: `${accent}1f` }}>{tag}</div>
       <h2 style={fcStyles.h2}>
         {title.split('\n').map((l, i) => (
-          <span key={i} style={i === 1 ? { color: 'transparent', WebkitTextStroke: `2px ${accent}` } : {}}>{l}<br/></span>
+          <span
+            key={i}
+            style={i === 1
+              ? (lang === 'zh'
+                ? { color: accent, textShadow: `0 0 34px ${accent}55` }
+                : { color: 'transparent', WebkitTextStroke: `2px ${accent}` })
+              : {}}
+          >
+            {l}<br/>
+          </span>
         ))}
       </h2>
       <p style={fcStyles.body}>{body}</p>

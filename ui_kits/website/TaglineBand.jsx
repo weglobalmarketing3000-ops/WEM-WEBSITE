@@ -37,6 +37,7 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
       solid: { color: '#fff', textShadow: '0 6px 22px rgba(0,0,0,.22)' },
       outline: { WebkitTextStroke: '2px rgba(255,255,255,.9)' },
       blue: { color: '#4A8FFF', textShadow: '0 6px 20px rgba(0,0,0,.25)' },
+      magenta: { color: '#FF5BB8', textShadow: '0 6px 22px rgba(0,0,0,.22)' },
     }
     : {};
   return (
@@ -46,7 +47,9 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
           const style = i % 3 === 0
             ? { ...tbStyles.solid, ...(variantStyle.solid || {}) }
             : i % 3 === 1
-              ? { ...tbStyles.outline, ...(variantStyle.outline || {}) }
+              ? (lang === 'zh'
+                ? { ...tbStyles.magenta, ...(variantStyle.magenta || {}) }
+                : { ...tbStyles.outline, ...(variantStyle.outline || {}) })
               : { ...tbStyles.blue, ...(variantStyle.blue || {}) };
           return <span key={i} style={style}>{phrase}</span>;
         })}
@@ -61,5 +64,6 @@ const tbStyles = {
   solid: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: '#fff' },
   outline: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: 'transparent', WebkitTextStroke: '2px #fff' },
   blue: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: '#4A8FFF' },
+  magenta: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 84, lineHeight: 1, letterSpacing: '-.01em', textTransform: 'uppercase', color: '#FF5BB8' },
 };
 window.TaglineBand = TaglineBand;
