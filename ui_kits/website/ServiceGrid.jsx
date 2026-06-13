@@ -1,5 +1,5 @@
 // ServiceGrid.jsx, service overview cards (dark)
-const SG_ACCENTS = ['#FF1493', '#00E5FF', '#9B30FF', '#FF1493', '#4A8FFF', '#00E5FF', '#9B30FF', '#FF1493'];
+const SG_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF', '#FF1493', '#4A8FFF', '#9B30FF', '#4A8FFF', '#FF1493'];
 
 const ServiceGrid = ({ lang }) => {
   const services = {
@@ -63,7 +63,7 @@ const sgStyles = {
   wrap: { background: '#000', padding: '140px 0' },
   inner: { maxWidth: 1280, margin: '0 auto', padding: '0 32px' },
   h2: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(60px, 7vw, 108px)', lineHeight: .95, letterSpacing: '-.005em', textTransform: 'uppercase', margin: '0 0 18px', color: '#fff' },
-  h2grad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #00E5FF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
+  h2grad: { background: 'linear-gradient(90deg, #FF1493 0%, #9B30FF 54%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 600, fontSize: 22, color: 'rgba(255,255,255,.85)', margin: '0 0 60px', maxWidth: 800 },
   grid: { display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 24 },
   link: { display: 'block', minHeight: 250, color: '#fff', textDecoration: 'none', perspective: 1000 },

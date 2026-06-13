@@ -353,9 +353,9 @@ const Hero = ({ lang }) => {
         <div style={heroStyles.bgBeamA} className="wem-hero-beam-a"/>
         <div style={heroStyles.bgBeamB} className="wem-hero-beam-b"/>
         <svg viewBox="0 0 1440 760" preserveAspectRatio="none" style={heroStyles.bgThreads}>
-          <path className="wem-hero-thread" d="M-80 520 C180 360, 300 620, 520 430 S850 150, 1110 270 S1350 520, 1520 330" fill="none" stroke="#FFFFFF" strokeWidth="1.6"/>
+          <path className="wem-hero-thread" d="M-80 520 C180 360, 300 620, 520 430 S850 150, 1110 270 S1350 520, 1520 330" fill="none" stroke="#4A8FFF" strokeWidth="1.6"/>
           <path className="wem-hero-thread" d="M-100 230 C160 90, 380 280, 590 190 S940 130, 1120 390 S1340 610, 1530 480" fill="none" stroke="#FF1493" strokeWidth="1.4" style={{ animationDelay: '-2.6s' }}/>
-          <path className="wem-hero-thread" d="M-120 660 C190 540, 280 220, 560 310 S890 640, 1160 480 S1350 170, 1510 230" fill="none" stroke="#FFFFFF" strokeOpacity=".38" strokeWidth="1.5" style={{ animationDelay: '-5.1s' }}/>
+          <path className="wem-hero-thread" d="M-120 660 C190 540, 280 220, 560 310 S890 640, 1160 480 S1350 170, 1510 230" fill="none" stroke="#9B30FF" strokeOpacity=".38" strokeWidth="1.5" style={{ animationDelay: '-5.1s' }}/>
         </svg>
         <div style={heroStyles.orb1}/>
         <div style={heroStyles.orb2}/>
@@ -766,19 +766,19 @@ const getHeroServices = (lang) => (
   lang === 'en'
     ? [
       ['Creator Affiliate', 'Recruit, seed, follow up, and scale creators that can actually sell.', '#FF1493', '8K+'],
-      ['UGC Content', 'Turn creator briefs, demos, and usage rights into a repeatable content engine.', '#FFFFFF', '24K+'],
+      ['UGC Content', 'Turn creator briefs, demos, and usage rights into a repeatable content engine.', '#4A8FFF', '24K+'],
       ['Live Selling', 'Build host rosters, live scripts, product stacks, and weekly live rhythm.', '#9B30FF', 'Live'],
-      ['Shop Operations', 'Fix product pages, offers, samples, fulfillment blockers, and conversion friction.', '#FFFFFF', 'Ops'],
+      ['Shop Operations', 'Fix product pages, offers, samples, fulfillment blockers, and conversion friction.', '#4A8FFF', 'Ops'],
       ['Paid Amplify', 'Push proven creator angles into paid traffic without breaking the organic loop.', '#FF1493', 'ROAS'],
-      ['Growth Reporting', 'Connect content, traffic, orders, creator output, and next actions every week.', '#FFFFFF', 'GMV'],
+      ['Growth Reporting', 'Connect content, traffic, orders, creator output, and next actions every week.', '#9B30FF', 'GMV'],
     ]
     : [
       ['达人联盟', '招募、寄样、跟进、放大真正能带货的达人。', '#FF1493', '8K+'],
-      ['UGC 内容', '把脚本、测评、展示和授权做成可复用的内容系统。', '#FFFFFF', '24K+'],
+      ['UGC 内容', '把脚本、测评、展示和授权做成可复用的内容系统。', '#4A8FFF', '24K+'],
       ['直播带货', '搭建主播池、直播话术、货盘节奏和每周复盘。', '#9B30FF', 'Live'],
-      ['店铺运营', '优化商品页、优惠、样品、履约和转化卡点。', '#FFFFFF', 'Ops'],
+      ['店铺运营', '优化商品页、优惠、样品、履约和转化卡点。', '#4A8FFF', 'Ops'],
       ['投放放大', '把跑出来的达人角度放进广告，放大有效内容。', '#FF1493', 'ROAS'],
-      ['增长复盘', '每周把内容、流量、订单、达人产出和下一步接起来。', '#FFFFFF', 'GMV'],
+      ['增长复盘', '每周把内容、流量、订单、达人产出和下一步接起来。', '#9B30FF', 'GMV'],
     ]
 );
 const HeroThreeScene = ({ lang, active, onActive }) => {
@@ -1085,9 +1085,9 @@ const HeroMotionVisual = ({ lang }) => {
       phoneSub: 'Views updating live',
       rows: [
         ['UGC try-on', '18.4K', '38%', '#FF1493'],
-        ['Product demo', '96.8K', '58%', '#FFFFFF'],
-        ['Review clip', '318K', '76%', '#FFFFFF'],
-        ['Viral angle', '1.2M', '94%', '#FFFFFF'],
+        ['Product demo', '96.8K', '58%', '#4A8FFF'],
+        ['Review clip', '318K', '76%', '#9B30FF'],
+        ['Viral angle', '1.2M', '94%', '#4A8FFF'],
       ],
       metrics: [['+286%', 'creator views'], ['48', 'new creator posts'], ['3', 'languages covered']],
       note: 'From creator seeding to content testing, every signal points to the next move.',
@@ -1105,9 +1105,9 @@ const HeroMotionVisual = ({ lang }) => {
       phoneSub: '播放量持续更新',
       rows: [
         ['试用内容', '18.4K', '38%', '#FF1493'],
-        ['产品展示', '96.8K', '58%', '#FFFFFF'],
-        ['测评视频', '318K', '76%', '#FFFFFF'],
-        ['爆款角度', '1.2M', '94%', '#FFFFFF'],
+        ['产品展示', '96.8K', '58%', '#4A8FFF'],
+        ['测评视频', '318K', '76%', '#9B30FF'],
+        ['爆款角度', '1.2M', '94%', '#4A8FFF'],
       ],
       metrics: [['+286%', '达人播放增长'], ['48', '新增达人内容'], ['三语', '覆盖更多受众']],
       note: '从达人种草到内容测试，用真实数据判断下一步该推什么。',
@@ -1188,21 +1188,21 @@ const HeroMotionVisual = ({ lang }) => {
       </div>
       <div style={heroStyles.chartPanel}>
         <svg viewBox="0 0 360 160" style={heroStyles.chartSvg}>
-          <path d="M20 132 C78 124, 98 92, 142 96 S210 84, 250 50 S306 30, 340 18" fill="none" stroke="#FFFFFF" strokeWidth="5" strokeLinecap="round" className="wem-hero-growth-line"/>
+          <path d="M20 132 C78 124, 98 92, 142 96 S210 84, 250 50 S306 30, 340 18" fill="none" stroke="#4A8FFF" strokeWidth="5" strokeLinecap="round" className="wem-hero-growth-line"/>
           <path d="M20 132 C78 124, 98 92, 142 96 S210 84, 250 50 S306 30, 340 18 L340 150 L20 150 Z" fill="url(#heroGrowthFill)"/>
           <defs>
             <linearGradient id="heroGrowthFill" x1="0" y1="0" x2="0" y2="1">
-              <stop stopColor="#FFFFFF" stopOpacity=".28"/>
-              <stop offset="1" stopColor="#FFFFFF" stopOpacity="0"/>
+              <stop stopColor="#4A8FFF" stopOpacity=".28"/>
+              <stop offset="1" stopColor="#9B30FF" stopOpacity="0"/>
             </linearGradient>
           </defs>
         </svg>
       </div>
       <div style={heroStyles.growthNote}>{labels.note}</div>
       <svg viewBox="0 0 560 560" style={heroStyles.phoneLines}>
-        <path className="wem-hero-flow" d="M78 210 C180 92, 348 108, 478 206" fill="none" stroke="#FFFFFF" strokeWidth="2"/>
+        <path className="wem-hero-flow" d="M78 210 C180 92, 348 108, 478 206" fill="none" stroke="#4A8FFF" strokeWidth="2"/>
         <path className="wem-hero-flow" d="M88 404 C214 512, 378 486, 492 348" fill="none" stroke="#9B30FF" strokeWidth="2" style={{ animationDelay: '-2s' }}/>
-        <path className="wem-hero-flow" d="M60 322 C172 250, 392 278, 526 162" fill="none" stroke="#FFFFFF" strokeWidth="2" style={{ animationDelay: '-3.5s' }}/>
+        <path className="wem-hero-flow" d="M60 322 C172 250, 392 278, 526 162" fill="none" stroke="#9B30FF" strokeWidth="2" style={{ animationDelay: '-3.5s' }}/>
       </svg>
     </div>
   );
@@ -1253,11 +1253,11 @@ const heroStyles = {
   bgBeamB: { position: 'absolute', right: '-28%', bottom: '10%', width: '88%', height: 148, borderRadius: 999, background: 'linear-gradient(90deg, transparent, rgba(155,48,255,.2), rgba(74,143,255,.08), transparent)', filter: 'blur(34px)', pointerEvents: 'none' },
   bgThreads: { position: 'absolute', zIndex: 1, inset: 0, width: '100%', height: '100%', pointerEvents: 'none', opacity: .62, filter: 'drop-shadow(0 0 14px rgba(255,255,255,.18))' },
   orb1: { position: 'absolute', top: -120, right: -180, width: 760, height: 760, background: 'radial-gradient(circle, #FF1493 0%, rgba(155,48,255,.45) 34%, transparent 56%)', filter: 'blur(60px)', opacity: .24, pointerEvents: 'none' },
-  orb2: { position: 'absolute', bottom: -130, left: -120, width: 560, height: 560, background: 'radial-gradient(circle, #FFFFFF 0%, rgba(255,20,147,.42) 28%, rgba(155,48,255,.28) 46%, transparent 68%)', filter: 'blur(90px)', opacity: .2, pointerEvents: 'none' },
+  orb2: { position: 'absolute', bottom: -130, left: -120, width: 560, height: 560, background: 'radial-gradient(circle, #4A8FFF 0%, rgba(255,20,147,.42) 28%, rgba(155,48,255,.28) 46%, transparent 68%)', filter: 'blur(90px)', opacity: .2, pointerEvents: 'none' },
   inner: { position: 'relative', zIndex: 4, maxWidth: 1360, margin: '0 auto', padding: '78px 32px 88px' },
   pill: { display: 'inline-flex', alignItems: 'center', gap: 12, background: '#fff', color: '#000', borderRadius: 999, padding: '10px 22px', fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 14, letterSpacing: '.06em' },
   h1: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(58px, 7.25vw, 106px)', lineHeight: .98, letterSpacing: 0, textTransform: 'uppercase', margin: '28px 0 0', color: '#fff', textShadow: '0 18px 70px rgba(255,20,147,.16)' },
-  h1accent: { background: 'linear-gradient(90deg, #FF1493 0%, #FF38A8 44%, #9B30FF 78%, #FFFFFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
+  h1accent: { background: 'linear-gradient(90deg, #FF1493 0%, #FF38A8 44%, #9B30FF 78%, #4A8FFF 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' },
   h1outline: { color: 'transparent', WebkitTextStroke: '2px #fff' },
   h1solid: { color: '#fff', WebkitTextStroke: '0 transparent', textShadow: '0 14px 50px rgba(255,20,147,.18)' },
   sub: { fontFamily: 'var(--font-sans)', fontWeight: 600, fontSize: 21, lineHeight: 1.38, color: 'rgba(255,255,255,.85)', maxWidth: 700, marginTop: 22 },
@@ -1308,7 +1308,7 @@ const heroStyles = {
   phoneScreen: { position: 'relative', width: '100%', height: '100%', overflow: 'hidden', borderRadius: 32, background: 'linear-gradient(180deg, #101118, #050507)' },
   phoneTop: { height: 70, padding: '34px 18px 10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,.08)', background: 'linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.02))' },
   phoneBadge: { fontFamily: 'var(--font-mono)', color: 'rgba(255,255,255,.78)', fontSize: 9, letterSpacing: '.12em', fontWeight: 900 },
-  phoneDot: { width: 9, height: 9, borderRadius: 999, background: '#FFFFFF', boxShadow: '0 0 18px rgba(255,255,255,.75)' },
+  phoneDot: { width: 9, height: 9, borderRadius: 999, background: '#4A8FFF', boxShadow: '0 0 18px rgba(74,143,255,.75)' },
   phoneHero: { margin: '14px 13px 0', borderRadius: 22, padding: '16px 15px', background: 'linear-gradient(135deg, rgba(255,255,255,.18), rgba(255,20,147,.14), rgba(155,48,255,.1))', border: '1px solid rgba(255,255,255,.12)', display: 'grid', gap: 4 },
   viewsViewport: { height: 204, margin: '13px 13px 0', overflow: 'hidden', borderRadius: 20 },
   viewsStream: { display: 'grid', gap: 10 },
@@ -1359,7 +1359,7 @@ const heroStyles = {
     { left: 48, bottom: 138 },
     { right: 42, bottom: 154 },
   ],
-  liveDot: { width: 8, height: 8, borderRadius: 999, background: '#FFFFFF', display: 'inline-block' },
+  liveDot: { width: 8, height: 8, borderRadius: 999, background: '#4A8FFF', display: 'inline-block' },
   signalRow: { position: 'absolute', minWidth: 172, display: 'flex', alignItems: 'center', gap: 10, border: '1px solid', borderRadius: 12, padding: '11px 12px', background: 'rgba(0,0,0,.5)', backdropFilter: 'blur(12px)', color: '#fff', fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 800, boxShadow: '0 18px 48px rgba(0,0,0,.25)' },
   signalIndex: { fontFamily: 'var(--font-mono)', fontSize: 10, letterSpacing: '.1em' },
   pipeline: { position: 'absolute', zIndex: 5, left: 34, right: 34, bottom: 38, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 8 },

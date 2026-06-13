@@ -40,11 +40,11 @@
   --we-success: #4A8FFF;
   --we-warning: #9B30FF;
   --we-danger:  #EF4444;
-  --we-info:    #38BDF8;
+  --we-info:    #4A8FFF;
 
   /* --- GRADIENTS (signature) --- */
   --we-grad-iridescent: linear-gradient(135deg, #FF1493 0%, #FF38A8 42%, #9B30FF 76%, #4A8FFF 100%); /* pill chart, edge shapes */
-  --we-grad-orb: radial-gradient(circle at 30% 30%, #FFFFFF 0%, #FF5BB8 28%, #B040FF 58%, #32113F 100%);
+  --we-grad-orb: radial-gradient(circle at 30% 30%, #4A8FFF 0%, #FF5BB8 28%, #B040FF 58%, #32113F 100%);
   --we-grad-rim: linear-gradient(135deg, rgba(255,20,147,.42), rgba(155,48,255,.28), rgba(74,143,255,.16));
   --we-grad-magenta: linear-gradient(135deg, #FF1493 0%, #FF38A8 100%);
 

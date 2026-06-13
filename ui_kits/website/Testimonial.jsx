@@ -33,7 +33,7 @@ const Testimonial = ({ lang }) => {
 const ttStyles = {
   wrap: { background: '#000', color: '#fff', padding: '120px 0', borderTop: '1px solid rgba(255,255,255,.08)' },
   inner: { maxWidth: 1100, margin: '0 auto', padding: '0 32px' },
-  eye: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 13, letterSpacing: '.12em', textTransform: 'uppercase', color: '#00E5FF', marginBottom: 32 },
+  eye: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 13, letterSpacing: '.12em', textTransform: 'uppercase', color: '#4A8FFF', marginBottom: 32 },
   quote: { fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: 36, lineHeight: 1.3, color: '#fff' },
   attr: { display: 'flex', alignItems: 'center', gap: 16, marginTop: 48 },
   avatar: { width: 52, height: 52, borderRadius: 999, background: 'linear-gradient(135deg, #FF1493 0%, #9B30FF 100%)' },
