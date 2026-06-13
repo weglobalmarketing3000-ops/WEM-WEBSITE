@@ -1,24 +1,51 @@
 // NavBar.jsx, sticky top nav (dark)
+const WEM_LANG_VERSION = '20260528-default-en';
+window.getWemInitialLang = () => {
+  const urlLang = new URLSearchParams(window.location.search).get('lang');
+  if (urlLang === 'zh' || urlLang === 'en') return urlLang;
+  if (localStorage.getItem('we-lang-version') !== WEM_LANG_VERSION) {
+    localStorage.setItem('we-lang', 'en');
+    localStorage.setItem('we-lang-version', WEM_LANG_VERSION);
+    return 'en';
+  }
+  return localStorage.getItem('we-lang') || 'en';
+};
+window.persistWemLang = (lang) => {
+  localStorage.setItem('we-lang', lang);
+  localStorage.setItem('we-lang-version', WEM_LANG_VERSION);
+};
 const NavBar = ({ lang, onLang, basePath = '' }) => {
   const b = basePath;
+  const home = b || '/';
   const t = {
-    en: { nav: [['Services', b + 'index.html#Services'], ['Creator Content', b + 'services/creator-content.html'], ['Our Work', b + 'showcase.html'], ['Affiliate', b + 'affiliate.html'], ['About', b + 'about.html'], ['Blog', b + 'blog.html']], cta: 'Book a call →' },
-    zh: { nav: [['服务', b + 'index.html#Services'], ['达人内容', b + 'services/creator-content.html'], ['案例', b + 'showcase.html'], ['联盟达人', b + 'affiliate.html'], ['关于', b + 'about.html'], ['博客', b + 'blog.html']], cta: '预约咨询 →' },
+    en: { nav: [['Our Services', b + 'services'], ['UGC Content', b + 'services/creator-content'], ['Our Work', b + 'showcase'], ['Creator Affiliate', b + 'affiliate'], ['About Us', b + 'about'], ['Blog', b + 'blog']], cta: 'Book a call →' },
+    zh: { nav: [['服务', b + 'services'], ['UGC 内容', b + 'services/creator-content'], ['案例', b + 'showcase'], ['达人联盟', b + 'affiliate'], ['关于我们', b + 'about'], ['博客', b + 'blog']], cta: '预约咨询' },
   }[lang];
   return (
-    <nav style={navStyles.wrap}>
-      <div style={navStyles.inner}>
-        <a href={b + 'index.html'} style={navStyles.brand}>
+    <nav style={navStyles.wrap} className="wem-nav">
+      <style>{`
+        @media (max-width: 860px) {
+          .wem-nav-inner { padding: 12px 18px !important; gap: 14px !important; }
+          .wem-nav-links { display: none !important; }
+          .wem-nav-brand img { height: 31px !important; }
+          .wem-nav-call { display: none !important; }
+        }
+        @media (max-width: 430px) {
+          .wem-nav-inner { padding: 11px 14px !important; }
+        }
+      `}</style>
+      <div style={navStyles.inner} className="wem-nav-inner">
+        <a href={home} style={navStyles.brand} className="wem-nav-brand">
           <img src={(basePath ? '../' : '') + '../../assets/we-logo-white.png'} alt="WE" style={{ height: 36 }}/>
         </a>
-        <div style={navStyles.links}>
+        <div style={navStyles.links} className="wem-nav-links">
           {t.nav.map(([label, href], i) => <a key={i} href={href} style={navStyles.link}>{label}</a>)}
         </div>
         <div style={navStyles.right}>
           <button style={navStyles.langBtn} onClick={() => onLang(lang === 'en' ? 'zh' : 'en')}>
             {lang === 'en' ? '中' : 'EN'}
           </button>
-          <a href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925" target="_blank" rel="noopener" className="we-btn we-btn-primary" style={{ fontSize: 14, padding: '10px 18px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
+          <a href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925" target="_blank" rel="noopener" className="we-btn we-btn-primary wem-nav-call" style={{ fontSize: 14, padding: '10px 18px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
         </div>
       </div>
     </nav>

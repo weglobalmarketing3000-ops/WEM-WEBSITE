@@ -5,7 +5,7 @@ const Marquee = ({ lang }) => {
   // Placeholder brands — replace these directly with real partner names
   const placeholderBrands = ['HI!PAPA','ZUTTONYAN','PAPABLIC','GUYU','MOONBREW','COSRX'];
   const brands = [...realBrands, ...placeholderBrands];
-  const eye = lang === 'en' ? 'BRAND PARTNERS · 160+ brands trust WEM' : '品牌伙伴 · 160+ 品牌信赖 WEM';
+  const eye = lang === 'en' ? 'BRAND PARTNERS · 160+ brands trust WEM' : '品牌伙伴 · 160+ 跨境与美国品牌信赖 WEM';
 
   // Split into two rows so each row scrolls independently
   const half = Math.ceil(brands.length / 2);
@@ -18,7 +18,7 @@ const Marquee = ({ lang }) => {
     <section style={mqStyles.wrap}>
       <div style={mqStyles.eye}>{eye}</div>
       {[items1, items2].map((items, track) => (
-        <div key={track} style={{ ...mqStyles.track, animationDirection: track % 2 ? 'reverse' : 'normal', animationDuration: track % 2 ? '7s' : '5s' }}>
+        <div key={track} style={{ ...mqStyles.track, animationDirection: track % 2 ? 'reverse' : 'normal', animationDuration: track % 2 ? '9.1s' : '6.5s' }}>
           {items.map((b, i) => <div key={i} style={mqStyles.logo}>{b}</div>)}
         </div>
       ))}

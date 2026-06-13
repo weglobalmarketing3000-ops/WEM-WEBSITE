@@ -9,9 +9,9 @@ const Testimonial = ({ lang }) => {
     },
     zh: {
       eyebrow: '品牌怎么说',
-      quote: '"和 WE 合作之后，我们的 TikTok Shop 从『还行』变成『太猛了』。创意牛、沟通透明、销量起飞。"',
-      who: '市场负责人',
-      brand: '某头部美妆 DTC 品牌',
+      quote: '"WE 做的不是单纯找达人。他们会把内容、联盟、店铺节奏和数据复盘放在一起看，沟通很清楚，动作也快。"',
+      who: '品牌市场负责人',
+      brand: '跨境 DTC 消费品牌',
     },
   }[lang];
   return (

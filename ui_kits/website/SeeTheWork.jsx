@@ -7,9 +7,9 @@ const SeeTheWork = ({ lang }) => {
       cta: 'See the work →',
     },
     zh: {
-      eye: '// 真实案例 · 真实数据',
-      h: '160+ 品牌合作伙伴，覆盖美妆、健康、\n科技与时尚。',
-      cta: '查看案例 →',
+      eye: '// 真实案例 · 美国市场数据',
+      h: '我们做过 160+ 个品牌和店铺，覆盖美妆、健康、\n科技、服饰和跨境消费品。',
+      cta: '查看案例',
     },
   }[lang];
   return (
@@ -17,7 +17,7 @@ const SeeTheWork = ({ lang }) => {
       <div style={stwStyles.inner}>
         <div style={stwStyles.eye}>{t.eye}</div>
         <h2 style={stwStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-        <a href="showcase.html" style={stwStyles.cta}>{t.cta}</a>
+        <a href="showcase" style={stwStyles.cta}>{t.cta}</a>
       </div>
     </section>
   );
