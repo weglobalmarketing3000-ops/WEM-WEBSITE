@@ -35,9 +35,9 @@ const BLOG_POSTS = [
   {
     slug: 'tiktok-shop-us-deals-for-you-days',
     cat: { en: 'TIKTOK SHOP U.S. · DEALS FOR YOU DAYS', zh: 'TIKTOK SHOP 美区 · DEALS FOR YOU DAYS' },
-    title: { en: 'What Is TikTok Shop Deals for You Days 2026? A Beginner Guide to DFYD, TikTok Shop, and This Year\'s Seller Expectations', zh: 'Deals for You Days 2026 是什么？TikTok Shop、DFYD 和今年卖家该关注什么' },
-    excerpt: { en: 'A beginner-friendly TikTok Shop guide to Deals for You Days 2026 and DFYD: what the campaign is, how fast it has grown, and what sellers should expect this year.', zh: '一篇更适合搜索承接的 DFYD 科普文：TikTok Shop 是什么、Deals for You Days 是什么、过去增长多快，以及 2026 年卖家可以合理预期什么。' },
-    date: { en: 'Jun 18, 2026', zh: '2026 年 6 月 18 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    title: { en: 'TikTok Shop Deals for You Days 2026: What Kind of Campaign It Is and Why It Matters in North America', zh: 'TikTok Shop Deals for You Days 2026：这波年中大促在北美电商里是什么位置' },
+    excerpt: { en: 'An official-source explainer on DFYD 2026: how TikTok is positioning this mid-year campaign, why it matters, and how brands should connect it to Amazon, DTC, and broader North America ecommerce strategy.', zh: '从官方材料拆解 DFYD 2026：它到底是什么类型的年中大促、TikTok 为什么重推、品牌该怎么把它跟 Amazon、独立站和更大的北美电商盘子一起看。' },
+    date: { en: 'Jun 10, 2026', zh: '2026 年 6 月 10 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
     image: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide.png',
   },
   {
