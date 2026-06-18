@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-us-new-seller-growth-strategy',
+    cat: { en: 'TIKTOK SHOP U.S. · NEW SELLER STRATEGY', zh: 'TIKTOK SHOP 美区 · 新卖家增长' },
+    title: { en: 'TikTok Shop US New Seller Growth Strategy: Pick One Growth Path Before You Try Everything', zh: 'TikTok Shop 美区新卖家增长打法：内容、达人、活动和 GMV Max 应该怎么排顺序' },
+    excerpt: { en: 'A practical WEM framework for new TikTok Shop US sellers deciding when to start with short video, livestream, creator collaboration, campaigns, and Product GMV Max.', zh: 'WEM 拆解 TikTok Shop 美区新卖家该怎么给短视频、自播、达人合作、平台活动和 GMV Max 排顺序，而不是一上来全部同时做。' },
+    date: { en: 'Jun 18, 2026', zh: '2026 年 6 月 18 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-tiktok-shop-us-new-seller-growth-strategy-v2.png',
+  },
+  {
     slug: 'tiktok-shop-us-july-4-seasonal-products',
     cat: { en: 'TIKTOK SHOP U.S. · JULY 4', zh: 'TIKTOK SHOP 美区 · JULY 4' },
     title: { en: 'Selling Seasonal Products on TikTok Shop US Before July 4', zh: '7 月 4 日前，TikTok Shop 美区卖什么更容易转化' },
@@ -27,10 +35,10 @@ const BLOG_POSTS = [
   {
     slug: 'tiktok-shop-us-deals-for-you-days',
     cat: { en: 'TIKTOK SHOP U.S. · DEALS FOR YOU DAYS', zh: 'TIKTOK SHOP 美区 · DEALS FOR YOU DAYS' },
-    title: { en: 'TikTok Shop US Deals for You Days: What Brands Should Fix Before the Sale', zh: 'TikTok Shop 美区 Deals for You Days：品牌在活动前该先补什么' },
-    excerpt: { en: 'A practical WEM guide to TikTok Shop US Deals for You Days: hero SKUs, creator seeding, storefront readiness, pricing, fulfillment, and what brands should fix before the sale window opens.', zh: 'WEM 拆解 TikTok Shop 美区 Deals for You Days：品牌在活动前要先补的 SKU、达人寄样、店铺承接、价格、履约和搜索承接。' },
-    date: { en: 'May 28, 2026', zh: '2026 年 5 月 28 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
-    image: 'hero-tiktok-shop-us-deals-for-you-days-v7.png',
+    title: { en: 'What Is TikTok Shop Deals for You Days 2026? A Beginner Guide to DFYD, TikTok Shop, and This Year\'s Seller Expectations', zh: 'Deals for You Days 2026 是什么？TikTok Shop、DFYD 和今年卖家该关注什么' },
+    excerpt: { en: 'A beginner-friendly TikTok Shop guide to Deals for You Days 2026 and DFYD: what the campaign is, how fast it has grown, and what sellers should expect this year.', zh: '一篇更适合搜索承接的 DFYD 科普文：TikTok Shop 是什么、Deals for You Days 是什么、过去增长多快，以及 2026 年卖家可以合理预期什么。' },
+    date: { en: 'Jun 18, 2026', zh: '2026 年 6 月 18 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide.png',
   },
   {
     slug: 'cross-border-tiktok-shop-entry-models',
