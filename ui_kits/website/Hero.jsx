@@ -324,13 +324,19 @@ const Hero = ({ lang }) => {
         }
         @media (max-width: 640px) {
           .wem-intro-brand-signature { left: 50% !important; top: 22px !important; transform: translateX(-50%) !important; }
-          .wem-intro-copy { left: 50% !important; right: auto !important; top: 72% !important; bottom: auto !important; transform: translate(-50%, -50%) !important; padding: 0 !important; }
+          .wem-intro-copy { left: 50% !important; right: auto !important; top: 70% !important; bottom: auto !important; transform: translate(-50%, -50%) !important; padding: 0 !important; gap: 9px !important; }
           .wem-intro-copy { width: calc(100vw - 56px) !important; max-width: 334px !important; }
           .wem-intro-title { font-size: 26px !important; line-height: 1.04 !important; width: 100% !important; max-width: 100% !important; overflow-wrap: normal !important; }
           .wem-intro-title-en { font-size: 32px !important; line-height: .96 !important; }
-          .wem-intro-sub { width: min(100%, 292px) !important; max-width: 292px !important; font-size: 14px !important; line-height: 1.42 !important; }
-          .wem-intro-stage { width: 590px !important; height: 590px !important; top: 38% !important; transform: translate(-50%, -50%) scale(.68) !important; }
-          .wem-intro-enter { width: 250px !important; min-width: 0 !important; max-width: calc(100vw - 72px) !important; padding-left: 16px !important; padding-right: 16px !important; justify-self: center !important; font-size: 10px !important; }
+          .wem-intro-sub { width: min(100%, 292px) !important; max-width: 292px !important; font-size: 13px !important; line-height: 1.38 !important; }
+          .wem-intro-stage { width: 540px !important; height: 540px !important; top: 34% !important; transform: translate(-50%, -50%) scale(.58) !important; opacity: .9 !important; }
+          .wem-intro-enter { display: none !important; }
+          .wem-intro-canvas { opacity: .7 !important; }
+          .wem-intro-dot-field,
+          .wem-intro-dot-field-alt,
+          .wem-intro-mesh,
+          .wem-intro-orbit,
+          .wem-intro-node { animation-duration: 42s !important; }
           .wem-intro-node { min-width: 112px !important; padding: 10px 11px !important; font-size: 10px !important; }
           .wem-intro-system-rail { display: none !important; }
           .wem-intro-title-full { display: none !important; }
@@ -513,7 +519,13 @@ const OpeningPortalScene = ({ opening }) => {
     const canvas = canvasRef.current;
     if (!canvas) return undefined;
     const ctx = canvas.getContext('2d', { alpha: true });
-    const particles = Array.from({ length: 420 }, (_, index) => {
+    const compact = window.matchMedia('(max-width: 640px)').matches;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const particleTotal = compact ? 150 : 420;
+    const microTotal = compact ? 90 : 260;
+    const distantTotal = compact ? 80 : 180;
+    const foregroundTotal = compact ? 8 : 18;
+    const particles = Array.from({ length: reduced ? 0 : particleTotal }, (_, index) => {
       const arm = index % 5;
       const depth = Math.random();
       return {
@@ -531,7 +543,7 @@ const OpeningPortalScene = ({ opening }) => {
         blue: Math.random() > .88,
       };
     });
-    const microStars = Array.from({ length: 260 }, () => ({
+    const microStars = Array.from({ length: microTotal }, () => ({
       x: Math.random(),
       y: Math.random(),
       size: .18 + Math.random() * .48,
@@ -540,7 +552,7 @@ const OpeningPortalScene = ({ opening }) => {
       tone: Math.random(),
       alpha: .045 + Math.random() * .14,
     }));
-    const distantStars = Array.from({ length: 180 }, () => ({
+    const distantStars = Array.from({ length: distantTotal }, () => ({
       x: Math.random(),
       y: Math.random(),
       size: .18 + Math.random() * .82,
@@ -551,7 +563,7 @@ const OpeningPortalScene = ({ opening }) => {
       tone: Math.random(),
       alpha: .1 + Math.random() * .36,
     }));
-    const foregroundStars = Array.from({ length: 18 }, () => {
+    const foregroundStars = Array.from({ length: foregroundTotal }, () => {
       let x = Math.random();
       let y = Math.random();
       if (x > .24 && x < .76 && y > .22 && y < .76) {
@@ -572,7 +584,7 @@ const OpeningPortalScene = ({ opening }) => {
     let height = 1;
     const resize = () => {
       const rect = canvas.parentElement.getBoundingClientRect();
-      const dpr = Math.min(window.devicePixelRatio || 1, 1.25);
+      const dpr = compact ? 1 : Math.min(window.devicePixelRatio || 1, 1.25);
       width = Math.max(1, rect.width);
       height = Math.max(1, rect.height);
       canvas.width = Math.round(width * dpr);
@@ -717,9 +729,11 @@ const OpeningPortalScene = ({ opening }) => {
       drawRing(time, 1.08 + openingBoost * .18, 'rgba(205,64,146,.42)', .29, .34);
       drawRing(time, 1.42 + openingBoost * .24, 'rgba(155,48,255,.3)', .24, .25);
       drawRing(-time, 1.8 + openingBoost * .32, 'rgba(74,143,255,.18)', .14, .18);
-      drawTrailArc(time, 1.1 + openingBoost * .12, 'rgba(205,64,146,.88)', .3, .34, .2, Math.PI * .72);
-      drawTrailArc(-time, 1.45 + openingBoost * .16, 'rgba(155,48,255,.9)', .22, .24, 2.4, Math.PI * .54);
-      drawTrailArc(time, 1.83 + openingBoost * .18, 'rgba(74,143,255,.74)', .1, .18, 4.1, Math.PI * .42);
+      if (!compact) {
+        drawTrailArc(time, 1.1 + openingBoost * .12, 'rgba(205,64,146,.88)', .3, .34, .2, Math.PI * .72);
+        drawTrailArc(-time, 1.45 + openingBoost * .16, 'rgba(155,48,255,.9)', .22, .24, 2.4, Math.PI * .54);
+        drawTrailArc(time, 1.83 + openingBoost * .18, 'rgba(74,143,255,.74)', .1, .18, 4.1, Math.PI * .42);
+      }
       const cx = width / 2;
       const cy = height * .42;
       const spin = time * .00012 + openingBoost * .8;
@@ -743,7 +757,7 @@ const OpeningPortalScene = ({ opening }) => {
         const tx = -Math.sin(angle);
         const ty = Math.cos(angle) * .34;
         const tLen = Math.hypot(tx, ty) || 1;
-        if (z > .68 && alpha > .16) {
+        if (!compact && z > .68 && alpha > .16) {
           drawStarTrail(x, y, tx / tLen, ty / tLen, (8 + p.size * 6) * z * (1 + openingBoost * .28), alpha * .42, color, p.size * z);
         }
         drawStar(x, y, p.size * z, alpha, color, p.spike && z > .72);
