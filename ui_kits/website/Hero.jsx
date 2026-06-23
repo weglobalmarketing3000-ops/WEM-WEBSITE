@@ -341,20 +341,65 @@ const Hero = ({ lang }) => {
           .wem-intro-system-rail { display: none !important; }
           .wem-intro-title-full { display: none !important; }
           .wem-intro-title-mobile { display: inline !important; }
-          .wem-hero-wrap::before { opacity: .55; }
-          .wem-hero-inner { padding: 48px 24px 58px !important; max-width: 100vw !important; overflow: hidden; }
+          .wem-hero-wrap { min-height: auto !important; }
+          .wem-hero-wrap::before { opacity: .46; }
+          .wem-hero-wrap::after { opacity: .08; }
+          .wem-hero-inner {
+            min-height: calc(100svh - 88px) !important;
+            padding: 92px 22px 50px !important;
+            max-width: 100vw !important;
+            overflow: hidden;
+            align-content: center;
+            gap: 0 !important;
+            text-align: center;
+          }
           .wem-hero-inner > div { min-width: 0; }
-          .wem-hero-title { max-width: min(330px, calc(100vw - 48px)) !important; font-size: 38px !important; line-height: 1.04 !important; }
-          .wem-hero-sub { max-width: min(330px, calc(100vw - 48px)) !important; font-size: 17px !important; line-height: 1.42 !important; }
-          .wem-hero-pill { max-width: 100%; white-space: normal !important; border-radius: 22px !important; font-size: 12px !important; line-height: 1.15 !important; }
-          .wem-service-hud { justify-self: start !important; width: min(330px, calc(100vw - 48px)) !important; max-width: min(330px, calc(100vw - 48px)) !important; min-height: 440px !important; padding: 20px !important; }
+          .wem-hero-title {
+            margin: 28px auto 0 !important;
+            max-width: min(350px, calc(100vw - 44px)) !important;
+            font-size: 45px !important;
+            line-height: .98 !important;
+            text-wrap: balance;
+          }
+          .wem-hero-sub {
+            margin: 22px auto 0 !important;
+            max-width: min(344px, calc(100vw - 44px)) !important;
+            font-size: 18px !important;
+            line-height: 1.48 !important;
+            color: rgba(255,255,255,.82) !important;
+            text-wrap: pretty;
+          }
+          .wem-hero-pill {
+            margin: 0 auto !important;
+            max-width: min(334px, calc(100vw - 44px)) !important;
+            justify-content: center !important;
+            white-space: normal !important;
+            border-radius: 999px !important;
+            font-size: 11px !important;
+            line-height: 1.18 !important;
+            padding: 11px 18px !important;
+            color: rgba(255,255,255,.92) !important;
+            background: rgba(255,255,255,.1) !important;
+            border: 1px solid rgba(255,255,255,.16) !important;
+            box-shadow: 0 18px 60px rgba(0,0,0,.26), inset 0 0 0 1px rgba(255,255,255,.05) !important;
+            backdrop-filter: blur(12px);
+          }
+          .wem-hero-pill svg { display: none !important; }
+          .wem-service-hud { display: none !important; }
           .wem-service-hud-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 8px !important; }
           .wem-service-hud-card { min-height: 72px !important; padding: 12px !important; }
-          .wem-dom-constellation { opacity: .28 !important; transform: translate(2%, 10%) scale(.62) !important; }
-          .wem-hero-ctas { flex-direction: column; align-items: stretch; }
+          .wem-dom-constellation { display: none !important; }
+          .wem-hero-ctas { flex-direction: column; align-items: center; margin-top: 34px !important; }
           .wem-hero-ctas > * { width: 100%; max-width: min(330px, calc(100vw - 48px)); }
+          .wem-hero-ctas .we-btn-primary {
+            min-height: 64px !important;
+            border-radius: 999px !important;
+            box-shadow: 0 18px 58px rgba(255,20,147,.24), 0 0 0 1px rgba(255,255,255,.16) inset !important;
+          }
           .wem-hero-stats-inner { grid-template-columns: 1fr !important; gap: 14px !important; }
           .wem-hero-stat { padding: 24px !important; }
+          .wem-hero-bg-shift { opacity: .38 !important; filter: blur(34px) !important; }
+          .wem-hero-thread { animation-duration: 18s !important; opacity: .42 !important; }
         }
       `}</style>
       {introVisible && <OpeningPortal lang={lang} opening={introOpening} onOpen={openIntro}/>}

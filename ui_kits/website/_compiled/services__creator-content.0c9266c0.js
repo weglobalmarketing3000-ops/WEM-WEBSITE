@@ -1617,10 +1617,12 @@ function LazyVideo({
 }) {
   const wrapRef = React.useRef(null);
   const videoRef = React.useRef(null);
+  const isMobile = React.useMemo(() => typeof window !== 'undefined' && window.matchMedia('(max-width: 640px)').matches, []);
   const [shouldLoad, setShouldLoad] = React.useState(false);
   React.useEffect(() => {
     const node = wrapRef.current;
     if (!node || shouldLoad) return;
+    if (isMobile) return;
     if (!('IntersectionObserver' in window)) {
       setShouldLoad(true);
       return;
@@ -1631,11 +1633,11 @@ function LazyVideo({
         observer.disconnect();
       }
     }, {
-      rootMargin: '850px 0px'
+      rootMargin: '420px 0px'
     });
     observer.observe(node);
     return () => observer.disconnect();
-  }, [shouldLoad]);
+  }, [shouldLoad, isMobile]);
   React.useEffect(() => {
     if (shouldLoad && videoRef.current) {
       videoRef.current.play().catch(() => {});
@@ -1644,11 +1646,13 @@ function LazyVideo({
   return React.createElement("div", {
     ref: wrapRef,
     "aria-label": label || '',
+    onClick: () => setShouldLoad(true),
     style: {
       ...style,
       position: 'relative',
       overflow: 'hidden',
-      background: 'linear-gradient(145deg, rgba(255,20,147,.14), rgba(74,143,255,.1), rgba(0,0,0,.9))'
+      background: 'linear-gradient(145deg, rgba(255,20,147,.16), rgba(74,143,255,.13), rgba(0,0,0,.92))',
+      cursor: isMobile && !shouldLoad ? 'pointer' : 'default'
     }
   }, shouldLoad ? React.createElement("video", {
     ref: videoRef,
@@ -1670,9 +1674,25 @@ function LazyVideo({
     style: {
       position: 'absolute',
       inset: 0,
-      background: 'radial-gradient(circle at 50% 35%, rgba(255,255,255,.12), transparent 36%)'
+      display: 'grid',
+      placeItems: 'center',
+      background: 'radial-gradient(circle at 50% 35%, rgba(255,255,255,.16), transparent 35%), linear-gradient(180deg, rgba(255,255,255,.03), rgba(0,0,0,.28))'
     }
-  }));
+  }, React.createElement("span", {
+    style: {
+      width: 46,
+      height: 46,
+      borderRadius: 999,
+      display: 'grid',
+      placeItems: 'center',
+      background: 'rgba(0,0,0,.42)',
+      border: '1px solid rgba(255,255,255,.22)',
+      color: '#fff',
+      fontSize: 18,
+      boxShadow: '0 18px 50px rgba(0,0,0,.35)'
+    },
+    "aria-hidden": "true"
+  }, "\u25b6")));
 }
 function EagerVideo({
   src,
