@@ -1,4 +1,42 @@
 // PrecisionMatch.jsx, replaces IndustriesStrip on /showcase.html — proprietary matching system
+const LazyMatchVideo = ({ src, label }) => {
+  const wrapRef = React.useRef(null);
+  const videoRef = React.useRef(null);
+  const [shouldLoad, setShouldLoad] = React.useState(false);
+
+  React.useEffect(() => {
+    const node = wrapRef.current;
+    if (!node || shouldLoad) return;
+    if (!('IntersectionObserver' in window)) {
+      setShouldLoad(true);
+      return;
+    }
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        setShouldLoad(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: '320px 0px' });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [shouldLoad]);
+
+  React.useEffect(() => {
+    if (shouldLoad && videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
+  }, [shouldLoad]);
+
+  return (
+    <div ref={wrapRef} style={pmStyles.videoCard}>
+      {shouldLoad ? (
+        <video ref={videoRef} style={pmStyles.video} src={src} autoPlay loop muted playsInline preload="none"/>
+      ) : null}
+      <div style={pmStyles.videoLabel}>{label}</div>
+    </div>
+  );
+};
+
 const PrecisionMatch = ({ lang }) => {
   const t = {
     en: {
@@ -137,10 +175,7 @@ const PrecisionMatch = ({ lang }) => {
             <div style={pmStyles.mixPanel}>
               <div style={pmStyles.videoGrid}>
                 {t.showcase.videos.map(([src, label]) => (
-                  <div key={src} style={pmStyles.videoCard}>
-                    <video style={pmStyles.video} src={src} autoPlay loop muted playsInline preload="metadata"/>
-                    <div style={pmStyles.videoLabel}>{label}</div>
-                  </div>
+                  <LazyMatchVideo key={src} src={src} label={label}/>
                 ))}
               </div>
               <div style={pmStyles.mixTitle}>{t.showcase.mixTitle}</div>

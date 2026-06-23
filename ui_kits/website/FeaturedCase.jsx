@@ -94,6 +94,43 @@ const CASES = [
 
 const CASE_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF']; // pink / blue / purple
 
+const LazyCaseVideo = ({ src, style }) => {
+  const wrapRef = React.useRef(null);
+  const videoRef = React.useRef(null);
+  const [shouldLoad, setShouldLoad] = React.useState(false);
+
+  React.useEffect(() => {
+    const node = wrapRef.current;
+    if (!node || shouldLoad) return;
+    if (!('IntersectionObserver' in window)) {
+      setShouldLoad(true);
+      return;
+    }
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        setShouldLoad(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: '360px 0px' });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [shouldLoad]);
+
+  React.useEffect(() => {
+    if (shouldLoad && videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
+  }, [shouldLoad]);
+
+  return (
+    <div ref={wrapRef} style={{ ...style, background: '#050505' }}>
+      {shouldLoad ? (
+        <video ref={videoRef} style={style} src={src} autoPlay loop muted playsInline preload="none"/>
+      ) : null}
+    </div>
+  );
+};
+
 const FeaturedCase = ({ lang }) => {
   const h = {
     en: {
@@ -177,7 +214,7 @@ const CaseBlock = ({ c, lang, last, accent }) => {
       <div style={fcStyles.phoneWrap}>
         <div style={fcStyles.phone}>
           {c.video ? (
-            <video style={fcStyles.video} src={c.video} autoPlay loop muted playsInline preload="metadata"/>
+            <LazyCaseVideo style={fcStyles.video} src={c.video}/>
           ) : (
             <div style={fcStyles.placeholder}>
               <div style={fcStyles.placeholderLabel}>{lang === 'en' ? 'CASE VIDEO' : '案例视频'}</div>
