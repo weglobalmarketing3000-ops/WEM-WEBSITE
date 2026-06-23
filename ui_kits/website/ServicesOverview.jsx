@@ -113,10 +113,12 @@ const ServicesOverview = ({ lang }) => {
           ['Post-live review', 'GMV, traffic, conversion, host performance, and next test plan.'],
         ],
         shortlistTitle: 'Live host shortlist preview',
-        shortlistNote: 'Public examples shown only when the live host profile is already public. WEM still shortlists by category fit, sales style, availability, and live history before outreach.',
+        shortlistNote: 'Examples of live hosts WEM frequently works with. Final shortlists are still matched by category fit, sales style, availability, and live history before outreach.',
         shortlist: [
-          { type: 'Female home & toy live host', signal: 'Toy and home category fit / demo-led selling style', fit: 'Useful for home, toy, and family-shopping lives where a female host can carry product explanation, casual demos, and everyday-use scenarios naturally.' },
-          { type: 'John Billings (@johnebillings)', signal: '35.6K followers / $58.2K GMV / balanced male-female audience', fit: 'Strong fit for $50 to $100 products, especially household appliances and products that sell better with outdoor demonstration. Audience skews 35-44, with fairly even distribution across 45-54 and 55+ as well.' },
+          { icon: 'bear', type: 'Toys, gaming, and deals-driven live host', signal: '$250K+ GMV / FOMO, flash-sale, and auction-style selling', fit: 'Strong fit for toys, gaming-adjacent products, fast-moving deals, limited-time bundles, and live rooms that need urgency and confident offer framing.' },
+          { icon: 'vacuum', type: 'Household and outdoor demo host', signal: '$120K+ GMV / 35.6K followers / balanced audience', fit: 'Strong fit for $50 to $100 products, especially household appliances and products that sell better through outdoor or hands-on demonstration.' },
+          { icon: 'tools-auto', type: 'Video and live conversion host', signal: '$500K+ GMV / automotive, motorcycle, tools, and hardware fit', fit: 'Works well when short video builds demand and live closes the sale. Audience reach is balanced across 25-54, led by 35-44, with an approximately 60% female / 40% male mix.' },
+          { icon: 'beauty', type: 'Beauty and daily skincare live host', signal: '$100K+ GMV / video + live / flash sales and deals', fit: 'Strong fit for skincare and beauty products that need clear ingredient, routine, and usage explanation. Audience is 85%+ ages 35-55+, making the host a good fit for daily skincare lives and deal-led beauty campaigns.' },
         ],
       },
       labelBest: 'Best for',
@@ -238,10 +240,12 @@ const ServicesOverview = ({ lang }) => {
           ['直播复盘', '复盘 GMV、流量、转化、主播表现和下一轮测试方向。'],
         ],
         shortlistTitle: '达人直播主播 shortlist',
-        shortlistNote: '如果是公开可见的主播资料，可以放公开 handle；WEM 真正执行时还是会按品类匹配、销售风格、档期和直播历史先筛选，再触达。',
+        shortlistNote: '以下是 WEM 经常合作的 live host 示例；实际 shortlist 仍会根据品类匹配、销售风格、档期和直播历史先筛选，再触达。',
         shortlist: [
-          { type: '女性家居 / 玩具类 live host', signal: '家居与玩具品类匹配 / 偏演示型带货', fit: '更适合家居、玩具、家庭消费这类需要自然讲解、生活场景展示和轻演示节奏的直播。公开页面先放画像，不硬写没有把握的数据。' },
-          { type: 'John Billings (@johnebillings)', signal: '35.6K 粉丝 / 58.2K GMV / 男女粉相对均衡', fit: '适合客单价 50 到 100 美元的产品，尤其是 household appliance，也适合需要户外展示的商品。受众以 35 到 44 岁最多，但整体年龄分布比较平均，45 到 54 岁和 55+ 也都有承接。' },
+          { icon: 'bear', type: '玩具、游戏与 Deal 型主播', signal: '250K+ GMV / 擅长 FOMO、限时闪促和 auction 节奏', fit: '适合玩具、游戏相关产品、deal-driven 商品、限时组合和需要强紧迫感的直播间，能把库存感、价格锚点和抢购氛围带起来。' },
+          { icon: 'vacuum', type: '家电与户外演示型主播', signal: '120K+ GMV / 35.6K 粉丝 / 受众相对均衡', fit: '适合客单价 50 到 100 美元的产品，尤其是 household appliance 和需要户外或上手演示的商品。' },
+          { icon: 'tools-auto', type: '短视频种草 + 直播割草型主播', signal: '500K+ GMV / 汽摩、工具、五金和大件产品适配', fit: '适合先用短视频种草、再用直播收口转化的打法。受众覆盖 25-54，35-44 最集中，男女结构约女性 60%、男性 40%。' },
+          { icon: 'beauty', type: '美妆与日常护肤型主播', signal: '100K+ GMV / video + live / flash sales 和 deals', fit: '适合 skincare 和 beauty 产品，尤其是需要讲清楚成分、使用步骤和日常护肤场景的商品。受众 35-55+ 占比 85%+，适合日常护肤直播和 deal-led 美妆活动。' },
         ],
       },
       labelBest: '适合谁',
@@ -431,6 +435,71 @@ const LazyServiceVideo = ({ src, style }) => {
   );
 };
 
+const HostCategoryIcon = ({ type }) => {
+  const common = {
+    width: 18,
+    height: 18,
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 2.2,
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    style: { color: '#000' },
+    'aria-hidden': 'true',
+  };
+
+  if (type === 'bear') {
+    return (
+      <svg {...common}>
+        <circle cx="7" cy="7" r="2.6" />
+        <circle cx="17" cy="7" r="2.6" />
+        <circle cx="12" cy="13" r="7" />
+        <path d="M9.2 12h.1" />
+        <path d="M14.7 12h.1" />
+        <path d="M10.2 15.2c1 .8 2.6 .8 3.6 0" />
+        <path d="M12 13.8v1.1" />
+      </svg>
+    );
+  }
+
+  if (type === 'vacuum') {
+    return (
+      <svg {...common}>
+        <circle cx="12" cy="9" r="5.2" />
+        <circle cx="12" cy="9" r="1" />
+        <path d="M12 4.2c1.6 1.4 1.6 3 0 4.8" />
+        <path d="M16.3 11.4c-2 .8-3.5 .2-4.3-2.4" />
+        <path d="M7.7 11.4c.4-2.1 1.8-2.9 4.3-2.4" />
+        <path d="M12 14.2v5.8" />
+        <path d="M8.5 20h7" />
+      </svg>
+    );
+  }
+
+  if (type === 'tools-auto') {
+    return (
+      <svg {...common}>
+        <path d="M5.5 13.5 7.4 8.8A3 3 0 0 1 10.2 7h3.6a3 3 0 0 1 2.8 1.8l1.9 4.7" />
+        <path d="M4 14h16v4H4z" />
+        <circle cx="7.2" cy="18.2" r="1.8" />
+        <circle cx="16.8" cy="18.2" r="1.8" />
+        <path d="M8 11h8" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg {...common}>
+      <path d="M9 9h6v10a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z" />
+      <path d="M10.2 5h3.6v4h-3.6z" />
+      <path d="M11 3h2" />
+      <path d="M8 9h8" />
+      <path d="M10 14h4" />
+    </svg>
+  );
+};
+
 const LiveHostSnapshot = ({ data, accent }) => {
 
   return (
@@ -488,7 +557,12 @@ const LiveHostSnapshot = ({ data, accent }) => {
         <div className="wem-live-shortlist-grid" style={soStyles.liveShortlistGrid}>
           {data.shortlist.map((host) => (
             <div key={host.type} style={{ ...soStyles.liveHostCard, borderColor: `${accent}44` }}>
-              <div style={soStyles.liveHostType}>{host.type}</div>
+              <div style={soStyles.liveHostTop}>
+                <div style={{ ...soStyles.liveHostIcon, background: accent }}>
+                  <HostCategoryIcon type={host.icon} />
+                </div>
+                <div style={soStyles.liveHostType}>{host.type}</div>
+              </div>
               <div style={{ ...soStyles.liveHostSignal, color: accent }}>{host.signal}</div>
               <p style={soStyles.liveHostFit}>{host.fit}</p>
             </div>
@@ -590,8 +664,10 @@ const soStyles = {
   liveShortlistHead: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 16, flexWrap: 'wrap', marginBottom: 14 },
   liveShortlistTitle: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 28, lineHeight: 1, textTransform: 'uppercase' },
   liveShortlistNote: { fontFamily: 'var(--font-sans)', fontSize: 12, lineHeight: 1.45, color: 'rgba(255,255,255,.56)', maxWidth: 520, margin: 0 },
-  liveShortlistGrid: { display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 10 },
-  liveHostCard: { border: '1px solid', borderRadius: 14, padding: 15, background: 'rgba(255,255,255,.045)' },
+  liveShortlistGrid: { display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 12 },
+  liveHostCard: { border: '1px solid', borderRadius: 14, padding: 16, background: 'rgba(255,255,255,.045)' },
+  liveHostTop: { display: 'grid', gridTemplateColumns: '32px minmax(0, 1fr)', gap: 10, alignItems: 'center' },
+  liveHostIcon: { width: 32, height: 32, borderRadius: 9, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 },
   liveHostType: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 20, lineHeight: 1, color: '#fff', textTransform: 'uppercase' },
   liveHostSignal: { fontFamily: 'var(--font-sans)', fontWeight: 900, fontSize: 12, lineHeight: 1.35, marginTop: 10 },
   liveHostFit: { fontFamily: 'var(--font-sans)', fontSize: 12, lineHeight: 1.45, color: 'rgba(255,255,255,.62)', margin: '9px 0 0' },
