@@ -10,7 +10,7 @@ const TIERS = {
   },
   select: {
     color: '#4A8FFF',
-    name: 'Select'
+    name: 'Plus'
   },
   premium: {
     color: '#9B30FF',
@@ -44,7 +44,7 @@ const COPY = {
       tier: 'select',
       popular: true,
       tag: 'QUALITY + CHOICE',
-      name: 'Select',
+      name: 'Plus',
       price: '$80/video',
       note: '50 video minimum = $4,000',
       features: ['~35 creators deliver 70+ videos', 'Brand picks the best 50', 'Brand specifies content types and brief', 'Basic editing + captions + 1 revision', 'Full perpetual usage rights'],
@@ -65,7 +65,7 @@ const COPY = {
     idealFor: 'Ideal for:',
     timeline: 'Timeline:',
     compareTitle: 'Quick compare.',
-    compareHeaders: ['Essentials', 'Select', 'Premium'],
+    compareHeaders: ['Essentials', 'Plus', 'Premium'],
     compareRows: [['Price / video', '$60', '$80', '$150'], ['Minimum order', '100', '50', '25'], ['Minimum spend', '$6,000', '$4,000', '$3,750'], ['Creators', '~35', '~35', 'Handpicked'], ['Videos delivered', '100', '70+', '25'], ['Videos you keep', '100', '50', '25'], ['Brand picks content type', 'No', 'Yes', 'Yes'], ['Editing + captions', 'Yes', 'Yes', 'Yes'], ['Revisions', 'No', '1 round', '1 round'], ['Usage rights', 'Perpetual', 'Perpetual', 'Perpetual']],
     customBundle: ['Need a custom bundle or higher volume? ', 'Contact us for discounts.'],
     customCreator: {
@@ -164,7 +164,7 @@ const COPY = {
     sampleTitle: ['Sample', 'work.'],
     sampleTabs: {
       bulk: 'Essentials',
-      select: 'Select',
+      select: 'Plus',
       premium: 'Premium'
     },
     samples: [{
@@ -244,7 +244,7 @@ const COPY = {
     how: {
       titleA: 'How it',
       titleB: 'works.',
-      steps: [['01', 'Choose your package', 'Essentials for volume, Select for curation, Premium for storytelling.'], ['02', 'Submit your brief', 'Product, target audience, content direction. WEM handles creator matching.'], ['03', 'Creators produce content', 'Each creator films multiple videos. WEM manages sampling, briefing, and QA.'], ['04', 'Review and select (Select package)', '70+ videos delivered. Pick your best 50. Contact us for add-on pricing.'], ['05', 'Receive final deliverables', 'Edited videos + raw footage via Google Drive. Ready for ads.']]
+      steps: [['01', 'Choose your package', 'Essentials for volume, Plus for more choice, Premium for storytelling.'], ['02', 'Submit your brief', 'Product, target audience, content direction. WEM handles creator matching.'], ['03', 'Creators produce content', 'Each creator films multiple videos. WEM manages sampling, briefing, and QA.'], ['04', 'Review and choose (Plus package)', '70+ videos delivered. Pick your best 50. Contact us for add-on pricing.'], ['05', 'Receive final deliverables', 'Edited videos + raw footage via Google Drive. Ready for ads.']]
     },
     final: {
       titleA: 'Ready to get',
@@ -279,7 +279,7 @@ const COPY = {
       tier: 'select',
       popular: true,
       tag: '先看后选',
-      name: 'Select',
+      name: 'Plus',
       price: '$80/条',
       note: '50 条起订 = $4,000',
       features: ['约 35 位达人交付 70+ 条视频', '品牌从中选择最适合投放的 50 条', '可指定内容类型、卖点方向和拍摄需求', '包含基础剪辑、字幕和 1 轮修改', '包含长期使用权'],
@@ -300,7 +300,7 @@ const COPY = {
     idealFor: '适合：',
     timeline: '周期：',
     compareTitle: '快速对比',
-    compareHeaders: ['Essentials', 'Select', 'Premium'],
+    compareHeaders: ['Essentials', 'Plus', 'Premium'],
     compareRows: [['单条价格', '$60', '$80', '$150'], ['起订数量', '100', '50', '25'], ['最低预算', '$6,000', '$4,000', '$3,750'], ['达人数量', '约 35', '约 35', '精选达人'], ['交付视频', '100', '70+', '25'], ['最终保留', '100', '50', '25'], ['品牌指定内容方向', '不包含', '可以', '可以'], ['剪辑 + 字幕', '包含', '包含', '包含'], ['修改轮次', '不包含', '1 轮', '1 轮'], ['使用授权', '永久', '永久', '永久']],
     customBundle: ['需要更大批量或定制内容方向？', '联系我们获取报价。'],
     customCreator: {
@@ -399,7 +399,7 @@ const COPY = {
     sampleTitle: ['内容', '示例'],
     sampleTabs: {
       bulk: 'Essentials',
-      select: 'Select',
+      select: 'Plus',
       premium: 'Premium'
     },
     samples: [{
@@ -479,7 +479,7 @@ const COPY = {
     how: {
       titleA: '合作',
       titleB: '流程',
-      steps: [['01', '选择套餐', 'Essentials 适合批量测试，Select 适合先看后选，Premium 适合重点广告内容。'], ['02', '提交内容需求', '提供产品、目标买家、核心卖点和不能踩的内容红线。WEM 负责匹配达人和拆解内容方向。'], ['03', '达人拍摄内容', '达人按内容要求拍摄多条视频。WEM 管理寄样、沟通、进度和基础质检。'], ['04', '审核并选择', 'Select 套餐会先交付 70+ 条视频，品牌再选择最终保留的 50 条。需要加购可单独报价。'], ['05', '收到最终内容', '剪辑视频和原始素材通过 Google Drive 交付，可直接用于广告和商品页。']]
+      steps: [['01', '选择套餐', 'Essentials 适合批量测试，Plus 适合先看后选，Premium 适合重点广告内容。'], ['02', '提交内容需求', '提供产品、目标买家、核心卖点和不能踩的内容红线。WEM 负责匹配达人和拆解内容方向。'], ['03', '达人拍摄内容', '达人按内容要求拍摄多条视频。WEM 管理寄样、沟通、进度和基础质检。'], ['04', '审核并选择', 'Plus 套餐会先交付 70+ 条视频，品牌再选择最终保留的 50 条。需要加购可单独报价。'], ['05', '收到最终内容', '剪辑视频和原始素材通过 Google Drive 交付，可直接用于广告和商品页。']]
     },
     final: {
       titleA: '准备开始',
@@ -1490,7 +1490,7 @@ function Compare({
     rows: [['交付方式', '约 35 位达人产出 100 条视频'], ['达人选择', 'WEM 根据品类和内容方向匹配达人'], ['品牌选择', '品牌不需要反选达人，直接获得完整素材池'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '冷启动、素材池搭建、大批量卖点测试']]
   }, {
     tier: 'select',
-    name: 'Select',
+    name: 'Plus',
     hint: '先看后选',
     rows: [['交付方式', '约 35 位达人交付 70+ 条视频'], ['达人选择', 'WEM 负责筛选和分配达人'], ['品牌选择', '品牌从成片里选择最适合投放的 50 条'], ['修改', '包含基础剪辑、字幕和 1 轮修改'], ['适合', '想提高内容控制度，又希望先看成片再筛选']]
   }, {
@@ -1505,8 +1505,8 @@ function Compare({
     rows: [['Delivery', '100 videos from about 35 creators'], ['Creator selection', 'WEM matches creators based on category and content direction'], ['Brand selection', 'No creator shortlist review, you receive the full creative pool'], ['Revision', 'Basic editing and captions, no extra revision round'], ['Best use', 'Cold starts, ad testing, large creative volume']]
   }, {
     tier: 'select',
-    name: 'Select',
-    hint: 'Curated selection',
+    name: 'Plus',
+    hint: 'More choice',
     rows: [['Delivery', '70+ videos delivered, brand keeps 50'], ['Creator selection', 'WEM selects and assigns the creator pool'], ['Brand selection', 'Choose the strongest videos after delivery'], ['Revision', 'Basic editing, captions, and 1 revision round'], ['Best use', 'More control, finished-content selection, stronger fit']]
   }, {
     tier: 'premium',
