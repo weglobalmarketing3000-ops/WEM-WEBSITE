@@ -97,8 +97,8 @@ const Hero = ({ lang }) => {
           100% { opacity: 0; transform: translate(-50%, -50%) scale(1.58) rotateX(22deg); }
         }
         @keyframes wemIntroEnterPulse {
-          0%, 100% { box-shadow: 0 0 0 1px rgba(255,255,255,.24), 0 0 34px rgba(255,20,147,.3), inset 0 0 0 1px rgba(255,255,255,.12); }
-          50% { box-shadow: 0 0 0 1px rgba(255,255,255,.58), 0 0 78px rgba(255,20,147,.44), 0 0 112px rgba(155,48,255,.2), 0 0 120px rgba(74,143,255,.1), inset 0 0 28px rgba(255,255,255,.13); }
+          0%, 100% { box-shadow: 0 0 0 1px rgba(255,255,255,.2), 0 0 30px rgba(190,55,128,.18), inset 0 0 0 1px rgba(255,255,255,.1); }
+          50% { box-shadow: 0 0 0 1px rgba(255,255,255,.48), 0 0 68px rgba(190,55,128,.28), 0 0 102px rgba(112,70,190,.18), 0 0 120px rgba(74,143,255,.12), inset 0 0 26px rgba(255,255,255,.11); }
         }
         @keyframes wemIntroSystemScan {
           0% { transform: translateX(-110%); opacity: 0; }
@@ -115,7 +115,7 @@ const Hero = ({ lang }) => {
         .wem-intro-overlay.is-opening .wem-intro-gate {
           animation: wemIntroSnapOut .78s cubic-bezier(.65,0,.15,1) forwards;
           border-color: rgba(255,255,255,.62) !important;
-          box-shadow: 0 0 150px rgba(255,20,147,.68), 0 0 220px rgba(155,48,255,.34), 0 0 260px rgba(255,255,255,.38), inset 0 0 110px rgba(255,255,255,.34) !important;
+          box-shadow: 0 0 130px rgba(190,55,128,.42), 0 0 210px rgba(112,70,190,.28), 0 0 250px rgba(255,255,255,.28), inset 0 0 96px rgba(255,255,255,.26) !important;
         }
         .wem-intro-overlay.is-opening .wem-intro-copy,
         .wem-intro-overlay.is-opening .wem-intro-brand-signature,
@@ -239,7 +239,7 @@ const Hero = ({ lang }) => {
           opacity: .86;
           background:
             radial-gradient(circle at var(--hero-x, 62%) var(--hero-y, 34%), rgba(255,255,255,.22), transparent 0 7%, rgba(255,255,255,.18) 11%, transparent 24%),
-            radial-gradient(circle at calc(var(--hero-x, 62%) - 18%) calc(var(--hero-y, 34%) + 20%), rgba(255,20,147,.16), transparent 28%);
+            radial-gradient(circle at calc(var(--hero-x, 62%) - 18%) calc(var(--hero-y, 34%) + 20%), rgba(190,55,128,.1), transparent 30%);
           mix-blend-mode: screen;
           transition: opacity var(--dur-base);
         }
@@ -464,7 +464,7 @@ const OpeningPortal = ({ lang, opening, onOpen }) => {
                   '--intro-y': y,
                   '--intro-z': z,
                   '--intro-ry': ry,
-                  borderColor: index % 2 ? 'rgba(255,255,255,.2)' : 'rgba(255,20,147,.42)',
+                  borderColor: index % 2 ? 'rgba(255,255,255,.18)' : 'rgba(190,55,128,.3)',
                 }}
               >
                 {node}
@@ -685,7 +685,7 @@ const OpeningPortalScene = ({ opening }) => {
       microStars.forEach((p) => {
         const pulse = .86 + Math.sin(time * p.speed + p.phase) * .14;
         const color = p.tone > .955
-          ? 'rgba(255,20,147,ALPHA)'
+          ? 'rgba(190,55,128,ALPHA)'
           : p.tone > .9
             ? 'rgba(155,48,255,ALPHA)'
             : p.tone > .84
@@ -700,7 +700,7 @@ const OpeningPortalScene = ({ opening }) => {
         const edgeLift = p.y < .2 || p.y > .78 || p.x < .18 || p.x > .82 ? 1.32 : .82;
         const alpha = Math.max(.08, Math.min(.78, p.alpha * twinkle * edgeLift - openingBoost * .16));
         const color = p.tone > .94
-          ? 'rgba(255,20,147,ALPHA)'
+          ? 'rgba(190,55,128,ALPHA)'
           : p.tone > .86
             ? 'rgba(155,48,255,ALPHA)'
             : p.tone > .78
@@ -708,10 +708,10 @@ const OpeningPortalScene = ({ opening }) => {
               : 'rgba(255,255,255,ALPHA)';
         drawStar(x, y, p.size, alpha, color, p.spike);
       });
-      drawRing(time, 1.08 + openingBoost * .18, 'rgba(255,20,147,.44)', .32, .34);
+      drawRing(time, 1.08 + openingBoost * .18, 'rgba(190,55,128,.34)', .24, .34);
       drawRing(time, 1.42 + openingBoost * .24, 'rgba(155,48,255,.3)', .24, .25);
       drawRing(-time, 1.8 + openingBoost * .32, 'rgba(74,143,255,.18)', .14, .18);
-      drawTrailArc(time, 1.1 + openingBoost * .12, 'rgba(255,20,147,.95)', .34, .34, .2, Math.PI * .72);
+      drawTrailArc(time, 1.1 + openingBoost * .12, 'rgba(190,55,128,.82)', .24, .34, .2, Math.PI * .72);
       drawTrailArc(-time, 1.45 + openingBoost * .16, 'rgba(155,48,255,.9)', .22, .24, 2.4, Math.PI * .54);
       drawTrailArc(time, 1.83 + openingBoost * .18, 'rgba(74,143,255,.74)', .1, .18, 4.1, Math.PI * .42);
       const cx = width / 2;
@@ -728,7 +728,7 @@ const OpeningPortalScene = ({ opening }) => {
         const twinkle = .72 + Math.sin(time * p.speed * 2.8 + p.phase) * .28;
         const alpha = Math.max(.035, Math.min(.58, (z * .38 - openingBoost * .22) * twinkle));
         const color = p.accent
-          ? 'rgba(255,20,147,ALPHA)'
+          ? 'rgba(190,55,128,ALPHA)'
           : p.violet
             ? 'rgba(155,48,255,ALPHA)'
             : p.blue
@@ -745,7 +745,7 @@ const OpeningPortalScene = ({ opening }) => {
       foregroundStars.forEach((p) => {
         const pulse = .72 + Math.sin(time * p.speed + p.phase) * .28;
         const color = p.tone > .78
-          ? 'rgba(255,20,147,ALPHA)'
+          ? 'rgba(190,55,128,ALPHA)'
           : p.tone > .5
             ? 'rgba(155,48,255,ALPHA)'
             : 'rgba(255,255,255,ALPHA)';
@@ -768,7 +768,7 @@ const getHeroServices = (lang) => (
       ['Creator Affiliate', 'Recruit, seed, follow up, and scale creators that can actually sell.', '#FF1493', '8K+'],
       ['UGC Content', 'Turn creator briefs, demos, and usage rights into a repeatable content engine.', '#4A8FFF', '24K+'],
       ['Live Selling', 'Build host rosters, live scripts, product stacks, and weekly live rhythm.', '#9B30FF', 'Live'],
-      ['Shop Operations', 'Fix product pages, offers, samples, fulfillment blockers, and conversion friction.', '#4A8FFF', 'Ops'],
+      ['Shop Operations', 'Keep the shop ready for creator-led conversion and scale.', '#4A8FFF', 'Ops'],
       ['Paid Amplify', 'Push proven creator angles into paid traffic without breaking the organic loop.', '#FF1493', 'ROAS'],
       ['Growth Reporting', 'Connect content, traffic, orders, creator output, and next actions every week.', '#9B30FF', 'GMV'],
     ]
@@ -776,7 +776,7 @@ const getHeroServices = (lang) => (
       ['达人联盟', '招募、寄样、跟进、放大真正能带货的达人。', '#FF1493', '8K+'],
       ['UGC 内容', '把脚本、测评、展示和授权做成可复用的内容系统。', '#4A8FFF', '24K+'],
       ['直播带货', '搭建主播池、直播话术、货盘节奏和每周复盘。', '#9B30FF', 'Live'],
-      ['店铺运营', '优化商品页、优惠、样品、履约和转化卡点。', '#4A8FFF', 'Ops'],
+      ['店铺运营', '让店铺承接达人流量、内容流量和成交放大。', '#4A8FFF', 'Ops'],
       ['投放放大', '把跑出来的达人角度放进广告，放大有效内容。', '#FF1493', 'ROAS'],
       ['增长复盘', '每周把内容、流量、订单、达人产出和下一步接起来。', '#9B30FF', 'GMV'],
     ]
@@ -1044,13 +1044,23 @@ const HeroThreeScene = ({ lang, active, onActive }) => {
 };
 const HeroServiceHud = ({ lang, active, onActive }) => {
   const services = getHeroServices(lang);
-  const current = services[active] || services[0];
+  const header = lang === 'en'
+    ? {
+      eyebrow: 'Growth service system',
+      title: 'Creator-led commerce',
+      copy: 'Creators, UGC, live, shop operations, paid amplification, and reporting connected into one repeatable GMV system.',
+    }
+    : {
+      eyebrow: '增长服务系统',
+      title: '内容电商增长系统',
+      copy: '把达人、UGC、直播、店铺承接、投放放大和复盘连接成一套可持续出单的增长系统。',
+    };
   return (
     <aside style={heroStyles.serviceHud} className="wem-service-hud" aria-label={lang === 'en' ? 'WE Marketing growth service system' : 'WE Marketing 增长服务系统'}>
       <div style={heroStyles.serviceHudHeader}>
-        <span style={heroStyles.serviceHudEyebrow}>{lang === 'en' ? 'Growth service system' : '增长服务系统'}</span>
-        <strong style={heroStyles.serviceHudTitle}>{current[0]}</strong>
-        <p style={heroStyles.serviceHudCopy}>{current[1]}</p>
+        <span style={heroStyles.serviceHudEyebrow}>{header.eyebrow}</span>
+        <strong style={heroStyles.serviceHudTitle}>{header.title}</strong>
+        <p style={heroStyles.serviceHudCopy}>{header.copy}</p>
       </div>
       <div style={heroStyles.serviceHudGrid} className="wem-service-hud-grid">
         {services.map(([name, copy, color, metric], index) => (
@@ -1208,52 +1218,52 @@ const HeroMotionVisual = ({ lang }) => {
   );
 };
 const heroStyles = {
-  introOverlay: { position: 'fixed', inset: 0, zIndex: 80, overflow: 'hidden', background: 'radial-gradient(circle at 50% 38%, rgba(255,20,147,.18), transparent 33%), radial-gradient(circle at 68% 28%, rgba(74,143,255,.08), transparent 34%), radial-gradient(circle at 32% 46%, rgba(155,48,255,.14), transparent 34%), radial-gradient(circle at 50% 38%, #180817 0%, #08070d 36%, #010103 100%)', color: '#fff', cursor: 'pointer', transformOrigin: '50% 50%' },
+  introOverlay: { position: 'fixed', inset: 0, zIndex: 80, overflow: 'hidden', background: 'radial-gradient(circle at 50% 38%, rgba(190,55,128,.1), transparent 34%), radial-gradient(circle at 68% 28%, rgba(74,143,255,.09), transparent 35%), radial-gradient(circle at 32% 46%, rgba(112,70,190,.12), transparent 36%), radial-gradient(circle at 50% 38%, #120812 0%, #07070d 38%, #010103 100%)', color: '#fff', cursor: 'pointer', transformOrigin: '50% 50%' },
   introCanvas: { position: 'absolute', inset: 0, width: '100%', height: '100%', zIndex: 2, pointerEvents: 'none', opacity: .9, mixBlendMode: 'screen' },
   introDotField: { position: 'absolute', left: '50%', top: '42%', zIndex: 1, width: 'min(126vw, 1720px)', height: 'min(126vw, 1720px)', transform: 'translate(-50%, -50%)', borderRadius: 999, backgroundImage: 'radial-gradient(rgba(255,255,255,.24) .45px, transparent 1.4px)', backgroundSize: '28px 28px', maskImage: 'radial-gradient(ellipse at center, transparent 0 10%, rgba(0,0,0,.3) 12%, #000 18% 72%, transparent 86%)', opacity: .055, mixBlendMode: 'screen' },
   introDotFieldAlt: { position: 'absolute', left: '50%', top: '42%', zIndex: 1, width: 'min(96vw, 1320px)', height: 'min(96vw, 1320px)', transform: 'translate(-50%, -50%)', borderRadius: 999, backgroundImage: 'radial-gradient(rgba(255,255,255,.18) .42px, transparent 1.2px)', backgroundSize: '44px 44px', maskImage: 'conic-gradient(from 28deg, transparent 0deg, #000 28deg, transparent 64deg, #000 104deg, transparent 160deg, #000 220deg, transparent 286deg, #000 320deg, transparent 360deg)', opacity: .045, mixBlendMode: 'screen' },
-  introMesh: { position: 'absolute', inset: 0, zIndex: 3, background: 'radial-gradient(circle at 50% 42%, rgba(255,20,147,.18), rgba(155,48,255,.1) 19%, rgba(74,143,255,.035) 30%, rgba(3,3,8,.32) 56%, rgba(0,0,0,.62) 100%), linear-gradient(118deg, transparent 0 18%, rgba(255,20,147,.055) 18% 18.15%, transparent 18.15% 46%, rgba(155,48,255,.05) 46% 46.2%, transparent 46.2% 72%)', opacity: .76 },
+  introMesh: { position: 'absolute', inset: 0, zIndex: 3, background: 'radial-gradient(circle at 50% 42%, rgba(190,55,128,.1), rgba(112,70,190,.1) 20%, rgba(74,143,255,.045) 32%, rgba(3,3,8,.34) 58%, rgba(0,0,0,.66) 100%), linear-gradient(118deg, transparent 0 18%, rgba(190,55,128,.035) 18% 18.15%, transparent 18.15% 46%, rgba(112,70,190,.045) 46% 46.2%, transparent 46.2% 72%)', opacity: .76 },
   introTunnel: { position: 'absolute', left: '50%', top: '42%', zIndex: 3, width: 'min(104vw, 1440px)', height: 'min(104vw, 1440px)', transform: 'translate(-50%, -50%)', borderRadius: 999, background: 'repeating-radial-gradient(circle, rgba(255,255,255,.1) 0 1px, transparent 1px 118px)', maskImage: 'radial-gradient(circle, transparent 0 7%, #000 10% 64%, transparent 79%)', opacity: .2 },
-  introFlash: { position: 'absolute', left: '50%', top: '50%', zIndex: 5, width: 420, height: 420, borderRadius: 999, background: 'radial-gradient(circle, rgba(255,255,255,.96), rgba(255,255,255,.54) 28%, rgba(255,20,147,.36) 45%, rgba(155,48,255,.24) 58%, transparent 72%)', opacity: 0, pointerEvents: 'none' },
+  introFlash: { position: 'absolute', left: '50%', top: '50%', zIndex: 5, width: 420, height: 420, borderRadius: 999, background: 'radial-gradient(circle, rgba(255,255,255,.9), rgba(255,255,255,.46) 28%, rgba(190,55,128,.22) 45%, rgba(112,70,190,.2) 58%, transparent 74%)', opacity: 0, pointerEvents: 'none' },
   introBrandSignature: { position: 'absolute', left: 32, top: 28, zIndex: 7, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 64, height: 64, padding: 6, borderRadius: 18, border: '1px solid rgba(255,255,255,.14)', background: 'rgba(255,255,255,.055)', backdropFilter: 'blur(12px)', boxShadow: '0 18px 50px rgba(0,0,0,.28)' },
-  introBrandSignatureLogo: { width: 54, height: 54, objectFit: 'contain', filter: 'drop-shadow(0 0 16px rgba(255,20,147,.42)) drop-shadow(0 0 18px rgba(155,48,255,.2))' },
+  introBrandSignatureLogo: { width: 54, height: 54, objectFit: 'contain', filter: 'drop-shadow(0 0 14px rgba(190,55,128,.26)) drop-shadow(0 0 18px rgba(74,143,255,.16))' },
   introStage: { position: 'absolute', left: '50%', top: '39%', zIndex: 4, width: 1060, height: 1060, transform: 'translate(-50%, -50%)', transformStyle: 'preserve-3d', perspective: 1200, pointerEvents: 'none', opacity: .96 },
-  introGate: { position: 'absolute', left: '50%', top: '50%', width: 460, height: 460, transform: 'translate(-50%, -50%) rotateX(6deg)', borderRadius: 999, display: 'grid', placeItems: 'center', overflow: 'visible', background: 'radial-gradient(circle at 34% 24%, rgba(255,255,255,.38), rgba(255,20,147,.52) 18%, rgba(155,48,255,.36) 34%, rgba(42,10,45,.94) 58%, rgba(5,5,10,.98) 82%)', border: '1px solid rgba(255,255,255,.24)', boxShadow: '0 50px 150px rgba(0,0,0,.68), 0 0 124px rgba(255,20,147,.34), 0 0 130px rgba(155,48,255,.16), inset -34px -38px 90px rgba(0,0,0,.76), inset 28px 24px 72px rgba(255,255,255,.12)', transition: 'transform 900ms cubic-bezier(.16,1,.3,1), box-shadow 900ms ease, border-color 900ms ease' },
-  introPlanetGlow: { position: 'absolute', inset: -42, borderRadius: 999, background: 'radial-gradient(circle, rgba(255,20,147,.32), rgba(155,48,255,.18) 34%, rgba(74,143,255,.08) 52%, transparent 72%)', filter: 'blur(10px)' },
-  introPlanetShade: { position: 'absolute', inset: 0, borderRadius: 999, background: 'radial-gradient(circle at 32% 26%, transparent 0 24%, rgba(255,20,147,.13) 38%, rgba(155,48,255,.12) 52%, rgba(0,0,0,.48) 70%, rgba(0,0,0,.88) 100%)', mixBlendMode: 'multiply' },
-  introPlanetGrid: { position: 'absolute', inset: 38, borderRadius: 999, background: 'repeating-linear-gradient(18deg, rgba(255,255,255,.13) 0 1px, transparent 1px 21px), repeating-linear-gradient(104deg, rgba(255,20,147,.12) 0 1px, transparent 1px 29px)', opacity: .3, maskImage: 'radial-gradient(circle, #000 0 64%, transparent 76%)' },
-  introGateCore: { position: 'absolute', inset: 102, borderRadius: 999, background: 'radial-gradient(circle, rgba(255,255,255,.22), rgba(255,20,147,.1) 36%, rgba(155,48,255,.08) 58%, rgba(0,0,0,.46) 100%)', border: '1px solid rgba(255,255,255,.14)', boxShadow: 'inset 0 0 50px rgba(255,255,255,.12), 0 0 56px rgba(255,20,147,.24)' },
-  introGateHalo: { position: 'absolute', left: '50%', top: '50%', width: 600, height: 182, borderRadius: '50%', border: '1px solid rgba(255,255,255,.22)', transform: 'translate(-50%, -50%) rotateX(70deg) rotateZ(-16deg)', boxShadow: '0 0 44px rgba(255,20,147,.24), 0 0 72px rgba(155,48,255,.12)' },
-  introRingA: { position: 'absolute', left: '50%', top: '50%', width: 840, height: 322, borderRadius: '50%', border: '1px solid rgba(255,20,147,.4)', boxShadow: '0 0 46px rgba(255,20,147,.18)' },
+  introGate: { position: 'absolute', left: '50%', top: '50%', width: 460, height: 460, transform: 'translate(-50%, -50%) rotateX(6deg)', borderRadius: 999, display: 'grid', placeItems: 'center', overflow: 'visible', background: 'radial-gradient(circle at 34% 24%, rgba(255,255,255,.3), rgba(190,55,128,.32) 18%, rgba(112,70,190,.3) 36%, rgba(28,12,36,.94) 60%, rgba(5,6,12,.98) 84%)', border: '1px solid rgba(255,255,255,.22)', boxShadow: '0 50px 150px rgba(0,0,0,.72), 0 0 112px rgba(190,55,128,.2), 0 0 140px rgba(74,143,255,.1), inset -34px -38px 90px rgba(0,0,0,.8), inset 28px 24px 72px rgba(255,255,255,.1)', transition: 'transform 900ms cubic-bezier(.16,1,.3,1), box-shadow 900ms ease, border-color 900ms ease' },
+  introPlanetGlow: { position: 'absolute', inset: -42, borderRadius: 999, background: 'radial-gradient(circle, rgba(190,55,128,.18), rgba(112,70,190,.16) 34%, rgba(74,143,255,.1) 54%, transparent 74%)', filter: 'blur(10px)' },
+  introPlanetShade: { position: 'absolute', inset: 0, borderRadius: 999, background: 'radial-gradient(circle at 32% 26%, transparent 0 24%, rgba(190,55,128,.08) 38%, rgba(112,70,190,.1) 54%, rgba(0,0,0,.52) 72%, rgba(0,0,0,.9) 100%)', mixBlendMode: 'multiply' },
+  introPlanetGrid: { position: 'absolute', inset: 38, borderRadius: 999, background: 'repeating-linear-gradient(18deg, rgba(255,255,255,.11) 0 1px, transparent 1px 21px), repeating-linear-gradient(104deg, rgba(74,143,255,.09) 0 1px, transparent 1px 29px)', opacity: .26, maskImage: 'radial-gradient(circle, #000 0 64%, transparent 76%)' },
+  introGateCore: { position: 'absolute', inset: 102, borderRadius: 999, background: 'radial-gradient(circle, rgba(255,255,255,.18), rgba(190,55,128,.07) 36%, rgba(74,143,255,.08) 60%, rgba(0,0,0,.5) 100%)', border: '1px solid rgba(255,255,255,.13)', boxShadow: 'inset 0 0 50px rgba(255,255,255,.1), 0 0 52px rgba(74,143,255,.16)' },
+  introGateHalo: { position: 'absolute', left: '50%', top: '50%', width: 600, height: 182, borderRadius: '50%', border: '1px solid rgba(255,255,255,.2)', transform: 'translate(-50%, -50%) rotateX(70deg) rotateZ(-16deg)', boxShadow: '0 0 44px rgba(190,55,128,.13), 0 0 74px rgba(74,143,255,.1)' },
+  introRingA: { position: 'absolute', left: '50%', top: '50%', width: 840, height: 322, borderRadius: '50%', border: '1px solid rgba(190,55,128,.28)', boxShadow: '0 0 42px rgba(190,55,128,.1)' },
   introRingB: { position: 'absolute', left: '50%', top: '50%', width: 720, height: 278, borderRadius: '50%', border: '1px solid rgba(155,48,255,.3)', boxShadow: '0 0 38px rgba(155,48,255,.12)' },
   introRingC: { position: 'absolute', left: '50%', top: '50%', width: 960, height: 374, borderRadius: '50%', border: '1px dashed rgba(255,255,255,.18)' },
-  introGateLogo: { position: 'relative', zIndex: 3, width: 220, height: 'auto', filter: 'drop-shadow(0 0 28px rgba(255,20,147,.56)) drop-shadow(0 0 22px rgba(155,48,255,.22)) drop-shadow(0 18px 34px rgba(0,0,0,.5))' },
-  introCoreLabel: { position: 'absolute', left: '50%', top: 'calc(50% + 88px)', zIndex: 3, transform: 'translateX(-50%)', width: 180, height: 30, overflow: 'hidden', display: 'block', filter: 'drop-shadow(0 0 14px rgba(255,20,147,.34))' },
+  introGateLogo: { position: 'relative', zIndex: 3, width: 220, height: 'auto', filter: 'drop-shadow(0 0 24px rgba(190,55,128,.38)) drop-shadow(0 0 22px rgba(74,143,255,.18)) drop-shadow(0 18px 34px rgba(0,0,0,.55))' },
+  introCoreLabel: { position: 'absolute', left: '50%', top: 'calc(50% + 88px)', zIndex: 3, transform: 'translateX(-50%)', width: 180, height: 30, overflow: 'hidden', display: 'block', filter: 'drop-shadow(0 0 14px rgba(190,55,128,.22))' },
   introCoreWordmark: { position: 'absolute', left: 0, top: -130, width: 180, height: 180, objectFit: 'contain' },
   introOrbit: { position: 'absolute', inset: 0 },
   introNode: { position: 'absolute', left: '50%', top: '50%', minWidth: 138, minHeight: 46, marginLeft: -69, marginTop: -23, display: 'grid', placeItems: 'center', padding: '12px 16px', borderRadius: 999, border: '1px solid rgba(255,255,255,.18)', background: 'rgba(8,8,14,.48)', color: 'rgba(255,255,255,.76)', fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.14em', fontWeight: 900, textTransform: 'uppercase', backdropFilter: 'blur(10px)', boxShadow: '0 24px 72px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.08)', transformStyle: 'preserve-3d' },
-  introSystemRail: { position: 'relative', zIndex: 5, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 11, minHeight: 48, marginTop: 5, padding: '0 22px', borderRadius: 999, border: '1px solid rgba(255,255,255,.16)', background: 'linear-gradient(90deg, rgba(255,20,147,.18), rgba(255,255,255,.08), rgba(155,48,255,.13), rgba(74,143,255,.06))', color: '#fff', overflow: 'hidden', backdropFilter: 'blur(10px)', boxShadow: '0 18px 60px rgba(0,0,0,.36), 0 0 46px rgba(255,20,147,.13), 0 0 46px rgba(155,48,255,.08)' },
+  introSystemRail: { position: 'relative', zIndex: 5, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 11, minHeight: 48, marginTop: 5, padding: '0 22px', borderRadius: 999, border: '1px solid rgba(255,255,255,.15)', background: 'linear-gradient(90deg, rgba(190,55,128,.1), rgba(255,255,255,.07), rgba(112,70,190,.11), rgba(74,143,255,.08))', color: '#fff', overflow: 'hidden', backdropFilter: 'blur(10px)', boxShadow: '0 18px 60px rgba(0,0,0,.38), 0 0 44px rgba(190,55,128,.08), 0 0 46px rgba(74,143,255,.07)' },
   introSystemStep: { position: 'relative', zIndex: 1, fontFamily: 'var(--font-mono)', fontSize: 11, lineHeight: 1, fontWeight: 900, letterSpacing: '.12em', color: 'rgba(255,255,255,.82)', whiteSpace: 'nowrap' },
   introSystemArrow: { position: 'relative', zIndex: 1, fontFamily: 'var(--font-mono)', fontSize: 14, color: '#FF1493', lineHeight: 1 },
   introCopy: { position: 'absolute', left: '50%', top: '75.5%', zIndex: 6, display: 'grid', justifyItems: 'center', gap: 12, width: 'min(980px, calc(100vw - 72px))', transform: 'translate(-50%, -50%)', pointerEvents: 'none', textAlign: 'center', color: '#fff' },
   introBrandMark: { display: 'none', width: 132, height: 'auto', marginBottom: 6, filter: 'drop-shadow(0 14px 30px rgba(255,20,147,.22))' },
   introEyebrow: { fontFamily: 'var(--font-mono)', color: 'rgba(255,255,255,.66)', fontSize: 13, letterSpacing: '.18em', fontWeight: 900, textTransform: 'uppercase' },
-  introTitle: { fontFamily: 'var(--font-display)', fontSize: 'clamp(44px, 5.3vw, 84px)', lineHeight: .9, letterSpacing: 0, textTransform: 'uppercase', margin: 0, color: '#fff', textShadow: '0 0 34px rgba(255,20,147,.24), 0 0 28px rgba(155,48,255,.14), 0 20px 70px rgba(0,0,0,.64)' },
+  introTitle: { fontFamily: 'var(--font-display)', fontSize: 'clamp(44px, 5.3vw, 84px)', lineHeight: .9, letterSpacing: 0, textTransform: 'uppercase', margin: 0, color: '#fff', textShadow: '0 0 28px rgba(190,55,128,.14), 0 0 28px rgba(74,143,255,.08), 0 20px 70px rgba(0,0,0,.68)' },
   introTitleEn: { fontSize: 'clamp(50px, 6vw, 96px)', lineHeight: .88 },
   introTitleFull: { display: 'inline' },
   introTitleMobile: { display: 'none' },
   introSub: { maxWidth: 760, margin: 0, color: 'rgba(255,255,255,.72)', fontFamily: 'var(--font-sans)', fontSize: 18, lineHeight: 1.46, fontWeight: 800 },
-  introEnter: { pointerEvents: 'auto', justifySelf: 'center', marginTop: 14, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: 16, minHeight: 70, minWidth: 360, padding: '0 46px', borderRadius: 999, border: '1px solid rgba(255,255,255,.36)', background: 'linear-gradient(92deg, rgba(255,20,147,.36), rgba(155,48,255,.22) 52%, rgba(74,143,255,.12))', color: '#fff', fontFamily: 'var(--font-sans)', fontWeight: 900, fontSize: 14, letterSpacing: '.12em', textTransform: 'uppercase', cursor: 'pointer', backdropFilter: 'blur(14px)', boxShadow: '0 24px 70px rgba(0,0,0,.5), 0 0 64px rgba(255,20,147,.24), 0 0 58px rgba(155,48,255,.14), inset 0 0 0 1px rgba(255,255,255,.14)' },
+  introEnter: { pointerEvents: 'auto', justifySelf: 'center', marginTop: 14, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: 16, minHeight: 70, minWidth: 360, padding: '0 46px', borderRadius: 999, border: '1px solid rgba(255,255,255,.32)', background: 'linear-gradient(92deg, rgba(190,55,128,.22), rgba(112,70,190,.18) 52%, rgba(74,143,255,.12))', color: '#fff', fontFamily: 'var(--font-sans)', fontWeight: 900, fontSize: 14, letterSpacing: '.12em', textTransform: 'uppercase', cursor: 'pointer', backdropFilter: 'blur(14px)', boxShadow: '0 24px 70px rgba(0,0,0,.52), 0 0 58px rgba(190,55,128,.14), 0 0 58px rgba(74,143,255,.12), inset 0 0 0 1px rgba(255,255,255,.13)' },
   introEnterText: { position: 'relative', zIndex: 1 },
   introEnterArrow: { fontSize: 22, lineHeight: 1 },
   wrap: { position: 'relative', background: '#000', color: '#fff', overflow: 'hidden', minHeight: '86vh', '--hero-x': '62%', '--hero-y': '34%', '--hero-tilt-x': '0deg', '--hero-tilt-y': '0deg' },
-  bgLayer: { position: 'absolute', zIndex: 0, inset: '-22% -16%', background: 'conic-gradient(from 210deg at 24% 38%, transparent 0deg, rgba(255,20,147,.3) 54deg, transparent 116deg, rgba(155,48,255,.18) 174deg, transparent 246deg, rgba(74,143,255,.08) 296deg, transparent 360deg), radial-gradient(circle at 68% 24%, rgba(255,20,147,.18), transparent 30%), radial-gradient(circle at 34% 78%, rgba(155,48,255,.12), transparent 34%)', opacity: .6, mixBlendMode: 'screen', pointerEvents: 'none' },
+  bgLayer: { position: 'absolute', zIndex: 0, inset: '-22% -16%', background: 'conic-gradient(from 210deg at 24% 38%, transparent 0deg, rgba(190,55,128,.18) 54deg, transparent 116deg, rgba(112,70,190,.16) 174deg, transparent 246deg, rgba(74,143,255,.1) 296deg, transparent 360deg), radial-gradient(circle at 68% 24%, rgba(190,55,128,.1), transparent 32%), radial-gradient(circle at 34% 78%, rgba(112,70,190,.1), transparent 36%)', opacity: .55, mixBlendMode: 'screen', pointerEvents: 'none' },
   bgGrid: { position: 'absolute', zIndex: 0, inset: 0, opacity: .12, pointerEvents: 'none', backgroundImage: 'linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px)', backgroundSize: '96px 96px', maskImage: 'radial-gradient(ellipse at 50% 36%, rgba(0,0,0,.82), transparent 70%)' },
-  bgBeamA: { position: 'absolute', left: '-24%', top: '12%', width: '84%', height: 132, borderRadius: 999, background: 'linear-gradient(90deg, transparent, rgba(255,20,147,.28), rgba(255,255,255,.2), transparent)', filter: 'blur(30px)', pointerEvents: 'none' },
+  bgBeamA: { position: 'absolute', left: '-24%', top: '12%', width: '84%', height: 132, borderRadius: 999, background: 'linear-gradient(90deg, transparent, rgba(190,55,128,.15), rgba(255,255,255,.14), transparent)', filter: 'blur(34px)', pointerEvents: 'none' },
   bgBeamB: { position: 'absolute', right: '-28%', bottom: '10%', width: '88%', height: 148, borderRadius: 999, background: 'linear-gradient(90deg, transparent, rgba(155,48,255,.2), rgba(74,143,255,.08), transparent)', filter: 'blur(34px)', pointerEvents: 'none' },
   bgThreads: { position: 'absolute', zIndex: 1, inset: 0, width: '100%', height: '100%', pointerEvents: 'none', opacity: .62, filter: 'drop-shadow(0 0 14px rgba(255,255,255,.18))' },
-  orb1: { position: 'absolute', top: -120, right: -180, width: 760, height: 760, background: 'radial-gradient(circle, #FF1493 0%, rgba(155,48,255,.45) 34%, transparent 56%)', filter: 'blur(60px)', opacity: .24, pointerEvents: 'none' },
-  orb2: { position: 'absolute', bottom: -130, left: -120, width: 560, height: 560, background: 'radial-gradient(circle, #4A8FFF 0%, rgba(255,20,147,.42) 28%, rgba(155,48,255,.28) 46%, transparent 68%)', filter: 'blur(90px)', opacity: .2, pointerEvents: 'none' },
+  orb1: { position: 'absolute', top: -120, right: -180, width: 760, height: 760, background: 'radial-gradient(circle, rgba(190,55,128,.5) 0%, rgba(112,70,190,.34) 34%, transparent 58%)', filter: 'blur(70px)', opacity: .18, pointerEvents: 'none' },
+  orb2: { position: 'absolute', bottom: -130, left: -120, width: 560, height: 560, background: 'radial-gradient(circle, rgba(74,143,255,.52) 0%, rgba(190,55,128,.18) 30%, rgba(112,70,190,.18) 48%, transparent 70%)', filter: 'blur(96px)', opacity: .18, pointerEvents: 'none' },
   inner: { position: 'relative', zIndex: 4, maxWidth: 1360, margin: '0 auto', padding: '78px 32px 88px' },
   pill: { display: 'inline-flex', alignItems: 'center', gap: 12, background: '#fff', color: '#000', borderRadius: 999, padding: '10px 22px', fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 14, letterSpacing: '.06em' },
   h1: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(58px, 7.25vw, 106px)', lineHeight: .98, letterSpacing: 0, textTransform: 'uppercase', margin: '28px 0 0', color: '#fff', textShadow: '0 18px 70px rgba(255,20,147,.16)' },
@@ -1277,9 +1287,9 @@ const heroStyles = {
   domNodeMetric: { fontFamily: 'var(--font-display)', fontSize: 27, lineHeight: .9, color: '#fff', fontWeight: 900 },
   domNodeName: { fontFamily: 'var(--font-sans)', fontSize: 10, lineHeight: 1.1, color: 'rgba(255,255,255,.82)', fontWeight: 900, letterSpacing: '.08em', textTransform: 'uppercase' },
   serviceHud: { position: 'relative', zIndex: 3, justifySelf: 'end', width: 'min(520px, 100%)', minHeight: 520, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', gap: 18, padding: 24, borderRadius: 28, background: 'linear-gradient(145deg, rgba(0,0,0,.26), rgba(255,255,255,.035))', border: '1px solid rgba(255,255,255,.12)', boxShadow: '0 32px 110px rgba(0,0,0,.32), inset 0 0 80px rgba(255,20,147,.08)', backdropFilter: 'blur(9px)' },
-  serviceHudHeader: { maxWidth: 420, display: 'grid', gap: 10 },
+  serviceHudHeader: { maxWidth: 460, display: 'grid', gap: 10 },
   serviceHudEyebrow: { fontFamily: 'var(--font-mono)', color: '#FFFFFF', fontSize: 11, letterSpacing: '.16em', textTransform: 'uppercase', fontWeight: 900 },
-  serviceHudTitle: { fontFamily: 'var(--font-display)', color: '#fff', fontSize: 'clamp(42px, 4vw, 72px)', lineHeight: .88, letterSpacing: 0, textTransform: 'uppercase', textShadow: '0 12px 46px rgba(255,20,147,.24)' },
+  serviceHudTitle: { fontFamily: 'var(--font-display)', color: '#fff', fontSize: 'clamp(38px, 3.7vw, 66px)', lineHeight: .9, letterSpacing: 0, textTransform: 'uppercase', textShadow: '0 12px 46px rgba(190,55,128,.18)' },
   serviceHudCopy: { fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.45, fontWeight: 800, color: 'rgba(255,255,255,.78)', maxWidth: 410 },
   serviceHudGrid: { display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 10 },
   serviceHudCard: { minHeight: 82, borderRadius: 14, border: '1px solid rgba(255,255,255,.13)', color: '#fff', textAlign: 'left', padding: '14px 14px', cursor: 'pointer', display: 'grid', alignContent: 'center', gap: 5, boxShadow: '0 18px 45px rgba(0,0,0,.24)' },

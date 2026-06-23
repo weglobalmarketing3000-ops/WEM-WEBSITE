@@ -70,6 +70,7 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands that already do some creator work in-house, but want to scale faster by accessing more relevant creators, stronger category fits, and WEM support for activation.',
           handles: ['Creator matching by category, audience, language, content style, and sales signals', 'Creator shortlist and fit notes for your campaign goals', 'Commission-only options for selected campaigns', 'Fixed setup fee plus commission options for deeper sourcing and activation', 'Optional support for outreach, samples, briefs, and creator follow-up'],
           model: 'Can be commission-only for selected campaigns, or fixed fee plus commission when the brand wants more hands-on sourcing and activation.',
+          workHref: 'showcase.html#case-creator-matchmaking',
         },
         {
           id: 'creator-live',
@@ -214,6 +215,7 @@ const ServicesOverview = ({ lang }) => {
           best: '适合想 scale up 的品牌。你们 in-house 已经在做达人，但想通过 WEM 接触更多更合适的达人，更快把活动做起来。',
           handles: ['按品类、人群、语言、内容风格和销售表现信号匹配达人', '给出达人 shortlist 和匹配理由', '部分 campaign 可做纯佣合作', '需要更深度 sourcing 和 activation 时，可做固费加佣金', '可选支持 outreach、寄样、brief 和达人 follow-up'],
           model: '可做纯佣，也可做固费加佣金。适合作为品牌内部达人团队的加速器。',
+          workHref: 'showcase.html#case-creator-matchmaking',
         },
         {
           id: 'creator-live',
