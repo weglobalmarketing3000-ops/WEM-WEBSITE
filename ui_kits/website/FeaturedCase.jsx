@@ -22,7 +22,7 @@ const CASES = [
     ],
     pull_en: 'In education-heavy categories, sequential creator strategies lose. Parallel ones compound.',
     pull_zh: '需要教育用户的产品，不能只靠一条爆款。达人、内容、直播和广告要一起跑，数据才会叠起来。',
-    video: '../../assets/case-wellness-hero.mp4',
+    video: 'assets/case-wellness-hero.mp4',
     creatorHandle: 'Creator S',
     creatorMeta_en: '4.7M views · hero video',
     creatorMeta_zh: '470 万播放 · 爆款内容',
@@ -177,7 +177,7 @@ const CaseBlock = ({ c, lang, last, accent }) => {
       <div style={fcStyles.phoneWrap}>
         <div style={fcStyles.phone}>
           {c.video ? (
-            <video style={fcStyles.video} src={c.video} autoPlay loop muted playsInline/>
+            <video style={fcStyles.video} src={c.video} autoPlay loop muted playsInline preload="metadata"/>
           ) : (
             <div style={fcStyles.placeholder}>
               <div style={fcStyles.placeholderLabel}>{lang === 'en' ? 'CASE VIDEO' : '案例视频'}</div>
