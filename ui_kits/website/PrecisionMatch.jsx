@@ -138,7 +138,7 @@ const PrecisionMatch = ({ lang }) => {
               <div style={pmStyles.videoGrid}>
                 {t.showcase.videos.map(([src, label]) => (
                   <div key={src} style={pmStyles.videoCard}>
-                    <video style={pmStyles.video} src={src} autoPlay loop muted playsInline/>
+                    <video style={pmStyles.video} src={src} autoPlay loop muted playsInline preload="metadata"/>
                     <div style={pmStyles.videoLabel}>{label}</div>
                   </div>
                 ))}
