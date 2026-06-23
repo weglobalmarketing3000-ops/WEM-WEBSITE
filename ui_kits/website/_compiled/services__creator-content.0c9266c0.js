@@ -227,8 +227,8 @@ const COPY = {
       titleA: 'MoonBrew:',
       titleB: '300 videos, 6 weeks.',
       lead: 'Cold start on TikTok. 173 creators. Scripted reviews with hook + CTA. All amplified on TikTok.',
-      stats: [['307K+', 'Total video views'], ['100%+', 'GMV growth'], ['65%+', 'Website traffic growth in one month']],
-      cards: [['ESSENTIALS · 200 VIDEOS', 'Volume content to train the algorithm and build brand presence on the platform.'], ['PREMIUM · 10 VIDEOS', '5% of content drove 45% of all views. Top single video: 64K+ views.']],
+      stats: [['2M+', 'Views from two top videos'], ['100%+', 'GMV growth'], ['65%+', 'Shopify traffic lift from halo effect']],
+      cards: [['ESSENTIALS · 200 VIDEOS', 'Volume content to train the algorithm and build brand presence on the platform.'], ['PREMIUM · 10 VIDEOS', 'Two standout videos reached 1.2M+ and 828K views; one helped cold-start a new flavor and new listing.']],
       closeA: 'Start with volume, find your winners,',
       closeB: 'scale what works.'
     },
@@ -462,8 +462,8 @@ const COPY = {
       titleA: 'MoonBrew：',
       titleB: '6 周 300 条视频',
       lead: '这是一个美国 TikTok Shop 冷启动项目。173 位达人参与内容生产，我们批量测试 hook、卖点和下单引导，再把有效素材拿去放大。',
-      stats: [['307K+', '总视频播放量'], ['100%+', '销售增长'], ['65%+', '一个月官网流量增长']],
-      cards: [['ESSENTIALS · 200 条视频', '先用大量内容测试平台反馈，让品牌快速在 TikTok 上露出。'], ['PREMIUM · 10 条视频', '少量重点内容贡献了 45% 的播放量，单条最高 64K+ 播放。']],
+      stats: [['2M+', '两条头部视频播放'], ['100%+', '销售增长'], ['65%+', 'Shopify 独立站外溢流量增长']],
+      cards: [['ESSENTIALS · 200 条视频', '先用大量内容测试平台反馈，让品牌快速在 TikTok 上露出。'], ['PREMIUM · 10 条视频', '两条重点视频分别达到 1.2M+ 和 828K 播放，其中一条帮助一个新口味和新 listing 完成冷启动。']],
       closeA: '先用内容测试，找到有效素材，',
       closeB: '再集中预算放大。'
     },
