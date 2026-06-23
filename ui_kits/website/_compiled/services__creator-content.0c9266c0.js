@@ -123,7 +123,7 @@ const COPY = {
         role: 'Vietnamese-language beauty creator',
         mode: 'gmv',
         avatar: 'beauty-soft',
-        video: 'creator-content/creator-v-vietnamese-beauty.mp4',
+        video: 'creator-content/creator-v-vietnamese-beauty.mp4?v=20260623-video-fix',
         metrics: [['GMV', '$130K'], ['Avg. views', '8K+'], ['Audience', 'Vietnamese-speaking'], ['Category', 'Beauty']],
         fit: 'Beauty creator with Vietnamese-language content and strong product-review trust.'
       }, {
@@ -214,7 +214,7 @@ const COPY = {
       type: 'TOF Storytelling',
       category: 'Wellness',
       desc: 'Cinematic bedtime narrative',
-      src: 'creator-content/premium-bedtime-narrative.mp4'
+      src: 'creator-content/premium-bedtime-narrative.mp4?v=20260623-video-fix'
     }, {
       tier: 'premium',
       type: 'TOF Storytelling',
@@ -358,7 +358,7 @@ const COPY = {
         role: '小语种美妆达人',
         mode: 'gmv',
         avatar: 'beauty-soft',
-        video: 'creator-content/creator-v-vietnamese-beauty.mp4',
+        video: 'creator-content/creator-v-vietnamese-beauty.mp4?v=20260623-video-fix',
         metrics: [['GMV', '$130K'], ['平均播放', '8K+'], ['受众', '越南语人群'], ['类目', '美妆']],
         fit: '越南语美妆内容达人，适合需要信任感和真实测评表达的产品。'
       }, {
@@ -449,7 +449,7 @@ const COPY = {
       type: 'TOF 故事种草',
       category: '健康保健',
       desc: '电影感睡前场景叙事',
-      src: 'creator-content/premium-bedtime-narrative.mp4'
+      src: 'creator-content/premium-bedtime-narrative.mp4?v=20260623-video-fix'
     }, {
       tier: 'premium',
       type: '高转化种草',
