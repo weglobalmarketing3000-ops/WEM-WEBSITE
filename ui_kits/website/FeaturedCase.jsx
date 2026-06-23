@@ -163,10 +163,59 @@ const FeaturedCase = ({ lang }) => {
     };
   }, [lang]);
   return (
-    <section id="Our Work" style={fcStyles.wrap}>
+    <section id="Our Work" style={fcStyles.wrap} className="fc-wrap">
+      <style>{`
+        @media (max-width: 760px) {
+          .fc-wrap { overflow-x: hidden !important; padding: 76px 0 72px !important; }
+          .fc-inner { padding: 0 20px !important; max-width: 100vw !important; overflow: hidden !important; }
+          .fc-section-head { margin-bottom: 64px !important; }
+          .fc-case-block { margin-bottom: 96px !important; max-width: 100% !important; overflow: hidden !important; }
+          .fc-case-top {
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 34px !important;
+            align-items: stretch !important;
+            max-width: 100% !important;
+          }
+          .fc-case-top > * { min-width: 0 !important; max-width: 100% !important; }
+          .fc-case-media { justify-content: center !important; width: 100% !important; max-width: 100% !important; }
+          .fc-phone-wrap { width: min(238px, 64vw) !important; max-width: 100% !important; margin: 0 auto 20px !important; }
+          .fc-phone {
+            width: min(238px, 64vw) !important;
+            height: min(424px, 114vw) !important;
+            border-width: 6px !important;
+            border-radius: 32px !important;
+          }
+          .fc-creator-badge {
+            max-width: min(270px, 78vw) !important;
+            overflow: hidden !important;
+            left: 50% !important;
+            bottom: 14px !important;
+          }
+          .fc-creator-badge > div:last-child { min-width: 0 !important; overflow: hidden !important; }
+          .fc-creator-handle, .fc-creator-meta { overflow: hidden !important; text-overflow: ellipsis !important; }
+          .fc-case-title {
+            font-size: clamp(42px, 13.5vw, 58px) !important;
+            line-height: .94 !important;
+            max-width: 100% !important;
+          }
+          .fc-case-body { font-size: 18px !important; line-height: 1.5 !important; max-width: 100% !important; }
+          .fc-case-pull { font-size: 20px !important; line-height: 1.38 !important; max-width: 100% !important; }
+          .fc-stats-row {
+            margin-top: 38px !important;
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            border-radius: 18px !important;
+            max-width: 100% !important;
+          }
+          .fc-stat { padding: 24px 18px !important; min-width: 0 !important; }
+          .fc-stat-num { font-size: clamp(32px, 10vw, 42px) !important; white-space: nowrap !important; }
+          .fc-stat-label { font-size: 10px !important; line-height: 1.28 !important; overflow-wrap: anywhere !important; }
+          .fc-dash-stack { width: 100% !important; max-width: 100% !important; }
+        }
+      `}</style>
       <div style={fcStyles.orb}/>
-      <div style={fcStyles.inner}>
-        <div style={fcStyles.sectionHead}>
+      <div style={fcStyles.inner} className="fc-inner">
+        <div style={fcStyles.sectionHead} className="fc-section-head">
           <div style={fcStyles.anchor}>{h.anchor}</div>
           <div style={fcStyles.kicker}>{h.kicker}</div>
           <h2 style={fcStyles.sectionH2}>
@@ -191,7 +240,7 @@ const CaseBlock = ({ c, lang, last, accent }) => {
   const copy = (
     <div>
       <div style={{ ...fcStyles.tag, color: accent, background: `${accent}1f` }}>{tag}</div>
-      <h2 style={fcStyles.h2}>
+      <h2 style={fcStyles.h2} className="fc-case-title">
         {title.split('\n').map((l, i) => (
           <span
             key={i}
@@ -205,14 +254,14 @@ const CaseBlock = ({ c, lang, last, accent }) => {
           </span>
         ))}
       </h2>
-      <p style={fcStyles.body}>{body}</p>
-      <div style={{ ...fcStyles.pull, color: accent, textShadow: `0 0 40px ${accent}66` }}>{pull}</div>
+      <p style={fcStyles.body} className="fc-case-body">{body}</p>
+      <div style={{ ...fcStyles.pull, color: accent, textShadow: `0 0 40px ${accent}66` }} className="fc-case-pull">{pull}</div>
     </div>
   );
   const mediaPhone = (
-    <div style={fcStyles.right}>
-      <div style={fcStyles.phoneWrap}>
-        <div style={fcStyles.phone}>
+    <div style={fcStyles.right} className="fc-case-media">
+      <div style={fcStyles.phoneWrap} className="fc-phone-wrap">
+        <div style={fcStyles.phone} className="fc-phone">
           {c.video ? (
             <LazyCaseVideo style={fcStyles.video} src={c.video}/>
           ) : (
@@ -223,18 +272,18 @@ const CaseBlock = ({ c, lang, last, accent }) => {
           )}
           <div style={fcStyles.phoneNotch}/>
         </div>
-        <div style={fcStyles.creatorBadge}>
+        <div style={fcStyles.creatorBadge} className="fc-creator-badge">
           <div style={{ ...fcStyles.creatorAvatar, background: `linear-gradient(135deg, ${accent}, #9B30FF)` }}/>
           <div>
-            <div style={fcStyles.creatorHandle}>{c.creatorHandle}</div>
-            <div style={fcStyles.creatorMeta}>{creatorMeta}</div>
+            <div style={fcStyles.creatorHandle} className="fc-creator-handle">{c.creatorHandle}</div>
+            <div style={fcStyles.creatorMeta} className="fc-creator-meta">{creatorMeta}</div>
           </div>
         </div>
       </div>
     </div>
   );
   const mediaDashboards = c.dashboards && (
-    <div style={fcStyles.dashStack}>
+    <div style={fcStyles.dashStack} className="fc-dash-stack">
       {['before', 'after'].map((k) => {
         const d = c.dashboards[k];
         const label = lang === 'en' ? d.label_en : d.label_zh;
@@ -259,11 +308,11 @@ const CaseBlock = ({ c, lang, last, accent }) => {
   );
   const media = c.media === 'dashboards' ? mediaDashboards : mediaPhone;
   return (
-    <div id={c.id} style={{ ...fcStyles.block, marginBottom: last ? 0 : 160, scrollMarginTop: 96 }}>
-      <div style={fcStyles.top}>
+    <div id={c.id} style={{ ...fcStyles.block, marginBottom: last ? 0 : 160, scrollMarginTop: 96 }} className="fc-case-block">
+      <div style={fcStyles.top} className="fc-case-top">
         {c.flip ? <>{media}{copy}</> : <>{copy}{media}</>}
       </div>
-      <div style={fcStyles.statsRow}>
+      <div style={fcStyles.statsRow} className="fc-stats-row">
         {stats.map((s, i) => (
           s.kind === 'num'
             ? <FcStat key={i} {...s} delay={i*120} accent={accent}/>
@@ -304,21 +353,21 @@ const FcStat = ({ num, suffix='', prefix='', decimals=0, label, delay=0, accent=
     return Math.round(n).toString();
   };
   return (
-    <div ref={ref} style={fcStyles.stat}>
-      <div style={fcStyles.statNum}>
+    <div ref={ref} style={fcStyles.stat} className="fc-stat">
+      <div style={fcStyles.statNum} className="fc-stat-num">
         {prefix}{format(value)}<span style={{ color: accent }}>{suffix}</span>
       </div>
-      <div style={fcStyles.statLbl}>{label}</div>
+      <div style={fcStyles.statLbl} className="fc-stat-label">{label}</div>
     </div>
   );
 };
 
 const FcCheck = ({ label, accent='#FF1493' }) => (
-  <div style={fcStyles.stat}>
+  <div style={fcStyles.stat} className="fc-stat">
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M20 6L9 17l-5-5"/>
     </svg>
-    <div style={{ ...fcStyles.checkLbl }}>{label.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</div>
+    <div style={{ ...fcStyles.checkLbl }} className="fc-stat-label">{label.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</div>
   </div>
 );
 
