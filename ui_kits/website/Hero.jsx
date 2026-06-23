@@ -316,6 +316,12 @@ const Hero = ({ lang }) => {
           .wem-service-hud { max-width: 640px !important; }
           .wem-hero-stats-inner { grid-template-columns: repeat(2, 1fr) !important; }
         }
+        @media (min-width: 981px) and (max-height: 840px) {
+          .wem-intro-stage { top: 34.5% !important; transform: translate(-50%, -50%) scale(.92) !important; }
+          .wem-intro-copy { top: 79% !important; gap: 9px !important; }
+          .wem-intro-title-en { font-size: clamp(46px, 5.4vw, 86px) !important; line-height: .9 !important; }
+          .wem-intro-system-rail { min-height: 42px !important; transform: scale(.94); }
+        }
         @media (max-width: 640px) {
           .wem-intro-brand-signature { left: 50% !important; top: 22px !important; transform: translateX(-50%) !important; }
           .wem-intro-copy { left: 50% !important; right: auto !important; top: 72% !important; bottom: auto !important; transform: translate(-50%, -50%) !important; padding: 0 !important; }
