@@ -17,7 +17,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: 'Jun 10, 2026',
       read: '9 min read',
-      heroImage: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide.png',
+      heroImage: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide-v2.png',
       heroAlt: 'TikTok Shop Deals for You Days 2026 mid-year campaign explainer',
     },
     sections: [
@@ -127,7 +127,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: '2026 年 6 月 10 日',
       read: '9 分钟阅读',
-      heroImage: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide.png',
+      heroImage: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide-v2.png',
       heroAlt: 'TikTok Shop Deals for You Days 2026 年中大促定位解读',
     },
     sections: [

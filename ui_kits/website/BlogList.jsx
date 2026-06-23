@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-aigc-auto-post-strategy',
+    cat: { en: 'TIKTOK SHOP · AIGC AUTO-POST', zh: 'TIKTOK SHOP · AIGC 自动发布' },
+    title: { en: 'TikTok Shop AIGC Auto-post: Why It Matters and How Brands Should Use It', zh: 'TikTok Shop AIGC Auto-post 为什么重要以及品牌怎么用' },
+    excerpt: { en: 'A forward-looking WEM guide to TikTok Shop Auto-post, AI photos, AI-generated videos, Scheduled Posts review, account control, and paid amplification strategy.', zh: 'WEM 拆解 TikTok Shop AIGC Auto-post：AI 图文和短视频自动发布为什么重要，以及品牌怎么管理商品池、审核队列、账号授权和广告放大。' },
+    date: { en: 'Jun 19, 2026', zh: '2026 年 6 月 19 日' }, read: { en: '11 min read', zh: '11 分钟阅读' },
+    image: 'hero-tiktok-shop-aigc-auto-post-strategy.svg',
+  },
+  {
     slug: 'tiktok-shop-us-new-seller-growth-strategy',
     cat: { en: 'TIKTOK SHOP U.S. · NEW SELLER STRATEGY', zh: 'TIKTOK SHOP 美区 · 新卖家增长' },
     title: { en: 'TikTok Shop US New Seller Growth Strategy: Pick One Growth Path Before You Try Everything', zh: 'TikTok Shop 美区新卖家增长打法：内容、达人、活动和 GMV Max 应该怎么排顺序' },
@@ -30,7 +38,7 @@ const BLOG_POSTS = [
     title: { en: 'TikTok Shop Affiliate Marketing for Brands: A Better Operating Playbook', zh: 'TikTok Shop 达人分销为什么经常跑不顺' },
     excerpt: { en: 'A practical WEM playbook for TikTok Shop affiliate marketing for brands: hero SKUs, creator fit, sample seeding, product-page conversion, and weekly optimization for the US market.', zh: 'WEM 拆解 TikTok Shop affiliate 为什么常常跑不顺，以及品牌该怎么把选品、寄样、brief、商品页和周复盘连成一套。' },
     date: { en: 'Jun 3, 2026', zh: '2026 年 6 月 3 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
-    image: 'hero-3-tiktok-shop-affiliate-program-brand-guide.png',
+    image: 'hero-wem-affiliate-marketing-for-brands.png',
   },
   {
     slug: 'tiktok-shop-us-deals-for-you-days',
@@ -38,7 +46,7 @@ const BLOG_POSTS = [
     title: { en: 'TikTok Shop Deals for You Days 2026: What Kind of Campaign It Is and Why It Matters in North America', zh: 'TikTok Shop Deals for You Days 2026：这波年中大促在北美电商里是什么位置' },
     excerpt: { en: 'An official-source explainer on DFYD 2026: how TikTok is positioning this mid-year campaign, why it matters, and how brands should connect it to Amazon, DTC, and broader North America ecommerce strategy.', zh: '从官方材料拆解 DFYD 2026：它到底是什么类型的年中大促、TikTok 为什么重推、品牌该怎么把它跟 Amazon、独立站和更大的北美电商盘子一起看。' },
     date: { en: 'Jun 10, 2026', zh: '2026 年 6 月 10 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
-    image: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide.png',
+    image: 'hero-tiktok-shop-us-deals-for-you-days-2026-seller-guide-v2.png',
   },
   {
     slug: 'cross-border-tiktok-shop-entry-models',
@@ -326,13 +334,17 @@ const parseBlogDate = (value) => {
 const SORTED_BLOG_POSTS = [...BLOG_POSTS].sort(
   (a, b) => parseBlogDate(b.date.en) - parseBlogDate(a.date.en)
 );
-const blogPostHref = (slug, lang) => `/blog/${slug}${lang === 'zh' ? '?lang=zh' : ''}`;
+const blogPostHref = (slug, lang) => `/blog/${slug}.html${lang === 'zh' ? '?lang=zh' : ''}`;
 const resolveBlogImage = (image, lang) => {
   if (!image) return '';
   if (typeof image === 'string') return image;
   return image[lang] || image.en || image.zh || '';
 };
-const blogThumbSrc = (image, lang) => `/blog/thumbs/${resolveBlogImage(image, lang).replace(/\.png$/i, '.jpg')}`;
+const blogThumbSrc = (image, lang) => {
+  const resolved = resolveBlogImage(image, lang);
+  if (/\.svg$/i.test(resolved)) return `/blog/${resolved}`;
+  return `/blog/thumbs/${resolved.replace(/\.png$/i, '.jpg')}`;
+};
 
 const BlogList = ({ lang }) => {
   return (

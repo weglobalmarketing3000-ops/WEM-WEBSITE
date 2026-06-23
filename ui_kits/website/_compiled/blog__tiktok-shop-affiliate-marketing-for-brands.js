@@ -15,7 +15,7 @@
         author: "WE Marketing Team",
         date: "Jun 3, 2026",
         read: "9 min read",
-        heroImage: "hero-3-tiktok-shop-affiliate-program-brand-guide.png",
+        heroImage: "hero-wem-affiliate-marketing-for-brands.png",
         heroAlt: "TikTok Shop affiliate marketing for brands operating playbook"
       },
       sections: [
@@ -92,7 +92,7 @@
         author: "WE Marketing Team",
         date: "2026 \u5E74 6 \u6708 3 \u65E5",
         read: "9 \u5206\u949F\u9605\u8BFB",
-        heroImage: "hero-3-tiktok-shop-affiliate-program-brand-guide.png",
+        heroImage: "hero-wem-affiliate-marketing-for-brands.png",
         heroAlt: "TikTok Shop \u8FBE\u4EBA\u5206\u9500\u8FD0\u8425\u7CFB\u7EDF"
       },
       sections: [
