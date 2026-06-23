@@ -1,6 +1,7 @@
 // FeaturedCase.jsx, featured case study blocks (parameterized)
 const CASES = [
   {
+    id: 'case-wellness-affiliate-live',
     tag_en: 'CASE #01 · WELLNESS',
     tag_zh: '案例 #01 · 健康保健',
     title_en: 'Full-Funnel Affiliate.\n90 Days to Viral.',
@@ -28,6 +29,7 @@ const CASES = [
     flip: false,
   },
   {
+    id: 'case-beauty-gmv-growth',
     tag_en: 'CASE #02 · BEAUTY',
     tag_zh: '案例 #02 · 美妆品类',
     title_en: 'Breaking a Stalled\nGMV Ceiling in 30 Days.',
@@ -60,6 +62,7 @@ const CASES = [
     flip: true,
   },
   {
+    id: 'case-fashion-cold-start',
     tag_en: 'CASE #03 · MEN’S FASHION',
     tag_zh: '案例 #03 · 男装',
     title_en: 'Unlocking an Underbuilt\nCategory. Cold Start to 10K.',
@@ -108,6 +111,20 @@ const FeaturedCase = ({ lang }) => {
       sub: '我们负责策略、达人、内容、直播和店铺运营，目标很简单：让品牌在美国少试错，更快看到真实销售。',
     },
   }[lang];
+  React.useEffect(() => {
+    const scrollToHash = () => {
+      const id = window.location.hash.replace('#', '');
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    const timers = [80, 320, 700].map((delay) => window.setTimeout(scrollToHash, delay));
+    window.addEventListener('hashchange', scrollToHash);
+    return () => {
+      timers.forEach(window.clearTimeout);
+      window.removeEventListener('hashchange', scrollToHash);
+    };
+  }, [lang]);
   return (
     <section id="Our Work" style={fcStyles.wrap}>
       <div style={fcStyles.orb}/>
@@ -121,7 +138,7 @@ const FeaturedCase = ({ lang }) => {
           </h2>
           <p style={fcStyles.sectionSub}>{h.sub}</p>
         </div>
-        {CASES.map((c, idx) => <CaseBlock key={idx} c={c} lang={lang} last={idx === CASES.length - 1} accent={CASE_ACCENTS[idx % CASE_ACCENTS.length]}/>)}
+        {CASES.map((c, idx) => <CaseBlock key={c.id} c={c} lang={lang} last={idx === CASES.length - 1} accent={CASE_ACCENTS[idx % CASE_ACCENTS.length]}/>)}
       </div>
     </section>
   );
@@ -205,7 +222,7 @@ const CaseBlock = ({ c, lang, last, accent }) => {
   );
   const media = c.media === 'dashboards' ? mediaDashboards : mediaPhone;
   return (
-    <div style={{ ...fcStyles.block, marginBottom: last ? 0 : 160 }}>
+    <div id={c.id} style={{ ...fcStyles.block, marginBottom: last ? 0 : 160, scrollMarginTop: 96 }}>
       <div style={fcStyles.top}>
         {c.flip ? <>{media}{copy}</> : <>{copy}{media}</>}
       </div>

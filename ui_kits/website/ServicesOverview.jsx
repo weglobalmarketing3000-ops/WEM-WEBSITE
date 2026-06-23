@@ -23,6 +23,7 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands that want WEM to manage the full TikTok Shop growth system instead of piecing together shop operations, creators, content, live, and reporting across multiple vendors.',
           handles: ['Shop operations, product pages, product SEO, pricing, and promotion planning', 'Creator affiliate strategy, creator seeding, and campaign follow-up', 'Content direction, creator briefs, and content performance review', 'Creator live selling coordination and campaign calendar planning', 'Weekly reporting across GMV, creator activity, content output, shop health, and blockers'],
           model: 'Monthly retainer plus GMV commission. Scope depends on your category, product stage, margin, and how much support your internal team already has.',
+          workHref: 'showcase.html#case-wellness-affiliate-live',
         },
         {
           id: 'cold-start',
@@ -31,6 +32,7 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands starting from zero. Many agencies only want brands with traction already. WEM has handled many zero-to-one launches, from setup to creator seeding, testing, early orders, and scale.',
           handles: ['Shop setup, product listing structure, product SEO, and launch roadmap', 'First creator seeding wave, affiliate setup, and sample workflow', 'Testing product angles, offers, commissions, creator types, and content formats', 'Building early content, orders, reviews, and sales signals', 'Identifying what can scale after the first creator and content signals are clear'],
           model: 'Monthly retainer plus GMV commission. Usually planned around the first 60 to 90 days, then continued as full-service management if the brand is ready to scale.',
+          workHref: 'showcase.html#case-fashion-cold-start',
         },
         {
           id: 'consulting',
@@ -39,6 +41,7 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands that already have an in-house marketing or operations team and want to execute themselves, but need experienced TikTok Shop guidance before they make expensive decisions.',
           handles: ['TikTok Shop launch strategy, growth roadmap, and priority setting', 'Logistics and fulfillment strategy for brands that have not sold through TikTok Shop before', 'Creator affiliate strategy, commission planning, and creator workflow design', 'Shop setup, product page, offer, and campaign structure review', 'Advisory sessions for in-house teams, including action plans, audits, and follow-up recommendations'],
           model: 'Consulting can be scoped as one-time strategy sessions, audits, or ongoing advisory support. This is a good fit when your team wants to execute internally but needs WEM experience to avoid common TikTok Shop mistakes.',
+          workHref: 'showcase.html#case-beauty-gmv-growth',
         },
         {
           id: 'affiliate-management',
@@ -47,6 +50,7 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands that already have shop operations in place, but are not confident in creator management. Common pain points include limited creator resources, slow outreach, creator communication gaps, and difficulty outsourcing day-to-day follow-up.',
           handles: ['Creator sourcing through WEM community, category outreach, Affiliate Center discovery, and existing creator relationships', 'Affiliate Center management, including creator messages, target collaborations, creator invitations, and daily follow-up', 'Commission strategy, campaign setup, sample approval, and posting reminders', 'Briefs, posting guidance, content review, and issue escalation', 'Post rate, GMV, creator response, sample ROI, and weekly affiliate reporting'],
           model: 'Monthly retainer plus performance commission. Works well as a hybrid model when your team runs the shop and WEM manages the creator side.',
+          workHref: 'showcase.html#case-wellness-affiliate-live',
         },
         {
           id: 'ugc-content',
@@ -55,8 +59,9 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands that need creator videos for TikTok Shop, Amazon listings, DTC pages, paid ads, and social channels, without needing full TikTok Shop management.',
           handles: ['Bulk, Plus, and Premium creator content packages', 'Creator matching, briefs, production tracking, and QA', 'Editing, captions, and full usage rights based on package', 'English, Spanish, Chinese, and other content options', 'Creative samples that can support product pages and paid media'],
           model: 'Package-based pricing. This service has its own page with minimums, pricing, examples, usage rights, and timeline.',
-          href: 'services/creator-content',
+          href: 'services/creator-content.html#packages',
           cta: 'See UGC packages',
+          workHref: 'services/creator-content.html#ugc-video-examples',
         },
         {
           id: 'creator-matchmaking',
@@ -77,10 +82,10 @@ const ServicesOverview = ({ lang }) => {
         {
           id: 'content-performance',
           icon: 'video',
-          title: 'Short Video Performance Support',
-          best: 'Best for brands that have creator short videos coming in, but need stronger briefs, better hooks, clearer product selling points, multilingual content direction, and data-backed content review.',
-          handles: ['Sales and content data review to understand what is converting and what is not', 'Content coach guidance from people who have actually sold on TikTok Shop', 'Multilingual brief direction for English, Spanish, Chinese, and other U.S. audience segments', 'Brief site creation so creators can understand product positioning, claims, offers, and content rules', '1 on 1 content reviews, hook feedback, CTA improvement, and recommendations on what to repeat or fix'],
-          model: 'Usually included inside full-service management, creator affiliate management, or live selling programs. Can also be scoped as a content support project when a brand already has creators but needs better conversion.',
+          title: 'Short Video Production Services',
+          best: 'Best for brands that need product short videos for TikTok Shop, Amazon listings, Shopify or DTC pages, paid ads, and U.S. social content.',
+          handles: ['Video concepts, hooks, and product selling-point direction', 'Creator-led or studio-style filming for product demos and social proof', 'Product routines, unboxings, comparisons, offer-led videos, and listing-ready content', 'Editing, captions, subtitles, and platform-ready exports', 'Performance review so the next production batch is based on real content signals'],
+          model: 'Can be scoped as standalone production, added to UGC packages, or included inside full-service management.',
         },
       ],
       contentSnapshot: {
@@ -124,6 +129,18 @@ const ServicesOverview = ({ lang }) => {
       labelBest: 'Best for',
       labelHandles: 'What WEM handles',
       labelModel: 'How we work',
+      relatedWorkCta: 'See related work',
+      examplesLabel: 'Example outputs',
+      shortVideoExamples: [
+        {
+          title: 'Listing-ready product demos',
+          body: 'Clean product showing, no-face demos, routines, unboxings, and quick use-case videos for TikTok Shop, Amazon, Shopify, and DTC pages.',
+        },
+        {
+          title: 'Sales creative for paid and organic',
+          body: 'Hook-led videos with product angles, offer framing, captions, subtitles, and versions that can be reused for social posts or paid ads.',
+        },
+      ],
       defaultCta: 'Talk to WEM',
       final: {
         h: 'Not sure which service fits?',
@@ -150,6 +167,7 @@ const ServicesOverview = ({ lang }) => {
           best: '适合想把美国 TikTok Shop 增长体系交给 WEM 跑的品牌，不想把店铺、达人、内容、直播和数据拆给多个供应商。',
           handles: ['店铺运营、商品页、商品 SEO、定价和活动规划', '达人联盟策略、达人寄样和 campaign 跟进', '内容方向、达人 brief 和内容转化复盘', '达人直播协调和活动排期', '每周汇总 GMV、达人动作、内容产出、店铺健康和运营卡点'],
           model: '月费加 GMV 提成。具体范围会根据品类、产品阶段、利润空间和你们内部团队能力来定。',
+          workHref: 'showcase.html#case-wellness-affiliate-live',
         },
         {
           id: 'cold-start',
@@ -158,6 +176,7 @@ const ServicesOverview = ({ lang }) => {
           best: '适合从 0 开始的品牌。很多 agency 更愿意接已经有销量的店铺，但 WEM 做过很多 0 到 1 冷启动，从 setup 到 creator seeding、内容测试、早期订单，再到 scale。',
           handles: ['开店、商品页结构、商品 SEO 和启动路线图', '首批达人寄样、联盟设置和样品流程', '测试卖点、佣金、活动、达人类型和内容形式', '积累早期内容、订单、评价和销售信号', '判断哪些达人、内容和活动机制可以继续放大'],
           model: '月费加 GMV 提成。通常按前 60 到 90 天规划，跑出信号后可以继续进入全案代运营。',
+          workHref: 'showcase.html#case-fashion-cold-start',
         },
         {
           id: 'consulting',
@@ -166,6 +185,7 @@ const ServicesOverview = ({ lang }) => {
           best: '适合已有 in-house marketing 或运营团队、想自己执行，但需要有经验的人帮你们判断 TikTok Shop 方向和优先级的商家。',
           handles: ['TikTok Shop 启动策略、增长路线图和优先级判断', '物流和履约策略，尤其适合还没试过 TikTok Shop 发货的商家', '达人联盟策略、佣金设计和达人工作流规划', '店铺 setup、商品页、活动机制和 campaign 结构诊断', '给内部团队做咨询会议、audit、action plan 和后续建议'],
           model: '可以按单次策略咨询、专项 audit 或长期顾问支持来做。适合你们团队自己执行，但需要 WEM 帮你们避坑、定方向、确认下一步怎么做。',
+          workHref: 'showcase.html#case-beauty-gmv-growth',
         },
         {
           id: 'affiliate-management',
@@ -174,6 +194,7 @@ const ServicesOverview = ({ lang }) => {
           best: '适合已有店铺运营团队，但对达人管理不熟悉、缺达人资源、达人沟通困难，或者外包达人执行时效率慢、质量不稳定的品牌。',
           handles: ['通过 WEM 达人社群、品类拓展、Affiliate Center 和既有达人关系筛选达人', '管理店铺 Affiliate Center，包括回复 creator message、发送 target collabs、达人邀请和日常 follow-up', '佣金策略、活动设置、寄样审核、样品追踪和发布提醒', '达人 brief、发布建议、内容审核和问题升级', '发布率、GMV、达人回复、寄样 ROI 和每周达人联盟复盘'],
           model: '月费加效果提成。适合 hybrid 合作：你们内部团队管店铺，WEM 负责达人资源和达人运营。',
+          workHref: 'showcase.html#case-wellness-affiliate-live',
         },
         {
           id: 'ugc-content',
@@ -182,8 +203,9 @@ const ServicesOverview = ({ lang }) => {
           best: '适合需要 TikTok Shop、Amazon Listing、DTC 页面、广告和社媒素材，但暂时不需要 WEM 全案管理的品牌。',
           handles: ['Bulk、Plus、Premium 三类内容套餐', '达人匹配、brief、进度跟踪和质量检查', '按套餐提供剪辑、字幕和使用权', '支持英文、西语、中文和其他语言内容', '可用于商品页、广告和社媒的真实达人素材'],
           model: '按 package 收费。UGC 有独立页面，里面有价格、最低数量、案例、使用权和交付周期。',
-          href: 'services/creator-content',
+          href: 'services/creator-content.html#packages',
           cta: '查看 UGC 套餐',
+          workHref: 'services/creator-content.html#ugc-video-examples',
         },
         {
           id: 'creator-matchmaking',
@@ -204,10 +226,10 @@ const ServicesOverview = ({ lang }) => {
         {
           id: 'content-performance',
           icon: 'video',
-          title: '短视频带货优化支持',
-          best: '适合已经有达人短视频内容产出，但内容转化不稳定、brief 不够清楚、hook 不够强，或者需要英文、西语、中文等多语种内容方向的品牌。',
-          handles: ['结合销售数据和内容数据判断哪些内容在转化，哪些没有转化', '由真正卖过货的 content coach 提供内容建议', '根据美国市场的多语种受众优化英文、西语、中文等 brief 方向', '搭建 brief site，让达人更清楚产品定位、卖点、活动、禁区和内容要求', '提供 1 on 1 content review，优化 hook、产品植入、价格表达、CTA 和可重复的内容方向'],
-          model: '通常包含在全案代运营、达人联盟运营或达播项目里。也可以作为专项内容优化项目，帮助已有达人资源的品牌提升转化。',
+          title: '短视频拍摄服务',
+          best: '适合需要为 TikTok Shop、Amazon Listing、Shopify / DTC 页面、广告和美国社媒产出产品短视频的品牌。',
+          handles: ['短视频选题、hook 和产品卖点方向', '达人拍摄或棚拍式产品内容', '产品演示、routine、开箱、对比、offer 型视频和 listing 可用素材', '剪辑、字幕、平台规格和可投放版本交付', '根据真实内容数据复盘下一批拍摄方向'],
+          model: '可作为独立拍摄项目，也可以加在 UGC 套餐或全案代运营里。',
         },
       ],
       contentSnapshot: {
@@ -251,6 +273,18 @@ const ServicesOverview = ({ lang }) => {
       labelBest: '适合谁',
       labelHandles: 'WEM 具体做什么',
       labelModel: '合作方式',
+      relatedWorkCta: '查看相关案例',
+      examplesLabel: '可交付示例',
+      shortVideoExamples: [
+        {
+          title: 'Listing 可用产品演示',
+          body: '产品展示、no-face demo、routine、开箱和快速使用场景视频，可用于 TikTok Shop、Amazon、Shopify 和 DTC 页面。',
+        },
+        {
+          title: '可投放/可发布销售素材',
+          body: '围绕 hook、产品角度、offer 表达、字幕和平台规格剪出版本，可用于社媒发布或 paid ads 测试。',
+        },
+      ],
       defaultCta: '咨询 WEM',
       final: {
         h: '不确定从哪个服务开始？',
@@ -321,13 +355,33 @@ const ServicesOverview = ({ lang }) => {
                   </ul>
                   <div style={soStyles.blockLabel}>{data.labelModel}</div>
                   <p style={soStyles.model}>{svc.model}</p>
-                  <a href={svc.href || book} target={svc.href ? undefined : '_blank'} rel={svc.href ? undefined : 'noopener'} style={{ ...soStyles.textCta, color: c }}>
-                    {svc.cta || data.defaultCta} →
-                  </a>
+                  <div style={soStyles.ctaRow}>
+                    <a href={svc.href || book} target={svc.href ? undefined : '_blank'} rel={svc.href ? undefined : 'noopener'} style={{ ...soStyles.textCta, color: c }}>
+                      {svc.cta || data.defaultCta} →
+                    </a>
+                    {svc.workHref && (
+                      <a href={svc.workHref} style={{ ...soStyles.workCta, borderColor: `${c}66`, color: c }}>
+                        {data.relatedWorkCta} →
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
               {svc.id === 'creator-live' && (
                 <LiveHostSnapshot data={data.liveSnapshot} accent={c} />
+              )}
+              {svc.id === 'content-performance' && (
+                <div style={soStyles.shortVideoExamples}>
+                  <div style={{ ...soStyles.blockLabel, color: c }}>{data.examplesLabel}</div>
+                  <div style={soStyles.shortVideoExampleGrid}>
+                    {data.shortVideoExamples.map((item) => (
+                      <div key={item.title} style={{ ...soStyles.shortVideoExampleCard, borderColor: `${c}44` }}>
+                        <div style={{ ...soStyles.shortVideoExampleTitle, color: c }}>{item.title}</div>
+                        <p style={soStyles.shortVideoExampleBody}>{item.body}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               )}
             </article>
           );
@@ -674,7 +728,14 @@ const soStyles = {
   liveTags: { display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 },
   liveTag: { display: 'inline-flex', border: '1px solid', borderRadius: 999, padding: '7px 10px', fontFamily: 'var(--font-mono)', fontSize: 10, letterSpacing: '.08em', textTransform: 'uppercase', background: 'rgba(0,0,0,.22)' },
   model: { fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.6, color: 'rgba(255,255,255,.72)', margin: '0 0 20px' },
+  ctaRow: { display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap' },
   textCta: { fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 900, letterSpacing: '.06em', textTransform: 'uppercase', textDecoration: 'none' },
+  workCta: { fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 900, letterSpacing: '.06em', textTransform: 'uppercase', textDecoration: 'none', border: '1px solid', borderRadius: 999, padding: '8px 14px', background: 'rgba(255,255,255,.03)' },
+  shortVideoExamples: { marginTop: 28, paddingTop: 26, borderTop: '1px solid rgba(255,255,255,.08)' },
+  shortVideoExampleGrid: { display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 12 },
+  shortVideoExampleCard: { border: '1px solid', borderRadius: 14, padding: '18px 18px 17px', background: 'linear-gradient(145deg, rgba(255,255,255,.055), rgba(255,255,255,.018))' },
+  shortVideoExampleTitle: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 24, lineHeight: 1, textTransform: 'uppercase' },
+  shortVideoExampleBody: { fontFamily: 'var(--font-sans)', fontSize: 14, lineHeight: 1.5, color: 'rgba(255,255,255,.66)', margin: '10px 0 0' },
   final: { margin: '0 auto', maxWidth: 1180, padding: '88px 32px 120px', textAlign: 'center' },
   finalH: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(44px, 6vw, 86px)', lineHeight: .98, textTransform: 'uppercase', margin: 0 },
   finalP: { fontFamily: 'var(--font-sans)', fontSize: 19, lineHeight: 1.55, color: 'rgba(255,255,255,.76)', maxWidth: 680, margin: '24px auto 34px' },

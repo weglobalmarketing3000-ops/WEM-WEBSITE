@@ -11,7 +11,7 @@ const ServiceGrid = ({ lang }) => {
       { icon: 'film', title: 'UGC Content', sub: 'Vetted creator videos for TikTok Shop, Amazon, DTC, ads, and product pages.', href: 'services#ugc-content' },
       { icon: 'sparkles', title: 'Creator Matchmaking', sub: 'Category-fit creator access and campaign activation support for in-house teams.', href: 'services#creator-matchmaking' },
       { icon: 'radio', title: 'Creator Live Selling', sub: 'Live host selection, flash-sale setup, scripts, moderator support, and recap.', href: 'services#creator-live' },
-      { icon: 'video', title: 'Short Video Performance', sub: 'Data review, stronger briefs, content coaching, and short-video conversion feedback.', href: 'services#content-performance' },
+      { icon: 'video', title: 'Short Video Production', sub: 'Product short videos for TikTok Shop, Amazon, DTC pages, paid ads, and social content.', href: 'services#content-performance' },
     ],
     zh: [
       { icon: 'shopping-bag', title: '全案代运营', sub: '店铺、达人、内容、直播、数据复盘一起管理。', href: 'services#full-service-management' },
@@ -21,7 +21,7 @@ const ServiceGrid = ({ lang }) => {
       { icon: 'film', title: 'UGC 内容生产', sub: '真实达人短视频，用于 TikTok Shop、Amazon、广告和商品页。', href: 'services#ugc-content' },
       { icon: 'sparkles', title: '达人精准匹配', sub: '帮 in-house 团队接入更多合适达人，更快启动 campaign。', href: 'services#creator-matchmaking' },
       { icon: 'radio', title: '达人直播带货运营', sub: '主播筛选、flash sale、脚本、moderator 和直播复盘。', href: 'services#creator-live' },
-      { icon: 'video', title: '短视频带货优化', sub: '数据复盘、brief 优化、content coach 和转化建议。', href: 'services#content-performance' },
+      { icon: 'video', title: '短视频拍摄服务', sub: '产品短视频拍摄，用于 TikTok Shop、Amazon、广告、DTC 和社媒。', href: 'services#content-performance' },
     ],
   }[lang];
   const sub = lang === 'en' ? 'Hover a service to see where it fits, then jump into the full breakdown.' : '鼠标放到卡片上看适合场景，点击进入服务总览页对应内容。';

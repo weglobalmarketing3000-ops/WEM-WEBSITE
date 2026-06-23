@@ -1414,9 +1414,11 @@ function Pricing({
 }) {
   const t = COPY[lang];
   return React.createElement("section", {
+    id: "packages",
     style: {
       ...S.section,
-      paddingTop: 120
+      paddingTop: 120,
+      scrollMarginTop: 96
     }
   }, React.createElement("div", {
     style: S.inner
@@ -1725,7 +1727,11 @@ function SampleWork({
     label: t.sampleTabs.premium
   }];
   return React.createElement("section", {
-    style: S.section
+    id: "ugc-video-examples",
+    style: {
+      ...S.section,
+      scrollMarginTop: 96
+    }
   }, React.createElement("div", {
     style: S.inner
   }, React.createElement("h2", {
