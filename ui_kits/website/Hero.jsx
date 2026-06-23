@@ -353,7 +353,7 @@ const Hero = ({ lang }) => {
       `}</style>
       {introVisible && <OpeningPortal lang={lang} opening={introOpening} onOpen={openIntro}/>}
       <section ref={heroRef} style={heroStyles.wrap} className="wem-hero-wrap">
-        <HeroThreeScene lang={lang} active={activeService} onActive={setActiveService}/>
+        {!introVisible && <HeroThreeScene lang={lang} active={activeService} onActive={setActiveService}/>}
         <div style={heroStyles.bgLayer} className="wem-hero-bg-shift"/>
         <div style={heroStyles.bgGrid}/>
         <div style={heroStyles.bgBeamA} className="wem-hero-beam-a"/>
@@ -379,7 +379,7 @@ const Hero = ({ lang }) => {
             <p style={heroStyles.sub} className="wem-hero-sub">{t.sub}</p>
             <div style={heroStyles.ctas} className="wem-hero-ctas">
               <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => window.open('https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925','_blank')}>{t.cta1}</button>
-              <button style={heroStyles.ghost} onClick={() => location.href='showcase'}>{t.cta2}</button>
+              <button style={heroStyles.ghost} onClick={() => location.href='showcase.html'}>{t.cta2}</button>
             </div>
           </div>
           <HeroServiceHud lang={lang} active={activeService} onActive={setActiveService}/>
@@ -513,7 +513,7 @@ const OpeningPortalScene = ({ opening }) => {
     const canvas = canvasRef.current;
     if (!canvas) return undefined;
     const ctx = canvas.getContext('2d', { alpha: true });
-    const particles = Array.from({ length: 920 }, (_, index) => {
+    const particles = Array.from({ length: 420 }, (_, index) => {
       const arm = index % 5;
       const depth = Math.random();
       return {
@@ -531,7 +531,7 @@ const OpeningPortalScene = ({ opening }) => {
         blue: Math.random() > .88,
       };
     });
-    const microStars = Array.from({ length: 620 }, () => ({
+    const microStars = Array.from({ length: 260 }, () => ({
       x: Math.random(),
       y: Math.random(),
       size: .18 + Math.random() * .48,
@@ -540,7 +540,7 @@ const OpeningPortalScene = ({ opening }) => {
       tone: Math.random(),
       alpha: .045 + Math.random() * .14,
     }));
-    const distantStars = Array.from({ length: 360 }, () => ({
+    const distantStars = Array.from({ length: 180 }, () => ({
       x: Math.random(),
       y: Math.random(),
       size: .18 + Math.random() * .82,
@@ -551,7 +551,7 @@ const OpeningPortalScene = ({ opening }) => {
       tone: Math.random(),
       alpha: .1 + Math.random() * .36,
     }));
-    const foregroundStars = Array.from({ length: 28 }, () => {
+    const foregroundStars = Array.from({ length: 18 }, () => {
       let x = Math.random();
       let y = Math.random();
       if (x > .24 && x < .76 && y > .22 && y < .76) {
@@ -572,7 +572,7 @@ const OpeningPortalScene = ({ opening }) => {
     let height = 1;
     const resize = () => {
       const rect = canvas.parentElement.getBoundingClientRect();
-      const dpr = Math.min(window.devicePixelRatio || 1, 1.7);
+      const dpr = Math.min(window.devicePixelRatio || 1, 1.25);
       width = Math.max(1, rect.width);
       height = Math.max(1, rect.height);
       canvas.width = Math.round(width * dpr);

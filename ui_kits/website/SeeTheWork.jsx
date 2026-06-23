@@ -17,7 +17,7 @@ const SeeTheWork = ({ lang }) => {
       <div style={stwStyles.inner}>
         <div style={stwStyles.eye}>{t.eye}</div>
         <h2 style={stwStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-        <a href="showcase" style={stwStyles.cta}>{t.cta}</a>
+        <a href="showcase.html" style={stwStyles.cta}>{t.cta}</a>
       </div>
     </section>
   );

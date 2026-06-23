@@ -16,10 +16,11 @@ window.persistWemLang = (lang) => {
 };
 const NavBar = ({ lang, onLang, basePath = '' }) => {
   const b = basePath;
-  const home = b || '/';
+  const home = b || './index.html';
+  const page = (path) => `${b}${path}`;
   const t = {
-    en: { nav: [['Our Services', b + 'services'], ['UGC Content', b + 'services/creator-content'], ['Our Work', b + 'showcase'], ['Creator Affiliate', b + 'affiliate'], ['About Us', b + 'about'], ['Blog', b + 'blog']], cta: 'Book a call →' },
-    zh: { nav: [['服务', b + 'services'], ['UGC 内容', b + 'services/creator-content'], ['案例', b + 'showcase'], ['达人联盟', b + 'affiliate'], ['关于我们', b + 'about'], ['博客', b + 'blog']], cta: '预约咨询' },
+    en: { nav: [['Our Services', page('services.html')], ['UGC Content', page('services/creator-content.html')], ['Our Work', page('showcase.html')], ['Creator Affiliate', page('affiliate.html')], ['About Us', page('about.html')], ['Blog', page('blog.html')]], cta: 'Book a call →' },
+    zh: { nav: [['服务', page('services.html')], ['UGC 内容', page('services/creator-content.html')], ['案例', page('showcase.html')], ['达人联盟', page('affiliate.html')], ['关于我们', page('about.html')], ['博客', page('blog.html')]], cta: '预约咨询' },
   }[lang];
   return (
     <nav style={navStyles.wrap} className="wem-nav">
