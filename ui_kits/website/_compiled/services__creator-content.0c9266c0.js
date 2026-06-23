@@ -33,23 +33,23 @@ const COPY = {
     pricingTitle: ['Pick your', 'package.'],
     packages: [{
       tier: 'bulk',
+      popular: true,
       tag: 'VOLUME PLAY',
       name: 'Essentials',
       price: '$60/video',
       note: '100 video minimum = $6,000',
-      features: ['100 videos from ~35 creators', 'Each creator films ~3 videos for variety in angles, hooks, and formats', 'WEM assigns creators and content types', 'Basic editing + captions included', 'Full perpetual usage rights'],
+      features: ['100 videos from ~35 creators', 'High-volume creator formats: product demos, routines, product showing, try-ons, and simple POV content', 'WEM assigns creators and content types', 'Basic editing + captions included', 'Full perpetual usage rights'],
       ideal: 'High volume for ad creative testing and cold starts. Maximum content, lowest cost.',
       timeline: '4-6 weeks'
     }, {
       tier: 'select',
-      popular: true,
       tag: 'QUALITY + CHOICE',
       name: 'Plus',
       price: '$80/video',
       note: '50 video minimum = $4,000',
-      features: ['~35 creators deliver 70+ videos', 'Brand picks the best 50', 'Brand specifies content types and brief', 'Basic editing + captions + 1 revision', 'Full perpetual usage rights'],
+      features: ['~35 creators produce 70+ directed video options', 'Brand keeps the best 50', 'Brand specifies content types, brief, and product angles', 'Reviews, unboxings, comparisons, problem-solution demos, green-screen explainers, or guided product demos', 'Basic editing + captions included', 'Full perpetual usage rights'],
       callout: 'Love more than 50? Package pricing available for additional videos. Contact us for more details.',
-      ideal: 'Creative control. See more, keep the best. Higher quality creator pool.',
+      ideal: 'Creative control. See more, keep the best. More involved creator formats than Essentials.',
       timeline: '4-6 weeks. Brand selects 50 from 70+.'
     }, {
       tier: 'premium',
@@ -66,7 +66,7 @@ const COPY = {
     timeline: 'Timeline:',
     compareTitle: 'Quick compare.',
     compareHeaders: ['Essentials', 'Plus', 'Premium'],
-    compareRows: [['Price / video', '$60', '$80', '$150'], ['Minimum order', '100', '50', '25'], ['Minimum spend', '$6,000', '$4,000', '$3,750'], ['Creators', '~35', '~35', 'Handpicked'], ['Videos delivered', '100', '70+', '25'], ['Videos you keep', '100', '50', '25'], ['Brand picks content type', 'No', 'Yes', 'Yes'], ['Editing + captions', 'Yes', 'Yes', 'Yes'], ['Revisions', 'No', '1 round', '1 round'], ['Usage rights', 'Perpetual', 'Perpetual', 'Perpetual']],
+    compareRows: [['Price / video', '$60', '$80', '$150'], ['Minimum order', '100', '50', '25'], ['Minimum spend', '$6,000', '$4,000', '$3,750'], ['Creators', '~35', '~35', 'Handpicked'], ['Videos delivered', '100', '70+', '25'], ['Videos you keep', '100', '50', '25'], ['Typical format', 'Demos / routines / product showing', 'Reviews / explainers / guided demos', 'Scripted story'], ['Brand picks content type', 'No', 'Yes', 'Yes'], ['Editing + captions', 'Yes', 'Yes', 'Yes'], ['Revisions', 'No', 'No', '1 round'], ['Usage rights', 'Perpetual', 'Perpetual', 'Perpetual']],
     customBundle: ['Need a custom bundle or higher volume? ', 'Contact us for discounts.'],
     customCreator: {
       eye: 'CUSTOM CREATOR CAMPAIGNS',
@@ -225,10 +225,10 @@ const COPY = {
     caseStudy: {
       eye: 'CASE STUDY',
       titleA: 'MoonBrew:',
-      titleB: '209 videos, 6 weeks.',
+      titleB: '300 videos, 6 weeks.',
       lead: 'Cold start on TikTok. 173 creators. Scripted reviews with hook + CTA. All amplified on TikTok.',
       stats: [['307K+', 'Total video views'], ['100%+', 'GMV growth'], ['65%+', 'Website traffic growth in one month']],
-      cards: [['ESSENTIALS · 199 VIDEOS', 'Volume content to train the algorithm and build brand presence on the platform.'], ['PREMIUM · 10 VIDEOS', '5% of content drove 45% of all views. Top single video: 64K+ views.']],
+      cards: [['ESSENTIALS · 200 VIDEOS', 'Volume content to train the algorithm and build brand presence on the platform.'], ['PREMIUM · 10 VIDEOS', '5% of content drove 45% of all views. Top single video: 64K+ views.']],
       closeA: 'Start with volume, find your winners,',
       closeB: 'scale what works.'
     },
@@ -244,7 +244,7 @@ const COPY = {
     how: {
       titleA: 'How it',
       titleB: 'works.',
-      steps: [['01', 'Choose your package', 'Essentials for volume, Plus for more choice, Premium for storytelling.'], ['02', 'Submit your brief', 'Product, target audience, content direction. WEM handles creator matching.'], ['03', 'Creators produce content', 'Each creator films multiple videos. WEM manages sampling, briefing, and QA.'], ['04', 'Review and choose (Plus package)', '70+ videos delivered. Pick your best 50. Contact us for add-on pricing.'], ['05', 'Receive final deliverables', 'Edited videos + raw footage via Google Drive. Ready for ads.']]
+      steps: [['01', 'Choose your package', 'Essentials for volume, Plus for higher-touch formats and choice, Premium for storytelling.'], ['02', 'Submit your brief', 'Product, target audience, content direction. WEM handles creator matching.'], ['03', 'Creators produce content', 'Each creator films multiple videos. WEM manages sampling, briefing, and QA.'], ['04', 'Review and choose (Plus package)', '70+ videos delivered. Pick your best 50. Contact us for add-on pricing.'], ['05', 'Receive final deliverables', 'Edited videos + raw footage via Google Drive. Ready for ads.']]
     },
     final: {
       titleA: 'Ready to get',
@@ -268,23 +268,23 @@ const COPY = {
     pricingTitle: ['选择你的', '内容套餐'],
     packages: [{
       tier: 'bulk',
+      popular: true,
       tag: '批量测试',
       name: 'Essentials',
       price: '$60/条',
       note: '100 条起订 = $6,000',
-      features: ['约 35 位达人产出 100 条视频', '每位达人约拍 3 条，用来测试不同卖点和 hook', 'WEM 负责分配达人、拆内容方向和基础质检', '包含基础剪辑与字幕', '包含长期使用权'],
+      features: ['约 35 位达人产出 100 条视频', '适合批量测试的达人自然内容形式：产品演示、routine、产品展示、试用/试穿和简单 POV 内容', 'WEM 负责分配达人、拆内容方向和基础质检', '包含基础剪辑与字幕', '包含长期使用权'],
       ideal: '适合冷启动、广告素材池搭建和大批量卖点测试。内容量最大，单条成本最低。',
       timeline: '4 到 6 周'
     }, {
       tier: 'select',
-      popular: true,
       tag: '先看后选',
       name: 'Plus',
       price: '$80/条',
       note: '50 条起订 = $4,000',
-      features: ['约 35 位达人交付 70+ 条视频', '品牌从中选择最适合投放的 50 条', '可指定内容类型、卖点方向和拍摄需求', '包含基础剪辑、字幕和 1 轮修改', '包含长期使用权'],
+      features: ['约 35 位达人交付 70+ 条更有方向的视频选项', '品牌从中保留最适合投放的 50 条', '可指定内容类型、卖点方向和拍摄需求', '内容形式更明确：测评、开箱、对比、痛点解决型演示、绿幕讲解或引导式产品演示', '包含基础剪辑与字幕', '包含长期使用权'],
       callout: '如果想保留超过 50 条，可以按套餐单价加购。',
-      ideal: '适合想控制内容方向，又希望先看成片再筛选的品牌。',
+      ideal: '适合想控制内容方向，又希望拿到比 Essentials 更复杂内容形式的品牌。',
       timeline: '4 到 6 周。品牌从 70+ 条中选择 50 条。'
     }, {
       tier: 'premium',
@@ -301,7 +301,7 @@ const COPY = {
     timeline: '周期：',
     compareTitle: '快速对比',
     compareHeaders: ['Essentials', 'Plus', 'Premium'],
-    compareRows: [['单条价格', '$60', '$80', '$150'], ['起订数量', '100', '50', '25'], ['最低预算', '$6,000', '$4,000', '$3,750'], ['达人数量', '约 35', '约 35', '精选达人'], ['交付视频', '100', '70+', '25'], ['最终保留', '100', '50', '25'], ['品牌指定内容方向', '不包含', '可以', '可以'], ['剪辑 + 字幕', '包含', '包含', '包含'], ['修改轮次', '不包含', '1 轮', '1 轮'], ['使用授权', '永久', '永久', '永久']],
+    compareRows: [['单条价格', '$60', '$80', '$150'], ['起订数量', '100', '50', '25'], ['最低预算', '$6,000', '$4,000', '$3,750'], ['达人数量', '约 35', '约 35', '精选达人'], ['交付视频', '100', '70+', '25'], ['最终保留', '100', '50', '25'], ['常见形式', '演示 / routine / 产品展示', '测评 / 讲解 / 引导式演示', '脚本化故事'], ['品牌指定内容方向', '不包含', '可以', '可以'], ['剪辑 + 字幕', '包含', '包含', '包含'], ['修改轮次', '不包含', '不包含', '1 轮'], ['使用授权', '永久', '永久', '永久']],
     customBundle: ['需要更大批量或定制内容方向？', '联系我们获取报价。'],
     customCreator: {
       eye: '定制达人合作',
@@ -460,10 +460,10 @@ const COPY = {
     caseStudy: {
       eye: '案例',
       titleA: 'MoonBrew：',
-      titleB: '6 周 209 条视频',
+      titleB: '6 周 300 条视频',
       lead: '这是一个美国 TikTok Shop 冷启动项目。173 位达人参与内容生产，我们批量测试 hook、卖点和下单引导，再把有效素材拿去放大。',
       stats: [['307K+', '总视频播放量'], ['100%+', '销售增长'], ['65%+', '一个月官网流量增长']],
-      cards: [['ESSENTIALS · 199 条视频', '先用大量内容测试平台反馈，让品牌快速在 TikTok 上露出。'], ['PREMIUM · 10 条视频', '少量重点内容贡献了 45% 的播放量，单条最高 64K+ 播放。']],
+      cards: [['ESSENTIALS · 200 条视频', '先用大量内容测试平台反馈，让品牌快速在 TikTok 上露出。'], ['PREMIUM · 10 条视频', '少量重点内容贡献了 45% 的播放量，单条最高 64K+ 播放。']],
       closeA: '先用内容测试，找到有效素材，',
       closeB: '再集中预算放大。'
     },
@@ -479,7 +479,7 @@ const COPY = {
     how: {
       titleA: '合作',
       titleB: '流程',
-      steps: [['01', '选择套餐', 'Essentials 适合批量测试，Plus 适合先看后选，Premium 适合重点广告内容。'], ['02', '提交内容需求', '提供产品、目标买家、核心卖点和不能踩的内容红线。WEM 负责匹配达人和拆解内容方向。'], ['03', '达人拍摄内容', '达人按内容要求拍摄多条视频。WEM 管理寄样、沟通、进度和基础质检。'], ['04', '审核并选择', 'Plus 套餐会先交付 70+ 条视频，品牌再选择最终保留的 50 条。需要加购可单独报价。'], ['05', '收到最终内容', '剪辑视频和原始素材通过 Google Drive 交付，可直接用于广告和商品页。']]
+      steps: [['01', '选择套餐', 'Essentials 适合批量测试，Plus 适合更复杂内容形式和先看后选，Premium 适合重点广告内容。'], ['02', '提交内容需求', '提供产品、目标买家、核心卖点和不能踩的内容红线。WEM 负责匹配达人和拆解内容方向。'], ['03', '达人拍摄内容', '达人按内容要求拍摄多条视频。WEM 管理寄样、沟通、进度和基础质检。'], ['04', '审核并选择', 'Plus 套餐会先交付 70+ 条视频，品牌再选择最终保留的 50 条。需要加购可单独报价。'], ['05', '收到最终内容', '剪辑视频和原始素材通过 Google Drive 交付，可直接用于广告和商品页。']]
     },
     final: {
       titleA: '准备开始',
@@ -1487,12 +1487,12 @@ function Compare({
     tier: 'bulk',
     name: 'Essentials',
     hint: '批量测试',
-    rows: [['交付方式', '约 35 位达人产出 100 条视频'], ['达人选择', 'WEM 根据品类和内容方向匹配达人'], ['品牌选择', '品牌不需要反选达人，直接获得完整素材池'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '冷启动、素材池搭建、大批量卖点测试']]
+    rows: [['交付方式', '约 35 位达人产出 100 条视频'], ['内容形式', '达人自然演示、routine、产品展示、试用/试穿和简单 POV 内容'], ['达人选择', 'WEM 根据品类和内容方向匹配达人'], ['品牌选择', '品牌不需要反选达人，直接获得完整素材池'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '冷启动、素材池搭建、大批量卖点测试']]
   }, {
     tier: 'select',
     name: 'Plus',
     hint: '先看后选',
-    rows: [['交付方式', '约 35 位达人交付 70+ 条视频'], ['达人选择', 'WEM 负责筛选和分配达人'], ['品牌选择', '品牌从成片里选择最适合投放的 50 条'], ['修改', '包含基础剪辑、字幕和 1 轮修改'], ['适合', '想提高内容控制度，又希望先看成片再筛选']]
+    rows: [['交付方式', '约 35 位达人交付 70+ 条更有方向的视频选项'], ['内容形式', '测评、开箱、对比、痛点解决型演示、绿幕讲解或引导式产品演示'], ['达人选择', 'WEM 负责筛选和分配达人'], ['品牌选择', '品牌从成片里选择最适合投放的 50 条'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '想提高内容控制度和内容完成度，又希望先看成片再筛选']]
   }, {
     tier: 'premium',
     name: 'Premium',
@@ -1507,7 +1507,7 @@ function Compare({
     tier: 'select',
     name: 'Plus',
     hint: 'More choice',
-    rows: [['Delivery', '70+ videos delivered, brand keeps 50'], ['Creator selection', 'WEM selects and assigns the creator pool'], ['Brand selection', 'Choose the strongest videos after delivery'], ['Revision', 'Basic editing, captions, and 1 revision round'], ['Best use', 'More control, finished-content selection, stronger fit']]
+    rows: [['Delivery', '70+ directed video options delivered, brand keeps 50'], ['Format depth', 'Reviews, unboxings, comparisons, problem-solution demos, green-screen explainers, or guided product demos'], ['Creator selection', 'WEM selects and assigns the creator pool'], ['Brand selection', 'Choose the strongest videos after delivery'], ['Revision', 'Basic editing and captions, no extra revision round'], ['Best use', 'More control, finished-content selection, stronger format fit']]
   }, {
     tier: 'premium',
     name: 'Premium',
