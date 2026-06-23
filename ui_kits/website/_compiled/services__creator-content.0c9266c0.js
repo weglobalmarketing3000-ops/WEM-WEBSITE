@@ -1672,6 +1672,43 @@ function LazyVideo({
     }
   }));
 }
+function EagerVideo({
+  src,
+  style,
+  label
+}) {
+  const videoRef = React.useRef(null);
+  React.useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
+  }, [src]);
+  return React.createElement("div", {
+    "aria-label": label || '',
+    style: {
+      ...style,
+      position: 'relative',
+      overflow: 'hidden',
+      background: 'linear-gradient(145deg, rgba(255,20,147,.14), rgba(74,143,255,.1), rgba(0,0,0,.9))'
+    }
+  }, React.createElement("video", {
+    ref: videoRef,
+    src: src,
+    autoPlay: true,
+    loop: true,
+    muted: true,
+    playsInline: true,
+    preload: "metadata",
+    style: {
+      position: 'absolute',
+      inset: 0,
+      width: '100%',
+      height: '100%',
+      objectFit: style.objectFit || 'cover',
+      display: 'block'
+    }
+  }));
+}
 function SampleWork({
   lang
 }) {
@@ -1910,7 +1947,7 @@ function CustomCreatorCampaigns({
   }, t.shortlistCta, " \u2192"))), React.createElement("div", {
     className: "cc-paid-case",
     style: S.paidCase
-  }, React.createElement(LazyVideo, {
+  }, React.createElement(EagerVideo, {
     src: "creator-content/creator-s-wellness-gmv.mp4",
     label: t.caseTitle,
     style: S.paidVideo
