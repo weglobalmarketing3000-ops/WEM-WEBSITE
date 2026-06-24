@@ -1347,6 +1347,7 @@ function Hero({
 }) {
   const t = COPY[lang].hero;
   return React.createElement("section", {
+    className: "cc-section cc-hero",
     style: {
       ...S.section,
       paddingTop: 120,
@@ -1357,14 +1358,17 @@ function Hero({
   }), React.createElement("div", {
     style: S.orb2
   }), React.createElement("div", {
+    className: "cc-inner",
     style: S.inner
   }, React.createElement("div", {
     style: S.eye
   }, t.eye), React.createElement("h1", {
+    className: "cc-hero-title",
     style: S.h1
   }, t.h1a, React.createElement("br", null), React.createElement("span", {
     style: S.grad
   }, t.h1b)), React.createElement("p", {
+    className: "cc-lead",
     style: S.lead
   }, t.lead), React.createElement("a", {
     href: BOOK,
@@ -1378,6 +1382,7 @@ function Stats({
 }) {
   const t = COPY[lang];
   return React.createElement("section", {
+    className: "cc-section",
     style: {
       ...S.section,
       padding: '60px 32px',
@@ -1386,13 +1391,17 @@ function Stats({
       borderBottom: '1px solid rgba(255,255,255,.08)'
     }
   }, React.createElement("div", {
+    className: "cc-inner",
     style: S.inner
   }, React.createElement("div", {
+    className: "cc-stats-row",
     style: S.statsRow
   }, t.stats.map(([n, l], i) => React.createElement("div", {
     key: i,
+    className: "cc-stat-tile",
     style: S.statTile
   }, React.createElement("div", {
+    className: "cc-stat-num",
     style: S.statNum
   }, n), React.createElement("div", {
     style: S.statLab
@@ -1415,18 +1424,22 @@ function Pricing({
   const t = COPY[lang];
   return React.createElement("section", {
     id: "packages",
+    className: "cc-section cc-pricing-section",
     style: {
       ...S.section,
       paddingTop: 120,
       scrollMarginTop: 96
     }
   }, React.createElement("div", {
+    className: "cc-inner",
     style: S.inner
   }, React.createElement("h2", {
+    className: "cc-section-title",
     style: S.h2
   }, t.pricingTitle[0], " ", React.createElement("span", {
     style: S.grad
   }, t.pricingTitle[1])), React.createElement("div", {
+    className: "cc-pricing-row",
     style: {
       ...S.pricingRow,
       marginTop: 60
@@ -1435,12 +1448,14 @@ function Pricing({
     const accent = TIERS[c.tier].color;
     return React.createElement("div", {
       key: i,
+      className: "cc-pricing-card",
       style: {
         ...S.priceCard,
         ...(c.popular ? S.priceCardHighlight : {}),
         borderColor: c.popular ? 'rgba(74,143,255,.5)' : `${accent}33`
       }
     }, c.popular && React.createElement("span", {
+      className: "cc-popular-badge",
       style: S.popular
     }, t.popular), React.createElement("span", {
       style: {
@@ -1449,11 +1464,13 @@ function Pricing({
         color: accent
       }
     }, c.tag), React.createElement("div", {
+      className: "cc-package-name",
       style: {
         ...S.pkgName,
         color: accent
       }
     }, c.name), React.createElement("div", {
+      className: "cc-package-price",
       style: S.pkgPrice
     }, c.price), React.createElement("div", {
       style: S.pkgNote
@@ -1463,6 +1480,7 @@ function Pricing({
       }
     }, c.features.map((f, j) => React.createElement("div", {
       key: j,
+      className: "cc-package-li",
       style: S.pkgLi
     }, React.createElement(Check, {
       color: accent
@@ -1517,12 +1535,14 @@ function Compare({
     rows: [['Delivery', '25 higher-production, multi-scene videos'], ['Direction', 'Stronger scripting, narrative arc, and CTA'], ['Creator selection', 'WEM shares a creator shortlist, and the brand can help choose'], ['Revision', 'Full editing, captions, and 1 revision round'], ['Best use', 'Launches, hero ad assets, stronger storytelling']]
   }];
   return React.createElement("section", {
+    className: "cc-section",
     style: {
       ...S.section,
       paddingTop: 70,
       background: 'radial-gradient(circle at 12% 20%, rgba(74,143,255,.12), transparent 32%), radial-gradient(circle at 88% 8%, rgba(255,20,147,.12), transparent 30%), #000'
     }
   }, React.createElement("div", {
+    className: "cc-inner",
     style: S.inner
   }, React.createElement("div", {
     style: {
@@ -1533,6 +1553,7 @@ function Compare({
       flexWrap: 'wrap'
     }
   }, React.createElement("h2", {
+    className: "cc-section-title",
     style: {
       ...S.h2,
       fontSize: 'clamp(34px, 4.5vw, 62px)',
@@ -1574,6 +1595,7 @@ function Compare({
       style: S.compareTable
     }, card.rows.map(([label, value]) => React.createElement("div", {
       key: label,
+      className: "cc-compare-row",
       style: S.compareRowMini
     }, React.createElement("div", {
       style: {
@@ -1748,13 +1770,16 @@ function SampleWork({
   }];
   return React.createElement("section", {
     id: "ugc-video-examples",
+    className: "cc-section",
     style: {
       ...S.section,
       scrollMarginTop: 96
     }
   }, React.createElement("div", {
+    className: "cc-inner",
     style: S.inner
   }, React.createElement("h2", {
+    className: "cc-section-title",
     style: S.h2
   }, t.sampleTitle[0], " ", React.createElement("span", {
     style: S.grad
@@ -1788,6 +1813,7 @@ function SampleWork({
     }, t.label);
   })), React.createElement("div", {
     key: active,
+    className: "cc-video-grid",
     style: {
       ...S.videoGrid,
       marginBottom: 0,
