@@ -26,23 +26,83 @@ const FaqSection = ({ lang }) => {
   }[lang];
   const [open, setOpen] = React.useState(0);
   return (
-    <section id="FAQ" style={fqStyles.wrap}>
+    <section id="FAQ" className="faq-section" style={fqStyles.wrap}>
+      <style>{`
+        @media (max-width: 760px) {
+          .faq-section {
+            max-width: 100vw !important;
+            padding: 76px 20px !important;
+            overflow: hidden !important;
+          }
+          .faq-inner {
+            display: block !important;
+            max-width: 100% !important;
+            overflow: hidden !important;
+          }
+          .faq-head {
+            position: relative !important;
+            top: auto !important;
+            margin-bottom: 34px !important;
+          }
+          .faq-eye {
+            margin-bottom: 18px !important;
+            font-size: 11px !important;
+            letter-spacing: .16em !important;
+          }
+          .faq-title {
+            font-size: clamp(42px, 13vw, 56px) !important;
+            line-height: .96 !important;
+            letter-spacing: 0 !important;
+          }
+          .faq-list,
+          .faq-item {
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          .faq-list {
+            gap: 12px !important;
+          }
+          .faq-item {
+            border-radius: 14px !important;
+          }
+          .faq-question {
+            padding: 20px 18px !important;
+            gap: 14px !important;
+            align-items: flex-start !important;
+            font-size: clamp(22px, 7vw, 30px) !important;
+            line-height: 1.05 !important;
+          }
+          .faq-question-text {
+            min-width: 0 !important;
+            overflow-wrap: anywhere !important;
+          }
+          .faq-icon {
+            flex: 0 0 auto !important;
+            font-size: 28px !important;
+          }
+          .faq-answer {
+            padding: 0 18px 22px !important;
+            font-size: 16px !important;
+            line-height: 1.55 !important;
+          }
+        }
+      `}</style>
       <div style={fqStyles.orb}/>
-      <div style={fqStyles.inner}>
-        <div style={fqStyles.head}>
-          <div style={fqStyles.eye}>{t.eye}</div>
-          <h2 style={fqStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
+      <div className="faq-inner" style={fqStyles.inner}>
+        <div className="faq-head" style={fqStyles.head}>
+          <div className="faq-eye" style={fqStyles.eye}>{t.eye}</div>
+          <h2 className="faq-title" style={fqStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
         </div>
-        <div style={fqStyles.list}>
+        <div className="faq-list" style={fqStyles.list}>
           {t.items.map((it, i) => {
             const isOpen = open === i;
             return (
-              <div key={i} style={fqStyles.item}>
-                <button style={fqStyles.q} onClick={() => setOpen(isOpen ? -1 : i)} aria-expanded={isOpen}>
-                  <span style={fqStyles.qText}>{it.q}</span>
-                  <span style={{ ...fqStyles.icon, transform: isOpen ? 'rotate(45deg)' : 'rotate(0)' }}>+</span>
+              <div className="faq-item" key={i} style={fqStyles.item}>
+                <button className="faq-question" style={fqStyles.q} onClick={() => setOpen(isOpen ? -1 : i)} aria-expanded={isOpen}>
+                  <span className="faq-question-text" style={fqStyles.qText}>{it.q}</span>
+                  <span className="faq-icon" style={{ ...fqStyles.icon, transform: isOpen ? 'rotate(45deg)' : 'rotate(0)' }}>+</span>
                 </button>
-                {isOpen && <div style={fqStyles.a}>{it.a}</div>}
+                {isOpen && <div className="faq-answer" style={fqStyles.a}>{it.a}</div>}
               </div>
             );
           })}
