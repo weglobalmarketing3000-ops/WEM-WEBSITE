@@ -29,21 +29,63 @@ const AffiliateBenefits = ({ lang }) => {
     },
   }[lang];
   return (
-    <section id="perks" style={abStyles.wrap}>
-      <div style={abStyles.header}>
+    <section id="perks" style={abStyles.wrap} className="affiliate-benefits">
+      <style>{`
+        @media (max-width: 760px) {
+          .affiliate-benefits {
+            padding: 76px 22px !important;
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .affiliate-benefits-header {
+            margin-bottom: 36px !important;
+            max-width: 100% !important;
+          }
+          .affiliate-benefits-title {
+            font-size: clamp(42px, 13vw, 58px) !important;
+            line-height: .96 !important;
+            letter-spacing: 0 !important;
+          }
+          .affiliate-benefits-sub {
+            font-size: 17px !important;
+            line-height: 1.55 !important;
+            max-width: 100% !important;
+            margin-top: 20px !important;
+          }
+          .affiliate-benefits-grid {
+            grid-template-columns: 1fr !important;
+            gap: 14px !important;
+          }
+          .perk-card {
+            width: 100% !important;
+            min-width: 0 !important;
+            padding: 24px 22px !important;
+            border-radius: 16px !important;
+          }
+          .perk-card-title {
+            font-size: clamp(28px, 9vw, 38px) !important;
+            line-height: 1.02 !important;
+          }
+          .perk-card-body {
+            font-size: 16px !important;
+            line-height: 1.52 !important;
+          }
+        }
+      `}</style>
+      <div style={abStyles.header} className="affiliate-benefits-header">
         <div style={abStyles.eyebrow}>{t.eyebrow}</div>
-        <h2 style={abStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-        <p style={abStyles.sub}>{t.sub}</p>
+        <h2 style={abStyles.h} className="affiliate-benefits-title">{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
+        <p style={abStyles.sub} className="affiliate-benefits-sub">{t.sub}</p>
       </div>
-      <div style={abStyles.grid}>
+      <div style={abStyles.grid} className="affiliate-benefits-grid">
         {t.items.map((item, i) => (
           <div key={i} className="perk-card" style={abStyles.card}>
             <div style={{ ...abStyles.iconBox, background: item.accent }}>
               <i data-lucide={item.icon} style={{ width: 26, height: 26, color: '#000' }}/>
             </div>
             <div style={abStyles.tag}>{item.tag}</div>
-            <div style={abStyles.title}>{item.title}</div>
-            <div style={abStyles.body}>{item.body}</div>
+            <div style={abStyles.title} className="perk-card-title">{item.title}</div>
+            <div style={abStyles.body} className="perk-card-body">{item.body}</div>
           </div>
         ))}
       </div>

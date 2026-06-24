@@ -312,14 +312,121 @@ const ServicesOverview = ({ lang }) => {
   }, [lang]);
 
   return (
-    <main style={soStyles.main}>
+    <main style={soStyles.main} className="services-overview">
+      <style>{`
+        @media (max-width: 760px) {
+          .services-overview {
+            max-width: 100vw !important;
+            overflow-x: hidden !important;
+          }
+          .services-hero-inner {
+            padding: 92px 22px 64px !important;
+            max-width: 100% !important;
+          }
+          .services-hero-title {
+            font-size: clamp(48px, 14vw, 68px) !important;
+            line-height: .96 !important;
+            letter-spacing: 0 !important;
+          }
+          .services-hero-sub {
+            font-size: 17px !important;
+            line-height: 1.55 !important;
+            max-width: 100% !important;
+          }
+          .services-hero-ctas {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+          }
+          .services-hero-ctas a {
+            width: 100% !important;
+            justify-content: center !important;
+            text-align: center !important;
+            min-height: 54px !important;
+          }
+          .services-intro {
+            padding: 66px 22px 22px !important;
+            max-width: 100% !important;
+          }
+          .services-intro-title {
+            font-size: clamp(34px, 10vw, 48px) !important;
+            line-height: 1.02 !important;
+            letter-spacing: 0 !important;
+          }
+          .services-intro-copy {
+            font-size: 16px !important;
+            line-height: 1.62 !important;
+            max-width: 100% !important;
+          }
+          .services-list {
+            padding: 18px 16px 58px !important;
+            max-width: 100% !important;
+            gap: 18px !important;
+          }
+          .service-detail-card {
+            padding: 24px 20px !important;
+            border-radius: 16px !important;
+            max-width: 100% !important;
+            overflow: hidden !important;
+          }
+          .service-detail-grid {
+            display: block !important;
+          }
+          .service-detail-title {
+            font-size: clamp(34px, 10vw, 46px) !important;
+            line-height: 1.02 !important;
+            letter-spacing: 0 !important;
+          }
+          .service-detail-best,
+          .service-detail-model,
+          .service-detail-list li {
+            font-size: 16px !important;
+            line-height: 1.58 !important;
+          }
+          .service-detail-body {
+            margin-top: 28px !important;
+          }
+          .service-detail-cta-row {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 10px !important;
+          }
+          .service-detail-cta-row a {
+            justify-content: center !important;
+            text-align: center !important;
+            width: 100% !important;
+            min-height: 44px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+          }
+          .short-video-example-grid {
+            grid-template-columns: 1fr !important;
+          }
+          .services-final {
+            padding: 72px 22px 92px !important;
+            max-width: 100% !important;
+          }
+          .services-final-title {
+            font-size: clamp(38px, 11vw, 54px) !important;
+            line-height: .98 !important;
+          }
+          .services-final-copy {
+            font-size: 16px !important;
+            line-height: 1.55 !important;
+          }
+          .services-final-button {
+            width: 100% !important;
+            justify-content: center !important;
+          }
+        }
+      `}</style>
       <section style={soStyles.hero}>
         <div style={soStyles.heroGlow}/>
-        <div style={soStyles.heroInner}>
+        <div style={soStyles.heroInner} className="services-hero-inner">
           <div style={soStyles.eyebrow}>{data.hero.eyebrow}</div>
-          <h1 style={soStyles.h1}>{data.hero.h1[0]}<br/><span style={soStyles.grad}>{data.hero.h1[1]}</span></h1>
-          <p style={soStyles.heroSub}>{data.hero.sub}</p>
-          <div style={soStyles.heroCtas}>
+          <h1 style={soStyles.h1} className="services-hero-title">{data.hero.h1[0]}<br/><span style={soStyles.grad}>{data.hero.h1[1]}</span></h1>
+          <p style={soStyles.heroSub} className="services-hero-sub">{data.hero.sub}</p>
+          <div style={soStyles.heroCtas} className="services-hero-ctas">
             <a href={book} target="_blank" rel="noopener" className="we-btn we-btn-primary" style={soStyles.primary}>{data.hero.cta}</a>
             <a href="#cold-start" style={soStyles.secondary}>{lang === 'en' ? 'Explore services' : '查看服务'}</a>
           </div>
@@ -327,37 +434,37 @@ const ServicesOverview = ({ lang }) => {
         </div>
       </section>
 
-      <section style={soStyles.intro}>
+      <section style={soStyles.intro} className="services-intro">
         <div style={soStyles.introLabel}>{lang === 'en' ? 'HOW WEM WORKS' : 'WEM 怎么做'}</div>
-        <h2 style={soStyles.introH}>{data.intro.h}</h2>
-        <p style={soStyles.introP}>{data.intro.p}</p>
+        <h2 style={soStyles.introH} className="services-intro-title">{data.intro.h}</h2>
+        <p style={soStyles.introP} className="services-intro-copy">{data.intro.p}</p>
       </section>
 
-      <section style={soStyles.serviceWrap}>
+      <section style={soStyles.serviceWrap} className="services-list">
         {data.services.map((svc, i) => {
           const c = SO_ACCENTS[i % SO_ACCENTS.length];
           return (
-            <article key={svc.id} id={svc.id} style={soStyles.service}>
+            <article key={svc.id} id={svc.id} style={soStyles.service} className="service-detail-card">
               <div style={soStyles.serviceTop}>
                 <div style={{ ...soStyles.icon, background: c }}>
                   <i data-lucide={svc.icon} style={{ width: 26, height: 26, color: '#000' }}/>
                 </div>
                 <div style={soStyles.num}>{String(i + 1).padStart(2, '0')}</div>
               </div>
-              <div data-services-grid="true" style={soStyles.serviceGrid}>
+              <div data-services-grid="true" style={soStyles.serviceGrid} className="service-detail-grid">
                 <div>
-                  <h2 style={soStyles.serviceTitle}>{svc.title}</h2>
+                  <h2 style={soStyles.serviceTitle} className="service-detail-title">{svc.title}</h2>
                   <div style={{ ...soStyles.pill, color: c, borderColor: `${c}66` }}>{data.labelBest}</div>
-                  <p style={soStyles.best}>{svc.best}</p>
+                  <p style={soStyles.best} className="service-detail-best">{svc.best}</p>
                 </div>
-                <div>
+                <div className="service-detail-body">
                   <div style={soStyles.blockLabel}>{data.labelHandles}</div>
-                  <ul style={soStyles.list}>
+                  <ul style={soStyles.list} className="service-detail-list">
                     {svc.handles.map((item, j) => <li key={j} style={soStyles.li}>{item}</li>)}
                   </ul>
                   <div style={soStyles.blockLabel}>{data.labelModel}</div>
-                  <p style={soStyles.model}>{svc.model}</p>
-                  <div style={soStyles.ctaRow}>
+                  <p style={soStyles.model} className="service-detail-model">{svc.model}</p>
+                  <div style={soStyles.ctaRow} className="service-detail-cta-row">
                     <a href={svc.href || book} target={svc.href ? undefined : '_blank'} rel={svc.href ? undefined : 'noopener'} style={{ ...soStyles.textCta, color: c }}>
                       {svc.cta || data.defaultCta} →
                     </a>
@@ -375,7 +482,7 @@ const ServicesOverview = ({ lang }) => {
               {svc.id === 'content-performance' && (
                 <div style={soStyles.shortVideoExamples}>
                   <div style={{ ...soStyles.blockLabel, color: c }}>{data.examplesLabel}</div>
-                  <div style={soStyles.shortVideoExampleGrid}>
+                  <div style={soStyles.shortVideoExampleGrid} className="short-video-example-grid">
                     {data.shortVideoExamples.map((item) => (
                       <div key={item.title} style={{ ...soStyles.shortVideoExampleCard, borderColor: `${c}44` }}>
                         <div style={{ ...soStyles.shortVideoExampleTitle, color: c }}>{item.title}</div>
@@ -390,10 +497,10 @@ const ServicesOverview = ({ lang }) => {
         })}
       </section>
 
-      <section style={soStyles.final}>
-        <h2 style={soStyles.finalH}>{data.final.h}</h2>
-        <p style={soStyles.finalP}>{data.final.p}</p>
-        <a href={book} target="_blank" rel="noopener" style={soStyles.finalBtn}>{data.hero.cta}</a>
+      <section style={soStyles.final} className="services-final">
+        <h2 style={soStyles.finalH} className="services-final-title">{data.final.h}</h2>
+        <p style={soStyles.finalP} className="services-final-copy">{data.final.p}</p>
+        <a href={book} target="_blank" rel="noopener" style={soStyles.finalBtn} className="services-final-button">{data.hero.cta}</a>
       </section>
     </main>
   );

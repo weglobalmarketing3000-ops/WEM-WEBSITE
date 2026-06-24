@@ -22,28 +22,84 @@ const AffiliateHero = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={ahStyles.wrap}>
+    <section style={ahStyles.wrap} className="affiliate-hero">
+      <style>{`
+        @media (max-width: 760px) {
+          .affiliate-hero { max-width: 100vw !important; overflow: hidden !important; }
+          .affiliate-hero-inner {
+            display: block !important;
+            padding: 92px 22px 70px !important;
+            max-width: 100% !important;
+          }
+          .affiliate-hero-pill {
+            max-width: 100% !important;
+            white-space: normal !important;
+            font-size: 12px !important;
+            line-height: 1.2 !important;
+            padding: 10px 18px !important;
+          }
+          .affiliate-hero-title {
+            font-size: clamp(58px, 20vw, 82px) !important;
+            line-height: .9 !important;
+            letter-spacing: 0 !important;
+            margin-top: 30px !important;
+          }
+          .affiliate-hero-sub {
+            font-size: 19px !important;
+            line-height: 1.42 !important;
+            max-width: 100% !important;
+            margin-top: 28px !important;
+          }
+          .affiliate-hero-ctas {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+            margin-top: 34px !important;
+          }
+          .affiliate-hero-ctas a {
+            width: 100% !important;
+            justify-content: center !important;
+            text-align: center !important;
+            min-height: 56px !important;
+          }
+          .affiliate-hero-meta {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+            margin-top: 26px !important;
+          }
+          .affiliate-hero-right {
+            margin-top: 46px !important;
+            width: 100% !important;
+            justify-content: center !important;
+          }
+          .affiliate-network {
+            width: min(100%, 340px) !important;
+            margin: 0 auto !important;
+          }
+        }
+      `}</style>
       <div style={ahStyles.orb1}/>
       <div style={ahStyles.orb2}/>
-      <div style={ahStyles.inner}>
+      <div style={ahStyles.inner} className="affiliate-hero-inner">
         <div style={ahStyles.left}>
-          <div style={ahStyles.pill}>
+          <div style={ahStyles.pill} className="affiliate-hero-pill">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="#000"><path d="M12 0l2.5 7L22 8l-5.5 5L18 22l-6-3.5L6 22l1.5-9L2 8l7.5-1z"/></svg>
             {t.pill}
           </div>
-          <h1 style={ahStyles.h1}>
+          <h1 style={ahStyles.h1} className="affiliate-hero-title">
             {t.h1a}<br/>
             <span style={ahStyles.h1accent}>{t.h1accent}</span>
           </h1>
-          <p style={ahStyles.sub}>{t.sub}</p>
-          <div style={ahStyles.ctas}>
+          <p style={ahStyles.sub} className="affiliate-hero-sub">{t.sub}</p>
+          <div style={ahStyles.ctas} className="affiliate-hero-ctas">
             <a href={DISCORD_URL} target="_blank" rel="noopener" className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 10 }}>
               <svg width="20" height="20" viewBox="0 0 127.14 96.36" fill="currentColor"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg>
               {t.cta1}
             </a>
             <a href="#perks" style={ahStyles.ghost}>{t.cta2}</a>
           </div>
-          <div style={ahStyles.meta}>
+          <div style={ahStyles.meta} className="affiliate-hero-meta">
             {t.meta.map((m, i) => (
               <div key={i} style={ahStyles.metaItem}>
                 <i data-lucide="check-circle-2" style={{ width: 16, height: 16, color: '#4A8FFF' }}/>
@@ -52,7 +108,7 @@ const AffiliateHero = ({ lang }) => {
             ))}
           </div>
         </div>
-        <div style={ahStyles.right}>
+        <div style={ahStyles.right} className="affiliate-hero-right">
           <NetworkGraphic/>
         </div>
       </div>
@@ -83,7 +139,7 @@ const NetworkGraphic = () => {
   const centerR = 58;
 
   return (
-    <svg viewBox="0 0 520 500" style={{ width: '100%', height: 'auto', maxWidth: 540 }}>
+    <svg className="affiliate-network" viewBox="0 0 520 500" style={{ width: '100%', height: 'auto', maxWidth: 540 }}>
       <defs>
         <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
           <stop offset="0%"   stopColor="#FF1493" stopOpacity="0.7"/>

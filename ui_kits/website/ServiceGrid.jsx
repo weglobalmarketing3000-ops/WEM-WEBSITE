@@ -27,14 +27,70 @@ const ServiceGrid = ({ lang }) => {
   const sub = lang === 'en' ? 'Hover a service to see where it fits, then jump into the full breakdown.' : '鼠标放到卡片上看适合场景，点击进入服务总览页对应内容。';
   const learn = lang === 'en' ? 'Learn more' : '了解更多';
   return (
-    <section id="Services" style={sgStyles.wrap}>
-      <div style={sgStyles.inner}>
-        <h2 style={sgStyles.h2}>
+    <section id="Services" style={sgStyles.wrap} className="service-grid-section">
+      <style>{`
+        @media (max-width: 760px) {
+          .service-grid-section {
+            padding: 78px 0 !important;
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .service-grid-inner {
+            padding: 0 22px !important;
+            max-width: 100% !important;
+          }
+          .service-grid-title {
+            font-size: clamp(46px, 14vw, 64px) !important;
+            line-height: .95 !important;
+            letter-spacing: 0 !important;
+          }
+          .service-grid-sub {
+            font-size: 16px !important;
+            line-height: 1.55 !important;
+            margin-bottom: 28px !important;
+          }
+          .svc-grid {
+            grid-template-columns: 1fr !important;
+            gap: 14px !important;
+          }
+          .svc-flip-card {
+            min-height: 0 !important;
+            height: auto !important;
+            perspective: none !important;
+          }
+          .svc-flip-inner {
+            min-height: 0 !important;
+            height: auto !important;
+            transform: none !important;
+            transform-style: flat !important;
+          }
+          .svc-flip-front {
+            display: none !important;
+          }
+          .svc-flip-back {
+            position: relative !important;
+            min-height: 0 !important;
+            transform: none !important;
+            backface-visibility: visible !important;
+            padding: 22px 20px !important;
+            border-radius: 16px !important;
+          }
+          .svc-flip-back-title {
+            font-size: 11px !important;
+          }
+          .svc-flip-card-copy {
+            font-size: 15px !important;
+            line-height: 1.5 !important;
+          }
+        }
+      `}</style>
+      <div style={sgStyles.inner} className="service-grid-inner">
+        <h2 style={sgStyles.h2} className="service-grid-title">
           <span>{lang === 'en' ? 'Our ' : ''}</span>
           <span style={sgStyles.h2grad}>{lang === 'en' ? 'services' : '服务'}</span>
           <span>.</span>
         </h2>
-        <p style={sgStyles.sub}>{sub}</p>
+        <p style={sgStyles.sub} className="service-grid-sub">{sub}</p>
         <div className="svc-grid" style={sgStyles.grid}>
           {services.map((s, i) => {
             const c = SG_ACCENTS[i % SG_ACCENTS.length];
@@ -46,8 +102,8 @@ const ServiceGrid = ({ lang }) => {
                     <div style={{ ...sgStyles.cardTitle, color: c }}>{s.title}</div>
                   </div>
                   <div className="svc-flip-face svc-flip-back" style={{ ...sgStyles.face, ...sgStyles.back, borderColor: `${c}66` }}>
-                    <div style={{ ...sgStyles.backTitle, color: c }}>{s.title}</div>
-                    <div style={sgStyles.cardSub}>{s.sub}</div>
+                    <div style={{ ...sgStyles.backTitle, color: c }} className="svc-flip-back-title">{s.title}</div>
+                    <div style={sgStyles.cardSub} className="svc-flip-card-copy">{s.sub}</div>
                     <div style={{ ...sgStyles.learn, color: c }}>{learn} <span aria-hidden="true">→</span></div>
                   </div>
                 </div>
