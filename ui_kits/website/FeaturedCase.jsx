@@ -169,6 +169,16 @@ const FeaturedCase = ({ lang }) => {
           .fc-wrap { overflow-x: hidden !important; padding: 76px 0 72px !important; }
           .fc-inner { padding: 0 20px !important; max-width: 100vw !important; overflow: hidden !important; }
           .fc-section-head { margin-bottom: 64px !important; }
+          .fc-section-title {
+            font-size: clamp(42px, 13vw, 58px) !important;
+            line-height: .96 !important;
+            letter-spacing: 0 !important;
+          }
+          .fc-section-sub {
+            font-size: 16px !important;
+            line-height: 1.5 !important;
+            max-width: 100% !important;
+          }
           .fc-case-block { margin-bottom: 96px !important; max-width: 100% !important; overflow: hidden !important; }
           .fc-case-top {
             display: flex !important;
@@ -218,11 +228,11 @@ const FeaturedCase = ({ lang }) => {
         <div style={fcStyles.sectionHead} className="fc-section-head">
           <div style={fcStyles.anchor}>{h.anchor}</div>
           <div style={fcStyles.kicker}>{h.kicker}</div>
-          <h2 style={fcStyles.sectionH2}>
+          <h2 style={fcStyles.sectionH2} className="fc-section-title">
             <span>{h.h2a}</span><br/>
             <span style={fcStyles.sectionH2grad}>{h.h2b}</span>
           </h2>
-          <p style={fcStyles.sectionSub}>{h.sub}</p>
+          <p style={fcStyles.sectionSub} className="fc-section-sub">{h.sub}</p>
         </div>
         {CASES.map((c, idx) => <CaseBlock key={c.id} c={c} lang={lang} last={idx === CASES.length - 1} accent={CASE_ACCENTS[idx % CASE_ACCENTS.length]}/>)}
       </div>

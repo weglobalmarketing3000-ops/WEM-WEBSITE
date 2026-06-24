@@ -21,22 +21,62 @@ const NumbersStrip = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={nsStyles.wrap}>
-      <div style={nsStyles.inner}>
-        <div style={nsStyles.eye}>{t.eye}</div>
-        <div style={nsStyles.grid}>
+    <section style={nsStyles.wrap} className="numbers-strip">
+      <style>{`
+        @media (max-width: 760px) {
+          .numbers-strip {
+            padding: 56px 20px !important;
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .numbers-strip-inner {
+            max-width: 100% !important;
+          }
+          .numbers-strip-eye {
+            font-size: 11px !important;
+            margin-bottom: 22px !important;
+          }
+          .numbers-strip-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            gap: 12px !important;
+          }
+          .numbers-strip-tile {
+            min-width: 0 !important;
+            min-height: 132px !important;
+            padding: 22px 16px !important;
+            border-radius: 14px !important;
+          }
+          .numbers-strip-num {
+            font-size: clamp(34px, 10vw, 44px) !important;
+            white-space: nowrap !important;
+          }
+          .numbers-strip-label {
+            font-size: 10px !important;
+            line-height: 1.35 !important;
+            letter-spacing: .06em !important;
+            overflow-wrap: anywhere !important;
+          }
+          .numbers-strip-badge {
+            max-width: 118px !important;
+          }
+        }
+      `}</style>
+      <div style={nsStyles.inner} className="numbers-strip-inner">
+        <div style={nsStyles.eye} className="numbers-strip-eye">{t.eye}</div>
+        <div style={nsStyles.grid} className="numbers-strip-grid">
           {t.tiles.map(([num, lbl], i) => (
-            <div key={i} style={nsStyles.tile}>
+            <div key={i} style={nsStyles.tile} className="numbers-strip-tile">
               {num === 'badge' ? (
                 <img
                   src="assets/tiktok-shop-certified-agency-2025.png"
                   alt={lbl}
                   style={nsStyles.badge}
+                  className="numbers-strip-badge"
                 />
               ) : (
                 <>
-                  <div style={nsStyles.num}>{num}</div>
-                  <div style={nsStyles.lbl}>{lbl.split('\n').map((l,j)=><span key={j}>{l}<br/></span>)}</div>
+                  <div style={nsStyles.num} className="numbers-strip-num">{num}</div>
+                  <div style={nsStyles.lbl} className="numbers-strip-label">{lbl.split('\n').map((l,j)=><span key={j}>{l}<br/></span>)}</div>
                 </>
               )}
             </div>

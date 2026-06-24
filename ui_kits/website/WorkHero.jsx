@@ -15,16 +15,43 @@ const WorkHero = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={whStyles.wrap}>
+    <section style={whStyles.wrap} className="work-hero">
+      <style>{`
+        @media (max-width: 760px) {
+          .work-hero {
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .work-hero-inner {
+            padding: 92px 22px 58px !important;
+            max-width: 100% !important;
+          }
+          .work-hero-pill {
+            font-size: 12px !important;
+            padding: 9px 18px !important;
+          }
+          .work-hero-title {
+            font-size: clamp(50px, 15vw, 70px) !important;
+            line-height: .96 !important;
+            letter-spacing: 0 !important;
+          }
+          .work-hero-sub {
+            font-size: 18px !important;
+            line-height: 1.46 !important;
+            max-width: 100% !important;
+            margin-top: 26px !important;
+          }
+        }
+      `}</style>
       <div style={whStyles.orb1}/>
       <div style={whStyles.orb2}/>
-      <div style={whStyles.inner}>
-        <div style={whStyles.pill}>{t.pill}</div>
-        <h1 style={whStyles.h1}>
+      <div style={whStyles.inner} className="work-hero-inner">
+        <div style={whStyles.pill} className="work-hero-pill">{t.pill}</div>
+        <h1 style={whStyles.h1} className="work-hero-title">
           {t.h1a}<br/>
           <span style={whStyles.h1accent}>{t.h1accent}</span>
         </h1>
-        <p style={whStyles.sub}>{t.sub}</p>
+        <p style={whStyles.sub} className="work-hero-sub">{t.sub}</p>
       </div>
     </section>
   );
