@@ -237,9 +237,9 @@ const COPY = {
       titleB: 'specs.',
       included: 'INCLUDED IN ALL PACKAGES',
       upgrades: 'AVAILABLE AS UPGRADES',
-      includedItems: ['Use anywhere online: ads, product listings, website, email, social', 'Meta, TikTok, YouTube, Google Ads, Amazon', 'No time limit, no renewal fees', 'Edited video delivered via Google Drive', 'Vertical 1080 x 1920, MP4 format'],
-      upgradesItems: ['Rush delivery', 'Whitelisting / Spark Ads', 'Category exclusivity'],
-      languages: React.createElement(React.Fragment, null, React.createElement("strong", null, "Languages:"), " English (default). Spanish, Haitian Creole, Vietnamese, Korean, and others available upon request.")
+      includedItems: ['Online usage: ads, listings, website, email, social', 'Meta, TikTok, YouTube, Google Ads, Amazon', 'Perpetual usage rights', 'Edited files via Google Drive', 'Vertical 1080 x 1920 MP4'],
+      upgradesItems: ['Rush delivery', 'Spark Ads / whitelisting', 'Category exclusivity'],
+      languages: React.createElement(React.Fragment, null, React.createElement("strong", null, "Languages:"), " English default. Spanish and other languages available by request.")
     },
     how: {
       titleA: 'How it',
@@ -472,9 +472,9 @@ const COPY = {
       titleB: '交付规格',
       included: '所有套餐均包含',
       upgrades: '可选升级',
-      includedItems: ['可用于广告、商品详情页、Amazon Listing、官网、邮件和社媒', '支持 Meta、TikTok、YouTube、Google Ads、Amazon', '无时间限制，无续费', '剪辑后视频通过 Google Drive 交付', '竖版 1080 x 1920，MP4 格式'],
+      includedItems: ['线上用途：广告、详情页、官网、邮件、社媒', '支持 Meta、TikTok、YouTube、Google Ads、Amazon', '永久使用权，无续费', 'Google Drive 交付剪辑文件', '竖版 1080 x 1920 MP4'],
       upgradesItems: ['加急交付', '达人授权和 Spark Ads', '品类独家'],
-      languages: React.createElement(React.Fragment, null, React.createElement("strong", null, "\u8BED\u8A00\uFF1A"), "\u9ED8\u8BA4\u82F1\u6587\u3002\u53EF\u6309\u9700\u63D0\u4F9B\u897F\u8BED\u3001\u4E2D\u6587\u3001\u6D77\u5730\u514B\u91CC\u5965\u5C14\u8BED\u3001\u8D8A\u5357\u8BED\u3001\u97E9\u8BED\u53CA\u5176\u4ED6\u8BED\u79CD\u3002")
+      languages: React.createElement(React.Fragment, null, React.createElement("strong", null, "\u8BED\u8A00\uFF1A"), "\u9ED8\u8BA4\u82F1\u6587\uFF0C\u53EF\u6309\u9700\u5B89\u6392\u897F\u8BED\u3001\u4E2D\u6587\u53CA\u5176\u4ED6\u8BED\u79CD\u3002")
     },
     how: {
       titleA: '合作',
@@ -2115,16 +2115,21 @@ function Rights({
 }) {
   const t = COPY[lang].rights;
   return React.createElement("section", {
+    className: "cc-section cc-rights-section",
     style: S.section
   }, React.createElement("div", {
+    className: "cc-inner",
     style: S.inner
   }, React.createElement("h2", {
+    className: "cc-section-title",
     style: S.h2
   }, t.titleA, " ", React.createElement("span", {
     style: S.grad
   }, t.titleB)), React.createElement("div", {
+    className: "cc-rights-grid",
     style: S.rightsGrid
   }, React.createElement("div", {
+    className: "cc-rights-col",
     style: S.rightsCol
   }, React.createElement("div", {
     style: {
@@ -2133,6 +2138,7 @@ function Rights({
       color: '#FF1493'
     }
   }, t.included), React.createElement("ul", {
+    className: "cc-rights-list",
     style: {
       listStyle: 'none',
       padding: 0,
@@ -2144,6 +2150,7 @@ function Rights({
   }, React.createElement(Check, {
     color: "#FF1493"
   }), x)))), React.createElement("div", {
+    className: "cc-rights-col",
     style: S.rightsCol
   }, React.createElement("div", {
     style: {
@@ -2152,6 +2159,7 @@ function Rights({
       color: '#4A8FFF'
     }
   }, t.upgrades), React.createElement("ul", {
+    className: "cc-rights-list",
     style: {
       listStyle: 'none',
       padding: 0,
@@ -2163,6 +2171,7 @@ function Rights({
   }, React.createElement(Check, {
     color: "#4A8FFF"
   }), x))), React.createElement("div", {
+    className: "cc-language-note",
     style: {
       ...S.callout,
       marginTop: 28,
