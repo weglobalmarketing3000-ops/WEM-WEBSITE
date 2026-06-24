@@ -49,7 +49,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: 'May 28, 2026',
       read: '10 min read',
-      heroImage: 'hero-tiktok-shop-meta-amazon-dtc-playbook.png',
+      heroImage: 'hero-tiktok-shop-feedback-loop-amazon-meta.png',
       heroAlt: 'A cross-channel ecommerce team reviewing TikTok Shop creator content, Amazon performance, and Meta ad results together.'
     },
     sections: [{
@@ -117,7 +117,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: '2026 年 5 月 28 日',
       read: '10 分钟阅读',
-      heroImage: 'hero-tiktok-shop-meta-amazon-dtc-playbook.png',
+      heroImage: 'hero-tiktok-shop-feedback-loop-amazon-meta.png',
       heroAlt: '一个跨渠道电商团队同时在看 TikTok Shop 内容、Amazon 数据和 Meta 广告结果。'
     },
     sections: [{
