@@ -39,18 +39,18 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
   }, [sections]);
 
   const renderBlock = (b, i) => {
-    if (b.kind === 'p') return <p key={i} style={bpStyles.p}>{b.text}</p>;
-    if (b.kind === 'h3') return <h3 key={i} style={bpStyles.h3}>{b.text}</h3>;
+    if (b.kind === 'p') return <p key={i} style={bpStyles.p} className="bp-p">{b.text}</p>;
+    if (b.kind === 'h3') return <h3 key={i} style={bpStyles.h3} className="bp-h3">{b.text}</h3>;
     if (b.kind === 'sub') return <div key={i} style={bpStyles.sub}>{b.text}</div>;
-    if (b.kind === 'callout') return <div key={i} style={bpStyles.callout}>{b.text}</div>;
+    if (b.kind === 'callout') return <div key={i} style={bpStyles.callout} className="bp-callout">{b.text}</div>;
     if (b.kind === 'list') {
       const Tag = b.ordered ? 'ol' : 'ul';
-      return <Tag key={i} style={bpStyles.list}>{b.items.map((it, j) => <li key={j} style={bpStyles.li}>{it}</li>)}</Tag>;
+      return <Tag key={i} style={bpStyles.list} className="bp-list">{b.items.map((it, j) => <li key={j} style={bpStyles.li}>{it}</li>)}</Tag>;
     }
     if (b.kind === 'table') {
       return (
-        <div key={i} style={bpStyles.tableWrap}>
-          <table style={bpStyles.table}>
+        <div key={i} style={bpStyles.tableWrap} className="bp-table-wrap">
+          <table style={bpStyles.table} className="bp-table">
             <thead><tr>{b.headers.map((h, j) => <th key={j} style={bpStyles.th}>{h}</th>)}</tr></thead>
             <tbody>
               {b.rows.map((r, j) => (
@@ -66,12 +66,12 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
     if (b.kind === 'cta') {
       const isBook = /book/i.test(b.label || '') || /discovery/i.test(b.label || '');
       const href = isBook ? 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' : b.href;
-      return <a key={i} href={href} target={isBook ? '_blank' : undefined} rel={isBook ? 'noopener' : undefined} style={bpStyles.ctaBtn}>{b.label}</a>;
+      return <a key={i} href={href} target={isBook ? '_blank' : undefined} rel={isBook ? 'noopener' : undefined} style={bpStyles.ctaBtn} className="bp-cta-btn">{b.label}</a>;
     }
     if (b.kind === 'infographic') {
       if (b.src) {
         return (
-          <figure key={i} style={bpStyles.infoWrap}>
+          <figure key={i} style={bpStyles.infoWrap} className="bp-info-wrap">
             <img src={resolveBlogImage(b.src)} alt={b.alt || ''} loading="lazy" decoding="async" style={bpStyles.infoImg}/>
             {b.caption && <figcaption style={bpStyles.infoCap}>{b.caption}</figcaption>}
           </figure>
@@ -88,16 +88,43 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
   };
 
   return (
-    <article style={bpStyles.wrap}>
+    <article style={bpStyles.wrap} className="bp-wrap">
+      <style>{`
+        @media (max-width: 760px) {
+          .bp-wrap { max-width: 100vw !important; overflow-x: hidden !important; }
+          .bp-header { padding: 44px 0 36px !important; }
+          .bp-header-inner { padding: 0 20px !important; max-width: 100% !important; }
+          .bp-back { margin-bottom: 24px !important; }
+          .bp-title { font-size: clamp(34px, 10vw, 48px) !important; line-height: 1.02 !important; letter-spacing: 0 !important; }
+          .bp-meta { flex-wrap: wrap !important; gap: 8px !important; font-size: 10px !important; line-height: 1.45 !important; }
+          .bp-hero { margin-top: 28px !important; border-radius: 14px !important; }
+          .bp-body { display: block !important; padding: 34px 20px 72px !important; max-width: 100% !important; overflow: hidden !important; }
+          .bp-toc { display: none !important; }
+          .bp-col { max-width: 100% !important; min-width: 0 !important; }
+          .bp-section { margin-bottom: 44px !important; padding-top: 16px !important; scroll-margin-top: 82px !important; }
+          .bp-h2 { font-size: clamp(26px, 8vw, 34px) !important; line-height: 1.08 !important; letter-spacing: 0 !important; }
+          .bp-h3 { font-size: 20px !important; }
+          .bp-p, .bp-list { font-size: 16px !important; line-height: 1.65 !important; }
+          .bp-list { padding: 18px 18px 16px 30px !important; border-radius: 12px !important; }
+          .bp-callout { padding: 16px 18px !important; font-size: 16px !important; }
+          .bp-table-wrap { max-width: 100% !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; }
+          .bp-table { min-width: 640px !important; }
+          .bp-cta-btn { width: 100% !important; text-align: center !important; padding: 16px 18px !important; }
+          .bp-info-wrap { border-radius: 14px !important; }
+          .bp-faq-q { padding: 18px 18px !important; font-size: 17px !important; }
+          .bp-faq-a { padding: 0 18px 20px !important; font-size: 15px !important; }
+          .bp-related-link { font-size: 17px !important; }
+        }
+      `}</style>
       <div style={bpStyles.orb}/>
-      <header style={bpStyles.header}>
-        <div style={bpStyles.headerInner}>
-          <a href="../blog" style={bpStyles.back}>
+      <header style={bpStyles.header} className="bp-header">
+        <div style={bpStyles.headerInner} className="bp-header-inner">
+          <a href="../blog" style={bpStyles.back} className="bp-back">
             <i data-lucide="arrow-left" style={{ width: 14, height: 14 }}/> {ui.back}
           </a>
           <div style={bpStyles.cat}>{meta.cat}</div>
-          <h1 style={bpStyles.h1}>{meta.title}</h1>
-          <div style={bpStyles.metaRow}>
+          <h1 style={bpStyles.h1} className="bp-title">{meta.title}</h1>
+          <div style={bpStyles.metaRow} className="bp-meta">
             <span>{meta.author}</span>
             <span style={bpStyles.dot}>·</span>
             <span>{meta.date}</span>
@@ -105,7 +132,7 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
             <span>{meta.read}</span>
           </div>
           {meta.heroImage && (
-            <div style={bpStyles.heroWrap}>
+            <div style={bpStyles.heroWrap} className="bp-hero">
               <img
                 src={resolveBlogImage(meta.heroImage, 'hero')}
                 alt={meta.heroAlt || meta.title}
@@ -119,8 +146,8 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
         </div>
       </header>
 
-      <div style={bpStyles.body}>
-        <aside style={bpStyles.toc}>
+      <div style={bpStyles.body} className="bp-body">
+        <aside style={bpStyles.toc} className="bp-toc">
           <div style={bpStyles.tocLabel}>{ui.toc}</div>
           <nav style={bpStyles.tocNav}>
             {sections.map(s => (
@@ -132,35 +159,35 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
           </nav>
         </aside>
 
-        <div style={bpStyles.col}>
+        <div style={bpStyles.col} className="bp-col">
           {sections.map(s => (
-            <section key={s.id} id={s.id} style={bpStyles.section}>
-              <h2 style={bpStyles.h2}>{s.h}</h2>
+            <section key={s.id} id={s.id} style={bpStyles.section} className="bp-section">
+              <h2 style={bpStyles.h2} className="bp-h2">{s.h}</h2>
               {s.body.map(renderBlock)}
             </section>
           ))}
 
-          <section id="faq" style={bpStyles.section}>
-            <h2 style={bpStyles.h2}>{ui.faq}</h2>
+          <section id="faq" style={bpStyles.section} className="bp-section">
+            <h2 style={bpStyles.h2} className="bp-h2">{ui.faq}</h2>
             <div style={bpStyles.faqList}>
               {faqs.map((f, i) => (
                 <div key={i} style={bpStyles.faqItem}>
-                  <button style={bpStyles.faqQ} onClick={() => setOpenFaq(openFaq === i ? null : i)}>
+                  <button style={bpStyles.faqQ} className="bp-faq-q" onClick={() => setOpenFaq(openFaq === i ? null : i)}>
                     <span>{f.q}</span>
                     <i data-lucide={openFaq === i ? 'minus' : 'plus'} style={{ width: 18, height: 18, color: '#FF1493' }}/>
                   </button>
-                  {openFaq === i && <div style={bpStyles.faqA}>{f.a}</div>}
+                  {openFaq === i && <div style={bpStyles.faqA} className="bp-faq-a">{f.a}</div>}
                 </div>
               ))}
             </div>
           </section>
 
           {related && related.length > 0 && (
-            <section style={bpStyles.section}>
-              <h2 style={bpStyles.h2}>{ui.related}</h2>
+            <section style={bpStyles.section} className="bp-section">
+              <h2 style={bpStyles.h2} className="bp-h2">{ui.related}</h2>
               <div style={bpStyles.relatedList}>
                 {related.map((r, i) => (
-                  <a key={i} href={r.href} style={bpStyles.relatedLink}>
+                  <a key={i} href={r.href} style={bpStyles.relatedLink} className="bp-related-link">
                     {r.label} <i data-lucide="arrow-right" style={{ width: 14, height: 14 }}/>
                   </a>
                 ))}

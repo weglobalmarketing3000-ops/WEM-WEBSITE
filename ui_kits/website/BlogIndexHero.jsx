@@ -15,15 +15,24 @@ const BlogIndexHero = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={bihStyles.wrap}>
+    <section style={bihStyles.wrap} className="blog-index-hero">
+      <style>{`
+        @media (max-width: 760px) {
+          .blog-index-hero { max-width: 100vw !important; overflow: hidden !important; }
+          .blog-index-inner { padding: 86px 20px 54px !important; max-width: 100% !important; }
+          .blog-index-pill { font-size: 11px !important; padding: 9px 16px !important; }
+          .blog-index-title { font-size: clamp(42px, 12vw, 56px) !important; line-height: .96 !important; letter-spacing: 0 !important; }
+          .blog-index-sub { font-size: 16px !important; line-height: 1.52 !important; max-width: 100% !important; }
+        }
+      `}</style>
       <div style={bihStyles.orb}/>
-      <div style={bihStyles.inner}>
-        <div style={bihStyles.pill}>{t.pill}</div>
-        <h1 style={bihStyles.h1}>
+      <div style={bihStyles.inner} className="blog-index-inner">
+        <div style={bihStyles.pill} className="blog-index-pill">{t.pill}</div>
+        <h1 style={bihStyles.h1} className="blog-index-title">
           {t.h1a}<br/>
           <span style={bihStyles.accent}>{t.h1accent}</span>
         </h1>
-        <p style={bihStyles.sub}>{t.sub}</p>
+        <p style={bihStyles.sub} className="blog-index-sub">{t.sub}</p>
       </div>
     </section>
   );

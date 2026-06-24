@@ -348,8 +348,8 @@ const blogThumbSrc = (image, lang) => {
 
 const BlogList = ({ lang }) => {
   return (
-    <section style={blStyles.wrap}>
-      <div style={blStyles.inner}>
+    <section style={blStyles.wrap} className="blog-list-wrap">
+      <div style={blStyles.inner} className="blog-list-inner">
         {SORTED_BLOG_POSTS.map((p, index) => (
           <a key={p.slug} href={blogPostHref(p.slug, lang)} style={blStyles.card} className="blog-card">
             {p.image && (
@@ -384,6 +384,15 @@ const BlogList = ({ lang }) => {
         .blog-card { transition: border-color .25s, transform .25s; }
         .blog-card:hover { border-color: rgba(255,20,147,.5) !important; }
         .blog-card:hover .blog-card-title { background: linear-gradient(90deg,#FF1493,#9B30FF,#4A8FFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        @media (max-width: 760px) {
+          .blog-list-wrap { padding: 44px 0 72px !important; max-width: 100vw !important; overflow: hidden !important; }
+          .blog-list-inner { padding: 0 20px !important; max-width: 100% !important; gap: 16px !important; }
+          .blog-card { padding: 24px 20px 22px !important; border-radius: 16px !important; }
+          .blog-card > div:first-child { margin: -24px -20px 22px !important; height: 176px !important; }
+          .blog-card-title { font-size: clamp(26px, 8vw, 34px) !important; line-height: 1.05 !important; letter-spacing: 0 !important; }
+          .blog-card p { font-size: 15px !important; line-height: 1.55 !important; }
+          .blog-card div[style*="letter-spacing"] { word-break: normal !important; }
+        }
       `}</style>
     </section>
   );
