@@ -5,7 +5,7 @@ const BlogIndexHero = ({ lang }) => {
       pill: 'WE MARKETING BLOG',
       h1a: 'Creator commerce,',
       h1accent: 'paid social, and ecommerce growth.',
-      sub: 'WEM field notes on TikTok Shop, Meta ads, Instagram, UGC, creators, influencers, Amazon, Walmart, Shopify, DTC, retail, and brand growth. Practical enough for operators, readable enough for founders.',
+      sub: 'Field notes on TikTok Shop, UGC, creators, paid social, Amazon, Shopify, and retail growth. Practical for operators, clear for founders.',
     },
     zh: {
       pill: 'WE MARKETING 博客',

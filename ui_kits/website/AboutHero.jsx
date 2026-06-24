@@ -6,7 +6,7 @@ const AboutHero = ({ lang }) => {
       h1a: 'We turn TikTok Shop into a',
       h1accent: 'revenue engine',
       h1b: 'for brands.',
-      sub: 'WE Marketing is a TikTok Shop Partner Agency built to drive performance at scale. We combine shop strategy, creator activation, content systems, and live operations into one unified system, so brands move from cold start validation to sustainable, repeatable growth on TikTok Shop.',
+      sub: 'WE Marketing is a TikTok Shop Partner Agency built for performance. We connect shop strategy, creators, content, and live operations into one growth system.',
       badge1: 'TIKTOK SHOP PARTNER AGENCY · CERTIFIED SINCE 2025',
       badge2: 'EN · ES · 中文 SUPPORT',
       cta1: 'Book a discovery call →',
@@ -25,21 +25,34 @@ const AboutHero = ({ lang }) => {
     }
   }[lang];
   return (
-    <section style={abhStyles.wrap}>
+    <section style={abhStyles.wrap} className="about-hero">
+      <style>{`
+        @media (max-width: 760px) {
+          .about-hero { max-width: 100vw !important; overflow: hidden !important; }
+          .about-hero-inner { padding: 86px 20px 68px !important; max-width: 100% !important; }
+          .about-hero-pill { font-size: 11px !important; line-height: 1.2 !important; white-space: normal !important; }
+          .about-hero-title { font-size: clamp(44px, 13vw, 62px) !important; line-height: .96 !important; letter-spacing: 0 !important; }
+          .about-hero-sub { font-size: 17px !important; line-height: 1.48 !important; max-width: 100% !important; }
+          .about-hero-badges { display: grid !important; grid-template-columns: 1fr !important; gap: 10px !important; }
+          .about-hero-badge { text-align: center !important; font-size: 10px !important; line-height: 1.25 !important; }
+          .about-hero-ctas { display: grid !important; grid-template-columns: 1fr !important; }
+          .about-hero-ctas a { justify-content: center !important; width: 100% !important; text-align: center !important; }
+        }
+      `}</style>
       <div style={abhStyles.orb1} />
       <div style={abhStyles.orb2} />
-      <div style={abhStyles.inner}>
-        <div style={abhStyles.pill}>{t.pill}</div>
-        <h1 style={{ ...abhStyles.h1, fontSize: "99px" }}>
+      <div style={abhStyles.inner} className="about-hero-inner">
+        <div style={abhStyles.pill} className="about-hero-pill">{t.pill}</div>
+        <h1 style={abhStyles.h1} className="about-hero-title">
           {t.h1a}<br />
           <span style={abhStyles.accent}>{t.h1accent}</span><br />{t.h1b}
         </h1>
-        <p style={abhStyles.sub}>{t.sub}</p>
-        <div style={abhStyles.badges}>
-          <div style={abhStyles.badge}>{t.badge1}</div>
-          <div style={{ ...abhStyles.badge, ...abhStyles.badgeAlt }}>{t.badge2}</div>
+        <p style={abhStyles.sub} className="about-hero-sub">{t.sub}</p>
+        <div style={abhStyles.badges} className="about-hero-badges">
+          <div style={abhStyles.badge} className="about-hero-badge">{t.badge1}</div>
+          <div style={{ ...abhStyles.badge, ...abhStyles.badgeAlt }} className="about-hero-badge">{t.badge2}</div>
         </div>
-        <div style={abhStyles.ctas}>
+        <div style={abhStyles.ctas} className="about-hero-ctas">
           <a href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925" target="_blank" rel="noopener" className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 10 }}>{t.cta1}</a>
           <a href="/#Our Work" style={abhStyles.ghost}>{t.cta2}</a>
         </div>

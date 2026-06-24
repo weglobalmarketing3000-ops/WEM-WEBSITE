@@ -342,8 +342,8 @@ const resolveBlogImage = (image, lang) => {
 };
 const blogThumbSrc = (image, lang) => {
   const resolved = resolveBlogImage(image, lang);
-  if (/\.svg$/i.test(resolved)) return `/blog/${resolved}`;
-  return `/blog/thumbs/${resolved.replace(/\.png$/i, '.jpg')}`;
+  if (/\.svg$/i.test(resolved)) return `blog/${resolved}`;
+  return `blog/thumbs/${resolved.replace(/\.png$/i, '.jpg')}`;
 };
 
 const BlogList = ({ lang }) => {

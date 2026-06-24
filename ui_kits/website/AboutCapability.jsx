@@ -4,10 +4,10 @@ const AboutCapability = ({ lang }) => {
     en: {
       eyeL: 'WHY WE BUILT WEM',
       h2: 'A team that runs the whole TikTok Shop playbook.',
-      p1: 'WE Marketing was founded by Wendy Lin in Los Angeles in 2024, after years of watching brands and creators get squeezed by agency models that were never designed for TikTok Shop. Most agencies treat TikTok like another e-commerce channel. The brands winning on TikTok Shop know it is a different game: creator-led, content-first, live-driven, and operationally heavy.',
-      p2: 'We built WEM to run the whole game. One team owns shop strategy, creator activation, short-form content, live operations, and shop management, under one P&L. No handoffs, no finger-pointing, no gaps between "the influencer team" and "the shop team."',
-      p3: 'That is how a beauty brand we work with went from a $312K GMV month to a $982K GMV month in 30 days. That is how a men\u2019s fashion brand cold-started to 10K+ orders in a category most agencies struggle to staff creators for. The playbook is the same. The execution is the difference.',
-      quote: '\"TikTok Shop is a discovery engine, not a storefront. Creators close the trust gap between your brand and a customer who has never heard of you. Our job is to make that happen at scale.\"  ',
+      p1: 'WE Marketing was founded by Wendy Lin in Los Angeles in 2024 after seeing brands and creators squeezed by agency models not built for TikTok Shop.',
+      p2: 'WEM runs the whole system: shop strategy, creator activation, short-form content, live operations, and shop management under one team.',
+      p3: 'That is how a beauty brand moved from $312K to $982K GMV in 30 days, and how a men\u2019s fashion brand cold-started to 10K+ orders. Same playbook. Better execution.',
+      quote: '\"TikTok Shop is a discovery engine, not a storefront. Creators close the trust gap; our job is to make that happen at scale.\"',
       author: '\u2014 Wendy Lin, Founder',
       eyeR: 'BY THE NUMBERS',
       stats: [

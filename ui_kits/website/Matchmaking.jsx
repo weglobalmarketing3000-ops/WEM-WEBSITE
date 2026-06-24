@@ -10,7 +10,7 @@ const MATCHES = [
       { handle: '@zarinascart', video: '../../assets/match-sacheu-2.mp4' },
     ],
     creatorPill: '@zarinascart',
-    body_en: 'Precision-matched creator delivered a 1.5M+ view hero video on the first drop. WEM doubled down within days with a comment-reply follow-up that hit 4.2M views.',
+    body_en: 'Precision match, fast follow-up. The first creator hit 1.5M+ views; the comment-reply follow-up reached 4.2M.',
     body_zh: '我们匹配的首位达人发出第一条视频后，播放很快冲到 150 万。热度起来后，我们马上用评论回复视频接住流量，几天内又放大到 420 万播放。',
     statKind: 'metric',
     stats_en: [
@@ -37,7 +37,7 @@ const MATCHES = [
       { handle: '@terrykaye',    lang: 'GENDER-DIVERSE', video: '../../assets/match-medicube-3.mp4' },
       { handle: 'LIVE session',   lang: 'LIVE', video: '../../assets/match-medicube-4.mp4' },
     ],
-    body_en: 'WEM deployed a multilingual, multi-format creator network to scale Medicube across the U.S. market. The campaign spanned English, Spanish, and Vietnamese creators, LIVE and short video formats, and a gender-diverse roster. Top LIVE sessions converted 2,000+ units per SKU.',
+    body_en: 'WEM scaled Medicube with multilingual creators, short video, live selling, and a broader audience mix. Top LIVE sessions converted 2,000+ units per SKU.',
     body_zh: '我们为 Medicube 在美国组织多语种达人合作，覆盖英语、西语和越南语内容，同时推进短视频和直播。头部直播里，单个 SKU 卖出 2,000 多单。',
     statKind: 'pill',
     stats_en: [
@@ -52,7 +52,7 @@ const MATCHES = [
       { val: '2K+', label: '单 SKU 订单', sub: '头部直播' },
       { val: '多元', label: '达人组合', sub: '性别 · 人群' },
     ],
-    pull_en: 'The U.S. TikTok Shop market is segmented by language, format, and demographic. A diversified creator network is how brands reach all of it.',
+    pull_en: 'U.S. TikTok Shop is segmented by language, format, and demographic. Creator mix is the growth lever.',
     pull_zh: '美国市场不是一种人群。语言、文化和内容形式都对了，才有放量空间。',
   },
 ];
@@ -75,17 +75,40 @@ const Matchmaking = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={mmStyles.wrap}>
-      <div style={mmStyles.inner}>
-        <div style={mmStyles.header}>
+    <section style={mmStyles.wrap} className="matchmaking-section">
+      <style>{`
+        @media (max-width: 760px) {
+          .matchmaking-section { padding: 64px 0 84px !important; max-width: 100vw !important; overflow: hidden !important; }
+          .matchmaking-inner { padding: 0 20px !important; max-width: 100% !important; overflow: hidden !important; }
+          .matchmaking-header { margin-bottom: 34px !important; padding-top: 24px !important; }
+          .matchmaking-title { font-size: clamp(38px, 11vw, 52px) !important; line-height: .98 !important; letter-spacing: 0 !important; }
+          .matchmaking-sub { font-size: 16px !important; line-height: 1.5 !important; }
+          .matchmaking-list { gap: 18px !important; }
+          .matchmaking-card { display: flex !important; flex-direction: column !important; gap: 22px !important; padding: 20px !important; border-radius: 18px !important; max-width: 100% !important; overflow: hidden !important; }
+          .matchmaking-media { width: 100% !important; max-width: 100% !important; overflow: hidden !important; }
+          .matchmaking-polaroids { gap: 8px !important; padding: 6px 0 14px !important; }
+          .matchmaking-polaroid { width: min(132px, 37vw) !important; height: auto !important; aspect-ratio: 9 / 16 !important; border-width: 4px !important; border-radius: 16px !important; transform: none !important; }
+          .matchmaking-grid { max-width: 100% !important; gap: 8px !important; }
+          .matchmaking-body { min-width: 0 !important; }
+          .matchmaking-tag { font-size: 11px !important; letter-spacing: .1em !important; padding: 8px 14px !important; }
+          .matchmaking-brand { font-size: clamp(34px, 10vw, 46px) !important; }
+          .matchmaking-copy { font-size: 15px !important; line-height: 1.52 !important; max-width: 100% !important; }
+          .matchmaking-stats-3 { grid-template-columns: 1fr !important; gap: 12px !important; }
+          .matchmaking-stats-4 { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 10px !important; }
+          .matchmaking-pill-stat { min-width: 0 !important; padding: 12px !important; }
+          .matchmaking-pull { font-size: 15px !important; line-height: 1.45 !important; }
+        }
+      `}</style>
+      <div style={mmStyles.inner} className="matchmaking-inner">
+        <div style={mmStyles.header} className="matchmaking-header">
           <div style={mmStyles.kicker}>{t.kicker}</div>
-          <h2 style={mmStyles.h2}>
+          <h2 style={mmStyles.h2} className="matchmaking-title">
             <span>{t.h2a}</span><br/>
             <span style={mmStyles.h2grad}>{t.h2b}</span>
           </h2>
-          <p style={mmStyles.sub}>{t.sub}</p>
+          <p style={mmStyles.sub} className="matchmaking-sub">{t.sub}</p>
         </div>
-        <div style={mmStyles.list}>
+        <div style={mmStyles.list} className="matchmaking-list">
           {MATCHES.map((m, i) => (
             <MatchCard key={i} m={m} lang={lang} accent={MATCH_ACCENTS[i % MATCH_ACCENTS.length]}/>
           ))}
@@ -102,27 +125,27 @@ const MatchCard = ({ m, lang, accent }) => {
   const stats = lang === 'en' ? m.stats_en : m.stats_zh;
   const pull  = lang === 'en' ? m.pull_en : m.pull_zh;
   return (
-    <div style={mmStyles.card}>
-      <div style={mmStyles.mediaSide}>
+    <div style={mmStyles.card} className="matchmaking-card">
+      <div style={mmStyles.mediaSide} className="matchmaking-media">
         {m.layout === 'grid' ? <VideoGrid m={m} accent={accent}/> : <VideoPolaroids m={m} accent={accent}/>}
       </div>
-      <div style={mmStyles.body}>
-        <div style={{ ...mmStyles.tag, color: accent, background: `${accent}1f` }}>{tag}</div>
-        <div style={mmStyles.brand}>{m.brand}</div>
-        <p style={mmStyles.bodyText}>{body}</p>
+      <div style={mmStyles.body} className="matchmaking-body">
+        <div style={{ ...mmStyles.tag, color: accent, background: `${accent}1f` }} className="matchmaking-tag">{tag}</div>
+        <div style={mmStyles.brand} className="matchmaking-brand">{m.brand}</div>
+        <p style={mmStyles.bodyText} className="matchmaking-copy">{body}</p>
         {m.statKind === 'pill'
           ? <PillStats stats={stats} accent={accent}/>
           : <MetricStats stats={stats} accent={accent}/>}
-        <div style={{ ...mmStyles.pull, color: accent, textShadow: `0 0 30px ${accent}66` }}>{pull}</div>
+        <div style={{ ...mmStyles.pull, color: accent, textShadow: `0 0 30px ${accent}66` }} className="matchmaking-pull">{pull}</div>
       </div>
     </div>
   );
 };
 
 const VideoPolaroids = ({ m, accent }) => (
-  <div style={mmStyles.polaroidWrap}>
+  <div style={mmStyles.polaroidWrap} className="matchmaking-polaroids">
     {m.creators.map((c, i) => (
-      <div key={i} style={{ ...mmStyles.polaroidFrame, transform: i === 1 ? 'rotate(3deg) translateY(20px)' : 'rotate(-2deg)', boxShadow: `0 20px 40px rgba(0,0,0,.5), 0 0 0 1px ${accent}40, 0 0 60px ${accent}26` }}>
+      <div key={i} style={{ ...mmStyles.polaroidFrame, transform: i === 1 ? 'rotate(3deg) translateY(20px)' : 'rotate(-2deg)', boxShadow: `0 20px 40px rgba(0,0,0,.5), 0 0 0 1px ${accent}40, 0 0 60px ${accent}26` }} className="matchmaking-polaroid">
         <video src={c.video} autoPlay loop muted playsInline style={mmStyles.video}/>
       </div>
     ))}
@@ -134,7 +157,7 @@ const VideoPolaroids = ({ m, accent }) => (
 );
 
 const VideoGrid = ({ m, accent }) => (
-  <div style={mmStyles.gridWrap}>
+  <div style={mmStyles.gridWrap} className="matchmaking-grid">
     {m.creators.map((c, i) => (
       <div key={i} style={{ ...mmStyles.gridCell, boxShadow: `0 12px 30px rgba(0,0,0,.5), 0 0 0 1px ${accent}40` }}>
         <video src={c.video} autoPlay loop muted playsInline style={mmStyles.video}/>
@@ -148,7 +171,7 @@ const VideoGrid = ({ m, accent }) => (
 );
 
 const MetricStats = ({ stats, accent }) => (
-  <div style={mmStyles.statsRow3}>
+  <div style={mmStyles.statsRow3} className="matchmaking-stats-3">
     {stats.map((s, i) => (
       <div key={i}>
         <div style={{ ...mmStyles.statVal, color: i === 0 ? accent : '#fff' }}>{s.val}</div>
@@ -159,9 +182,9 @@ const MetricStats = ({ stats, accent }) => (
 );
 
 const PillStats = ({ stats, accent }) => (
-  <div style={mmStyles.statsRow4}>
+  <div style={mmStyles.statsRow4} className="matchmaking-stats-4">
     {stats.map((s, i) => (
-      <div key={i} style={{ ...mmStyles.pillStat, borderColor: `${accent}33` }}>
+      <div key={i} style={{ ...mmStyles.pillStat, borderColor: `${accent}33` }} className="matchmaking-pill-stat">
         <div style={{ ...mmStyles.pillVal, color: accent }}>{s.val}</div>
         <div style={mmStyles.pillLbl}>{s.label}</div>
         <div style={mmStyles.pillSub}>{s.sub}</div>

@@ -43,7 +43,7 @@ const PrecisionMatch = ({ lang }) => {
       eye: '// PRECISION CREATOR MATCHING',
       h1: 'Not more creators.',
       h2: 'Better matches.',
-      sub: 'WEM helps brands move beyond mass creator outreach. We use a structured scoring system to match creators by target audience, language, demographics, content category, GMV history, follower size, posting behavior, and campaign fit, then activate them through our vetted TikTok Shop creator community.',
+      sub: 'WEM moves brands beyond mass outreach with creator matching by audience, language, demographic fit, content category, commerce signal, and campaign goal.',
       cards: [
         ['01', 'Audience Fit', 'Matched by target shopper profile, lifestyle signals, interests, and purchase intent.'],
         ['02', 'Language & Market Fit', 'Matched by English, Spanish, Chinese, multilingual content ability, and audience communication style.'],
@@ -58,7 +58,7 @@ const PrecisionMatch = ({ lang }) => {
         title: 'Affordable Glow in a Week Set: one product, many creator fits.',
         result: '1,000+',
         resultLabel: 'creators activated',
-        sub: 'For a $79.99 high-AOV skincare set, WEM built a creator pool across audience fit, language ability, demographic fit, content stage, and commerce signal instead of sending one generic brief to everyone.',
+        sub: 'For a $79.99 skincare set, WEM built one creator pool across audience fit, language ability, content stage, and commerce signal.',
         videos: [
           ['assets/creator-matchmaking/affordable-glow-audience-test.mp4', 'Audience reach test'],
           ['assets/creator-matchmaking/glass-glow-vietnamese-creator.mp4', 'Product education test'],

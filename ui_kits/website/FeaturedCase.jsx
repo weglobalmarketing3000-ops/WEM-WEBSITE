@@ -34,7 +34,7 @@ const CASES = [
     tag_zh: '案例 #02 · 美妆品类',
     title_en: 'Breaking a Stalled\nGMV Ceiling in 30 Days.',
     title_zh: '30 天打破\n销售停滞',
-    body_en: 'Beauty brand plateaued for months despite strong reviews and proven product-market fit. WEM restructured the hero-product strategy, scaled creator seeding, and unified content direction around a single problem-solution narrative. The ceiling broke in one month.',
+    body_en: 'Beauty brand plateaued despite strong reviews. WEM rebuilt the hero-product strategy, scaled creator seeding, and unified content around one problem-solution narrative.',
     body_zh: '这个美妆品牌产品评价不错，但 TikTok Shop 销售几个月没有明显增长。我们重新梳理主推品，扩大达人种草，并把内容统一到一个清楚的痛点和卖点。30 天后，销售重新动起来。',
     stats_en: [
       { kind: 'num', num: 982, suffix: 'K', label: 'GMV in a single month', prefix: '$' },
@@ -67,7 +67,7 @@ const CASES = [
     tag_zh: '案例 #03 · 男装',
     title_en: 'Unlocking an Underbuilt\nCategory. Cold Start to 10K.',
     title_zh: '冷门男装\n跑出 10K+ 订单',
-    body_en: 'Six months on the platform with no meaningful traction. Men’s fashion is an underbuilt category on TikTok Shop with limited creator supply. WEM unlocked scale through diversified creator casting, listing optimization, and hero-content engineering designed for algorithmic lift.',
+    body_en: 'After six months with little traction, WEM unlocked a hard men’s fashion category through broader creator casting, listing optimization, and hero-content engineering.',
     body_zh: '品牌上线六个月，销售一直没有起色。男装在美国 TikTok Shop 上本来就不是成熟品类，达人少，内容模板也少。我们先拓宽达人类型，再优化商品页和内容角度，终于把订单跑起来。',
     stats_en: [
       { kind: 'num', num: 10000, suffix: '+', label: 'Orders after relaunch' },
