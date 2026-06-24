@@ -24,7 +24,7 @@
 {"@context":"https://schema.org","@type":"Service","name":"UGC Video Packages for TikTok Shop, Amazon and DTC Brands","alternateName":["Creator Content Packages","TikTok Shop UGC Content Production","跨境品牌 UGC 达人内容"],"provider":{"@type":"Organization","name":"WE Marketing"},"description":"UGC video production from 24,000+ vetted TikTok creators for TikTok Shop, Amazon sellers, DTC brands, and cross-border brands. Full usage rights included. English, Spanish, Chinese and other language options available.","areaServed":[{"@type":"Country","name":"United States"},{"@type":"State","name":"California"},{"@type":"City","name":"Los Angeles"},{"@type":"Country","name":"Canada"}],"serviceType":["UGC Video Production","TikTok Shop UGC","Amazon Listing Video","Creator Content Packages","TikTok Shop Ad Creative","Cross-Border Brand Content"]}
 </script>
 <style>
-  html, body { margin:0; padding:0; font-family: var(--font-sans); color: #fff; background:#000; }
+  html, body { margin:0; padding:0; font-family: var(--font-sans); color: #fff; background:#000; overflow-x:hidden; max-width:100%; }
   * { box-sizing: border-box; }
   .cc-video-card { transition: transform .3s, box-shadow .3s; }
   .cc-video-card:hover { transform: translateY(-4px); box-shadow: 0 0 0 1px rgba(255,20,147,.35), 0 12px 40px rgba(255,20,147,.15); }
@@ -39,6 +39,13 @@
     .cc-shortlist-grid { grid-template-columns: 1fr !important; }
   }
   @media (max-width: 560px) {
+    #root { max-width:100vw; overflow-x:hidden; }
+    .cc-compare-cards { display:grid !important; grid-template-columns:1fr !important; gap:18px !important; width:100% !important; max-width:100% !important; overflow:hidden !important; }
+    .cc-compare-card { width:100% !important; min-width:0 !important; max-width:100% !important; transform:none !important; }
+    .cc-compare-card * { min-width:0 !important; max-width:100% !important; }
+    .cc-compare-card [style*="position: sticky"] { position:static !important; }
+    .tb-wrap { max-width:100vw !important; overflow:hidden !important; }
+    .tb-track { width:max-content !important; max-width:none !important; }
     .cc-creator-card { min-height: auto !important; }
   }
 </style>
@@ -70,9 +77,9 @@
 </div>
 <script src="../CursorStars.compiled.js?v=20260612-rbp-all3"></script>
 <script src="../NavBar.compiled.js?v=20260623-mobile-menu"></script>
-<script src="../TaglineBand.compiled.js?v=20260612-rbp-all3"></script>
-<script src="../CtaFooter.compiled.js?v=20260623-smooth-nav"></script>
-<script src="../Footer.compiled.js?v=20260623-smooth-nav"></script>
+<script src="../TaglineBand.compiled.js?v=20260623-mobile-layout"></script>
+<script src="../CtaFooter.compiled.js?v=20260623-mobile-layout"></script>
+<script src="../Footer.compiled.js?v=20260623-mobile-layout"></script>
 <script src="../_compiled/services__creator-content.0c9266c0.js?v=20260623-mobile-video-friendly"></script>
 </body>
 </html>

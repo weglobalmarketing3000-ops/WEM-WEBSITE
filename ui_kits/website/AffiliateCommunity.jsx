@@ -38,13 +38,29 @@ const AffiliateCommunity = ({ lang }) => {
     ['@bee.mua', '#4A8FFF'], ['@sam.wearsit', '#FF6B9D'], ['@kai.kitchen', '#4A8FFF'],
   ];
   return (
-    <section style={acStyles.wrap}>
-      <div style={acStyles.inner}>
-        <div style={acStyles.left}>
+    <section style={acStyles.wrap} className="ac-wrap">
+      <style>{`
+        @media (max-width: 760px) {
+          .ac-wrap { padding: 82px 20px !important; max-width: 100vw !important; overflow-x: hidden !important; }
+          .ac-inner { grid-template-columns: 1fr !important; gap: 34px !important; max-width: 100% !important; overflow: hidden !important; }
+          .ac-left, .ac-right { max-width: 100% !important; min-width: 0 !important; }
+          .ac-heading { font-size: clamp(44px, 13vw, 58px) !important; line-height: .96 !important; letter-spacing: 0 !important; }
+          .ac-sub { font-size: 16px !important; line-height: 1.52 !important; }
+          .ac-list { margin: 26px 0 30px !important; }
+          .ac-avatars { grid-template-columns: 1fr !important; gap: 10px !important; }
+          .ac-chip { padding: 12px 14px !important; min-width: 0 !important; }
+          .ac-status { display: none !important; }
+          .ac-stats { grid-template-columns: 1fr !important; gap: 10px !important; }
+          .ac-stat { text-align: left !important; display: flex !important; align-items: center !important; justify-content: space-between !important; gap: 16px !important; }
+          .ac-btn { width: 100% !important; justify-content: center !important; }
+        }
+      `}</style>
+      <div style={acStyles.inner} className="ac-inner">
+        <div style={acStyles.left} className="ac-left">
           <div style={acStyles.eyebrow}>{t.eyebrow}</div>
-          <h2 style={acStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-          <p style={acStyles.sub}>{t.sub}</p>
-          <ul style={acStyles.list}>
+          <h2 style={acStyles.h} className="ac-heading">{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
+          <p style={acStyles.sub} className="ac-sub">{t.sub}</p>
+          <ul style={acStyles.list} className="ac-list">
             {t.features.map((f, i) => (
               <li key={i} style={acStyles.li}>
                 <div style={acStyles.liIcon}><i data-lucide={f.icon} style={{ width: 18, height: 18, color: '#000' }}/></div>
@@ -52,24 +68,24 @@ const AffiliateCommunity = ({ lang }) => {
               </li>
             ))}
           </ul>
-          <a href={window.DISCORD_URL} target="_blank" rel="noopener" style={acStyles.btn}>
+          <a href={window.DISCORD_URL} target="_blank" rel="noopener" style={acStyles.btn} className="ac-btn">
             <svg width="22" height="22" viewBox="0 0 127.14 96.36" fill="#fff"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg>
             {t.cta}
           </a>
         </div>
-        <div style={acStyles.right}>
-          <div style={acStyles.avatars}>
+        <div style={acStyles.right} className="ac-right">
+          <div style={acStyles.avatars} className="ac-avatars">
             {handles.map(([h, c], i) => (
-              <div key={i} style={{ ...acStyles.chip, animationDelay: `${i * 0.12}s` }}>
+              <div key={i} style={{ ...acStyles.chip, animationDelay: `${i * 0.12}s` }} className="ac-chip">
                 <div style={{ ...acStyles.dot, background: c }}/>
                 <span style={acStyles.handle}>{h}</span>
-                <div style={acStyles.status}>{t.status}</div>
+                <div style={acStyles.status} className="ac-status">{t.status}</div>
               </div>
             ))}
           </div>
-          <div style={acStyles.statsRow}>
+          <div style={acStyles.statsRow} className="ac-stats">
             {t.stats.map(([n, l], i) => (
-              <div key={i} style={acStyles.statBox}>
+              <div key={i} style={acStyles.statBox} className="ac-stat">
                 <div style={acStyles.statN}>{n}</div>
                 <div style={acStyles.statL}>{l}</div>
               </div>

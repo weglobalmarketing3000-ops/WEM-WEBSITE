@@ -5,16 +5,16 @@ const CtaFooter = ({ lang }) => {
     zh: { h: '想把美国\nTikTok Shop 跑起来？', sub: '告诉我们你的产品、目标市场和现在卡在哪。我们会在 24 小时内回复，直接给下一步建议。', cta: '预约咨询', alt: '邮件联系', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' },
   }[lang];
   return (
-    <section id="About" style={ctaStyles.wrap}>
+    <section id="About" style={ctaStyles.wrap} className="cta-footer-wrap">
       <div style={ctaStyles.bg}/>
       <svg viewBox="0 0 1440 420" preserveAspectRatio="none" style={ctaStyles.lines} aria-hidden="true">
         <path className="cta-flow-line" d="M-80 270 C210 110, 410 350, 660 190 S1080 80, 1520 250" fill="none" stroke="#fff" strokeWidth="1.6"/>
         <path className="cta-flow-line" d="M-100 120 C180 250, 420 70, 720 180 S1110 330, 1530 110" fill="none" stroke="#4A8FFF" strokeWidth="1.4" style={{ animationDelay: '-3.2s' }}/>
       </svg>
-      <div style={ctaStyles.inner}>
-        <h2 style={ctaStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-        <p style={ctaStyles.sub}>{t.sub}</p>
-        <div style={ctaStyles.ctas}>
+      <div style={ctaStyles.inner} className="cta-footer-inner">
+        <h2 style={ctaStyles.h} className="cta-footer-title">{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
+        <p style={ctaStyles.sub} className="cta-footer-sub">{t.sub}</p>
+        <div style={ctaStyles.ctas} className="cta-footer-buttons">
           <a href={t.href} target="_blank" rel="noopener" style={{ ...ctaStyles.btnLight, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
           <a href="mailto:hello@weglobalmarketing.com" style={{ ...ctaStyles.ghost, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.alt}</a>
         </div>
@@ -30,6 +30,14 @@ const CtaFooter = ({ lang }) => {
           100% { stroke-dashoffset: 0; opacity: .18; }
         }
         .cta-flow-line { stroke-dasharray: 18 24; animation: cta-flow 9s linear infinite; }
+        @media (max-width: 760px) {
+          .cta-footer-wrap { padding: 88px 0 !important; max-width: 100vw !important; overflow: hidden !important; }
+          .cta-footer-inner { padding: 0 22px !important; max-width: 100% !important; }
+          .cta-footer-title { font-size: clamp(42px, 13vw, 62px) !important; line-height: .95 !important; letter-spacing: 0 !important; }
+          .cta-footer-sub { font-size: 17px !important; line-height: 1.45 !important; }
+          .cta-footer-buttons { flex-direction: column !important; align-items: stretch !important; gap: 12px !important; }
+          .cta-footer-buttons a { justify-content: center !important; width: 100% !important; padding: 16px 20px !important; }
+        }
       `}</style>
     </section>
   );

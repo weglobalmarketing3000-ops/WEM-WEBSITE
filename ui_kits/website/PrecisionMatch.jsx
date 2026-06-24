@@ -127,18 +127,46 @@ const PrecisionMatch = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={pmStyles.wrap}>
+    <section style={pmStyles.wrap} className="pm-wrap">
+      <style>{`
+        @media (max-width: 760px) {
+          .pm-wrap { padding: 76px 20px 90px !important; max-width: 100vw !important; overflow-x: hidden !important; }
+          .pm-inner { max-width: 100% !important; overflow: hidden !important; }
+          .pm-heading { font-size: clamp(42px, 13vw, 58px) !important; letter-spacing: 0 !important; }
+          .pm-sub { font-size: 16px !important; max-width: 100% !important; }
+          .pm-grid { grid-template-columns: 1fr !important; gap: 14px !important; margin-top: 42px !important; }
+          .pm-card { padding: 22px !important; min-width: 0 !important; }
+          .pm-proof { max-width: 100% !important; white-space: normal !important; border-radius: 18px !important; align-items: flex-start !important; }
+          .pm-showcase { padding: 18px !important; margin-top: 28px !important; max-width: 100% !important; overflow: hidden !important; }
+          .pm-showcase-layout { grid-template-columns: 1fr !important; gap: 16px !important; }
+          .pm-showcase-main, .pm-mix-panel { padding: 18px !important; min-width: 0 !important; }
+          .pm-showcase-title { font-size: clamp(34px, 10vw, 46px) !important; letter-spacing: 0 !important; }
+          .pm-result-row { align-items: flex-start !important; gap: 12px !important; }
+          .pm-result-num { font-size: clamp(62px, 17vw, 86px) !important; }
+          .pm-result-label { font-size: 11px !important; max-width: 150px !important; }
+          .pm-video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 8px !important; }
+          .pm-video-card { min-height: 0 !important; aspect-ratio: 9 / 14 !important; border-radius: 12px !important; }
+          .pm-mix-row { grid-template-columns: 30px 1fr !important; }
+          .pm-mix-name { font-size: 20px !important; }
+          .pm-proof-row { grid-template-columns: 1fr !important; }
+          .pm-cta-block { align-items: flex-start !important; }
+          .pm-cta-btn { width: 100% !important; justify-content: center !important; text-align: center !important; padding: 16px 18px !important; }
+        }
+        @media (max-width: 390px) {
+          .pm-video-grid { grid-template-columns: 1fr !important; }
+        }
+      `}</style>
       <div style={pmStyles.gridLines}/>
-      <div style={pmStyles.inner}>
+      <div style={pmStyles.inner} className="pm-inner">
         <div style={pmStyles.eye}>{t.eye}</div>
-        <h2 style={pmStyles.h}>
+        <h2 style={pmStyles.h} className="pm-heading">
           <span style={pmStyles.hWhite}>{t.h1}</span><br/>
           <span style={pmStyles.hGrad}>{t.h2}</span>
         </h2>
-        <p style={pmStyles.sub}>{t.sub}</p>
-        <div style={pmStyles.grid}>
+        <p style={pmStyles.sub} className="pm-sub">{t.sub}</p>
+        <div style={pmStyles.grid} className="pm-grid">
           {t.cards.map(([num, name, desc], i) => (
-            <div key={i} style={pmStyles.card}>
+            <div key={i} style={pmStyles.card} className="pm-card">
               <div style={pmStyles.cardHead}>
                 <span style={pmStyles.cardNum}>{num}</span>
                 <span style={pmStyles.cardDot}/>
@@ -152,18 +180,18 @@ const PrecisionMatch = ({ lang }) => {
             </div>
           ))}
         </div>
-        <div style={pmStyles.proof}>
+        <div style={pmStyles.proof} className="pm-proof">
           <span style={pmStyles.proofPulse}/>
           {t.proof}
         </div>
-        <div id="case-creator-matchmaking" style={pmStyles.showcase}>
+        <div id="case-creator-matchmaking" style={pmStyles.showcase} className="pm-showcase">
           <div style={pmStyles.showcaseEye}>{t.showcase.eye}</div>
-          <div style={pmStyles.showcaseLayout}>
-            <div style={pmStyles.showcaseMain}>
-              <h3 style={pmStyles.showcaseTitle}>{t.showcase.title}</h3>
-              <div style={pmStyles.resultRow}>
-                <div style={pmStyles.resultNum}>{t.showcase.result}</div>
-                <div style={pmStyles.resultLabel}>{t.showcase.resultLabel}</div>
+          <div style={pmStyles.showcaseLayout} className="pm-showcase-layout">
+            <div style={pmStyles.showcaseMain} className="pm-showcase-main">
+              <h3 style={pmStyles.showcaseTitle} className="pm-showcase-title">{t.showcase.title}</h3>
+              <div style={pmStyles.resultRow} className="pm-result-row">
+                <div style={pmStyles.resultNum} className="pm-result-num">{t.showcase.result}</div>
+                <div style={pmStyles.resultLabel} className="pm-result-label">{t.showcase.resultLabel}</div>
               </div>
               <p style={pmStyles.showcaseSub}>{t.showcase.sub}</p>
               <div style={pmStyles.signalWrap}>
@@ -172,25 +200,25 @@ const PrecisionMatch = ({ lang }) => {
                 ))}
               </div>
             </div>
-            <div style={pmStyles.mixPanel}>
-              <div style={pmStyles.videoGrid}>
+            <div style={pmStyles.mixPanel} className="pm-mix-panel">
+              <div style={pmStyles.videoGrid} className="pm-video-grid">
                 {t.showcase.videos.map(([src, label]) => (
                   <LazyMatchVideo key={src} src={src} label={label}/>
                 ))}
               </div>
               <div style={pmStyles.mixTitle}>{t.showcase.mixTitle}</div>
               {t.showcase.mix.map(([name, body], i) => (
-                <div key={name} style={pmStyles.mixRow}>
+                <div key={name} style={pmStyles.mixRow} className="pm-mix-row">
                   <div style={pmStyles.mixIndex}>{String(i + 1).padStart(2, '0')}</div>
                   <div>
-                    <div style={pmStyles.mixName}>{name}</div>
+                    <div style={pmStyles.mixName} className="pm-mix-name">{name}</div>
                     <div style={pmStyles.mixBody}>{body}</div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-          <div style={pmStyles.proofRow}>
+          <div style={pmStyles.proofRow} className="pm-proof-row">
             {t.showcase.proofs.map(([num, body]) => (
               <div key={num} style={pmStyles.proofCard}>
                 <div style={pmStyles.proofNum}>{num}</div>
@@ -200,9 +228,9 @@ const PrecisionMatch = ({ lang }) => {
             <div style={pmStyles.showcaseNote}>{t.showcase.note}</div>
           </div>
         </div>
-        <div style={pmStyles.ctaBlock}>
+        <div style={pmStyles.ctaBlock} className="pm-cta-block">
           <div style={pmStyles.ctaH}>{t.ctaH}</div>
-          <a href="/#Contact" style={pmStyles.ctaBtn}>{t.ctaBtn}</a>
+          <a href="/#Contact" style={pmStyles.ctaBtn} className="pm-cta-btn">{t.ctaBtn}</a>
         </div>
       </div>
     </section>

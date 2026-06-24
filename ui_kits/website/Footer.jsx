@@ -31,24 +31,37 @@ const Footer = ({ lang, basePath = '' }) => {
     },
   }[lang];
   return (
-    <footer style={fStyles.wrap}>
-      <div style={fStyles.inner}>
-        <div style={fStyles.top}>
+    <footer style={fStyles.wrap} className="site-footer">
+      <style>{`
+        @media (max-width: 760px) {
+          .site-footer { padding: 54px 0 28px !important; max-width: 100vw !important; overflow: hidden !important; }
+          .site-footer-inner { padding: 0 22px !important; max-width: 100% !important; }
+          .site-footer-top { grid-template-columns: 1fr !important; gap: 34px !important; }
+          .site-footer-cols { grid-template-columns: 1fr 1fr !important; gap: 26px 20px !important; }
+          .site-footer-link { overflow-wrap: anywhere !important; }
+          .site-footer-bottom { align-items: flex-start !important; }
+        }
+        @media (max-width: 390px) {
+          .site-footer-cols { grid-template-columns: 1fr !important; }
+        }
+      `}</style>
+      <div style={fStyles.inner} className="site-footer-inner">
+        <div style={fStyles.top} className="site-footer-top">
           <div>
             <img src={(basePath ? '../' : '') + '../../assets/we-logo-white.png'} alt="WE" style={{ height: 44 }}/>
             <p style={fStyles.tag}>{t.tag}</p>
           </div>
-          <div style={fStyles.cols}>
+          <div style={fStyles.cols} className="site-footer-cols">
             {t.cols.map(([title, items], i) => (
               <div key={i}>
                 <div style={fStyles.colTitle}>{title}</div>
-                {items.map(([label, href], j) => <a key={j} href={href} style={fStyles.link}>{label}</a>)}
+                {items.map(([label, href], j) => <a key={j} href={href} style={fStyles.link} className="site-footer-link">{label}</a>)}
                 {i === 2 && <div style={fStyles.socialUnderContact}>{linkedIn}</div>}
               </div>
             ))}
           </div>
         </div>
-        <div style={fStyles.bottom}>
+        <div style={fStyles.bottom} className="site-footer-bottom">
           <div>{t.rights}</div>
         </div>
       </div>

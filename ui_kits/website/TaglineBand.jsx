@@ -41,7 +41,7 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
     }
     : {};
   return (
-    <section style={{ ...tbStyles.wrap, ...(variantStyle.wrap || {}) }}>
+    <section style={{ ...tbStyles.wrap, ...(variantStyle.wrap || {}) }} className="tb-wrap">
       <div style={tbStyles.track} className="tb-track">
         {Array.from({ length: 12 }).map((_, i) => {
           const style = i % 3 === 0
@@ -54,7 +54,16 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
           return <span key={i} style={style}>{phrase}</span>;
         })}
       </div>
-      <style>{`@keyframes tb-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } } .tb-track { animation: tb-scroll 22s linear infinite; }`}</style>
+      <style>{`
+        @keyframes tb-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        .tb-wrap { max-width: 100vw; overflow: hidden; }
+        .tb-track { animation: tb-scroll 22s linear infinite; width: max-content; max-width: none; }
+        @media (max-width: 760px) {
+          .tb-wrap { padding: 20px 0 !important; }
+          .tb-track { gap: 12px !important; }
+          .tb-track span { font-size: 44px !important; line-height: .95 !important; letter-spacing: 0 !important; }
+        }
+      `}</style>
     </section>
   );
 };
