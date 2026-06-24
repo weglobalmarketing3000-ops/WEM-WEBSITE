@@ -52,45 +52,125 @@ const AboutCapability = ({ lang }) => {
       seeAll: '查看全部服务',
     },
   }[lang];
+  const renderStatNum = (num) => {
+    const hasPlus = num.endsWith('+');
+    const base = hasPlus ? num.slice(0, -1) : num;
+    return <>
+      {base}
+      {hasPlus && <span style={acStyles.statSym}>+</span>}
+    </>;
+  };
   return (
-    <section style={acStyles.wrap}>
-      <div style={acStyles.inner}>
+    <section style={acStyles.wrap} className="about-capability">
+      <style>{`
+        @media (max-width: 760px) {
+          .about-capability {
+            padding: 72px 0 !important;
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .about-capability-inner {
+            display: block !important;
+            max-width: 100% !important;
+            padding: 0 20px !important;
+            overflow: hidden !important;
+          }
+          .about-capability-title {
+            font-size: clamp(38px, 12vw, 52px) !important;
+            line-height: .98 !important;
+            letter-spacing: 0 !important;
+            margin: 18px 0 26px !important;
+          }
+          .about-capability-p {
+            font-size: 16px !important;
+            line-height: 1.58 !important;
+            margin-bottom: 16px !important;
+          }
+          .about-capability-quote {
+            margin: 22px 0 40px !important;
+            padding: 18px 0 !important;
+          }
+          .about-capability-quote-text {
+            font-size: 19px !important;
+            line-height: 1.28 !important;
+          }
+          .about-capability-right {
+            width: 100% !important;
+            max-width: 100% !important;
+            overflow: hidden !important;
+          }
+          .about-capability-stats {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            gap: 12px !important;
+            margin: 18px 0 32px !important;
+          }
+          .about-capability-stat-card {
+            min-width: 0 !important;
+            min-height: 126px !important;
+            padding: 20px 16px !important;
+            border-radius: 14px !important;
+          }
+          .about-capability-stat-num {
+            font-size: clamp(34px, 10vw, 44px) !important;
+            white-space: nowrap !important;
+          }
+          .about-capability-stat-label {
+            font-size: 10px !important;
+            letter-spacing: .08em !important;
+            line-height: 1.35 !important;
+            overflow-wrap: anywhere !important;
+          }
+          .about-capability-cap-list {
+            gap: 12px !important;
+          }
+          .about-capability-cap-row {
+            gap: 12px !important;
+          }
+          .about-capability-cap-title {
+            font-size: 15px !important;
+            line-height: 1.1 !important;
+          }
+          .about-capability-cap-desc {
+            font-size: 14px !important;
+          }
+        }
+      `}</style>
+      <div style={acStyles.inner} className="about-capability-inner">
         <div style={acStyles.left}>
           <div style={acStyles.eye}>{t.eyeL}</div>
-          <h2 style={acStyles.h2}>{t.h2}</h2>
-          <p style={acStyles.p}>{t.p1}</p>
-          <p style={acStyles.p}>{t.p2}</p>
-          <p style={acStyles.p}>{t.p3}</p>
-          <div style={acStyles.quoteWrap}>
+          <h2 style={acStyles.h2} className="about-capability-title">{t.h2}</h2>
+          <p style={acStyles.p} className="about-capability-p">{t.p1}</p>
+          <p style={acStyles.p} className="about-capability-p">{t.p2}</p>
+          <p style={acStyles.p} className="about-capability-p">{t.p3}</p>
+          <div style={acStyles.quoteWrap} className="about-capability-quote">
             <div style={acStyles.quoteBar} />
             <div>
-              <div style={{ ...acStyles.quote, color: "rgb(244, 22, 160)" }}>{t.quote}</div>
+              <div style={{ ...acStyles.quote, color: "rgb(244, 22, 160)" }} className="about-capability-quote-text">{t.quote}</div>
               <div style={acStyles.author}>{t.author}</div>
             </div>
           </div>
         </div>
-        <div style={acStyles.right}>
+        <div style={acStyles.right} className="about-capability-right">
           <div style={acStyles.eye}>{t.eyeR}</div>
-          <div style={acStyles.statGrid}>
+          <div style={acStyles.statGrid} className="about-capability-stats">
             {t.stats.map((s, i) =>
-            <div key={i} style={acStyles.statCard}>
-                <div style={acStyles.statNum}>
-                  {s.num.replace(/[+$]/g, '').replace(/^/, '')}
-                  <span style={acStyles.statSym}>{s.num.match(/[+$]/g)?.join('')}</span>
+            <div key={i} style={acStyles.statCard} className="about-capability-stat-card">
+                <div style={acStyles.statNum} className="about-capability-stat-num">
+                  {renderStatNum(s.num)}
                 </div>
-                <div style={acStyles.statLab}>{s.lab}</div>
+                <div style={acStyles.statLab} className="about-capability-stat-label">{s.lab}</div>
               </div>
             )}
           </div>
-          <div style={acStyles.capList}>
+          <div style={acStyles.capList} className="about-capability-cap-list">
             {t.caps.map(([h, d], i) =>
-            <div key={i} style={acStyles.capRow}>
+            <div key={i} style={acStyles.capRow} className="about-capability-cap-row">
                 <div style={acStyles.capCheck}>
                   <i data-lucide="check" style={{ width: 14, height: 14, color: '#000', strokeWidth: 3 }} />
                 </div>
                 <div>
-                  <div style={acStyles.capTitle}>{h}</div>
-                  <div style={acStyles.capDesc}>{d}</div>
+                  <div style={acStyles.capTitle} className="about-capability-cap-title">{h}</div>
+                  <div style={acStyles.capDesc} className="about-capability-cap-desc">{d}</div>
                 </div>
               </div>
             )}

@@ -29,19 +29,94 @@ const MeetYourCoach = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={mcStyles.wrap}>
+    <section style={mcStyles.wrap} className="meet-coach">
+      <style>{`
+        @media (max-width: 760px) {
+          .meet-coach {
+            padding: 72px 0 !important;
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .meet-coach-inner {
+            max-width: 100% !important;
+            padding: 0 20px !important;
+            overflow: hidden !important;
+          }
+          .meet-coach-eyebrow {
+            font-size: 11px !important;
+            margin-bottom: 24px !important;
+          }
+          .meet-coach-grid {
+            display: block !important;
+          }
+          .meet-coach-title {
+            font-size: clamp(42px, 13vw, 58px) !important;
+            line-height: .94 !important;
+            letter-spacing: 0 !important;
+          }
+          .meet-coach-sub {
+            font-size: 18px !important;
+            line-height: 1.45 !important;
+            max-width: 100% !important;
+          }
+          .meet-coach-pills {
+            margin-top: 24px !important;
+            gap: 8px !important;
+          }
+          .meet-coach-pill {
+            width: 100% !important;
+            justify-content: center !important;
+            text-align: center !important;
+            font-size: 12px !important;
+            padding: 10px 14px !important;
+          }
+          .meet-coach-body {
+            font-size: 16px !important;
+            line-height: 1.58 !important;
+            max-width: 100% !important;
+            margin-top: 24px !important;
+          }
+          .meet-coach-right {
+            position: relative !important;
+            min-height: 0 !important;
+            display: grid !important;
+            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            gap: 10px !important;
+            margin-top: 34px !important;
+          }
+          .meet-coach-frame {
+            position: relative !important;
+            top: auto !important;
+            right: auto !important;
+            bottom: auto !important;
+            left: auto !important;
+            width: 100% !important;
+            aspect-ratio: 1 / 1 !important;
+            transform: none !important;
+            border-radius: 14px !important;
+          }
+          .meet-coach-name {
+            max-width: 100% !important;
+            width: 100% !important;
+            justify-content: center !important;
+            text-align: center !important;
+            font-size: 11px !important;
+            line-height: 1.25 !important;
+          }
+        }
+      `}</style>
       <div style={mcStyles.orb1}/>
       <div style={mcStyles.orb2}/>
-      <div style={mcStyles.inner}>
-        <div style={mcStyles.eyebrow}>{t.eyebrow}</div>
-        <div style={mcStyles.grid}>
+      <div style={mcStyles.inner} className="meet-coach-inner">
+        <div style={mcStyles.eyebrow} className="meet-coach-eyebrow">{t.eyebrow}</div>
+        <div style={mcStyles.grid} className="meet-coach-grid">
           <div style={mcStyles.left}>
-            <h2 style={mcStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-            <p style={mcStyles.sub}>{t.sub}</p>
-            <div style={mcStyles.pills}>
-              {t.pills.map((p,i) => <span key={i} style={mcStyles.pill}>{p}</span>)}
+            <h2 style={mcStyles.h} className="meet-coach-title">{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
+            <p style={mcStyles.sub} className="meet-coach-sub">{t.sub}</p>
+            <div style={mcStyles.pills} className="meet-coach-pills">
+              {t.pills.map((p,i) => <span key={i} style={mcStyles.pill} className="meet-coach-pill">{p}</span>)}
             </div>
-            <p style={mcStyles.body}>{t.body}</p>
+            <p style={mcStyles.body} className="meet-coach-body">{t.body}</p>
             <div style={mcStyles.bullets}>
               {t.bullets.map((b,i) => (
                 <div key={i} style={mcStyles.bullet}>
@@ -52,16 +127,16 @@ const MeetYourCoach = ({ lang }) => {
                 </div>
               ))}
             </div>
-            <div style={mcStyles.nameBadge}>{t.name}</div>
+            <div style={mcStyles.nameBadge} className="meet-coach-name">{t.name}</div>
           </div>
-          <div style={mcStyles.right}>
-            <div style={{ ...mcStyles.frame, ...mcStyles.frameTop }}>
+          <div style={mcStyles.right} className="meet-coach-right">
+            <div style={{ ...mcStyles.frame, ...mcStyles.frameTop }} className="meet-coach-frame">
               <img src="../../assets/coach-april-2.png" alt="April Aldana - Livestream 101" style={mcStyles.img}/>
             </div>
-            <div style={{ ...mcStyles.frame, ...mcStyles.frameMid }}>
+            <div style={{ ...mcStyles.frame, ...mcStyles.frameMid }} className="meet-coach-frame">
               <img src="../../assets/coach-april-3.png" alt="April Aldana - Weekly tip" style={mcStyles.img}/>
             </div>
-            <div style={{ ...mcStyles.frame, ...mcStyles.frameBot }}>
+            <div style={{ ...mcStyles.frame, ...mcStyles.frameBot }} className="meet-coach-frame">
               <img src="../../assets/coach-april-1.png" alt="April Aldana - Live selling" style={mcStyles.img}/>
             </div>
           </div>

@@ -5,13 +5,13 @@ const WorkHero = ({ lang }) => {
       pill: 'OUR WORK',
       h1a: 'Real work.',
       h1accent: 'Real numbers.',
-      sub: 'TikTok Shop case studies across beauty, wellness, tech, and fashion. Cold-starts, plateau breaks, hero-creator wins, and multilingual live programs. Same playbook. Different category. Real metrics.',
+      sub: 'TikTok Shop case studies across beauty, wellness, tech, and fashion. Cold starts, creator wins, live programs, and real sales metrics.',
     },
     zh: {
       pill: '案例',
       h1a: '美国 TikTok Shop',
       h1accent: '真实增长案例。',
-      sub: '覆盖美妆、健康、科技、服饰和跨境消费品。我们关注的不只是播放量，也看冷启动速度、达人发布率、内容带来的订单、直播成交和销售增长。',
+      sub: '覆盖美妆、健康、科技、服饰和跨境消费品。看冷启动、达人发布、直播成交和真实销售增长。',
     },
   }[lang];
   return (
