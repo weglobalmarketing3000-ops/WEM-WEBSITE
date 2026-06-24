@@ -4,14 +4,14 @@ const AffiliateBenefits = ({ lang }) => {
     en: {
       eyebrow: '// CREATOR PERKS',
       h: 'Six reasons\nto join WEM Affiliate.',
-      sub: 'WEM works directly with TikTok Shop brands to bring creators better commission opportunities, a wider range of samples, early campaign access, and practical support for content and account growth.',
+      sub: 'Better commissions, more samples, earlier brand access, and practical support for content growth.',
       items: [
-        { icon: 'trending-up', accent: '#FF1493', tag: '01', title: 'Boosted Commission', body: 'WEM negotiates commission with partner brands so creators can access stronger rates than the open marketplace, often 3% to 10% higher. Some campaigns also include extra incentives for additional posts, GMV milestones, or limited-time pushes.' },
-        { icon: 'handshake', accent: '#9B30FF', tag: '02', title: 'Priority Brand Opportunities', body: 'Creators in the WEM community get first access to product launches, sample campaigns, exclusive live flash sales, paid live opportunities, and brand collaborations that match their content niche.' },
-        { icon: 'package', accent: '#4A8FFF', tag: '03', title: 'Free Samples', body: 'WEM works with a wide and constantly updated pool of partner brands, so creators can apply for samples across different products and categories. More sample options mean more chances to test products, create fresh content, and find what fits your audience.' },
-        { icon: 'sparkles', accent: '#4A8FFF', tag: '04', title: 'Creator Support', body: 'Get WEM guidance on campaign rules, TikTok Shop violations, appeals, account questions, content direction, and important TikTok Shop updates. When you are unsure what to do next, our team helps you understand the issue and move forward faster.' },
-        { icon: 'users', accent: '#FF1493', tag: '05', title: '8,000+ Creator Community', body: 'Join thousands of fellow TikTok Shop creators sharing experience, wins, product feedback, sample updates, content ideas, live selling notes, and campaign insights. Discord includes dedicated Spanish channels, plus regular giveaways and raffles for the community.' },
-        { icon: 'graduation-cap', accent: '#9B30FF', tag: '06', title: 'Exclusive Private Training from the Top 1%', body: 'Get private trainings and content reviews led by Top 1% TikTok Shop creators. Learn how they structure hooks, pacing, product placement, pricing language, and CTAs to improve conversion.' },
+        { icon: 'trending-up', accent: '#FF1493', tag: '01', title: 'Boosted Commission', body: 'Access stronger rates than the open marketplace, with campaign bonuses on selected launches.' },
+        { icon: 'handshake', accent: '#9B30FF', tag: '02', title: 'Priority Brand Opportunities', body: 'See product launches, samples, live opportunities, and brand collabs earlier.' },
+        { icon: 'package', accent: '#4A8FFF', tag: '03', title: 'Free Samples', body: 'Apply for products across more categories and find what fits your audience.' },
+        { icon: 'sparkles', accent: '#4A8FFF', tag: '04', title: 'Creator Support', body: 'Get help with campaign rules, violations, appeals, account questions, and content direction.' },
+        { icon: 'users', accent: '#FF1493', tag: '05', title: '8,000+ Creator Community', body: 'Share sample updates, content ideas, live notes, wins, and campaign insights in Discord.' },
+        { icon: 'graduation-cap', accent: '#9B30FF', tag: '06', title: 'Top 1% Private Training', body: 'Learn hooks, pacing, product placement, price framing, and CTAs from proven creators.' },
       ],
     },
     zh: {

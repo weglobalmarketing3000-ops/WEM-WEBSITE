@@ -7,7 +7,7 @@ const AffiliateHero = ({ lang }) => {
     en: {
       pill: 'WEM AFFILIATE · CREATOR COMMUNITY',
       h1a: 'Build. Post.', h1accent: 'Earn.',
-      sub: 'Join 8,000+ TikTok Shop creators in the WEM Affiliate community. Boosted commission, priority brand opportunities, free product samples, and private training from Top 1% creators, all in one place.',
+      sub: 'Join 8,000+ TikTok Shop creators for better commissions, sample access, brand opportunities, and practical content support.',
       cta1: 'Join our Discord',
       cta2: 'See creator perks',
       meta: ['Free to join', 'No agency link required', 'English + Español + 中文 support'],

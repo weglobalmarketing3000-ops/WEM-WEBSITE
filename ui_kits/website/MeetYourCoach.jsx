@@ -5,7 +5,7 @@ const MeetYourCoach = ({ lang }) => {
       eyebrow: '// MEET YOUR COACH',
       h: 'Coached by someone\nwho actually sells.',
       sub: 'Every creator in WEM gets access to weekly coaching from a Top 1% TikTok Shop affiliate.',
-      body: 'April Aldana has generated $1M+ GMV in the past year and $30K+ in a single livestream. She coaches our creators weekly on short video strategy, live selling, and content that actually converts. For brands, that means the creators promoting your products aren\u2019t guessing.',
+      body: 'April Aldana has generated $1M+ GMV in the past year and $30K+ in a single livestream. She coaches creators on hooks, live selling, and content that converts.',
       pills: ['TOP 1% TIKTOK SHOP AFFILIATE', '$1M+ GMV · PAST 12 MONTHS', '$30K+ IN A SINGLE LIVESTREAM'],
       bullets: [
         { icon: 'video', text: 'Weekly short video strategy' },
@@ -18,7 +18,7 @@ const MeetYourCoach = ({ lang }) => {
       eyebrow: '// 内容建议',
       h: '让真正卖过货的人\n帮你看内容。',
       sub: 'WE 达人联盟成员可以获得 TikTok Shop 头部达人的短视频和直播建议。',
-      body: 'April Aldana 过去一年带来 $1M+ 销售额，单场直播突破 $30K+。她会帮达人看选题、hook、节奏、产品植入、价格表达和直播话术，重点是怎么讲，才能让内容更有转化力。',
+      body: 'April Aldana 过去一年带来 $1M+ 销售额，单场直播突破 $30K+。她会帮达人看 hook、节奏、产品植入、价格表达和直播话术。',
       pills: ['TIKTOK SHOP 头部达人', '过去 12 个月 $1M+ 销售额', '单场直播 $30K+ 销售额'],
       bullets: [
         { icon: 'video', text: '短视频选题和 hook 建议' },

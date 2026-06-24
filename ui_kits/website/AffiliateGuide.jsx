@@ -4,12 +4,12 @@ const AffiliateGuide = ({ lang }) => {
     en: {
       eyebrow: '// GETTING STARTED',
       h: 'TikTok Shop success\nguide. Included.',
-      sub: 'Every new member gets our full playbook, reviewed quarterly by Top 1% creators and our ops team.',
+      sub: 'Every new member gets the WEM creator playbook, updated with our ops team and top creator coaches.',
       steps: [
-        { n: '01', title: 'Creating High-Quality Content', body: 'Lighting, sound, and framing. Writing strong hooks and natural product placements. Leveraging trends that actually fit your brand. Captions, overlays, and editing tricks that lift engagement.' },
-        { n: '02', title: 'Affiliate Monetization', body: 'How TikTok Shop affiliate really works. Commission structures, product selection criteria, and the metrics that matter when you\u2019re tracking performance across campaigns.' },
-        { n: '03', title: 'Scaling + Optimization', body: 'Posting cadences and testing frameworks. Using data to lift conversion. Repurposing winners across live, short-form, and paid, without burning out.' },
-        { n: '04', title: 'Support Materials', body: 'Downloadable script + checklist templates. Short instructional videos. Live office hours. Direct line to our ops team via Discord for violations and appeals.' },
+        { n: '01', title: 'Creating High-Quality Content', body: 'Lighting, sound, framing, hooks, captions, and product placement that feels natural.' },
+        { n: '02', title: 'Affiliate Monetization', body: 'How commissions, product selection, sample access, and campaign metrics actually work.' },
+        { n: '03', title: 'Scaling + Optimization', body: 'Posting cadence, testing frameworks, data review, and reuse across short video and live.' },
+        { n: '04', title: 'Support Materials', body: 'Scripts, checklists, short tutorials, office hours, and Discord support for account issues.' },
       ],
     },
     zh: {
@@ -25,19 +25,65 @@ const AffiliateGuide = ({ lang }) => {
     },
   }[lang];
   return (
-    <section style={agStyles.wrap}>
-      <div style={agStyles.header}>
+    <section style={agStyles.wrap} className="affiliate-guide">
+      <style>{`
+        @media (max-width: 760px) {
+          .affiliate-guide {
+            padding: 76px 22px !important;
+            max-width: 100vw !important;
+            overflow: hidden !important;
+          }
+          .affiliate-guide-header {
+            max-width: 100% !important;
+            margin-bottom: 34px !important;
+          }
+          .affiliate-guide-title {
+            font-size: clamp(42px, 13vw, 58px) !important;
+            line-height: .96 !important;
+            letter-spacing: 0 !important;
+          }
+          .affiliate-guide-sub {
+            font-size: 16px !important;
+            line-height: 1.5 !important;
+            max-width: 100% !important;
+            margin-top: 20px !important;
+          }
+          .affiliate-guide-grid {
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+          }
+          .affiliate-guide-card {
+            padding: 22px 18px !important;
+            gap: 16px !important;
+            border-radius: 16px !important;
+          }
+          .affiliate-guide-num {
+            width: 56px !important;
+            font-size: 42px !important;
+            -webkit-text-stroke-width: 1.5px !important;
+          }
+          .affiliate-guide-card-title {
+            font-size: 22px !important;
+            line-height: 1.05 !important;
+          }
+          .affiliate-guide-body {
+            font-size: 15px !important;
+            line-height: 1.45 !important;
+          }
+        }
+      `}</style>
+      <div style={agStyles.header} className="affiliate-guide-header">
         <div style={agStyles.eyebrow}>{t.eyebrow}</div>
-        <h2 style={agStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-        <p style={agStyles.sub}>{t.sub}</p>
+        <h2 style={agStyles.h} className="affiliate-guide-title">{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
+        <p style={agStyles.sub} className="affiliate-guide-sub">{t.sub}</p>
       </div>
-      <div style={agStyles.grid}>
+      <div style={agStyles.grid} className="affiliate-guide-grid">
         {t.steps.map((s, i) => (
-          <div key={i} style={agStyles.card}>
-            <div style={agStyles.num}>{s.n}</div>
+          <div key={i} style={agStyles.card} className="affiliate-guide-card">
+            <div style={agStyles.num} className="affiliate-guide-num">{s.n}</div>
             <div style={agStyles.cardBody}>
-              <div style={agStyles.title}>{s.title}</div>
-              <div style={agStyles.body}>{s.body}</div>
+              <div style={agStyles.title} className="affiliate-guide-card-title">{s.title}</div>
+              <div style={agStyles.body} className="affiliate-guide-body">{s.body}</div>
             </div>
           </div>
         ))}

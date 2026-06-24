@@ -4,7 +4,7 @@ const AffiliateCommunity = ({ lang }) => {
     en: {
       eyebrow: '// THE COMMUNITY',
       h: '8,000+ creators.\nOne Discord.',
-      sub: 'Direct channels for brand drops, sample requests, content Q&A, and live coaching. Discord has English and dedicated Spanish channels, with English, Spanish, and Chinese support from WEM.',
+      sub: 'Brand drops, sample requests, content Q&A, and live coaching in one Discord. English, Spanish, and Chinese support from WEM.',
       features: [
         { icon: 'message-square', label: 'Exclusive collaborations & sample alerts' },
         { icon: 'video', label: 'Weekly 1:1 content reviews' },
@@ -45,13 +45,18 @@ const AffiliateCommunity = ({ lang }) => {
           .ac-inner { grid-template-columns: 1fr !important; gap: 34px !important; max-width: 100% !important; overflow: hidden !important; }
           .ac-left, .ac-right { max-width: 100% !important; min-width: 0 !important; }
           .ac-heading { font-size: clamp(44px, 13vw, 58px) !important; line-height: .96 !important; letter-spacing: 0 !important; }
-          .ac-sub { font-size: 16px !important; line-height: 1.52 !important; }
+          .ac-sub { font-size: 16px !important; line-height: 1.5 !important; }
           .ac-list { margin: 26px 0 30px !important; }
-          .ac-avatars { grid-template-columns: 1fr !important; gap: 10px !important; }
-          .ac-chip { padding: 12px 14px !important; min-width: 0 !important; }
+          .ac-avatars { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 8px !important; }
+          .ac-chip { padding: 10px 10px !important; min-width: 0 !important; border-radius: 12px !important; }
+          .ac-chip:nth-child(n+7) { display: none !important; }
+          .ac-dot { width: 24px !important; height: 24px !important; }
+          .ac-handle { font-size: 11px !important; min-width: 0 !important; }
           .ac-status { display: none !important; }
-          .ac-stats { grid-template-columns: 1fr !important; gap: 10px !important; }
-          .ac-stat { text-align: left !important; display: flex !important; align-items: center !important; justify-content: space-between !important; gap: 16px !important; }
+          .ac-stats { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 8px !important; margin-top: 14px !important; }
+          .ac-stat { padding: 14px 10px !important; min-width: 0 !important; }
+          .ac-stat-n { font-size: 26px !important; }
+          .ac-stat-l { font-size: 9px !important; line-height: 1.2 !important; letter-spacing: .04em !important; }
           .ac-btn { width: 100% !important; justify-content: center !important; }
         }
       `}</style>
@@ -77,8 +82,8 @@ const AffiliateCommunity = ({ lang }) => {
           <div style={acStyles.avatars} className="ac-avatars">
             {handles.map(([h, c], i) => (
               <div key={i} style={{ ...acStyles.chip, animationDelay: `${i * 0.12}s` }} className="ac-chip">
-                <div style={{ ...acStyles.dot, background: c }}/>
-                <span style={acStyles.handle}>{h}</span>
+                <div style={{ ...acStyles.dot, background: c }} className="ac-dot"/>
+                <span style={acStyles.handle} className="ac-handle">{h}</span>
                 <div style={acStyles.status} className="ac-status">{t.status}</div>
               </div>
             ))}
@@ -86,8 +91,8 @@ const AffiliateCommunity = ({ lang }) => {
           <div style={acStyles.statsRow} className="ac-stats">
             {t.stats.map(([n, l], i) => (
               <div key={i} style={acStyles.statBox} className="ac-stat">
-                <div style={acStyles.statN}>{n}</div>
-                <div style={acStyles.statL}>{l}</div>
+                <div style={acStyles.statN} className="ac-stat-n">{n}</div>
+                <div style={acStyles.statL} className="ac-stat-l">{l}</div>
               </div>
             ))}
           </div>
