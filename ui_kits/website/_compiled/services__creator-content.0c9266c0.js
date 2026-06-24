@@ -1844,7 +1844,7 @@ function SampleWork({
     }, v.desc)));
   })), React.createElement("style", null, `@keyframes cc-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }`)));
 }
-const CREATOR_AVATAR_SPRITE = 'creator-content/avatars/avatar-sprite.webp?v=20260528-avatar-sprite';
+const CREATOR_AVATAR_SPRITE = 'creator-content/avatars/avatar-sprite.webp?v=20260624-avatar-sprite';
 const CREATOR_AVATAR_POSITIONS = {
   'mega-beauty-kol': '0% 0%',
   'glam-dark': '50% 0%',
