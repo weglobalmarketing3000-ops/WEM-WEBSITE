@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: '2026-us-tiktok-shop-campaign-calendar-after-dfyd',
+    cat: { en: 'TIKTOK SHOP U.S. · CAMPAIGN CALENDAR', zh: 'TIKTOK SHOP 美区 · CAMPAIGN CALENDAR' },
+    title: { en: 'After DFYD: How to Use a 2026 US TikTok Shop Campaign Calendar', zh: 'DFYD 结束后：2026 US TikTok Shop Campaign Calendar 怎么用？' },
+    excerpt: { en: 'Use the 2026 TikTok Shop campaign calendar to plan product selection, Smart Promotion, Campaign Price Range, creator content, inventory, and BFCM readiness after Deals For You Days.', zh: 'DFYD 结束不是活动结束，而是 2026 US TikTok Shop Campaign Calendar 的下半场开始。卖家要把复盘变成 7-12 月的商品、价格、库存、达人和内容计划。' },
+    date: { en: 'Jul 14, 2026', zh: '2026 年 7 月 14 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-2026-us-tiktok-shop-campaign-calendar-after-dfyd.png',
+  },
+  {
     slug: 'tiktok-shop-us-logistics-fulfillment-strategy',
     cat: { en: 'TIKTOK SHOP U.S. · LOGISTICS', zh: 'TIKTOK SHOP 美国 · 物流履约' },
     title: { en: 'TikTok Shop US Logistics: Why Fulfillment Is Now Part of Your Growth Strategy', zh: 'TikTok Shop 美国物流：为什么履约已经成为增长策略的一部分' },
