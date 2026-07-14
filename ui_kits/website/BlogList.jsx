@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-us-logistics-fulfillment-strategy',
+    cat: { en: 'TIKTOK SHOP U.S. · LOGISTICS', zh: 'TIKTOK SHOP 美国 · 物流履约' },
+    title: { en: 'TikTok Shop US Logistics: Why Fulfillment Is Now Part of Your Growth Strategy', zh: 'TikTok Shop 美国物流：为什么履约已经成为增长策略的一部分' },
+    excerpt: { en: 'How brands should connect TikTok Shop content, inventory, warehouse workflow, TikTok Shipping, CBT, FBT, ShipStation, and customer experience before creator-driven order spikes.', zh: 'TikTok Shop 美国运营不能只看达人和内容。品牌需要提前规划库存、仓库、TikTok Shipping、CBT、FBT、ShipStation 和客服流程，才能接住达人流量。' },
+    date: { en: 'Jul 13, 2026', zh: '2026 年 7 月 13 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-tiktok-shop-us-logistics-fulfillment-strategy.png',
+  },
+  {
     slug: 'tiktok-shop-aigc-auto-post-strategy',
     cat: { en: 'TIKTOK SHOP · AIGC AUTO-POST', zh: 'TIKTOK SHOP · AIGC 自动发布' },
     title: { en: 'TikTok Shop AIGC Auto-post: Why It Matters and How Brands Should Use It', zh: 'TikTok Shop AIGC Auto-post 为什么重要以及品牌怎么用' },
