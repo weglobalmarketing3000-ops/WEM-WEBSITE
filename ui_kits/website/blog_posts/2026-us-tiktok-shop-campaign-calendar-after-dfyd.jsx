@@ -16,7 +16,7 @@ const hero = 'hero-2026-us-tiktok-shop-campaign-calendar-after-dfyd.png';
 const POSTS = {
   zh: {
     meta: {
-      title: 'DFYD 结束后：2026 US TikTok Shop Campaign Calendar 怎么用？',
+      title: '2026 US TikTok Shop Campaign Calendar：下半年节日大促怎么规划',
       cat: 'TIKTOK SHOP 美区 · CAMPAIGN CALENDAR',
       author: 'WE Marketing Team',
       date: '2026 年 7 月 14 日',
@@ -27,26 +27,25 @@ const POSTS = {
     sections: [
       {
         id: 'intro',
-        h: 'DFYD 结束后，不要等下一个大促才行动',
+        h: 'TikTok Shop 下半年不是一次大促，而是一整段销售季',
         body: [
-          P('2026 年 Deals For You Days 已经结束。对很多 TikTok Shop 美区卖家来说，DFYD 是上半年最重要的爆发节点之一：有平台流量、有活动标签、有优惠机制，也有更集中的达人和内容机会。'),
-          P('但真正的问题不是“DFYD 表现怎么样”，而是：DFYD 结束以后，店铺接下来怎么走？'),
-          P('很多品牌会在大促后犯同一个错误：活动结束，运营节奏也跟着停下来。素材不继续测，达人不继续跟，库存不继续拆，价格不继续算，店铺只等下一次 Campaign 开放报名。这样做很可惜，因为 TikTok Shop 的下半年不是一个单点大促，而是一段连续的销售季。'),
-          P('从 7 月到 12 月，美区卖家要面对 Back-to-School、Labor Day、Fall Sale、Halloween、Black Friday Cyber Monday、Year-end Sale，以及各种 category-specific 和 always-on campaign。真正要准备的不是一个报名按钮，而是商品价格、库存、履约、达人内容、短视频素材、店铺健康和 Smart Promotion 资格。'),
+          P('从 7 月到 12 月，TikTok Shop 美区卖家会连续进入 Back-to-School、Labor Day、Fall Sale、Halloween、Black Friday、Cyber Monday、Holiday Deals、Christmas gifting、Year-end Sale 和 New Year prep。真正的挑战不是记住活动名字，而是让商品、价格、达人、内容、库存和履约按同一张时间表推进。'),
+          P('Deals For You Days 可以作为上半年的一个数据参考，但下半年规划不应该一直围绕 DFYD 展开。现在更重要的是确定哪些 SKU 要进入返校季和秋季测试，哪些商品值得为 BFCM 加库存，哪些内容要提前拍，哪些价格空间必须留到 11 月和 12 月。'),
+          P('如果团队等到活动报名开放才开始准备，通常已经太晚：达人还没收到样品，内容没有跑出有效角度，商品页问题没修，库存和毛利也没有算清。好的 Campaign Calendar 应该把每个节日节点变成提前 6-10 周启动的项目。'),
         ],
       },
       {
         id: 'sku-test',
-        h: '先把 DFYD 当成一次下半年选品测试',
+        h: '先确定下半年的 hero SKU，不要每个活动都推全店',
         body: [
-          P('DFYD 的价值不只在活动期间 GMV。它更像一次大规模测试，帮助卖家判断哪些 SKU 值得进入下半年主推池。'),
+          P('下半年活动密集，最先要做的不是报名，而是把商品分层。一个 SKU 能不能成为 hero product，要同时看成交、毛利、内容表现、达人意愿、评论、退款和履约，而不是只看某一次活动 GMV。'),
           UL([
             '有点击、有加购、有订单、有达人主动愿意做内容的 SKU：进入主推池。',
             '有曝光但转化低的 SKU：先检查价格、主图、标题、卖点、优惠、评论、物流承诺和达人内容。',
             '履约风险高的 SKU：提前处理库存、发货时效、承运商和客服压力。',
             '只有低价才卖得动的 SKU：可以短期促销，但不要让它们定义全店增长。',
           ]),
-          P('下半年还有 BFCM 和 Year-end Sale。如果 7 月就把价格打穿，后面很难继续做更强活动价。'),
+          P('Back-to-School 和 Labor Day 可以用来测试商品页、内容角度和优惠组合；通过测试的 SKU 再进入 Halloween、BFCM、Holiday Deals 和 Year-end Sale 主推池。如果 7 月或 8 月就把价格打穿，11 月和 12 月会失去更强的促销空间。'),
         ],
       },
       {
@@ -68,14 +67,29 @@ const POSTS = {
         id: 'calendar',
         h: '为什么要做自己的 2026 US TikTok Shop Campaign Calendar',
         body: [
-          P('现在很多卖家会搜索 “2026 US TikTok Shop campaign calendar” 或 “TikTok Shop campaign calendar 2026”，但能直接被搜索到、又能解释美区下半年节奏的内容并不多。TikTok Shop 官方页面提供了 Campaign Tiers 和活动示例，这个信息很有价值，但它更像卖家后台说明，不一定会以普通品牌方能搜索到的方式呈现。'),
+          P('一张真正有用的 Campaign Calendar 不是活动名称清单，而是一张跨团队工作表。每个活动窗口都应该对应负责人、主推 SKU、目标毛利、库存底线、寄样截止日、内容交付日、活动报名状态和复盘时间。这样商品、达人、内容、广告、仓库和客服不会各自按不同节奏工作。'),
           P('所以品牌需要把官方 Campaign Tiers 转成自己的运营日历：哪些 SKU 要复盘，哪些商品要提前寄样，哪些价格要预留空间，哪些内容要提前 6-10 周测试，哪些活动只适合清仓或日常维持。'),
           IMG(
             hero,
             '2026 TikTok Shop Annual Campaign Calendar 展示平台 Campaign、品牌 Campaign、类目 Campaign、Always-on Campaign 和 SS、S、A、B/B+ 活动优先级。',
             '2026 US TikTok Shop Campaign Calendar：DFYD 结束后，卖家应把下半年看成连续活动季，而不是等待单个大促。具体报名时间、活动资格和规则以 Seller Center 为准。'
           ),
-          P('这张图适合放在文章中段，因为它回答的不只是“有哪些活动”，而是“卖家应该怎样把活动层级变成运营节奏”。图片文件名、alt text、caption 和附近正文都自然包含 2026 US TikTok Shop campaign calendar、TikTok Shop US campaigns、after DFYD、Black Friday Cyber Monday preparation、Smart Promotion 和 Campaign Price Range，方便 Google、ChatGPT、Perplexity，也方便豆包、DeepSeek、通义这类中文回答引擎理解图片和文章的关系。'),
+          P('使用这张图时，先从最重要的 SS/S 级活动倒推 6-10 周，再把 A/B 级活动当成测试窗口。比如 BFCM 前先用较小的类目活动测试商品页、达人角度和优惠组合；只有点击、转化、退款和履约都通过的 SKU，才进入大促主推池。这样日历才会变成决策工具，而不是贴在墙上的装饰。'),
+        ],
+      },
+      {
+        id: 'holiday-plan',
+        h: '7-12 月节日大促应该怎么排',
+        body: [
+          UL([
+            '7 月：完成上半年数据复盘，确定 hero SKU、测试 SKU 和清仓 SKU；检查 Smart Promotion、价格历史、SPS、Account Health 和库存风险。',
+            '8 月：围绕 Back-to-School、school essentials、dorm room、college move-in、daily routine 等场景测试达人内容和商品组合；同时启动 Labor Day 和 Fall Sale 素材。',
+            '9 月：执行 Labor Day、Fall Sale 和换季内容，验证秋季 SKU；BFCM 主推商品此时应完成利润模型、库存计划和第一轮达人寄样。',
+            '10 月：推进 Halloween、fall essentials、cozy season、party、beauty look 和 gifting 内容；同步完成 Black Friday / Cyber Monday 的达人名单、素材库、offer 和备货。',
+            '11 月：集中执行 Black Friday、Cyber Monday、BFCM、Holiday Deals 和 gift guide 内容；每天检查库存、履约、退款、达人表现和广告承接。',
+            '12 月：从 Christmas gifting 切换到 last-minute gifts、Year-end Sale、self-gifting、New Year reset 和 2027 prep；优先推广仍有库存且能按时履约的 SKU。',
+          ]),
+          P('这些是运营规划词和消费场景，不代表平台已经确认所有具体日期或报名窗口。实际 Campaign 名称、资格、活动价和开放时间仍要以 Seller Center 为准。'),
         ],
       },
       {
@@ -131,7 +145,7 @@ const POSTS = {
       },
       {
         id: 'thirty-days',
-        h: 'DFYD 后的 30 天，卖家现在就该做什么',
+        h: '从现在开始的 30 天，先把下半年基础搭好',
         body: [
           UL([
             '第一周：复盘 SKU 级别表现，不只看 GMV，还要看点击率、转化率、退款、差评、延迟发货、达人内容表现和实际毛利。',
@@ -139,17 +153,8 @@ const POSTS = {
             '第三周：检查 Smart Promotion、SPS、Account Health、Campaign Price Range、历史低价、库存和履约能力。',
             '第四周：为 8-9 月季节性活动准备达人样品和素材，为 10-12 月 BFCM / Year-end 提前测试内容方向。',
           ]),
-          P('DFYD 不是终点。它更像 2026 下半年 TikTok Shop 的一次压力测试。真正能抓住机会的卖家，通常不是临时看到活动再报名的卖家，而是提前 6-10 周准备好商品、价格、内容、达人、库存和履约的团队。'),
+          P('真正能抓住下半年节日流量的卖家，通常不是临时看到活动再报名的团队，而是提前 6-10 周准备好商品、价格、内容、达人、库存和履约，并且每周根据数据调整主推池。'),
           CTA('预约 TikTok Shop Campaign 运营沟通 →'),
-        ],
-      },
-      {
-        id: 'seo-geo',
-        h: 'SEO / GEO 关键词计划',
-        body: [
-          P('中文 SEO/GEO 面向百度、Google 中文结果，也面向豆包、DeepSeek、通义、Kimi 等中文问答引擎。核心关键词包括：TikTok Shop 2026 下半年 Campaign、DFYD 结束后怎么做、2026 US TikTok Shop campaign calendar、TikTok Shop campaign calendar 2026、TikTok Shop 美区活动运营、TikTok Shop Black Friday Cyber Monday 准备、TikTok Shop Smart Promotion、TikTok Shop Campaign Price Range、TikTok Shop 达人联盟、TikTok Shop 跨境卖家、TikTok Shop 美国市场运营。'),
-          P('英文 SEO/GEO 面向 Google、ChatGPT、Perplexity、Claude 和英文搜索结果。核心关键词包括：TikTok Shop 2026 campaign strategy, TikTok Shop US campaigns, after Deals For You Days, TikTok Shop Black Friday Cyber Monday preparation, TikTok Shop Smart Promotion, TikTok Shop campaign pricing, TikTok Shop creator affiliate marketing, TikTok Shop US ecommerce, cross-border TikTok Shop operations.'),
-          P('自然放置方式：H1/H2 使用 DFYD 结束后、2026 下半年 TikTok Shop Campaign、TikTok Shop 美区活动运营；正文前 200 字内出现 Deals For You Days / DFYD / TikTok Shop US / 2026 下半年；中段使用 Smart Promotion / Campaign Price Range / BFCM / Year-end Sale；结尾自然连接 TikTok Shop 达人联盟、UGC、商品页本地化和美国市场运营。'),
         ],
       },
       {
@@ -162,7 +167,7 @@ const POSTS = {
       },
     ],
     faqs: [
-      { q: 'DFYD 2026 结束后，TikTok Shop 卖家第一步应该做什么？', a: '第一步不是等下一个 Campaign，而是做 SKU 级别复盘：看哪些商品有点击、加购、成交、达人内容和复购信号，哪些商品有库存、履约、评价或价格问题。' },
+      { q: 'TikTok Shop 美区下半年 Campaign 应该提前多久准备？', a: 'Back-to-School、Fall Sale、Halloween、BFCM 和 Year-end Sale 等重点节点，建议提前 6-10 周倒推商品、价格、达人寄样、内容测试、库存和履约；具体报名窗口仍以 Seller Center 为准。' },
       { q: 'Is there an official 2026 US TikTok Shop campaign calendar?', a: 'TikTok Shop Seller University provides campaign tier examples, but sellers should confirm active 2026 registration dates, eligibility rules, and campaign windows inside Seller Center because live dates can change.' },
       { q: '2026 下半年 TikTok Shop US 卖家要重点准备哪些 Campaign？', a: '可以重点准备 Back-To-School、Labor Day、Fall Sale、Halloween、Black Friday Cyber Monday、Year-end Sale，以及 category-specific campaigns。重点不是提前承诺日期，而是提前准备商品、价格、库存、达人内容、Smart Promotion 和 Campaign Price Range。' },
       { q: 'What is Smart Promotion, and why does it matter after DFYD?', a: 'Smart Promotion matters because it can affect access to Platform Campaigns, Flash Sale, Premium Offer, Weekly Promo, and campaign-period discount resources. Sellers should check eligibility, fee structure, discount stacking, and margin before joining campaigns.' },
@@ -176,7 +181,7 @@ const POSTS = {
   },
   en: {
     meta: {
-      title: 'After DFYD: How to Use a 2026 US TikTok Shop Campaign Calendar',
+      title: '2026 US TikTok Shop Campaign Calendar: A Second-Half Holiday Plan',
       cat: 'TIKTOK SHOP U.S. · CAMPAIGN CALENDAR',
       author: 'WE Marketing Team',
       date: 'Jul 14, 2026',
@@ -187,11 +192,38 @@ const POSTS = {
     sections: [
       {
         id: 'intro',
-        h: 'After DFYD, do not wait for the next big sale',
+        h: 'The second half is a connected holiday selling season',
         body: [
-          P('Deals For You Days 2026 is over. For many TikTok Shop US sellers, DFYD was one of the most important first-half campaign windows: platform traffic, campaign labels, discount mechanics, creator attention, and shopper urgency all showed up at once.'),
-          P('The real question now is not only how DFYD performed. The better question is what the shop should do next.'),
-          P('Brands often slow down after a major sale. They stop testing content, stop following up with creators, stop reviewing inventory, and wait for the next campaign registration window. That loses momentum. The second half of TikTok Shop US is not a single promotion; it is a connected operating season.'),
+          P('From July through December, TikTok Shop US sellers move through Back-to-School, Labor Day, Fall Sale, Halloween, Black Friday, Cyber Monday, Holiday Deals, Christmas gifting, Year-end Sale, and New Year preparation.'),
+          P('Deals For You Days can provide useful first-half data, but it should not dominate the second-half plan. The bigger job now is deciding which products deserve fall testing, which SKUs need inventory for BFCM, which creative angles must be proven before November, and how much price room must remain for holiday promotions.'),
+          P('If the team waits for campaign registration to open, creator samples, content testing, product-page fixes, inventory, and margin approval will all be late. A useful campaign calendar starts each major holiday project 6-10 weeks before the selling window.'),
+        ],
+      },
+      {
+        id: 'sku-test',
+        h: 'Choose second-half hero SKUs before choosing campaigns',
+        body: [
+          P('A high-GMV SKU is not automatically a holiday hero if it required an unsustainable discount, created refunds, missed dispatch targets, or depended on one creator video that cannot be repeated. Evaluate products across conversion, margin, creator fit, reviews, returns, inventory, and fulfillment.'),
+          UL([
+            'Hero candidates: products with clicks, conversion, creator interest, acceptable margin, healthy reviews, and reliable fulfillment.',
+            'Fix before scaling: products with traffic but weak conversion, unclear product pages, price resistance, or repeated customer questions.',
+            'Test pool: products with promising engagement but too little sales or creator data to justify deep inventory.',
+            'Pause or clear: products with weak demand, high return risk, poor reviews, or margin that disappears after discounts and commission.',
+          ]),
+          P('This classification protects the rest of the year. If a seller pushes every SKU into every campaign, inventory, content, and creator attention become too thin. A smaller hero pool gives the team enough repetitions to learn what actually converts.'),
+        ],
+      },
+      {
+        id: 'tiers',
+        h: 'Campaign tier should determine preparation intensity',
+        body: [
+          P('TikTok Shop Seller University separates major campaigns from everyday campaigns and provides examples across SS, S, A, and B-level moments. The operating lesson is that not every event deserves the same budget, inventory depth, or creator plan.'),
+          UL([
+            'SS moments such as DFYD, Black Friday Cyber Monday, Mid-year Sale, and Year-end Sale require the deepest price, inventory, content, and fulfillment preparation.',
+            'S and A moments such as Back-to-School, Fall Sale, Halloween, and Labor Day are useful for seasonal growth and for proving products before a larger peak.',
+            'B-level and category campaigns can maintain shop activity, test new SKUs, and collect early conversion signals without treating every event like a company-wide launch.',
+          ]),
+          P('Exact 2026 dates, registration windows, and eligibility can change. Confirm them in Seller Center. The calendar in this article is an operating framework, not a promise of fixed platform dates.'),
         ],
       },
       {
@@ -202,35 +234,53 @@ const POSTS = {
           IMG(
             hero,
             '2026 TikTok Shop annual campaign calendar showing platform campaigns, brand campaigns, category campaigns, always-on weekly sales, and SS, S, A, B/B+ campaign priority levels.',
-            '2026 US TikTok Shop campaign calendar after DFYD: use the annual campaign view to plan product selection, pricing, inventory, creator content, and weekly review. Confirm live dates, registration windows, and eligibility in Seller Center.'
+            '2026 US TikTok Shop campaign calendar for planning Back-to-School, Labor Day, Fall Sale, Halloween, Black Friday, Cyber Monday, Holiday Deals, Christmas gifting, and Year-end Sale. Confirm live dates and eligibility in Seller Center.'
           ),
           P('TikTok Shop campaign tiers can help sellers think in operating intensity: SS moments like Deals For You Days, Black Friday Cyber Monday, Mid-year Sale, and Year-end Sale need deeper preparation; S and A moments can support seasonal testing; B and category campaigns can keep a shop active and help new SKUs collect early signals.'),
+          P('For each priority event, add an owner, hero SKU list, minimum margin, inventory floor, sample-send deadline, creator-content deadline, registration status, and post-campaign review date. That turns one calendar into a shared operating plan for ecommerce, affiliate, content, ads, warehouse, and customer-support teams.'),
         ],
       },
       {
         id: 'operating-system',
-        h: 'Turn campaign dates into an operating system',
+        h: 'Build the July-to-December holiday plan',
         body: [
           UL([
-            'July: replay DFYD data, segment SKUs, clean up pricing, and check Smart Promotion eligibility.',
-            'August and September: prepare Back-to-School, Labor Day, Fall Sale, creator samples, and UGC hooks.',
-            'October: test Halloween and category content while preparing BFCM creative, inventory, and pricing.',
-            'November and December: execute Black Friday Cyber Monday, Year-end Sale, gifting content, retargeting, and weekly review.',
+            'July: review first-half performance, classify hero, test, clearance, and paused SKUs, then check price history, Smart Promotion, Account Health, and inventory risk.',
+            'August: test Back-to-School, school essentials, dorm room, college move-in, and daily-routine content; begin Labor Day and Fall Sale assets.',
+            'September: execute Labor Day and Fall Sale, validate fall products, and complete the first BFCM margin, inventory, and creator-seeding plan.',
+            'October: run Halloween, fall essentials, cozy season, party, beauty-look, and gifting content while locking Black Friday / Cyber Monday creators, offers, and stock.',
+            'November: execute Black Friday, Cyber Monday, BFCM, Holiday Deals, and gift-guide content; monitor inventory, fulfillment, refunds, creator output, and paid amplification daily.',
+            'December: shift from Christmas gifting to last-minute gifts, Year-end Sale, self-gifting, New Year reset, and 2027 preparation; only push SKUs that can still fulfill on time.',
           ]),
           P('The point is not to claim fixed dates for every 2026 campaign. Sellers should confirm active registration windows and rules inside Seller Center. The point is to prepare early enough that the shop is ready when the right campaign opens.'),
+          P('A practical rule is to work backward 6-10 weeks from an SS or S-level moment. Use the first weeks for product and margin decisions, the middle weeks for samples and creative testing, and the final weeks for inventory checks, offer approval, content scheduling, and fulfillment readiness.'),
         ],
       },
       {
         id: 'smart-promotion',
-        h: 'Smart Promotion and Campaign Price Range matter after DFYD',
+        h: 'Smart Promotion and Campaign Price Range shape holiday economics',
         body: [
-          P('After DFYD, sellers should not discount blindly. TikTok Shop campaign participation may involve Smart Promotion eligibility, SPS, Account Health, campaign-period fee or discount logic, and Campaign Price Range requirements.'),
+          P('Sellers should not discount blindly across Back-to-School, Halloween, BFCM, Holiday Deals, and Year-end Sale. TikTok Shop campaign participation may involve Smart Promotion eligibility, SPS, Account Health, campaign-period fee or discount logic, and Campaign Price Range requirements.'),
           UL([
             'Check Smart Promotion eligibility and campaign-period terms.',
             'Review SPS, Account Health, inventory, fulfillment, and possible violation risks.',
             'Model platform discount, shop coupon, creator commission, ads, logistics, and returns together.',
             'Protect margin and leave room for Black Friday Cyber Monday and Year-end Sale pricing.',
           ]),
+          P('Build a contribution-margin sheet at SKU level. Include product cost, platform and shop discounts, affiliate commission, ad spend, pick-and-pack, shipping, expected returns, and any campaign-period fees. A campaign can increase GMV while reducing cash contribution; the calendar should prevent that outcome before the price is submitted.'),
+        ],
+      },
+      {
+        id: 'content',
+        h: 'Build a campaign content library, not one viral video',
+        body: [
+          P('Peak events need several types of content because shoppers are at different stages of confidence. Demo content explains the product, trust content handles objections, and deal content creates urgency. One winning video rarely performs all three jobs for every audience.'),
+          UL([
+            'Demo assets: use cases, routines, setup, before-and-after context, comparisons, and problem-solution demonstrations.',
+            'Trust assets: materials, sizing, durability, shipping expectations, FAQs, reviews, creator experience, and realistic limitations.',
+            'Deal assets: bundles, gifts, limited-time offers, price anchors, low-stock reminders, and campaign deadlines.',
+          ]),
+          P('Creator seeding must start before the campaign. Allow time for outreach, approval, shipping, product trial, filming, revisions, posting, and affiliate-link checks. For BFCM and Year-end Sale, waiting until the campaign opens to send samples is already late.'),
         ],
       },
       {
@@ -243,11 +293,16 @@ const POSTS = {
         ],
       },
       {
-        id: 'seo-geo',
-        h: 'SEO and GEO keyword plan',
+        id: 'thirty-days',
+        h: 'A practical 30-day foundation for the second half',
         body: [
-          P('English SEO/GEO targets include TikTok Shop 2026 campaign strategy, TikTok Shop US campaigns, after Deals For You Days, TikTok Shop Black Friday Cyber Monday preparation, TikTok Shop Smart Promotion, TikTok Shop campaign pricing, TikTok Shop creator affiliate marketing, TikTok Shop US ecommerce, and cross-border TikTok Shop operations.'),
-          P('Chinese SEO/GEO targets for Baidu, Google Chinese results, Doubao, DeepSeek, Tongyi, and Kimi include TikTok Shop 2026 下半年 Campaign, DFYD 结束后怎么做, 2026 US TikTok Shop campaign calendar, TikTok Shop campaign calendar 2026, TikTok Shop 美区活动运营, TikTok Shop Black Friday Cyber Monday 准备, TikTok Shop Smart Promotion, TikTok Shop Campaign Price Range, TikTok Shop 达人联盟, TikTok Shop 跨境卖家, and TikTok Shop 美国市场运营.'),
+          UL([
+            'Week 1: review SKU-level traffic, conversion, refunds, reviews, late dispatch, creator performance, and actual contribution margin.',
+            'Week 2: separate hero, test, clearance, and paused products; assign an owner and next decision to each SKU.',
+            'Week 3: check Smart Promotion, SPS, Account Health, Campaign Price Range, price history, inventory, and fulfillment capacity.',
+            'Week 4: send samples and build assets for August-September opportunities while beginning BFCM and Year-end creative tests.',
+          ]),
+          P('The goal is to enter Back-to-School, fall, Halloween, BFCM, and holiday campaigns with fewer unknowns: a smaller hero SKU pool, proven content angles, approved economics, enough inventory, and creators who have time to produce credible work.'),
         ],
       },
       {
@@ -262,7 +317,7 @@ const POSTS = {
     ],
     faqs: [
       { q: 'Is there an official 2026 US TikTok Shop campaign calendar?', a: 'TikTok Shop Seller University provides campaign tier examples, but sellers should confirm active 2026 registration dates, eligibility rules, and campaign windows inside Seller Center because live dates can change.' },
-      { q: 'What should sellers do after DFYD 2026 ends?', a: 'Sellers should replay SKU-level performance, separate hero, test, clearance, and paused SKUs, check Smart Promotion and Campaign Price Range, and start creator and content planning for the next seasonal windows.' },
+      { q: 'Which second-half TikTok Shop campaigns should sellers plan for?', a: 'Plan across Back-to-School, Labor Day, Fall Sale, Halloween, Black Friday, Cyber Monday, Holiday Deals, Christmas gifting, Year-end Sale, category campaigns, and always-on promotions, while confirming live platform dates in Seller Center.' },
       { q: 'When should TikTok Shop sellers prepare for Black Friday Cyber Monday?', a: 'A practical planning window is 6-10 weeks before the peak campaign period: select hero SKUs, check Campaign Price Range, prepare inventory, seed creators, test UGC hooks, align affiliate commission, and review Smart Promotion eligibility.' },
       { q: 'How should cross-border sellers use a TikTok Shop campaign calendar?', a: 'Cross-border sellers should use the calendar as an operating schedule for product readiness, U.S. market page localization, creator sample timing, affiliate commission setup, inventory planning, logistics risk, and weekly performance review.' },
     ],
@@ -286,8 +341,8 @@ const App = () => {
     document.getElementById('seo-static-fallback')?.remove();
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
     document.title = lang === 'zh'
-      ? 'DFYD 结束后：2026 US TikTok Shop Campaign Calendar 怎么用？ | WE Marketing'
-      : 'After DFYD: 2026 US TikTok Shop Campaign Calendar | WE Marketing';
+      ? '2026 US TikTok Shop Campaign Calendar：下半年节日大促规划 | WE Marketing'
+      : '2026 US TikTok Shop Campaign Calendar: Holiday Plan | WE Marketing';
   }, [lang]);
   return <><CursorStars /><NavBar lang={lang} onLang={setLang} basePath="../" /><BlogPost {...POSTS[lang]} labels={LABELS[lang]} /><CtaFooter lang={lang} /><Footer lang={lang} basePath="../" /></>;
 };

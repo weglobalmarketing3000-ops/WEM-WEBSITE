@@ -3,8 +3,8 @@ const BLOG_POSTS = [
   {
     slug: '2026-us-tiktok-shop-campaign-calendar-after-dfyd',
     cat: { en: 'TIKTOK SHOP U.S. · CAMPAIGN CALENDAR', zh: 'TIKTOK SHOP 美区 · CAMPAIGN CALENDAR' },
-    title: { en: 'After DFYD: How to Use a 2026 US TikTok Shop Campaign Calendar', zh: 'DFYD 结束后：2026 US TikTok Shop Campaign Calendar 怎么用？' },
-    excerpt: { en: 'Use the 2026 TikTok Shop campaign calendar to plan product selection, Smart Promotion, Campaign Price Range, creator content, inventory, and BFCM readiness after Deals For You Days.', zh: 'DFYD 结束不是活动结束，而是 2026 US TikTok Shop Campaign Calendar 的下半场开始。卖家要把复盘变成 7-12 月的商品、价格、库存、达人和内容计划。' },
+    title: { en: '2026 US TikTok Shop Campaign Calendar: A Second-Half Holiday Plan', zh: '2026 US TikTok Shop Campaign Calendar：下半年节日大促怎么规划' },
+    excerpt: { en: 'Plan Back-to-School, Labor Day, Fall Sale, Halloween, Black Friday, Cyber Monday, Holiday Deals, Christmas gifting, and Year-end Sale across products, pricing, creators, content, inventory, and fulfillment.', zh: '从 Back-to-School、Labor Day、Fall Sale、Halloween 到 Black Friday、Cyber Monday、Holiday Deals、Christmas 和 Year-end Sale，提前安排商品、价格、达人、内容、库存与履约。' },
     date: { en: 'Jul 14, 2026', zh: '2026 年 7 月 14 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
     image: 'hero-2026-us-tiktok-shop-campaign-calendar-after-dfyd.png',
   },
