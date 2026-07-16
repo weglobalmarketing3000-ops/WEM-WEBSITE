@@ -30,7 +30,7 @@ const BLOG_POSTS = [
     title: { en: 'TikTok Shop AIGC Auto-post: Why It Matters and How Brands Should Use It', zh: 'TikTok Shop AIGC Auto-post 为什么重要以及品牌怎么用' },
     excerpt: { en: 'A forward-looking WEM guide to TikTok Shop Auto-post, AI photos, AI-generated videos, Scheduled Posts review, account control, and paid amplification strategy.', zh: 'WEM 拆解 TikTok Shop AIGC Auto-post：AI 图文和短视频自动发布为什么重要，以及品牌怎么管理商品池、审核队列、账号授权和广告放大。' },
     date: { en: 'Jun 19, 2026', zh: '2026 年 6 月 19 日' }, read: { en: '11 min read', zh: '11 分钟阅读' },
-    image: 'hero-tiktok-shop-aigc-auto-post-strategy.svg',
+    image: 'hero-tiktok-shop-aigc-auto-post-strategy.png',
   },
   {
     slug: 'tiktok-shop-us-new-seller-growth-strategy',

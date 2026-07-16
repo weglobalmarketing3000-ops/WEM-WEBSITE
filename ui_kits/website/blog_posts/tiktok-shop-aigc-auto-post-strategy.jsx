@@ -17,7 +17,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: 'Jun 19, 2026',
       read: '11 min read',
-      heroImage: 'hero-tiktok-shop-aigc-auto-post-strategy.svg',
+      heroImage: 'hero-tiktok-shop-aigc-auto-post-strategy.png',
       heroAlt: 'TikTok Shop AIGC Auto-post content supply chain from product inputs to review and paid amplification',
     },
     sections: [
@@ -138,7 +138,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: '2026 年 6 月 19 日',
       read: '11 分钟阅读',
-      heroImage: 'hero-tiktok-shop-aigc-auto-post-strategy.svg',
+      heroImage: 'hero-tiktok-shop-aigc-auto-post-strategy.png',
       heroAlt: 'TikTok Shop AIGC Auto-post 从商品输入到审核和广告放大的内容供应链',
     },
     sections: [
