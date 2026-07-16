@@ -32,6 +32,8 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for brands starting from zero and needing setup, creator seeding, early content, first orders, and scale.',
           handles: ['Shop setup, product listing structure, product SEO, and launch roadmap', 'First creator seeding wave, affiliate setup, and sample workflow', 'Testing product angles, offers, commissions, creator types, and content formats', 'Building early content, orders, reviews, and sales signals', 'Identifying what can scale after the first creator and content signals are clear'],
           model: 'Monthly retainer plus GMV commission. Usually scoped around the first 60 to 90 days.',
+          href: 'services/cold-start.html',
+          cta: 'See cold-start program',
           workHref: 'showcase.html#case-fashion-cold-start',
         },
         {
@@ -147,6 +149,18 @@ const ServicesOverview = ({ lang }) => {
         h: 'Not sure which service fits?',
         p: 'Tell us where your TikTok Shop program is stuck. We will help you choose the right starting point instead of selling you services you do not need.',
       },
+      faq: {
+        eyebrow: 'SELLER & BRAND FAQ',
+        h: 'Choosing the right TikTok Shop support',
+        items: [
+          { q: 'Which WEM service is best for a brand starting TikTok Shop from zero?', a: 'Cold Start Launch is designed for brands that need shop setup, product-page readiness, affiliate setup, an initial creator seeding wave, early content, first orders, and a plan for the first 60 to 90 days. Full-Service Management is the better fit when WEM will continue running shop operations, creators, content, live selling, and reporting together.' },
+          { q: 'Can WEM manage only creator affiliates if our team already runs the shop?', a: 'Yes. Creator Affiliate Management can operate as a hybrid model. Your team keeps control of shop operations while WEM handles creator sourcing, Affiliate Center activity, outreach, commissions, samples, posting follow-up, briefs, content review, and weekly affiliate reporting.' },
+          { q: 'What should a seller or brand prepare before working with WEM?', a: 'Brands should have U.S. inventory or a realistic fulfillment plan, accurate product and claim information, sample capacity, workable margins, a conversion-ready product page, decision-makers who can respond quickly, and clear launch or growth priorities. WEM can help identify and close readiness gaps.' },
+          { q: 'How does WEM price TikTok Shop services?', a: 'Pricing depends on scope. Full-service and affiliate-management programs generally use a monthly retainer plus a performance component. UGC and short-video work can use package pricing, while consulting can be a one-time audit, strategy engagement, or ongoing advisory relationship.' },
+          { q: 'How does WEM use its creator community for brands?', a: 'WEM uses its creator community as an activation and relationship layer, not simply a contact list. It supports category matching, opportunity communication, product education, sample follow-up, creator questions, content feedback, repeat partnerships, and new-product launch coordination.' },
+          { q: 'Which results does WEM track for brands and sellers?', a: 'The measurement plan depends on the engagement, but it can include GMV, orders, conversion, shop health, creator response, sample delivery-to-post rate, content output, usable creative, live performance, affiliate efficiency, blockers, and the next weekly actions.' },
+        ],
+      },
     },
     zh: {
       hero: {
@@ -177,6 +191,8 @@ const ServicesOverview = ({ lang }) => {
           best: '适合从 0 开始的品牌。很多 agency 更愿意接已经有销量的店铺，但 WEM 做过很多 0 到 1 冷启动，从 setup 到 creator seeding、内容测试、早期订单，再到 scale。',
           handles: ['开店、商品页结构、商品 SEO 和启动路线图', '首批达人寄样、联盟设置和样品流程', '测试卖点、佣金、活动、达人类型和内容形式', '积累早期内容、订单、评价和销售信号', '判断哪些达人、内容和活动机制可以继续放大'],
           model: '月费加 GMV 提成。通常按前 60 到 90 天规划，跑出信号后可以继续进入全案代运营。',
+          href: 'services/cold-start.html',
+          cta: '查看冷启动方案',
           workHref: 'showcase.html#case-fashion-cold-start',
         },
         {
@@ -292,9 +308,22 @@ const ServicesOverview = ({ lang }) => {
         h: '不确定从哪个服务开始？',
         p: '告诉我们你的 TikTok Shop 现在卡在哪里。我们会帮你判断优先级，不会让你一开始就买不需要的服务。',
       },
+      faq: {
+        eyebrow: 'SELLER / BRAND 常见问题',
+        h: '品牌怎么选择合适的 TikTok Shop 服务',
+        items: [
+          { q: '品牌从 0 开始做 TikTok Shop，应该选哪项服务？', a: '冷启动服务适合需要开店、商品页准备、联盟设置、首批达人寄样、早期内容、第一批订单和前 60 到 90 天路线图的品牌。如果希望 WEM 后续继续统一管理店铺、达人、内容、直播和数据，全案代运营更合适。' },
+          { q: '如果我们自己管店铺，WEM 可以只做达人联盟吗？', a: '可以。达人联盟运营可以采用 hybrid 模式：品牌团队继续管店铺，WEM 负责达人筛选、Affiliate Center、邀约、佣金、寄样、发布跟进、brief、内容审核和每周达人数据复盘。' },
+          { q: 'Seller 或品牌合作前需要准备什么？', a: '建议准备美国库存或可执行的履约方案、准确的产品和 claim 信息、寄样能力、合理利润空间、能转化的商品页、可以快速决策的负责人，以及明确的 launch 或增长优先级。WEM 也可以先帮品牌诊断准备度缺口。' },
+          { q: 'WEM 的 TikTok Shop 服务怎么收费？', a: '收费根据服务范围确定。全案代运营和达人联盟通常是月费加效果提成；UGC 和短视频可以按 package；策略咨询可以是单次 audit、专项方案或长期顾问合作。' },
+          { q: 'WEM 怎么用 creator community 帮助品牌？', a: 'WEM 把达人社群当成激活和关系层，而不只是一份名单。它支持品类匹配、机会沟通、产品教育、寄样跟进、达人问题、内容反馈、复合作和新品 launch 协同。' },
+          { q: 'WEM 会为品牌跟踪哪些结果？', a: '具体指标取决于合作范围，可以包括 GMV、订单、转化、店铺健康、达人回复、样品签收到发布率、内容产出、可用素材、直播表现、联盟效率、运营卡点和每周下一步动作。' },
+        ],
+      },
     },
   }[lang];
 
+  const [openFaq, setOpenFaq] = React.useState(0);
   const book = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
   React.useEffect(() => {
     const scrollToHash = () => {
@@ -418,6 +447,21 @@ const ServicesOverview = ({ lang }) => {
             width: 100% !important;
             justify-content: center !important;
           }
+          .services-faq {
+            padding: 68px 22px 32px !important;
+          }
+          .services-faq-title {
+            font-size: clamp(34px, 10vw, 48px) !important;
+            line-height: 1.02 !important;
+          }
+          .services-faq-question {
+            padding: 19px 17px !important;
+            font-size: 18px !important;
+          }
+          .services-faq-answer {
+            padding: 0 17px 20px !important;
+            font-size: 15px !important;
+          }
         }
       `}</style>
       <section style={soStyles.hero}>
@@ -495,6 +539,24 @@ const ServicesOverview = ({ lang }) => {
             </article>
           );
         })}
+      </section>
+
+      <section id="seller-brand-faq" style={soStyles.faq} className="services-faq">
+        <div style={soStyles.faqEye}>{data.faq.eyebrow}</div>
+        <h2 style={soStyles.faqH} className="services-faq-title">{data.faq.h}</h2>
+        <div style={soStyles.faqList}>
+          {data.faq.items.map((item, index) => {
+            const isOpen = openFaq === index;
+            return (
+              <div key={item.q} style={soStyles.faqItem}>
+                <button type="button" aria-expanded={isOpen} onClick={() => setOpenFaq(isOpen ? -1 : index)} style={soStyles.faqQ} className="services-faq-question">
+                  <span>{item.q}</span><span style={{ ...soStyles.faqIcon, transform: isOpen ? 'rotate(45deg)' : 'none' }}>+</span>
+                </button>
+                {isOpen && <div style={soStyles.faqA} className="services-faq-answer">{item.a}</div>}
+              </div>
+            );
+          })}
+        </div>
       </section>
 
       <section style={soStyles.final} className="services-final">
@@ -845,6 +907,14 @@ const soStyles = {
   shortVideoExampleCard: { border: '1px solid', borderRadius: 14, padding: '18px 18px 17px', background: 'linear-gradient(145deg, rgba(255,255,255,.055), rgba(255,255,255,.018))' },
   shortVideoExampleTitle: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 24, lineHeight: 1, textTransform: 'uppercase' },
   shortVideoExampleBody: { fontFamily: 'var(--font-sans)', fontSize: 14, lineHeight: 1.5, color: 'rgba(255,255,255,.66)', margin: '10px 0 0' },
+  faq: { maxWidth: 980, margin: '0 auto', padding: '88px 32px 40px' },
+  faqEye: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.18em', color: '#FF1493', textTransform: 'uppercase', fontWeight: 800, marginBottom: 16 },
+  faqH: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(38px, 5vw, 64px)', lineHeight: 1, textTransform: 'uppercase', margin: '0 0 30px' },
+  faqList: { display: 'grid', gap: 12 },
+  faqItem: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.1)', borderRadius: 14, overflow: 'hidden' },
+  faqQ: { width: '100%', border: 0, background: 'transparent', color: '#fff', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 20, padding: '22px 24px', fontFamily: 'var(--font-sans)', fontSize: 19, lineHeight: 1.35, fontWeight: 850, textAlign: 'left', cursor: 'pointer' },
+  faqIcon: { color: '#FF1493', fontSize: 28, lineHeight: .8, flexShrink: 0, transition: 'transform .2s ease' },
+  faqA: { padding: '0 24px 24px', fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.65, color: 'rgba(255,255,255,.76)' },
   final: { margin: '0 auto', maxWidth: 1180, padding: '88px 32px 120px', textAlign: 'center' },
   finalH: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(44px, 6vw, 86px)', lineHeight: .98, textTransform: 'uppercase', margin: 0 },
   finalP: { fontFamily: 'var(--font-sans)', fontSize: 19, lineHeight: 1.55, color: 'rgba(255,255,255,.76)', maxWidth: 680, margin: '24px auto 34px' },
