@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-creator-matchmaking-playbook',
+    cat: { en: 'TIKTOK SHOP U.S. · CREATOR MATCHING', zh: 'TIKTOK SHOP 美国 · 达人匹配' },
+    title: { en: 'TikTok Shop Creator Matchmaking: How Brands Should Match Products With the Right Creators', zh: 'TikTok Shop 达人 Matchmaking 怎么做？品牌需要的不只是“找达人”' },
+    excerpt: { en: 'A practical creator matching SOP for TikTok Shop brands: hero SKUs, Open vs Target Collaboration, samples, refundable samples, creator briefs, outreach acceptance, and weekly review.', zh: 'TikTok Shop 达人匹配不是找更多达人。品牌要把 Hero SKU、Open / Target Collaboration、样品、Refundable Sample、达人筛选、brief 和邀约接受率复盘连成系统。' },
+    date: { en: 'Jul 16, 2026', zh: '2026 年 7 月 16 日' }, read: { en: '11 min read', zh: '11 分钟阅读' },
+    image: 'hero-tiktok-shop-creator-matchmaking-playbook.png',
+  },
+  {
     slug: '2026-us-tiktok-shop-campaign-calendar-after-dfyd',
     cat: { en: 'TIKTOK SHOP U.S. · CAMPAIGN CALENDAR', zh: 'TIKTOK SHOP 美区 · CAMPAIGN CALENDAR' },
     title: { en: '2026 US TikTok Shop Campaign Calendar: A Second-Half Holiday Plan', zh: '2026 US TikTok Shop Campaign Calendar：下半年节日大促怎么规划' },
