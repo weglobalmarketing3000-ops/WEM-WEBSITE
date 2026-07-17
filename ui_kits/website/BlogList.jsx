@@ -38,7 +38,7 @@ const BLOG_POSTS = [
     title: { en: 'TikTok Shop US New Seller Growth Strategy: Pick One Growth Path Before You Try Everything', zh: 'TikTok Shop 美区新卖家增长打法：内容、达人、活动和 GMV Max 应该怎么排顺序' },
     excerpt: { en: 'A practical WEM framework for new TikTok Shop US sellers deciding when to start with short video, livestream, creator collaboration, campaigns, and Product GMV Max.', zh: 'WEM 拆解 TikTok Shop 美区新卖家该怎么给短视频、自播、达人合作、平台活动和 GMV Max 排顺序，而不是一上来全部同时做。' },
     date: { en: 'Jun 18, 2026', zh: '2026 年 6 月 18 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
-    image: 'hero-tiktok-shop-us-new-seller-growth-strategy-v2.png',
+    image: 'hero-tiktok-shop-us-new-seller-growth-strategy-v4.png',
   },
   {
     slug: 'tiktok-shop-us-july-4-seasonal-products',
