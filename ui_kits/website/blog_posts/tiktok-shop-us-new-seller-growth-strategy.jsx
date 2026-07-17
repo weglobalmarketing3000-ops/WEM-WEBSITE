@@ -17,7 +17,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: 'Jun 18, 2026',
       read: '10 min read',
-      heroImage: 'hero-tiktok-shop-us-new-seller-growth-strategy-v4.png',
+      heroImage: 'hero-tiktok-shop-us-new-seller-growth-strategy-v5.png',
       heroAlt: 'Small ecommerce team planning TikTok Shop US content, creator outreach, and product launch workflow',
     },
     sections: [
@@ -123,7 +123,7 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: '2026 年 6 月 18 日',
       read: '10 分钟阅读',
-      heroImage: 'hero-tiktok-shop-us-new-seller-growth-strategy-v4.png',
+      heroImage: 'hero-tiktok-shop-us-new-seller-growth-strategy-v5.png',
       heroAlt: '小团队在规划 TikTok Shop 美区内容、达人合作和商品上线流程',
     },
     sections: [
