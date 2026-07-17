@@ -41,7 +41,7 @@ const POSTS = {
         h: 'Start with short video when the product is easy to understand fast',
         body: [
           P('Short video is usually the best first move when a shopper can understand the product in a few seconds. Think visible use, a clear before-and-after use case, a texture or setup worth showing, or a problem that a creator can demonstrate rather than explain for a minute.'),
-          P('Do not launch your full catalog. Start with one or two hero SKUs. The goal is not to post more; it is to learn which product, hook, and proof moment earn clicks—and whether the product page turns those clicks into orders.'),
+          P('Do not launch your full catalog. Start with one or two hero SKUs. The goal is not to post more; it is to learn which product, hook, and proof moment earn clicks, and whether the product page turns those clicks into orders.'),
           UL([
             'Start with one or two hero SKUs, not the whole assortment',
             'Use product angles that can be demonstrated quickly on camera',
@@ -54,7 +54,7 @@ const POSTS = {
         id: 'when-live-makes-sense',
         h: 'Use LIVE when you can answer buying questions in real time',
         body: [
-          P('LIVE is useful when the product needs demonstration, comparison, or trust-building before someone buys. A good host can show the product, answer the questions people keep asking, and make the offer feel clear—not complicated.'),
+          P('LIVE is useful when the product needs demonstration, comparison, or trust-building before someone buys. A good host can show the product, answer the questions people keep asking, and make the offer feel clear, not complicated.'),
           P('For a new shop, do not expect LIVE to create demand by itself. It works better when short videos, creators, or paid traffic are feeding qualified viewers into the room. If there is no traffic plan, unclear pricing, or a weak product page behind the room, LIVE becomes a lot of work without a reliable conversion loop.'),
           P('Treat LIVE as part of the same system as product pages, creator content, offers, and paid amplification. That is how a good session becomes a repeatable sales channel instead of a one-off event.'),
         ],
@@ -75,7 +75,7 @@ const POSTS = {
       },
       {
         id: 'campaigns-as-accelerators',
-        h: 'Use campaigns to amplify readiness—not to rescue a weak launch',
+        h: 'Use campaigns to amplify readiness, not to rescue a weak launch',
         body: [
           P('A campaign can give a new shop more visibility, but it also puts pressure on every weak part of the operation. More traffic will not fix a confusing listing, thin inventory, unclear discount, slow shipping, or an offer nobody wants.'),
           P('Before registering, make sure the product has a real sales reason, campaign stock is protected, the offer is easy to understand, and someone owns customer questions and fulfillment. A useful planning rule is to hold two to three times normal sales volume for campaign SKUs rather than treating campaign inventory like normal inventory.'),
@@ -109,9 +109,9 @@ const POSTS = {
     ],
     faqs: [
       { q: 'What should a new TikTok Shop seller do first?', a: 'Choose one first growth path: short video, LIVE, creator collaboration, or a campaign. Then make the hero product, product page, offer, inventory, and follow-up support that path before adding more channels.' },
-      { q: 'How many products should a new TikTok Shop seller promote first?', a: 'Start with one or two hero SKUs for short video testing. For creator collaboration, choose a small creator-ready group—TikTok Shop guidance recommends three to four flagship products rather than a broad catalog.' },
+      { q: 'How many products should a new TikTok Shop seller promote first?', a: 'Start with one or two hero SKUs for short video testing. For creator collaboration, choose a small creator-ready group. TikTok Shop guidance recommends three to four flagship products rather than a broad catalog.' },
       { q: 'When should a new TikTok Shop seller use Product GMV Max?', a: 'Use Product GMV Max after account linkage is complete and you have authorized product videos, several usable creative options, and a small group of products showing content or conversion potential. Do not use it to cover up a weak listing or offer.' },
-      { q: 'How long should a new seller let GMV Max run before judging it?', a: 'Give a new Product GMV Max campaign at least three days to learn before making a major decision. Review the creative, product page, offer, and conversion signals together—not only ad spend or GMV.' },
+      { q: 'How long should a new seller let GMV Max run before judging it?', a: 'Give a new Product GMV Max campaign at least three days to learn before making a major decision. Review the creative, product page, offer, and conversion signals together, not only ad spend or GMV.' },
       { q: 'Should a new seller join TikTok Shop campaigns right away?', a: 'Join when the product, offer, inventory, listing, and fulfillment are ready. Campaigns can increase exposure, but they cannot repair a weak launch. Protect campaign inventory and prepare customer-service follow-through first.' },
       { q: 'What do creators need before they will promote a new TikTok Shop brand?', a: 'Creators need a clear hero product, a visible affiliate offer, practical commission logic, sample availability, a creator-ready product page, and timely follow-up. More invitations do not help if the collaboration structure is unclear.' },
       { q: 'Can WEM help brands build a TikTok Shop US growth system?', a: 'Yes. WEM helps brands prioritize hero products, structure creator collaboration, coordinate samples and campaigns, connect paid amplification, and run weekly execution reviews across the shop.' },

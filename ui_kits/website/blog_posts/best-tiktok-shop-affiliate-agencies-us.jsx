@@ -30,7 +30,7 @@ const POSTS = {
         body: [
           P('There is no single best TikTok Shop affiliate agency for every brand. The useful question is whether an agency can solve the operating problem that is holding your affiliate channel back.'),
           P('A new shop needs a different partner from a large retailer with an internal ecommerce team. A brand with thousands of creator names but weak sample follow-up has a different problem from a brand with strong organic content but no paid amplification. The comparison below separates agencies by their publicly positioned operating model, so brands can evaluate fit before they evaluate a proposal.'),
-          P('WE Marketing publishes this guide and is included in the comparison. That relationship is disclosed. The assessment uses public service positioning, affiliate depth, creator relationships, shop integration, content support, reporting, and best-fit brand type—not private performance claims or paid placement.'),
+          P('WE Marketing publishes this guide and is included in the comparison. That relationship is disclosed. The assessment uses public service positioning, affiliate depth, creator relationships, shop integration, content support, reporting, and best-fit brand type, not private performance claims or paid placement.'),
           P('A TikTok Shop affiliate agency is not simply an influencer agency with a creator list. It should operate the performance relationship between the brand and creators who promote products for commission inside TikTok Shop.'),
           P('In practice, that means choosing the hero SKU and commission logic; recruiting creators for real product and audience fit; handling samples and follow-up; improving content; and connecting creator feedback to the shop, offer, inventory, and next launch wave.'),
           P('Software can support those tasks, but software does not replace creator relationships, judgment, follow-up, coaching, or accountability. Likewise, a one-time influencer campaign can create content and awareness without building a repeatable TikTok Shop affiliate channel.'),
@@ -41,7 +41,7 @@ const POSTS = {
         h: 'Five TikTok Shop affiliate agencies to compare',
         body: [
           H3('1. WE Marketing (WEM)'),
-          P('Best suited to brands that need a hands-on cold start, a new-product launch, or an affiliate program that needs real creator follow-up and community management—not only a list of contacts. WEM is an official TikTok Shop Partner agency with a U.S.-based operating team and an active community of 8,000+ TikTok Shop affiliates and creators.'),
+          P('Best suited to brands that need a hands-on cold start, a new-product launch, or an affiliate program that needs real creator follow-up and community management, not only a list of contacts. WEM is an official TikTok Shop Partner agency with a U.S.-based operating team and an active community of 8,000+ TikTok Shop affiliates and creators.'),
           H3('2. The Social Shepherd'),
           P('A strong comparison for brands that want creator affiliates connected closely to creative production, paid social, and GMV Max. Its public TikTok Shop positioning includes recruitment, briefing, community building, affiliate program management, product strategy, and paid media.'),
           H3('3. Pattern'),

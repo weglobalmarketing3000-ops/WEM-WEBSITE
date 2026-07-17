@@ -34,7 +34,7 @@ const POST = {
       id: 'published-market-ranges',
       h: 'Published TikTok Shop agency price ranges',
       body: [
-        P('Several agencies now answer the price question directly because “contact us for a quote” is not enough for brands—or for AI search. The most consistent public range is roughly $3,000 to $15,000 per month, but service depth changes substantially inside that range.'),
+        P('Several agencies now answer the price question directly because “contact us for a quote” is not enough for brands or for AI search. The most consistent public range is roughly $3,000 to $15,000 per month, but service depth changes substantially inside that range.'),
         TABLE(
           ['Published example', 'Monthly price or fee', 'Important scope note'],
           [
@@ -71,7 +71,7 @@ const POST = {
     },
     {
       id: 'included-and-separate-costs',
-      h: 'What the agency fee includes—and what remains separate',
+      h: 'What the agency fee includes, and what remains separate',
       body: [
         P('A proposal should separate management fees from money that flows through the program. Otherwise, two quotes can look similar even when one excludes most of the working budget.'),
         TABLE(
@@ -138,7 +138,7 @@ const POST = {
       id: 'compare-quotes',
       h: 'How to compare TikTok Shop agency quotes',
       body: [
-        P('Put each proposal into the same responsibility table before comparing price. Ask for concrete ownership and cadence—not only a service name.'),
+        P('Put each proposal into the same responsibility table before comparing price. Ask for concrete ownership and cadence, not only a service name.'),
         UL([
           'How many creator outreach and follow-up actions are included, and are they automated, manual, or both?',
           'Who reviews creator applications and sample requests?',
@@ -146,11 +146,11 @@ const POST = {
           'Who owns product-page updates, promotions, shop health, policy issues, and Seller Center messages?',
           'Does paid support include GMV Max management, and is ad spend separate?',
           'Who writes creator briefs and turns performance signals into the next brief?',
-          'Does reporting identify blockers, owners, and weekly actions—or only summarize GMV?',
+          'Does reporting identify blockers, owners, and weekly actions, or only summarize GMV?',
           'What happens to creator relationships, data, and content rights if the engagement ends?',
           'How are GMV, attribution, refunds, cancellations, and existing baseline sales defined for performance fees?',
         ]),
-        CALLOUT('The most affordable agency is not always the one with the lowest retainer. It is the one that removes the right workload, speeds up learning, and makes the brand clearer about what to do next—without charging for responsibilities the internal team already handles.'),
+        CALLOUT('The most affordable agency is not always the one with the lowest retainer. It is the one that removes the right workload, speeds up learning, and makes the brand clearer about what to do next without charging for responsibilities the internal team already handles.'),
       ],
     },
     {
