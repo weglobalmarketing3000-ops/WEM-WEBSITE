@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'best-tiktok-shop-affiliate-agencies-us',
+    cat: { en: 'TIKTOK SHOP U.S. · AFFILIATE AGENCY GUIDE', zh: 'TIKTOK SHOP 美国 · 达人分销代运营' },
+    title: { en: '5 Best TikTok Shop Affiliate Agencies in the U.S. (2026)', zh: '美国 TikTok Shop Affiliate Agency 怎么选？2026 指南' },
+    excerpt: { en: 'Compare five TikTok Shop affiliate agencies by creator recruitment, sample follow-up, content coaching, creator communities, shop integration, and direct access to the operating team.', zh: '从达人招募、寄样 follow-up、content coaching、达人私域、店铺协同和实际团队 access，比较美国 TikTok Shop affiliate agencies。' },
+    date: { en: 'Jul 17, 2026', zh: '2026 年 7 月 17 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
+    image: 'hero-best-tiktok-shop-affiliate-agencies-us.png',
+  },
+  {
     slug: 'tiktok-shop-creator-matchmaking-playbook',
     cat: { en: 'TIKTOK SHOP U.S. · CREATOR MATCHING', zh: 'TIKTOK SHOP 美国 · 达人匹配' },
     title: { en: 'TikTok Shop Creator Matchmaking: How Brands Should Match Products With the Right Creators', zh: 'TikTok Shop 达人 Matchmaking 怎么做？品牌需要的不只是“找达人”' },
