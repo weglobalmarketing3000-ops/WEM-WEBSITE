@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This guide uses public TikTok Shop program context and WEM operating experience. It does not publish unverified California market-size claims. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This guide uses public TikTok Shop program context and WEM operating experience. It does not publish unverified California market-size claims. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'california-category-fit',
       h: 'California Category Fit',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("本文参考公开 TikTok Shop 机制和 WEM 运营经验，不写未经验证的加州市场规模。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("本文参考公开 TikTok Shop 机制和 WEM 运营经验，不写未经验证的加州市场规模。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'california-category-fit-zh',
       h: '加州品牌的品类匹配',

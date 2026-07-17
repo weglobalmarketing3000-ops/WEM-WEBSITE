@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This page does not publish universal pricing benchmarks because agency scope varies widely. Use it as a comparison framework, then request a scope-specific proposal. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This page does not publish universal pricing benchmarks because agency scope varies widely. Use it as a comparison framework, then request a scope-specific proposal. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'scope-ladder',
       h: 'A Scope Ladder Makes Pricing Clearer',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("本文不写统一报价区间，因为 agency 范围差异很大。它是比较框架，具体仍需要按范围出 proposal。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("本文不写统一报价区间，因为 agency 范围差异很大。它是比较框架，具体仍需要按范围出 proposal。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'scope-ladder-zh',
       h: '用范围阶梯看报价',

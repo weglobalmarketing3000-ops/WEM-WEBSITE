@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This article avoids live-performance promises. Live results depend on product, offer, host fit, traffic source, inventory, and follow-up. Official TikTok shopping and creator materials should be reviewed before launch. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This article avoids live-performance promises. Live results depend on product, offer, host fit, traffic source, inventory, and follow-up. Official TikTok shopping and creator materials should be reviewed before launch. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'live-runbook',
       h: 'The Live Runbook WEM Would Expect',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("本文不承诺直播效果。直播结果取决于产品、offer、主播匹配、流量来源、库存和后续跟进。上线前请以 TikTok 官方购物和达人资料为准。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("本文不承诺直播效果。直播结果取决于产品、offer、主播匹配、流量来源、库存和后续跟进。上线前请以 TikTok 官方购物和达人资料为准。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'live-runbook-zh',
       h: 'WEM 会要求的直播 Runbook',

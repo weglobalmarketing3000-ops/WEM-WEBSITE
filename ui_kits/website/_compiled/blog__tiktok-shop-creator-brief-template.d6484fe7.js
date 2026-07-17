@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This template is general guidance. Regulated products need category-specific claim review and brand approval before creator publication. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This template is general guidance. Regulated products need category-specific claim review and brand approval before creator publication. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'brief-anatomy',
       h: 'The Anatomy Of A Useful Brief',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("这个模板是通用建议。涉及监管或功效声明的产品，需要按品类做 claim review 和品牌审批。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("这个模板是通用建议。涉及监管或功效声明的产品，需要按品类做 claim review 和品牌审批。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'brief-anatomy-zh',
       h: '一份有用 brief 的结构',

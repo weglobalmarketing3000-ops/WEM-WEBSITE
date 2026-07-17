@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This article is an evergreen agency-selection guide. It does not use private client metrics or unsupported market-size claims. TikTok Shop creator and shopping mechanics should be checked against official TikTok materials before launch decisions. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This article is an evergreen agency-selection guide. It does not use private client metrics or unsupported market-size claims. TikTok Shop creator and shopping mechanics should be checked against official TikTok materials before launch decisions. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'local-operator-playbook',
       h: 'A Practical LA Operator Playbook',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("本文是 evergreen 选 agency 指南，不引用客户私有数据，也不写无法验证的市场规模。TikTok Shop 达人和购物机制请以官方资料为准。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("本文是 evergreen 选 agency 指南，不引用客户私有数据，也不写无法验证的市场规模。TikTok Shop 达人和购物机制请以官方资料为准。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'local-operator-playbook-zh',
       h: '洛杉矶品牌的 90 天运营节奏',

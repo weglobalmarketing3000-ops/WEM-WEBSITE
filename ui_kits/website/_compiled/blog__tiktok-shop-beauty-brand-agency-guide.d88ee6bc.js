@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This page is not medical, legal, or regulatory advice. Beauty and wellness brands should review claims internally before creator publication. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This page is not medical, legal, or regulatory advice. Beauty and wellness brands should review claims internally before creator publication. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'beauty-proof',
       h: 'Beauty Content Needs Visible Proof',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("本文不是医疗、法律或监管建议。美妆和健康相关产品发布达人内容前，应先做内部 claim review。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("本文不是医疗、法律或监管建议。美妆和健康相关产品发布达人内容前，应先做内部 claim review。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'beauty-proof-zh',
       h: '美妆内容需要看得见的证明',

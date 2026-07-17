@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("TikTok Shop affiliate mechanics can change. This page is a WEM operating framework, not legal or platform policy advice. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase. Always confirm current program settings in TikTok Shop materials and Seller Center. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("TikTok Shop affiliate mechanics can change. This page is a WEM operating framework, not legal or platform policy advice. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase. Always confirm current program settings in TikTok Shop materials and Seller Center. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'creator-segments',
       h: 'Creator Segments Need Different Management',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("TikTok Shop 联盟机制可能变化。本文是 WEM 运营框架，不是法律或平台政策建议。具体设置请以 TikTok Shop 官方资料和 Seller Center 为准。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("TikTok Shop 联盟机制可能变化。本文是 WEM 运营框架，不是法律或平台政策建议。具体设置请以 TikTok Shop 官方资料和 Seller Center 为准。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'creator-segments-zh',
       h: '达人要分层管理',

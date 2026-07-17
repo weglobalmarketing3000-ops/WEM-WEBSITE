@@ -60,7 +60,7 @@ const POSTS = {
     }, {
       id: "sources-and-claim-boundary",
       h: "Sources and claim boundary",
-      body: [P("This guide is not a hiring rule. It is a decision framework. Brands should compare cost, speed, internal knowledge, and operational risk before choosing. Sources: TikTok Shop Creator — https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
+      body: [P("This guide is not a hiring rule. It is a decision framework. Brands should compare cost, speed, internal knowledge, and operational risk before choosing. Sources: TikTok Shop Creator: https://business.tiktokshop.com/us/creator; TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase.")]
     }, {
       id: 'hybrid-roles',
       h: 'The Hybrid Model Usually Wins',
@@ -125,7 +125,7 @@ const POSTS = {
     }, {
       id: "来源和事实边界",
       h: "来源和事实边界",
-      body: [P("本文不是招聘规则，而是决策框架。品牌应该综合比较费用、速度、内部认知和运营风险。 来源：TikTok Shop Creator — https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase — https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
+      body: [P("本文不是招聘规则，而是决策框架。品牌应该综合比较费用、速度、内部认知和运营风险。 来源：TikTok Shop Creator: https://business.tiktokshop.com/us/creator；TikTok Shopping and Showcase: https://ads.us.tiktok.com/help/article/tiktok-shopping-and-showcase。")]
     }, {
       id: 'hybrid-roles-zh',
       h: '多数品牌最后会走混合模式',
