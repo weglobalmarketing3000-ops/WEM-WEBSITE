@@ -443,6 +443,20 @@ body.pricing-editorial .bp-section .bp-faq-a {
 }
 .bp-related-link { color: #d80b78 !important; border-bottom-color: #d9d4cc !important; }
 
+/* Blog index stays dark; a clearer rim keeps each image and excerpt in one card. */
+.blog-list-wrap .blog-card {
+  border: 1px solid rgba(255,255,255,.18) !important;
+  box-shadow:
+    0 0 0 1px rgba(255,20,147,.07),
+    0 18px 52px rgba(0,0,0,.34) !important;
+}
+.blog-list-wrap .blog-card:hover {
+  border: 1px solid rgba(255,20,147,.58) !important;
+  box-shadow:
+    0 0 0 1px rgba(255,20,147,.16),
+    0 20px 58px rgba(0,0,0,.42) !important;
+}
+
 @media (max-width: 760px) {
   .bp-header { padding: 36px 0 30px !important; }
   .bp-title { font-size: clamp(36px,10.2vw,48px) !important; line-height: 1.05 !important; }
