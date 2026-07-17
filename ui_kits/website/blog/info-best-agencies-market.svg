@@ -18,31 +18,52 @@
   <circle cx="1120" cy="110" r="260" fill="#ff1493" opacity=".16" filter="url(#glow)"/>
   <circle cx="210" cy="700" r="260" fill="#4A8FFF" opacity=".10" filter="url(#glow)"/>
   <text x="72" y="84" fill="#ff1493" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">MARKET SIGNALS</text>
-  <text x="72" y="146" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="900">Why TikTok Shop agencies became a U.S. category</text>
-  <text x="72" y="190" fill="rgba(255,255,255,.72)" font-family="Arial, Helvetica, sans-serif" font-size="24">Fast platform adoption means brands now need creator recruitment, affiliate ops, shop strategy, and content systems.</text>
-  <g transform="translate(72 270)">
+  <text x="72" y="142" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="900">
+    <tspan x="72" dy="0">Why TikTok Shop agencies became</tspan>
+    <tspan x="72" dy="56">a U.S. category</tspan>
+  </text>
+  <text x="72" y="236" fill="rgba(255,255,255,.72)" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    <tspan x="72" dy="0">Fast platform adoption means brands now need creator recruitment, affiliate operations,</tspan>
+    <tspan x="72" dy="30">shop strategy, and content systems.</tspan>
+  </text>
+  <g transform="translate(72 300)">
     <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
     <text x="28" y="72" fill="#FF1493" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">SEPT 2023</text>
     <text x="28" y="138" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900">U.S. launch</text>
-    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">TikTok Shop officially launches in the United States.</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="19">
+      <tspan x="28" dy="0">TikTok Shop officially</tspan>
+      <tspan x="28" dy="28">launches in the</tspan>
+      <tspan x="28" dy="28">United States.</tspan>
+    </text>
   </g>
-  <g transform="translate(385 270)">
+  <g transform="translate(385 300)">
     <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
     <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900">200K+</text>
     <text x="28" y="138" fill="#ff1493" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">registered sellers</text>
-    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">Reported at U.S. launch by AP.</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="19">
+      <tspan x="28" dy="0">Reported at the U.S.</tspan>
+      <tspan x="28" dy="28">launch by AP.</tspan>
+    </text>
   </g>
-  <g transform="translate(698 270)">
+  <g transform="translate(698 300)">
     <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
     <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900">100K+</text>
     <text x="28" y="138" fill="#4A8FFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">affiliate creators</text>
-    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">Creators already in the affiliate program at launch.</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="19">
+      <tspan x="28" dy="0">Creators already in the</tspan>
+      <tspan x="28" dy="28">affiliate program</tspan>
+      <tspan x="28" dy="28">at launch.</tspan>
+    </text>
   </g>
-  <g transform="translate(1011 270)">
+  <g transform="translate(1011 300)">
     <rect width="285" height="285" rx="24" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
-    <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900">$15.82B</text>
+    <text x="28" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="900">$15.82B</text>
     <text x="28" y="138" fill="#9b30ff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">2025 U.S. sales</text>
-    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="21">eMarketer estimate for TikTok Shop U.S. sales.</text>
+    <text x="28" y="182" fill="rgba(255,255,255,.68)" font-family="Arial, Helvetica, sans-serif" font-size="19">
+      <tspan x="28" dy="0">eMarketer estimate for</tspan>
+      <tspan x="28" dy="28">TikTok Shop U.S.</tspan>
+      <tspan x="28" dy="28">sales.</tspan>
+    </text>
   </g>
   <path d="M105 650 H1295" stroke="url(#hot)" stroke-width="8" stroke-linecap="round"/>
   <circle cx="112" cy="650" r="16" fill="#FF1493"/>
