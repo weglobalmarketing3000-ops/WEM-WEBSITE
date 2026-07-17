@@ -38,19 +38,18 @@ const COPY = {
       name: 'Essentials',
       price: '$60/video',
       note: '100 video minimum = $6,000',
-      features: ['100 videos from ~35 creators', 'High-volume creator formats: product demos, routines, product showing, try-ons, and simple POV content', 'WEM assigns creators and content types', 'Basic editing + captions included', 'Full perpetual usage rights'],
+      features: ['100 videos from 30 creators', 'High-volume creator formats: product demos, routines, product showing, try-ons, and simple POV content', 'WEM assigns creators and content types', 'Basic editing + captions included', 'Full perpetual usage rights'],
       ideal: 'High volume for ad creative testing and cold starts. Maximum content, lowest cost.',
       timeline: '4-6 weeks'
     }, {
       tier: 'select',
       tag: 'QUALITY + CHOICE',
       name: 'Plus',
-      price: '$80/video',
-      note: '50 video minimum = $4,000',
-      features: ['~35 creators produce 70+ directed video options', 'Brand keeps the best 50', 'Brand specifies content types, brief, and product angles', 'Reviews, unboxings, comparisons, problem-solution demos, green-screen explainers, or guided product demos', 'Basic editing + captions included', 'Full perpetual usage rights'],
-      callout: 'Love more than 50? Package pricing available for additional videos. Contact us for more details.',
-      ideal: 'Creative control. See more, keep the best. More involved creator formats than Essentials.',
-      timeline: '4-6 weeks. Brand selects 50 from 70+.'
+      price: '$90/video',
+      note: '50 video minimum = $4,500',
+      features: ['50 directed videos from 30 creators', 'Brand specifies content types, brief, and product angles', 'Reviews, unboxings, comparisons, problem-solution demos, green-screen explainers, or guided product demos', 'Basic editing + captions included', 'Full perpetual usage rights'],
+      ideal: 'Creative control with stronger creator direction and more involved formats than Essentials.',
+      timeline: '4-6 weeks.'
     }, {
       tier: 'premium',
       tag: 'STRUCTURED STORYTELLING',
@@ -66,7 +65,7 @@ const COPY = {
     timeline: 'Timeline:',
     compareTitle: 'Quick compare.',
     compareHeaders: ['Essentials', 'Plus', 'Premium'],
-    compareRows: [['Price / video', '$60', '$80', '$150'], ['Minimum order', '100', '50', '25'], ['Minimum spend', '$6,000', '$4,000', '$3,750'], ['Creators', '~35', '~35', 'Handpicked'], ['Videos delivered', '100', '70+', '25'], ['Videos you keep', '100', '50', '25'], ['Typical format', 'Demos / routines / product showing', 'Reviews / explainers / guided demos', 'Scripted story'], ['Brand picks content type', 'No', 'Yes', 'Yes'], ['Editing + captions', 'Yes', 'Yes', 'Yes'], ['Revisions', 'No', 'No', '1 round'], ['Usage rights', 'Perpetual', 'Perpetual', 'Perpetual']],
+    compareRows: [['Price / video', '$60', '$90', '$150'], ['Minimum order', '100', '50', '25'], ['Minimum spend', '$6,000', '$4,500', '$3,750'], ['Creators', '30', '30', 'Handpicked'], ['Videos delivered', '100', '50', '25'], ['Videos you keep', '100', '50', '25'], ['Typical format', 'Demos / routines / product showing', 'Reviews / explainers / guided demos', 'Scripted story'], ['Brand picks content type', 'No', 'Yes', 'Yes'], ['Editing + captions', 'Yes', 'Yes', 'Yes'], ['Revisions', 'No', 'No', '1 round'], ['Usage rights', 'Perpetual', 'Perpetual', 'Perpetual']],
     customBundle: ['Need a custom bundle or higher volume? ', 'Contact us for discounts.'],
     customCreator: {
       eye: 'CUSTOM CREATOR CAMPAIGNS',
@@ -244,7 +243,7 @@ const COPY = {
     how: {
       titleA: 'How it',
       titleB: 'works.',
-      steps: [['01', 'Choose your package', 'Essentials for volume, Plus for higher-touch formats and choice, Premium for storytelling.'], ['02', 'Submit your brief', 'Product, target audience, content direction. WEM handles creator matching.'], ['03', 'Creators produce content', 'Each creator films multiple videos. WEM manages sampling, briefing, and QA.'], ['04', 'Review and choose (Plus package)', '70+ videos delivered. Pick your best 50. Contact us for add-on pricing.'], ['05', 'Receive final deliverables', 'Edited videos + raw footage via Google Drive. Ready for ads.']]
+      steps: [['01', 'Choose your package', 'Essentials for volume, Plus for more directed formats, Premium for stronger storytelling.'], ['02', 'Submit your brief', 'Share your product, target audience, key angles, and usage needs. WEM turns it into a creator-ready brief.'], ['03', 'WEM matches creators', 'We assign creators and content formats based on package, category fit, language needs, and product angle.'], ['04', 'Creators produce videos', 'Essentials delivers 100 videos from 30 creators. Plus delivers 50 more directed videos from 30 creators.'], ['05', 'Receive final assets', 'Edited videos + raw footage via Google Drive. Ready for ads, listings, and product pages.']]
     },
     final: {
       titleA: 'Ready to get',
@@ -273,19 +272,18 @@ const COPY = {
       name: 'Essentials',
       price: '$60/条',
       note: '100 条起订 = $6,000',
-      features: ['约 35 位达人产出 100 条视频', '适合批量测试的达人自然内容形式：产品演示、routine、产品展示、试用/试穿和简单 POV 内容', 'WEM 负责分配达人、拆内容方向和基础质检', '包含基础剪辑与字幕', '包含长期使用权'],
+      features: ['30 位达人产出 100 条视频', '适合批量测试的达人自然内容形式：产品演示、routine、产品展示、试用/试穿和简单 POV 内容', 'WEM 负责分配达人、拆内容方向和基础质检', '包含基础剪辑与字幕', '包含长期使用权'],
       ideal: '适合冷启动、广告素材池搭建和大批量卖点测试。内容量最大，单条成本最低。',
       timeline: '4 到 6 周'
     }, {
       tier: 'select',
-      tag: '先看后选',
+      tag: '定向内容',
       name: 'Plus',
-      price: '$80/条',
-      note: '50 条起订 = $4,000',
-      features: ['约 35 位达人交付 70+ 条更有方向的视频选项', '品牌从中保留最适合投放的 50 条', '可指定内容类型、卖点方向和拍摄需求', '内容形式更明确：测评、开箱、对比、痛点解决型演示、绿幕讲解或引导式产品演示', '包含基础剪辑与字幕', '包含长期使用权'],
-      callout: '如果想保留超过 50 条，可以按套餐单价加购。',
-      ideal: '适合想控制内容方向，又希望拿到比 Essentials 更复杂内容形式的品牌。',
-      timeline: '4 到 6 周。品牌从 70+ 条中选择 50 条。'
+      price: '$90/条',
+      note: '50 条起订 = $4,500',
+      features: ['30 位达人交付 50 条更有方向的视频', '可指定内容类型、卖点方向和拍摄需求', '内容形式更明确：测评、开箱、对比、痛点解决型演示、绿幕讲解或引导式产品演示', '包含基础剪辑与字幕', '包含长期使用权'],
+      ideal: '适合想控制内容方向，并拿到比 Essentials 更复杂内容形式的品牌。',
+      timeline: '4 到 6 周。'
     }, {
       tier: 'premium',
       tag: '强叙事内容',
@@ -301,7 +299,7 @@ const COPY = {
     timeline: '周期：',
     compareTitle: '快速对比',
     compareHeaders: ['Essentials', 'Plus', 'Premium'],
-    compareRows: [['单条价格', '$60', '$80', '$150'], ['起订数量', '100', '50', '25'], ['最低预算', '$6,000', '$4,000', '$3,750'], ['达人数量', '约 35', '约 35', '精选达人'], ['交付视频', '100', '70+', '25'], ['最终保留', '100', '50', '25'], ['常见形式', '演示 / routine / 产品展示', '测评 / 讲解 / 引导式演示', '脚本化故事'], ['品牌指定内容方向', '不包含', '可以', '可以'], ['剪辑 + 字幕', '包含', '包含', '包含'], ['修改轮次', '不包含', '不包含', '1 轮'], ['使用授权', '永久', '永久', '永久']],
+    compareRows: [['单条价格', '$60', '$90', '$150'], ['起订数量', '100', '50', '25'], ['最低预算', '$6,000', '$4,500', '$3,750'], ['达人数量', '30', '30', '精选达人'], ['交付视频', '100', '50', '25'], ['最终保留', '100', '50', '25'], ['常见形式', '演示 / routine / 产品展示', '测评 / 讲解 / 引导式演示', '脚本化故事'], ['品牌指定内容方向', '不包含', '可以', '可以'], ['剪辑 + 字幕', '包含', '包含', '包含'], ['修改轮次', '不包含', '不包含', '1 轮'], ['使用授权', '永久', '永久', '永久']],
     customBundle: ['需要更大批量或定制内容方向？', '联系我们获取报价。'],
     customCreator: {
       eye: '定制达人合作',
@@ -479,7 +477,7 @@ const COPY = {
     how: {
       titleA: '合作',
       titleB: '流程',
-      steps: [['01', '选择套餐', 'Essentials 适合批量测试，Plus 适合更复杂内容形式和先看后选，Premium 适合重点广告内容。'], ['02', '提交内容需求', '提供产品、目标买家、核心卖点和不能踩的内容红线。WEM 负责匹配达人和拆解内容方向。'], ['03', '达人拍摄内容', '达人按内容要求拍摄多条视频。WEM 管理寄样、沟通、进度和基础质检。'], ['04', '审核并选择', 'Plus 套餐会先交付 70+ 条视频，品牌再选择最终保留的 50 条。需要加购可单独报价。'], ['05', '收到最终内容', '剪辑视频和原始素材通过 Google Drive 交付，可直接用于广告和商品页。']]
+      steps: [['01', '选择套餐', 'Essentials 适合批量测试，Plus 适合更明确的内容形式，Premium 适合重点叙事内容。'], ['02', '提交内容需求', '提供产品、目标买家、核心卖点、内容方向和使用场景。WEM 会拆成达人可执行的 brief。'], ['03', 'WEM 匹配达人', '我们按套餐、品类、语言需求和产品角度分配达人与内容形式。'], ['04', '达人制作视频', 'Essentials 交付 30 位达人产出的 100 条视频；Plus 交付 30 位达人产出的 50 条定向视频。'], ['05', '收到最终素材', '剪辑视频和原始素材通过 Google Drive 交付，可用于广告、商品页和 listing。']]
     },
     final: {
       titleA: '准备开始',
@@ -1507,12 +1505,12 @@ function Compare({
     tier: 'bulk',
     name: 'Essentials',
     hint: '批量测试',
-    rows: [['交付方式', '约 35 位达人产出 100 条视频'], ['内容形式', '达人自然演示、routine、产品展示、试用/试穿和简单 POV 内容'], ['达人选择', 'WEM 根据品类和内容方向匹配达人'], ['品牌选择', '品牌不需要反选达人，直接获得完整素材池'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '冷启动、素材池搭建、大批量卖点测试']]
+    rows: [['交付方式', '30 位达人产出 100 条视频'], ['内容形式', '达人自然演示、routine、产品展示、试用/试穿和简单 POV 内容'], ['达人选择', 'WEM 根据品类和内容方向匹配达人'], ['品牌选择', '品牌不需要反选达人，直接获得完整素材池'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '冷启动、素材池搭建、大批量卖点测试']]
   }, {
     tier: 'select',
     name: 'Plus',
-    hint: '先看后选',
-    rows: [['交付方式', '约 35 位达人交付 70+ 条更有方向的视频选项'], ['内容形式', '测评、开箱、对比、痛点解决型演示、绿幕讲解或引导式产品演示'], ['达人选择', 'WEM 负责筛选和分配达人'], ['品牌选择', '品牌从成片里选择最适合投放的 50 条'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '想提高内容控制度和内容完成度，又希望先看成片再筛选']]
+    hint: '定向内容',
+    rows: [['交付方式', '30 位达人交付 50 条更有方向的视频'], ['内容形式', '测评、开箱、对比、痛点解决型演示、绿幕讲解或引导式产品演示'], ['达人选择', 'WEM 负责筛选和分配达人'], ['品牌选择', '品牌提前确认内容方向，最终收到 50 条成片'], ['修改', '基础剪辑和字幕，不含额外修改轮次'], ['适合', '想提高内容控制度、内容完成度和创意方向明确度']]
   }, {
     tier: 'premium',
     name: 'Premium',
@@ -1522,12 +1520,12 @@ function Compare({
     tier: 'bulk',
     name: 'Essentials',
     hint: 'Volume testing',
-    rows: [['Delivery', '100 videos from about 35 creators'], ['Creator selection', 'WEM matches creators based on category and content direction'], ['Brand selection', 'No creator shortlist review, you receive the full creative pool'], ['Revision', 'Basic editing and captions, no extra revision round'], ['Best use', 'Cold starts, ad testing, large creative volume']]
+    rows: [['Delivery', '100 videos from 30 creators'], ['Creator selection', 'WEM matches creators based on category and content direction'], ['Brand selection', 'No creator shortlist review, you receive the full creative pool'], ['Revision', 'Basic editing and captions, no extra revision round'], ['Best use', 'Cold starts, ad testing, large creative volume']]
   }, {
     tier: 'select',
     name: 'Plus',
     hint: 'More choice',
-    rows: [['Delivery', '70+ directed video options delivered, brand keeps 50'], ['Format depth', 'Reviews, unboxings, comparisons, problem-solution demos, green-screen explainers, or guided product demos'], ['Creator selection', 'WEM selects and assigns the creator pool'], ['Brand selection', 'Choose the strongest videos after delivery'], ['Revision', 'Basic editing and captions, no extra revision round'], ['Best use', 'More control, finished-content selection, stronger format fit']]
+    rows: [['Delivery', '50 directed videos from 30 creators'], ['Format depth', 'Reviews, unboxings, comparisons, problem-solution demos, green-screen explainers, or guided product demos'], ['Creator selection', 'WEM selects and assigns the creator pool'], ['Brand direction', 'Brand approves content direction before production'], ['Revision', 'Basic editing and captions, no extra revision round'], ['Best use', 'More control, stronger creator direction, stronger format fit']]
   }, {
     tier: 'premium',
     name: 'Premium',
@@ -2031,6 +2029,7 @@ function CaseStudy({
 }) {
   const t = COPY[lang].caseStudy;
   return React.createElement("section", {
+    className: "cc-section cc-case-study",
     style: {
       ...S.section,
       background: '#000',
@@ -2038,14 +2037,17 @@ function CaseStudy({
       borderBottom: '1px solid rgba(255,255,255,.08)'
     }
   }, React.createElement("div", {
+    className: "cc-inner cc-case-inner",
     style: S.inner
   }, React.createElement("div", {
     style: S.eye
   }, t.eye), React.createElement("h2", {
+    className: "cc-section-title cc-case-title",
     style: S.h2
   }, t.titleA, " ", React.createElement("span", {
     style: S.grad
   }, t.titleB)), React.createElement("p", {
+    className: "cc-case-lead",
     style: {
       fontFamily: 'var(--font-sans)',
       fontSize: 19,
@@ -2054,17 +2056,23 @@ function CaseStudy({
       lineHeight: 1.5
     }
   }, t.lead), React.createElement("div", {
+    className: "cc-case-stats",
     style: S.caseStat
   }, t.stats.map(([n, l], i) => React.createElement("div", {
     key: i,
+    className: "cc-case-stat-tile",
     style: S.statTile
   }, React.createElement("div", {
+    className: "cc-case-stat-num",
     style: S.statNum
   }, n), React.createElement("div", {
+    className: "cc-case-stat-label",
     style: S.statLab
   }, l)))), React.createElement("div", {
+    className: "cc-case-strats",
     style: S.caseStrats
   }, React.createElement("div", {
+    className: "cc-case-strat-card",
     style: {
       ...S.caseStratCard,
       borderColor: 'rgba(255,20,147,.4)'
@@ -2081,6 +2089,7 @@ function CaseStudy({
       marginTop: 12
     }
   }, t.cards[0][1])), React.createElement("div", {
+    className: "cc-case-strat-card",
     style: {
       ...S.caseStratCard,
       borderColor: 'rgba(155,48,255,.4)'
