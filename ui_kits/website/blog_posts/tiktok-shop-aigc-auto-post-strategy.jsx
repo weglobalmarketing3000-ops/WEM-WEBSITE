@@ -110,12 +110,12 @@ const POSTS = {
         ],
       },
       {
-        id: 'cross-border-insight',
-        h: 'Why this matters for Chinese brands and cross-border sellers',
+        id: 'brand-operations',
+        h: 'Why this matters for U.S. brand operations',
         body: [
-          P('For Chinese brands, manufacturers, and cross-border operators entering TikTok Shop US, AIGC Auto-post is especially relevant. Many teams have product advantages: fast sampling, flexible pricing, strong supply chains, and quick iteration. But TikTok Shop US often creates a content gap.'),
+          P('For U.S. brands, manufacturers, and ecommerce teams, AIGC Auto-post is especially relevant when product readiness outpaces content supply. Fast sampling, flexible pricing, and quick iteration can help, but TikTok Shop US often still creates a content gap.'),
           P('Auto-post can reduce part of that gap, but it does not automatically solve localization. The product still needs to make sense to US shoppers. The PDP still needs clear English. The visuals still need to feel credible. The brand still needs to decide which AI-generated content should stay hidden, which content should be canceled, and which content should become part of the broader creator and paid media system.'),
-          P('That is where WEM is more than a content vendor. WEM helps cross-border teams select the SKU pool, localize PDP claims, prepare product images for AIGC, manage the Scheduled Posts review queue, identify winning signals, and connect Auto-post winners to paid amplification and retargeting.'),
+          P('That is where WEM is more than a content vendor. WEM helps brand teams select the SKU pool, refine PDP claims, prepare product images for AIGC, manage the Scheduled Posts review queue, identify winning signals, and connect Auto-post winners to paid amplification and retargeting.'),
         ],
       },
     ],

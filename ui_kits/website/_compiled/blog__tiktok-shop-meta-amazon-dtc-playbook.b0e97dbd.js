@@ -82,7 +82,7 @@ const POSTS = {
         kind: 'table',
         headers: ['Layer', 'What WEM focuses on'],
         rows: [['TikTok Shop', 'Hero SKU selection, creator matching, affiliate setup, sample flow, product-page feedback, and content testing.'], ['Meta', 'UGC angle reuse, hook testing, landing-page handoff, and scaling proven commercial signals.'], ['Amazon', 'Brand-search lift, product language, video/content support, and alignment between discovery and search capture.'], ['Cross-channel reporting', 'Looking at direct sales plus creative learning, search lift, and reusable content performance together.']]
-      }, P('For cross-border teams, this is where WEM becomes more useful than a channel-only partner. We can connect Chinese product and supply-side teams with U.S. creators, U.S.-facing creative logic, and the daily operational work needed to turn content into revenue.'), CTA('Book a WEM TikTok Shop and cross-channel growth review →')]
+      }, P('This is where WEM becomes more useful than a channel-only partner. We connect product, creators, U.S.-facing creative logic, and the daily operational work needed to turn content into revenue.'), CTA('Book a WEM TikTok Shop and cross-channel growth review →')]
     }, {
       id: 'next-30',
       h: 'What brands should do in the next 30 days',

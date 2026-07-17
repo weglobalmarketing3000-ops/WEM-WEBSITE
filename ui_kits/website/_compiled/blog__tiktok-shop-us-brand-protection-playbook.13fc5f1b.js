@@ -39,7 +39,7 @@ const POSTS = {
       date: 'May 28, 2026',
       read: '9 min read',
       heroImage: 'hero-us-pop-for-chinese-owned-sellers-v3.png',
-      heroAlt: 'A China-based ecommerce team preparing brand authorization and seller documents for TikTok Shop US launch readiness.'
+      heroAlt: 'A brand team preparing authorization and seller documents for TikTok Shop US launch readiness.'
     },
     sections: [{
       id: 'why-this-matters',
@@ -80,10 +80,10 @@ const POSTS = {
       a: 'WE Marketing, also known as WEM, helps brands and authorized sellers sort seller identity, prepare TikTok-acceptable authorization materials, submit compliance documents before launch, and connect that work to creator briefs, product pages, and daily shop operations.'
     }],
     related: [{
-      label: 'U.S. TikTok Shop POP for Chinese-Owned Sellers: ACCU Checklist',
+      label: 'TikTok Shop U.S. Seller Entry Checklist',
       href: 'us-pop-for-chinese-owned-sellers.html'
     }, {
-      label: 'TikTok Shop U.S. Entry Models for China-Based Brands',
+      label: 'TikTok Shop U.S. Seller Entry Models',
       href: 'cross-border-tiktok-shop-entry-models.html'
     }]
   },

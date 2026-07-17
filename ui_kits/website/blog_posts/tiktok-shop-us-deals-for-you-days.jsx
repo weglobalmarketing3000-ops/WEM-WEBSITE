@@ -98,13 +98,13 @@ const POSTS = {
         ],
       },
       {
-        id: 'cross-border-relevance',
-        h: 'Why cross-border teams should pay special attention',
+        id: 'operating-relevance',
+        h: 'Why brand operators should pay special attention',
         body: [
-          P('For China-based brands, factories, and cross-border operators, the importance of DFYD is not only that it is big. It is that it compresses the China-U.S. execution gap into a very short window.'),
-          P('Many teams already have the supply-chain strengths needed for a fast campaign: fast sampling, cost control, packaging flexibility, stable production, and the ability to move hero SKUs quickly. The usual gap is not manufacturing. It is how well the offer, page language, creator fit, and trust signals are localized for U.S. buyers.'),
-          P('That is why WEM sees Deals for You Days less as a one-off promotion and more as a market-read moment. The brands that benefit most are often the ones that can connect product decisions in China with U.S.-side localization, affiliate setup, content direction, and weekly review.'),
-          { kind: 'infographic', src: 'info-dfyd-2026-cross-border-workflow.png', alt: 'Cross-border TikTok Shop operating workflow during Deals for You Days 2026', caption: 'The cross-border challenge is rarely just inventory. It is the bridge between China-side execution and U.S.-market conversion.' },
+          P('The importance of DFYD is not only that it is big. It compresses product, offer, creator, inventory, and customer-experience decisions into a very short window.'),
+          P('Many teams have the operational strengths needed for a fast campaign: rapid sampling, cost control, packaging flexibility, stable production, and the ability to move hero SKUs quickly. The question is how well the offer, page language, creator fit, and trust signals work for U.S. buyers.'),
+          P('That is why WEM sees Deals for You Days less as a one-off promotion and more as a market-read moment. The brands that benefit most can connect product decisions with U.S.-side affiliate setup, content direction, and weekly review.'),
+          { kind: 'infographic', src: 'info-dfyd-2026-cross-border-workflow.png', alt: 'TikTok Shop operating workflow during Deals for You Days 2026', caption: 'The operational challenge is rarely just inventory. It is connecting product readiness with U.S.-market conversion.' },
           CTA('Book a WEM strategy call →'),
         ],
       },
@@ -117,7 +117,7 @@ const POSTS = {
     ],
     related: [
       { label: 'TikTok Shop US New Seller Growth Strategy', href: 'tiktok-shop-us-new-seller-growth-strategy.html' },
-      { label: 'TikTok Shop U.S. Launch Checklist for Cross-Border Brands', href: 'tiktok-shop-us-launch-checklist.html' },
+      { label: 'TikTok Shop U.S. Launch Checklist', href: 'tiktok-shop-us-launch-checklist.html' },
     ],
   },
   zh: {

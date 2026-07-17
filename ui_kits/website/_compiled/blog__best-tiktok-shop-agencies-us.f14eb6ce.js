@@ -199,7 +199,7 @@ const POSTS = {
       a: '如果目标市场是美国，本地或深耕美国市场的 agency 会更有帮助，尤其是在达人沟通、内容本地化、活动节奏、合规预期和品类策略上。'
     }],
     related: [{
-      label: '出海品牌如何在美国 TikTok Shop 上线',
+      label: 'TikTok Shop U.S. Launch Guide',
       href: 'cross-border-brands-launch-tiktok-shop-us.html'
     }, {
       label: '如何为品牌找到合适的 TikTok Shop 达人',

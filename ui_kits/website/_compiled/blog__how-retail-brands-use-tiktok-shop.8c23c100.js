@@ -58,7 +58,7 @@ const POST = {
     label: 'How DTC Brands Are Using TikTok Shop to Scale',
     href: 'how-dtc-brands-use-tiktok-shop.html'
   }, {
-    label: 'How Cross-Border Brands Launch on TikTok Shop in the U.S.',
+    label: 'How Brands Launch on TikTok Shop in the U.S.',
     href: 'cross-border-brands-launch-tiktok-shop-us.html'
   }, {
     label: 'Is TikTok Shop Worth It for Brands in 2026?',

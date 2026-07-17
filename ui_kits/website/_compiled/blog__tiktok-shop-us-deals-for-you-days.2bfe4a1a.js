@@ -63,7 +63,7 @@ const POSTS = {
       date: 'May 28, 2026',
       read: '9 min read',
       heroImage: 'hero-tiktok-shop-us-deals-for-you-days-v7.png',
-      heroAlt: 'A cross-border ecommerce team in a China-based warehouse office prepares samples, inventory, and product details for TikTok Shop US Deals for You Days.'
+      heroAlt: 'A brand operations team prepares samples, inventory, and product details for TikTok Shop US Deals for You Days.'
     },
     sections: [{
       id: 'why-now',
@@ -84,15 +84,15 @@ const POSTS = {
     }, {
       id: 'wem-solution',
       h: 'What WEM can actually help brands do before Deals for You Days',
-      body: [P('Brands usually do not need another reminder that Deals for You Days exists. They need a team that can translate the event into a cleaner operating plan.'), P('For TikTok Shop US, WEM is most useful where teams get fragmented. Supply chain may sit in China, content feedback may sit with U.S. creators, pricing decisions may sit with ecommerce, and nobody is fully responsible for whether those pieces are aligned before the sale starts.'), {
+      body: [P('Brands usually do not need another reminder that Deals for You Days exists. They need a team that can translate the event into a cleaner operating plan.'), P('For TikTok Shop US, WEM is most useful where teams get fragmented. Product, content feedback, pricing decisions, and fulfillment can sit with different owners, leaving no one fully responsible for whether those pieces are aligned before the sale starts.'), {
         kind: 'table',
         headers: ['Problem before the sale', 'How WEM helps'],
-        rows: [['Too many products competing for the same resources', 'Narrow the hero SKU set and align product, margin, and content decisions.'], ['Creators are being sourced, but sample timing is late', 'Coordinate outreach, sample shipping, briefs, and posting rhythm earlier.'], ['Store pages do not match creator promises', 'Tighten the handoff between content, product pages, reviews, and in-store merchandising.'], ['Search, merchant content, and affiliate content feel disconnected', 'Use one offer language and one conversion path across all three surfaces.'], ['Cross-border teams worry that volume will break fulfillment', 'Pressure-test inventory, support, and delivery expectations before the sale spike.']]
+        rows: [['Too many products competing for the same resources', 'Narrow the hero SKU set and align product, margin, and content decisions.'], ['Creators are being sourced, but sample timing is late', 'Coordinate outreach, sample shipping, briefs, and posting rhythm earlier.'], ['Store pages do not match creator promises', 'Tighten the handoff between content, product pages, reviews, and in-store merchandising.'], ['Search, merchant content, and affiliate content feel disconnected', 'Use one offer language and one conversion path across all three surfaces.'], ['Teams worry that volume will break fulfillment', 'Pressure-test inventory, support, and delivery expectations before the sale spike.']]
       }, P('What makes this different from a generic “sale prep” checklist is the WEM operating angle. We are not only asking whether the event is important. We are asking which weak points in creator commerce need to be fixed before paid traffic, creator demand, and store demand all hit at the same time.')]
     }, {
       id: 'for-whom',
       h: 'Who this article is really for',
-      body: [P('This is especially relevant for U.S.-facing brand teams, Amazon sellers entering TikTok Shop, and cross-border sellers targeting the U.S. market. Those teams often know how to run ecommerce, but not always how to coordinate creator commerce with in-shop conversion and platform timing.'), UL(['U.S. brands that already have products and inventory, but need better creator-commerce execution.', 'Amazon sellers that want a sale plan tied to content, not just catalog discounts.', 'Cross-border teams that need a bilingual operating layer between China-based product teams and U.S.-facing content execution.']), P('If the event name gets traffic but the article does not clearly show where WEM fits, the SEO value is weak. That is why this post keeps tying search intent back to WEM’s actual solution areas rather than treating the event like a standalone news keyword.')]
+      body: [P('This is especially relevant for U.S. brand teams and Amazon sellers entering TikTok Shop. Those teams often know how to run ecommerce, but not always how to coordinate creator commerce with in-shop conversion and platform timing.'), UL(['U.S. brands that already have products and inventory, but need better creator-commerce execution.', 'Amazon sellers that want a sale plan tied to content, not just catalog discounts.', 'Brand teams that need a hands-on operating layer across product, content, and creator execution.']), P('If the event name gets traffic but the article does not clearly show where WEM fits, the SEO value is weak. That is why this post keeps tying search intent back to WEM’s actual solution areas rather than treating the event like a standalone news keyword.')]
     }, {
       id: 'sources',
       h: 'Source boundary and what this article is based on',
@@ -112,9 +112,9 @@ const POSTS = {
       a: 'Lock hero SKUs, move creator seeding earlier, align storefront and search handoff, finalize pricing logic, and make sure fulfillment can support the sale promise before traffic spikes.'
     }, {
       q: 'What can WE Marketing do before Deals for You Days?',
-      a: 'WEM can help narrow hero SKUs, coordinate creator seeding, localize merchant content, tighten product-page and storefront handoff, align sale language, and connect those decisions with cross-border operations.'
+      a: 'WEM can help narrow hero SKUs, coordinate creator seeding, refine merchant content, tighten product-page and storefront handoff, align sale language, and connect those decisions with weekly operations.'
     }, {
-      q: 'Why does this matter more for cross-border sellers targeting the U.S.?',
+      q: 'Why does this matter for brands selling on TikTok Shop U.S.?',
       a: 'Because product teams, supply chain, creator execution, storefront updates, and customer-support expectations often sit across different teams. When the U.S. sale window moves earlier, those weak handoffs get exposed fast.'
     }],
     related: [{
@@ -124,7 +124,7 @@ const POSTS = {
       label: 'TikTok Shop Creator Affiliate Management: The WEM Operating System',
       href: 'tiktok-shop-creator-affiliate-management.html'
     }, {
-      label: 'How Cross-Border Brands Launch on TikTok Shop in the U.S.',
+      label: 'How Brands Launch on TikTok Shop in the U.S.',
       href: 'cross-border-brands-launch-tiktok-shop-us.html'
     }]
   },

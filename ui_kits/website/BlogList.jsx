@@ -9,12 +9,28 @@ const BLOG_POSTS = [
     image: 'hero-best-tiktok-shop-affiliate-agencies-us.png',
   },
   {
+    slug: 'tiktok-shop-affiliate-strategy-for-brands',
+    cat: { en: 'TIKTOK SHOP U.S. · AFFILIATE STRATEGY', zh: 'TIKTOK SHOP 美国 · 达人分销' },
+    title: { en: 'TikTok Shop Affiliate Strategy for Brands: Build the System Before Scaling Creators', zh: 'TikTok Shop Affiliate 怎么做稳：品牌要先打好店铺、产品和达人三层基础' },
+    excerpt: { en: 'A practical TikTok Shop affiliate strategy for brands: shop health, product quality, creator quality, sample follow-up, creator community operations, and weekly optimization before scaling creators.', zh: 'TikTok Shop Affiliate 不是多找达人。品牌要先打好店铺健康、产品体验、达人质量、寄样跟进、达人私域和每周复盘。' },
+    date: { en: 'Jul 16, 2026', zh: '2026 年 7 月 16 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-affiliate-strategy-for-brands.png',
+  },
+  {
     slug: 'tiktok-shop-creator-matchmaking-playbook',
     cat: { en: 'TIKTOK SHOP U.S. · CREATOR MATCHING', zh: 'TIKTOK SHOP 美国 · 达人匹配' },
     title: { en: 'TikTok Shop Creator Matchmaking: How Brands Should Match Products With the Right Creators', zh: 'TikTok Shop 达人 Matchmaking 怎么做？品牌需要的不只是“找达人”' },
     excerpt: { en: 'A practical creator matching SOP for TikTok Shop brands: hero SKUs, Open vs Target Collaboration, samples, refundable samples, creator briefs, outreach acceptance, and weekly review.', zh: 'TikTok Shop 达人匹配不是找更多达人。品牌要把 Hero SKU、Open / Target Collaboration、样品、Refundable Sample、达人筛选、brief 和邀约接受率复盘连成系统。' },
     date: { en: 'Jul 16, 2026', zh: '2026 年 7 月 16 日' }, read: { en: '11 min read', zh: '11 分钟阅读' },
     image: 'hero-tiktok-shop-creator-matchmaking-playbook.png',
+  },
+  {
+    slug: 'tiktok-shop-follower-group-chat-retention',
+    cat: { en: 'TIKTOK SHOP U.S. · CREATOR COMMUNITY', zh: 'TIKTOK SHOP 美国 · 达人私域' },
+    title: { en: 'TikTok Shop Follower Group Chat: A Retention Layer for Brands', zh: 'TikTok Shop Group Chat：品牌留存和达人私域的新入口' },
+    excerpt: { en: 'How brands use TikTok Shop Group Chat to support creator community, LIVEs, product education, trust-building, and repeat purchase in categories like fashion, jewelry, beauty, health, pet, and home essentials.', zh: 'TikTok Shop Group Chat 不只是聊天群。它更适合 fashion、jewelry、美妆、health、pet、母婴、日用品等需要上新、信任和复购的品牌。' },
+    date: { en: 'Jul 16, 2026', zh: '2026 年 7 月 16 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
+    image: 'hero-tiktok-shop-follower-group-chat-retention.png',
   },
   {
     slug: '2026-us-tiktok-shop-campaign-calendar-after-dfyd',
@@ -31,6 +47,22 @@ const BLOG_POSTS = [
     excerpt: { en: 'How brands should connect TikTok Shop content, inventory, warehouse workflow, TikTok Shipping, CBT, FBT, ShipStation, and customer experience before creator-driven order spikes.', zh: 'TikTok Shop 美国运营不能只看达人和内容。品牌需要提前规划库存、仓库、TikTok Shipping、CBT、FBT、ShipStation 和客服流程，才能接住达人流量。' },
     date: { en: 'Jul 13, 2026', zh: '2026 年 7 月 13 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
     image: 'hero-tiktok-shop-us-logistics-fulfillment-strategy.png',
+  },
+  {
+    slug: 'tiktok-shop-creator-community-brand-growth',
+    cat: { en: 'CREATOR COMMUNITY · AFFILIATE GROWTH', zh: '达人社群 · 联盟增长' },
+    title: { en: 'Why TikTok Shop Brands Need a Creator Community, Not Just a Database', zh: 'TikTok Shop 品牌为什么需要达人社群，而不只是一份达人名单' },
+    excerpt: { en: 'How an active creator community improves affiliate matching, sample follow-up, content feedback, repeat collaboration, and TikTok Shop learning for brands.', zh: '达人社群不是一份联系人名单。它应该改善品牌的达人匹配、寄样跟进、内容反馈、复合作和 TikTok Shop 运营学习。' },
+    date: { en: 'Jul 12, 2026', zh: '2026 年 7 月 12 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-tiktok-shop-creator-community-brand-growth.png',
+  },
+  {
+    slug: 'tiktok-shop-live-strategy-brands',
+    cat: { en: 'TIKTOK SHOP U.S. · LIVE STRATEGY', zh: 'TIKTOK SHOP 美国 · 直播策略' },
+    title: { en: 'TikTok Shop LIVE Strategy for Brands: Build a Repeatable Growth Loop', zh: 'TikTok Shop LIVE 怎么做：把每场直播做成可复用的增长闭环' },
+    excerpt: { en: 'A practical TikTok Shop LIVE strategy for brands: hero SKU selection, offers, hosts and creators, product demos, shopper questions, post-LIVE review, content reuse, and creator-community operations.', zh: 'TikTok Shop LIVE 不只是开播。品牌要把 hero SKU、offer、host/creator、讲品互动、用户问题、直播后复盘、内容复用和达人私域运营接成增长闭环。' },
+    date: { en: 'Jul 3, 2026', zh: '2026 年 7 月 3 日' }, read: { en: '10 min read', zh: '10 分钟阅读' },
+    image: 'hero-tiktok-shop-live-strategy-brands.png',
   },
   {
     slug: 'tiktok-shop-ip-protection-seller-playbook',
@@ -68,7 +100,7 @@ const BLOG_POSTS = [
     slug: 'tiktok-shop-us-july-4-seasonal-products',
     cat: { en: 'TIKTOK SHOP U.S. · JULY 4', zh: 'TIKTOK SHOP 美区 · JULY 4' },
     title: { en: 'Selling Seasonal Products on TikTok Shop US Before July 4', zh: '7 月 4 日前，TikTok Shop 美区卖什么更容易转化' },
-    excerpt: { en: 'A practical WEM guide to July 4 seasonal products on TikTok Shop US: summer use cases, hero SKU selection, creator angles, and cross-border execution.', zh: 'WEM 拆解 TikTok Shop 美区 July 4 前更适合卖什么：夏季使用场景、hero SKU、达人内容和跨境执行。' },
+    excerpt: { en: 'A practical WEM guide to July 4 seasonal products on TikTok Shop US: summer use cases, hero SKU selection, creator angles, and launch execution.', zh: 'WEM 拆解 TikTok Shop 美区 July 4 前更适合卖什么：夏季使用场景、hero SKU、达人内容和跨境执行。' },
     date: { en: 'Jun 6, 2026', zh: '2026 年 6 月 6 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
     image: 'hero-tiktok-shop-us-july-4-seasonal-products.png',
   },
@@ -98,20 +130,19 @@ const BLOG_POSTS = [
   },
   {
     slug: 'cross-border-tiktok-shop-entry-models',
-    cat: { en: 'CHINA BRAND EXPANSION · ENTRY MODELS', zh: '中国品牌出海 · 入驻路径' },
-    title: { en: 'TikTok Shop U.S. Entry Models for China-Based Brands', zh: '中国品牌入驻美国 TikTok Shop：POP、ACCU、全托管、品牌托管怎么选' },
-    excerpt: { en: 'A WEM guide to U.S. TikTok Shop entry paths for China-based brands: China/Hong Kong entity POP, U.S. entity ACCU, fully managed, and brand-managed.', zh: '中国品牌和厂家出海美国 TikTok Shop，先看主体、履约、材料和经营责任，再决定 POP、ACCU、全托管或品牌托管。' },
+    languages: ['zh'],
+    cat: { zh: '中国品牌出海 · 入驻路径' },
+    title: { zh: '中国品牌入驻美国 TikTok Shop：POP、ACCU、全托管、品牌托管怎么选' },
+    excerpt: { zh: '中国品牌和厂家出海美国 TikTok Shop，先看主体、履约、材料和经营责任，再决定 POP、ACCU、全托管或品牌托管。' },
     date: { en: 'May 28, 2026', zh: '2026 年 5 月 28 日' }, read: { en: '10 min read', zh: '11 分钟阅读' },
-    image: {
-      en: 'hero-cross-border-tiktok-shop-entry-models-en.png',
-      zh: 'hero-cross-border-tiktok-shop-entry-models.png',
-    },
+    image: { zh: 'hero-cross-border-tiktok-shop-entry-models.png' },
   },
   {
     slug: 'us-pop-for-chinese-owned-sellers',
-    cat: { en: 'ACCU · U.S. ENTITY POP', zh: 'ACCU · 美国主体 POP' },
-    title: { en: 'U.S. TikTok Shop POP for Chinese-Owned Sellers: ACCU Checklist', zh: '美国主体但中国受益人：TikTok Shop ACCU 入驻要准备什么' },
-    excerpt: { en: 'What Chinese-owned U.S. entity sellers should prepare for the ACCU path: U.S. company files, Chinese UBO ID, contact documents, fulfillment, and possible extra review materials.', zh: '美国公司、中国最终受益人、本地仓发货、IRS Letter、联系人证件：WEM 拆解美区 POP ACCU 入驻准备。' },
+    languages: ['zh'],
+    cat: { zh: 'ACCU · 美国主体 POP' },
+    title: { zh: '美国主体但中国受益人：TikTok Shop ACCU 入驻要准备什么' },
+    excerpt: { zh: '美国公司、中国最终受益人、本地仓发货、IRS Letter、联系人证件：WEM 拆解美区 POP ACCU 入驻准备。' },
     date: { en: 'May 21, 2026', zh: '2026 年 5 月 21 日' }, read: { en: '8 min read', zh: '9 分钟阅读' },
     image: 'hero-us-pop-for-chinese-owned-sellers.png',
   },
@@ -214,8 +245,8 @@ const BLOG_POSTS = [
   {
     slug: 'best-tiktok-shop-agencies-us',
     cat: { en: 'TIKTOK SHOP · AGENCY GUIDE', zh: 'TIKTOK SHOP · 代运营指南' },
-    title: { en: 'Best TikTok Shop Agencies in the U.S. for Brands', zh: '美国 TikTok Shop 代运营公司怎么选？2026 品牌指南' },
-    excerpt: { en: 'A practical shortlist and evaluation framework for choosing a U.S. TikTok Shop agency, with data-backed context and bilingual guidance for cross-border brands.', zh: '美国 TikTok Shop agency 怎么选？从店铺运营、达人联盟、内容生产、广告放大和数据复盘五个角度拆解。' },
+    title: { en: '8 Best TikTok Shop Agencies in the U.S. (2026)', zh: '美国 TikTok Shop 代运营公司怎么选？2026 品牌指南' },
+    excerpt: { en: 'A practical shortlist and evaluation framework for choosing a U.S. TikTok Shop agency, with data-backed context for brand teams.', zh: '美国 TikTok Shop agency 怎么选？从店铺运营、达人联盟、内容生产、广告放大和数据复盘五个角度拆解。' },
     date: { en: 'May 27, 2026', zh: '2026 年 5 月 27 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
     image: 'hero-best-tiktok-shop-agencies-us-v3.png',
   },
@@ -269,9 +300,9 @@ const BLOG_POSTS = [
   },
   {
     slug: 'cross-border-brands-launch-tiktok-shop-us',
-    cat: { en: 'CROSS-BORDER · U.S. LAUNCH', zh: '出海 · 美国上线' },
-    title: { en: 'How Cross-Border Brands Launch on TikTok Shop in the U.S.', zh: '出海品牌如何在美国 TikTok Shop 上线' },
-    excerpt: { en: 'Selling into the U.S. market through TikTok Shop? Here’s what cross-border brands need to know about creators, content localization, and working with a U.S.-based agency.', zh: '想通过 TikTok Shop 进入美国市场？出海品牌需要了解的达人策略、内容本地化与本地代理协作。' },
+    cat: { en: 'TIKTOK SHOP U.S. · LAUNCH', zh: '出海 · 美国上线' },
+    title: { en: 'How Brands Launch on TikTok Shop in the U.S.', zh: '出海品牌如何在美国 TikTok Shop 上线' },
+    excerpt: { en: 'Launching on TikTok Shop in the U.S.? Here is what brands need to know about creators, content, fulfillment, and working with a U.S.-based agency.', zh: '想通过 TikTok Shop 进入美国市场？出海品牌需要了解的达人策略、内容本地化与本地代理协作。' },
     date: { en: 'Apr 2, 2026', zh: '2026 年 4 月 2 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
     image: 'hero-10-cross-border-brands-launch-tiktok-shop-us.png',
   },
@@ -285,10 +316,10 @@ const BLOG_POSTS = [
   },
   {
     slug: 'how-dtc-brands-use-tiktok-shop',
-    cat: { en: 'DTC · STRATEGY', zh: 'DTC · 策略' },
-    title: { en: 'How DTC Brands Are Using TikTok Shop to Scale', zh: 'DTC 品牌如何用 TikTok Shop 放量' },
-    excerpt: { en: 'DTC brands are using TikTok Shop as a content engine that drives sales on and off the platform.', zh: 'DTC 品牌把 TikTok Shop 当作内容引擎，驱动站内与跨渠道销售。' },
-    date: { en: 'Mar 18, 2026', zh: '2026 年 3 月 18 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
+    cat: { en: 'DTC · CREATOR COMMERCE', zh: 'DTC · 达人电商' },
+    title: { en: 'How DTC Brands Use TikTok Shop: From Creator Discovery to Cross-Channel Growth', zh: 'DTC 品牌怎么用 TikTok Shop：从达人发现到跨渠道增长' },
+    excerpt: { en: 'A practical playbook for creator discovery, content learning, affiliate sales, and cross-channel growth, with WEM’s MOONBREW launch case.', zh: '从达人发现、内容学习和 affiliate 成交到跨渠道增长，并拆解 WEM 为 MOONBREW 做新品平台冷启动的案例。' },
+    date: { en: 'Mar 18, 2026', zh: '2026 年 3 月 18 日' }, read: { en: '11 min read', zh: '12 分钟阅读' },
     image: 'hero-8-how-dtc-brands-use-tiktok-shop.png',
   },
   {
@@ -317,10 +348,10 @@ const BLOG_POSTS = [
   },
   {
     slug: 'amazon-sellers-expand-to-tiktok-shop',
-    cat: { en: 'AMAZON SELLERS · NEW CHANNEL', zh: '亚马逊卖家 · 新渠道' },
-    title: { en: 'Amazon Sellers: Why TikTok Shop Is Your Next Sales Channel', zh: '亚马逊卖家：TikTok Shop 为什么是你的下一个销售渠道' },
-    excerpt: { en: 'Already selling on Amazon? TikTok Shop can drive new customer discovery, generate content for your Amazon listings, and diversify your revenue.', zh: '已经在亚马逊卖？TikTok Shop 可以带来新客发现、为 Listing 产出内容、多元化收入。' },
-    date: { en: 'Nov 10, 2025', zh: '2025 年 11 月 10 日' }, read: { en: '8 min read', zh: '8 分钟阅读' },
+    cat: { en: 'AMAZON SELLERS · CHANNEL EXPANSION', zh: 'AMAZON 卖家 · 渠道拓展' },
+    title: { en: 'Amazon Sellers Expanding to TikTok Shop: A Practical Launch Playbook', zh: 'Amazon 卖家怎么拓展 TikTok Shop：从平台冷启动到达人内容系统' },
+    excerpt: { en: 'How Amazon sellers launch with a hero SKU, creator affiliates, content operations, and cross-channel learning, including WEM’s MOONBREW case.', zh: '从 hero SKU、达人 affiliate 和内容运营，到 WEM 为 MOONBREW 做新品平台冷启动的实战案例。' },
+    date: { en: 'Nov 10, 2025', zh: '2025 年 11 月 10 日' }, read: { en: '11 min read', zh: '12 分钟阅读' },
     image: 'hero-4-amazon-sellers-expand-to-tiktok-shop.png',
   },
   {
@@ -365,9 +396,9 @@ const BLOG_POSTS = [
   },
   {
     slug: 'tiktok-shop-us-launch-checklist',
-    cat: { en: 'CROSS-BORDER · U.S. LAUNCH', zh: '出海 · 美国上线' },
-    title: { en: 'TikTok Shop U.S. Launch Checklist for Cross-Border Brands', zh: '出海品牌做美国 TikTok Shop，第一步到底该准备什么？' },
-    excerpt: { en: 'A practical launch checklist for cross-border brands preparing U.S. shop setup, product pages, creator seeding, logistics, and go-live cadence.', zh: '出海品牌不是开个店就结束。先把美国市场判断、商品页、物流、达人寄样和上线节奏准备好。' },
+    cat: { en: 'TIKTOK SHOP U.S. · LAUNCH', zh: '出海 · 美国上线' },
+    title: { en: 'TikTok Shop U.S. Launch Checklist for Brands', zh: '出海品牌做美国 TikTok Shop，第一步到底该准备什么？' },
+    excerpt: { en: 'A practical launch checklist for brands preparing U.S. shop setup, product pages, creator seeding, logistics, and go-live cadence.', zh: '出海品牌不是开个店就结束。先把美国市场判断、商品页、物流、达人寄样和上线节奏准备好。' },
     date: { en: 'Oct 22, 2024', zh: '2024 年 10 月 22 日' }, read: { en: '9 min read', zh: '9 分钟阅读' },
     image: 'hero-tiktok-shop-us-launch-checklist.png',
   },
@@ -382,7 +413,7 @@ const parseBlogDate = (value) => {
 const SORTED_BLOG_POSTS = [...BLOG_POSTS].sort(
   (a, b) => parseBlogDate(b.date.en) - parseBlogDate(a.date.en)
 );
-const blogPostHref = (slug, lang) => `/blog/${slug}.html${lang === 'zh' ? '?lang=zh' : ''}`;
+const blogPostHref = (slug, lang) => `/blog/${slug}${lang === 'zh' ? '?lang=zh' : ''}`;
 const resolveBlogImage = (image, lang) => {
   if (!image) return '';
   if (typeof image === 'string') return image;
@@ -398,7 +429,7 @@ const BlogList = ({ lang }) => {
   return (
     <section style={blStyles.wrap} className="blog-list-wrap">
       <div style={blStyles.inner} className="blog-list-inner">
-        {SORTED_BLOG_POSTS.map((p, index) => (
+        {SORTED_BLOG_POSTS.filter((p) => !p.languages || p.languages.includes(lang)).map((p, index) => (
           <a key={p.slug} href={blogPostHref(p.slug, lang)} style={blStyles.card} className="blog-card">
             {p.image && (
               <div style={blStyles.thumb}>
@@ -429,8 +460,8 @@ const BlogList = ({ lang }) => {
         ))}
       </div>
       <style>{`
-        .blog-card { transition: border-color .25s, transform .25s; }
-        .blog-card:hover { border-color: rgba(255,20,147,.5) !important; }
+        .blog-card { transition: border-color .25s, transform .25s, box-shadow .25s; }
+        .blog-card:hover { border-color: rgba(255,20,147,.42) !important; transform: translateY(-3px); box-shadow: 0 18px 46px rgba(40,31,25,.10) !important; }
         .blog-card:hover .blog-card-title { background: linear-gradient(90deg,#FF1493,#9B30FF,#4A8FFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
         @media (max-width: 760px) {
           .blog-list-wrap { padding: 44px 0 72px !important; max-width: 100vw !important; overflow: hidden !important; }
@@ -446,15 +477,15 @@ const BlogList = ({ lang }) => {
   );
 };
 const blStyles = {
-  wrap: { background: '#000', padding: '80px 0 100px' },
-  inner: { maxWidth: 760, margin: '0 auto', padding: '0 32px', display: 'flex', flexDirection: 'column', gap: 20 },
-  card: { display: 'block', textDecoration: 'none', color: '#fff', background: '#0A0A0A', border: '1px solid rgba(255,255,255,.08)', borderRadius: 18, padding: '36px 36px 32px', overflow: 'hidden' },
+  wrap: { background: '#F5F3EE', padding: '80px 0 110px' },
+  inner: { maxWidth: 820, margin: '0 auto', padding: '0 32px', display: 'flex', flexDirection: 'column', gap: 24 },
+  card: { display: 'block', textDecoration: 'none', color: '#171717', background: '#FFFFFF', border: '1px solid #E1DCD4', borderRadius: 18, padding: '36px 36px 32px', overflow: 'hidden', boxShadow: '0 8px 26px rgba(40,31,25,.055)' },
   thumb: { margin: '-36px -36px 28px', height: 220, overflow: 'hidden' },
   thumbImg: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' },
   cat: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.16em', textTransform: 'uppercase', color: '#FF1493', marginBottom: 18 },
-  title: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px, 3vw, 38px)', lineHeight: 1.05, letterSpacing: '-.01em', textTransform: 'uppercase', margin: '0 0 16px', color: '#fff' },
-  excerpt: { fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.55, color: 'rgba(255,255,255,.7)', margin: '0 0 22px' },
-  meta: { display: 'flex', alignItems: 'center', gap: 10, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,.5)' },
+  title: { fontFamily: 'var(--font-sans)', fontWeight: 850, fontSize: 'clamp(28px, 3vw, 38px)', lineHeight: 1.08, letterSpacing: '-.035em', textTransform: 'none', margin: '0 0 16px', color: '#171717' },
+  excerpt: { fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.62, color: '#5B5650', margin: '0 0 22px' },
+  meta: { display: 'flex', alignItems: 'center', gap: 10, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.08em', textTransform: 'none', color: '#77716A' },
   dot: { opacity: .5 },
   arrow: { marginLeft: 'auto', color: '#FF1493', display: 'inline-flex' },
 };

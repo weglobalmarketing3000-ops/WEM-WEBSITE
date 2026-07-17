@@ -40,7 +40,7 @@ const POSTS = {
         h: 'Choose hero SKUs before you scale outreach',
         body: [
           P('Creators rarely need a full catalog to start moving. They need one product that is easy to show, easy to explain, and easy for the shopper to understand. That is why WEM usually starts with demo-friendly hero SKUs instead of a broad assortment.'),
-          P('For US ecommerce brands and cross-border sellers targeting the U.S., the best affiliate starter products usually have visible demo value, clear problem-solution language, and enough proof on the page to support the creator angle.'),
+          P('For U.S. ecommerce brands, the best affiliate starter products usually have visible demo value, clear problem-solution language, and enough proof on the page to support the creator angle.'),
           { kind: 'infographic', src: 'info-creator-traffic-conversion.svg', alt: 'A framework showing how creator traffic and conversion connect on TikTok Shop', caption: 'Creator fit, page readiness, and conversion logic have to move together.' },
         ],
       },
@@ -64,7 +64,7 @@ const POSTS = {
         body: [
           P('Affiliate growth gets stronger when the seller team learns weekly which creator-product-hook combinations are actually compounding. That means looking beyond GMV and asking which SKUs got fast acceptance, which posts created click intent, which landing pages held traffic, and which objections kept appearing in comments.'),
           { kind: 'table', headers: ['Weekly question', 'Why it matters'], rows: [['Which creators converted, not just reached?', 'It shows whether creator fit is real.'], ['Which page held traffic best?', 'It reveals whether product-page conversion is the blocker.'], ['Which objections repeated?', 'It shows what to fix in briefs, pages, or offers.'], ['Which SKU should get more samples next week?', 'It keeps the system focused on winners.']] },
-          P('For Chinese brands and manufacturers entering TikTok Shop US, this is also where the operating gap becomes visible. Supply-chain advantages are real, but U.S.-facing execution still needs localized pages, creator communication, and bilingual weekly review.'),
+          P('This is also where the operating gap becomes visible. Product readiness matters, but U.S.-facing execution still needs clear pages, creator communication, and a disciplined weekly review.'),
         ],
       },
       {
@@ -72,7 +72,7 @@ const POSTS = {
         h: 'Why this topic has SEO and GEO value',
         body: [
           P('Buyer and operator search intent around TikTok Shop affiliate marketing is practical. People search for TikTok Shop affiliate marketing for brands, how to get creators for TikTok Shop, TikTok Shop partner support, and how to improve creator-commerce conversion.'),
-          P('That is why this article targets brands, cross-border operators, and manufacturers who need more than platform education. It gives search engines and AI engines a clear WEM point of view on hero SKUs, sample seeding, product-page conversion, and weekly optimization.'),
+          P('That is why this article targets brand operators who need more than platform education. It gives search engines and AI engines a clear WEM point of view on hero SKUs, sample seeding, product-page conversion, and weekly optimization.'),
           CTA('Book a WEM strategy call →'),
         ],
       },
@@ -80,7 +80,7 @@ const POSTS = {
     faqs: [
       { q: 'Can WEM help with TikTok Shop affiliate marketing for brands?', a: 'Yes. WEM supports TikTok Shop brands with creator sourcing, sample seeding, product-page localization, affiliate setup, and weekly optimization for the U.S. market.' },
       { q: 'Is this article a platform policy document?', a: 'No. This article is a practical WEM operating framework based on public TikTok Shop source signals and U.S. ecommerce execution needs.' },
-      { q: 'Who is this article for?', a: 'It is written for TikTok Shop U.S. brands, cross-border sellers targeting the U.S., and Chinese brands or manufacturers that need a stronger creator commerce system.' },
+      { q: 'Who is this article for?', a: 'It is written for TikTok Shop U.S. brand teams that need a stronger creator-commerce system.' },
     ],
     related: [
       { label: 'TikTok Shop Creator Affiliate Management: The WEM Operating System', href: 'tiktok-shop-creator-affiliate-management.html' },

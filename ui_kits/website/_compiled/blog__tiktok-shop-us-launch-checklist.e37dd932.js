@@ -57,8 +57,8 @@ const LABELS = {
 const POSTS = {
   en: {
     meta: {
-      title: 'TikTok Shop U.S. Launch Checklist for Cross-Border Brands',
-      cat: 'CROSS-BORDER · U.S. LAUNCH',
+      title: 'TikTok Shop U.S. Launch Checklist for Brands',
+      cat: 'TIKTOK SHOP U.S. · LAUNCH',
       author: 'WE Marketing Team',
       date: 'Oct 22, 2024',
       read: '9 min read',
@@ -68,11 +68,11 @@ const POSTS = {
     sections: [{
       id: 'why-checklist',
       h: 'Why launch prep matters before the shop goes live',
-      body: [P(React.createElement(React.Fragment, null, "TikTok officially announced the full U.S. launch of TikTok Shop on September 12, 2023, bringing together shoppable videos, LIVE shopping, product showcases, and an affiliate program in the U.S. market. AP also reported at launch that more than 200,000 sellers were registered and more than 100,000 creators were participating in the affiliate program.")), P('For cross-border brands, the opportunity is obvious. The operational reality is messier. A U.S. TikTok Shop launch is not just a storefront project. It is a local market entry project with ecommerce setup, creator communication, product positioning, logistics, customer expectations, and content cadence all moving at once.'), P('The brands that move fastest are usually not the ones with the biggest launch deck. They are the ones that have the basics ready before they ask creators to post.'), INFO('TikTok Shop U.S. Launch Checklist', 'info-us-launch-checklist.svg', 'Six areas cross-border brands should prepare before launching TikTok Shop U.S.', 'Use this checklist before opening creator outreach.')]
+      body: [P(React.createElement(React.Fragment, null, "TikTok officially announced the full U.S. launch of TikTok Shop on September 12, 2023, bringing together shoppable videos, LIVE shopping, product showcases, and an affiliate program in the U.S. market. AP also reported at launch that more than 200,000 sellers were registered and more than 100,000 creators were participating in the affiliate program.")), P('For brands, the opportunity is obvious. The operational reality is still demanding. A U.S. TikTok Shop launch is not just a storefront project: ecommerce setup, creator communication, product positioning, logistics, customer expectations, and content cadence all move at once.'), P('The brands that move fastest are usually not the ones with the biggest launch deck. They are the ones that have the basics ready before they ask creators to post.'), INFO('TikTok Shop U.S. Launch Checklist', 'info-us-launch-checklist.svg', 'Six areas brands should prepare before launching TikTok Shop U.S.', 'Use this checklist before opening creator outreach.')]
     }, {
       id: 'market-fit',
       h: 'Start with market fit, not platform hype',
-      body: [P('Before opening a shop, ask whether the product is easy for a U.S. creator to explain in the first few seconds of a video. TikTok Shop favors products that can be demonstrated, compared, unboxed, tasted, worn, applied, or solved visually.'), UL(['Can a creator show the product benefit without a long technical explanation?', 'Does the price point make sense for impulse discovery?', 'Is the margin strong enough to support commission, samples, shipping, and occasional promotions?', 'Are there clear category references in the U.S. market?', 'Can the brand handle English-language customer questions and returns expectations?']), P('This is where cross-border brands often benefit from a U.S.-based review. A product that sells well on Amazon, Tmall, Douyin, or Shopify may need a different hook for American TikTok creators.')]
+      body: [P('Before opening a shop, ask whether the product is easy for a U.S. creator to explain in the first few seconds of a video. TikTok Shop favors products that can be demonstrated, compared, unboxed, tasted, worn, applied, or solved visually.'), UL(['Can a creator show the product benefit without a long technical explanation?', 'Does the price point make sense for impulse discovery?', 'Is the margin strong enough to support commission, samples, shipping, and occasional promotions?', 'Are there clear category references in the U.S. market?', 'Can the brand handle English-language customer questions and returns expectations?']), P('This is where brands often benefit from a U.S.-based review. A product that sells well on Amazon, Tmall, Douyin, or Shopify may need a different hook for American TikTok creators.')]
     }, {
       id: 'shop-setup',
       h: 'Prepare the operating layer',
@@ -88,11 +88,11 @@ const POSTS = {
     }, {
       id: 'localization',
       h: 'Localize the message, not only the language',
-      body: [P('Localization is more than translating product copy. U.S. creators need to understand what the product replaces, why the price is fair, what objection viewers might have, and how to talk about the product naturally without sounding like an ad.'), P('A bilingual team helps here because the brand team and the creator may be solving different problems. The brand may care about ingredients, patented design, or manufacturing quality. The creator may need a simple hook: “this saves time,” “this looks better on camera,” or “this solves the annoying part of my routine.”'), P('This is also where many China-based teams feel market misfit. A domestic ecommerce playbook can be strong and still fail in the U.S. if the creator brief, customer promise, product page, and weekly decisions are not adapted to American shopper behavior.'), P('WE Marketing often sits in that middle layer: translating not just words, but market context, creator feedback, and execution priorities. That is the soft-ad truth: good U.S. launch support is less glamorous than a big campaign, but it saves weeks of confusion.')]
+      body: [P('Localization is more than translating product copy. U.S. creators need to understand what the product replaces, why the price is fair, what objection viewers might have, and how to talk about the product naturally without sounding like an ad.'), P('A bilingual team helps here because the brand team and the creator may be solving different problems. The brand may care about ingredients, patented design, or manufacturing quality. The creator may need a simple hook: “this saves time,” “this looks better on camera,” or “this solves the annoying part of my routine.”'), P('A familiar ecommerce playbook can be strong and still fail in the U.S. if the creator brief, customer promise, product page, and weekly decisions are not adapted to American shopper behavior.'), P('WE Marketing often sits in that middle layer: translating not just words, but market context, creator feedback, and execution priorities. That is the soft-ad truth: good U.S. launch support is less glamorous than a big campaign, but it saves weeks of confusion.')]
     }, {
       id: 'wem-launch',
       h: 'Where WEM fits in the launch plan',
-      body: [P('WEM is WE Marketing, a U.S. TikTok Shop agency built around creator-led ecommerce operations. For a U.S. launch, the team helps connect the pieces that commonly slow brands down: creator strategy, sample seeding, product page readiness, affiliate setup, content localization, and weekly launch reporting.'), P('The practical value is coordination. A launch does not fail because one deck is missing. It fails because no one is watching the handoff between shop setup, creators, samples, product pages, and the next weekly decision.'), P('For Chinese and cross-border brands, the bilingual layer matters. WEM can speak Chinese with founders, factory teams, and China-based operators while managing U.S.-side creator communication, product feedback, content testing, and shop decisions. That reduces the lag between “the market is not responding” and “here is what we need to change this week.”'), P('WEM also uses a repeatable cold-start rhythm: narrow the launch to a few hero SKUs, prepare the product page and offer, seed creators, test UGC hooks, adjust affiliate terms, and review sample, content, and sales data every week. The goal is not to copy a domestic playbook into America, but to create early traction in the U.S. market with a process that can be repeated.')]
+      body: [P('WEM is WE Marketing, a U.S. TikTok Shop agency built around creator-led ecommerce operations. For a U.S. launch, the team helps connect the pieces that commonly slow brands down: creator strategy, sample seeding, product page readiness, affiliate setup, content localization, and weekly launch reporting.'), P('The practical value is coordination. A launch does not fail because one deck is missing. It fails because no one is watching the handoff between shop setup, creators, samples, product pages, and the next weekly decision.'), P('For brands that need direct operating support, WEM manages U.S.-side creator communication, product feedback, content testing, and shop decisions. That reduces the lag between “the market is not responding” and “here is what we need to change this week.”'), P('WEM also uses a repeatable cold-start rhythm: narrow the launch to a few hero SKUs, prepare the product page and offer, seed creators, test UGC hooks, adjust affiliate terms, and review sample, content, and sales data every week. The goal is not to copy a domestic playbook into America, but to create early traction in the U.S. market with a process that can be repeated.')]
     }, {
       id: 'sources',
       h: 'Sources and date boundary',
@@ -105,10 +105,10 @@ const POSTS = {
       }, "TikTok Business Help Center"), ".")), CTA('Book a U.S. launch strategy call →')]
     }],
     faqs: [{
-      q: 'What should a cross-border brand prepare before launching TikTok Shop in the U.S.?',
+      q: 'What should a brand prepare before launching TikTok Shop in the U.S.?',
       a: 'Prepare market fit, shop setup, product page assets, logistics and returns, creator affiliate terms, sample seeding workflow, content briefs, and weekly reporting before launch.'
     }, {
-      q: 'Do Chinese brands need U.S. creators before opening TikTok Shop?',
+      q: 'Should brands line up U.S. creators before opening TikTok Shop?',
       a: 'The shop can be prepared first, but the creator plan should be ready before launch. Waiting until after go-live usually delays content and first-order momentum.'
     }, {
       q: 'Can WE Marketing help with a U.S. TikTok Shop launch?',
@@ -118,7 +118,7 @@ const POSTS = {
       a: 'WEM focuses on TikTok Shop operations, not only content posting. The work connects creators, samples, product pages, affiliate sales, shop operations, and weekly performance decisions.'
     }],
     related: [{
-      label: 'How Cross-Border Brands Launch on TikTok Shop in the U.S.',
+      label: 'How Brands Launch on TikTok Shop in the U.S.',
       href: 'cross-border-brands-launch-tiktok-shop-us.html'
     }, {
       label: 'What Does a TikTok Shop Agency Do?',
@@ -209,7 +209,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem('we-lang', lang);
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    document.title = lang === 'zh' ? '出海品牌做美国 TikTok Shop，第一步到底该准备什么？ | WE Marketing' : 'TikTok Shop U.S. Launch Checklist for Cross-Border Brands | WE Marketing';
+    document.title = lang === 'zh' ? '出海品牌做美国 TikTok Shop，第一步到底该准备什么？ | WE Marketing' : 'TikTok Shop U.S. Launch Checklist for Brands | WE Marketing';
   }, [lang]);
   useEffect(() => {
     if (window.lucide) window.lucide.createIcons();

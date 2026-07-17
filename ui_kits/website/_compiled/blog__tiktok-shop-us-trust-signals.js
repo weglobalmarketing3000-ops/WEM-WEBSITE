@@ -41,8 +41,8 @@
           id: "shipping-reviews-and-support-are-one-system",
           h: "Shipping, reviews, and support are one system",
           body: [
-            P("For cross-border sellers targeting U.S. shoppers, trust often breaks because expectations and experience drift apart. The page suggests one timeline, the shopper imagines another, the packaging feels different from the content, or support replies are too slow or too vague."),
-            P("Chinese brands and manufacturers often have real supply-chain strengths: fast sampling, cost control, packaging flexibility, small-batch testing, and quick product iteration. But U.S. shoppers do not evaluate those strengths directly. They evaluate the experience they receive. That is why localized U.S.-facing execution matters."),
+            P("For brands targeting U.S. shoppers, trust often breaks because expectations and experience drift apart. The page suggests one timeline, the shopper imagines another, the packaging feels different from the content, or support replies are too slow or too vague."),
+            P("A strong supply chain can support fast testing and product iteration, but U.S. shoppers evaluate the experience they receive. That is why clear U.S.-facing execution matters."),
             { kind: "table", headers: ["Trust layer", "What to review weekly"], rows: [["Product page", "First images, bullets, FAQ coverage, and official-store clarity"], ["Shipping expectations", "Delivery language, packaging consistency, and delay points"], ["Reviews", "Repeated complaints, hesitation themes, and mismatch signals"], ["Support", "Top repeat questions and response-quality gaps"]] }
           ]
         },
@@ -67,7 +67,7 @@
       faqs: [
         { q: "What does this article mean by TikTok Shop trust signals?", a: "It refers to the pre-order and post-order cues that affect confidence on TikTok Shop U.S., including creator messaging, product-page clarity, shipping expectations, review patterns, and support response." },
         { q: "Can WEM help improve TikTok Shop trust signals?", a: "Yes. WEM helps brands align creator messaging, product pages, storefront clarity, review monitoring, and weekly operations so trust supports conversion." },
-        { q: "Who should read this page?", a: "It is written for TikTok Shop U.S. brand teams, cross-border sellers targeting U.S. shoppers, and Chinese brands or manufacturers that need stronger U.S.-facing execution." }
+        { q: "Who should read this page?", a: "It is written for TikTok Shop U.S. brand teams that need stronger trust-building operations." }
       ],
       related: [
         { label: "TikTok Shop Product Listing Optimization: Convert Creator Traffic", href: "tiktok-shop-product-listing-optimization.html" },

@@ -28,7 +28,7 @@ const POSTS = {
         body: [
           P('TikTok Shop growth often starts with content. A creator posts a clear product demo. A shopper sees the product in use, trusts the moment, and checks out while the idea is still fresh. For many brands, that is exactly what they want from TikTok Shop: fast discovery, fast demand, and a path from attention to purchase.'),
           P('But TikTok Shop US growth does not stop at content. Once orders arrive, the brand still has to ship accurately, keep tracking visible, protect delivery expectations, and make sure the warehouse can keep up with creator-driven spikes.'),
-          P(<>That is why TikTok Shop's Seller Blog article <A href="https://seller.tiktok.com/blog/turning-discovery-into-delivery/10025162/">Turning Discovery into Delivery</A> matters for U.S. sellers and cross-border brands. The article outlines several logistics options for U.S. sellers, including Seller Shipping, TikTok Shipping, Collection by TikTok (CBT), and Fulfilled by TikTok (FBT). It also highlights a ShipStation integration that helps sellers manage TikTok Shop deliveries inside an existing shipping workflow.</>),
+          P(<>That is why TikTok Shop's Seller Blog article <A href="https://seller.tiktok.com/blog/turning-discovery-into-delivery/10025162/">Turning Discovery into Delivery</A> matters for U.S. sellers. The article outlines several logistics options, including Seller Shipping, TikTok Shipping, Collection by TikTok (CBT), and Fulfilled by TikTok (FBT). It also highlights a ShipStation integration that helps sellers manage TikTok Shop deliveries inside an existing shipping workflow.</>),
           P('The business takeaway is simple: TikTok Shop fulfillment is no longer a back-office detail. For brands, it is part of the growth strategy.'),
         ],
       },
@@ -125,13 +125,12 @@ const POSTS = {
         ],
       },
       {
-        id: 'china-brands',
-        h: 'For Chinese brands and factories, fulfillment is part of US market localization',
+        id: 'brand-readiness',
+        h: 'Fulfillment readiness is part of U.S. market execution',
         body: [
-          P('Chinese manufacturers and brand owners often bring real advantages to TikTok Shop US: fast sampling, cost control, stable production, flexible packaging, small-batch testing, product iteration, continuous new product development, and the ability to move from idea to inventory quickly.'),
-          P('Those advantages matter. They can help a brand respond faster than competitors when the U.S. market shows demand.'),
-          P('But U.S. TikTok Shop execution is not only translation or application paperwork. China domestic ecommerce playbooks do not automatically fit U.S. creator behavior, shopper trust signals, fulfillment expectations, product-page language, or weekly decision rhythm.'),
-          P('This is where a bilingual U.S.-based operating team matters. A China-based factory may be able to produce and adjust quickly, while a U.S. operating partner can connect that supply strength to local creator seeding, product-page localization, affiliate setup, sample tracking, fulfillment decisions, and weekly content-sales review.'),
+          P('Fast sampling, cost control, stable production, flexible packaging, small-batch testing, and product iteration can help a brand respond quickly when the U.S. market shows demand.'),
+          P('But U.S. TikTok Shop execution is not only about having inventory. It also depends on creator behavior, shopper trust signals, fulfillment expectations, product-page language, and a disciplined weekly decision rhythm.'),
+          P('A U.S.-based operating partner can connect product readiness to local creator seeding, product-page optimization, affiliate setup, sample tracking, fulfillment decisions, and weekly content-sales review.'),
           UL([
             'Choose demo-friendly hero SKUs.',
             'Localize the product page and offer for U.S. shoppers.',
@@ -141,7 +140,7 @@ const POSTS = {
             'Review sample, content, fulfillment, and sales data every week.',
             'Move inventory and logistics decisions based on actual traction.',
           ]),
-          P('For Chinese factories, the point is not to weaken their supply-chain advantage. The point is to make sure that advantage shows up correctly in the U.S. market.'),
+          P('The point is to make sure that operational strength shows up correctly in the U.S. customer experience.'),
         ],
       },
       {
@@ -165,7 +164,7 @@ const POSTS = {
         id: 'sources',
         h: 'Sources and notes',
         body: [
-          P(<>This article uses TikTok Seller Blog and official TikTok Shop Academy materials as source signals, then translates them into a practical WE Marketing operating framework for TikTok Shop US brands, sellers, and cross-border teams. Sources checked include <A href="https://seller.tiktok.com/blog/turning-discovery-into-delivery/10025162/">Turning Discovery into Delivery</A>, <A href="https://seller-us.tiktok.com/university/essay?knowledge_id=1830506744514347&lang=en">TikTok Shipping Overview</A>, <A href="https://seller-us.tiktok.com/university/essay?knowledge_id=4455924967638798&lang=en">How to Upgrade to TikTok Shipping</A>, <A href="https://seller-us.tiktok.com/university/essay?knowledge_id=6734735776089869&lang=en">TikTok Shop US Logistics Services Overview</A>, and <A href="https://help.shipstation.com/hc/en-us/articles/50577851406875-TikTok-Shipping">ShipStation TikTok Shipping</A>.</>),
+          P(<>This article uses TikTok Seller Blog and official TikTok Shop Academy materials as source signals, then translates them into a practical WE Marketing operating framework for TikTok Shop US brands and sellers. Sources checked include <A href="https://seller.tiktok.com/blog/turning-discovery-into-delivery/10025162/">Turning Discovery into Delivery</A>, <A href="https://seller-us.tiktok.com/university/essay?knowledge_id=1830506744514347&lang=en">TikTok Shipping Overview</A>, <A href="https://seller-us.tiktok.com/university/essay?knowledge_id=4455924967638798&lang=en">How to Upgrade to TikTok Shipping</A>, <A href="https://seller-us.tiktok.com/university/essay?knowledge_id=6734735776089869&lang=en">TikTok Shop US Logistics Services Overview</A>, and <A href="https://help.shipstation.com/hc/en-us/articles/50577851406875-TikTok-Shipping">ShipStation TikTok Shipping</A>.</>),
         ],
       },
     ],
@@ -174,7 +173,7 @@ const POSTS = {
       { q: 'What is Collection by TikTok, and why does it matter for sellers with a US warehouse?', a: 'Collection by TikTok is an option under TikTok Shipping for eligible sellers in supported areas. It can allow TikTok Shop to arrange package pickup from a seller facility and improve tracking visibility through pickup scans. Sellers should confirm eligibility and operational details in TikTok Seller Center.' },
       { q: 'Is Fulfilled by TikTok the same as TikTok Shipping for US sellers?', a: 'No. TikTok Shipping supports sellers that still ship from their own warehouse while using platform-supported shipping options. Fulfilled by TikTok, or FBT, is a more managed fulfillment model where inventory is stored, packed, and shipped through TikTok fulfillment centers.' },
       { q: 'Why does fulfillment matter when TikTok Shop affiliate videos start driving orders?', a: 'TikTok Shop affiliate videos and live sessions can create sudden demand. If inventory, packing, labels, scans, and customer support are not ready, a strong content moment can become delayed dispatch, customer complaints, or missed repeat purchases.' },
-      { q: 'How should Chinese brands and factories prepare fulfillment for TikTok Shop US?', a: 'Chinese brands should connect production advantages with U.S. market execution: choose demo-friendly SKUs, prepare U.S. inventory or 3PL workflows, localize product pages, set clear affiliate and sample rules, and review content, fulfillment, and sales data weekly.' },
+      { q: 'How should a brand prepare fulfillment for TikTok Shop US?', a: 'Choose demo-friendly SKUs, prepare U.S. inventory or 3PL workflows, optimize product pages, set clear affiliate and sample rules, and review content, fulfillment, and sales data weekly.' },
     ],
     related: [
       { label: 'TikTok Shop Affiliate Marketing for Brands: A Better Operating Playbook', href: 'tiktok-shop-affiliate-marketing-for-brands' },

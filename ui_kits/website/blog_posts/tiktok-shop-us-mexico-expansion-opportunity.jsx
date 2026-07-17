@@ -85,7 +85,7 @@ const POSTS = {
             'Discovery SKUs: moderate US sales but strong visual appeal and low return risk.',
             'Excluded SKUs: restricted, qualification-heavy, fragile, high-return, or unclear for Mexico review.',
           ]),
-          P('Returns also need planning. The official US-MX FBT guide says customer returns from US-MX cross-border shops cannot be returned to FBT US warehouses. If no local Mexico return warehouse is configured, relevant orders may be handled as refund only. That can change the economics of the test.'),
+          P('Returns also need planning. The official US-MX FBT guide says customer returns from US-MX shops cannot be returned to FBT US warehouses. If no local Mexico return warehouse is configured, relevant orders may be handled as refund only. That can change the economics of the test.'),
         ],
       },
       {
@@ -116,7 +116,7 @@ const POSTS = {
             'Build creator and affiliate test lists for Mexico.',
             'Review sample flow, content output, clicks, conversion, inventory, refunds, and customer messages every week.',
           ]),
-          P('For Chinese brands and manufacturers, the opportunity is real. Many already have fast sampling, cost control, stable production, packaging flexibility, small-batch testing, and rapid product iteration. But North American expansion is not just paperwork or translation. WEM helps bridge supply-side strength with US and Mexico market execution.'),
+          P('The opportunity is strongest for brands with fast sampling, cost control, stable production, packaging flexibility, small-batch testing, and rapid product iteration. But North American expansion is not just paperwork or translation. WEM helps connect supply-side strength with U.S. and Mexico market execution.'),
           CTA('Plan a US-MX TikTok Shop test with WEM →'),
         ],
       },
@@ -142,7 +142,7 @@ const POSTS = {
           P('The best candidates already have a stable US operating base. Mexico is less attractive when the US store still has unclear listings, unstable inventory, unresolved fulfillment issues, or no repeatable creator workflow.'),
           UL([
             'Good fit: a US corporate seller with Seller Center eligibility, stable inventory, clear hero SKUs, usable creator data, and Spanish page and support capability.',
-            'Promising fit: a Chinese brand or manufacturer with US inventory, strong supply-chain responsiveness, and a US team that can adapt products and content.',
+            'Promising fit: a brand with U.S. inventory, strong supply-chain responsiveness, and a team that can adapt products and content.',
             'Poor fit for now: products with unclear Mexico category approval, complex qualifications, high return risk, fragile margins, or inventory constrained by US demand.',
             'Not ready: teams planning to machine-translate the US catalog, copy US creator scripts, and measure only GMV without refunds, support, or inventory impact.',
           ]),
@@ -152,7 +152,7 @@ const POSTS = {
     ],
     faqs: [
       { q: 'Can TikTok Shop US sellers open a Mexico store?', a: 'TikTok Shop Seller University describes a path for eligible US corporate sellers to apply for a Mexico store through US Seller Center. Sellers should verify current eligibility inside their own Seller Center before acting.' },
-      { q: 'Does US-MX FBT inventory sharing apply to China-to-Mexico shops?', a: 'The official US-MX FBT guide describes this inventory-sharing path for US-MX shops and says CN-MX shops are not available for this FBT US inventory-sharing feature.' },
+      { q: 'Does US-MX FBT inventory sharing apply to every Mexico shop?', a: 'The official US-MX FBT guide describes this inventory-sharing path for eligible US-MX shops. Sellers should confirm current eligibility and market availability inside Seller Center before planning inventory.' },
       { q: 'What should sellers prepare before testing TikTok Shop Mexico?', a: 'Sellers should prepare eligible SKUs, inventory limits, return-path planning, Spanish product pages, Mexico creator briefs, affiliate terms, customer-service language, and weekly review reporting.' },
       { q: 'Can a sub-account apply to open the Mexico store?', a: 'TikTok Shop’s current guide says the application must be submitted from the main US Corporate Seller account. Sub-accounts do not have permission to apply through Manage Multiple Markets.' },
       { q: 'Should a brand sync its full US catalog to TikTok Shop Mexico?', a: 'Usually no. A controlled launch with three to five proven, demo-friendly SKUs makes it easier to manage qualifications, inventory, localization, creator testing, refunds, and customer support before scaling.' },

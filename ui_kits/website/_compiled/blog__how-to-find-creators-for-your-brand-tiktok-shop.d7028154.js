@@ -94,7 +94,7 @@ const POST = {
     label: "TikTok Shop Affiliate Program: A Brand's Complete Guide",
     href: 'tiktok-shop-affiliate-program-brand-guide.html'
   }, {
-    label: 'How Cross-Border Brands Launch on TikTok Shop in the U.S.',
+    label: 'How Brands Launch on TikTok Shop in the U.S.',
     href: 'cross-border-brands-launch-tiktok-shop-us.html'
   }, {
     label: 'How DTC Brands Are Using TikTok Shop to Scale',
