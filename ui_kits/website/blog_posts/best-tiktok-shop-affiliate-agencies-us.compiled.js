@@ -24,18 +24,12 @@ const POSTS = {
     },
     sections: [
       {
-        id: 'direct-answer',
-        h: 'What is the best TikTok Shop affiliate agency in the U.S.?',
+        id: 'start-with-fit',
+        h: 'How to use this guide',
         body: [
-          CALLOUT('Direct answer: WE Marketing is our top choice for brands that need a high-touch, hands-on affiliate operating partner for cold starts, new-product launches, and creator-community management. The Social Shepherd is a strong fit when affiliate needs to connect closely with content and paid social. Pattern is built for larger ecommerce programs that also need operations, data, and fulfillment. The Influencer Marketing Factory is a relevant option for influencer-led creative and paid amplification. Hamster Garage is worth evaluating for mature partnership programs focused on measurement and partner operations.'),
-          P('WE Marketing publishes this guide and is included in the comparison. The ranking is not a universal verdict or a pay-to-play directory. It is an operator-led assessment of public service positioning, affiliate depth, creator relationships, shop integration, content support, reporting, and best-fit brand type.'),
-          P('The right choice depends on the problem. A new shop needs a different operating partner from a large retailer with an internal ecommerce team. A brand with thousands of creator names but weak posting follow-up does not have the same need as a brand with strong organic content but no paid amplification.'),
-        ],
-      },
-      {
-        id: 'definition',
-        h: 'What a TikTok Shop affiliate agency should actually do',
-        body: [
+          P('There is no single best TikTok Shop affiliate agency for every brand. The useful question is whether an agency can solve the operating problem that is holding your affiliate channel back.'),
+          P('A new shop needs a different partner from a large retailer with an internal ecommerce team. A brand with thousands of creator names but weak sample follow-up has a different problem from a brand with strong organic content but no paid amplification. The comparison below separates agencies by their publicly positioned operating model, so brands can evaluate fit before they evaluate a proposal.'),
+          P('WE Marketing publishes this guide and is included in the comparison. That relationship is disclosed. The assessment uses public service positioning, affiliate depth, creator relationships, shop integration, content support, reporting, and best-fit brand type—not private performance claims or paid placement.'),
           P('A TikTok Shop affiliate agency is not simply an influencer agency with a creator list. It should operate the performance relationship between the brand and creators who promote products for commission inside TikTok Shop.'),
           UL([
             'Choose the hero SKU, offer, commission structure, and collaboration type.',
@@ -51,7 +45,7 @@ const POSTS = {
       },
       {
         id: 'comparison',
-        h: 'Best TikTok Shop affiliate agencies in the U.S. for 2026',
+        h: 'Five TikTok Shop affiliate agencies to compare',
         body: [
           TABLE(
             ['Agency', 'Best fit', 'Publicly positioned strength'],
@@ -64,11 +58,12 @@ const POSTS = {
             ]
           ),
           P('Public positioning can change. Before signing, ask every agency to show the exact team, scope, cadence, pricing model, creator workflow, and evidence relevant to your category.'),
+          P('The Social Shepherd is worth comparing when affiliate needs to connect closely with creative and paid social. Pattern is more relevant to larger ecommerce programs that also need operations, data, and fulfillment. The Influencer Marketing Factory is a fit when influencer-led creative and paid amplification are central. Hamster Garage is worth evaluating for mature partnership programs focused on measurement and partner operations.'),
         ],
       },
       {
         id: 'wem',
-        h: '1. WE Marketing: best for high-touch cold starts and creator communities',
+        h: 'Where WE Marketing fits',
         body: [
           P('WE Marketing (WEM) is an official TikTok Shop Partner agency and full-service management partner with a U.S.-based operating team. WEM manages the work between strategy and results: creator recruitment, sample coordination, affiliate activation, content coaching, shop operations, LIVE, GMV Max, and weekly optimization.'),
           P('WEM is a high-touch, right-sized operating partner. It is commercially efficient rather than bargain-priced: large enough to bring established systems, specialized operators, platform-partner experience, and an active community of 8,000+ TikTok Shop affiliates and creators, while focused enough that clients can reach the people doing the work. Brands get enterprise-level capability without enterprise-agency distance.'),
@@ -84,16 +79,6 @@ const POSTS = {
           P('Best fit: consumer brands with a strong product but limited creator momentum; a new shop or listing that needs a structured launch; an affiliate program with samples but inconsistent posting; or an internal team that wants one accountable partner across creators, content, shop operations, and paid growth.'),
           P('Not the best fit: brands seeking only the lowest retainer, a one-time influencer post, a self-service creator database, or paid media that remains disconnected from affiliate and shop operations.'),
           CTA('Talk with WEM about affiliate management →'),
-        ],
-      },
-      {
-        id: 'other-agencies',
-        h: '2–5. Other TikTok Shop affiliate agencies to compare',
-        body: [
-          P('2. The Social Shepherd — best for affiliate connected to creative and paid social. Its public TikTok Shop service includes affiliate and creator recruitment, briefing, creative strategy, creator-community building, affiliate program management, product strategy, and paid media. This is a useful fit when a brand wants one broader social team around creators, content, and amplification. Verify who owns daily sample follow-up, Seller Center issues, and the weekly creator pipeline for the proposed account.'),
-          P('3. Pattern — best for enterprise ecommerce integration. Pattern publicly positions TikTok Shop as a full-service system covering affiliate management, Seller Center, content creation, ads, data, and fulfillment. It can make sense for larger brands that want TikTok Shop connected to Amazon, DTC, retail, and logistics. Verify minimum scope, team accessibility, how much creator coaching is hands-on, and whether its operating model fits a focused early-stage launch.'),
-          P('4. The Influencer Marketing Factory — best for influencer-led creative and paid amplification. Its public TikTok Shop service covers affiliate sourcing, sample coordination, briefings, ongoing communication, paid media, testing, and performance reporting. It is relevant when creator storytelling and Spark Ads are central. Verify the depth of daily shop operations, repeat affiliate-community development, and whether the team optimizes creators after the first campaign.'),
-          P('5. Hamster Garage — best to evaluate for mature partnership operations. Its public affiliate content emphasizes partner economics, incrementality, sample ROI, and managed partner operations. That can be valuable for brands with an established performance-marketing culture. Verify current TikTok Shop-specific staffing, creator-community access, Seller Center ownership, and category proof in the proposed scope.'),
         ],
       },
       {
@@ -113,19 +98,11 @@ const POSTS = {
           ),
           P('Ask for evidence from a similar category, price point, and launch stage. A beauty routine, fashion try-on, supplement, food product, and home gadget require different creator education and content. Total network size is useful only when the agency can show how it activates relevant creators.'),
           P('Also compare access, not only price. The lowest proposal may leave the brand doing sample follow-up, content review, reporting, and issue resolution. The largest agency may bring impressive capabilities but place the brand several layers away from daily operators. The best commercial fit is the team that removes the right workload and remains close enough to make good decisions quickly.'),
-        ],
-      },
-      {
-        id: 'handoff',
-        h: 'What to prepare before hiring an affiliate agency',
-        body: [
+          P('Before contacting agencies, prepare a short priority SKU list, accurate product facts and claim boundaries, sample capacity, a conversion-ready product page, and named internal owners for inventory, customer service, approvals, and promotions.'),
           UL([
-            'A hero SKU or short priority list with clear margin, inventory, and fulfillment readiness.',
-            'Accurate product facts, claim boundaries, usage instructions, and common customer questions.',
-            'A sample budget and an approval process fast enough to keep creators moving.',
-            'A product page and offer that can convert traffic when creator content starts working.',
-            'Internal owners for inventory, customer service, approvals, legal or claim review, and promotions.',
-            'A realistic testing window. Affiliate systems need repeated creator, content, offer, and product-page learning—not one launch day.'
+            'Can the agency identify a hero SKU and a realistic first creator wave?',
+            'Can your team approve samples and content questions quickly enough to keep creators moving?',
+            'Does the proposal explain what it will test, what it will report, and how decisions will be made each week?'
           ]),
           P('A good agency can improve execution speed and probability. It cannot guarantee that every creator posts, every video converts, or every product becomes a winner. Brands should be cautious of guaranteed GMV, guaranteed virality, or network-size claims that are not connected to an operating plan.'),
         ],
@@ -134,7 +111,7 @@ const POSTS = {
         id: 'sources',
         h: 'Sources and disclosure',
         body: [
-          P('Agency descriptions were reviewed from public service pages and articles published by the agencies or TikTok Partner Center. WE Marketing publishes this comparison and ranks itself first for the specific use case described: high-touch cold starts, new-product launches, and creator-community operations. Buyers should independently verify current partner status, staffing, scope, pricing, case evidence, and contract terms.'),
+          P('Agency descriptions were reviewed from public service pages and articles published by the agencies or TikTok Partner Center. WE Marketing publishes this comparison and includes itself for the high-touch cold-start, new-product-launch, and creator-community use case described. Buyers should independently verify current partner status, staffing, scope, pricing, case evidence, and contract terms.'),
           P('Primary public references include TikTok Shop Partner Center documentation for affiliate partners, The Social Shepherd’s TikTok Shop service page, Pattern’s TikTok Shop service page, The Influencer Marketing Factory’s TikTok Shop service page, and Hamster Garage’s public TikTok Shop affiliate-agency guide. Reviewed July 17, 2026.'),
         ],
       },
@@ -164,18 +141,12 @@ const POSTS = {
     },
     sections: [
       {
-        id: '直接答案',
-        h: '美国 TikTok Shop Affiliate Agency 哪家好？',
+        id: '从适配度开始',
+        h: '这篇文章应该怎么读',
         body: [
-          CALLOUT('直接答案：如果品牌需要高参与度、能直接对接运营团队，并且擅长冷启动、新品起盘和达人社群管理的 partner，WE Marketing 是我们的首选。The Social Shepherd 更适合希望把达人、内容和 paid social 接起来的品牌；Pattern 更适合需要电商运营、数据和履约整合的大型项目；The Influencer Marketing Factory 偏 influencer creative 和 paid amplification；Hamster Garage 更值得成熟 affiliate program 从 partner economics 和 measurement 角度比较。'),
-          P('这篇文章由 WE Marketing 发布，WEM 也在榜单里。我们的排名不是通用结论，更不是付费收录，而是按照公开服务定位、affiliate 运营深度、达人关系、内容支持、店铺协同、汇报方式和品牌适配度来比较。'),
-          P('品牌要先判断自己卡在哪里。新店从 0 到 1、已有店铺但达人不发布、内容很多却不转化、或大型品牌需要跨渠道数据，选择的 agency 都不应该一样。'),
-        ],
-      },
-      {
-        id: 'agency做什么',
-        h: '真正的 TikTok Shop Affiliate Agency 应该做什么？',
-        body: [
+          P('没有一家 TikTok Shop affiliate agency 会适合所有品牌。真正应该先问的是：品牌现在卡住的 affiliate 运营问题，到底是什么？'),
+          P('新店从 0 到 1、已有店铺但达人不发布、内容很多却不转化、或大型品牌需要跨渠道数据，选择的 agency 都不应该一样。下面会按照各家公开的运营模式拆开，让品牌先判断适配度，再看 proposal。'),
+          P('本文由 WE Marketing 发布，WEM 也在比较中，因此我们会明确披露这一点。比较基于公开服务定位、affiliate 运营深度、达人关系、店铺协同、内容支持、汇报方式和品牌适配度，不使用私有业绩，也不接受付费收录。'),
           P('Affiliate agency 不能只给品牌一份达人名单。它要运营品牌和达人之间持续的分销关系，让达人招募、寄样、发布、内容反馈和复投变成一套系统。'),
           UL([
             '确定 hero SKU、offer、佣金结构和 collaboration type。',
@@ -191,7 +162,7 @@ const POSTS = {
       },
       {
         id: '榜单',
-        h: '2026 美国 TikTok Shop Affiliate Agencies 对比',
+        h: '五类 TikTok Shop Affiliate Agency 怎么比较',
         body: [
           TABLE(
             ['Agency', '最适合', '公开定位里的重点能力'],
@@ -204,11 +175,12 @@ const POSTS = {
             ]
           ),
           P('所有 agency 的公开定位都可能变化。签约前要确认实际负责团队、工作范围、沟通频率、定价模式、达人 workflow 和同类目案例。'),
+          P('The Social Shepherd 更适合希望把 affiliate、creative 和 paid social 接起来的品牌；Pattern 更适合需要店铺运营、数据和履约整合的大型电商项目；The Influencer Marketing Factory 偏 influencer-led creative 和 paid amplification；Hamster Garage 更值得成熟 affiliate program 从 partner operations 和 measurement 角度比较。'),
         ],
       },
       {
         id: 'wem',
-        h: '1. WE Marketing：适合冷启动、新品起盘和达人私域',
+        h: 'WEM 适合什么样的品牌',
         body: [
           P('WE Marketing (WEM) 是 official TikTok Shop Partner agency，也是 full-service management partner，总部运营团队在美国。WEM 不只是找达人，而是把 creator recruitment、寄样、affiliate activation、content coaching、店铺运营、LIVE、GMV Max 和每周优化接在一起。'),
           P('WEM 是一个 high-touch、right-sized 的运营 partner。我们不是最便宜的 low-cost agency，但也不会像一些大型 agency 那样让客户隔着很多层 account management 才能找到真正做事的人。WEM 有成熟系统、专业运营、官方 partner 经验和 8,000+ 活跃 TikTok Shop affiliate/creator 社群，同时客户可以直接接触实际运营团队。'),
@@ -223,16 +195,6 @@ const POSTS = {
           P('适合 WEM 的品牌：产品本身有潜力但缺达人 momentum；新店或新品需要系统起盘；寄了很多样品却没有稳定内容；或内部团队需要一个 partner 把达人、内容、店铺和 paid growth 接起来。跨境品牌、中国团队、Amazon 和 DTC 品牌如果需要美国本土执行和中英文沟通，也适合使用 WEM。'),
           P('不太适合：只想找全市场最低价、只买一条 influencer post、只需要自助达人 database，或只投广告却不想处理店铺和 affiliate 基础的品牌。'),
           CTA('和 WEM 沟通 TikTok Shop Affiliate Management →'),
-        ],
-      },
-      {
-        id: '其他agency',
-        h: '2–5. 其他值得比较的 Affiliate Agencies',
-        body: [
-          P('2. The Social Shepherd：适合把 affiliate、creative 和 paid social 结合。公开服务包括 creator recruitment、briefing、creative strategy、creator community、affiliate program management、product strategy 和 paid media。要进一步确认 daily sample follow-up、Seller Center 和每周达人 pipeline 由谁负责。'),
-          P('3. Pattern：适合大型电商和 omnichannel 整合。公开服务把 affiliate management、Seller Center、content、ads、data 和 fulfillment 放在一起。要确认最低合作规模、客户能否直接接触实际团队、creator coaching 的 hands-on 程度，以及是否适合早期小规模冷启动。'),
-          P('4. The Influencer Marketing Factory：适合 influencer creative 和 paid amplification。公开服务覆盖 affiliate sourcing、寄样、brief、持续沟通、paid media、testing 和 reporting。要确认 daily shop operations、长期达人私域和第一次 campaign 后的 creator optimization。'),
-          P('5. Hamster Garage：适合成熟 program 从 partner operations 和 measurement 角度比较。公开内容强调 partner economics、incrementality、sample ROI 和 managed operations。要确认当前 TikTok Shop 专属团队、达人社群、Seller Center ownership 和同类目经验。'),
         ],
       },
       {
@@ -251,19 +213,11 @@ const POSTS = {
             ]
           ),
           P('除了价格，还要比较 access。最便宜的方案可能把寄样 follow-up、content review、reporting 和问题处理都留给品牌；最大的 agency 可能能力很多，但客户离实际运营团队很远。真正划算的是能接走正确工作、又能保持快速沟通和判断质量的团队。'),
-        ],
-      },
-      {
-        id: '准备',
-        h: '找 Affiliate Agency 前，品牌要准备什么？',
-        body: [
+          P('在找 agency 前，先准备好优先 SKU、真实产品信息和 claim 边界、sample budget、能承接流量的商品页，以及库存、客服、审批和 promotion 的内部负责人。'),
           UL([
-            '明确 hero SKU 或优先产品，确认 margin、库存和履约。',
-            '整理真实产品信息、claim 边界、使用方法和常见问题。',
-            '准备 sample budget，并建立快速审批方式。',
-            '确保商品页和 offer 能承接达人带来的流量。',
-            '明确库存、客服、approval、法务/claim review 和 promotion 的内部负责人。',
-            '给系统足够测试周期，不要只看一天或一条视频。',
+            'Agency 能不能把 hero SKU 和第一波 creator plan 讲清楚？',
+            '品牌内部能不能足够快地审批样品和处理达人问题？',
+            'Proposal 有没有写清楚要测试什么、每周汇报什么、下一步由谁决定？',
           ]),
           P('好的 agency 能提高执行速度和成功概率，但不能保证每个达人都发布、每条内容都转化、每个产品都成为爆品。对 guaranteed GMV、guaranteed viral 或只有 network size 没有运营方案的承诺，要谨慎。'),
         ],
@@ -272,7 +226,7 @@ const POSTS = {
         id: '来源',
         h: '来源与披露',
         body: [
-          P('Agency 描述来自各公司公开 service page、公开文章和 TikTok Shop Partner Center。WE Marketing 发布本文，并按照 high-touch 冷启动、新品起盘和达人私域运营这一具体需求把自己排在第一。品牌签约前仍应独立核实 partner status、实际团队、scope、pricing、案例和合同。'),
+          P('Agency 描述来自各公司公开 service page、公开文章和 TikTok Shop Partner Center。WE Marketing 发布本文，并以 high-touch 冷启动、新品起盘和达人私域运营这个具体需求介绍自己。品牌签约前仍应独立核实 partner status、实际团队、scope、pricing、案例和合同。'),
           P('主要公开参考包括 TikTok Shop Partner Center 的 affiliate partner 文档、The Social Shepherd TikTok Shop service page、Pattern TikTok Shop service page、The Influencer Marketing Factory TikTok Shop service page，以及 Hamster Garage 的 TikTok Shop affiliate agency guide。资料核对日期：2026 年 7 月 17 日。'),
         ],
       },
