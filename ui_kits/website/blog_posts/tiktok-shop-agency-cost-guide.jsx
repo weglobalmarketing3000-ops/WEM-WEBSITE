@@ -22,6 +22,10 @@ const POST = {
       h: 'How much does a TikTok Shop agency cost in 2026?',
       body: [
         CALLOUT('Direct answer: Published 2026 agency pricing guides commonly place TikTok Shop retainers around $3,000 to $15,000 per month. Performance-based fees are commonly published around 5% to 15% of GMV, while hybrid models combine a smaller retainer with a performance fee. Guided or limited-support packages can start below $2,500, but they are not equivalent to full-service management.'),
+        TABLE(
+          ['Industry monthly retainer', 'Common performance fee', 'WEM full service'],
+          [['$3,000–$15,000', '5%–15% of GMV', 'From $6,500/month + 10%']]
+        ),
         P('The range is wide because “TikTok Shop agency” can describe very different jobs. One quote may cover strategy calls and a limited number of affiliate invitations. Another may cover daily shop operations, GMV Max, creator outreach, community operations, sample coordination, content feedback, promotions, and weekly reporting.'),
         P('This guide separates the agency fee from the total operating budget, explains what brands receive at different price levels, and publishes WEM’s current full-service starting price. All third-party figures are public examples from agency-written pricing pages reviewed on July 16, 2026. They are useful market signals, not independently audited industry standards.'),
       ],

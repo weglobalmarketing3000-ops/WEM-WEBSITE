@@ -67,9 +67,49 @@
   ]
 }
 </script>
-<style>html,body{margin:0;padding:0;font-family:var(--font-sans);color:#fff;background:#000;overflow-x:hidden;max-width:100%}*{box-sizing:border-box}</style>
+<style>
+html,body{margin:0;padding:0;font-family:var(--font-sans);color:#161616;background:#f5f3ee;overflow-x:hidden;max-width:100%}*{box-sizing:border-box}
+.pricing-editorial .bp-wrap{background:#f5f3ee!important;color:#161616!important;overflow:visible!important}
+.pricing-editorial .bp-wrap>div:first-of-type{display:none!important}
+.pricing-editorial .bp-header{background:#fff!important;border-bottom:1px solid #e7e3db!important;padding:58px 0 48px!important}
+.pricing-editorial .bp-header-inner{max-width:1000px!important;padding:0 32px!important}
+.pricing-editorial .bp-back{color:#6f6b65!important;margin-bottom:28px!important}
+.pricing-editorial .bp-title{font-family:var(--font-sans)!important;font-size:clamp(42px,5.5vw,72px)!important;line-height:1.03!important;letter-spacing:-.045em!important;text-transform:none!important;color:#151515!important;max-width:940px!important}
+.pricing-editorial .bp-meta{color:#77716a!important;margin-top:22px!important;text-transform:none!important;letter-spacing:.04em!important}
+.pricing-editorial .bp-hero{max-width:860px!important;margin:38px auto 0!important;border:1px solid #e5e0d8!important;border-radius:16px!important;box-shadow:0 20px 60px rgba(25,25,25,.10)!important}
+.pricing-editorial .bp-body{max-width:1180px!important;padding:68px 32px 110px!important;grid-template-columns:210px minmax(0,760px)!important;gap:68px!important;justify-content:center!important;background:#f5f3ee!important}
+.pricing-editorial .bp-toc>div{color:#77716a!important;border-bottom-color:#d9d4cc!important}
+.pricing-editorial .bp-toc a{color:#68635d!important}
+.pricing-editorial .bp-toc a[style*="rgb(255, 20, 147)"],.pricing-editorial .bp-toc a[style*="#FF1493"]{color:#d80b78!important;border-left-color:#d80b78!important}
+.pricing-editorial .bp-col{max-width:760px!important}
+.pricing-editorial .bp-section{margin-bottom:72px!important;padding-top:26px!important;border-top:1px solid #dcd7cf!important}
+.pricing-editorial .bp-h2{font-family:var(--font-sans)!important;font-size:clamp(30px,3vw,42px)!important;line-height:1.12!important;letter-spacing:-.035em!important;text-transform:none!important;color:#171717!important;text-shadow:none!important;margin-bottom:24px!important}
+.pricing-editorial .bp-h3{font-family:var(--font-sans)!important;text-transform:none!important;color:#242424!important}
+.pricing-editorial .bp-p{font-size:18px!important;line-height:1.78!important;color:#37332f!important;margin-bottom:21px!important}
+.pricing-editorial .bp-list{font-size:17px!important;line-height:1.7!important;color:#302d29!important;background:#fff!important;border:1px solid #e2ddd5!important;border-radius:14px!important;box-shadow:0 7px 22px rgba(30,25,20,.04)!important}
+.pricing-editorial .bp-callout{font-size:18px!important;line-height:1.68!important;color:#202020!important;background:linear-gradient(135deg,#fff2f8,#eef5ff)!important;border:1px solid #ead3df!important;border-left:5px solid #e81583!important;border-radius:0 14px 14px 0!important;box-shadow:0 10px 30px rgba(70,40,55,.06)!important}
+.pricing-editorial .bp-table-wrap{border:1px solid #dcd7cf!important;background:#fff!important;box-shadow:0 10px 32px rgba(30,25,20,.07)!important;border-radius:14px!important;padding:0!important}
+.pricing-editorial .bp-table{background:#fff!important;color:#25221f!important;font-size:15px!important;border-radius:14px!important}
+.pricing-editorial .bp-table th{background:#171717!important;color:#fff!important;border-bottom:0!important;padding:17px 18px!important;text-transform:none!important;letter-spacing:.035em!important;font-family:var(--font-sans)!important;font-size:13px!important}
+.pricing-editorial .bp-table td{color:#302d29!important;border-bottom:1px solid #e6e1d9!important;padding:18px!important;background:#fff!important}
+.pricing-editorial .bp-table tbody tr:nth-child(even) td{background:#faf8f4!important}
+.pricing-editorial .bp-cta-btn{box-shadow:0 10px 25px rgba(232,21,131,.18)!important}
+.pricing-editorial .bp-faq-q{color:#202020!important;background:#fff!important;border:1px solid #dfdad2!important;border-radius:12px!important;font-family:var(--font-sans)!important;font-weight:750!important}
+.pricing-editorial .bp-faq-a{color:#3f3a35!important;background:#fff!important;border:1px solid #dfdad2!important;border-top:0!important;border-radius:0 0 12px 12px!important;padding-top:2px!important}
+.pricing-editorial .bp-related-link{color:#d80b78!important;border-bottom-color:#d9d4cc!important;font-family:var(--font-sans)!important}
+@media(max-width:760px){
+  .pricing-editorial .bp-header{padding:36px 0 30px!important}
+  .pricing-editorial .bp-title{font-size:clamp(36px,10.2vw,48px)!important;line-height:1.05!important}
+  .pricing-editorial .bp-hero{margin-top:26px!important;border-radius:12px!important}
+  .pricing-editorial .bp-body{padding:42px 20px 80px!important;background:#f5f3ee!important}
+  .pricing-editorial .bp-section{margin-bottom:52px!important;padding-top:22px!important}
+  .pricing-editorial .bp-p{font-size:17px!important;line-height:1.72!important}
+  .pricing-editorial .bp-callout{font-size:17px!important;padding:18px!important}
+  .pricing-editorial .bp-table{min-width:680px!important}
+}
+</style>
 </head>
-<body>
+<body class="pricing-editorial">
 <div id="root"></div>
 <article id="seo-static-fallback" style="max-width:920px;margin:0 auto;padding:64px 24px;color:#fff;background:#000;font-family:Arial,sans-serif;line-height:1.68;">
   <p style="color:#ff1493;text-transform:uppercase;letter-spacing:.14em;font-size:13px;">WE Marketing · TikTok Shop U.S. · Agency Pricing</p>
