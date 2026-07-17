@@ -25,6 +25,22 @@ const BLOG_POSTS = [
     image: 'hero-tiktok-shop-us-logistics-fulfillment-strategy.png',
   },
   {
+    slug: 'tiktok-shop-ip-protection-seller-playbook',
+    cat: { en: 'TIKTOK SHOP IP · SELLER PROTECTION', zh: 'TIKTOK SHOP IP · 卖家自保' },
+    title: { en: 'How TikTok Shop Sellers Can Protect Themselves From IP Risk', zh: 'TikTok Shop 卖家怎么保护自己：IP 风险、品牌授权和申诉清单' },
+    excerpt: { en: 'A practical WEM guide to TikTok Shop intellectual property risk, brand authorization, LOA files, supplier invoices, commercial-use rights, Shop Health, and IP violation appeals.', zh: 'WEM 拆解 TikTok Shop IP 风险：品牌授权、LOA、供应商发票、商业使用权、店铺健康和申诉证据链应该怎么提前准备。' },
+    date: { en: 'Jul 1, 2026', zh: '2026 年 7 月 1 日' }, read: { en: '13 min read', zh: '13 分钟阅读' },
+    image: 'hero-tiktok-shop-ip-protection-seller-playbook.png',
+  },
+  {
+    slug: 'tiktok-shop-us-mexico-expansion-opportunity',
+    cat: { en: 'TIKTOK SHOP US-MX · NORTH AMERICA', zh: 'TIKTOK SHOP US-MX · 北美增长' },
+    title: { en: 'Why TikTok Shop US Sellers Should Watch Mexico', zh: 'TikTok Shop 美国店为什么要开始看墨西哥' },
+    excerpt: { en: 'A practical WEM guide to TikTok Shop US-MX expansion: FBT US inventory sharing, Mexico product testing, Spanish pages, creators, affiliate setup, returns, and weekly operations.', zh: 'WEM 从 US-MX FBT 库存共享出发，拆解美国 TikTok Shop 卖家为什么要看墨西哥市场，以及怎么准备选品、库存、退货、西语页面和达人合作。' },
+    date: { en: 'Jun 30, 2026', zh: '2026 年 6 月 30 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
+    image: 'hero-tiktok-shop-us-mexico-expansion-opportunity.png',
+  },
+  {
     slug: 'tiktok-shop-aigc-auto-post-strategy',
     cat: { en: 'TIKTOK SHOP · AIGC AUTO-POST', zh: 'TIKTOK SHOP · AIGC 自动发布' },
     title: { en: 'TikTok Shop AIGC Auto-post: Why It Matters and How Brands Should Use It', zh: 'TikTok Shop AIGC Auto-post 为什么重要以及品牌怎么用' },
