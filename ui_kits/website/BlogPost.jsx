@@ -1,4 +1,4 @@
-// BlogPost.jsx, shared layout for individual blog posts (dark)
+// BlogPost.jsx, shared light editorial layout for individual blog posts
 // content props: { meta:{title,desc,cat,date,read,author}, sections:[{id,h,body:[{kind,...}]}], faqs:[{q,a}], related:[{label,href}] }
 // body kinds:
 //   - { kind:'p', text }
@@ -54,7 +54,7 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
             <thead><tr>{b.headers.map((h, j) => <th key={j} style={bpStyles.th}>{h}</th>)}</tr></thead>
             <tbody>
               {b.rows.map((r, j) => (
-                <tr key={j} style={{ background: j % 2 ? 'rgba(255,255,255,.02)' : 'transparent' }}>
+                <tr key={j} style={{ background: j % 2 ? '#F8F5F0' : '#FFFFFF' }}>
                   {r.map((c, k) => <td key={k} style={bpStyles.td}>{c}</td>)}
                 </tr>
               ))}
@@ -64,7 +64,7 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
       );
     }
     if (b.kind === 'cta') {
-      const isBook = /book/i.test(b.label || '') || /discovery/i.test(b.label || '');
+      const isBook = /book|discovery|strategy|预约|咨询/i.test(b.label || '');
       const href = isBook ? 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' : b.href;
       return <a key={i} href={href} target={isBook ? '_blank' : undefined} rel={isBook ? 'noopener' : undefined} style={bpStyles.ctaBtn} className="bp-cta-btn">{b.label}</a>;
     }
@@ -90,6 +90,27 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
   return (
     <article style={bpStyles.wrap} className="bp-wrap">
       <style>{`
+        .bp-wrap .bp-section > .bp-p,
+        .bp-wrap .bp-section > .bp-p:nth-of-type(even) {
+          margin: 0 0 22px !important;
+          padding: 0 !important;
+          background: transparent !important;
+          border: 0 !important;
+          border-radius: 0 !important;
+          box-shadow: none !important;
+        }
+        .bp-wrap .bp-section > .bp-list {
+          margin: 14px 0 30px !important;
+          padding: 0 0 0 25px !important;
+          background: transparent !important;
+          border: 0 !important;
+          border-radius: 0 !important;
+          box-shadow: none !important;
+        }
+        .bp-wrap .bp-section > .bp-list li {
+          margin: 0 0 10px !important;
+          padding-left: 5px !important;
+        }
         @media (max-width: 760px) {
           .bp-wrap { max-width: 100vw !important; overflow-x: hidden !important; }
           .bp-header { padding: 44px 0 36px !important; }
@@ -201,56 +222,56 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
 };
 
 const bpStyles = {
-  wrap: { position: 'relative', background: '#000', color: '#fff', overflow: 'hidden' },
-  orb: { position: 'absolute', top: -240, left: '50%', transform: 'translateX(-50%)', width: 900, height: 600, background: 'radial-gradient(ellipse, #FF1493 0%, transparent 60%)', filter: 'blur(90px)', opacity: .18, pointerEvents: 'none' },
-  header: { position: 'relative', borderBottom: '1px solid rgba(255,255,255,.08)', padding: '60px 0 56px' },
-  headerInner: { maxWidth: 920, margin: '0 auto', padding: '0 32px' },
-  back: { display: 'inline-flex', alignItems: 'center', gap: 8, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,.55)', textDecoration: 'none', marginBottom: 32 },
+  wrap: { position: 'relative', background: '#F5F3EE', color: '#171717', overflow: 'hidden' },
+  orb: { position: 'absolute', top: -260, left: '50%', transform: 'translateX(-50%)', width: 920, height: 560, background: 'radial-gradient(ellipse, rgba(255,20,147,.22) 0%, rgba(92,196,255,.11) 34%, transparent 67%)', filter: 'blur(90px)', opacity: .7, pointerEvents: 'none' },
+  header: { position: 'relative', borderBottom: '1px solid #E3DED6', padding: '58px 0 50px', background: 'rgba(255,255,255,.72)' },
+  headerInner: { maxWidth: 1000, margin: '0 auto', padding: '0 32px' },
+  back: { display: 'inline-flex', alignItems: 'center', gap: 8, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.12em', textTransform: 'uppercase', color: '#6F6A64', textDecoration: 'none', marginBottom: 30 },
   cat: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', color: '#FF1493', marginBottom: 22 },
-  h1: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(40px, 5.4vw, 76px)', lineHeight: 1.0, letterSpacing: '-.01em', textTransform: 'uppercase', margin: 0, color: '#fff' },
-  metaRow: { display: 'flex', alignItems: 'center', gap: 10, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,.55)', marginTop: 28 },
-  heroWrap: { marginTop: 44, borderRadius: 18, overflow: 'hidden', border: '1px solid rgba(255,255,255,.1)', boxShadow: '0 0 0 1px rgba(255,20,147,.12), 0 20px 60px rgba(0,0,0,.5)' },
+  h1: { fontFamily: 'var(--font-sans)', fontWeight: 850, fontSize: 'clamp(42px, 5.4vw, 72px)', lineHeight: 1.03, letterSpacing: '-.045em', textTransform: 'none', margin: 0, color: '#171717' },
+  metaRow: { display: 'flex', alignItems: 'center', gap: 10, fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.07em', textTransform: 'none', color: '#77716A', marginTop: 24 },
+  heroWrap: { maxWidth: 860, margin: '40px auto 0', borderRadius: 18, overflow: 'hidden', border: '1px solid #E2DDD5', boxShadow: '0 20px 60px rgba(35,28,22,.10)' },
   heroImg: { width: '100%', height: 'auto', display: 'block' },
   dot: { opacity: .5 },
-  body: { position: 'relative', maxWidth: 1180, margin: '0 auto', padding: '64px 32px 100px', display: 'grid', gridTemplateColumns: '220px 1fr', gap: 64, alignItems: 'flex-start' },
+  body: { position: 'relative', maxWidth: 1180, margin: '0 auto', padding: '68px 32px 110px', display: 'grid', gridTemplateColumns: '210px minmax(0,760px)', gap: 68, justifyContent: 'center', alignItems: 'flex-start' },
   toc: { position: 'sticky', top: 100, alignSelf: 'flex-start' },
-  tocLabel: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,.5)', marginBottom: 16, paddingBottom: 14, borderBottom: '1px solid rgba(255,255,255,.1)' },
+  tocLabel: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.16em', textTransform: 'uppercase', color: '#77716A', marginBottom: 16, paddingBottom: 14, borderBottom: '1px solid #D9D4CC' },
   tocNav: { display: 'flex', flexDirection: 'column', gap: 12 },
-  tocLink: { fontFamily: 'var(--font-sans)', fontSize: 13, lineHeight: 1.4, color: 'rgba(255,255,255,.55)', textDecoration: 'none', borderLeft: '2px solid transparent', paddingLeft: 12, transition: 'color .2s, border-color .2s' },
+  tocLink: { fontFamily: 'var(--font-sans)', fontSize: 13, lineHeight: 1.4, color: '#68635D', textDecoration: 'none', borderLeft: '2px solid transparent', paddingLeft: 12, transition: 'color .2s, border-color .2s' },
   tocLinkActive: { color: '#FF1493', borderLeftColor: '#FF1493' },
   col: { maxWidth: 760, fontFamily: 'var(--font-sans)' },
-  section: { marginBottom: 64, paddingTop: 18, borderTop: '1px solid rgba(255,255,255,.08)', scrollMarginTop: 100 },
-  h2: { fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px, 3vw, 40px)', lineHeight: 1.1, letterSpacing: '-.005em', textTransform: 'uppercase', margin: '0 0 24px', color: '#FF1493', textShadow: '0 0 24px rgba(255,20,147,.18)' },
-  h3: { fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, lineHeight: 1.25, textTransform: 'uppercase', letterSpacing: '.01em', margin: '32px 0 12px', color: '#FF1493' },
-  sub: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.16em', textTransform: 'uppercase', color: 'rgba(255,255,255,.55)', margin: '24px 0 8px' },
-  p: { fontFamily: 'var(--font-sans)', fontSize: 17, lineHeight: 1.7, color: 'rgba(255,255,255,.82)', margin: '0 0 18px' },
-  list: { fontFamily: 'var(--font-sans)', fontSize: 17, lineHeight: 1.65, color: 'rgba(255,255,255,.84)', margin: '22px 0 24px', padding: '20px 24px 18px 42px', border: '1px solid rgba(255,255,255,.08)', borderRadius: 14, background: 'linear-gradient(135deg, rgba(255,255,255,.045), rgba(255,20,147,.035))' },
-  li: { margin: '0 0 8px' },
-  callout: { border: '1px solid rgba(255,20,147,.22)', borderLeft: '4px solid #FF1493', padding: '18px 24px', background: 'radial-gradient(circle at 0% 0%, rgba(255,20,147,.14), transparent 36%), rgba(255,255,255,.035)', borderRadius: '0 14px 14px 0', fontFamily: 'var(--font-sans)', fontSize: 17, lineHeight: 1.6, color: '#fff', margin: '28px 0' },
+  section: { marginBottom: 72, paddingTop: 26, borderTop: '1px solid #DCD7CF', scrollMarginTop: 100 },
+  h2: { fontFamily: 'var(--font-sans)', fontWeight: 850, fontSize: 'clamp(30px, 3vw, 42px)', lineHeight: 1.12, letterSpacing: '-.035em', textTransform: 'none', margin: '0 0 24px', color: '#171717' },
+  h3: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 22, lineHeight: 1.25, textTransform: 'none', letterSpacing: '-.015em', margin: '32px 0 12px', color: '#242424' },
+  sub: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.14em', textTransform: 'uppercase', color: '#77716A', margin: '24px 0 8px' },
+  p: { fontFamily: 'var(--font-sans)', fontSize: 18, lineHeight: 1.78, color: '#37332F', margin: '0 0 21px' },
+  list: { fontFamily: 'var(--font-sans)', fontSize: 17, lineHeight: 1.7, color: '#302D29', margin: '14px 0 30px', padding: '0 0 0 25px', border: 0, borderRadius: 0, background: 'transparent', boxShadow: 'none' },
+  li: { margin: '0 0 10px', paddingLeft: 5 },
+  callout: { border: 0, borderLeft: '3px solid #E81583', padding: '2px 0 2px 20px', background: 'transparent', borderRadius: 0, fontFamily: 'var(--font-sans)', fontSize: 18, lineHeight: 1.7, color: '#292522', margin: '28px 0 30px', boxShadow: 'none' },
   tableWrap: {
     overflowX: 'auto',
     margin: '28px 0 34px',
-    border: '1px solid rgba(255,20,147,.22)',
-    borderRadius: 16,
-    background: 'radial-gradient(circle at 16% 0%, rgba(255,20,147,.13), transparent 34%), radial-gradient(circle at 88% 12%, rgba(74,143,255,.08), transparent 32%), linear-gradient(135deg, rgba(255,255,255,.045), rgba(255,255,255,.01))',
-    boxShadow: '0 0 0 1px rgba(255,255,255,.035), 0 24px 70px rgba(0,0,0,.38)',
-    padding: 1,
+    border: '1px solid #DCD7CF',
+    borderRadius: 14,
+    background: '#FFFFFF',
+    boxShadow: '0 10px 32px rgba(30,25,20,.07)',
+    padding: 0,
   },
-  table: { width: '100%', borderCollapse: 'separate', borderSpacing: 0, fontFamily: 'var(--font-sans)', fontSize: 14, lineHeight: 1.5, color: 'rgba(255,255,255,.82)', background: 'rgba(2,2,2,.72)', borderRadius: 15, overflow: 'hidden' },
-  th: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', color: '#FF1493', textAlign: 'left', padding: '16px 18px', borderBottom: '1px solid rgba(255,255,255,.12)', background: 'linear-gradient(90deg, rgba(255,20,147,.13), rgba(155,48,255,.08), rgba(74,143,255,.04))' },
-  td: { padding: '16px 18px', borderBottom: '1px solid rgba(255,255,255,.07)', verticalAlign: 'top' },
+  table: { width: '100%', borderCollapse: 'separate', borderSpacing: 0, fontFamily: 'var(--font-sans)', fontSize: 15, lineHeight: 1.5, color: '#302D29', background: '#FFFFFF', borderRadius: 14, overflow: 'hidden' },
+  th: { fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 750, letterSpacing: '.025em', textTransform: 'none', color: '#FFFFFF', textAlign: 'left', padding: '17px 18px', borderBottom: 0, background: '#171717' },
+  td: { padding: '18px', borderBottom: '1px solid #E6E1D9', verticalAlign: 'top', color: '#302D29' },
   ctaBtn: { display: 'inline-block', background: 'linear-gradient(90deg,#FF1493,#9B30FF)', color: '#fff', padding: '16px 30px', borderRadius: 999, fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 15, letterSpacing: '.04em', textTransform: 'uppercase', textDecoration: 'none', margin: '12px 0 8px' },
-  infoWrap: { margin: '34px 0', borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(255,20,147,.22)', background: 'radial-gradient(circle at 10% 0%, rgba(255,20,147,.14), transparent 32%), radial-gradient(circle at 90% 10%, rgba(74,143,255,.10), transparent 34%), #080808', boxShadow: '0 20px 60px rgba(0,0,0,.36)' },
+  infoWrap: { margin: '34px 0', borderRadius: 16, overflow: 'hidden', border: '1px solid #DED8D0', background: '#FFFFFF', boxShadow: '0 16px 44px rgba(30,25,20,.08)' },
   infoImg: { width: '100%', height: 'auto', display: 'block' },
-  infoCap: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,.55)', padding: '14px 18px', borderTop: '1px solid rgba(255,255,255,.08)' },
-  infoPlaceholder: { margin: '32px 0', padding: '40px 32px', borderRadius: 14, border: '1px dashed rgba(255,20,147,.4)', background: 'rgba(255,20,147,.04)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 },
+  infoCap: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.12em', textTransform: 'uppercase', color: '#77716A', padding: '14px 18px', borderTop: '1px solid #E6E1D9' },
+  infoPlaceholder: { margin: '32px 0', padding: '40px 32px', borderRadius: 14, border: '1px dashed rgba(255,20,147,.4)', background: '#FFF4F9', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 },
   infoLabel: { fontFamily: 'var(--font-mono)', fontSize: 11, letterSpacing: '.18em', color: '#FF1493', fontWeight: 700 },
-  infoTitle: { fontFamily: 'var(--font-sans)', fontSize: 15, color: 'rgba(255,255,255,.7)' },
+  infoTitle: { fontFamily: 'var(--font-sans)', fontSize: 15, color: '#68635D' },
   faqList: { display: 'flex', flexDirection: 'column', gap: 12 },
-  faqItem: { background: '#0A0A0A', border: '1px solid rgba(255,255,255,.08)', borderRadius: 14, overflow: 'hidden' },
-  faqQ: { width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 16, padding: '20px 24px', background: 'transparent', border: 'none', color: '#fff', fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 18, letterSpacing: '.005em', textAlign: 'left', cursor: 'pointer' },
-  faqA: { padding: '0 24px 22px', fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.65, color: 'rgba(255,255,255,.78)' },
+  faqItem: { background: '#FFFFFF', border: '1px solid #DFDAD2', borderRadius: 14, overflow: 'hidden', boxShadow: '0 5px 18px rgba(30,25,20,.035)' },
+  faqQ: { width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 16, padding: '20px 24px', background: 'transparent', border: 'none', color: '#202020', fontFamily: 'var(--font-sans)', fontWeight: 750, fontSize: 18, letterSpacing: '-.005em', textAlign: 'left', cursor: 'pointer' },
+  faqA: { padding: '0 24px 22px', fontFamily: 'var(--font-sans)', fontSize: 16, lineHeight: 1.68, color: '#3F3A35' },
   relatedList: { display: 'flex', flexDirection: 'column', gap: 10 },
-  relatedLink: { display: 'inline-flex', alignItems: 'center', gap: 8, fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 18, color: '#FF1493', textDecoration: 'none', padding: '14px 0', borderBottom: '1px solid rgba(255,255,255,.08)' },
+  relatedLink: { display: 'inline-flex', alignItems: 'center', gap: 8, fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: 18, color: '#D80B78', textDecoration: 'none', padding: '14px 0', borderBottom: '1px solid #D9D4CC' },
 };
 window.BlogPost = BlogPost;
