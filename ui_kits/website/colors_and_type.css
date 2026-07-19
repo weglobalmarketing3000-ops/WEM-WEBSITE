@@ -326,13 +326,30 @@ code, .we-code {
   text-transform: none !important;
   text-shadow: none !important;
 }
+.bp-h2::after {
+  content: '';
+  display: block;
+  width: 92px;
+  height: 3px;
+  margin-top: 16px;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#1746b8 0%,#7b61ff 52%,#ff4f9a 100%);
+}
 .bp-h3 {
-  color: #b80d69 !important;
+  color: #1746b8 !important;
   font-family: var(--font-sans) !important;
   text-transform: none !important;
-  border-left: 4px solid #ff1493 !important;
-  padding-left: 15px !important;
+  border-left: 0 !important;
+  padding-left: 0 !important;
   margin-top: 38px !important;
+}
+.bp-section-eyebrow {
+  color: #e81583 !important;
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: .15em !important;
+  text-transform: uppercase !important;
 }
 .bp-p {
   color: #37332f !important;
@@ -356,20 +373,23 @@ code, .we-code {
 }
 .bp-list {
   color: #302d29 !important;
-  background: #fff !important;
-  border-color: #e2ddd5 !important;
+  background: transparent !important;
+  border: 0 !important;
   font-size: 17px !important;
   line-height: 1.7 !important;
-  box-shadow: 0 7px 22px rgba(30,25,20,.04) !important;
+  box-shadow: none !important;
 }
+.bp-section > ul.bp-list { list-style: none !important; padding-left: 0 !important; }
+.bp-section > ul.bp-list > li { position: relative; padding-left: 28px !important; }
+.bp-section > ul.bp-list > li::before { content: '✓'; position: absolute; left: 0; top: .05em; color: #e81583; font-weight: 900; }
 .bp-callout {
-  color: #202020 !important;
-  background: linear-gradient(135deg,#fff2f8,#eef5ff) !important;
-  border-color: #ead3df !important;
-  border-left: 5px solid #e81583 !important;
+  color: #292522 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-left: 3px solid #e81583 !important;
   font-size: 18px !important;
-  line-height: 1.68 !important;
-  box-shadow: 0 10px 30px rgba(70,40,55,.06) !important;
+  line-height: 1.7 !important;
+  box-shadow: none !important;
 }
 .bp-table-wrap {
   border-color: #dcd7cf !important;

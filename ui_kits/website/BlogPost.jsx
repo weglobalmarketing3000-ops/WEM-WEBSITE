@@ -107,10 +107,42 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
           border-radius: 0 !important;
           box-shadow: none !important;
         }
-        .bp-wrap .bp-section > .bp-list li {
-          margin: 0 0 10px !important;
-          padding-left: 5px !important;
-        }
+          .bp-wrap .bp-section > .bp-list li {
+            margin: 0 0 10px !important;
+            padding-left: 5px !important;
+          }
+          .bp-section-eyebrow {
+            margin: 0 0 12px;
+            color: #E81583;
+            font: 700 11px/1.2 var(--font-mono);
+            letter-spacing: .15em;
+            text-transform: uppercase;
+          }
+          .bp-h2::after {
+            content: '';
+            display: block;
+            width: 92px;
+            height: 3px;
+            margin-top: 16px;
+            border-radius: 999px;
+            background: linear-gradient(90deg, #1746B8 0%, #7B61FF 52%, #FF4F9A 100%);
+          }
+          .bp-wrap .bp-section > ul.bp-list {
+            list-style: none;
+            padding-left: 0 !important;
+          }
+          .bp-wrap .bp-section > ul.bp-list > li {
+            position: relative;
+            padding-left: 28px !important;
+          }
+          .bp-wrap .bp-section > ul.bp-list > li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: .05em;
+            color: #E81583;
+            font-weight: 900;
+          }
         @media (max-width: 760px) {
           .bp-wrap { max-width: 100vw !important; overflow-x: hidden !important; }
           .bp-header { padding: 44px 0 36px !important; }
@@ -183,6 +215,7 @@ const BlogPost = ({ meta, sections, faqs, related, labels }) => {
         <div style={bpStyles.col} className="bp-col">
           {sections.map(s => (
             <section key={s.id} id={s.id} style={bpStyles.section} className="bp-section">
+              {s.eyebrow && <div className="bp-section-eyebrow">{s.eyebrow}</div>}
               <h2 style={bpStyles.h2} className="bp-h2">{s.h}</h2>
               {s.body.map(renderBlock)}
             </section>
@@ -242,7 +275,7 @@ const bpStyles = {
   col: { maxWidth: 760, fontFamily: 'var(--font-sans)' },
   section: { marginBottom: 72, paddingTop: 26, borderTop: '1px solid #DCD7CF', scrollMarginTop: 100 },
   h2: { fontFamily: 'var(--font-sans)', fontWeight: 850, fontSize: 'clamp(30px, 3vw, 42px)', lineHeight: 1.12, letterSpacing: '-.035em', textTransform: 'none', margin: '0 0 24px', color: '#171717' },
-  h3: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 22, lineHeight: 1.25, textTransform: 'none', letterSpacing: '-.015em', margin: '32px 0 12px', color: '#242424' },
+  h3: { fontFamily: 'var(--font-sans)', fontWeight: 800, fontSize: 22, lineHeight: 1.25, textTransform: 'none', letterSpacing: '-.015em', margin: '32px 0 12px', color: '#1746B8' },
   sub: { fontFamily: 'var(--font-mono)', fontSize: 12, letterSpacing: '.14em', textTransform: 'uppercase', color: '#77716A', margin: '24px 0 8px' },
   p: { fontFamily: 'var(--font-sans)', fontSize: 18, lineHeight: 1.78, color: '#37332F', margin: '0 0 21px' },
   list: { fontFamily: 'var(--font-sans)', fontSize: 17, lineHeight: 1.7, color: '#302D29', margin: '14px 0 30px', padding: '0 0 0 25px', border: 0, borderRadius: 0, background: 'transparent', boxShadow: 'none' },
