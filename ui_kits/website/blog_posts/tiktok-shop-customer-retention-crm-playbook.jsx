@@ -22,10 +22,11 @@ const POSTS = {
     sections: [
       {
         id: 'direct-answer',
-        h: 'What is TikTok Shop CRM, and what should a brand do first?',
+        h: 'Most brands do not have a messaging problem. They have a next-reason problem.',
         body: [
-          CALLOUT('TikTok Shop CRM is the customer segmentation and outreach system in Seller Center for eligible sellers. It supports automated and one-time campaigns across available channels, helping brands recover high-intent shoppers, educate first-time buyers, promote relevant LIVEs or launches, and bring customers back for a logical next purchase.'),
-          P('For most U.S. brands, the practical starting point is three focused jobs: recover abandoned carts or incomplete checkouts, help first-time buyers use the product successfully, and invite the right segment to a relevant LIVE or launch. Add replenishment and lapsed-customer campaigns only after the first three have clear owners, stop conditions, and review dates.'),
+          CALLOUT('A first order does not create retention on its own. Before sending anything, decide what would give this customer a real reason to take the next step: finish checkout, use the product correctly, join a relevant LIVE, replenish, or discover a product that genuinely fits what they already bought.'),
+          P('TikTok Shop CRM is the segmentation and outreach capability inside Seller Center that lets eligible sellers act on those moments through automated and one-time campaigns. The tool matters, but the operating judgment matters more. A campaign should exist because the customer has reached a meaningful point in the journey, not because the brand has another promotion to announce.'),
+          P('For most U.S. brands, start with three jobs: recover abandoned carts or incomplete checkouts, help first-time buyers get value from the product, and invite the right segment to a LIVE or launch that connects to their behavior. Add replenishment and lapsed-customer campaigns only after the first three have clear owners, stop conditions, and review dates.'),
           UL([
             'Segment by customer state, not by one universal promotional calendar.',
             'Give each message one job and one reason to reach the customer now.',
@@ -33,7 +34,7 @@ const POSTS = {
             'Measure second-order behavior and customer quality, not only sends or reads.',
             'Verify current eligibility, quotas, and feature access in Seller Center before launch.',
           ]),
-          P('This answer is based on TikTok Shop Academy’s Customer Outreach Playbook, updated June 15, 2026 and rechecked by WEM on July 18, 2026. The five-part operating model in this guide is WEM’s framework, not a TikTok guarantee.'),
+          P('WEM built this operating approach from TikTok Shop Academy’s current Customer Outreach Playbook and from the way creator acquisition, customer experience, and repeat purchase affect one another. The platform rules cited below were rechecked on July 18, 2026. The operating judgment is WEM’s, and it is not a sales guarantee.'),
         ],
       },
       {
@@ -42,7 +43,7 @@ const POSTS = {
         body: [
           P('TikTok Shop is exceptionally good at creating first encounters. A creator demonstrates a product, a shopper enters a LIVE, an offer makes the decision feel timely, and an unfamiliar brand earns an order. Most operating teams celebrate that conversion and immediately return to the top of the funnel.'),
           P('That is expensive behavior. If every sale requires a fresh creator post, another paid impression, or another peak LIVE moment, the brand keeps renting attention it has already earned. The first order should create more than revenue. It should create a relationship signal: what the customer bought, what problem they were trying to solve, what might bring them back, and when a second conversation would be useful.'),
-          P('TikTok Shop Academy’s Customer Outreach Playbook shows that Seller Center now supports customer segments, automated and one-time outreach, chat, customer email for one-time plans, LIVE reminders, abandoned-cart recovery, repeat-purchase messages, and performance reporting. The operating opportunity is bigger than “send more messages.” Brands can build a retention system inside the commerce journey.'),
+          P('Seller Center now gives eligible shops enough segmentation and outreach capability to act on this information. But having more ways to contact customers is not the opportunity. The opportunity is to stop treating every first order as an isolated win and start using what happens after checkout to improve the next message, the next creator brief, and the next product decision.'),
         ],
       },
       {
@@ -93,17 +94,25 @@ const POSTS = {
         h: 'Build a small campaign architecture before adding volume',
         body: [
           P('A brand does not need fifteen campaigns on day one. It needs a few messages with clear jobs. Begin with the moments closest to revenue and customer experience: abandoned cart or checkout, first-purchase thank-you and education, LIVE reminders, replenishment or complementary products, and re-engagement for customers whose behavior suggests a real reason to return.'),
-          P('Automated plans are useful when the trigger is stable and the message remains relevant over time. One-time plans are better for launches, seasonal offers, specific LIVEs, or a carefully selected customer group. The Academy source also states that customer email is available only for one-time plans. Advanced hosted email and AI-powered chat outreach are limited to selected or trial sellers, so teams should design a system that works without assuming access to experimental features.'),
+          P('Use automation only when both the trigger and the message stay useful without someone forcing the timing. A cart reminder or post-purchase instruction may qualify. A launch, seasonal offer, or specific LIVE usually needs a one-time plan and a deliberately chosen audience. Customer email is currently limited to one-time plans, while advanced hosted email and AI-powered chat outreach are restricted to selected or trial sellers. Build the retention logic around customer moments you can manage today, not features your shop may never receive.'),
           P('Every campaign needs an owner, an audience definition, a single purpose, a product or offer rationale, a stop condition, and a review date. “Always on” should never mean “never reviewed.”'),
         ],
       },
       {
         id: 'official-guardrails',
-        h: 'Know the access, quota, and frequency guardrails',
+        h: 'CRM access is earned operating capacity, not just another marketing button',
         body: [
-          P('TikTok Shop Academy ties CRM access to Shop Performance Score. The current U.S. playbook says sellers with SPS at or above 3.5 receive access; permissions are recalculated daily. It describes a frozen state for 3 to below 3.5 and revoked access below 3 or when a seller has no transaction value in the previous 30 days. Sellers should verify the live status shown in Seller Center because platform rules can change.'),
-          P('The Academy page also says weekly one-time campaign quota depends on 30-day GMV and may receive bonuses based on read and unsubscribe performance. Automated campaigns are described as having no quota limit when SPS is at least 3.5, while campaigns created through third-party tools still count toward quota.'),
-          P('Frequency controls are not an excuse to message at the maximum. The official page describes channel-specific limits, including a shop reaching the same user by inbox or email up to once a week and separate Group Chat limits. Operationally, the better standard is relevance: send only when the message changes the customer’s decision or product experience.'),
+          P('The 3.5 Shop Performance Score threshold is not merely a permission rule. It is TikTok signaling that customer outreach should sit on top of a healthy shop. If service, fulfillment, or transaction activity weakens, a brand can lose the ability to create or edit plans. CRM therefore cannot live on a separate marketing calendar. Shop health is part of the retention system.'),
+          TABLE(
+            ['Live shop status', 'What happens to CRM', 'What the team should do'],
+            [
+              ['SPS 3.5 or higher', 'Access is available and recalculated daily', 'Build a small set of campaigns and review customer response.'],
+              ['SPS 3 to below 3.5', 'Existing plans are frozen', 'Fix the customer experience and shop-health issue before expanding outreach.'],
+              ['SPS below 3, or no transaction value in the prior 30 days', 'Access is revoked', 'Restore the operating foundation first. CRM is not the recovery shortcut.'],
+            ]
+          ),
+          P('Quota should force prioritization, not volume chasing. Weekly one-time campaign capacity is tied to 30-day GMV and can be affected by read and unsubscribe performance. Use those limited sends for moments that truly need a date, a selected audience, or a fresh decision. Automated campaigns may be quota-free when SPS is at least 3.5, but that does not make unlimited messaging good practice. Third-party campaigns still count toward quota.'),
+          P('The same principle applies to frequency limits. A platform ceiling tells you what is allowed, not what has earned the customer’s attention. WEM’s standard is stricter: if the message does not remove a real obstacle, improve product use, or create a relevant next reason to buy, do not send it. Verify the live thresholds and permissions in Seller Center before execution because platform rules can change.'),
         ],
       },
       {
@@ -157,11 +166,11 @@ const POSTS = {
       },
     ],
     faqs: [
-      { q: 'What is TikTok Shop CRM?', a: 'TikTok Shop CRM is the customer-management and outreach capability in Seller Center. It helps eligible sellers understand customer segments and run automated or one-time campaigns through supported channels such as chat, email for one-time plans, and selected Group Chat use cases.' },
-      { q: 'Who can access TikTok Shop CRM in the United States?', a: 'The Academy playbook reviewed for this article states that access is granted when Shop Performance Score is at least 3.5, with permissions recalculated daily. Sellers should verify their current access and any changed requirements in Seller Center.' },
-      { q: 'What TikTok Shop CRM campaigns should a brand launch first?', a: 'Start with a small set tied to clear customer states: abandoned cart or checkout recovery, first-purchase education, LIVE or launch reminders, replenishment or complementary products, and relevant re-engagement for lapsed customers.' },
-      { q: 'Does TikTok Shop CRM include email marketing?', a: 'The Academy page says customer email is available for one-time plans. Advanced hosted email is described as an invite-only testing feature for selected sellers, so brands should not assume the advanced feature is available to every shop.' },
-      { q: 'Is AI-powered TikTok Shop customer outreach available to every seller?', a: 'No. The Academy source describes AI-powered chat outreach as a trial feature. Eligible trial sellers can review and apply recommended plans, but access is not universal.' },
+      { q: 'What is TikTok Shop CRM?', a: 'TikTok Shop CRM is the segmentation and outreach capability inside Seller Center for eligible sellers. Its useful role is to help a brand act on a real customer moment, such as an abandoned checkout, a first-purchase education need, a relevant LIVE, or a logical next purchase.' },
+      { q: 'Who can access TikTok Shop CRM in the United States?', a: 'The current U.S. Academy playbook sets access at a Shop Performance Score of at least 3.5 and recalculates permission daily. Treat that threshold as a reminder that retention depends on shop health, then confirm the live status in Seller Center before planning campaigns.' },
+      { q: 'What TikTok Shop CRM campaigns should a brand launch first?', a: 'Start with three clear jobs: recover an abandoned cart or checkout, help a first-time buyer use the product successfully, and invite the right segment to a relevant LIVE or launch. Add more only after these campaigns have owners, stop conditions, and review dates.' },
+      { q: 'Does TikTok Shop CRM include email marketing?', a: 'Customer email is currently available for one-time plans. Advanced hosted email is an invite-only test, so build a retention system that works with the channels your shop actually has instead of assuming every email feature will be available.' },
+      { q: 'Is AI-powered TikTok Shop customer outreach available to every seller?', a: 'No. AI-powered chat outreach is currently a trial feature. If it appears in your shop, review the recommended plan as carefully as a human-created campaign; the tool does not replace audience, timing, or offer judgment.' },
       { q: 'How should brands measure TikTok Shop CRM performance?', a: 'Measure delivery and read quality, clicks and CRM-attributed orders, second-order rate, time to repurchase, repeat average order value, unsubscribes, and the customer questions that should change product pages, creator briefs, offers, or LIVEs.' },
       { q: 'How does CRM support TikTok Shop creator marketing?', a: 'CRM reveals whether creator-acquired customers remain engaged, buy again, ask recurring questions, or respond to later LIVEs and launches. Those signals help brands improve creator matching, briefs, product education, and repeat collaborations.' },
     ],
@@ -180,18 +189,19 @@ const POSTS = {
     },
     sections: [
       {
-        id: '直接答案', h: 'TikTok Shop CRM 是什么，品牌第一步该做什么？', body: [
-          CALLOUT('TikTok Shop CRM 是 Seller Center 面向符合条件卖家的用户分群与触达系统。品牌可根据实际开放权限，通过 automated campaign 和 one-time campaign 挽回高意向用户、教育首购客户、提醒相关 LIVE 或上新，并推动下一次合理购买。'),
-          P('面向美国市场的品牌，第一阶段先做三个任务：挽回购物车或结账放弃、帮助首购客户正确使用产品、邀请合适人群参加相关 LIVE 或新品活动。等这三类消息都有负责人、停止条件和复盘日期后，再增加补货与沉默客户唤回。'),
+        id: '直接答案', h: '很多品牌缺的不是发消息的工具，而是用户下一次回来的理由', body: [
+          CALLOUT('首单不会自动变成复购。发任何消息之前，团队先要回答：这个用户为什么值得在此刻继续往前走？是完成结账、正确使用产品、参加一场真正相关的 LIVE、到了补货时间，还是已经出现了合理的搭配需求？'),
+          P('TikTok Shop CRM 是 Seller Center 面向符合条件卖家的用户分群与触达能力，品牌可以通过 automated campaign 和 one-time campaign 对这些时刻采取行动。但按钮不是策略。只有当用户走到了一个真实节点，消息才应该存在，而不是因为品牌今天又有一个促销要宣布。'),
+          P('面向美国市场的品牌，第一阶段先做三个任务：挽回购物车或结账放弃、帮助首购客户真正用好产品、邀请合适人群参加与其行为相关的 LIVE 或新品活动。等这三类消息都有负责人、停止条件和复盘日期后，再增加补货与沉默客户唤回。'),
           UL(['按用户状态分群，不按品牌自己的大促日历统一群发。','每条消息只完成一个任务，并解释为什么现在值得联系。','把 CRM 结果回流到英文商品页、达人 brief、offer 和 LIVE。','衡量第二单和客户质量，不只看发送量与已读。','上线前在 Seller Center 核对最新资格、配额和功能权限。']),
-          P('以上判断基于 TikTok Shop Academy 的 Customer Outreach Playbook。该页面更新于 2026 年 6 月 15 日，WEM 于 2026 年 7 月 18 日再次核对。本文的五段运营闭环属于 WEM 方法，不代表 TikTok 对业绩作出保证。'),
+          P('WEM 参考 TikTok Shop Academy 当前的 Customer Outreach Playbook，再结合达人获客、客户体验和复购之间的关系，整理出这套运营方法。下文引用的平台规则已于 2026 年 7 月 18 日重新核对；具体运营判断属于 WEM，不代表 TikTok 对业绩作出保证。'),
         ]
       },
       {
         id: '首单不是终点', h: '首单不是终点，而是关系刚刚开始', body: [
           P('中国品牌、工厂和制造商进入美国 TikTok Shop，常常有几项真实优势：打样快、成本控制能力强、供应稳定、包装调整灵活、小批量测试门槛低，看到市场反馈后也能迅速迭代。这些能力让团队更容易抓住一个突然出现的内容机会。'),
           P('但供应链速度解决的是“能不能及时把货做出来”，不自动解决“美国消费者为什么第二次还要回来”。很多团队把达人视频、LIVE 和折扣当成首单机器：流量来了就出单，流量停了就再找一批达人。每一笔销售都重新购买注意力，已经成交的客户却没有进入下一段关系。'),
-          P('TikTok Shop Academy 的 Customer Outreach Playbook 给出了另一条路径。Seller Center 已经能按用户状态做细分，通过 automated campaign 和 one-time campaign 触达购物车放弃者、新客、复购客、沉默客户、粉丝和潜在 LIVE 观众。真正值得写的不是“平台多了哪些按钮”，而是品牌能不能把首单变成一套可持续的复购系统。'),
+          P('Seller Center 已经提供了足够的分群和触达能力，让符合条件的店铺对这些信号采取行动。但机会不在于多发几条消息，而在于不再把每一张首单当成孤立的胜利。成交后的问题、使用反馈和复购行为，都应该改变下一条消息、下一版达人 brief 和下一次商品决策。'),
         ]
       },
       {
@@ -225,15 +235,20 @@ const POSTS = {
       {
         id: '活动架构', h: '先搭一个小而清楚的活动架构', body: [
           P('第一阶段不需要十几条自动化。先抓离收入和体验最近的五个任务：挽回购物车或结账放弃、首购感谢与使用教育、LIVE 或新品提醒、补货与搭配购买、对沉默客户进行有理由的唤回。'),
-          P('稳定触发、长期有效的内容适合 automated plan；新品、大促、特定 LIVE 和精选人群适合 one-time plan。Academy 页面还明确写到，customer email 只用于 one-time plan。Advanced Email Marketing 属于受邀测试，AI-powered chat outreach 也只对试点卖家开放，团队不能把尚未获得的功能当成基础能力。'),
+          P('只有触发条件稳定、消息长期都不会失去意义时，才适合自动化。购物车提醒或首购使用说明可能符合；新品、大促和特定 LIVE 通常更适合 one-time plan，并且要重新选择人群。Customer email 目前只用于 one-time plan，Advanced Email Marketing 属于受邀测试，AI-powered chat outreach 也只对试点卖家开放。团队应该先把现有权限内的用户逻辑做对，而不是围绕一个可能永远拿不到的功能设计系统。'),
           P('每个 plan 都要写清 owner、目标人群、唯一任务、商品或 offer 逻辑、停止条件和复盘日期。Always-on 不是永远不复盘。'),
         ]
       },
       {
-        id: '官方边界', h: '资格、配额和频控必须看清', body: [
-          P('当前美国 Academy 页面把 CRM 权限与 Shop Performance Score 绑定：SPS 至少 3.5 才获得权限，并按日重新计算。页面还描述了 SPS 处于 3 到 3.5 以下时的冻结状态，以及 SPS 低于 3 或过去 30 天没有交易额时的暂停状态。执行时必须以 Seller Center 实际显示为准。'),
-          P('One-time campaign 的周配额与过去 30 天 GMV 有关，还可能受到 read rate 和 unsubscribe rate 的奖励影响。SPS 至少 3.5 时，官方页面把 automated campaign 描述为不受配额限制；第三方工具创建的 campaign 仍会占用 quota。'),
-          P('频控是上限，不是发送目标。官方对 inbox、email、Group Chat 和大促阶段分别设有触达限制。真正的运营标准应该更严格：这条消息是否能改变用户的决定或改善产品体验？如果不能，就不值得占用一次注意力。'),
+        id: '官方边界', h: 'CRM 权限不是一个按钮，而是店铺基本功的结果', body: [
+          P('SPS 3.5 不是一个孤立的功能门槛。它说明平台不希望店铺在履约、服务或交易状态不稳的时候继续放大用户触达。一旦店铺健康度下降，团队可能失去创建或编辑 plan 的能力。所以 CRM 不能脱离店铺运营单独排日历，履约和客户体验本来就是留存系统的一部分。'),
+          TABLE(['店铺实时状态','CRM 会发生什么','团队现在该做什么'],[
+            ['SPS 3.5 及以上','获得权限，并按日重新计算','只搭少量核心活动，持续复盘用户反应。'],
+            ['SPS 3 到 3.5 以下','现有 plan 冻结','先修复客户体验和店铺健康问题，不要继续加触达。'],
+            ['SPS 低于 3，或过去 30 天没有交易额','权限撤销','先恢复运营基本盘，CRM 不是救店捷径。'],
+          ]),
+          P('配额的作用是逼团队做优先级，不是鼓励把次数用完。One-time campaign 的周容量与过去 30 天 GMV 有关，也会受到 read rate 和 unsubscribe rate 表现影响。把有限次数留给真正需要明确日期、特定人群或新决策的场景。SPS 至少 3.5 时，automated campaign 可能不受配额限制，但无限制不等于应该无限发；第三方工具创建的 campaign 仍会占用 quota。'),
+          P('频控也只是平台允许的上限，不代表用户愿意接受的频率。WEM 的标准更严格：如果一条消息没有解决真实阻力、改善产品使用，或提供合理的下一次购买理由，就不要发。平台规则会变化，执行前仍要以 Seller Center 的实时权限和官方最新页面为准。'),
         ]
       },
       {
@@ -278,11 +293,11 @@ const POSTS = {
       },
     ],
     faqs: [
-      { q: 'TikTok Shop CRM 是什么？', a: '它是 Seller Center 里的用户管理和触达能力，帮助符合条件的卖家查看用户分群，并通过 chat、one-time email 及部分 Group Chat 场景运行自动或单次活动。' },
-      { q: '美国 TikTok Shop 卖家达到什么条件可以使用 CRM？', a: '本次核对的 Academy 页面写明 SPS 至少达到 3.5 才获得权限，并按日重新计算。实际执行应以 Seller Center 最新显示为准。' },
-      { q: '品牌最先应该上线哪些 CRM 活动？', a: '建议先做购物车或结账挽回、首购使用教育、LIVE 或新品提醒、补货或搭配购买，以及针对沉默客户的相关唤回，不要一开始铺太多 campaign。' },
-      { q: 'TikTok Shop CRM 可以发邮件吗？', a: 'Academy 页面说明 customer email 可用于 one-time plan；Advanced Email Marketing 属于受邀测试功能，并非所有店铺都能使用。' },
-      { q: 'AI-powered outreach 所有卖家都能用吗？', a: '不能。官方页面把 AI-powered chat outreach 描述为试点功能，是否开放要看店铺实际入口。' },
+      { q: 'TikTok Shop CRM 是什么？', a: '它是 Seller Center 面向符合条件卖家的用户分群与触达能力。真正的作用不是让品牌多发消息，而是在购物车放弃、首购教育、相关 LIVE 或下一次合理购买等真实节点采取行动。' },
+      { q: '美国 TikTok Shop 卖家达到什么条件可以使用 CRM？', a: '当前美国 Academy 页面把权限门槛设为 SPS 至少 3.5，并按日重新计算。团队应该把这理解为留存建立在健康店铺之上，再在执行前以 Seller Center 实时显示为准。' },
+      { q: '品牌最先应该上线哪些 CRM 活动？', a: '先做三个任务：挽回购物车或结账放弃、帮助首购客户正确使用产品、邀请合适人群参加相关 LIVE 或新品活动。等每个活动都有负责人、停止条件和复盘日期后再扩展。' },
+      { q: 'TikTok Shop CRM 可以发邮件吗？', a: 'Customer email 目前可用于 one-time plan；Advanced Email Marketing 属于受邀测试。先用店铺实际拥有的渠道把留存逻辑跑通，不要默认所有邮件能力都会开放。' },
+      { q: 'AI-powered outreach 所有卖家都能用吗？', a: '不能。AI-powered chat outreach 目前是试点功能。即使店铺获得入口，也要像人工活动一样审核人群、时机和 offer，AI 不能替代运营判断。' },
       { q: 'TikTok Shop CRM 应该看哪些指标？', a: '除了送达和已读，还要看点击、CRM 订单、第二单率、复购间隔、复购客单、退订，以及用户问题是否推动商品页、达人 brief、offer 和 LIVE 改进。' },
       { q: 'CRM 和 TikTok Shop 达人营销有什么关系？', a: 'CRM 能帮助品牌判断达人带来的用户是否继续互动、复购、进入下一场 LIVE，并把这些信号用于改进达人匹配、内容角度、商品教育和复合作。' },
     ],

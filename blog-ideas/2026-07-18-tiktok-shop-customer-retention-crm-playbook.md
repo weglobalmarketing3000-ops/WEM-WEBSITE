@@ -83,3 +83,14 @@ The installed standalone content-quality auditor did not include its determinist
 - Live URL: https://www.weglobalmarketing.com/blog/tiktok-shop-customer-retention-crm-playbook
 - Production deployment: `https://wem-website-58fxoqdvk-wem1.vercel.app`
 - Live checks: canonical article, English H1, Chinese H1, hero, both inline frameworks, seven FAQs, blog index card, sitemap entry, and `llms.txt` entry all verified
+
+## WEM voice revision
+
+Rewritten on July 18, 2026 after editorial review. The first version preserved the official facts but allowed the Academy source to control too much of the body copy. The revision treats those facts as evidence and writes the operating judgment in WEM's own voice.
+
+- Opens with the brand's real problem: the missing reason for a customer to take the next step.
+- Explains CRM as a decision system connected to customer state, not a collection of messaging features.
+- Reframes the SPS threshold as a shop-health and customer-experience dependency.
+- Uses quotas to explain prioritization instead of repeating platform limits.
+- Keeps exact platform thresholds in a compact operating table and gives each state a next action.
+- Rewrites both English and Chinese FAQs so factual answers also provide useful operator judgment.
