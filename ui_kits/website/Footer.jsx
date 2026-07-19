@@ -48,7 +48,7 @@ const Footer = ({ lang, basePath = '' }) => {
       <div style={fStyles.inner} className="site-footer-inner">
         <div style={fStyles.top} className="site-footer-top">
           <div>
-            <img src={(basePath ? '../' : '') + '../../assets/we-logo-white.png'} alt="WE" style={{ height: 44 }}/>
+            <img src={(basePath ? '../' : '') + '../../assets/we-logo-white.png'} alt="WE Marketing" style={{ height: 44 }}/>
             <p style={fStyles.tag}>{t.tag}</p>
           </div>
           <div style={fStyles.cols} className="site-footer-cols">

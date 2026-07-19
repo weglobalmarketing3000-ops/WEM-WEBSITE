@@ -54,7 +54,7 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
       `}</style>
       <div style={navStyles.inner} className="wem-nav-inner">
         <a href={home} style={navStyles.brand} className="wem-nav-brand">
-          <img src={(basePath ? '../' : '') + '../../assets/we-logo-white.png'} alt="WE" style={{ height: 36 }}/>
+          <img src={(basePath ? '../' : '') + '../../assets/we-logo-white.png'} alt="WE Marketing" style={{ height: 36 }}/>
         </a>
         <div style={navStyles.links} className="wem-nav-links">
           {t.nav.map(([label, href], i) => <a key={i} href={href} style={navStyles.link}>{label}</a>)}
