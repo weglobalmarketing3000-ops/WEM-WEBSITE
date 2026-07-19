@@ -152,7 +152,7 @@ const POSTS = {
         body: [
           P('Primary source: TikTok Shop Academy, “Customer Outreach Playbook,” dated June 15, 2026, applicable to the United States (knowledge_id=505578792273677). The page was reviewed directly on July 18, 2026.'),
           P('Official thresholds, feature availability, quotas, and frequency controls in this article are attributed to that Academy page. The lifecycle model, measurement structure, 30-day plan, and creator-to-retention loop are WEM operating frameworks. Sellers should verify current access and rules inside Seller Center before execution.'),
-          CTA('Read the official TikTok Shop Academy Customer Outreach Playbook', 'https://seller-us.tiktok.com/university/essay?knowledge_id=505578792273677&source_type=ai_university_home'),
+          CTA('Read the official TikTok Shop Academy source', 'https://seller-us.tiktok.com/university/essay?knowledge_id=505578792273677&source_type=ai_university_home'),
         ],
       },
     ],
@@ -273,7 +273,7 @@ const POSTS = {
         id: '来源', h: '来源与边界', body: [
           P('主要来源：TikTok Shop Academy《Customer Outreach Playbook》，页面日期为 2026 年 6 月 15 日，适用于美国市场，knowledge_id=505578792273677。WEM 于 2026 年 7 月 18 日直接核对原文。'),
           P('文中的权限、功能范围、配额和频控均归因于该 Academy 页面；用户生命周期、衡量结构、30 天方案和达人到留存闭环属于 WEM 运营框架。平台规则可能变化，执行前应以 Seller Center 实际权限和官方最新页面为准。'),
-          CTA('查看 TikTok Shop Academy 官方 Customer Outreach Playbook', 'https://seller-us.tiktok.com/university/essay?knowledge_id=505578792273677&source_type=ai_university_home'),
+          CTA('查看 TikTok Shop Academy 官方原文', 'https://seller-us.tiktok.com/university/essay?knowledge_id=505578792273677&source_type=ai_university_home'),
         ]
       },
     ],
