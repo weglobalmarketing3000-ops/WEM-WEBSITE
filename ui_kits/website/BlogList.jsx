@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-customer-retention-crm-playbook',
+    cat: { en: 'TIKTOK SHOP U.S. · CUSTOMER RETENTION', zh: 'TIKTOK SHOP 美国 · 用户留存' },
+    title: { en: 'TikTok Shop CRM: Turn the First Order Into a Repeat-Purchase System', zh: 'TikTok Shop CRM 怎么做：把首单变成复购系统' },
+    excerpt: { en: 'Learn what TikTok Shop CRM is, which campaigns to launch first, and how to connect creator-led orders, customer outreach, and retention measurement.', zh: '讲清 TikTok Shop CRM 是什么、先上线哪些活动，以及怎样把达人首单、用户触达和留存衡量接成一套复购系统。' },
+    date: { en: 'Jul 18, 2026', zh: '2026 年 7 月 18 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
+    image: 'hero-tiktok-shop-customer-retention-crm-playbook.png',
+  },
+  {
     slug: 'best-tiktok-shop-affiliate-agencies-us',
     cat: { en: 'TIKTOK SHOP U.S. · AFFILIATE AGENCY GUIDE', zh: 'TIKTOK SHOP 美国 · 达人分销代运营' },
     title: { en: '5 Best TikTok Shop Affiliate Agencies in the U.S. (2026)', zh: '美国 TikTok Shop Affiliate Agency 怎么选？2026 指南' },
