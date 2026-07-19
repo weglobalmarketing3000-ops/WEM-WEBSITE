@@ -94,3 +94,5 @@ Rewritten on July 18, 2026 after editorial review. The first version preserved t
 - Uses quotas to explain prioritization instead of repeating platform limits.
 - Keeps exact platform thresholds in a compact operating table and gives each state a next action.
 - Rewrites both English and Chinese FAQs so factual answers also provide useful operator judgment.
+- Voice revision deployment: `dpl_3VYb2ZxaPs89VcoJNs4WXpCjTJS1` (`https://wem-website-kwsmz29ge-wem1.vercel.app`), aliased to the live WEM domain.
+- Live verification: English and Chinese WEM-voice openings, SPS operating interpretation, official Academy source link, and seven-question FAQ schema all passed.
