@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-product-card-strategy',
+    cat: { en: 'TIKTOK SHOP U.S. · PRODUCT CARD STRATEGY', zh: 'TIKTOK SHOP 美国 · 商品卡策略' },
+    title: { en: 'TikTok Shop Product Card Strategy: Turn Creator Demand Into Conversion', zh: 'TikTok Shop 商品卡流量怎么做：价格、促销和达人内容怎样一起接住转化' },
+    excerpt: { en: 'How U.S. brands connect hero SKUs, margin-safe pricing, promotion stacking, creator content, and product-card conversion.', zh: '从 hero SKU、价格和运费，到优惠叠加、达人内容和商品卡转化，拆解品牌怎样把流量接成更清楚的购买决定。' },
+    date: { en: 'Jul 20, 2026', zh: '2026 年 7 月 20 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
+    image: 'hero-tiktok-shop-product-card-strategy.png',
+  },
+  {
     slug: 'tiktok-shop-customer-retention-crm-playbook',
     cat: { en: 'TIKTOK SHOP U.S. · CUSTOMER RETENTION', zh: 'TIKTOK SHOP 美国 · 用户留存' },
     title: { en: 'TikTok Shop CRM: Turn the First Order Into a Repeat-Purchase System', zh: 'TikTok Shop CRM 怎么做：把首单变成复购系统' },
