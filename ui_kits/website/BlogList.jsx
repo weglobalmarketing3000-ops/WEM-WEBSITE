@@ -6,7 +6,7 @@ const BLOG_POSTS = [
     title: { en: 'TikTok Shop Product Card Strategy: Turn Creator Demand Into Conversion', zh: 'TikTok Shop 商品卡流量怎么做：价格、促销和达人内容怎样一起接住转化' },
     excerpt: { en: 'How U.S. brands connect hero SKUs, margin-safe pricing, promotion stacking, creator content, and product-card conversion.', zh: '从 hero SKU、价格和运费，到优惠叠加、达人内容和商品卡转化，拆解品牌怎样把流量接成更清楚的购买决定。' },
     date: { en: 'Jul 20, 2026', zh: '2026 年 7 月 20 日' }, read: { en: '12 min read', zh: '12 分钟阅读' },
-    image: 'hero-tiktok-shop-product-card-strategy.png',
+    image: 'hero-tiktok-shop-product-card-strategy-v2.png',
   },
   {
     slug: 'tiktok-shop-customer-retention-crm-playbook',

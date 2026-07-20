@@ -15,7 +15,7 @@ const POSTS = {
     meta: {
       title: 'TikTok Shop Product Card Strategy: How U.S. Brands Turn Creator Demand Into Conversion',
       cat: 'TIKTOK SHOP U.S. · PRODUCT CARD STRATEGY', author: 'WE Marketing Team', date: 'Jul 20, 2026', read: '12 min read',
-      heroImage: 'hero-tiktok-shop-product-card-strategy.png',
+      heroImage: 'hero-tiktok-shop-product-card-strategy-v2.png',
       heroAlt: 'Product-card commerce illustration with a creator video, offer ticket, product page, shopping bag, price tags, and fulfillment box',
     },
     sections: [
@@ -145,7 +145,7 @@ const POSTS = {
     meta: {
       title: 'TikTok Shop 商品卡流量怎么做：价格、促销和达人内容怎样一起接住转化',
       cat: 'TIKTOK SHOP 美国 · 商品卡策略', author: 'WE Marketing Team', date: '2026 年 7 月 20 日', read: '12 分钟阅读',
-      heroImage: 'hero-tiktok-shop-product-card-strategy.png', heroAlt: '商品卡、达人短视频、优惠券、价格标签和包裹组成的 TikTok Shop 商品卡增长插画',
+      heroImage: 'hero-tiktok-shop-product-card-strategy-v2.png', heroAlt: '商品卡、达人短视频、优惠券、价格标签和包裹组成的 TikTok Shop 商品卡增长插画',
     },
     sections: [
       { id: 'zh-direct-answer', eyebrow: '商品卡策略', h: '商品卡流量不是单纯降价', body: [
