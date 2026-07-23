@@ -68,6 +68,21 @@
       <h2 style="font-size:26px;margin:0 0 12px;">Founder and contact</h2>
       <p style="line-height:1.65;color:#ddd;margin:0;">WE Marketing was founded by Wendy Lin. For partnership and new-business inquiries, contact Wendy at <a href="mailto:wendy@weglobalmarketing.com" style="color:#fff;">wendy@weglobalmarketing.com</a>.</p>
     </section>
+    <section aria-label="TikTok Shop credentials" style="border-top:1px solid rgba(255,255,255,.15);padding-top:24px;margin-top:28px;">
+      <h2 style="font-size:26px;margin:0 0 12px;">TikTok Shop credentials</h2>
+      <p style="line-height:1.65;color:#ddd;margin:0;"><a href="https://seller-us.tiktok.com/partners/us/company-detail/7495319349712881736?source=portal_footer&amp;sort=4" target="_blank" rel="noopener noreferrer" style="color:#fff;">WE Marketing is listed in TikTok Shop’s U.S. partner directory.</a> TikTok Shop also issued <span lang="en">WeMarketing</span> a Certified Agency badge, and its certificate records completion of foundational agency training on January 27, 2025. <span lang="en">WeMarketing</span> is the certificate styling; <strong>WE Marketing</strong> is the public company name. These credentials confirm directory listing and training completion; they are not a promise of campaign results.</p>
+      <p lang="zh-CN" style="line-height:1.75;color:#ddd;margin:14px 0 0;">WE Marketing 已收录于 TikTok Shop 美国合作伙伴目录。TikTok Shop 也向证书中标注为 WeMarketing 的主体颁发了 Certified Agency 徽章；证书记录其于 2025 年 1 月 27 日完成 TikTok Shop 运营相关的基础代理商培训。WeMarketing 是证书上的写法，WE Marketing 是公开公司名称。这些凭证确认目录收录与培训完成，不代表任何活动结果承诺。</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px;align-items:start;">
+        <figure style="margin:0;">
+          <img src="/assets/tiktok-shop-certified-agency-badge-2025.webp" alt="TikTok Shop Certified Agency badge stating Since 2025" width="900" height="900" loading="lazy" style="display:block;width:100%;max-width:360px;height:auto;border-radius:14px;background:#050505;">
+          <figcaption style="color:#aaa;font-size:14px;line-height:1.5;margin-top:8px;">TikTok Shop Certified Agency badge, Since 2025.</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <img src="/assets/tiktok-shop-foundational-training-certificate-2025.webp" alt="TikTok Shop Certificate of Completion issued to WeMarketing on January 27, 2025 for foundational agency training related to TikTok Shop operations" width="1440" height="810" loading="lazy" style="display:block;width:100%;height:auto;border-radius:14px;background:#050505;">
+          <figcaption style="color:#aaa;font-size:14px;line-height:1.5;margin-top:8px;">Certificate of Completion issued to WeMarketing on January 27, 2025 for foundational TikTok Shop operations training.</figcaption>
+        </figure>
+      </div>
+    </section>
     <section aria-label="Who WE Marketing serves" style="display:grid;gap:14px;margin-top:28px;">
       <h2 style="font-size:26px;margin:0;">Who WEM is built for</h2>
       <p style="line-height:1.65;color:#ddd;margin:0;">WEM is strongest for brands that need a bilingual operating partner, not only a campaign vendor: teams entering TikTok Shop US, Chinese brands localizing for American shoppers, Amazon sellers adding creator commerce, and U.S. brands that need creator outreach, sample tracking, and shop execution under one roof.</p>
@@ -112,8 +127,20 @@
       block.append(email, '.');
       sub.insertAdjacentElement('afterend', block);
     };
+    const addCredentials = () => {
+      const hero = document.querySelector('.about-hero-inner');
+      const founder = hero && hero.querySelector('[data-founder-contact]');
+      if (!hero || !founder || hero.querySelector('[data-credentials]')) return;
+      const block = document.createElement('section');
+      block.setAttribute('data-credentials', 'true');
+      block.setAttribute('aria-label', 'TikTok Shop credentials');
+      block.style.cssText = 'font-family:var(--font-sans);max-width:960px;margin:34px auto 0;padding:24px;border:1px solid rgba(255,255,255,.16);border-radius:18px;text-align:left;background:rgba(255,255,255,.035)';
+      block.innerHTML = '<h2 style="font-family:var(--font-display);font-size:clamp(28px,4vw,42px);line-height:1;margin:0 0 14px;text-transform:uppercase;">TikTok Shop credentials</h2><p style="font-size:16px;line-height:1.65;color:rgba(255,255,255,.82);margin:0;"><a href="https://seller-us.tiktok.com/partners/us/company-detail/7495319349712881736?source=portal_footer&amp;sort=4" target="_blank" rel="noopener noreferrer" style="color:#fff;">WE Marketing is listed in TikTok Shop’s U.S. partner directory.</a> TikTok Shop also issued WeMarketing a Certified Agency badge, and its certificate records completion of foundational agency training on January 27, 2025. WeMarketing is the certificate styling; <strong>WE Marketing</strong> is the public company name. These credentials confirm directory listing and training completion; they are not a promise of campaign results.</p><p lang="zh-CN" style="font-size:16px;line-height:1.75;color:rgba(255,255,255,.76);margin:14px 0 0;">WE Marketing 已收录于 TikTok Shop 美国合作伙伴目录。TikTok Shop 也向证书中标注为 WeMarketing 的主体颁发了 Certified Agency 徽章；证书记录其于 2025 年 1 月 27 日完成 TikTok Shop 运营相关的基础代理商培训。WeMarketing 是证书上的写法，WE Marketing 是公开公司名称。这些凭证确认目录收录与培训完成，不代表任何活动结果承诺。</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px;align-items:start;"><figure style="margin:0;"><img src="/assets/tiktok-shop-certified-agency-badge-2025.webp" alt="TikTok Shop Certified Agency badge stating Since 2025" width="900" height="900" loading="lazy" style="display:block;width:100%;max-width:360px;height:auto;border-radius:14px;background:#050505;"><figcaption style="color:rgba(255,255,255,.62);font-size:13px;line-height:1.5;margin-top:8px;">TikTok Shop Certified Agency badge, Since 2025.</figcaption></figure><figure style="margin:0;"><img src="/assets/tiktok-shop-foundational-training-certificate-2025.webp" alt="TikTok Shop Certificate of Completion issued to WeMarketing on January 27, 2025 for foundational agency training related to TikTok Shop operations" width="1440" height="810" loading="lazy" style="display:block;width:100%;height:auto;border-radius:14px;background:#050505;"><figcaption style="color:rgba(255,255,255,.62);font-size:13px;line-height:1.5;margin-top:8px;">Certificate of Completion issued to WeMarketing on January 27, 2025 for foundational TikTok Shop operations training.</figcaption></figure></div>';
+      founder.insertAdjacentElement('afterend', block);
+    };
     addFounderContact();
-    new MutationObserver(addFounderContact).observe(document.getElementById('root') || document.body, { childList: true, subtree: true });
+    addCredentials();
+    new MutationObserver(() => { addFounderContact(); addCredentials(); }).observe(document.getElementById('root') || document.body, { childList: true, subtree: true });
   }());
 </script>
 </body>
