@@ -2,8 +2,8 @@
 const CASES = [
   {
     id: 'case-wellness-affiliate-live',
-    tag_en: 'CASE #01 · WELLNESS',
-    tag_zh: '案例 #01 · 健康保健',
+    tag_en: 'AFFILIATE SYSTEM · WELLNESS',
+    tag_zh: '达人联盟体系 · 健康保健',
     title_en: 'Full-Funnel Affiliate.\n90 Days to Viral.',
     title_zh: '90 天把新品\n推成爆款',
     body_en: 'Ran seeding, paid, LIVE, and top-GMV creator layers in parallel from day one. Turned a wellness product that needs education into a platform-wide breakout.',
@@ -30,12 +30,12 @@ const CASES = [
   },
   {
     id: 'case-beauty-gmv-growth',
-    tag_en: 'CASE #02 · BEAUTY',
-    tag_zh: '案例 #02 · 美妆品类',
+    tag_en: 'AFFILIATE RELAUNCH · BEAUTY',
+    tag_zh: '达人联盟重启 · 美妆品类',
     title_en: 'Breaking a Stalled\nGMV Ceiling in 30 Days.',
     title_zh: '30 天打破\n销售停滞',
-    body_en: 'Beauty brand plateaued despite strong reviews. WEM rebuilt the hero-product strategy, scaled creator seeding, and unified content around one problem-solution narrative.',
-    body_zh: '这个美妆品牌产品评价不错，但 TikTok Shop 销售几个月没有明显增长。我们重新梳理主推品，扩大达人种草，并把内容统一到一个清楚的痛点和卖点。30 天后，销售重新动起来。',
+    body_en: 'Beauty brand plateaued despite strong reviews. WEM rebuilt the hero-product strategy, refreshed the affiliate creator mix, and unified content around one problem-solution narrative.',
+    body_zh: '这个美妆品牌产品评价不错，但 TikTok Shop 销售几个月没有明显增长。我们重新梳理主推品，重新匹配达人组合，并把内容统一到一个清楚的痛点和卖点。30 天后，销售重新动起来。',
     stats_en: [
       { kind: 'num', num: 982, suffix: 'K', label: 'GMV in a single month', prefix: '$' },
       { kind: 'num', num: 215, suffix: '%+', label: 'Month-over-month growth' },
@@ -63,8 +63,8 @@ const CASES = [
   },
   {
     id: 'case-fashion-cold-start',
-    tag_en: 'CASE #03 · MEN’S FASHION',
-    tag_zh: '案例 #03 · 男装',
+    tag_en: 'AFFILIATE COLD START · MEN’S FASHION',
+    tag_zh: '达人联盟冷启动 · 男装',
     title_en: 'Unlocking an Underbuilt\nCategory. Cold Start to 10K.',
     title_zh: '冷门男装\n跑出 10K+ 订单',
     body_en: 'After six months with little traction, WEM unlocked a hard men’s fashion category through broader creator casting, listing optimization, and hero-content engineering.',
@@ -135,17 +135,17 @@ const FeaturedCase = ({ lang }) => {
   const h = {
     en: {
       anchor: 'OUR WORK',
-      kicker: 'FULL-SERVICE CASE STUDIES',
-      h2a: 'We run the whole',
-      h2b: 'playbook.',
-      sub: 'End-to-end engagements where WEM owns strategy, creators, content, and shop operations.',
+      kicker: 'CREATOR AFFILIATE SHOWCASES',
+      h2a: 'Affiliate work that',
+      h2b: 'compounds.',
+      sub: 'Real engagements that connect creator fit, sample activation, content output, conversion signals, and the next creator wave.',
     },
     zh: {
       anchor: '案例',
-      kicker: '美国 TikTok Shop 增长案例',
-      h2a: '内容要好看，',
-      h2b: '更要能卖。',
-      sub: '我们负责策略、达人、内容、直播和店铺运营，目标很简单：让品牌在美国少试错，更快看到真实销售。',
+      kicker: '达人联盟增长案例',
+      h2a: '达人不是发完样品',
+      h2b: '就结束。',
+      sub: '看达人适配、寄样激活、内容产出、转化信号和下一轮放量如何连成一个可持续的联盟增长系统。',
     },
   }[lang];
   React.useEffect(() => {
