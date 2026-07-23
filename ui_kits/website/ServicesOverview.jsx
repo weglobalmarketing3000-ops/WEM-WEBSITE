@@ -43,6 +43,8 @@ const ServicesOverview = ({ lang }) => {
           best: 'Best for in-house teams that will execute themselves but need experienced TikTok Shop guidance first.',
           handles: ['TikTok Shop launch strategy, growth roadmap, and priority setting', 'Logistics and fulfillment strategy for brands that have not sold through TikTok Shop before', 'Creator affiliate strategy, commission planning, and creator workflow design', 'Shop setup, product page, offer, and campaign structure review', 'Advisory sessions for in-house teams, including action plans, audits, and follow-up recommendations'],
           model: 'One-time strategy, audits, or ongoing advisory support for teams that want to execute internally.',
+          href: 'services/advisory.html',
+          cta: 'Explore Consulting',
           workHref: 'showcase.html#case-beauty-gmv-growth',
         },
         {
@@ -202,6 +204,8 @@ const ServicesOverview = ({ lang }) => {
           best: '适合已有 in-house marketing 或运营团队、想自己执行，但需要有经验的人帮你们判断 TikTok Shop 方向和优先级的商家。',
           handles: ['TikTok Shop 启动策略、增长路线图和优先级判断', '物流和履约策略，尤其适合还没试过 TikTok Shop 发货的商家', '达人联盟策略、佣金设计和达人工作流规划', '店铺 setup、商品页、活动机制和 campaign 结构诊断', '给内部团队做咨询会议、audit、action plan 和后续建议'],
           model: '可以按单次策略咨询、专项 audit 或长期顾问支持来做。适合你们团队自己执行，但需要 WEM 帮你们避坑、定方向、确认下一步怎么做。',
+          href: 'services/advisory.html',
+          cta: '查看顾问服务',
           workHref: 'showcase.html#case-beauty-gmv-growth',
         },
         {
