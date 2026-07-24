@@ -39,14 +39,14 @@ const Hero = ({ lang }) => {
       pill: 'FULL SERVICE TIKTOK SHOP PARTNER AGENCY',
       h1a: 'We help brands', h1accent: 'scale', h1b: 'on TikTok.',
       sub: 'From cold start to sustained GMV. Creator outreach, content, live, and shop operations, all run by one team. 160+ brands. $15M+ annual sales. Certified TikTok Shop Partner Agency.',
-      cta1: 'Book a discovery call →', cta2: 'See our work',
+      cta1: 'Apply for consulting →', cta2: 'See our work',
       stats: [[8000,'+','Creators in Community'],[24000,'+','Vetted Creators'],[160,'+','Shop Partners Served'],[15,'M+','Annual Sales']],
     },
     zh: {
       pill: '美国 TIKTOK SHOP 代运营与增长团队',
       h1a: '让跨境品牌', h1accent: '在美国', h1b: '卖起来',
       sub: '我们服务出海品牌、Amazon 卖家和在美华人品牌团队。从开店、商品页、达人联盟、UGC 内容、直播到店铺运营，帮你把美国 TikTok Shop 做成真正能出单的渠道。',
-      cta1: '预约咨询', cta2: '查看案例',
+      cta1: '申请咨询', cta2: '查看案例',
       stats: [[8000,'+','达人社群'],[24000,'+','筛选达人'],[160,'+','服务品牌'],[15,'M+','年管理销售额']],
     },
   }[lang];
@@ -429,7 +429,7 @@ const Hero = ({ lang }) => {
             </h1>
             <p style={heroStyles.sub} className="wem-hero-sub">{t.sub}</p>
             <div style={heroStyles.ctas} className="wem-hero-ctas">
-              <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => window.open('https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925','_blank')}>{t.cta1}</button>
+              <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => location.href='consulting.html'}>{t.cta1}</button>
               <button style={heroStyles.ghost} onClick={() => location.href='showcase.html'}>{t.cta2}</button>
             </div>
           </div>

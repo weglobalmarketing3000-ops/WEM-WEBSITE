@@ -9,7 +9,7 @@ const AboutHero = ({ lang }) => {
       sub: 'WE Marketing is a TikTok Shop Partner Agency built for performance. We connect shop strategy, creators, content, and live operations into one growth system.',
       badge1: 'TIKTOK SHOP PARTNER AGENCY · CERTIFIED SINCE 2025',
       badge2: 'EN · ES · 中文 SUPPORT',
-      cta1: 'Book a discovery call →',
+      cta1: 'Apply for consulting →',
       cta2: 'See our work'
     },
     zh: {
@@ -20,7 +20,7 @@ const AboutHero = ({ lang }) => {
       sub: 'WE Marketing 位于洛杉矶，服务跨境品牌、Amazon 卖家和在美华人品牌团队。我们不只做咨询，而是直接把店铺、达人、内容、直播和数据跟进一起执行。',
       badge1: 'TIKTOK SHOP PARTNER AGENCY · 2025 起认证',
       badge2: '英西中沟通 · 美国本地执行 · 多语种达人覆盖',
-      cta1: '预约咨询',
+      cta1: '申请咨询',
       cta2: '查看案例'
     }
   }[lang];
@@ -53,7 +53,7 @@ const AboutHero = ({ lang }) => {
           <div style={{ ...abhStyles.badge, ...abhStyles.badgeAlt }} className="about-hero-badge">{t.badge2}</div>
         </div>
         <div style={abhStyles.ctas} className="about-hero-ctas">
-          <a href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925" target="_blank" rel="noopener" className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 10 }}>{t.cta1}</a>
+          <a href="consulting.html" className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 10 }}>{t.cta1}</a>
           <a href="/#Our Work" style={abhStyles.ghost}>{t.cta2}</a>
         </div>
       </div>

@@ -1,8 +1,8 @@
 // CtaFooter.jsx, final CTA (pink → violet gradient)
 const CtaFooter = ({ lang }) => {
   const t = {
-    en: { h: "Ready to scale\non TikTok?", sub: "Tell us your brand, your stack, your ambition. We'll reply in 24 hours.", cta: 'Book a discovery call →', alt: 'Email us instead', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' },
-    zh: { h: '想把美国\nTikTok Shop 跑起来？', sub: '告诉我们你的产品、目标市场和现在卡在哪。我们会在 24 小时内回复，直接给下一步建议。', cta: '预约咨询', alt: '邮件联系', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' },
+    en: { h: "Not sure what\nto fix first?", sub: "Tell us where your TikTok Shop is today. We will review the fit before recommending a strategy session or next step.", cta: 'Apply for consulting →', alt: 'Email us instead', href: '/consulting.html' },
+    zh: { h: '不确定现在\n先解决什么？', sub: '告诉我们你的 TikTok Shop 现况。我们会先判断是否适合，再建议策略咨询或下一步。', cta: '申请咨询', alt: '邮件联系', href: '/consulting.html' },
   }[lang];
   return (
     <section id="About" style={ctaStyles.wrap} className="cta-footer-wrap">
@@ -15,7 +15,7 @@ const CtaFooter = ({ lang }) => {
         <h2 style={ctaStyles.h} className="cta-footer-title">{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
         <p style={ctaStyles.sub} className="cta-footer-sub">{t.sub}</p>
         <div style={ctaStyles.ctas} className="cta-footer-buttons">
-          <a href={t.href} target="_blank" rel="noopener" style={{ ...ctaStyles.btnLight, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
+          <a href={t.href} style={{ ...ctaStyles.btnLight, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
           <a href="mailto:hello@weglobalmarketing.com" style={{ ...ctaStyles.ghost, textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.alt}</a>
         </div>
       </div>

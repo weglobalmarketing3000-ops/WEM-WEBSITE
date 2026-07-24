@@ -8,7 +8,7 @@ const ServicesOverview = ({ lang }) => {
         eyebrow: 'WEM SERVICES',
         h1: ['TikTok Shop services', 'built for U.S. growth.'],
         sub: 'WEM turns TikTok Shop into a working sales channel across shop ops, creators, content, live selling, and reporting.',
-        cta: 'Book a discovery call',
+        cta: 'Apply for consulting',
         note: 'Every engagement is scoped around your product stage, category, margins, and internal team capacity.',
       },
       intro: {
@@ -167,7 +167,7 @@ const ServicesOverview = ({ lang }) => {
         eyebrow: 'WEM 服务',
         h1: ['美国 TikTok Shop', '代运营与增长服务'],
         sub: 'WEM 帮跨境品牌、Amazon 卖家和在美品牌团队，把 TikTok Shop 从“开了店”变成能持续出单的销售渠道。我们把店铺、达人、内容、直播和数据复盘放在同一套执行体系里。',
-        cta: '预约咨询',
+        cta: '申请咨询',
         note: '每个合作都会根据产品阶段、品类、利润空间和你们内部团队配置来定范围。',
       },
       intro: {
@@ -324,7 +324,7 @@ const ServicesOverview = ({ lang }) => {
   }[lang];
 
   const [openFaq, setOpenFaq] = React.useState(0);
-  const book = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
+  const book = 'consulting.html';
   React.useEffect(() => {
     const scrollToHash = () => {
       const id = window.location.hash.replace('#', '');

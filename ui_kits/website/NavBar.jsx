@@ -19,9 +19,10 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
   const b = basePath;
   const home = b || './index.html';
   const page = (path) => `${b}${path}`;
+  const consultation = page('consulting.html');
   const t = {
-    en: { nav: [['Our Services', page('services.html')], ['UGC Content', page('services/creator-content.html')], ['Our Work', page('showcase.html')], ['Creator Affiliate', page('affiliate.html')], ['About Us', page('about.html')], ['Blog', page('blog.html')]], cta: 'Book a call →' },
-    zh: { nav: [['服务', page('services.html')], ['UGC 内容', page('services/creator-content.html')], ['案例', page('showcase.html')], ['达人联盟', page('affiliate.html')], ['关于我们', page('about.html')], ['博客', page('blog.html')]], cta: '预约咨询' },
+    en: { nav: [['Our Services', page('services.html')], ['UGC Content', page('services/creator-content.html')], ['Our Work', page('showcase.html')], ['Creator Affiliate', page('affiliate.html')], ['About Us', page('about.html')], ['Blog', page('blog.html')]], cta: 'Apply for consulting →' },
+    zh: { nav: [['服务', page('services.html')], ['UGC 内容', page('services/creator-content.html')], ['案例', page('showcase.html')], ['达人联盟', page('affiliate.html')], ['关于我们', page('about.html')], ['博客', page('blog.html')]], cta: '申请咨询' },
   }[lang];
   return (
     <nav style={navStyles.wrap} className="wem-nav">
@@ -75,7 +76,7 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
             <span style={{ ...navStyles.menuLine, opacity: menuOpen ? 0 : 1 }}/>
             <span style={{ ...navStyles.menuLine, transform: menuOpen ? 'translateY(-6px) rotate(-45deg)' : 'none' }}/>
           </button>
-          <a href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925" target="_blank" rel="noopener" className="we-btn we-btn-primary wem-nav-call" style={{ fontSize: 14, padding: '10px 18px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
+          <a href={consultation} className="we-btn we-btn-primary wem-nav-call" style={{ fontSize: 14, padding: '10px 18px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>{t.cta}</a>
         </div>
       </div>
       {menuOpen && (
@@ -84,9 +85,7 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
             <a key={i} href={href} onClick={() => setMenuOpen(false)} style={navStyles.mobileLink}>{label}</a>
           ))}
           <a
-            href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925"
-            target="_blank"
-            rel="noopener"
+            href={consultation}
             onClick={() => setMenuOpen(false)}
             style={navStyles.mobileCta}
           >
