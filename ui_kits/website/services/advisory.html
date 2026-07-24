@@ -51,15 +51,27 @@
   .card { min-height:184px; padding:26px; border:1px solid rgba(255,255,255,.18); border-radius:20px; background:var(--panel); box-shadow:0 16px 35px rgba(0,0,0,.16); }
   .card h3 { margin:0 0 11px; font-size:22px; letter-spacing:-.025em; }
   .card p { margin:0; color:var(--muted); line-height:1.55; }
-  .decision { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:35px; }
-  .option { min-height:270px; padding:27px; border-radius:20px; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.04); box-shadow:0 18px 48px rgba(0,0,0,.2); }
+  .decision-intro { max-width:620px; color:var(--muted); font-size:18px; line-height:1.55; margin:0; }
+  .decision-title { max-width:700px; font-size:clamp(30px,3.6vw,46px); line-height:1.06; margin-bottom:12px; }
+  .decision-title .title-gradient { display:inline-block; }
+  .decision { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:30px; }
+  .option { display:flex; flex-direction:column; min-height:0; padding:24px; border-radius:20px; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.04); box-shadow:0 18px 48px rgba(0,0,0,.2); }
   .option:first-child { border-color:rgba(255,20,147,.64); background:linear-gradient(145deg,rgba(255,20,147,.22),rgba(155,48,255,.12)); }
   .option:nth-child(2) { border-color:rgba(155,48,255,.65); background:linear-gradient(145deg,rgba(155,48,255,.2),rgba(74,143,255,.11)); }
   .option:nth-child(3) { border-color:rgba(74,143,255,.65); background:linear-gradient(145deg,rgba(74,143,255,.21),rgba(15,12,27,.75)); }
-  .option .label { color:#fff; font-size:12px; letter-spacing:.13em; font-weight:850; text-transform:uppercase; }
-  .option h3 { margin:14px 0 12px; font-size:26px; letter-spacing:-.03em; }
-  .option p { margin:0; color:#e5e2eb; line-height:1.56; }
-  .execution-exit { margin-top:24px; padding:24px 26px; border:1px solid rgba(255,255,255,.2); border-radius:18px; background:linear-gradient(100deg,rgba(255,20,147,.12),rgba(155,48,255,.1),rgba(74,143,255,.12)); color:#fff; font-size:18px; line-height:1.5; }
+  .option-top { display:flex; align-items:center; gap:10px; }
+  .option-number { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:999px; color:#fff; font-size:12px; font-weight:850; background:rgba(255,255,255,.12); }
+  .option .label { font-size:12px; letter-spacing:.1em; font-weight:850; text-transform:uppercase; }
+  .option:first-child .label { color:#ff79c7; }
+  .option:nth-child(2) .label { color:#d8a1ff; }
+  .option:nth-child(3) .label { color:#9ebfff; }
+  .option h3 { margin:18px 0 8px; font-size:24px; line-height:1.12; letter-spacing:-.03em; }
+  .option-outcome { margin:0; color:#fff; font-size:17px; font-weight:700; line-height:1.4; }
+  .check-list { display:grid; gap:10px; padding:0; margin:20px 0 24px; list-style:none; color:var(--muted); font-size:15px; line-height:1.42; }
+  .check-list li { display:flex; gap:9px; align-items:flex-start; }
+  .check-list li::before { content:"✓"; flex:0 0 auto; color:#fff; font-weight:850; }
+  .cadence { align-self:flex-start; margin-top:auto; padding:7px 11px; border:1px solid rgba(255,255,255,.22); border-radius:999px; color:#fff; font-size:13px; font-weight:760; background:rgba(255,255,255,.09); }
+  .execution-exit { margin-top:18px; padding:16px 20px; border:1px solid rgba(255,255,255,.2); border-radius:15px; background:linear-gradient(100deg,rgba(255,20,147,.1),rgba(155,48,255,.08),rgba(74,143,255,.1)); color:#e9e5ef; font-size:16px; line-height:1.45; }
   .execution-exit a { color:#fff; font-weight:850; text-decoration-color:#FF1493; text-underline-offset:4px; }
   .questions { max-width:920px; }
   details { padding:23px 0; border-top:1px solid rgba(255,255,255,.18); }
@@ -100,12 +112,12 @@
       <p class="lead" style="margin-top:24px;">That does not mean every brand needs the same plan. A brand with a strong product page but no creator workflow has a different first problem from a team with creator interest but no fulfillment structure. The point of the session is to identify the actual constraint before your team adds more work around it.</p>
     </div></section>
     <section><div class="shell">
-      <h2>Choose the outcome your team needs next.</h2>
-      <p class="lead">The difference is not just how often you meet. One option gives your team clarity, one gives internal leaders regular decision support, and one helps the team build the TikTok Shop capability it needs to operate independently.</p>
+      <h2 class="decision-title">Choose the support <span class="title-gradient">your team needs.</span></h2>
+      <p class="decision-intro">Start with clarity, add recurring guidance, or build your team’s TikTok Shop capability.</p>
       <div class="decision">
-        <article class="option"><div class="label">One-time clarity</div><h3>One-Time Strategy Session</h3><p>For brands that are confused, do not know what they need, or need one focused diagnosis and a prioritized plan before the team starts adding more work.</p></article>
-        <article class="option"><div class="label">Leadership guidance</div><h3>Monthly Advisory</h3><p>For internal teams that execute themselves but need a regular monthly strategy review, decision support, and a priority reset as the work develops.</p></article>
-        <article class="option"><div class="label">Capability building</div><h3>Team Enablement &amp; Advisory</h3><p>For strong marketing and ecommerce teams that do not yet understand TikTok Shop and need to build internal capability through working sessions, education, and practical operating decisions.</p></article>
+        <article class="option"><div class="option-top"><span class="option-number">01</span><div class="label">Clarity</div></div><h3>One-Time Strategy Session</h3><p class="option-outcome">Leave with priorities and a practical plan.</p><ul class="check-list"><li>Focused diagnosis</li><li>Launch, shop, affiliate, and creator decisions</li><li>Prioritized next steps</li></ul><div class="cadence">One focused session</div></article>
+        <article class="option"><div class="option-top"><span class="option-number">02</span><div class="label">Guidance</div></div><h3>Monthly Advisory</h3><p class="option-outcome">Keep your internal team aligned as the work changes.</p><ul class="check-list"><li>Monthly strategy review</li><li>Decision support</li><li>Priority reset</li></ul><div class="cadence">Monthly</div></article>
+        <article class="option"><div class="option-top"><span class="option-number">03</span><div class="label">Capability</div></div><h3>Team Enablement &amp; Advisory</h3><p class="option-outcome">Build the TikTok Shop knowledge your team does not yet have.</p><ul class="check-list"><li>Weekly or biweekly working sessions</li><li>TikTok Shop education</li><li>Practical workflow guidance</li></ul><div class="cadence">Weekly or biweekly</div></article>
       </div>
       <div class="execution-exit">Need hands-on execution instead? <a href="/services#full-service-management">Explore Full-Service Management.</a></div>
     </div></section>
