@@ -17,7 +17,7 @@
 {"@context":"https://schema.org","@type":"Service","@id":"https://www.weglobalmarketing.com/services/advisory#service","name":"TikTok Shop Strategy Consulting","description":"TikTok Shop strategy consulting for in-house teams that need practical guidance on launch and growth priorities before they execute.","provider":{"@id":"https://www.weglobalmarketing.com/#organization"},"serviceType":"TikTok Shop Strategy Consulting","audience":{"@type":"BusinessAudience","audienceType":"In-house ecommerce and TikTok Shop teams"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is a one-time TikTok Shop strategy session for?","acceptedAnswer":{"@type":"Answer","text":"A one-time strategy session is for teams that are not sure what they need yet, need help setting priorities, or want an experienced operator to help set up the operating structure before they execute."}},{"@type":"Question","name":"What can we work through in a consulting session?","acceptedAnswer":{"@type":"Answer","text":"Topics can include shop setup, Affiliate Center, creator program and workflow planning, commission logic, product-page, offer, and campaign review, plus launch priorities."}},{"@type":"Question","name":"Does consulting include full-service execution?","acceptedAnswer":{"@type":"Answer","text":"One-time consulting and ongoing advisory provide strategy, audits, action plans, and follow-up recommendations. Full-service execution is separately scoped when you need WE Marketing to run the work alongside your team."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is a one-time TikTok Shop strategy session for?","acceptedAnswer":{"@type":"Answer","text":"A one-time strategy session is for brands that are not sure what they need yet, need one focused diagnosis, or want an experienced operator to set priorities and a practical plan before the team executes."}},{"@type":"Question","name":"How is Monthly Advisory different from a one-time strategy session?","acceptedAnswer":{"@type":"Answer","text":"Monthly Advisory is for internal teams that execute themselves and need a regular strategy review, decision support, and priority reset as the shop and creator program develop."}},{"@type":"Question","name":"What is Team Enablement and Advisory?","acceptedAnswer":{"@type":"Answer","text":"Team Enablement and Advisory is for strong marketing or ecommerce teams that need to build TikTok Shop capability. Cadence can be weekly or biweekly based on scope, with working sessions across fundamentals, shop setup, Affiliate Center, creator workflows, commission logic, content, offers, reporting, and operating decisions."}},{"@type":"Question","name":"What if we need hands-on execution?","acceptedAnswer":{"@type":"Answer","text":"Full-Service Management is separately scoped for brands that need WE Marketing to operate the work alongside their team."}}]}
 </script>
 <style>
   :root { --pink:#FF1493; --purple:#9B30FF; --blue:#4A8FFF; --ink:#0a0a0d; --muted:#c9c9d2; --panel:rgba(15,12,27,.78); }
@@ -30,10 +30,13 @@
   .brand { font-weight:800; letter-spacing:.03em; text-decoration:none; }
   .nav-links { display:flex; gap:20px; color:#d8d5e2; }
   .nav-links a { text-decoration:none; }
-  .hero { overflow:hidden; padding:100px 0 82px; background:radial-gradient(circle at 87% 8%,rgba(74,143,255,.62),transparent 28%),radial-gradient(circle at 67% 74%,rgba(155,48,255,.58),transparent 37%),radial-gradient(circle at 15% 20%,rgba(255,20,147,.52),transparent 32%),linear-gradient(132deg,#09070d 8%,#180a29 53%,#07142d 100%); }
+  .hero { position:relative; overflow:hidden; padding:100px 0 82px; background:radial-gradient(circle at 87% 8%,rgba(74,143,255,.62),transparent 28%),radial-gradient(circle at 67% 74%,rgba(155,48,255,.58),transparent 37%),radial-gradient(circle at 15% 20%,rgba(255,20,147,.52),transparent 32%),linear-gradient(132deg,#09070d 8%,#180a29 53%,#07142d 100%); }
+  .hero::before { content:""; position:absolute; inset:0; opacity:.14; pointer-events:none; background-image:linear-gradient(rgba(255,255,255,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.16) 1px,transparent 1px); background-size:96px 96px; mask-image:radial-gradient(ellipse at 50% 38%,#000,transparent 72%); }
+  .hero .shell { position:relative; z-index:1; }
   .eyebrow { color:#fff; letter-spacing:.16em; font-size:12px; font-weight:850; }
+  .consulting-title { display:inline-block; margin-top:14px; font-size:clamp(17px,2.2vw,27px); font-weight:900; letter-spacing:.03em; text-transform:uppercase; background:linear-gradient(90deg,#FF1493 0%,#FF38A8 44%,#9B30FF 78%,#4A8FFF 100%); -webkit-background-clip:text; background-clip:text; color:#FF1493; -webkit-text-fill-color:transparent; }
   h1 { font-size:clamp(46px,7.2vw,92px); line-height:.94; letter-spacing:-.06em; max-width:930px; margin:18px 0 26px; text-wrap:balance; }
-  h1 span { color:#fff; text-shadow:0 4px 28px rgba(0,0,0,.3); }
+  .title-gradient { background:linear-gradient(90deg,#FF1493 0%,#FF38A8 44%,#9B30FF 78%,#4A8FFF 100%); -webkit-background-clip:text; background-clip:text; color:#FF1493; -webkit-text-fill-color:transparent; text-shadow:none; }
   .intro { max-width:710px; font-size:clamp(19px,2.25vw,24px); line-height:1.45; color:#fff; margin:0; }
   .cta-row { display:flex; flex-wrap:wrap; gap:14px; align-items:center; margin-top:34px; }
   .cta { display:inline-flex; align-items:center; min-height:54px; padding:0 23px; border-radius:999px; background:linear-gradient(100deg,var(--pink),var(--purple)); color:#fff; box-shadow:0 12px 32px rgba(155,48,255,.36); font-weight:850; text-decoration:none; }
@@ -49,13 +52,15 @@
   .card h3 { margin:0 0 11px; font-size:22px; letter-spacing:-.025em; }
   .card p { margin:0; color:var(--muted); line-height:1.55; }
   .decision { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:35px; }
-  .option { min-height:250px; padding:27px; border-radius:20px; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.04); }
+  .option { min-height:270px; padding:27px; border-radius:20px; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.04); box-shadow:0 18px 48px rgba(0,0,0,.2); }
   .option:first-child { border-color:rgba(255,20,147,.64); background:linear-gradient(145deg,rgba(255,20,147,.22),rgba(155,48,255,.12)); }
   .option:nth-child(2) { border-color:rgba(155,48,255,.65); background:linear-gradient(145deg,rgba(155,48,255,.2),rgba(74,143,255,.11)); }
   .option:nth-child(3) { border-color:rgba(74,143,255,.65); background:linear-gradient(145deg,rgba(74,143,255,.21),rgba(15,12,27,.75)); }
   .option .label { color:#fff; font-size:12px; letter-spacing:.13em; font-weight:850; text-transform:uppercase; }
   .option h3 { margin:14px 0 12px; font-size:26px; letter-spacing:-.03em; }
   .option p { margin:0; color:#e5e2eb; line-height:1.56; }
+  .execution-exit { margin-top:24px; padding:24px 26px; border:1px solid rgba(255,255,255,.2); border-radius:18px; background:linear-gradient(100deg,rgba(255,20,147,.12),rgba(155,48,255,.1),rgba(74,143,255,.12)); color:#fff; font-size:18px; line-height:1.5; }
+  .execution-exit a { color:#fff; font-weight:850; text-decoration-color:#FF1493; text-underline-offset:4px; }
   .questions { max-width:920px; }
   details { padding:23px 0; border-top:1px solid rgba(255,255,255,.18); }
   details:last-child { border-bottom:1px solid rgba(255,255,255,.18); }
@@ -73,7 +78,8 @@
   <main>
     <section class="hero"><div class="shell">
       <div class="eyebrow">WE MARKETING ADVISORY</div>
-      <h1>You may not need a long-term agency engagement yet. <span>You may need a clearer operating plan.</span></h1>
+      <div class="consulting-title">TikTok Shop Consulting</div>
+      <h1>You may not need a long-term agency engagement yet. <span class="title-gradient">You may need a clearer operating plan.</span></h1>
       <p class="intro">When a team is confused about what to fix first, more activity usually makes the problem harder to see. A focused strategy session can help you set priorities and build the operating structure your team will run.</p>
       <div class="cta-row"><a class="cta" href="https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925" target="_blank" rel="noopener">Book a One-Time Strategy Session</a><p class="cta-note">Not sure what you need yet? Start with one focused session.</p></div>
     </div></section>
@@ -94,19 +100,21 @@
       <p class="lead" style="margin-top:24px;">That does not mean every brand needs the same plan. A brand with a strong product page but no creator workflow has a different first problem from a team with creator interest but no fulfillment structure. The point of the session is to identify the actual constraint before your team adds more work around it.</p>
     </div></section>
     <section><div class="shell">
-      <h2>Choose the level of help that fits the work.</h2>
-      <p class="lead">You can start small. Ongoing advisory is available when decisions keep coming, but it is not required. Full-service execution is a separate scope when you need WE Marketing to run the work with your team.</p>
+      <h2>Choose the outcome your team needs next.</h2>
+      <p class="lead">The difference is not just how often you meet. One option gives your team clarity, one gives internal leaders regular decision support, and one helps the team build the TikTok Shop capability it needs to operate independently.</p>
       <div class="decision">
-        <article class="option"><div class="label">Start here</div><h3>One-Time Consulting</h3><p>For a focused operating question, a launch review, or a team that needs clarity before it commits to a larger scope.</p></article>
-        <article class="option"><div class="label">Optional</div><h3>Ongoing Advisory</h3><p>For teams that are executing internally and want recurring operator input as their shop, creators, offers, and workflow develop.</p></article>
-        <article class="option"><div class="label">Separate scope</div><h3>Full-Service Execution</h3><p>For brands that need WE Marketing to operate the work alongside their team. It is separately scoped from consulting and advisory.</p></article>
+        <article class="option"><div class="label">One-time clarity</div><h3>One-Time Strategy Session</h3><p>For brands that are confused, do not know what they need, or need one focused diagnosis and a prioritized plan before the team starts adding more work.</p></article>
+        <article class="option"><div class="label">Leadership guidance</div><h3>Monthly Advisory</h3><p>For internal teams that execute themselves but need a regular monthly strategy review, decision support, and a priority reset as the work develops.</p></article>
+        <article class="option"><div class="label">Capability building</div><h3>Team Enablement &amp; Advisory</h3><p>For strong marketing and ecommerce teams that do not yet understand TikTok Shop and need to build internal capability through working sessions, education, and practical operating decisions.</p></article>
       </div>
+      <div class="execution-exit">Need hands-on execution instead? <a href="/services#full-service-management">Explore Full-Service Management.</a></div>
     </div></section>
     <section><div class="shell questions">
       <h2>Consulting FAQ</h2>
-      <details><summary>Who is a one-time TikTok Shop strategy session for?</summary><p>A one-time strategy session is for teams that are not sure what they need yet, need help setting priorities, or want an experienced operator to help set up the operating structure before they execute.</p></details>
-      <details><summary>What can we work through in a consulting session?</summary><p>Topics can include shop setup, Affiliate Center, creator program and workflow planning, commission logic, product-page, offer, and campaign review, plus launch priorities.</p></details>
-      <details><summary>Does consulting include full-service execution?</summary><p>One-time consulting and ongoing advisory provide strategy, audits, action plans, and follow-up recommendations. Full-service execution is separately scoped when you need WE Marketing to run the work alongside your team.</p></details>
+      <details><summary>Who is a one-time TikTok Shop strategy session for?</summary><p>A one-time strategy session is for brands that are not sure what they need yet, need one focused diagnosis, or want an experienced operator to set priorities and a practical plan before the team executes.</p></details>
+      <details><summary>How is Monthly Advisory different from a one-time strategy session?</summary><p>Monthly Advisory is for internal teams that execute themselves and need a regular strategy review, decision support, and priority reset as the shop and creator program develop.</p></details>
+      <details><summary>What is Team Enablement and Advisory?</summary><p>Team Enablement and Advisory is for strong marketing or ecommerce teams that need to build TikTok Shop capability. Cadence can be weekly or biweekly based on scope, with working sessions across fundamentals, shop setup, Affiliate Center, creator workflows, commission logic, content, offers, reporting, and operating decisions.</p></details>
+      <details><summary>What if we need hands-on execution?</summary><p>Full-Service Management is separately scoped for brands that need WE Marketing to operate the work alongside their team.</p></details>
     </div></section>
     <section class="closing"><div class="shell"><div class="closing-box">
       <h2>Not sure what you need yet? Start with one focused session.</h2>
