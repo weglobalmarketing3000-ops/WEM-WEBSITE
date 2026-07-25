@@ -6,7 +6,7 @@ const BLOG_POSTS = [
     title: { en: 'TikTok Shop Food and Beverage Cold Start: A 0-to-1 Launch System', zh: 'TikTok Shop 食品饮料冷启动：从 0 到 1 的产品验证系统' },
     excerpt: { en: 'Build the first repeatable F&B launch loop across hero SKUs, creator fit, sensory content, product pages, GMV Max, inventory, fulfillment, and the next scale-repair-stop decision.', zh: '食品饮料冷启动不是多发视频。品牌要把 Hero SKU、达人匹配、感官内容、商品页、GMV Max、库存和履约接成从 0 到 1 的验证系统。' },
     date: { en: 'Jul 25, 2026', zh: '2026 年 7 月 25 日' }, read: { en: '12 min read', zh: '13 分钟阅读' },
-    image: 'hero-tiktok-shop-food-beverage-cold-start-v2.png',
+    image: 'hero-tiktok-shop-food-beverage-cold-start-v3.png',
   },
   {
     slug: 'tiktok-shop-live-auction-readiness',
