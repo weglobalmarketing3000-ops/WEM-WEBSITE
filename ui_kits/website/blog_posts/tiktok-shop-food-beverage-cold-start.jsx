@@ -21,8 +21,8 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: 'Jul 25, 2026',
       read: '12 min read',
-      heroImage: 'hero-tiktok-shop-food-beverage-cold-start.png',
-      heroAlt: 'Food and beverage brand operator and creator testing snack, beverage, and condiment hero SKUs for a TikTok Shop 0-to-1 cold start',
+      heroImage: 'hero-tiktok-shop-food-beverage-cold-start-v2.png',
+      heroAlt: 'Food, beverage, and condiment hero SKUs arranged for a TikTok Shop 0-to-1 cold-start content test',
     },
     sections: [
       {
@@ -189,8 +189,8 @@ const POSTS = {
       author: 'WE Marketing Team',
       date: '2026 年 7 月 25 日',
       read: '13 分钟阅读',
-      heroImage: 'hero-tiktok-shop-food-beverage-cold-start.png',
-      heroAlt: '食品饮料品牌运营者与达人测试零食、饮料和调味品 Hero SKU，搭建 TikTok Shop 从 0 到 1 冷启动系统',
+      heroImage: 'hero-tiktok-shop-food-beverage-cold-start-v2.png',
+      heroAlt: '食品、饮料和调味品 Hero SKU 静物组合，用于 TikTok Shop 从 0 到 1 冷启动内容测试',
     },
     sections: [
       {
