@@ -1,6 +1,30 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-food-beverage-cold-start',
+    cat: { en: 'TIKTOK SHOP U.S. · FOOD & BEVERAGE', zh: 'TIKTOK SHOP 美国 · 食品饮料' },
+    title: { en: 'TikTok Shop Food and Beverage Cold Start: A 0-to-1 Launch System', zh: 'TikTok Shop 食品饮料冷启动：从 0 到 1 的产品验证系统' },
+    excerpt: { en: 'Build the first repeatable F&B launch loop across hero SKUs, creator fit, sensory content, product pages, GMV Max, inventory, fulfillment, and the next scale-repair-stop decision.', zh: '食品饮料冷启动不是多发视频。品牌要把 Hero SKU、达人匹配、感官内容、商品页、GMV Max、库存和履约接成从 0 到 1 的验证系统。' },
+    date: { en: 'Jul 25, 2026', zh: '2026 年 7 月 25 日' }, read: { en: '12 min read', zh: '13 分钟阅读' },
+    image: 'hero-tiktok-shop-food-beverage-cold-start.png',
+  },
+  {
+    slug: 'tiktok-shop-live-auction-readiness',
+    cat: { en: 'TIKTOK SHOP U.S. · LIVE COMMERCE', zh: 'TIKTOK SHOP 美国 · 直播拍卖' },
+    title: { en: 'TikTok Shop LIVE Auctions: The U.S. Brand Readiness System', zh: 'TikTok Shop LIVE 拍卖怎么做：美国站品牌上线前的运营系统' },
+    excerpt: { en: 'Decide whether a product belongs in an auction, verify seller and creator access, align the listing with the LIVE, and protect fulfillment after the win.', zh: '先判断商品是否适合拍卖，再核对店铺与达人资格，把镜头、listing、成交实物和履约接成同一套系统。' },
+    date: { en: 'Jul 23, 2026', zh: '2026 年 7 月 23 日' }, read: { en: '12 min read', zh: '13 分钟阅读' },
+    image: 'hero-tiktok-shop-live-auction-readiness.png',
+  },
+  {
+    slug: 'tiktok-shop-shop-recognition-badge-strategy',
+    cat: { en: 'TIKTOK SHOP U.S. · SHOP RECOGNITION', zh: 'TIKTOK SHOP 美国 · 店铺认证' },
+    title: { en: 'TikTok Shop Badges: A Trust Operating System for U.S. Brands', zh: 'TikTok Shop 店铺认证徽章怎么用：从品牌身份到美国市场信任运营' },
+    excerpt: { en: 'Choose the right recognition path, prepare the storefront, activate creators, and maintain trust through a weekly operating loop.', zh: '从身份链、商品页、达人激活到每周复盘，把店铺认证变成美国市场可持续的信任运营系统。' },
+    date: { en: 'Jul 22, 2026', zh: '2026 年 7 月 22 日' }, read: { en: '13 min read', zh: '13 分钟阅读' },
+    image: 'hero-tiktok-shop-shop-recognition-badges-v3.png',
+  },
+  {
     slug: 'tiktok-shop-product-card-strategy',
     cat: { en: 'TIKTOK SHOP U.S. · PRODUCT CARD STRATEGY', zh: 'TIKTOK SHOP 美国 · 商品卡策略' },
     title: { en: 'TikTok Shop Product Card Strategy: Turn Creator Demand Into Conversion', zh: 'TikTok Shop 商品卡流量怎么做：价格、促销和达人内容怎样一起接住转化' },
