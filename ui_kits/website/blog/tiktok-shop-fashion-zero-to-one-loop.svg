@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">WEM TikTok Shop Fashion zero-to-one cold-start loop</title>
+  <desc id="desc">A seven-stage Fashion operating loop connecting product screening, creator fit, try-on proof, product-page clarity, paid testing, inventory and returns, and the scale, repair, or stop decision.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef1ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1f2a5a" flood-opacity=".10"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#2855d9"/>
+    </marker>
+    <style>
+      .eyebrow{font:700 22px Arial,sans-serif;letter-spacing:2px;fill:#2855d9}
+      .headline{font:800 46px Arial,sans-serif;fill:#101735}
+      .sub{font:400 21px Arial,sans-serif;fill:#536080}
+      .n{font:800 20px Arial,sans-serif;fill:#2855d9}
+      .h{font:700 23px Arial,sans-serif;fill:#101735}
+      .p{font:400 17px Arial,sans-serif;fill:#536080}
+      .decision{font:800 23px Arial,sans-serif;fill:#ffffff}
+      .decisionSub{font:400 16px Arial,sans-serif;fill:#eaf0ff}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" class="eyebrow">WEM OPERATING FRAMEWORK</text>
+  <text x="70" y="137" class="headline">Fashion cold start is a decision loop</text>
+  <text x="70" y="178" class="sub">Every layer should make the next product, creator, content, and inventory decision clearer.</text>
+
+  <path d="M240 315H380M540 315H680M840 315H980M1140 315V478H1010M850 535H710M550 535H410"
+        fill="none" stroke="#2855d9" stroke-width="4" stroke-dasharray="9 9" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(70 240)">
+      <rect width="170" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">01</text>
+      <text x="22" y="70" class="h">Screen</text>
+      <text x="22" y="98" class="p">3–7 products</text>
+      <text x="22" y="122" class="p">Trend + margin</text>
+    </g>
+    <g transform="translate(380 240)">
+      <rect width="160" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">02</text>
+      <text x="22" y="70" class="h">Match</text>
+      <text x="22" y="98" class="p">Style + shopper</text>
+      <text x="22" y="122" class="p">Size context</text>
+    </g>
+    <g transform="translate(680 240)">
+      <rect width="160" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">03</text>
+      <text x="22" y="70" class="h">Prove</text>
+      <text x="22" y="98" class="p">Fit + movement</text>
+      <text x="22" y="122" class="p">Material + styling</text>
+    </g>
+    <g transform="translate(980 240)">
+      <rect width="160" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">04</text>
+      <text x="22" y="70" class="h">Convert</text>
+      <text x="22" y="98" class="p">Size + variants</text>
+      <text x="22" y="122" class="p">Offer + shipping</text>
+    </g>
+    <g transform="translate(850 460)">
+      <rect width="160" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">05</text>
+      <text x="22" y="70" class="h">Amplify</text>
+      <text x="22" y="98" class="p">GMV Max</text>
+      <text x="22" y="122" class="p">Affiliate creative</text>
+    </g>
+    <g transform="translate(550 460)">
+      <rect width="160" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">06</text>
+      <text x="22" y="70" class="h">Deliver</text>
+      <text x="22" y="98" class="p">Variant stock</text>
+      <text x="22" y="122" class="p">Returns + margin</text>
+    </g>
+    <g transform="translate(250 460)">
+      <rect width="160" height="150" rx="24" fill="#fff"/>
+      <text x="22" y="35" class="n">07</text>
+      <text x="22" y="70" class="h">Review</text>
+      <text x="22" y="98" class="p">Repeatability</text>
+      <text x="22" y="122" class="p">Next action</text>
+    </g>
+  </g>
+
+  <g transform="translate(1030 475)">
+    <rect width="300" height="176" rx="28" fill="#142b73"/>
+    <text x="28" y="48" class="decision">SCALE · REPAIR · STOP</text>
+    <text x="28" y="84" class="decisionSub">Scale the repeatable winner.</text>
+    <text x="28" y="112" class="decisionSub">Repair the broken layer.</text>
+    <text x="28" y="140" class="decisionSub">Stop unsupported spend.</text>
+  </g>
+
+  <path d="M250 535C130 535 110 445 110 390" fill="none" stroke="#f06aa7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="70" y="704" class="sub">The loop restarts with better product evidence, not a larger activity target.</text>
+</svg>
