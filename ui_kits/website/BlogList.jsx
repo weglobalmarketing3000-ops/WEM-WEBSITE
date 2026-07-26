@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-fashion-cold-start',
+    cat: { en: 'TIKTOK SHOP U.S. · FASHION', zh: 'TIKTOK SHOP 美国站 · 服装冷启动' },
+    title: { en: 'TikTok Shop Fashion Cold Start: Build a 0-to-1 Bestseller System', zh: 'TikTok Shop 服装冷启动：从选款到爆款的 0-1 运营系统' },
+    excerpt: { en: 'Connect hero SKUs, creator fit, try-on proof, size clarity, GMV Max, inventory, returns, and weekly decisions before scaling a Fashion launch.', zh: '把选款、达人匹配、试穿内容、尺码变体、GMV Max、库存、退货和周复盘连接成一套美国站服装冷启动系统。' },
+    date: { en: 'Jul 26, 2026', zh: '2026 年 7 月 26 日' }, read: { en: '13 min read', zh: '13 分钟阅读' },
+    image: 'hero-tiktok-shop-fashion-cold-start.png',
+  },
+  {
     slug: 'tiktok-shop-food-beverage-cold-start',
     cat: { en: 'TIKTOK SHOP U.S. · FOOD & BEVERAGE', zh: 'TIKTOK SHOP 美国 · 食品饮料' },
     title: { en: 'TikTok Shop Food and Beverage Cold Start: A 0-to-1 Launch System', zh: 'TikTok Shop 食品饮料冷启动：从 0 到 1 的产品验证系统' },
