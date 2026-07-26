@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-health-wellness-cold-start',
+    cat: { en: 'TIKTOK SHOP U.S. · HEALTH & WELLNESS', zh: 'TIKTOK SHOP 美国站 · HEALTH & WELLNESS' },
+    title: { en: 'TikTok Shop Health & Wellness Cold Start: Build Trust Before You Scale', zh: 'TikTok Shop 健康与保健冷启动：先建立信任，再扩大增长' },
+    excerpt: { en: 'Connect product eligibility, Hero SKUs, claims, creator education, listing trust, offers, GMV Max, inventory, fulfillment, and customer feedback before scaling.', zh: '把产品资格、Hero SKU、claim、达人教育、商品页信任、Offer、GMV Max、库存、履约和用户反馈连接成一套冷启动系统。' },
+    date: { en: 'Jul 26, 2026', zh: '2026 年 7 月 26 日' }, read: { en: '17 min read', zh: '17 分钟阅读' },
+    image: 'hero-tiktok-shop-health-wellness-cold-start.png',
+  },
+  {
     slug: 'tiktok-shop-beauty-cold-start',
     cat: { en: 'TIKTOK SHOP U.S. · BEAUTY', zh: 'TIKTOK SHOP 美国站 · 美妆冷启动' },
     title: { en: 'TikTok Shop Beauty Cold Start: Build a 0-to-1 Hero Product System', zh: 'TikTok Shop 美妆冷启动：从 Hero SKU 到可重复增长的 0-1 系统' },

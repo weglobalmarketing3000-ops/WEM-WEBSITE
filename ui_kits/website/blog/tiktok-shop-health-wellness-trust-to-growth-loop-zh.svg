@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop Health and Wellness 信任优先冷启动闭环</title>
+  <desc id="desc">WE Marketing Health and Wellness 冷启动框架，连接产品资格、Hero SKU、达人可信度、负责任内容、商品页信任、付费支持、用户反馈和 Scale、Repair 或 Stop 决策。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07070b"/>
+      <stop offset="1" stop-color="#171126"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff1493"/>
+      <stop offset="0.5" stop-color="#8d42ff"/>
+      <stop offset="1" stop-color="#438cff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8376a8"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="760" rx="36" fill="url(#bg)"/>
+  <circle cx="1220" cy="110" r="180" fill="#ff1493" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="190" cy="650" r="200" fill="#438cff" opacity="0.08" filter="url(#glow)"/>
+  <text x="74" y="80" fill="#ffffff" font-family="Arial, PingFang SC, sans-serif" font-size="34" font-weight="700">Health &amp; Wellness 冷启动：先建立信任，再扩大增长</text>
+  <text x="74" y="118" fill="#aaa3bd" font-family="Arial, PingFang SC, sans-serif" font-size="20">产品资格与信任应该支持每一个增长决定。</text>
+  <path d="M290 285 H438 M622 285 H770 M954 285 H1102" stroke="#8376a8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1194 370 C1194 590 1010 630 700 630 C390 630 206 590 206 370" fill="none" stroke="#8376a8" stroke-width="4" stroke-dasharray="10 12" marker-end="url(#arrow)"/>
+  <g font-family="Arial, PingFang SC, sans-serif">
+    <g transform="translate(74 190)">
+      <rect width="216" height="190" rx="26" fill="#14121d" stroke="#ff1493" stroke-width="3"/>
+      <circle cx="42" cy="44" r="18" fill="#ff1493"/>
+      <text x="72" y="51" fill="#ffffff" font-size="20" font-weight="700">产品资格</text>
+      <text x="28" y="96" fill="#cfc9dc" font-size="17">产品类目</text>
+      <text x="28" y="126" fill="#cfc9dc" font-size="17">证据与标签</text>
+      <text x="28" y="156" fill="#cfc9dc" font-size="17">Claim 边界</text>
+    </g>
+    <g transform="translate(438 190)">
+      <rect width="216" height="190" rx="26" fill="#14121d" stroke="#bd36e9" stroke-width="3"/>
+      <circle cx="42" cy="44" r="18" fill="#bd36e9"/>
+      <text x="72" y="51" fill="#ffffff" font-size="20" font-weight="700">Hero SKU</text>
+      <text x="28" y="96" fill="#cfc9dc" font-size="17">清晰信任路径</text>
+      <text x="28" y="126" fill="#cfc9dc" font-size="17">利润与库存</text>
+      <text x="28" y="156" fill="#cfc9dc" font-size="17">客服准备</text>
+    </g>
+    <g transform="translate(770 190)">
+      <rect width="216" height="190" rx="26" fill="#14121d" stroke="#7659ff" stroke-width="3"/>
+      <circle cx="42" cy="44" r="18" fill="#7659ff"/>
+      <text x="72" y="51" fill="#ffffff" font-size="20" font-weight="700">信任内容</text>
+      <text x="28" y="96" fill="#cfc9dc" font-size="17">达人可信度</text>
+      <text x="28" y="126" fill="#cfc9dc" font-size="17">负责任教育</text>
+      <text x="28" y="156" fill="#cfc9dc" font-size="17">Listing 与 Offer</text>
+    </g>
+    <g transform="translate(1102 190)">
+      <rect width="224" height="190" rx="26" fill="#14121d" stroke="#438cff" stroke-width="3"/>
+      <circle cx="42" cy="44" r="18" fill="#438cff"/>
+      <text x="72" y="51" fill="#ffffff" font-size="20" font-weight="700">增长测试</text>
+      <text x="28" y="96" fill="#cfc9dc" font-size="17">Affiliate + GMV Max</text>
+      <text x="28" y="126" fill="#cfc9dc" font-size="17">用户信号</text>
+      <text x="28" y="156" fill="#cfc9dc" font-size="17">Repeat behavior</text>
+    </g>
+  </g>
+  <g transform="translate(330 508)">
+    <rect width="740" height="130" rx="32" fill="#0e0d14" stroke="url(#accent)" stroke-width="3"/>
+    <text x="370" y="49" text-anchor="middle" fill="#ffffff" font-family="Arial, PingFang SC, sans-serif" font-size="24" font-weight="700">每周决定</text>
+    <text x="160" y="96" text-anchor="middle" fill="#ff62b7" font-family="Arial, sans-serif" font-size="25" font-weight="700">SCALE</text>
+    <text x="370" y="96" text-anchor="middle" fill="#b783ff" font-family="Arial, sans-serif" font-size="25" font-weight="700">REPAIR</text>
+    <text x="580" y="96" text-anchor="middle" fill="#76adff" font-family="Arial, sans-serif" font-size="25" font-weight="700">STOP</text>
+  </g>
+</svg>
