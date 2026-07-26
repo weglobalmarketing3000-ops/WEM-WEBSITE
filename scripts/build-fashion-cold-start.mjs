@@ -150,8 +150,12 @@ zh.sections[0].body.push({
 const findSection = (sections, phrase) => sections.find(s => s.h.toLowerCase().includes(phrase.toLowerCase()));
 const enWem = findSection(en.sections, 'How WEM supports');
 if (enWem) enWem.body.push({ kind: 'cta', label: 'Talk with WEM about a Fashion cold start →', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' });
+const enCase = findSection(en.sections, 'WEM case: ANANKECLO');
+if (enCase) enCase.body.push({ kind: 'cta', label: 'See the ANANKECLO Fashion cold-start case →', href: '/showcase.html#case-fashion-cold-start' });
 const zhWem = findSection(zh.sections, 'WEM 怎么帮助');
 if (zhWem) zhWem.body.push({ kind: 'cta', label: '和 WEM 讨论服装品牌美国站冷启动 →', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' });
+const zhCase = findSection(zh.sections, 'WEM 案例：ANANKECLO');
+if (zhCase) zhCase.body.push({ kind: 'cta', label: '查看 ANANKECLO 男装冷启动案例 →', href: '/showcase.html#case-fashion-cold-start' });
 
 const toJs = value => JSON.stringify(value, null, 2)
   .replace(/"kind": "p"/g, 'kind: "p"')
@@ -176,7 +180,7 @@ const POSTS = {
       cat: 'TIKTOK SHOP U.S. · FASHION',
       author: 'WE Marketing Team',
       date: 'Jul 26, 2026',
-      read: '13 min read',
+      read: '15 min read',
       heroImage: 'hero-tiktok-shop-fashion-cold-start.png',
       heroAlt: 'Fashion hero SKUs, creator content, product variants, and performance review arranged as a TikTok Shop zero-to-one cold-start system',
     },
@@ -195,7 +199,7 @@ const POSTS = {
       cat: 'TIKTOK SHOP 美国站 · 服装冷启动',
       author: 'WE Marketing Team',
       date: '2026 年 7 月 26 日',
-      read: '13 分钟阅读',
+      read: '15 分钟阅读',
       heroImage: 'hero-tiktok-shop-fashion-cold-start-zh.png',
       heroAlt: '服装 Hero SKU、达人内容、商品变体和复盘模块组成的 TikTok Shop 0-1 冷启动系统',
     },

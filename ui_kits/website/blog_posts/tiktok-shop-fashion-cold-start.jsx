@@ -11,7 +11,7 @@ const POSTS = {
       cat: 'TIKTOK SHOP U.S. · FASHION',
       author: 'WE Marketing Team',
       date: 'Jul 26, 2026',
-      read: '13 min read',
+      read: '15 min read',
       heroImage: 'hero-tiktok-shop-fashion-cold-start.png',
       heroAlt: 'Fashion hero SKUs, creator content, product variants, and performance review arranged as a TikTok Shop zero-to-one cold-start system',
     },
@@ -244,6 +244,46 @@ const POSTS = {
     ]
   },
   {
+    id: "wem-case-anankeclo-used-a-35-cuban-shirt-as-the-lead-i",
+    h: "WEM case: ANANKECLO used a $35 Cuban shirt as the lead-in hero SKU",
+    body: [
+      {
+        kind: "p",
+        text: "ANANKECLO is a WEM men's-fashion cold-start case. The launch did not begin by asking creators and shoppers to choose from the full catalog. WEM concentrated the first operating cycle on a Cuban shirt with an average order value of about $35. That gave the team one product around which to align creator outreach, try-on content, the product page, inventory, and offer testing."
+      },
+      {
+        kind: "p",
+        text: "The offer was not treated as one permanent discount. WEM tested different ways to reduce first-order friction, including free shipping and gift-with-purchase structures. Each offer needed to answer a different question: Was shipping cost stopping the first order? Could a relevant gift make the purchase feel more complete without lowering the product's perceived value? Did the offer still leave enough room for commissions, fulfillment, and continued testing?"
+      },
+      {
+        kind: "p",
+        text: "After the Cuban-shirt path was working well enough to support controlled expansion, ANANKECLO introduced a higher-value product: sweatpants with an average order value of about $60. The important sequence was not \"$35 product first, $60 product second.\" It was:"
+      },
+      {
+        kind: "list",
+        items: [
+          "Use one accessible hero SKU to learn which creators, content angles, product-page details, and offers could move a real order.",
+          "Keep the first product working while the team corrected friction and built usable creator and customer signals.",
+          "Add a higher-order-value adjacent product only after the store had a clearer acquisition and conversion path."
+        ],
+        ordered: true
+      },
+      {
+        kind: "p",
+        text: "This is why a lower-priced hero SKU can be a lead-in product without becoming the brand's permanent ceiling. Its job is to make the first purchase and the first round of learning easier. The next product should increase customer value without fragmenting the creator, content, inventory, and offer system that made the cold start work."
+      },
+      {
+        kind: "p",
+        text: "ANANKECLO was a WEM client. This case describes the operating sequence WEM used with the brand. It is not a promise that the same products, prices, or offers will produce the same result for another Fashion business."
+      },
+      {
+        kind: "cta",
+        label: "See the ANANKECLO Fashion cold-start case →",
+        href: "/showcase.html#case-fashion-cold-start"
+      }
+    ]
+  },
+  {
     id: "use-gmv-max-after-the-launch-path-is-measurable",
     h: "Use GMV Max after the launch path is measurable",
     body: [
@@ -434,6 +474,10 @@ const POSTS = {
   {
     q: "What Fashion metrics matter besides GMV?",
     a: "Track creator acceptance, samples delivered and posted, content by proof job, product clicks, conversion, order value, size and color demand, cancellations, returns and reasons, contribution margin, inventory coverage, and whether performance repeats across creators and content angles."
+  },
+  {
+    q: "How did WEM use a hero SKU in the ANANKECLO Fashion cold start?",
+    a: "WEM concentrated ANANKECLO's first launch cycle on a Cuban shirt with an average order value of about $35, tested offers including free shipping and gift with purchase, and expanded into sweatpants at about a $60 average order value after the first product path was working. The sequence shows how an accessible lead-in product can support learning before a brand adds a higher-value adjacent product."
   }
 ],
     related: [
@@ -449,7 +493,7 @@ const POSTS = {
       cat: 'TIKTOK SHOP 美国站 · 服装冷启动',
       author: 'WE Marketing Team',
       date: '2026 年 7 月 26 日',
-      read: '13 分钟阅读',
+      read: '15 分钟阅读',
       heroImage: 'hero-tiktok-shop-fashion-cold-start-zh.png',
       heroAlt: '服装 Hero SKU、达人内容、商品变体和复盘模块组成的 TikTok Shop 0-1 冷启动系统',
     },
@@ -682,6 +726,46 @@ const POSTS = {
     ]
   },
   {
+    id: "zh-wem-案例-anankeclo-用约-35-美元的-cuban-shirt-做-lead-in-hero-",
+    h: "WEM 案例：ANANKECLO 用约 35 美元的 Cuban shirt 做 lead-in Hero SKU",
+    body: [
+      {
+        kind: "p",
+        text: "ANANKECLO 是 WEM 服务的男装 Fashion 冷启动案例。项目开始时，没有让达人和消费者从整个产品目录里自己选择。WEM 先把第一轮运营资源集中到 Cuban shirt，平均客单价约 35 美元，让达人邀约、试穿内容、商品页、库存和 Offer 测试都围绕同一个 Hero SKU 建立。"
+      },
+      {
+        kind: "p",
+        text: "Offer 也不是只设置一个长期折扣。WEM 测试了不同的首单推动方式，包括包邮和 gift with purchase。每一种 Offer 都需要回答不同问题：用户是不是被运费挡住？一个相关赠品能不能让购买体验更完整，同时不降低商品价值感？算上达人佣金、履约和后续测试后，这个 Offer 是否仍然可承受？"
+      },
+      {
+        kind: "p",
+        text: "当 Cuban shirt 的路径跑通到足以支持受控扩展后，ANANKECLO 再加入客单价约 60 美元的 sweatpants。真正重要的不是“先卖 35 美元，再卖 60 美元”，而是这个顺序："
+      },
+      {
+        kind: "list",
+        items: [
+          "先用一个更容易完成首次购买的 Hero SKU，验证哪些达人、内容角度、商品页信息和 Offer 能带来真实订单。",
+          "让第一个商品继续工作，同时修复购买阻力，积累可用的达人和消费者信号。",
+          "等获客和转化路径更清楚后，再加入更高客单的关联商品。"
+        ],
+        ordered: true
+      },
+      {
+        kind: "p",
+        text: "所以，低价格 Hero SKU 可以是 lead-in product，但不需要成为品牌长期客单上限。它的任务是降低第一次购买和第一轮学习的难度。下一件商品要提高客户价值，同时不能重新打散已经建立的达人、内容、库存和 Offer 系统。"
+      },
+      {
+        kind: "p",
+        text: "ANANKECLO 是 WEM 客户。这个案例说明 WEM 与品牌实际使用的运营顺序，不代表其他 Fashion 品牌使用相同商品、价格或 Offer 就会得到相同结果。"
+      },
+      {
+        kind: "cta",
+        label: "查看 ANANKECLO 男装冷启动案例 →",
+        href: "/showcase.html#case-fashion-cold-start"
+      }
+    ]
+  },
+  {
     id: "zh-gmv-max-只能放大已经可测量的-launch-path",
     h: "GMV Max 只能放大已经可测量的 launch path",
     body: [
@@ -872,6 +956,10 @@ const POSTS = {
   {
     q: "除了 GMV，服装冷启动还要看什么？",
     a: "要看达人接受率、寄样到发布、不同内容任务、商品点击、转化、客单价、尺码和颜色需求、取消、退货与原因、贡献利润、库存覆盖，以及结果能否在不同达人和内容角度中重复。"
+  },
+  {
+    q: "WEM 在 ANANKECLO 冷启动里怎么使用 Hero SKU？",
+    a: "WEM 先把 ANANKECLO 的第一轮资源集中到平均客单价约 35 美元的 Cuban shirt，测试包邮和 gift with purchase 等不同 Offer。第一个商品路径跑通后，再加入平均客单价约 60 美元的 sweatpants。这个顺序说明，品牌可以先用更容易完成首次购买的 lead-in product 学习，再受控扩展到更高客单的关联商品。"
   }
 ],
     related: [

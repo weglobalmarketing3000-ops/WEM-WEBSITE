@@ -203,6 +203,22 @@ A two-for-one offer can increase order value but also increase size uncertainty 
 
 The cold-start offer should make the first decision easier while preserving a usable read on demand. Test one major variable at a time when possible. If the product, price, commission, shipping, and content concept all change together, the team may see GMV without knowing what actually worked.
 
+## WEM case: ANANKECLO used a $35 Cuban shirt as the lead-in hero SKU
+
+ANANKECLO is a WEM men's-fashion cold-start case. The launch did not begin by asking creators and shoppers to choose from the full catalog. WEM concentrated the first operating cycle on a Cuban shirt with an average order value of about $35. That gave the team one product around which to align creator outreach, try-on content, the product page, inventory, and offer testing.
+
+The offer was not treated as one permanent discount. WEM tested different ways to reduce first-order friction, including free shipping and gift-with-purchase structures. Each offer needed to answer a different question: Was shipping cost stopping the first order? Could a relevant gift make the purchase feel more complete without lowering the product's perceived value? Did the offer still leave enough room for commissions, fulfillment, and continued testing?
+
+After the Cuban-shirt path was working well enough to support controlled expansion, ANANKECLO introduced a higher-value product: sweatpants with an average order value of about $60. The important sequence was not "$35 product first, $60 product second." It was:
+
+1. Use one accessible hero SKU to learn which creators, content angles, product-page details, and offers could move a real order.
+2. Keep the first product working while the team corrected friction and built usable creator and customer signals.
+3. Add a higher-order-value adjacent product only after the store had a clearer acquisition and conversion path.
+
+This is why a lower-priced hero SKU can be a lead-in product without becoming the brand's permanent ceiling. Its job is to make the first purchase and the first round of learning easier. The next product should increase customer value without fragmenting the creator, content, inventory, and offer system that made the cold start work.
+
+ANANKECLO was a WEM client. This case describes the operating sequence WEM used with the brand. It is not a promise that the same products, prices, or offers will produce the same result for another Fashion business.
+
 ## Use GMV Max after the launch path is measurable
 
 TikTok's Fashion PDF presents GMV Max as an all-in-one cold-start engine. Its Week 1 setup includes a minimum $500 weekly budget, three to seven products, at least five videos, and Maximum Delivery bidding. It then recommends expanding creative output and scaling budget during weeks two through five based on results.
@@ -297,6 +313,10 @@ Begin controlled paid testing after the product page, size and variant informati
 
 Track creator acceptance, samples delivered and posted, content by proof job, product clicks, conversion, order value, size and color demand, cancellations, returns and reasons, contribution margin, inventory coverage, and whether performance repeats across creators and content angles.
 
+### How did WEM use a hero SKU in the ANANKECLO Fashion cold start?
+
+WEM concentrated ANANKECLO's first launch cycle on a Cuban shirt with an average order value of about $35, tested offers including free shipping and gift with purchase, and expanded into sweatpants at about a $60 average order value after the first product path was working. The sequence shows how an accessible lead-in product can support learning before a brand adds a higher-value adjacent product.
+
 ---
 
 # TikTok Shop 服装冷启动：从选款到爆款的 0-1 运营系统
@@ -387,6 +407,22 @@ TikTok guide 建议 Fashion 冷启动关注 competitive pricing、value-driven b
 Two-for-one 可以提高客单价，也可能同时扩大尺码不确定性和退货风险。包邮可能提高转化，但让低客单单件商品失去利润。深折扣可以制造订单，却不一定证明消费者愿意在可持续价格下购买。
 
 冷启动 Offer 要帮助用户更容易完成第一次决定，同时保留对真实需求的判断。尽量一次只改变一个主要变量。如果产品、价格、佣金、物流和内容同时改变，即使 GMV 上升，团队也很难知道真正有效的原因。
+
+## WEM 案例：ANANKECLO 用约 35 美元的 Cuban shirt 做 lead-in Hero SKU
+
+ANANKECLO 是 WEM 服务的男装 Fashion 冷启动案例。项目开始时，没有让达人和消费者从整个产品目录里自己选择。WEM 先把第一轮运营资源集中到 Cuban shirt，平均客单价约 35 美元，让达人邀约、试穿内容、商品页、库存和 Offer 测试都围绕同一个 Hero SKU 建立。
+
+Offer 也不是只设置一个长期折扣。WEM 测试了不同的首单推动方式，包括包邮和 gift with purchase。每一种 Offer 都需要回答不同问题：用户是不是被运费挡住？一个相关赠品能不能让购买体验更完整，同时不降低商品价值感？算上达人佣金、履约和后续测试后，这个 Offer 是否仍然可承受？
+
+当 Cuban shirt 的路径跑通到足以支持受控扩展后，ANANKECLO 再加入客单价约 60 美元的 sweatpants。真正重要的不是“先卖 35 美元，再卖 60 美元”，而是这个顺序：
+
+1. 先用一个更容易完成首次购买的 Hero SKU，验证哪些达人、内容角度、商品页信息和 Offer 能带来真实订单。
+2. 让第一个商品继续工作，同时修复购买阻力，积累可用的达人和消费者信号。
+3. 等获客和转化路径更清楚后，再加入更高客单的关联商品。
+
+所以，低价格 Hero SKU 可以是 lead-in product，但不需要成为品牌长期客单上限。它的任务是降低第一次购买和第一轮学习的难度。下一件商品要提高客户价值，同时不能重新打散已经建立的达人、内容、库存和 Offer 系统。
+
+ANANKECLO 是 WEM 客户。这个案例说明 WEM 与品牌实际使用的运营顺序，不代表其他 Fashion 品牌使用相同商品、价格或 Offer 就会得到相同结果。
 
 ## GMV Max 只能放大已经可测量的 launch path
 
@@ -482,3 +518,6 @@ TikTok Fashion guide 建议同时 launch 和 test 3–7 个商品。WEM 把它�
 
 要看达人接受率、寄样到发布、不同内容任务、商品点击、转化、客单价、尺码和颜色需求、取消、退货与原因、贡献利润、库存覆盖，以及结果能否在不同达人和内容角度中重复。
 
+### WEM 在 ANANKECLO 冷启动里怎么使用 Hero SKU？
+
+WEM 先把 ANANKECLO 的第一轮资源集中到平均客单价约 35 美元的 Cuban shirt，测试包邮和 gift with purchase 等不同 Offer。第一个商品路径跑通后，再加入平均客单价约 60 美元的 sweatpants。这个顺序说明，品牌可以先用更容易完成首次购买的 lead-in product 学习，再受控扩展到更高客单的关联商品。
