@@ -36,8 +36,8 @@ const POSTS = {
       {
         kind: "infographic",
         src: "tiktok-shop-fashion-zero-to-one-loop.svg",
-        alt: "WEM TikTok Shop Fashion zero-to-one cold-start loop connecting product screening, creator fit, try-on proof, product-page clarity, paid testing, inventory, returns, and the next decision",
-        caption: "WEM operating framework: every launch layer should make the next product, creator, content, inventory, or spending decision clearer."
+        alt: "WE Marketing TikTok Shop Fashion zero-to-one cold-start loop connecting product screening, creator fit, try-on proof, product-page clarity, paid testing, inventory, returns, and the next decision",
+        caption: "WE Marketing operating framework: every launch layer should make the next product, creator, content, inventory, or spending decision clearer."
       }
     ]
   },
@@ -51,7 +51,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM separates the quick screen from the real launch:"
+        text: "WE Marketing separates the quick screen from the real launch:"
       },
       {
         kind: "table",
@@ -98,7 +98,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM uses four Fashion creator-fit questions:"
+        text: "WE Marketing uses four Fashion creator-fit questions:"
       },
       {
         kind: "list",
@@ -164,7 +164,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "For Fashion, WEM treats the product page as a fit and expectation system:"
+        text: "For Fashion, WE Marketing treats the product page as a fit and expectation system:"
       },
       {
         kind: "table",
@@ -244,37 +244,49 @@ const POSTS = {
     ]
   },
   {
-    id: "wem-case-anankeclo-used-a-35-cuban-shirt-as-the-lead-i",
-    h: "WEM case: ANANKECLO used a $35 Cuban shirt as the lead-in hero SKU",
+    id: "we-marketing-case-study-anankeclo-s-hero-sku-path-from",
+    h: "WE Marketing case study: ANANKECLO's hero-SKU path from a $35 Cuban shirt to $60 sweatpants",
     body: [
       {
         kind: "p",
-        text: "ANANKECLO is a WEM men's-fashion cold-start case. The launch did not begin by asking creators and shoppers to choose from the full catalog. WEM concentrated the first operating cycle on a Cuban shirt with an average order value of about $35. That gave the team one product around which to align creator outreach, try-on content, the product page, inventory, and offer testing."
+        text: "ANANKECLO is a men's Fashion client of WE Marketing. Rather than distribute cold-start resources across the full catalog, WE Marketing established a Cuban shirt with an average order value of approximately $35 as the lead-in Hero SKU. This concentrated creator recruitment, try-on content, listing optimization, inventory planning, and offer testing around one measurable launch path."
       },
       {
         kind: "p",
-        text: "The offer was not treated as one permanent discount. WEM tested different ways to reduce first-order friction, including free shipping and gift-with-purchase structures. Each offer needed to answer a different question: Was shipping cost stopping the first order? Could a relevant gift make the purchase feel more complete without lowering the product's perceived value? Did the offer still leave enough room for commissions, fulfillment, and continued testing?"
+        text: "Offer design was treated as a controlled commercial variable. Free shipping tested whether delivery cost was suppressing first-order conversion. Gift-with-purchase structures tested whether added value could support the purchase decision without relying solely on a lower product price. Each offer was assessed against conversion behavior and unit economics, including affiliate commission, fulfillment, and continued testing capacity."
       },
       {
-        kind: "p",
-        text: "After the Cuban-shirt path was working well enough to support controlled expansion, ANANKECLO introduced a higher-value product: sweatpants with an average order value of about $60. The important sequence was not \"$35 product first, $60 product second.\" It was:"
-      },
-      {
-        kind: "list",
-        items: [
-          "Use one accessible hero SKU to learn which creators, content angles, product-page details, and offers could move a real order.",
-          "Keep the first product working while the team corrected friction and built usable creator and customer signals.",
-          "Add a higher-order-value adjacent product only after the store had a clearer acquisition and conversion path."
+        kind: "table",
+        headers: [
+          "Phase",
+          "Commercial decision",
+          "Purpose"
         ],
-        ordered: true
+        rows: [
+          [
+            "Hero-SKU validation",
+            "Concentrate on the approximately $35 Cuban shirt",
+            "Establish a repeatable creator, content, listing, and conversion path"
+          ],
+          [
+            "Offer testing",
+            "Test free shipping and gift with purchase as separate variables",
+            "Identify purchase friction while protecting sustainable economics"
+          ],
+          [
+            "Controlled expansion",
+            "Introduce sweatpants at approximately $60 AOV",
+            "Extend validated learning into a higher-value adjacent product"
+          ]
+        ]
       },
       {
         kind: "p",
-        text: "This is why a lower-priced hero SKU can be a lead-in product without becoming the brand's permanent ceiling. Its job is to make the first purchase and the first round of learning easier. The next product should increase customer value without fragmenting the creator, content, inventory, and offer system that made the cold start work."
+        text: "The sweatpants were introduced only after the Cuban-shirt path was sufficiently established to support controlled expansion. This sequence allowed WE Marketing and ANANKECLO to apply the first product's creator, content, listing, and offer learning to a higher-value adjacent product without fragmenting the launch system."
       },
       {
         kind: "p",
-        text: "ANANKECLO was a WEM client. This case describes the operating sequence WEM used with the brand. It is not a promise that the same products, prices, or offers will produce the same result for another Fashion business."
+        text: "ANANKECLO was a WE Marketing client. The case illustrates an operating sequence, not a guarantee that the same products, prices, or offers will produce equivalent results for another Fashion brand."
       },
       {
         kind: "cta",
@@ -297,7 +309,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM's gate is straightforward: paid distribution should begin only when the product page, featured variants, price, shipping, inventory, tracking, and initial credible content pool are ready. GMV Max can help distribute and compare available content. It cannot correct a misleading size chart, a sold-out featured color, a weak product thesis, or an unsustainable return pattern."
+        text: "WE Marketing's launch gate is straightforward: paid distribution should begin only when the product page, featured variants, price, shipping, inventory, tracking, and initial credible content pool are ready. GMV Max can help distribute and compare available content. It cannot correct a misleading size chart, a sold-out featured color, a weak product thesis, or an unsustainable return pattern."
       },
       {
         kind: "p",
@@ -409,12 +421,12 @@ const POSTS = {
     ]
   },
   {
-    id: "how-wem-supports-fashion-cold-starts",
-    h: "How WEM supports Fashion cold starts",
+    id: "how-we-marketing-supports-fashion-cold-starts",
+    h: "How WE Marketing supports Fashion cold starts",
     body: [
       {
         kind: "p",
-        text: "WE Marketing is a TikTok Shop operating partner specializing in creator-community operations. WEM connects creator matching, affiliate setup, sample seeding, localized product pages, UGC and content testing, GMV Max coordination, and weekly performance reviews."
+        text: "WE Marketing is a TikTok Shop operating partner specializing in creator-community operations. WE Marketing connects creator matching, affiliate setup, sample seeding, localized product pages, UGC and content testing, GMV Max coordination, and weekly performance reviews."
       },
       {
         kind: "p",
@@ -422,11 +434,11 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM's active creator community can give a launch a warmer starting point, but community size does not replace fit. The operating advantage comes from matching the right product with the right creator context, following the sample through publication, and turning every result into the next commercial decision."
+        text: "WE Marketing's active creator community can give a launch a warmer starting point, but community size does not replace fit. The operating advantage comes from matching the right product with the right creator context, following the sample through publication, and turning every result into the next commercial decision."
       },
       {
         kind: "cta",
-        label: "Talk with WEM about a Fashion cold start →",
+        label: "Talk with WE Marketing about a Fashion cold start →",
         href: "https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925"
       }
     ]
@@ -441,7 +453,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "Platform features, recommendations, budgets, eligibility, attribution, and interfaces can change. Verify current settings in Seller Center and TikTok Ads Manager. WEM frameworks in this article are operating guidance, not TikTok rules, financial advice, or a guarantee of GMV, creator output, return rate, or profitability."
+        text: "Platform features, recommendations, budgets, eligibility, attribution, and interfaces can change. Verify current settings in Seller Center and TikTok Ads Manager. WE Marketing frameworks in this article are operating guidance, not TikTok rules, financial advice, or a guarantee of GMV, creator output, return rate, or profitability."
       }
     ]
   }
@@ -453,7 +465,7 @@ const POSTS = {
   },
   {
     q: "How many Fashion products should a brand test on TikTok Shop?",
-    a: "TikTok's Fashion guide recommends launching and testing three to seven products. WEM treats that as a quick screen, then concentrates the real launch on one to three hero SKUs so creator attention, samples, inventory, content, and paid learning are not fragmented."
+    a: "TikTok's Fashion guide recommends launching and testing three to seven products. WE Marketing treats that as a quick screen, then concentrates the real launch on one to three hero SKUs so creator attention, samples, inventory, content, and paid learning are not fragmented."
   },
   {
     q: "What makes a good TikTok Shop Fashion hero SKU?",
@@ -476,8 +488,8 @@ const POSTS = {
     a: "Track creator acceptance, samples delivered and posted, content by proof job, product clicks, conversion, order value, size and color demand, cancellations, returns and reasons, contribution margin, inventory coverage, and whether performance repeats across creators and content angles."
   },
   {
-    q: "How did WEM use a hero SKU in the ANANKECLO Fashion cold start?",
-    a: "WEM concentrated ANANKECLO's first launch cycle on a Cuban shirt with an average order value of about $35, tested offers including free shipping and gift with purchase, and expanded into sweatpants at about a $60 average order value after the first product path was working. The sequence shows how an accessible lead-in product can support learning before a brand adds a higher-value adjacent product."
+    q: "How did WE Marketing use a Hero SKU in the ANANKECLO Fashion cold start?",
+    a: "WE Marketing concentrated ANANKECLO's first launch cycle on a Cuban shirt with an average order value of approximately $35. The team tested free shipping and gift with purchase as separate offer variables, then introduced sweatpants at approximately $60 AOV after the initial creator, content, listing, and conversion path had been established."
   }
 ],
     related: [
@@ -522,8 +534,8 @@ const POSTS = {
       {
         kind: "infographic",
         src: "tiktok-shop-fashion-zero-to-one-loop-zh.svg",
-        alt: "WEM TikTok Shop 服装冷启动 0-1 运营闭环，连接选款、达人匹配、试穿证明、商品页、投放、库存退货和下一步决策",
-        caption: "WEM 运营框架：每一层都要让下一轮选款、达人、内容、库存和预算决定更清楚。"
+        alt: "WE Marketing TikTok Shop 服装冷启动 0-1 运营闭环，连接选款、达人匹配、试穿证明、商品页、投放、库存退货和下一步决策",
+        caption: "WE Marketing 运营框架：每一层都要让下一轮选款、达人、内容、库存和预算决定更清楚。"
       }
     ]
   },
@@ -537,7 +549,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "但真正进入冷启动 launch 后，不应该继续平均分配资源。WEM 建议把动作拆成三层："
+        text: "但真正进入冷启动 launch 后，不应该继续平均分配资源。WE Marketing 建议把动作拆成三层："
       },
       {
         kind: "table",
@@ -584,7 +596,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM 会从四个维度判断 Fashion creator fit："
+        text: "WE Marketing 会从四个维度判断 Fashion creator fit："
       },
       {
         kind: "list",
@@ -646,7 +658,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM 会把服装商品页当作一套 fit 与预期管理系统："
+        text: "WE Marketing 会把服装商品页当作一套 fit 与预期管理系统："
       },
       {
         kind: "table",
@@ -726,37 +738,49 @@ const POSTS = {
     ]
   },
   {
-    id: "zh-wem-案例-anankeclo-用约-35-美元的-cuban-shirt-做-lead-in-hero-",
-    h: "WEM 案例：ANANKECLO 用约 35 美元的 Cuban shirt 做 lead-in Hero SKU",
+    id: "zh-we-marketing-案例-anankeclo-从约-35-美元-cuban-shirt-扩展到约-60",
+    h: "WE Marketing 案例：ANANKECLO 从约 35 美元 Cuban shirt 扩展到约 60 美元 sweatpants",
     body: [
       {
         kind: "p",
-        text: "ANANKECLO 是 WEM 服务的男装 Fashion 冷启动案例。项目开始时，没有让达人和消费者从整个产品目录里自己选择。WEM 先把第一轮运营资源集中到 Cuban shirt，平均客单价约 35 美元，让达人邀约、试穿内容、商品页、库存和 Offer 测试都围绕同一个 Hero SKU 建立。"
+        text: "ANANKECLO 是 WE Marketing 服务的男装客户。项目没有将冷启动资源平均分配给完整产品目录，而是先以平均客单价约 35 美元的 Cuban shirt 作为首个 Hero SKU，将达人招募、试穿内容、商品页优化、库存规划和 Offer 测试集中到一条可衡量的启动路径。"
       },
       {
         kind: "p",
-        text: "Offer 也不是只设置一个长期折扣。WEM 测试了不同的首单推动方式，包括包邮和 gift with purchase。每一种 Offer 都需要回答不同问题：用户是不是被运费挡住？一个相关赠品能不能让购买体验更完整，同时不降低商品价值感？算上达人佣金、履约和后续测试后，这个 Offer 是否仍然可承受？"
+        text: "Offer 设计被作为受控的商业变量。包邮用于测试运费是否阻碍首单转化；gift with purchase 用于测试附加价值能否支持购买决策，而不是只依赖降价。每一种 Offer 都结合转化表现和 unit economics 评估，包括达人佣金、履约成本及后续测试空间。"
       },
       {
-        kind: "p",
-        text: "当 Cuban shirt 的路径跑通到足以支持受控扩展后，ANANKECLO 再加入客单价约 60 美元的 sweatpants。真正重要的不是“先卖 35 美元，再卖 60 美元”，而是这个顺序："
-      },
-      {
-        kind: "list",
-        items: [
-          "先用一个更容易完成首次购买的 Hero SKU，验证哪些达人、内容角度、商品页信息和 Offer 能带来真实订单。",
-          "让第一个商品继续工作，同时修复购买阻力，积累可用的达人和消费者信号。",
-          "等获客和转化路径更清楚后，再加入更高客单的关联商品。"
+        kind: "table",
+        headers: [
+          "阶段",
+          "商业决策",
+          "目标"
         ],
-        ordered: true
+        rows: [
+          [
+            "Hero SKU 验证",
+            "集中运营客单价约 35 美元的 Cuban shirt",
+            "建立可重复的达人、内容、商品页和转化路径"
+          ],
+          [
+            "Offer 测试",
+            "将包邮与 gift with purchase 作为独立变量测试",
+            "识别购买阻力，同时保护可持续利润"
+          ],
+          [
+            "受控扩展",
+            "加入客单价约 60 美元的 sweatpants",
+            "将已验证的学习延伸到更高客单的关联产品"
+          ]
+        ]
       },
       {
         kind: "p",
-        text: "所以，低价格 Hero SKU 可以是 lead-in product，但不需要成为品牌长期客单上限。它的任务是降低第一次购买和第一轮学习的难度。下一件商品要提高客户价值，同时不能重新打散已经建立的达人、内容、库存和 Offer 系统。"
+        text: "只有在 Cuban shirt 的启动路径足以支持受控扩展后，项目才加入 sweatpants。这一顺序使 WE Marketing 与 ANANKECLO 能够将首个产品积累的达人、内容、商品页和 Offer 学习应用到更高客单产品，同时避免重新分散冷启动系统。"
       },
       {
         kind: "p",
-        text: "ANANKECLO 是 WEM 客户。这个案例说明 WEM 与品牌实际使用的运营顺序，不代表其他 Fashion 品牌使用相同商品、价格或 Offer 就会得到相同结果。"
+        text: "ANANKECLO 是 WE Marketing 客户。该案例用于说明实际运营顺序，不代表其他 Fashion 品牌采用相同产品、价格或 Offer 会获得相同结果。"
       },
       {
         kind: "cta",
@@ -779,7 +803,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "WEM 的投放 gate 很明确：商品页、尺码和变体信息、Offer、主推库存、物流、tracking 和第一批可信内容准备好之后，再开始受控投放。GMV Max 可以帮助分发和比较内容，但不能修复错误的尺码表、售罄的主推颜色、模糊的产品定位或失控的退货。"
+        text: "WE Marketing 的投放 gate 很明确：商品页、尺码和变体信息、Offer、主推库存、物流、tracking 和第一批可信内容准备好之后，再开始受控投放。GMV Max 可以帮助分发和比较内容，但不能修复错误的尺码表、售罄的主推颜色、模糊的产品定位或失控的退货。"
       },
       {
         kind: "p",
@@ -891,24 +915,24 @@ const POSTS = {
     ]
   },
   {
-    id: "zh-wem-怎么帮助服装品牌做美国站冷启动",
-    h: "WEM 怎么帮助服装品牌做美国站冷启动",
+    id: "zh-we-marketing-怎么帮助服装品牌做美国站冷启动",
+    h: "WE Marketing 怎么帮助服装品牌做美国站冷启动",
     body: [
       {
         kind: "p",
-        text: "WE Marketing 是 TikTok Shop 运营合作伙伴，专注达人社群运营。WEM 会连接达人匹配、affiliate 设置、寄样、美国本地化商品页、UGC 和内容测试、GMV Max 协同与每周 performance review。"
+        text: "WE Marketing 是 TikTok Shop 运营合作伙伴，专注达人社群运营。WE Marketing 会连接达人匹配、affiliate 设置、寄样、美国本地化商品页、UGC 和内容测试、GMV Max 协同与每周 performance review。"
       },
       {
         kind: "p",
-        text: "对中国服装品牌和工厂来说，WEM 的作用不是把国内商品资料翻译成英文。团队需要把供应链优势转成美国消费者看得懂的产品证据：哪个款适合做 Hero SKU、哪些达人能覆盖真实风格和尺码语境、试穿内容要回答什么问题、商品页怎样降低选码错误、哪个变体应该补货，以及退货原因应该怎样改变下一轮选款和 brief。"
+        text: "对中国服装品牌和工厂来说，WE Marketing 的作用不是把国内商品资料翻译成英文。团队需要把供应链优势转成美国消费者看得懂的产品证据：哪个款适合做 Hero SKU、哪些达人能覆盖真实风格和尺码语境、试穿内容要回答什么问题、商品页怎样降低选码错误、哪个变体应该补货，以及退货原因应该怎样改变下一轮选款和 brief。"
       },
       {
         kind: "p",
-        text: "WEM 的活跃达人社群可以让冷启动拥有更温暖的起点，但社群规模不能替代匹配。真正的运营优势，是把正确商品放进正确达人语境，跟进样品到发布，并把每个结果转化成下一步商业决定。"
+        text: "WE Marketing 的活跃达人社群可以让冷启动拥有更温暖的起点，但社群规模不能替代匹配。真正的运营优势，是把正确商品放进正确达人语境，跟进样品到发布，并把每个结果转化成下一步商业决定。"
       },
       {
         kind: "cta",
-        label: "和 WEM 讨论服装品牌美国站冷启动 →",
+        label: "和 WE Marketing 讨论服装品牌美国站冷启动 →",
         href: "https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925"
       }
     ]
@@ -923,7 +947,7 @@ const POSTS = {
       },
       {
         kind: "p",
-        text: "平台功能、预算、权限、归因和界面可能变化，执行前应以 Seller Center、TikTok Ads Manager 和美国站当前信息为准。本文 WEM 框架属于运营方法，不是 TikTok 官方规则、财务建议或 GMV、达人发布、退货率与利润保证。"
+        text: "平台功能、预算、权限、归因和界面可能变化，执行前应以 Seller Center、TikTok Ads Manager 和美国站当前信息为准。本文 WE Marketing 框架属于运营方法，不是 TikTok 官方规则、财务建议或 GMV、达人发布、退货率与利润保证。"
       }
     ]
   }
@@ -935,7 +959,7 @@ const POSTS = {
   },
   {
     q: "服装品牌应该测试多少个商品？",
-    a: "TikTok Fashion guide 建议同时 launch 和 test 3–7 个商品。WEM 把它作为快速筛选，真正进入 launch 后集中 1–3 个 Hero SKU，避免达人注意力、样品、库存、内容和投放学习被平均打散。"
+    a: "TikTok Fashion guide 建议同时 launch 和 test 3–7 个商品。WE Marketing 把它作为快速筛选，真正进入 launch 后集中 1–3 个 Hero SKU，避免达人注意力、样品、库存、内容和投放学习被平均打散。"
   },
   {
     q: "什么样的服装适合做 TikTok Shop Hero SKU？",
@@ -958,8 +982,8 @@ const POSTS = {
     a: "要看达人接受率、寄样到发布、不同内容任务、商品点击、转化、客单价、尺码和颜色需求、取消、退货与原因、贡献利润、库存覆盖，以及结果能否在不同达人和内容角度中重复。"
   },
   {
-    q: "WEM 在 ANANKECLO 冷启动里怎么使用 Hero SKU？",
-    a: "WEM 先把 ANANKECLO 的第一轮资源集中到平均客单价约 35 美元的 Cuban shirt，测试包邮和 gift with purchase 等不同 Offer。第一个商品路径跑通后，再加入平均客单价约 60 美元的 sweatpants。这个顺序说明，品牌可以先用更容易完成首次购买的 lead-in product 学习，再受控扩展到更高客单的关联商品。"
+    q: "WE Marketing 在 ANANKECLO 冷启动中如何使用 Hero SKU？",
+    a: "WE Marketing 将 ANANKECLO 的第一轮资源集中到平均客单价约 35 美元的 Cuban shirt，并将包邮与 gift with purchase 作为独立 Offer 变量进行测试。在首个产品的达人、内容、商品页和转化路径建立后，项目再加入平均客单价约 60 美元的 sweatpants。"
   }
 ],
     related: [

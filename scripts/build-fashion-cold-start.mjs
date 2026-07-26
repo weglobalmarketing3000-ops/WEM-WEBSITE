@@ -137,24 +137,24 @@ const zh = parseArticle(zhText, '常见问题', 'zh');
 en.sections[0].body.push({
   kind: 'infographic',
   src: 'tiktok-shop-fashion-zero-to-one-loop.svg',
-  alt: 'WEM TikTok Shop Fashion zero-to-one cold-start loop connecting product screening, creator fit, try-on proof, product-page clarity, paid testing, inventory, returns, and the next decision',
-  caption: 'WEM operating framework: every launch layer should make the next product, creator, content, inventory, or spending decision clearer.',
+  alt: 'WE Marketing TikTok Shop Fashion zero-to-one cold-start loop connecting product screening, creator fit, try-on proof, product-page clarity, paid testing, inventory, returns, and the next decision',
+  caption: 'WE Marketing operating framework: every launch layer should make the next product, creator, content, inventory, or spending decision clearer.',
 });
 zh.sections[0].body.push({
   kind: 'infographic',
   src: 'tiktok-shop-fashion-zero-to-one-loop-zh.svg',
-  alt: 'WEM TikTok Shop 服装冷启动 0-1 运营闭环，连接选款、达人匹配、试穿证明、商品页、投放、库存退货和下一步决策',
-  caption: 'WEM 运营框架：每一层都要让下一轮选款、达人、内容、库存和预算决定更清楚。',
+  alt: 'WE Marketing TikTok Shop 服装冷启动 0-1 运营闭环，连接选款、达人匹配、试穿证明、商品页、投放、库存退货和下一步决策',
+  caption: 'WE Marketing 运营框架：每一层都要让下一轮选款、达人、内容、库存和预算决定更清楚。',
 });
 
 const findSection = (sections, phrase) => sections.find(s => s.h.toLowerCase().includes(phrase.toLowerCase()));
-const enWem = findSection(en.sections, 'How WEM supports');
-if (enWem) enWem.body.push({ kind: 'cta', label: 'Talk with WEM about a Fashion cold start →', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' });
-const enCase = findSection(en.sections, 'WEM case: ANANKECLO');
+const enWem = findSection(en.sections, 'How WE Marketing supports');
+if (enWem) enWem.body.push({ kind: 'cta', label: 'Talk with WE Marketing about a Fashion cold start →', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' });
+const enCase = findSection(en.sections, 'WE Marketing case study: ANANKECLO');
 if (enCase) enCase.body.push({ kind: 'cta', label: 'See the ANANKECLO Fashion cold-start case →', href: '/showcase.html#case-fashion-cold-start' });
-const zhWem = findSection(zh.sections, 'WEM 怎么帮助');
-if (zhWem) zhWem.body.push({ kind: 'cta', label: '和 WEM 讨论服装品牌美国站冷启动 →', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' });
-const zhCase = findSection(zh.sections, 'WEM 案例：ANANKECLO');
+const zhWem = findSection(zh.sections, 'WE Marketing 怎么帮助');
+if (zhWem) zhWem.body.push({ kind: 'cta', label: '和 WE Marketing 讨论服装品牌美国站冷启动 →', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' });
+const zhCase = findSection(zh.sections, 'WE Marketing 案例：ANANKECLO');
 if (zhCase) zhCase.body.push({ kind: 'cta', label: '查看 ANANKECLO 男装冷启动案例 →', href: '/showcase.html#case-fashion-cold-start' });
 
 const toJs = value => JSON.stringify(value, null, 2)
@@ -265,7 +265,7 @@ const html = `<!DOCTYPE html>
 <script src="/analytics.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TikTok Shop Fashion Cold Start: A 0-to-1 Launch System | WEM</title>
+<title>TikTok Shop Fashion Cold Start: A 0-to-1 Launch System | WE Marketing</title>
 <meta name="description" content="Launch a Fashion brand on TikTok Shop with a practical system for hero SKUs, creators, try-on content, size clarity, offers, GMV Max, inventory, returns, and weekly decisions.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="canonical" href="https://www.weglobalmarketing.com/blog/tiktok-shop-fashion-cold-start">
@@ -328,7 +328,7 @@ const html = `<!DOCTYPE html>
 <script src="../BlogPost.editorial.compiled.js?v=20260719-2"></script>
 <script src="../CtaFooter.compiled.js?v=20260623-mobile-layout"></script>
 <script src="../Footer.compiled.js?v=20260623-mobile-layout"></script>
-<script src="../blog_posts/tiktok-shop-fashion-cold-start.compiled.js?v=20260726-fashion-01"></script>
+<script src="../blog_posts/tiktok-shop-fashion-cold-start.compiled.js?v=20260726-fashion-02"></script>
 </body></html>`;
 fs.writeFileSync(path.join(root, 'ui_kits/website/blog/tiktok-shop-fashion-cold-start.html'), html);
 
