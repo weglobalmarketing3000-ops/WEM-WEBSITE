@@ -1,6 +1,14 @@
 // BlogList.jsx — single-post list (post 1 of 15, more coming)
 const BLOG_POSTS = [
   {
+    slug: 'tiktok-shop-beauty-cold-start',
+    cat: { en: 'TIKTOK SHOP U.S. · BEAUTY', zh: 'TIKTOK SHOP 美国站 · 美妆冷启动' },
+    title: { en: 'TikTok Shop Beauty Cold Start: Build a 0-to-1 Hero Product System', zh: 'TikTok Shop 美妆冷启动：从 Hero SKU 到可重复增长的 0-1 系统' },
+    excerpt: { en: 'Connect Hero SKUs, creator demonstrations, claims, product pages, offers, affiliate activation, GMV Max, inventory, and customer feedback before scaling a Beauty launch.', zh: '把 Hero SKU、达人演示、claim、商品页、Offer、Affiliate、GMV Max、库存和用户反馈连接成一套美妆冷启动系统。' },
+    date: { en: 'Jul 26, 2026', zh: '2026 年 7 月 26 日' }, read: { en: '16 min read', zh: '16 分钟阅读' },
+    image: 'hero-tiktok-shop-beauty-cold-start.png',
+  },
+  {
     slug: 'tiktok-shop-fashion-cold-start',
     cat: { en: 'TIKTOK SHOP U.S. · FASHION', zh: 'TIKTOK SHOP 美国站 · 服装冷启动' },
     title: { en: 'TikTok Shop Fashion Cold Start: Build a 0-to-1 Bestseller System', zh: 'TikTok Shop 服装冷启动：从选款到爆款的 0-1 运营系统' },
