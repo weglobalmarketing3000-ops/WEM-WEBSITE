@@ -2,7 +2,7 @@
 
 A Beauty cold start does not fail because the brand lacks enough products. It usually fails because the launch spreads creator attention, samples, content, offers, and paid budget before one product has established a credible proof path.
 
-> **Direct answer:** A TikTok Shop Beauty cold start is a controlled 0-to-1 test that connects hero-product selection, creator fit, product demonstration, claims and listing accuracy, offer economics, affiliate activation, GMV Max, inventory, fulfillment, and customer feedback. The first launch cycle should end with a decision to scale, repair, or stop.
+The better approach is a controlled 0-to-1 test: concentrate on a small Hero SKU set, match creators to the product's real use case, build credible demonstrations, and strengthen the listing and offer before increasing paid support. By the end of the first launch cycle, the team should have enough evidence to scale, repair one clear constraint, or stop.
 
 TikTok for Business recommends launching three to seven Beauty products, using early sales, engagement, and affiliate pick-up to identify winners. That is useful as a screening range. It is not a reason to give every product equal samples, content, inventory, and paid support.
 
@@ -22,7 +22,7 @@ A high-view Beauty video may still leave the purchase question unanswered. A vis
 
 ## Screen three to seven products, then concentrate on one to three Hero SKUs
 
-TikTok's Beauty cold-start PDF recommends launching three to seven products at once and using early results to identify the winners. WE Marketing separates that quick screen from the real launch:
+The TikTok for Business guide **Beauty | From Zero to Performer** uses three to seven products as an initial launch range and recommends using early results to identify winners. WE Marketing separates that quick screen from the real launch:
 
 | Stage | Product scope | Decision |
 |---|---|---|
@@ -30,7 +30,7 @@ TikTok's Beauty cold-start PDF recommends launching three to seven products at o
 | 0-to-1 launch | 1 to 3 Hero SKUs | Which product can support repeatable proof, clear positioning, workable economics, and reliable inventory? |
 | Controlled extension | Proven Hero SKU plus a routine, shade, refill, bundle, or adjacent product | Does the extension increase customer value without fragmenting content and inventory? |
 
-TikTok's PDF says less than 0.7% of Beauty hero products account for 62.8% of category GMV in Southeast Asia. That is a regional data point from the source, not a U.S. market benchmark. The practical lesson is concentration: a small number of proven products can deserve a disproportionate share of launch resources.
+The same TikTok for Business guide reports that less than 0.7% of Beauty Hero Products account for 62.8% of category GMV in Southeast Asia. That regional data should not be treated as a U.S. market benchmark. The practical lesson is concentration: a small number of proven products can deserve a disproportionate share of launch resources.
 
 A viable Beauty Hero SKU should be understandable on camera, relevant to a recognizable routine or problem, supported by accurate product evidence, safe and compliant for its intended use, and financially able to carry samples, affiliate commission, shipping, offers, and paid testing.
 
@@ -47,7 +47,7 @@ WE Marketing evaluates four Beauty creator-fit dimensions:
 
 Makeup often needs real application skill and presentation ability. Skincare and personal care usually need more trust, ingredient and usage clarity, and responsible expectations. A creator who performs well with an unrelated Beauty product is not automatically right for every formula, shade, tool, or claim environment.
 
-TikTok's PDF recommends a 10% to 15% base affiliate commission and distributing 400 to 500 samples over four months. Treat those numbers as source-specific planning inputs, not universal targets. A brand should not adopt that sample volume unless it can screen creators, fulfill samples, follow up, review content, support claims, and learn from the resulting signals.
+In its example operating plan, the TikTok for Business guide uses a 10% to 15% base affiliate commission and 400 to 500 samples over four months. Those figures are planning references, not universal targets. A brand should only work at that volume when it can screen creators, fulfill samples, follow up, review content, support claims, and turn the resulting signals into decisions.
 
 ## Give every Beauty video one clear proof job
 
@@ -85,7 +85,7 @@ The same policy prohibits unverified medical applications, incorrectly labeled c
 
 ## Use pricing, bundles, gifts, and free shipping as controlled variables
 
-TikTok's Beauty PDF recommends competitive pricing, value-driven bundles, and free shipping. Those tools can reduce first-order friction, but they should not be stacked without a commercial question.
+The TikTok for Business launch guide highlights competitive pricing, value-driven bundles, and free shipping as ways to reduce first-order friction. WE Marketing treats each one as a test variable, not a promotion stack to apply automatically.
 
 | Offer variable | Question it tests | Risk to monitor |
 |---|---|---|
@@ -99,7 +99,7 @@ The team should calculate contribution margin after product cost, discounts, aff
 
 ## Use GMV Max after the product and content path can be measured
 
-TikTok's PDF presents GMV Max as an all-in-one cold-start engine. Its example launch setup includes a minimum $500 weekly budget, three to seven products, at least five videos, Maximum Delivery bidding, and later creative and budget expansion. These are source-specific recommendations, not universal instructions for every Beauty brand.
+The TikTok for Business launch guide positions GMV Max as part of the cold-start engine. Its example setup includes a minimum $500 weekly budget, three to seven products, at least five videos, Maximum Delivery bidding, and later creative and budget expansion. These are example planning inputs, not universal instructions for every Beauty brand.
 
 TikTok for Business currently describes Product GMV Max as an automated TikTok Shop Ads solution that uses available creative assets and optimizes organic and paid delivery toward product-level GMV. Its current best-practice guidance also emphasizes sufficient budget, stable ROI settings, and the use of affiliate videos.
 
@@ -153,7 +153,7 @@ Primary source: TikTok for Business, **Beauty | From Zero to Performer** (https:
 
 Supporting sources: TikTok Shop Seller University, **Beauty and Personal Care Products Requirements** (https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=1789325403522858); TikTok for Business, **About Product GMV Max** (https://ads.tiktok.com/help/article/about-product-gmv-max?lang=en); **Best practices for Product GMV Max** (https://ads.tiktok.com/help/article/best-practices-for-product-gmv-max); and **About affiliate creatives for TikTok Shop Ads** (https://ads.tiktok.com/help/article/about-affiliate-creatives-for-tiktok-shop-ads).
 
-The Beauty PDF's 0.7% and 62.8% concentration figures are labeled for Southeast Asia, not the United States. Platform features, budgets, commission examples, sample guidance, eligibility, attribution, and interfaces can change. Verify current Seller Center, TikTok Ads Manager, product documentation, and professional compliance guidance before execution. WE Marketing frameworks in this article are operating guidance, not TikTok rules or a guarantee of sales, creator output, approval, or profitability.
+The 0.7% and 62.8% concentration figures in **Beauty | From Zero to Performer** are labeled for Southeast Asia, not the United States. Platform features, budgets, commission examples, sample guidance, eligibility, attribution, and interfaces can change. Verify current Seller Center, TikTok Ads Manager, product documentation, and professional compliance guidance before execution. WE Marketing frameworks in this article are operating guidance, not TikTok rules or a guarantee of sales, creator output, approval, or profitability.
 
 ## Frequently asked questions
 
@@ -163,7 +163,7 @@ A TikTok Shop Beauty cold start is a controlled 0-to-1 test connecting Hero SKU 
 
 ### How many Beauty products should a brand launch on TikTok Shop?
 
-TikTok's Beauty cold-start PDF recommends launching three to seven products. WE Marketing treats that as a screening range, then concentrates the real launch on one to three Hero SKUs so samples, creators, content, inventory, and paid learning are not fragmented.
+The TikTok for Business guide **Beauty | From Zero to Performer** uses three to seven products as an initial range. WE Marketing treats that as a screening stage, then concentrates the real launch on one to three Hero SKUs so samples, creators, content, inventory, and paid learning are not fragmented.
 
 ### What makes a good TikTok Shop Beauty Hero SKU?
 
@@ -175,7 +175,7 @@ Evaluate product affinity, audience fit, demonstration ability, and working reli
 
 ### How many samples should a Beauty brand send?
 
-TikTok's PDF recommends 400 to 500 samples over four months, but this is not a universal quota. Sample volume should match the brand's creator-screening quality, follow-up capacity, product margin, inventory, compliance support, and ability to learn from the resulting content.
+The example plan in **Beauty | From Zero to Performer** uses 400 to 500 samples over four months, but this is not a universal quota. Sample volume should match the brand's creator-screening quality, follow-up capacity, product margin, inventory, compliance support, and ability to learn from the resulting content.
 
 ### When should a Beauty brand start GMV Max?
 
@@ -195,7 +195,7 @@ Yes. Claims and labels affect product eligibility, creator guidance, shopper tru
 
 美妆冷启动跑不出来，通常不是因为品牌产品不够多，而是还没有验证一个产品的可信购买路径，就提前把达人、样品、内容、Offer 和投放预算分散到整个产品目录。
 
-> **直接答案：** TikTok Shop 美妆冷启动是一段受控的 0-1 产品验证期。品牌需要把 Hero SKU、达人匹配、产品演示、claim 与商品页准确性、Offer 经济模型、Affiliate、GMV Max、库存、履约和用户反馈连接起来，并在第一轮结束时明确决定 Scale、Repair 或 Stop。
+更有效的做法，是把冷启动当作一段受控的 0-1 验证期：集中少量 Hero SKU，把达人匹配到真实使用场景，先建立可信的产品演示、商品页和 Offer，再逐步增加投放支持。第一轮结束时，团队应该有足够证据决定 Scale、Repair 一个明确问题，或者 Stop。
 
 TikTok for Business 建议 Beauty 品牌同时 launch 3-7 个产品，并根据早期销售、engagement 和 affiliate pick-up 判断 winner。这个数量更适合做快速筛选，不代表每个商品都应该获得相同的寄样、内容、库存和投放资源。
 
@@ -215,7 +215,7 @@ Beauty 不是一种内容任务。Makeup、skincare、hair care、body care、fr
 
 ## 先筛选 3-7 个产品，再集中 1-3 个 Hero SKU
 
-TikTok Beauty cold-start PDF 建议同时上线 3-7 个产品，用早期结果判断 winner。WE Marketing 会把 quick screen 和真正的 launch 分开：
+TikTok for Business 的 **Beauty | From Zero to Performer** 指南把 3-7 个产品作为初始 launch 范围，并建议用早期结果识别 winner。WE Marketing 会把 quick screen 和真正的 launch 分开：
 
 | 阶段 | 产品范围 | 需要做出的决定 |
 |---|---|---|
@@ -223,7 +223,7 @@ TikTok Beauty cold-start PDF 建议同时上线 3-7 个产品，用早期结果�
 | 0-1 launch | 1-3 个 Hero SKU | 哪个产品可以建立可重复的产品证明、清晰定位、可承受利润和稳定库存？ |
 | 受控扩展 | 已验证 Hero SKU 加 routine、色号、refill、bundle 或关联产品 | 扩展能否提高客户价值，同时不打散内容和库存？ |
 
-TikTok PDF 提到，在东南亚市场，不到 0.7% 的 Beauty hero products 贡献了 62.8% 的类目 GMV。这是来源中的区域数据，不是美国站 benchmark。对运营更有用的结论是资源集中：少数已经验证的商品，可能值得获得更大比例的达人、内容、库存和预算。
+同一份 TikTok for Business 指南提到，在东南亚市场，不到 0.7% 的 Beauty Hero Products 贡献了 62.8% 的类目 GMV。这是区域数据，不是美国站 benchmark。对运营更有用的结论是资源集中：少数已经验证的商品，可能值得获得更大比例的达人、内容、库存和预算。
 
 一个可用的 Beauty Hero SKU 应该能在镜头里被快速理解，属于清晰的 routine 或使用问题，有准确证据支持，符合预期用途和当前要求，并且利润可以承担样品、达人佣金、运费、Offer 和受控投放。
 
@@ -240,7 +240,7 @@ WE Marketing 会从四个维度判断 Beauty creator fit：
 
 Makeup 往往需要真实上妆能力和镜头呈现。Skincare 和 personal care 通常更依赖信任、成分与用法清晰度，以及合理预期。一个达人卖过其他 Beauty 产品，不代表他一定适合所有 formula、shade、tool 或 claim 环境。
 
-TikTok PDF 建议设置 10%-15% base affiliate commission，并在四个月内寄出 400-500 份样品。这些数字应该被视为来源中的 planning input，不是所有品牌必须完成的 KPI。只有当团队能够筛选达人、履约寄样、持续 follow-up、审核内容、支持 claim 和读取信号时，这个样品规模才有意义。
+在示例运营计划中，TikTok for Business 指南采用 10%-15% base affiliate commission，并在四个月内寄出 400-500 份样品。这些数字是 planning reference，不是所有品牌必须完成的 KPI。只有当团队能够筛选达人、履约寄样、持续 follow-up、审核内容、支持 claim，并把信号转化为下一步决定时，这个样品规模才有意义。
 
 ## 每条 Beauty 内容都要承担一个明确的证明任务
 
@@ -278,7 +278,7 @@ TikTok Shop 当前美国站 Beauty and Personal Care Products Requirements 说�
 
 ## 把价格、bundle、赠品和包邮当作受控变量
 
-TikTok Beauty PDF 建议 competitive pricing、value-driven bundles 和 free shipping。这些工具可以降低首单阻力，但不应该在没有商业问题的情况下全部叠加。
+TikTok for Business 的 launch guide 把 competitive pricing、value-driven bundles 和 free shipping 作为降低首单阻力的方式。WE Marketing 会把它们分别作为测试变量，而不是默认全部叠加。
 
 | Offer 变量 | 要测试的问题 | 需要监控的风险 |
 |---|---|---|
@@ -292,7 +292,7 @@ TikTok Beauty PDF 建议 competitive pricing、value-driven bundles 和 free shi
 
 ## 产品和内容路径可衡量后，再使用 GMV Max
 
-TikTok PDF 把 GMV Max 定义为 all-in-one cold-start engine。它的示例 launch setup 包括每周至少 500 美元预算、3-7 个产品、至少 5 条视频、Maximum Delivery bidding，以及后续增加 creative 和预算。这些是来源建议，不是所有 Beauty 品牌都要照搬的固定指令。
+TikTok for Business 的 launch guide 把 GMV Max 放在 cold-start engine 中。示例 launch setup 包括每周至少 500 美元预算、3-7 个产品、至少 5 条视频、Maximum Delivery bidding，以及后续增加 creative 和预算。这些是 planning reference，不是所有 Beauty 品牌都要照搬的固定指令。
 
 TikTok for Business 当前将 Product GMV Max 定义为 TikTok Shop Ads 自动化解决方案，使用可用 creative assets，并共同优化 organic 和 paid delivery。当前 best-practice guidance 还强调充分预算、稳定 ROI settings 和 affiliate videos。
 
@@ -346,7 +346,7 @@ WE Marketing 的活跃达人社群可以让 Beauty 冷启动有更温暖的起�
 
 辅助来源：TikTok Shop Seller University，**Beauty and Personal Care Products Requirements**（https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=1789325403522858）；TikTok for Business，**About Product GMV Max**（https://ads.tiktok.com/help/article/about-product-gmv-max?lang=en）、**Best practices for Product GMV Max**（https://ads.tiktok.com/help/article/best-practices-for-product-gmv-max）和 **About affiliate creatives for TikTok Shop Ads**（https://ads.tiktok.com/help/article/about-affiliate-creatives-for-tiktok-shop-ads）。
 
-Beauty PDF 中 0.7% 和 62.8% 的集中度数据标注为东南亚，不是美国市场数据。平台功能、预算、佣金示例、样品建议、eligibility、attribution 和界面可能变化。执行前应核对 Seller Center、TikTok Ads Manager、产品材料和专业合规建议。本文 WE Marketing 框架属于运营方法，不是 TikTok 官方规则，也不承诺销售、达人发布、审批或利润结果。
+**Beauty | From Zero to Performer** 中 0.7% 和 62.8% 的集中度数据标注为东南亚，不是美国市场数据。平台功能、预算、佣金示例、样品建议、eligibility、attribution 和界面可能变化。执行前应核对 Seller Center、TikTok Ads Manager、产品材料和专业合规建议。本文 WE Marketing 框架属于运营方法，不是 TikTok 官方规则，也不承诺销售、达人发布、审批或利润结果。
 
 ## 常见问题
 
@@ -356,7 +356,7 @@ TikTok Shop Beauty 冷启动是一段受控的 0-1 测试，把 Hero SKU、达�
 
 ### Beauty 品牌应该同时上线多少个产品？
 
-TikTok Beauty cold-start PDF 建议同时 launch 3-7 个产品。WE Marketing 把它作为快速筛选范围，真正进入 launch 后集中 1-3 个 Hero SKU，避免样品、达人、内容、库存和投放学习被打散。
+TikTok for Business 的 **Beauty | From Zero to Performer** 指南把 3-7 个产品作为初始 launch 范围。WE Marketing 把它作为快速筛选阶段，真正进入 launch 后集中 1-3 个 Hero SKU，避免样品、达人、内容、库存和投放学习被打散。
 
 ### 什么样的 Beauty 产品适合做 Hero SKU？
 
@@ -368,7 +368,7 @@ TikTok Beauty cold-start PDF 建议同时 launch 3-7 个产品。WE Marketing �
 
 ### Beauty 品牌应该寄多少样品？
 
-TikTok PDF 建议四个月寄出 400-500 份样品，但这不是通用 KPI。寄样规模应该匹配品牌的达人筛选、follow-up、产品利润、库存、合规支持，以及从内容中读取和应用学习的能力。
+**Beauty | From Zero to Performer** 的示例计划采用四个月寄出 400-500 份样品，但这不是通用 KPI。寄样规模应该匹配品牌的达人筛选、follow-up、产品利润、库存、合规支持，以及从内容中读取和应用学习的能力。
 
 ### Beauty 品牌什么时候开始 GMV Max？
 

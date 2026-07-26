@@ -178,7 +178,7 @@ const POSTS = {
       date: 'Jul 26, 2026',
       read: '16 min read',
       heroImage: 'hero-tiktok-shop-beauty-cold-start.png',
-      heroAlt: 'Unbranded Beauty Hero SKU and creator demonstration arranged as a TikTok Shop zero-to-one cold-start system',
+      heroAlt: 'Beauty Cold Start 0 to 1 framework with an unbranded serum Hero SKU, supporting products, creator content, and growth icons',
     },
     sections: ${toJs(en.sections)},
     faqs: ${toJs(en.faqs)},
@@ -197,7 +197,7 @@ const POSTS = {
       date: '2026 年 7 月 26 日',
       read: '16 分钟阅读',
       heroImage: 'hero-tiktok-shop-beauty-cold-start.png',
-      heroAlt: '无品牌 Beauty Hero SKU 和达人演示组成的 TikTok Shop 0-1 冷启动系统',
+      heroAlt: 'Beauty Cold Start 0-1 框架，包含无品牌 serum Hero SKU、辅助产品、达人内容和增长图标',
     },
     sections: ${toJs(zh.sections)},
     faqs: ${toJs(zh.faqs)},
@@ -272,7 +272,7 @@ const html = `<!DOCTYPE html>
 <meta property="og:description" content="Connect Hero SKUs, creator demonstrations, claims, product pages, offers, GMV Max, inventory, customer feedback, and weekly decisions.">
 <meta property="og:image" content="https://www.weglobalmarketing.com/blog/hero-tiktok-shop-beauty-cold-start.png">
 <meta property="og:image:width" content="1672"><meta property="og:image:height" content="941">
-<meta property="og:image:alt" content="Unbranded Beauty Hero SKU and creator demonstration arranged for a TikTok Shop zero-to-one cold-start test">
+<meta property="og:image:alt" content="Beauty Cold Start 0 to 1 framework with an unbranded serum Hero SKU, supporting products, creator content, and growth icons">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.weglobalmarketing.com/blog/tiktok-shop-beauty-cold-start">
 <meta name="twitter:card" content="summary_large_image">
@@ -316,7 +316,7 @@ const html = `<!DOCTYPE html>
   <p>WE Marketing · TikTok Shop U.S. · Beauty</p>
   <h1>TikTok Shop Beauty Cold Start: Build a 0-to-1 Hero Product System</h1>
   <p>By the WE Marketing Team · Published July 26, 2026</p>
-  <img src="/blog/hero-tiktok-shop-beauty-cold-start.png" alt="Unbranded Beauty Hero SKU and creator demonstration arranged for a TikTok Shop zero-to-one cold-start test" width="1672" height="941" style="width:100%;height:auto">
+  <img src="/blog/hero-tiktok-shop-beauty-cold-start.png" alt="Beauty Cold Start 0 to 1 framework with an unbranded serum Hero SKU, supporting products, creator content, and growth icons" width="1672" height="941" style="width:100%;height:auto">
   ${staticBody}
   <section><h2>Frequently asked questions</h2>${en.faqs.map(x => `<h3>${esc(x.q)}</h3><p>${esc(x.a)}</p>`).join('')}</section>
 </article>
