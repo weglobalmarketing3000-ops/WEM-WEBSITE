@@ -1,0 +1,772 @@
+{
+  "checked": 45,
+  "retries": 7,
+  "bad": [],
+  "results": [
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Which Products Actually Belong in TikTok Shop Open Collaboration?",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "哪些商品真正适合放进 TikTok Shop Open Collaboration？",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "How to Change TikTok Shop Affiliate Commission Without Breaking Creator Trust",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "如何调整 TikTok Shop 联盟佣金，又不破坏达人信任",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "How to Measure a TikTok Shop Partner After You Hire Them",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "合作之后，如何评估 TikTok Shop Partner 或 Agency 是否有效？",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "How to Grow While Your TikTok Shop Is Still in Probation",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop 新店考察期内，品牌应该怎么增长？",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "The Weekly TikTok Shop Operating Review",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "每周 TikTok Shop 运营复盘：看什么指标、谁负责、做什么决定",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop LIVE 0-1: Why Your First Five Sessions Are a Learning System",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop LIVE 从 0 到 1：前 5 场如何跑通增长模型",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-live-preheat-system",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "The TikTok Shop LIVE Preheat System: Build Demand Before You Go Live",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-live-preheat-system",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop LIVE 预热系统：开播前如何建立进房理由",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Where TikTok Shop Seller Assistant Should Act, Recommend or Stop",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop Seller Assistant 哪些能自动做、哪些必须人工确认",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "validate-tiktok-shop-ai-report",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Validate a TikTok Shop AI Report Before You Make a Growth Decision",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "validate-tiktok-shop-ai-report",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop AI Report 怎么验证：先核对口径，再做增长决策",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Can You Say Organic, Non-GMO, Eco-Friendly or Made in USA on TikTok Shop?",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop 商品文案哪些词不能随便写：受监管声明审核系统",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "The First 24 Hours After a TikTok Shop Violation",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "收到 TikTok Shop 违规后的第一天：通知、Ticket、倒计时与应急分工",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Correct or Appeal a TikTok Shop Violation? Choose by Facts, Evidence and Deadline",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop 违规应该整改还是申诉：按事实、证据与时限判断",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop Policy Quiz vs. Milestone Quiz: Recover Points or Shorten Enforcement?",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop Policy Quiz 和 Milestone Quiz：恢复积分还是缩短处罚？",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "A 0–90 Day TikTok Shop AI Operating System for New Sellers",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop 新卖家前 90 天：如何用 AI 完成设置、上架与早期优化",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-live-assortment",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Build a TikTok Shop LIVE Assortment That Protects Margin and Inventory",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-card wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "desktop",
+      "slug": "tiktok-shop-live-assortment",
+      "requestedLang": "zh",
+      "articleLang": "zh-CN",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop LIVE 货盘运营：管住库存、毛利、上下架与复盘",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-card wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "来源说明"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Which Products Actually Belong in TikTok Shop Open Collaboration?",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "How to Change TikTok Shop Affiliate Commission Without Breaking Creator Trust",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "How to Measure a TikTok Shop Partner After You Hire Them",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "How to Grow While Your TikTok Shop Is Still in Probation",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "The Weekly TikTok Shop Operating Review",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop LIVE 0-1: Why Your First Five Sessions Are a Learning System",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-live-preheat-system",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "The TikTok Shop LIVE Preheat System: Build Demand Before You Go Live",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Where TikTok Shop Seller Assistant Should Act, Recommend or Stop",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "validate-tiktok-shop-ai-report",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Validate a TikTok Shop AI Report Before You Make a Growth Decision",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Can You Say Organic, Non-GMO, Eco-Friendly or Made in USA on TikTok Shop?",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "The First 24 Hours After a TikTok Shop Violation",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Correct or Appeal a TikTok Shop Violation? Choose by Facts, Evidence and Deadline",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "TikTok Shop Policy Quiz vs. Milestone Quiz: Recover Points or Shorten Enforcement?",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "A 0–90 Day TikTok Shop AI Operating System for New Sellers",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    },
+    {
+      "size": "mobile",
+      "slug": "tiktok-shop-live-assortment",
+      "requestedLang": "en",
+      "articleLang": "en",
+      "broken": [],
+      "cta": true,
+      "footer": true,
+      "h1": "Build a TikTok Shop LIVE Assortment That Protects Margin and Inventory",
+      "heroCopy": 0,
+      "overflow": 0,
+      "source": {
+        "container": "wem-source-card wem-source-notes",
+        "font": "Arial, Helvetica, sans-serif",
+        "text": "Source notes"
+      }
+    }
+  ]
+}
