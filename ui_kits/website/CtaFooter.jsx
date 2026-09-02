@@ -3,6 +3,7 @@ const CtaFooter = ({ lang }) => {
   const t = {
     en: { h: "Ready to scale\non TikTok?", sub: "Tell us your brand, your stack, your ambition. We'll reply in 24 hours.", cta: 'Book a discovery call →', alt: 'Email us instead', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' },
     zh: { h: '想把美国\nTikTok Shop 跑起来？', sub: '告诉我们你的产品、目标市场和现在卡在哪。我们会在 24 小时内回复，直接给下一步建议。', cta: '预约咨询', alt: '邮件联系', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' },
+    ko: { h: 'TikTok에서\n성장할 준비가 되셨나요?', sub: '브랜드와 현재 운영 환경, 이루고 싶은 목표를 알려주세요. 24시간 이내에 답변드리겠습니다.', cta: '상담 예약하기 →', alt: '이메일로 문의하기', href: 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925' },
   }[lang];
   return (
     <section id="About" style={ctaStyles.wrap} className="cta-footer-wrap">

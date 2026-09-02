@@ -22,6 +22,17 @@ const AboutHero = ({ lang }) => {
       badge2: '英西中沟通 · 美国本地执行 · 多语种达人覆盖',
       cta1: '预约咨询',
       cta2: '查看案例'
+    },
+    ko: {
+      pill: 'WE MARKETING 소개',
+      h1a: 'TikTok Shop을 브랜드의',
+      h1accent: '매출 성장 엔진으로',
+      h1b: '바꿉니다.',
+      sub: 'WE Marketing은 성과 중심의 TikTok Shop 파트너 에이전시입니다. 숍 전략, 크리에이터, 콘텐츠, 라이브 운영을 하나의 성장 시스템으로 연결합니다.',
+      badge1: 'TIKTOK SHOP PARTNER AGENCY · 2025년부터 인증',
+      badge2: '영어 · 스페인어 · 중국어 지원',
+      cta1: '상담 예약하기 →',
+      cta2: '성과 사례 보기'
     }
   }[lang];
   return (

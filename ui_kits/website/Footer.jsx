@@ -1,8 +1,11 @@
 // Footer.jsx, dark
 const Footer = ({ lang, basePath = '' }) => {
   const b = basePath;
-  const home = b || './index.html';
-  const page = (path) => `${b}${path}`;
+  const isKo = lang === 'ko';
+  const home = isKo ? '../index.html' : (b || './index.html');
+  const page = (path) => isKo
+    ? (path === 'about.html' || path === 'privacy.html' ? `./${path}` : `../${path}`)
+    : `${b}${path}`;
   const linkedIn = (
     <a href="https://www.linkedin.com/company/we-marketingtsp" target="_blank" rel="noopener" aria-label="WE Marketing LinkedIn" style={fStyles.socialLink}>
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" style={{ display: 'block' }}>
@@ -27,6 +30,15 @@ const Footer = ({ lang, basePath = '' }) => {
         ['服务', [['全案代运营', page('services.html#full-service-management')], ['美国冷启动', page('services.html#cold-start')], ['策略咨询', page('services.html#consulting')], ['达人联盟', page('services.html#affiliate-management')], ['UGC 内容', page('services.html#ugc-content')], ['达人匹配', page('services.html#creator-matchmaking')], ['达人直播带货', page('services.html#creator-live')], ['短视频拍摄', page('services.html#content-performance')]]],
         ['公司', [['关于', page('about.html')], ['案例', page('showcase.html')], ['博客', page('blog.html')], ['隐私政策', page('privacy.html')], ['联系', home + '#Contact']]],
         ['联系方式', [['wendy@weglobalmarketing.com','mailto:wendy@weglobalmarketing.com'], ['(626) 600-0360','tel:+16266000360']]],
+      ],
+    },
+    ko: {
+      tag: 'WE Marketing은 크리에이터 어필리에이트, UGC 콘텐츠, 라이브 판매, 숍 운영을 통해 브랜드의 성장을 돕는 미국 TikTok Shop 파트너 에이전시입니다.',
+      rights: '© 2026 WE Marketing · 모든 권리 보유',
+      cols: [
+        ['서비스', [['통합 운영', page('services.html#full-service-management')], ['콜드 스타트', page('services.html#cold-start')], ['컨설팅', page('services.html#consulting')], ['크리에이터 어필리에이트', page('services.html#affiliate-management')], ['UGC 콘텐츠', page('services.html#ugc-content')], ['크리에이터 매칭', page('services.html#creator-matchmaking')], ['크리에이터 라이브 판매', page('services.html#creator-live')], ['숏폼 영상 제작', page('services.html#content-performance')]]],
+        ['회사', [['회사 소개', page('about.html')], ['성과 사례', page('showcase.html')], ['블로그', page('blog.html')], ['개인정보 처리방침', page('privacy.html')], ['문의', home + '#Contact']]],
+        ['연락처', [['wendy@weglobalmarketing.com','mailto:wendy@weglobalmarketing.com'], ['(626) 600-0360','tel:+16266000360']]],
       ],
     },
   }[lang];

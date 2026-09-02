@@ -1,6 +1,7 @@
 // NavBar.jsx, sticky top nav (dark)
 const WEM_LANG_VERSION = '20260528-default-en';
 window.getWemInitialLang = () => {
+  if (document.documentElement.lang === 'ko-KR') return 'ko';
   const urlLang = new URLSearchParams(window.location.search).get('lang');
   if (urlLang === 'zh' || urlLang === 'en') return urlLang;
   if (localStorage.getItem('we-lang-version') !== WEM_LANG_VERSION) {
@@ -8,7 +9,8 @@ window.getWemInitialLang = () => {
     localStorage.setItem('we-lang-version', WEM_LANG_VERSION);
     return 'en';
   }
-  return localStorage.getItem('we-lang') || 'en';
+  const savedLang = localStorage.getItem('we-lang');
+  return savedLang === 'ko' ? 'en' : (savedLang || 'en');
 };
 window.persistWemLang = (lang) => {
   localStorage.setItem('we-lang', lang);
@@ -17,12 +19,14 @@ window.persistWemLang = (lang) => {
 const NavBar = ({ lang, onLang, basePath = '' }) => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const b = basePath;
-  const home = b || './index.html';
-  const page = (path) => `${b}${path}`;
+  const isKo = lang === 'ko';
+  const home = isKo ? '../index.html' : (b || './index.html');
+  const page = (path) => isKo ? (path === 'about.html' ? './about.html' : `../${path}`) : `${b}${path}`;
   const appointment = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
   const t = {
     en: { nav: [['Our Services', page('services.html')], ['UGC Content', page('services/creator-content.html')], ['Our Work', page('showcase.html')], ['Creator Affiliate', page('affiliate.html')], ['About Us', page('about.html')], ['Blog', page('blog.html')]], cta: 'Book a call →' },
     zh: { nav: [['服务', page('services.html')], ['UGC 内容', page('services/creator-content.html')], ['案例', page('showcase.html')], ['达人联盟', page('affiliate.html')], ['关于我们', page('about.html')], ['博客', page('blog.html')]], cta: '预约咨询' },
+    ko: { nav: [['서비스', page('services.html')], ['UGC 콘텐츠', page('services/creator-content.html')], ['성과 사례', page('showcase.html')], ['크리에이터 어필리에이트', page('affiliate.html')], ['회사 소개', page('about.html')], ['블로그', page('blog.html')]], cta: '상담 예약 →' },
   }[lang];
   return (
     <nav style={navStyles.wrap} className="wem-nav">
@@ -61,9 +65,19 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
           {t.nav.map(([label, href], i) => <a key={i} href={href} style={navStyles.link}>{label}</a>)}
         </div>
         <div style={navStyles.right}>
-          <button style={navStyles.langBtn} onClick={() => onLang(lang === 'en' ? 'zh' : 'en')}>
-            {lang === 'en' ? '中' : 'EN'}
-          </button>
+          {lang === 'ko' ? (
+            <div style={navStyles.routeLang} aria-label="Language">
+              <a href="/about" style={navStyles.routeLangLink}>English</a>
+              <span aria-hidden="true"> / </span>
+              <a href="/about?lang=zh" style={navStyles.routeLangLink}>简体中文</a>
+              <span aria-hidden="true"> / </span>
+              <a href="/ko/about" style={navStyles.routeLangCurrent} aria-current="page">한국어</a>
+            </div>
+          ) : (
+            <button style={navStyles.langBtn} onClick={() => onLang(lang === 'en' ? 'zh' : 'en')}>
+              {lang === 'en' ? '中' : 'EN'}
+            </button>
+          )}
           <button
             type="button"
             className="wem-nav-menu-button"
@@ -106,6 +120,9 @@ const navStyles = {
   link: { fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 600, color: '#fff', textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '.04em' },
   right: { display: 'flex', alignItems: 'center', gap: 12 },
   langBtn: { width: 36, height: 36, borderRadius: 999, border: '1.5px solid rgba(255,255,255,.3)', background: 'transparent', fontFamily: 'var(--font-mono)', fontWeight: 700, fontSize: 12, cursor: 'pointer', color: '#fff' },
+  routeLang: { display: 'flex', alignItems: 'center', gap: 0, whiteSpace: 'nowrap', fontFamily: 'var(--font-sans)', fontWeight: 650, fontSize: 11, color: 'rgba(255,255,255,.45)' },
+  routeLangLink: { color: 'rgba(255,255,255,.72)', textDecoration: 'none' },
+  routeLangCurrent: { color: '#fff', textDecoration: 'none' },
   menuButton: { width: 40, height: 40, borderRadius: 999, border: '1.5px solid rgba(255,255,255,.24)', background: 'rgba(255,255,255,.06)', color: '#fff', cursor: 'pointer', placeItems: 'center', alignContent: 'center', gap: 4, padding: 0 },
   menuLine: { display: 'block', width: 17, height: 2, borderRadius: 999, background: '#fff', transition: 'transform .2s ease, opacity .2s ease' },
   mobileMenu: { display: 'none' },

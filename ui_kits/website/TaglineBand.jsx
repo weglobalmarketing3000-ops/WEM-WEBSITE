@@ -4,30 +4,37 @@ const TaglineBand = ({ lang, variant = 'home' }) => {
     home: {
       en: 'CREATE · CONNECT · CONVERT · ',
       zh: '种草 · 出单 · 增长 · ',
+      ko: '만들고 · 연결하고 · 전환하다 · ',
     },
     services: {
       en: 'STRATEGY · CREATORS · CONTENT · LIVE · SCALE · ',
       zh: '策略 · 达人 · 内容 · 直播 · 放量 · ',
+      ko: '전략 · 크리에이터 · 콘텐츠 · 라이브 · 성장 · ',
     },
     work: {
       en: 'REAL CASES · REAL SIGNALS · REAL GMV · ',
       zh: '真实案例 · 真实信号 · 真实增长 · ',
+      ko: '실제 사례 · 실제 신호 · 실제 GMV · ',
     },
     affiliate: {
       en: 'SAMPLES · COMMISSION · COMMUNITY · TRAINING · ',
       zh: '寄样 · 佣金 · 社群 · 内容指导 · ',
+      ko: '샘플 · 커미션 · 커뮤니티 · 교육 · ',
     },
     about: {
       en: 'BUILT IN THE U.S. · CONNECTED TO CREATORS · MADE FOR BRANDS · ',
       zh: '美国本地团队 · 连接达人 · 服务品牌 · ',
+      ko: '미국 현지 팀 · 크리에이터와 연결 · 브랜드를 위한 실행 · ',
     },
     blog: {
       en: 'PLAYBOOKS · FIELD NOTES · TIKTOK SHOP STRATEGY · ',
       zh: '实战手册 · 一线笔记 · TIKTOK SHOP 策略 · ',
+      ko: '플레이북 · 현장 노트 · TIKTOK SHOP 전략 · ',
     },
     ugc: {
       en: 'CREATOR CONTENT · AD CREATIVE · USAGE RIGHTS · ',
       zh: '达人内容 · 广告素材 · 完整使用权 · ',
+      ko: '크리에이터 콘텐츠 · 광고 크리에이티브 · 사용 권리 · ',
     },
   };
   const phrase = (phrases[variant] || phrases.home)[lang] || phrases.home.en;
