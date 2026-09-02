@@ -49,6 +49,13 @@ const Hero = ({ lang }) => {
       cta1: '预约咨询', cta2: '查看案例',
       stats: [[8000,'+','达人社群'],[24000,'+','筛选达人'],[160,'+','服务品牌'],[15,'M+','年管理销售额']],
     },
+    ko: {
+      pill: '풀서비스 TIKTOK SHOP 파트너 에이전시',
+      h1a: '브랜드의 TikTok 성장을', h1accent: '실행으로 ', h1b: '만듭니다.',
+      sub: '콜드 스타트부터 지속 가능한 GMV까지. 크리에이터, 콘텐츠, 라이브와 숍 운영을 한 팀이 연결합니다. 160+ 브랜드, 연간 관리 매출 $15M+.',
+      cta1: '상담 예약하기 →', cta2: '성과 사례 보기',
+      stats: [[8000,'+','커뮤니티 크리에이터'],[24000,'+','검증한 크리에이터'],[160,'+','지원한 숍 파트너'],[15,'M+','연간 관리 매출']],
+    },
   }[lang];
   const [activeService, setActiveService] = React.useState(0);
   const openIntro = () => {
@@ -430,7 +437,7 @@ const Hero = ({ lang }) => {
             <p style={heroStyles.sub} className="wem-hero-sub">{t.sub}</p>
             <div style={heroStyles.ctas} className="wem-hero-ctas">
               <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => window.open('https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925','_blank')}>{t.cta1}</button>
-              <button style={heroStyles.ghost} onClick={() => location.href='showcase.html'}>{t.cta2}</button>
+              <button style={heroStyles.ghost} onClick={() => location.href=lang === 'ko' ? './showcase.html' : 'showcase.html'}>{t.cta2}</button>
             </div>
           </div>
           <HeroServiceHud lang={lang} active={activeService} onActive={setActiveService}/>
@@ -447,8 +454,7 @@ const Hero = ({ lang }) => {
   );
 };
 const OpeningPortal = ({ lang, opening, onOpen }) => {
-  const copy = lang === 'en'
-    ? {
+  const copies = { en: {
       brand: 'WE MARKETING',
       eyebrow: 'BUILT FOR CREATOR-LED COMMERCE',
       title: 'TIKTOK SHOP GROWTH SYSTEM',
@@ -457,8 +463,7 @@ const OpeningPortal = ({ lang, opening, onOpen }) => {
       cta: 'Initiate Growth System',
       nodes: ['CREATORS', 'UGC', 'LIVE', 'SHOP OPS', 'PAID', 'GMV'],
       steps: ['CREATOR', 'CONTENT', 'LIVE', 'SHOP', 'PAID', 'GMV'],
-    }
-    : {
+    }, zh: {
       brand: 'WE MARKETING',
       eyebrow: '为内容电商增长而建',
       title: 'TIKTOK SHOP 增长系统',
@@ -467,7 +472,17 @@ const OpeningPortal = ({ lang, opening, onOpen }) => {
       cta: '启动增长系统',
       nodes: ['达人', 'UGC', '直播', '店铺', '投放', 'GMV'],
       steps: ['达人', '内容', '直播', '店铺', '投放', 'GMV'],
-    };
+    }, ko: {
+      brand: 'WE MARKETING',
+      eyebrow: '크리에이터 중심 커머스를 위해',
+      title: 'TIKTOK SHOP 성장 시스템',
+      mobileTitle: '성장 시스템 시작',
+      sub: '크리에이터, 콘텐츠, 라이브, 숍 운영, 유료 확산과 리포팅을 반복 가능한 GMV 시스템으로 연결합니다.',
+      cta: '성장 시스템 시작하기',
+      nodes: ['크리에이터', 'UGC', '라이브', '숍 운영', '유료 확산', 'GMV'],
+      steps: ['크리에이터', '콘텐츠', '라이브', '숍', '유료', 'GMV'],
+    }};
+  const copy = copies[lang];
   const positions = [
     ['-230px', '-118px', '120px', '-18deg'],
     ['-20px', '-180px', '170px', '14deg'],
@@ -827,25 +842,32 @@ const OpeningPortalScene = ({ opening }) => {
   }, []);
   return <canvas ref={canvasRef} className="wem-intro-canvas" style={heroStyles.introCanvas} aria-hidden="true"/>;
 };
-const getHeroServices = (lang) => (
-  lang === 'en'
-    ? [
+const getHeroServices = (lang) => ({
+  en: [
       ['Creator Affiliate', 'Recruit, seed, follow up, and scale creators that can actually sell.', '#FF1493', '8K+'],
       ['UGC Content', 'Turn creator briefs, demos, and usage rights into a repeatable content engine.', '#4A8FFF', '24K+'],
       ['Live Selling', 'Build host rosters, live scripts, product stacks, and weekly live rhythm.', '#9B30FF', 'Live'],
       ['Shop Operations', 'Keep the shop ready for creator-led conversion and scale.', '#4A8FFF', 'Ops'],
       ['Paid Amplify', 'Push proven creator angles into paid traffic without breaking the organic loop.', '#FF1493', 'ROAS'],
       ['Growth Reporting', 'Connect content, traffic, orders, creator output, and next actions every week.', '#9B30FF', 'GMV'],
-    ]
-    : [
+    ],
+  zh: [
       ['达人联盟', '招募、寄样、跟进、放大真正能带货的达人。', '#FF1493', '8K+'],
       ['UGC 内容', '把脚本、测评、展示和授权做成可复用的内容系统。', '#4A8FFF', '24K+'],
       ['直播带货', '搭建主播池、直播话术、货盘节奏和每周复盘。', '#9B30FF', 'Live'],
       ['店铺运营', '让店铺承接达人流量、内容流量和成交放大。', '#4A8FFF', 'Ops'],
       ['投放放大', '把跑出来的达人角度放进广告，放大有效内容。', '#FF1493', 'ROAS'],
       ['增长复盘', '每周把内容、流量、订单、达人产出和下一步接起来。', '#9B30FF', 'GMV'],
-    ]
-);
+    ],
+  ko: [
+      ['크리에이터 어필리에이트', '판매 가능성이 있는 크리에이터를 발굴하고 시딩, 후속 관리와 확장을 운영합니다.', '#FF1493', '8K+'],
+      ['UGC 콘텐츠', '브리프, 데모와 사용 권리를 반복 가능한 콘텐츠 시스템으로 만듭니다.', '#4A8FFF', '24K+'],
+      ['라이브 판매', '호스트 풀, 라이브 스크립트, 상품 구성과 주간 라이브 리듬을 만듭니다.', '#9B30FF', 'Live'],
+      ['숍 운영', '크리에이터 트래픽이 전환과 성장으로 이어지도록 숍을 준비합니다.', '#4A8FFF', 'Ops'],
+      ['유료 확산', '검증된 크리에이터 각도를 유료 트래픽으로 확대합니다.', '#FF1493', 'ROAS'],
+      ['성장 리포팅', '콘텐츠, 트래픽, 주문, 크리에이터 활동과 다음 액션을 매주 연결합니다.', '#9B30FF', 'GMV'],
+    ],
+}[lang]);
 const HeroThreeScene = ({ lang, active, onActive }) => {
   const canvasRef = React.useRef(null);
   const activeRef = React.useRef(active);
@@ -1115,13 +1137,19 @@ const HeroServiceHud = ({ lang, active, onActive }) => {
       title: 'Creator-led commerce',
       copy: 'Creators, UGC, live, shop operations, paid amplification, and reporting connected into one repeatable GMV system.',
     }
+    : lang === 'ko'
+    ? {
+      eyebrow: '통합 성장 시스템',
+      title: '크리에이터 기반 커머스',
+      copy: '크리에이터, UGC, 라이브, 숍 운영, 광고 확장, 성과 분석을 하나의 반복 가능한 GMV 성장 시스템으로 연결합니다.',
+    }
     : {
       eyebrow: '增长服务系统',
       title: '内容电商增长系统',
       copy: '把达人、UGC、直播、店铺承接、投放放大和复盘连接成一套可持续出单的增长系统。',
     };
   return (
-    <aside style={heroStyles.serviceHud} className="wem-service-hud" aria-label={lang === 'en' ? 'WE Marketing growth service system' : 'WE Marketing 增长服务系统'}>
+    <aside style={heroStyles.serviceHud} className="wem-service-hud" aria-label={lang === 'ko' ? 'WE Marketing 통합 성장 시스템' : (lang === 'en' ? 'WE Marketing growth service system' : 'WE Marketing 增长服务系统')}>
       <div style={heroStyles.serviceHudHeader}>
         <span style={heroStyles.serviceHudEyebrow}>{header.eyebrow}</span>
         <strong style={heroStyles.serviceHudTitle}>{header.title}</strong>

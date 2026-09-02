@@ -23,9 +23,19 @@ const ServiceGrid = ({ lang }) => {
       { icon: 'radio', title: '达人直播带货运营', sub: '主播筛选、flash sale、moderator 和直播复盘。', href: 'services.html#creator-live' },
       { icon: 'video', title: '短视频拍摄服务', sub: '产品短视频拍摄，用于 TikTok Shop、Amazon、广告、DTC 和社媒。', href: 'services.html#content-performance' },
     ],
+    ko: [
+      { icon: 'shopping-bag', title: '풀서비스 운영', sub: '숍, 크리에이터, 콘텐츠, 라이브, 리포팅과 주간 성장을 통합 운영합니다.', href: '../services.html#full-service-management' },
+      { icon: 'rocket', title: '콜드 스타트 론치', sub: '제로 투 원 세팅, 크리에이터 시딩, 콘텐츠 테스트와 초기 매출 신호를 만듭니다.', href: '../services.html#cold-start' },
+      { icon: 'messages-square', title: 'TikTok Shop 컨설팅', sub: '물류, 론치, 크리에이터 프로그램과 성장 우선순위를 설계합니다.', href: '../services.html#consulting' },
+      { icon: 'users', title: '크리에이터 어필리에이트 운영', sub: '크리에이터 발굴, Affiliate Center, 타깃 협업, 샘플과 리포팅을 관리합니다.', href: '../services.html#affiliate-management' },
+      { icon: 'film', title: 'UGC 콘텐츠', sub: 'TikTok Shop, Amazon, DTC, 광고와 상품 페이지용 크리에이터 영상을 제작합니다.', href: '../services.html#ugc-content' },
+      { icon: 'sparkles', title: '크리에이터 매칭', sub: '인하우스 팀을 위해 카테고리 적합도가 높은 크리에이터와 캠페인 활성화를 지원합니다.', href: '../services.html#creator-matchmaking' },
+      { icon: 'radio', title: '크리에이터 라이브 판매', sub: '호스트 선정, 플래시 세일, 스크립트, 모더레이터와 사후 리뷰를 운영합니다.', href: '../services.html#creator-live' },
+      { icon: 'video', title: '숏폼 영상 제작', sub: 'TikTok Shop, Amazon, DTC, 유료 광고와 소셜용 상품 영상을 제작합니다.', href: '../services.html#content-performance' },
+    ],
   }[lang];
-  const sub = lang === 'en' ? 'Hover a service to see where it fits, then jump into the full breakdown.' : '鼠标放到卡片上看适合场景，点击进入服务总览页对应内容。';
-  const learn = lang === 'en' ? 'Learn more' : '了解更多';
+  const sub = lang === 'en' ? 'Hover a service to see where it fits, then jump into the full breakdown.' : lang === 'ko' ? '서비스가 필요한 상황을 확인하고 자세한 운영 범위를 살펴보세요.' : '鼠标放到卡片上看适合场景，点击进入服务总览页对应内容。';
+  const learn = lang === 'en' ? 'Learn more' : lang === 'ko' ? '자세히 보기' : '了解更多';
   return (
     <section id="Services" style={sgStyles.wrap} className="service-grid-section">
       <style>{`
@@ -87,7 +97,7 @@ const ServiceGrid = ({ lang }) => {
       <div style={sgStyles.inner} className="service-grid-inner">
         <h2 style={sgStyles.h2} className="service-grid-title">
           <span>{lang === 'en' ? 'Our ' : ''}</span>
-          <span style={sgStyles.h2grad}>{lang === 'en' ? 'services' : '服务'}</span>
+          <span style={sgStyles.h2grad}>{lang === 'en' ? 'services' : lang === 'ko' ? '서비스' : '服务'}</span>
           <span>.</span>
         </h2>
         <p style={sgStyles.sub} className="service-grid-sub">{sub}</p>

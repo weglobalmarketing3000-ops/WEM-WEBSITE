@@ -13,6 +13,12 @@ const Testimonial = ({ lang }) => {
       who: '品牌市场负责人',
       brand: '跨境 DTC 消费品牌',
     },
+    ko: {
+      eyebrow: '브랜드 후기',
+      quote: '“WE Marketing은 우리에게 필요한 크리에이터 모멘텀을 만들었습니다. 크리에이터를 빠르게 활성화하고 TikTok Shop 가시성을 높였으며 Amazon, DTC 사이트와 브랜드 인지도까지 이어지는 효과를 만들었습니다.”',
+      who: '마케팅 리드',
+      brand: '선도적인 패션 DTC 브랜드',
+    },
   }[lang];
   return (
     <section style={ttStyles.wrap}>

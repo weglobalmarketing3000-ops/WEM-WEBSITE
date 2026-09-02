@@ -6,9 +6,9 @@ function App() {
   const [lang, setLang] = useState(() => window.getWemInitialLang ? window.getWemInitialLang() : 'en');
   useEffect(() => {
     window.persistWemLang ? window.persistWemLang(lang) : localStorage.setItem('we-lang', lang);
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    document.title = lang === 'zh' ? '美国 TikTok Shop 代运营 | 跨境品牌与在美华人品牌增长伙伴 | WE Marketing' : 'WE Marketing | U.S. TikTok Shop Agency for Creator-Led Growth';
-    document.querySelector('meta[name="description"]').setAttribute('content', lang === 'zh' ? 'WE Marketing 是位于南加州的美国 TikTok Shop Partner Agency，服务跨境品牌、Amazon 卖家和在美华人品牌团队，提供美国 TikTok Shop 代运营、达人联盟、UGC 内容、直播带货和店铺增长。' : 'WE Marketing, also known as WEM, is a U.S. TikTok Shop agency helping brands scale with creator affiliates, UGC content, live selling, shop operations, and performance reporting.');
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang === 'ko' ? 'ko-KR' : 'en';
+    document.title = lang === 'zh' ? '美国 TikTok Shop 代运营 | 跨境品牌与在美华人品牌增长伙伴 | WE Marketing' : lang === 'ko' ? 'WE Marketing | 미국 TikTok Shop 성장 파트너 에이전시' : 'WE Marketing | U.S. TikTok Shop Agency for Creator-Led Growth';
+    document.querySelector('meta[name="description"]').setAttribute('content', lang === 'zh' ? 'WE Marketing 是位于南加州的美国 TikTok Shop Partner Agency，服务跨境品牌、Amazon 卖家和在美华人品牌团队，提供美国 TikTok Shop 代运营、达人联盟、UGC 内容、直播带货和店铺增长。' : lang === 'ko' ? 'WE Marketing은 크리에이터 어필리에이트, UGC, 라이브 판매와 숍 운영으로 브랜드의 미국 TikTok Shop 성장을 지원하는 파트너 에이전시입니다.' : 'WE Marketing, also known as WEM, is a U.S. TikTok Shop agency helping brands scale with creator affiliates, UGC content, live selling, shop operations, and performance reporting.');
   }, [lang]);
   useEffect(() => {
     if (window.lucide) window.lucide.createIcons();

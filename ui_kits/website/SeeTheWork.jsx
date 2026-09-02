@@ -11,13 +11,18 @@ const SeeTheWork = ({ lang }) => {
       h: '我们做过 160+ 个品牌和店铺，覆盖美妆、健康、\n科技、服饰和跨境消费品。',
       cta: '查看案例',
     },
+    ko: {
+      eye: '// 실제 프로젝트 · 실제 숫자',
+      h: '뷰티, 웰니스, 테크와 패션을 아우르는\n160+ 브랜드 파트너.',
+      cta: '성과 사례 보기 →',
+    },
   }[lang];
   return (
     <section style={stwStyles.wrap}>
       <div style={stwStyles.inner}>
         <div style={stwStyles.eye}>{t.eye}</div>
         <h2 style={stwStyles.h}>{t.h.split('\n').map((l,i)=><span key={i}>{l}<br/></span>)}</h2>
-        <a href="showcase.html" style={stwStyles.cta}>{t.cta}</a>
+        <a href={lang === 'ko' ? './showcase.html' : 'showcase.html'} style={stwStyles.cta}>{t.cta}</a>
       </div>
     </section>
   );

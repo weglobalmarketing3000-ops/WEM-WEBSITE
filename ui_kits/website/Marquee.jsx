@@ -5,7 +5,7 @@ const Marquee = ({ lang }) => {
   // Placeholder brands — replace these directly with real partner names
   const placeholderBrands = ['HI!PAPA','ZUTTONYAN','PAPABLIC','GUYU','MOONBREW','COSRX'];
   const brands = [...realBrands, ...placeholderBrands];
-  const eye = lang === 'en' ? 'BRAND PARTNERS · 160+ brands trust WEM' : '品牌伙伴 · 160+ 跨境与美国品牌信赖 WEM';
+  const eye = lang === 'en' ? 'BRAND PARTNERS · 160+ brands trust WEM' : lang === 'ko' ? '브랜드 파트너 · 160+ 브랜드가 WEM과 함께합니다' : '品牌伙伴 · 160+ 跨境与美国品牌信赖 WEM';
 
   // Split into two rows so each row scrolls independently
   const half = Math.ceil(brands.length / 2);

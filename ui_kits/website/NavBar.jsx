@@ -20,10 +20,13 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const b = basePath;
   const isKo = lang === 'ko';
-  const home = isKo ? '../index.html' : (b || './index.html');
+  const home = isKo ? './index.html' : (b || './index.html');
   const page = (path) => isKo ? (['about.html', 'affiliate.html', 'showcase.html'].includes(path) ? `./${path}` : `../${path}`) : `${b}${path}`;
   const koRoute = typeof window !== 'undefined'
-    ? window.location.pathname.replace(/^\/ko/, '').replace(/\.html$/, '') || '/'
+    ? (() => {
+      const route = window.location.pathname.replace(/^\/ko/, '').replace(/\.html$/, '') || '/';
+      return route === '/index' ? '/' : route;
+    })()
     : '/';
   const appointment = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
   const t = {
