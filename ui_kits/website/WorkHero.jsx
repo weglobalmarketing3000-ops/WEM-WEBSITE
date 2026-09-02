@@ -13,6 +13,12 @@ const WorkHero = ({ lang }) => {
       h1accent: '真实增长案例。',
       sub: '覆盖美妆、健康、科技、服饰和跨境消费品。看冷启动、达人发布、直播成交和真实销售增长。',
     },
+    ko: {
+      pill: '성과 사례',
+      h1a: 'TikTok Shop 성장.',
+      h1accent: '브랜드 성과로 증명합니다.',
+      sub: '뷰티, 웰니스, 테크, 패션 브랜드의 콜드 스타트, 크리에이터 어필리에이트, 라이브 운영과 실제 매출 성과를 확인하세요.',
+    },
   }[lang];
   return (
     <section style={whStyles.wrap} className="work-hero">

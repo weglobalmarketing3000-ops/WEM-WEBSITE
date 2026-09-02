@@ -1,7 +1,7 @@
 route	source_file	ko_file	type	translation	metadata	schema	links	desktop	mobile	language_review	notes
 https://www.weglobalmarketing.com/	index.html	ko/index.html	core	incomplete	pending	pending	pending	pending	pending	pending	
 https://www.weglobalmarketing.com/privacy	privacy.html	ko/privacy.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
-https://www.weglobalmarketing.com/showcase	showcase.html	ko/showcase.html	core	incomplete	pending	pending	pending	pending	pending	pending	
+https://www.weglobalmarketing.com/showcase	showcase.html	ko/showcase.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/about	about.html	ko/about.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/affiliate	affiliate.html	ko/affiliate.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/services	services.html	ko/services.html	core	incomplete	pending	pending	pending	pending	pending	pending	

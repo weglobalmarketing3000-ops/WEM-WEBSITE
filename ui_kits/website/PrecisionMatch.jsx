@@ -125,6 +125,47 @@ const PrecisionMatch = ({ lang }) => {
       ctaBtn: '定制达人匹配策略',
       cardTag: '匹配维度',
     },
+    ko: {
+      eye: '// 정밀 크리에이터 매칭',
+      h1: '더 많은 크리에이터보다.',
+      h2: '더 정확한 매칭.',
+      sub: 'WEM은 대량 아웃리치를 넘어 고객, 언어, 인구 특성, 콘텐츠 카테고리, 커머스 신호와 캠페인 목표에 맞춰 크리에이터를 연결합니다.',
+      cards: [
+        ['01', '고객 적합도', '목표 구매자의 프로필, 라이프스타일, 관심사와 구매 의도에 맞춥니다.'],
+        ['02', '언어와 시장 적합도', '영어, 스페인어, 중국어와 다국어 콘텐츠 역량 및 소통 방식에 맞춥니다.'],
+        ['03', '인구 특성 정렬', '문화적 연관성, 크리에이터 정체성, 시청자 특성과 캠페인 목표를 함께 봅니다.'],
+        ['04', '콘텐츠 카테고리', '니치, 포맷, 상품 교육 역량, 리뷰 스타일과 라이브 판매 적합도를 봅니다.'],
+        ['05', '커머스 신호', 'GMV 이력, 게시율, 어필리에이트 활동, 전환 행동과 상품 적합도를 봅니다.'],
+        ['06', '크리에이터 규모', '팔로워 수뿐 아니라 참여 품질, 콘텐츠 일관성, 니치 전문성과 예산 적합도를 봅니다.'],
+      ],
+      proof: '8,000명 이상의 검증된 TikTok Shop 크리에이터 커뮤니티를 기반으로 합니다.',
+      showcase: {
+        eye: 'CASE #04 · 뷰티 크리에이터 매칭',
+        title: 'Affordable Glow in a Week Set: 하나의 상품, 다양한 크리에이터 적합도.',
+        result: '1,000+',
+        resultLabel: '활성화한 크리에이터',
+        sub: '$79.99 스킨케어 세트를 위해 고객 적합도, 언어 역량, 콘텐츠 단계와 커머스 신호를 아우르는 하나의 크리에이터 풀을 구축했습니다.',
+        videos: [
+          ['assets/creator-matchmaking/affordable-glow-audience-test.mp4', '고객 도달 테스트'],
+          ['assets/creator-matchmaking/glass-glow-vietnamese-creator.mp4', '상품 교육 테스트'],
+          ['assets/creator-matchmaking/affordable-glow-language-market-test.mp4', '언어·시장 각도'],
+          ['assets/creator-matchmaking/affordable-glow-routine-proof-test.mp4', '루틴 증명 테스트'],
+        ],
+        mixTitle: '활성화 구성',
+        mix: [
+          ['고객 확장', '언어 시장, 구매자 프로필과 콘텐츠 표현 방식이 다른 크리에이터 조합으로 도달 범위를 넓혔습니다.'],
+          ['TOF 콘텐츠', '첫 발견을 위한 텍스처, 상품 비주얼과 짧은 루틴 콘텐츠입니다.'],
+          ['MOF 콘텐츠', '고려 단계의 성분 교육, 리뷰, 루틴 적합도와 비교 콘텐츠입니다.'],
+          ['BOF 콘텐츠', '구매 의도가 높은 고객을 위한 TikTok Shop 전환 콘텐츠, 오퍼와 신뢰 신호입니다.'],
+        ],
+        signals: ['언어 역량', '고객 적합도', '인구 특성', 'TOF / MOF / BOF', '커머스 신호', '고객단가 적합도'],
+        proofs: [['$100K GMV', '여러 고객층과 콘텐츠 각도에 맞춘 크리에이터 활성화로 달성했습니다.']],
+        note: '구조화된 크리에이터 조합은 하나의 SKU가 다양한 구매 맥락, 언어 시장과 퍼널 역할을 시험한 뒤 성과가 좋은 방향을 확대하도록 돕습니다.',
+      },
+      ctaH: '상품에 정말 맞는 크리에이터가 필요하신가요?',
+      ctaBtn: '크리에이터 매칭 전략 만들기 →',
+      cardTag: '매칭 기준',
+    },
   }[lang];
   return (
     <section style={pmStyles.wrap} className="pm-wrap">
@@ -203,7 +244,7 @@ const PrecisionMatch = ({ lang }) => {
             <div style={pmStyles.mixPanel} className="pm-mix-panel">
               <div style={pmStyles.videoGrid} className="pm-video-grid">
                 {t.showcase.videos.map(([src, label]) => (
-                  <LazyMatchVideo key={src} src={src} label={label}/>
+                  <LazyMatchVideo key={src} src={lang === 'ko' ? `../${src}` : src} label={label}/>
                 ))}
               </div>
               <div style={pmStyles.mixTitle}>{t.showcase.mixTitle}</div>

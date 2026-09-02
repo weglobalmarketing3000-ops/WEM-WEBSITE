@@ -19,6 +19,15 @@ const NumbersStrip = ({ lang }) => {
         ['badge', 'TikTok Shop Certified Agency Since 2025'],
       ],
     },
+    ko: {
+      eye: '// 숫자로 보는 성과',
+      tiles: [
+        ['160+', '지원한 브랜드와 숍'],
+        ['$15M+', '연간 관리 매출'],
+        ['200K+', '협업한 미국 크리에이터'],
+        ['badge', '2025년부터 TikTok Shop 인증 에이전시'],
+      ],
+    },
   }[lang];
   return (
     <section style={nsStyles.wrap} className="numbers-strip">
@@ -68,7 +77,7 @@ const NumbersStrip = ({ lang }) => {
             <div key={i} style={nsStyles.tile} className="numbers-strip-tile">
               {num === 'badge' ? (
                 <img
-                  src="assets/tiktok-shop-certified-agency-2025.png"
+                  src={lang === 'ko' ? '../assets/tiktok-shop-certified-agency-2025.png' : 'assets/tiktok-shop-certified-agency-2025.png'}
                   alt={lbl}
                   style={nsStyles.badge}
                   className="numbers-strip-badge"

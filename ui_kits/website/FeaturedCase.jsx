@@ -4,10 +4,13 @@ const CASES = [
     id: 'case-wellness-affiliate-live',
     tag_en: 'AFFILIATE SYSTEM · WELLNESS',
     tag_zh: '达人联盟体系 · 健康保健',
+    tag_ko: '어필리에이트 시스템 · 웰니스',
     title_en: 'Full-Funnel Affiliate.\n90 Days to Viral.',
     title_zh: '90 天把新品\n推成爆款',
+    title_ko: '풀 퍼널 어필리에이트.\n90일 만에 바이럴로.',
     body_en: 'Ran seeding, paid, LIVE, and top-GMV creator layers in parallel from day one. Turned a wellness product that needs education into a platform-wide breakout.',
     body_zh: '这个健康产品卖点不简单，用户需要先理解，才会愿意下单。我们没有慢慢等内容发酵，而是从第一天就同时做达人种草、付费放大、直播带货和头部达人合作，把复杂卖点讲成美国用户看得懂的内容。',
+    body_ko: '설명이 필요한 웰니스 제품을 위해 첫날부터 시딩, 유료 확산, 라이브와 상위 GMV 크리에이터를 동시에 운영해 플랫폼 전반의 성장을 만들었습니다.',
     stats_en: [
       { kind: 'num', num: 10000, suffix: '+', label: 'Creators sampled in month 1' },
       { kind: 'num', num: 33000, suffix: '+', label: 'Affiliate videos in 90 days' },
@@ -20,22 +23,33 @@ const CASES = [
       { kind: 'num', num: 4.7,   suffix: 'M', label: '单条视频播放', decimals: 1 },
       { kind: 'num', num: 150,   suffix: 'K+', label: '第 5 个月销售额', prefix: '$' },
     ],
+    stats_ko: [
+      { kind: 'num', num: 10000, suffix: '+', label: '첫 달 샘플 제안 크리에이터' },
+      { kind: 'num', num: 33000, suffix: '+', label: '90일간 어필리에이트 영상' },
+      { kind: 'num', num: 4.7, suffix: 'M', label: '대표 영상 조회수', decimals: 1 },
+      { kind: 'num', num: 150, suffix: 'K+', label: '5개월 차 월 GMV', prefix: '$' },
+    ],
     pull_en: 'In education-heavy categories, sequential creator strategies lose. Parallel ones compound.',
     pull_zh: '需要教育用户的产品，不能只靠一条爆款。达人、内容、直播和广告要一起跑，数据才会叠起来。',
+    pull_ko: '고객 교육이 필요한 카테고리는 순차 실행보다 크리에이터, 콘텐츠, 라이브와 광고를 병행할 때 성과가 누적됩니다.',
     video: 'assets/case-wellness-hero.mp4?v=20260723-hd',
     creatorHandle: 'Creator S',
     creatorMeta_en: '4.7M views · hero video',
     creatorMeta_zh: '470 万播放 · 爆款内容',
+    creatorMeta_ko: '4.7M 조회수 · 대표 영상',
     flip: false,
   },
   {
     id: 'case-beauty-gmv-growth',
     tag_en: 'AFFILIATE RELAUNCH · BEAUTY',
     tag_zh: '达人联盟重启 · 美妆品类',
+    tag_ko: '어필리에이트 리론치 · 뷰티',
     title_en: 'Breaking a Stalled\nGMV Ceiling in 30 Days.',
     title_zh: '30 天打破\n销售停滞',
+    title_ko: '정체된 GMV를\n30일 만에 돌파.',
     body_en: 'Beauty brand plateaued despite strong reviews. WEM rebuilt the hero-product strategy, refreshed the affiliate creator mix, and unified content around one problem-solution narrative.',
     body_zh: '这个美妆品牌产品评价不错，但 TikTok Shop 销售几个月没有明显增长。我们重新梳理主推品，重新匹配达人组合，并把内容统一到一个清楚的痛点和卖点。30 天后，销售重新动起来。',
+    body_ko: '좋은 리뷰에도 매출이 정체된 뷰티 브랜드의 히어로 상품 전략을 다시 세우고 크리에이터 조합과 문제 해결 메시지를 하나로 통합했습니다.',
     stats_en: [
       { kind: 'num', num: 982, suffix: 'K', label: 'GMV in a single month', prefix: '$' },
       { kind: 'num', num: 215, suffix: '%+', label: 'Month-over-month growth' },
@@ -48,27 +62,38 @@ const CASES = [
       { kind: 'check', label: '重做主推品\n打法' },
       { kind: 'check', label: '统一达人\n内容方向' },
     ],
+    stats_ko: [
+      { kind: 'num', num: 982, suffix: 'K', label: '한 달 GMV', prefix: '$' },
+      { kind: 'num', num: 215, suffix: '%+', label: '전월 대비 성장' },
+      { kind: 'check', label: '히어로 상품 전략\n전면 재구성' },
+      { kind: 'check', label: '모든 크리에이터의\n메시지 통합' },
+    ],
     pull_en: 'Plateaus are almost never a creator-volume problem. They are a story dilution problem.',
     pull_zh: '很多品牌不是缺达人，而是每个人都在讲不同的卖点。说法统一后，内容才会形成合力。',
+    pull_ko: '성장 정체는 크리에이터 수보다 메시지 분산의 문제인 경우가 많습니다.',
     video: null,
     media: 'dashboards',
     dashboards: {
-      before: { src: '../../assets/case2-before-feb.png', label_en: 'BEFORE · FEB 2025', label_zh: '优化前 · 2025 年 2 月', stat_en: '$312K GMV', stat_zh: '$312K 销售额' },
-      after:  { src: '../../assets/case2-after-mar.png',  label_en: 'AFTER · MAR 2025',  label_zh: '优化后 · 2025 年 3 月', stat_en: '$982K GMV', stat_zh: '$982K 销售额' },
+      before: { src: '../../assets/case2-before-feb.png', label_en: 'BEFORE · FEB 2025', label_zh: '优化前 · 2025 年 2 月', label_ko: '이전 · 2025년 2월', stat_en: '$312K GMV', stat_zh: '$312K 销售额', stat_ko: '$312K GMV' },
+      after:  { src: '../../assets/case2-after-mar.png',  label_en: 'AFTER · MAR 2025',  label_zh: '优化后 · 2025 年 3 月', label_ko: '이후 · 2025년 3월', stat_en: '$982K GMV', stat_zh: '$982K 销售额', stat_ko: '$982K GMV' },
     },
     creatorHandle: 'Beauty DTC brand',
     creatorMeta_en: 'Hero product relaunch',
     creatorMeta_zh: '主推品重新启动',
+    creatorMeta_ko: '히어로 상품 리론치',
     flip: true,
   },
   {
     id: 'case-fashion-cold-start',
     tag_en: 'AFFILIATE COLD START · MEN’S FASHION',
     tag_zh: '达人联盟冷启动 · 男装',
+    tag_ko: '어필리에이트 콜드 스타트 · 남성 패션',
     title_en: 'Unlocking an Underbuilt\nCategory. Cold Start to 10K.',
     title_zh: '冷门男装\n跑出 10K+ 订单',
+    title_ko: '덜 개발된 카테고리에서\n콜드 스타트로 10K+ 주문.',
     body_en: 'After six months with little traction, WEM unlocked a hard men’s fashion category through broader creator casting, listing optimization, and hero-content engineering.',
     body_zh: '品牌上线六个月，销售一直没有起色。男装在美国 TikTok Shop 上本来就不是成熟品类，达人少，内容模板也少。我们先拓宽达人类型，再优化商品页和内容角度，终于把订单跑起来。',
+    body_ko: '6개월간 반응이 적었던 남성 패션 브랜드의 크리에이터 풀을 넓히고 상품 페이지와 히어로 콘텐츠를 개선해 어려운 카테고리의 성장을 열었습니다.',
     stats_en: [
       { kind: 'num', num: 10000, suffix: '+', label: 'Orders after relaunch' },
       { kind: 'num', num: 5.1,   suffix: 'M', label: 'Views on one hero video', decimals: 1 },
@@ -81,13 +106,21 @@ const CASES = [
       { kind: 'check', label: '拓宽达人类型\n找到新受众' },
       { kind: 'check', label: '先跑达人内容\n再加预算' },
     ],
+    stats_ko: [
+      { kind: 'num', num: 10000, suffix: '+', label: '리론치 이후 주문' },
+      { kind: 'num', num: 5.1, suffix: 'M', label: '대표 영상 조회수', decimals: 1 },
+      { kind: 'check', label: '더 넓은 고객층으로\n크리에이터 다변화' },
+      { kind: 'check', label: '적은 유료 예산으로\n크리에이터 우선 론치' },
+    ],
     pull_en: 'In underbuilt categories, scale is unlocked by broadening the creator pool, not narrowing it.',
     pull_zh: '冷门品类先别急着砸广告。先找到会买的人，再放大有效内容。',
+    pull_ko: '덜 개발된 카테고리의 성장은 크리에이터 풀을 좁히는 것이 아니라 넓힐 때 열립니다.',
     video: '../../assets/case3-zayndeals.mp4',
     media: 'phone',
     creatorHandle: '@zayndeals',
     creatorMeta_en: '5.1M views · hero video',
     creatorMeta_zh: '510 万播放 · 爆款内容',
+    creatorMeta_ko: '5.1M 조회수 · 대표 영상',
     flip: false,
   },
 ];
@@ -146,6 +179,13 @@ const FeaturedCase = ({ lang }) => {
       h2a: '达人不是发完样品',
       h2b: '就结束。',
       sub: '看达人适配、寄样激活、内容产出、转化信号和下一轮放量如何连成一个可持续的联盟增长系统。',
+    },
+    ko: {
+      anchor: '성과 사례',
+      kicker: '크리에이터 어필리에이트 쇼케이스',
+      h2a: '시간이 갈수록 커지는',
+      h2b: '어필리에이트 성과.',
+      sub: '크리에이터 적합도, 샘플 활성화, 콘텐츠 생산, 전환 신호와 다음 크리에이터 웨이브가 하나의 성장 시스템으로 연결됩니다.',
     },
   }[lang];
   React.useEffect(() => {
@@ -241,12 +281,12 @@ const FeaturedCase = ({ lang }) => {
 };
 
 const CaseBlock = ({ c, lang, last, accent }) => {
-  const tag = lang === 'en' ? c.tag_en : c.tag_zh;
-  const title = lang === 'en' ? c.title_en : c.title_zh;
-  const body = lang === 'en' ? c.body_en : c.body_zh;
-  const stats = lang === 'en' ? c.stats_en : c.stats_zh;
-  const pull = lang === 'en' ? c.pull_en : c.pull_zh;
-  const creatorMeta = lang === 'en' ? c.creatorMeta_en : c.creatorMeta_zh;
+  const tag = c[`tag_${lang}`];
+  const title = c[`title_${lang}`];
+  const body = c[`body_${lang}`];
+  const stats = c[`stats_${lang}`];
+  const pull = c[`pull_${lang}`];
+  const creatorMeta = c[`creatorMeta_${lang}`];
   const copy = (
     <div>
       <div style={{ ...fcStyles.tag, color: accent, background: `${accent}1f` }}>{tag}</div>
@@ -273,7 +313,7 @@ const CaseBlock = ({ c, lang, last, accent }) => {
       <div style={fcStyles.phoneWrap} className="fc-phone-wrap">
         <div style={fcStyles.phone} className="fc-phone">
           {c.video ? (
-            <LazyCaseVideo style={fcStyles.video} src={c.video}/>
+            <LazyCaseVideo style={fcStyles.video} src={lang === 'ko' && c.video.startsWith('assets/') ? `../${c.video}` : c.video}/>
           ) : (
             <div style={fcStyles.placeholder}>
               <div style={fcStyles.placeholderLabel}>{lang === 'en' ? 'CASE VIDEO' : '案例视频'}</div>
@@ -296,8 +336,8 @@ const CaseBlock = ({ c, lang, last, accent }) => {
     <div style={fcStyles.dashStack} className="fc-dash-stack">
       {['before', 'after'].map((k) => {
         const d = c.dashboards[k];
-        const label = lang === 'en' ? d.label_en : d.label_zh;
-        const stat  = lang === 'en' ? d.stat_en  : d.stat_zh;
+        const label = d[`label_${lang}`];
+        const stat  = d[`stat_${lang}`];
         const isAfter = k === 'after';
         return (
           <div key={k} style={{ ...fcStyles.dashCard, ...(isAfter ? { boxShadow: `0 20px 50px rgba(0,0,0,.4), 0 0 0 1px ${accent}66, 0 0 60px ${accent}33` } : {}) }}>
