@@ -1,0 +1,491 @@
+/* ============================================================
+   WE MARKETING — Core CSS Variables
+   Sampled from official deck + logo.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
+
+:root {
+  /* --- BRAND — hot magenta on jet black, with blue/violet as subtle gradient light --- */
+  --we-blue: #4A8FFF;
+  --we-blue-soft: #7DB0FF;
+  --we-magenta: #FF1493;        /* primary logo accent */
+  --we-magenta-bright: #FF38A8;
+  --we-magenta-soft: #FF5BB8;
+  --we-magenta-hot: #FF0080;    /* pressed */
+  --we-pink-pale: #FFC0E0;      /* tints, highlights */
+
+  /* Secondary brand — iridescent purple/violet (3D orbs, edge shapes) */
+  --we-violet: #9B30FF;
+  --we-violet-deep: #6B14A3;
+  --we-purple-orb: #B040FF;     /* 3D orb chrome highlight */
+
+  /* --- BLACK / DARK SYSTEM (deck is black-first) --- */
+  --we-black: #000000;          /* deck background — pure black */
+  --we-ink: #0A0A0A;            /* near-black for surfaces */
+  --we-ink-2: #1A1A1A;
+  --we-ink-3: #333333;
+  --we-line-dark: #2A2A2A;      /* subtle dark borders */
+  --we-line-glow: rgba(255,20,147,.35); /* magenta rim on cards */
+
+  /* --- LIGHT NEUTRALS (web only — deck is dark) --- */
+  --we-white: #FFFFFF;
+  --we-off-white: #FAFAFA;
+  --we-line: #E5E5E5;
+  --we-text-light: #0D0D0D;
+  --we-text-light-2: #2A2A2A;
+  --we-text-light-3: #5C5C5C;
+
+  /* --- SEMANTIC --- */
+  --we-success: #4A8FFF;
+  --we-warning: #9B30FF;
+  --we-danger:  #EF4444;
+  --we-info:    #4A8FFF;
+
+  /* --- GRADIENTS (signature) --- */
+  --we-grad-iridescent: linear-gradient(135deg, #FF1493 0%, #FF38A8 42%, #9B30FF 76%, #4A8FFF 100%); /* pill chart, edge shapes */
+  --we-grad-orb: radial-gradient(circle at 30% 30%, #4A8FFF 0%, #FF5BB8 28%, #B040FF 58%, #32113F 100%);
+  --we-grad-rim: linear-gradient(135deg, rgba(255,20,147,.42), rgba(155,48,255,.28), rgba(74,143,255,.16));
+  --we-grad-magenta: linear-gradient(135deg, #FF1493 0%, #FF38A8 100%);
+
+  /* --- SEMANTIC tokens (deck-first) --- */
+  --fg-1: var(--we-white);          /* primary on dark */
+  --fg-2: rgba(255,255,255,.78);
+  --fg-3: rgba(255,255,255,.55);
+  --fg-pink: var(--we-magenta);     /* signature subtitle accent */
+  --bg-1: var(--we-black);          /* primary surface */
+  --bg-2: var(--we-ink);
+  --bg-3: var(--we-ink-2);
+  --accent: var(--we-magenta);
+
+  /* --- TYPOGRAPHY ---
+     Display: Barlow Condensed Black — official brand display font.
+     Heavy, condensed, uppercase. Used for slide titles, hero text, stat values. */
+  --font-display: 'Barlow Condensed', 'Helvetica Neue', Impact, sans-serif;
+  --font-sans: 'Inter', 'Helvetica Neue', -apple-system, system-ui, sans-serif;
+  --font-zh: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  /* --- TYPE SCALE (deck-tuned) --- */
+  --t-hero: 140px;        /* WE MARKETING wordmark */
+  --t-display: 96px;      /* slide titles: OUR SERVICES, etc */
+  --t-display-sm: 72px;
+  --t-h1: 48px;
+  --t-h2: 32px;
+  --t-h3: 24px;
+  --t-body: 18px;
+  --t-small: 16px;
+  --t-caption: 14px;
+  --t-overline: 12px;
+
+  /* --- SPACING --- */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
+  --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px; --s-10: 128px;
+
+  /* --- RADII (deck stats use ~16px radius cards) --- */
+  --r-1: 4px;
+  --r-2: 8px;
+  --r-3: 16px;       /* stat card radius */
+  --r-4: 24px;
+  --r-pill: 999px;   /* pill badges */
+
+  /* --- SHADOWS — magenta glow + subtle blue/violet rim --- */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.5);
+  --shadow-md: 0 6px 16px rgba(0,0,0,.4);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,.55);
+  --glow-magenta: 0 0 24px rgba(255,20,147,.5), 0 0 64px rgba(155,48,255,.18);
+  --glow-violet: 0 0 32px rgba(155,48,255,.55);
+  --glow-rim: 0 0 0 1px rgba(255,20,147,.25), 0 0 24px rgba(74,143,255,.12);
+  --glow-soft: 0 0 12px rgba(255,20,147,.36);
+
+  /* --- MOTION --- */
+  --ease-out: cubic-bezier(.2,.8,.2,1);
+  --ease-in-out: cubic-bezier(.65,.05,.36,1);
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-slow: 420ms;
+}
+
+/* ============================================================
+   SEMANTIC ELEMENT STYLES
+   ============================================================ */
+
+.we-display, h1.we-display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-display);
+  line-height: .92;
+  letter-spacing: -.005em;
+  color: var(--fg-1);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.we-hero {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-hero);
+  line-height: .88;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1, .we-h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--t-h1);
+  line-height: 1;
+  letter-spacing: -.005em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2, .we-h2 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: var(--t-h2);
+  line-height: 1.15;
+  letter-spacing: -.005em;
+  margin: 0;
+}
+
+h3, .we-h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: var(--t-h3);
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* The signature pink subtitle (used everywhere in deck) */
+.we-subtitle, .we-pink-subtitle {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.35;
+  color: var(--fg-pink);
+  margin: 0;
+}
+
+p, .we-body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--t-body);
+  line-height: 1.55;
+  color: var(--fg-2);
+  margin: 0;
+}
+
+.we-overline {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: var(--t-overline);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+code, .we-code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background: var(--we-ink-2);
+  padding: 2px 6px;
+  border-radius: var(--r-1);
+  color: var(--we-magenta);
+}
+
+/* ============================================================
+   PILL BADGE — recurring "TIKTOK SHOP PARTNER AGENCY" motif
+   ============================================================ */
+.we-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--we-white);
+  color: var(--we-black);
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: .02em;
+  padding: 14px 28px;
+  border-radius: var(--r-pill);
+  text-transform: uppercase;
+}
+
+/* ============================================================
+   STAT CARD — recurring rounded square with rim glow
+   ============================================================ */
+.we-stat-card {
+  background: var(--we-black);
+  border: 1px solid var(--we-line-glow);
+  border-radius: var(--r-3);
+  padding: 36px;
+  text-align: center;
+  box-shadow: var(--glow-rim);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.we-btn {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: .01em;
+  padding: 14px 28px;
+  border-radius: var(--r-pill);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  transition: transform var(--dur-fast) var(--ease-out),
+              box-shadow var(--dur-base) var(--ease-out),
+              background var(--dur-base) var(--ease-out);
+}
+.we-btn-primary {
+  background: var(--we-magenta);
+  color: var(--we-white);
+}
+.we-btn-primary:hover { box-shadow: var(--glow-magenta); background: var(--we-magenta-bright); }
+.we-btn-primary:active { transform: scale(.97); }
+
+.we-btn-light {
+  background: var(--we-white);
+  color: var(--we-black);
+}
+.we-btn-light:hover { transform: translateY(-1px); }
+
+.we-btn-ghost-dark {
+  background: transparent;
+  color: var(--we-white);
+  border: 1.5px solid var(--we-white);
+}
+.we-btn-ghost-dark:hover { background: var(--we-white); color: var(--we-black); }
+
+/* ============================================================
+   BLOG — light editorial reading theme
+   Shared here so every existing and future article inherits it.
+   ============================================================ */
+.bp-wrap {
+  background: #f5f3ee !important;
+  color: #171717 !important;
+}
+.bp-wrap > div:first-of-type { display: none !important; }
+.bp-header {
+  background: rgba(255,255,255,.72) !important;
+  border-bottom-color: #e3ded6 !important;
+  padding: 58px 0 50px !important;
+}
+.bp-header-inner { max-width: 1000px !important; }
+.bp-back { color: #6f6a64 !important; margin-bottom: 30px !important; }
+.bp-title {
+  color: #171717 !important;
+  font-family: var(--font-sans) !important;
+  font-size: clamp(42px,5.4vw,72px) !important;
+  line-height: 1.03 !important;
+  letter-spacing: -.045em !important;
+  text-transform: none !important;
+}
+.bp-meta {
+  color: #77716a !important;
+  margin-top: 24px !important;
+  text-transform: none !important;
+  letter-spacing: .07em !important;
+}
+.bp-hero {
+  max-width: 860px !important;
+  margin: 40px auto 0 !important;
+  border-color: #e2ddd5 !important;
+  box-shadow: 0 20px 60px rgba(35,28,22,.10) !important;
+}
+.bp-body {
+  max-width: 1180px !important;
+  padding: 68px 32px 110px !important;
+  grid-template-columns: 210px minmax(0,760px) !important;
+  gap: 68px !important;
+  justify-content: center !important;
+  background: #f5f3ee !important;
+}
+.bp-toc > div { color: #77716a !important; border-bottom-color: #d9d4cc !important; }
+.bp-toc a { color: #68635d !important; }
+.bp-col { max-width: 760px !important; }
+.bp-section {
+  margin-bottom: 72px !important;
+  padding-top: 26px !important;
+  border-top-color: #dcd7cf !important;
+}
+.bp-h2 {
+  color: #171717 !important;
+  font-family: var(--font-sans) !important;
+  font-size: clamp(30px,3vw,42px) !important;
+  line-height: 1.12 !important;
+  letter-spacing: -.035em !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+}
+.bp-h2::after {
+  content: '';
+  display: block;
+  width: 92px;
+  height: 3px;
+  margin-top: 16px;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#1746b8 0%,#7b61ff 52%,#ff4f9a 100%);
+}
+.bp-h3 {
+  color: #1746b8 !important;
+  font-family: var(--font-sans) !important;
+  text-transform: none !important;
+  border-left: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 38px !important;
+}
+.bp-section-eyebrow {
+  color: #e81583 !important;
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: .15em !important;
+  text-transform: uppercase !important;
+}
+.bp-p {
+  color: #37332f !important;
+  font-size: 18px !important;
+  line-height: 1.78 !important;
+  margin-bottom: 22px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.bp-section > .bp-p,
+.bp-section > .bp-p:nth-of-type(even) {
+  margin: 0 0 22px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.bp-list {
+  color: #302d29 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  box-shadow: none !important;
+}
+.bp-section > ul.bp-list { list-style: none !important; padding-left: 0 !important; }
+.bp-section > ul.bp-list > li { position: relative; padding-left: 28px !important; }
+.bp-section > ul.bp-list > li::before { content: '✓'; position: absolute; left: 0; top: .05em; color: #e81583; font-weight: 900; }
+.bp-callout {
+  color: #292522 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-left: 3px solid #e81583 !important;
+  font-size: 18px !important;
+  line-height: 1.7 !important;
+  box-shadow: none !important;
+}
+.bp-table-wrap {
+  border-color: #dcd7cf !important;
+  background: #fff !important;
+  border-radius: 14px !important;
+  box-shadow: 0 10px 32px rgba(30,25,20,.07) !important;
+  padding: 0 !important;
+}
+.bp-table {
+  color: #302d29 !important;
+  background: #fff !important;
+  border-radius: 14px !important;
+  font-size: 15px !important;
+}
+.bp-table th {
+  color: #fff !important;
+  background: #171717 !important;
+  border-bottom: 0 !important;
+  padding: 17px 18px !important;
+  font-family: var(--font-sans) !important;
+  font-size: 13px !important;
+  letter-spacing: .025em !important;
+  text-transform: none !important;
+}
+.bp-table td {
+  color: #302d29 !important;
+  border-bottom-color: #e6e1d9 !important;
+  padding: 18px !important;
+}
+.bp-table tbody tr:nth-child(odd) { background: #fff !important; }
+.bp-table tbody tr:nth-child(even) { background: #f8f5f0 !important; }
+.bp-info-wrap {
+  background: #fff !important;
+  border-color: #ded8d0 !important;
+  box-shadow: 0 16px 44px rgba(30,25,20,.08) !important;
+}
+.bp-faq-q {
+  color: #202020 !important;
+  background: #fffafd !important;
+  border: 0 !important;
+  font-family: var(--font-sans) !important;
+  box-shadow: inset 3px 0 0 #ff1493 !important;
+  transition: background .2s ease, color .2s ease !important;
+}
+.bp-faq-q:hover {
+  color: #c80d72 !important;
+  background: linear-gradient(90deg,#fff4f9 0%,#f4f7ff 100%) !important;
+}
+.bp-faq-a {
+  color: #3f3a35 !important;
+  background: linear-gradient(135deg,#fff1f7 0%,#f1f6ff 100%) !important;
+  border-top: 1px solid #eadfe5 !important;
+  padding-top: 20px !important;
+}
+.bp-section div:has(> .bp-faq-q) {
+  background: #fff !important;
+  border: 1px solid #e4dce2 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 24px rgba(45,31,40,.055) !important;
+  overflow: hidden !important;
+}
+body.pricing-editorial .bp-section .bp-faq-q {
+  background: #fffafd !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: inset 3px 0 0 #ff1493 !important;
+}
+body.pricing-editorial .bp-section .bp-faq-a {
+  background: linear-gradient(135deg,#fff1f7 0%,#f1f6ff 100%) !important;
+  border: 0 !important;
+  border-top: 1px solid #eadfe5 !important;
+  border-radius: 0 !important;
+  padding-top: 20px !important;
+}
+.bp-related-link { color: #d80b78 !important; border-bottom-color: #d9d4cc !important; }
+
+/* Blog index stays dark; a clearer rim keeps each image and excerpt in one card. */
+.blog-list-wrap .blog-card {
+  border: 1px solid rgba(255,255,255,.18) !important;
+  box-shadow:
+    0 0 0 1px rgba(255,20,147,.07),
+    0 18px 52px rgba(0,0,0,.34) !important;
+}
+.blog-list-wrap .blog-card:hover {
+  border: 1px solid rgba(255,20,147,.58) !important;
+  box-shadow:
+    0 0 0 1px rgba(255,20,147,.16),
+    0 20px 58px rgba(0,0,0,.42) !important;
+}
+
+@media (max-width: 760px) {
+  .bp-header { padding: 36px 0 30px !important; }
+  .bp-title { font-size: clamp(36px,10.2vw,48px) !important; line-height: 1.05 !important; }
+  .bp-hero { margin-top: 26px !important; }
+  .bp-body { padding: 42px 20px 80px !important; }
+  .bp-section { margin-bottom: 52px !important; padding-top: 22px !important; }
+  .bp-p { font-size: 17px !important; line-height: 1.72 !important; }
+  .bp-callout { font-size: 17px !important; }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">控制每一种模式背后的真实约束</title>
+  <desc id="desc">消费者看到的标签，必须由每天更新的运营证据支撑。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf9"/><stop offset="1" stop-color="#eee8ff"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#4b6fff"/><stop offset=".5" stop-color="#8d63e6"/><stop offset="1" stop-color="#ff5aa9"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#6756a8" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1600" height="960" fill="url(#bg)"/>
+  <circle cx="1450" cy="120" r="250" fill="#8d63e6" opacity=".08"/>
+  <circle cx="120" cy="880" r="260" fill="#ff5aa9" opacity=".06"/>
+  <text x="90" y="110" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="4" fill="#6b55a4">TIKTOK SHOP U.S. · OPERATING FRAMEWORK</text>
+  <text x="90" y="182" font-family="Arial,sans-serif" font-size="50" font-weight="700" fill="#171521">控制每一种模式背后的真实约束</text>
+  <text x="90" y="230" font-family="Arial,sans-serif" font-size="25" fill="#645d73">消费者看到的标签，必须由每天更新的运营证据支撑。</text>
+  <g filter="url(#shadow)">
+  <rect x="95" y="325" width="420" height="300" rx="28" fill="#ffffff" stroke="#4b6fff" stroke-width="3"/>
+  <text x="125" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#4b6fff">PRE-ORDER</text>
+  <text x="125" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">上市准备</text>
+  <text x="125" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">日期确认 · 支付 · 发布节奏</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="590" y="325" width="420" height="300" rx="28" fill="#ffffff" stroke="#8d63e6" stroke-width="3"/>
+  <text x="620" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#8d63e6">MADE-TO-ORDER</text>
+  <text x="620" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">生产产能</text>
+  <text x="620" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">原料 · 人工 · 质检 · 打包</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="1085" y="325" width="420" height="300" rx="28" fill="#ffffff" stroke="#ff5aa9" stroke-width="3"/>
+  <text x="1115" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#ff5aa9">BACKORDER</text>
+  <text x="1115" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">入库证据</text>
+  <text x="1115" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">采购单 · 运输 · 收货 · 缓冲</text>
+</g>
+     <text x="95" y="760" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#171521">每天复核，直到订单进入 In Transit 或完成异常处理。</text>
+</svg>

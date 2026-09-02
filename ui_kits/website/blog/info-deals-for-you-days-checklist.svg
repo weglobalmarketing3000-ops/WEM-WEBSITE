@@ -1,0 +1,97 @@
+<svg width="1600" height="1260" viewBox="0 0 1600 1260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop US Deals for You Days checklist</title>
+  <desc id="desc">A six-part checklist for TikTok Shop US Deals for You Days covering hero SKUs, creator seeding, storefront readiness, pricing, fulfillment, and search support.</desc>
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1440" y2="1120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101010"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1B1B1B"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF5B7F"/>
+      <stop offset="1" stop-color="#FF1493"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1260" fill="url(#bg)"/>
+  <circle cx="1320" cy="180" r="220" fill="#FF1493" fill-opacity="0.12"/>
+  <circle cx="250" cy="1050" r="180" fill="#FF1493" fill-opacity="0.09"/>
+
+  <text x="120" y="116" fill="#FF8FB9" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="4">WEM PLANNING FRAME</text>
+  <text x="120" y="184" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">TikTok Shop US Deals for You Days</text>
+  <text x="120" y="252" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">What Brands Should Lock Before the Sale</text>
+  <text x="120" y="308" fill="#C9C9C9" font-family="Arial, Helvetica, sans-serif" font-size="28">A practical WEM checklist for brand teams, Amazon sellers, and cross-border operators selling into the U.S.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="390" width="420" height="262" rx="28" fill="url(#panel)" stroke="#2A2A2A"/>
+    <rect x="590" y="390" width="420" height="262" rx="28" fill="url(#panel)" stroke="#2A2A2A"/>
+    <rect x="1060" y="390" width="420" height="262" rx="28" fill="url(#panel)" stroke="#2A2A2A"/>
+    <rect x="120" y="702" width="420" height="262" rx="28" fill="url(#panel)" stroke="#2A2A2A"/>
+    <rect x="590" y="702" width="420" height="262" rx="28" fill="url(#panel)" stroke="#2A2A2A"/>
+    <rect x="1060" y="702" width="420" height="262" rx="28" fill="url(#panel)" stroke="#2A2A2A"/>
+  </g>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="156" y="430" width="72" height="88" rx="14"/>
+    <path d="M174 458H210"/>
+    <path d="M174 490H210"/>
+    <path d="M266 438L286 458L328 416"/>
+
+    <circle cx="648" cy="472" r="30"/>
+    <path d="M688 442C710 428 738 430 752 448C766 466 762 492 742 508"/>
+    <path d="M624 520C650 538 686 538 712 520"/>
+
+    <path d="M1120 430H1188C1200 430 1210 440 1210 452V522C1210 534 1200 544 1188 544H1120C1108 544 1098 534 1098 522V452C1098 440 1108 430 1120 430Z"/>
+    <path d="M1136 466H1170"/>
+    <path d="M1136 492H1208"/>
+    <path d="M1136 518H1182"/>
+
+    <path d="M176 800H258"/>
+    <path d="M216 760V842"/>
+    <path d="M294 772H334"/>
+    <path d="M314 752V792"/>
+
+    <path d="M624 778H734"/>
+    <path d="M624 818H700"/>
+    <circle cx="758" cy="798" r="26"/>
+    <path d="M748 798L754 804L770 786"/>
+
+    <path d="M1118 778H1216"/>
+    <path d="M1118 818H1216"/>
+    <path d="M1250 772L1288 810L1250 848"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="156" y="572" fill="#FFFFFF" font-size="34" font-weight="700">1. Hero SKUs</text>
+    <text x="156" y="614" fill="#D4D4D4" font-size="24">Choose 1-3 products with the best</text>
+    <text x="156" y="646" fill="#D4D4D4" font-size="24">content story, margin, and sale fit.</text>
+
+    <text x="626" y="572" fill="#FFFFFF" font-size="34" font-weight="700">2. Creator Seeding</text>
+    <text x="626" y="614" fill="#D4D4D4" font-size="24">Ship samples early. Lock briefs,</text>
+    <text x="626" y="646" fill="#D4D4D4" font-size="24">hooks, and warm-up posting rhythm.</text>
+
+    <text x="1096" y="566" fill="#FFFFFF" font-size="34" font-weight="700">3. Storefront Readiness</text>
+    <text x="1096" y="610" fill="#D4D4D4" font-size="24">Align product cards, sale landing,</text>
+    <text x="1096" y="642" fill="#D4D4D4" font-size="24">reviews, and in-shop merchandising.</text>
+
+    <text x="156" y="884" fill="#FFFFFF" font-size="34" font-weight="700">4. Pricing Logic</text>
+    <text x="156" y="926" fill="#D4D4D4" font-size="24">Separate traffic drivers, margin</text>
+    <text x="156" y="958" fill="#D4D4D4" font-size="24">protectors, and bundle offers.</text>
+
+    <text x="626" y="884" fill="#FFFFFF" font-size="34" font-weight="700">5. Fulfillment</text>
+    <text x="626" y="926" fill="#D4D4D4" font-size="24">Pre-position inventory, align support,</text>
+    <text x="626" y="958" fill="#D4D4D4" font-size="24">and pressure-test delivery promises.</text>
+
+    <text x="1096" y="884" fill="#FFFFFF" font-size="34" font-weight="700">6. Search + Shop Support</text>
+    <text x="1096" y="926" fill="#D4D4D4" font-size="24">Carry the same offer language across</text>
+    <text x="1096" y="958" fill="#D4D4D4" font-size="24">search terms, merchant content, and PDPs.</text>
+  </g>
+
+  <text x="120" y="1110" fill="#B8B8B8" font-family="Arial, Helvetica, sans-serif" font-size="22">WEM angle: connect creator timing, product pages, sale pricing, and U.S. fulfillment before traffic spikes.</text>
+</svg>

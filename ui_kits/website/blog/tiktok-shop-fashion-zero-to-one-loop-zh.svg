@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">WEM TikTok Shop 服装冷启动 0-1 运营闭环</title>
+  <desc id="desc">七个阶段连接候选选款、达人匹配、试穿证明、商品页、付费测试、库存退货，以及扩大、修复或停止决定。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1ff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1f2a5a" flood-opacity=".10"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2855d9"/></marker>
+    <style>
+      .eyebrow{font:700 22px Arial,"PingFang SC",sans-serif;letter-spacing:2px;fill:#2855d9}
+      .headline{font:800 46px Arial,"PingFang SC",sans-serif;fill:#101735}
+      .sub{font:400 21px Arial,"PingFang SC",sans-serif;fill:#536080}
+      .n{font:800 20px Arial,sans-serif;fill:#2855d9}
+      .h{font:700 23px Arial,"PingFang SC",sans-serif;fill:#101735}
+      .p{font:400 17px Arial,"PingFang SC",sans-serif;fill:#536080}
+      .decision{font:800 23px Arial,"PingFang SC",sans-serif;fill:#ffffff}
+      .decisionSub{font:400 16px Arial,"PingFang SC",sans-serif;fill:#eaf0ff}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="34" fill="url(#bg)"/>
+  <text x="70" y="78" class="eyebrow">WEM 运营框架</text>
+  <text x="70" y="137" class="headline">服装冷启动是一套决策闭环</text>
+  <text x="70" y="178" class="sub">每一层都要让下一轮选款、达人、内容和库存决定更清楚。</text>
+  <path d="M240 315H380M540 315H680M840 315H980M1140 315V478H1010M850 535H710M550 535H410" fill="none" stroke="#2855d9" stroke-width="4" stroke-dasharray="9 9" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(70 240)"><rect width="170" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">01</text><text x="22" y="70" class="h">筛选</text><text x="22" y="98" class="p">3–7 个候选</text><text x="22" y="122" class="p">趋势 + 利润</text></g>
+    <g transform="translate(380 240)"><rect width="160" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">02</text><text x="22" y="70" class="h">匹配</text><text x="22" y="98" class="p">风格 + 用户</text><text x="22" y="122" class="p">身材尺码语境</text></g>
+    <g transform="translate(680 240)"><rect width="160" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">03</text><text x="22" y="70" class="h">证明</text><text x="22" y="98" class="p">版型 + 动态</text><text x="22" y="122" class="p">面料 + 搭配</text></g>
+    <g transform="translate(980 240)"><rect width="160" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">04</text><text x="22" y="70" class="h">转化</text><text x="22" y="98" class="p">尺码 + 变体</text><text x="22" y="122" class="p">Offer + 物流</text></g>
+    <g transform="translate(850 460)"><rect width="160" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">05</text><text x="22" y="70" class="h">放大</text><text x="22" y="98" class="p">GMV Max</text><text x="22" y="122" class="p">Affiliate 素材</text></g>
+    <g transform="translate(550 460)"><rect width="160" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">06</text><text x="22" y="70" class="h">承接</text><text x="22" y="98" class="p">变体库存</text><text x="22" y="122" class="p">退货 + 利润</text></g>
+    <g transform="translate(250 460)"><rect width="160" height="150" rx="24" fill="#fff"/><text x="22" y="35" class="n">07</text><text x="22" y="70" class="h">复盘</text><text x="22" y="98" class="p">可重复性</text><text x="22" y="122" class="p">下一步动作</text></g>
+  </g>
+  <g transform="translate(1030 475)"><rect width="300" height="176" rx="28" fill="#142b73"/><text x="28" y="48" class="decision">扩大 · 修复 · 停止</text><text x="28" y="84" class="decisionSub">扩大可重复的 Winner。</text><text x="28" y="112" class="decisionSub">修复明确失败的一层。</text><text x="28" y="140" class="decisionSub">停止没有证据的投入。</text></g>
+  <path d="M250 535C130 535 110 445 110 390" fill="none" stroke="#f06aa7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="70" y="704" class="sub">下一轮应该从更好的产品证据开始，而不是更大的动作量。</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">WEM Demand-to-Hero SKU Gate</title>
+  <desc id="desc">搜索需求建立候选池，商品真实价值、达人证明、转化经济和运营准备度共同决定 Hero SKU。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08070a"/><stop offset="1" stop-color="#17101d"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff2ba6"/><stop offset=".55" stop-color="#9a5cff"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .k{font:700 18px "Noto Sans SC","PingFang SC",Arial,sans-serif;letter-spacing:2px;fill:#ff62be}.h{font:900 46px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#fff}
+      .sub{font:400 23px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#cfc7d6}.step{font:800 23px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#fff}
+      .body{font:400 18px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#bdb3c5}.num{font:900 25px Arial,sans-serif;fill:#09070b}
+      .foot{font:700 18px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#f8e8f2}.arrow{stroke:#685f70;stroke-width:3;fill:none}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="36" fill="url(#bg)"/>
+  <circle cx="1190" cy="90" r="210" fill="#ff2ba6" opacity=".07"/><circle cx="1250" cy="690" r="260" fill="#7c3cff" opacity=".08"/>
+  <text x="80" y="76" class="k">WE MARKETING 运营框架</text>
+  <text x="80" y="135" class="h">Demand-to-Hero SKU Gate</text>
+  <text x="80" y="176" class="sub">搜索告诉团队去哪里调查，冷启动系统决定资源集中到哪里。</text>
+  <path d="M255 390H315M515 390H575M775 390H835M1035 390H1095" class="arrow"/>
+  <path d="M303 380l16 10-16 10M563 380l16 10-16 10M823 380l16 10-16 10M1083 380l16 10-16 10" class="arrow"/>
+  <g transform="translate(70 258)">
+    <rect width="190" height="264" rx="24" fill="#17131b" stroke="#ff2ba6" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#ff2ba6"/><text x="30" y="51" class="num">1</text>
+    <text x="28" y="94" class="step">需求信号</text>
+    <text x="28" y="130" class="body"><tspan x="28">具体搜索问题</tspan><tspan x="28" dy="28">趋势与供给</tspan><tspan x="28" dy="28">看后搜索</tspan></text>
+    <rect x="28" y="216" width="134" height="28" rx="14" fill="#ff2ba6" opacity=".15"/><text x="46" y="236" class="body">建立候选池</text>
+  </g>
+  <g transform="translate(330 258)">
+    <rect width="190" height="264" rx="24" fill="#17131b" stroke="#cb4be5" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#cb4be5"/><text x="30" y="51" class="num">2</text>
+    <text x="28" y="94" class="step">商品真实价值</text>
+    <text x="28" y="130" class="body"><tspan x="28">准确匹配</tspan><tspan x="28" dy="28">清楚使用场景</tspan><tspan x="28" dy="28">镜头可见价值</tspan></text>
+    <text x="28" y="232" class="body">能不能证明？</text>
+  </g>
+  <g transform="translate(590 258)">
+    <rect width="190" height="264" rx="24" fill="#17131b" stroke="#9a5cff" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#9a5cff"/><text x="30" y="51" class="num">3</text>
+    <text x="28" y="94" class="step">达人证明</text>
+    <text x="28" y="130" class="body"><tspan x="28">可信达人群</tspan><tspan x="28" dy="28">多种内容角度</tspan><tspan x="28" dy="28">信号可以重复</tspan></text>
+    <text x="28" y="232" class="body">不只一次爆点？</text>
+  </g>
+  <g transform="translate(850 258)">
+    <rect width="190" height="264" rx="24" fill="#17131b" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="38" cy="42" r="22" fill="#6366f1"/><text x="30" y="51" class="num">4</text>
+    <text x="28" y="94" class="step">转化经济</text>
+    <text x="28" y="130" class="body"><tspan x="28">商品页转化</tspan><tspan x="28" dy="28">贡献利润</tspan><tspan x="28" dy="28">退货风险</tspan></text>
+    <text x="28" y="232" class="body">放量真的有利？</text>
+  </g>
+  <g transform="translate(1110 258)">
+    <rect width="220" height="264" rx="24" fill="#20142a" stroke="#38bdf8" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="38" cy="42" r="22" fill="#38bdf8"/><text x="30" y="51" class="num">5</text>
+    <text x="28" y="94" class="step">运营准备度</text>
+    <text x="28" y="130" class="body"><tspan x="28">主推变体库存</tspan><tspan x="28" dy="28">履约稳定</tspan><tspan x="28" dy="28">客服承接能力</tspan></text>
+    <rect x="28" y="210" width="164" height="34" rx="17" fill="url(#accent)"/><text x="44" y="234" class="foot">HERO SKU 就绪</text>
+  </g>
+  <rect x="80" y="606" width="1240" height="86" rx="20" fill="#130f16" stroke="#342a3d"/>
+  <text x="110" y="642" class="foot">决策规则</text>
+  <text x="110" y="673" class="sub">高需求商品也可能无法通过 Gate。Hero SKU 必须在整个系统里成立。</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop agency evaluation scorecard</title>
+  <desc id="desc">A practical scorecard showing six criteria for choosing a TikTok Shop agency from a brand operator point of view.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".62" stop-color="#140018"/>
+      <stop offset="1" stop-color="#03010a"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff1493"/>
+      <stop offset=".55" stop-color="#9b30ff"/>
+      <stop offset="1" stop-color="#4A8FFF"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="16" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="820" fill="url(#bg)"/>
+  <circle cx="1130" cy="120" r="250" fill="#ff1493" opacity=".16" filter="url(#glow)"/>
+  <circle cx="160" cy="720" r="260" fill="#4A8FFF" opacity=".10" filter="url(#glow)"/>
+
+  <text x="72" y="82" fill="#ff1493" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="5">AGENCY FIT SCORECARD</text>
+  <text x="72" y="142" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="900">What we look for before recommending an agency</text>
+  <text x="72" y="188" fill="#cfc8d6" font-family="Arial, Helvetica, sans-serif" font-size="24">The right TikTok Shop partner should connect shop ops, creators, content, language, and reporting.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#fff">
+    <g transform="translate(72 258)">
+      <rect width="590" height="118" rx="22" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+      <circle cx="54" cy="59" r="23" fill="#ff1493"/>
+      <text x="92" y="48" font-size="24" font-weight="900">Cold-start experience</text>
+      <text x="92" y="82" fill="#cfc8d6" font-size="18">Has launched brands from zero to orders, posts, reviews, and weekly rhythm.</text>
+    </g>
+    <g transform="translate(738 258)">
+      <rect width="590" height="118" rx="22" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+      <circle cx="54" cy="59" r="23" fill="#9b30ff"/>
+      <text x="92" y="48" font-size="24" font-weight="900">Real creator relationships</text>
+      <text x="92" y="82" fill="#cfc8d6" font-size="18">Active community, pre-vetted creators, sampling follow-up, and trust.</text>
+    </g>
+    <g transform="translate(72 410)">
+      <rect width="590" height="118" rx="22" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+      <circle cx="54" cy="59" r="23" fill="#4A8FFF"/>
+      <text x="92" y="48" font-size="24" font-weight="900">Shop operations depth</text>
+      <text x="92" y="82" fill="#cfc8d6" font-size="18">Listings, SEO, promos, shop health, Seller Center, and issue handling.</text>
+    </g>
+    <g transform="translate(738 410)">
+      <rect width="590" height="118" rx="22" fill="#FF1493" opacity=".05"/>
+      <rect width="590" height="118" rx="22" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+      <circle cx="54" cy="59" r="23" fill="#FF1493"/>
+      <text x="92" y="48" font-size="24" font-weight="900">Content and live commerce</text>
+      <text x="92" y="82" fill="#cfc8d6" font-size="18">UGC, hooks, creator briefs, live clips, editing direction, ad-ready assets.</text>
+    </g>
+    <g transform="translate(72 562)">
+      <rect width="590" height="118" rx="22" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+      <circle cx="54" cy="59" r="23" fill="#f5a524"/>
+      <text x="92" y="48" font-size="24" font-weight="900">Market and language fit</text>
+      <text x="92" y="82" fill="#cfc8d6" font-size="18">English, Spanish, Chinese, plus U.S. creator and cross-border context.</text>
+    </g>
+    <g transform="translate(738 562)">
+      <rect width="590" height="118" rx="22" fill="#0b0b0d" stroke="rgba(255,255,255,.14)"/>
+      <circle cx="54" cy="59" r="23" fill="#ffffff"/>
+      <text x="92" y="48" font-size="24" font-weight="900">Transparent proof</text>
+      <text x="92" y="82" fill="#cfc8d6" font-size="18">Cases, sales results, creator output, post rate, and realistic reporting.</text>
+    </g>
+  </g>
+
+  <rect x="72" y="724" width="1256" height="48" rx="24" fill="url(#hot)" opacity=".95"/>
+  <text x="700" y="756" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">A good agency should move both sides of the marketplace: the brand team and the creator community.</text>
+</svg>

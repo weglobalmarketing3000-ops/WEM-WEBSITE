@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">达人筛选评分表</title>
+  <desc id="desc">寄样前筛选 TikTok Shop 达人的评分表。</desc>
+  <rect width="1200" height="675" fill="#070707"/>
+  <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">达人筛选评分表</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">寄样前先判断：这个达人值得寄吗？</text>
+  <g transform="translate(80 176)" font-family="Inter, Arial, sans-serif">
+    <rect width="1040" height="390" rx="20" fill="#101010" stroke="rgba(255,255,255,.14)"/>
+    <g fill="rgba(255,255,255,.48)" font-size="13" font-weight="800">
+      <text x="36" y="46">筛选项</text><text x="430" y="46">为什么重要</text><text x="860" y="46">权重</text>
+    </g>
+    <g font-size="17" fill="#fff">
+      <text x="36" y="100">品类匹配</text><text x="36" y="158">内容质量</text><text x="36" y="216">受众匹配</text>
+      <text x="36" y="274">发布可靠性</text><text x="36" y="332">沟通效率</text>
+    </g>
+    <g font-size="14" fill="rgba(255,255,255,.68)">
+      <text x="430" y="100">产品出现在内容里要自然，不像硬广。</text>
+      <text x="430" y="158">光线、开头、清晰度和产品展示。</text>
+      <text x="430" y="216">受众需求要匹配价格和使用场景。</text>
+      <text x="430" y="274">收到样品后能按时完成发布。</text>
+      <text x="430" y="332">回复快，内容要求 和修改都会更顺。</text>
+    </g>
+    <g fill="#FF1493" font-size="18" font-weight="900">
+      <text x="860" y="100">25%</text><text x="860" y="158">25%</text><text x="860" y="216">20%</text><text x="860" y="274">20%</text><text x="860" y="332">10%</text>
+    </g>
+    <g stroke="rgba(255,255,255,.08)"><line x1="24" y1="70" x2="1016" y2="70"/><line x1="24" y1="126" x2="1016" y2="126"/><line x1="24" y1="184" x2="1016" y2="184"/><line x1="24" y1="242" x2="1016" y2="242"/><line x1="24" y1="300" x2="1016" y2="300"/></g>
+  </g>
+  <text x="80" y="622" fill="rgba(255,255,255,.5)" font-family="Inter, Arial, sans-serif" font-size="14">审批样品前使用</text>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">POP、ACCU、全托管 TikTok Shop 美国入驻路径主图</title>
+  <desc id="desc">更 graphic 的主图封面，用三种路径模块展示 POP、ACCU、全托管的差异。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09070B"/>
+      <stop offset=".48" stop-color="#120E19"/>
+      <stop offset="1" stop-color="#07131A"/>
+    </linearGradient>
+    <radialGradient id="pinkGlow" cx=".11" cy=".1" r=".62">
+      <stop offset="0" stop-color="#FF1493" stop-opacity=".34"/>
+      <stop offset=".45" stop-color="#FF1493" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#FF1493" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx=".9" cy=".2" r=".45">
+      <stop offset="0" stop-color="#4A8FFF" stop-opacity=".22"/>
+      <stop offset=".45" stop-color="#4A8FFF" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#4A8FFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF2E9F"/>
+      <stop offset="1" stop-color="#4A8FFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000000" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .sans { font-family: Arial, Helvetica, sans-serif; }
+      .eyebrow { fill:#FF2E9F; font-size:22px; font-weight:700; letter-spacing:3px; }
+      .title { fill:#FFFFFF; font-size:66px; font-weight:800; }
+      .sub { fill:#CFCFD5; font-size:24px; font-weight:600; }
+      .module-title { fill:#FFFFFF; font-size:44px; font-weight:800; }
+      .module-sub { fill:#FF5BB0; font-size:18px; font-weight:700; letter-spacing:1.4px; }
+      .module-copy { fill:#E9E9EE; font-size:21px; font-weight:700; }
+      .small { fill:#9DA0AA; font-size:16px; font-weight:700; letter-spacing:1px; }
+      .note { fill:#A8A8AD; font-size:17px; }
+      .pillText { fill:#FFFFFF; font-size:18px; font-weight:700; }
+    </style>
+  </defs>
+
+  <rect width="1672" height="941" fill="url(#bg)"/>
+  <rect width="1672" height="941" fill="url(#pinkGlow)"/>
+  <rect width="1672" height="941" fill="url(#blueGlow)"/>
+
+  <g class="sans">
+    <text x="96" y="104" class="eyebrow">TIKTOK SHOP US · ENTRY MODEL GUIDE</text>
+    <text x="96" y="186" class="title">POP vs ACCU vs 全托管</text>
+    <text x="96" y="260" class="title">先选路径，再谈怎么开店</text>
+    <text x="96" y="318" class="sub">不是一个主体套所有玩法。主体、履约、经营责任，决定你该走哪条路。</text>
+
+    <rect x="96" y="354" width="196" height="42" rx="21" fill="#101117" stroke="#262734"/>
+    <text x="126" y="381" class="pillText">主体结构</text>
+    <rect x="308" y="354" width="196" height="42" rx="21" fill="#101117" stroke="#262734"/>
+    <text x="338" y="381" class="pillText">履约方式</text>
+    <rect x="520" y="354" width="196" height="42" rx="21" fill="#101117" stroke="#262734"/>
+    <text x="550" y="381" class="pillText">责任归属</text>
+
+    <g filter="url(#shadow)">
+      <rect x="96" y="445" width="444" height="330" rx="34" fill="#0B0C11" stroke="#262833"/>
+      <rect x="614" y="445" width="444" height="330" rx="34" fill="#0B0C11" stroke="#262833"/>
+      <rect x="1132" y="445" width="444" height="330" rx="34" fill="#0B0C11" stroke="#262833"/>
+    </g>
+
+    <rect x="96" y="445" width="444" height="12" rx="6" fill="url(#accent)"/>
+    <rect x="614" y="445" width="444" height="12" rx="6" fill="url(#accent)"/>
+    <rect x="1132" y="445" width="444" height="12" rx="6" fill="url(#accent)"/>
+
+    <g transform="translate(130 486)">
+      <circle cx="44" cy="42" r="42" fill="#15131A" stroke="#323546"/>
+      <rect x="20" y="24" width="48" height="34" rx="8" fill="none" stroke="#FF4AAA" stroke-width="4"/>
+      <path d="M28 66 L60 66" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 18 L54 18" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <text x="104" y="22" class="module-sub">SELF-OPERATED</text>
+      <text x="104" y="72" class="module-title">POP</text>
+      <text x="104" y="108" class="module-copy">中港主体</text>
+      <text x="0" y="170" class="small">适合</text>
+      <text x="0" y="202" class="module-copy">已有中港主体</text>
+      <text x="0" y="234" class="module-copy">能做美国本地发货</text>
+      <text x="0" y="282" class="small">关键词</text>
+      <text x="0" y="314" class="module-copy">本地仓 · 自运营 · 1500 美金</text>
+    </g>
+
+    <g transform="translate(648 486)">
+      <circle cx="44" cy="42" r="42" fill="#15131A" stroke="#323546"/>
+      <rect x="24" y="18" width="40" height="48" rx="8" fill="none" stroke="#FF4AAA" stroke-width="4"/>
+      <path d="M34 30 L54 30" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 42 L54 42" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M34 54 L48 54" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <text x="104" y="22" class="module-sub">U.S. ENTITY POP</text>
+      <text x="104" y="72" class="module-title">ACCU</text>
+      <text x="104" y="108" class="module-copy">美国主体</text>
+      <text x="0" y="170" class="small">适合</text>
+      <text x="0" y="202" class="module-copy">美国注册企业</text>
+      <text x="0" y="234" class="module-copy">中国受益人团队</text>
+      <text x="0" y="282" class="small">关键词</text>
+      <text x="0" y="314" class="module-copy">公司文件 · IRS 补件 · 暂不缴纳</text>
+    </g>
+
+    <g transform="translate(1166 486)">
+      <circle cx="44" cy="42" r="42" fill="#15131A" stroke="#323546"/>
+      <path d="M18 58 L30 26 L46 46 L60 18 L70 58 Z" fill="none" stroke="#FF4AAA" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M20 62 L68 62" stroke="#4A8FFF" stroke-width="4" stroke-linecap="round"/>
+      <text x="104" y="22" class="module-sub">SUPPLY-LED MODEL</text>
+      <text x="104" y="72" class="module-title">全托管</text>
+      <text x="104" y="108" class="module-copy">供货导向</text>
+      <text x="0" y="170" class="small">适合</text>
+      <text x="0" y="202" class="module-copy">工厂、工贸一体</text>
+      <text x="0" y="234" class="module-copy">供应链强的团队</text>
+      <text x="0" y="282" class="small">关键词</text>
+      <text x="0" y="314" class="module-copy">供货型 · 托管模式 · 1000 元</text>
+    </g>
+
+    <path d="M540 612 C575 612 578 612 614 612" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
+    <path d="M1058 612 C1093 612 1096 612 1132 612" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
+    <polygon points="606,605 624,612 606,619" fill="#4A8FFF"/>
+    <polygon points="1124,605 1142,612 1124,619" fill="#4A8FFF"/>
+
+    <line x1="96" y1="840" x2="1576" y2="840" stroke="#1D1E24"/>
+    <text x="96" y="885" class="note">品牌托管通常更偏定向邀请，所以封面主图先突出最常被拿来比较的 3 条路径。具体规则仍以 TikTok Shop Global Selling 官方页面和审核结果为准。</text>
+  </g>
+</svg>

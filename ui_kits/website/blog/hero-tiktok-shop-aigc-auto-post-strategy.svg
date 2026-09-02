@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop AIGC Auto-post content supply chain</title>
+  <desc id="desc">Dashboard visual showing product inputs moving into AIGC generation, Scheduled Posts review, and paid amplification.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.46" stop-color="#111827"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff1493"/>
+      <stop offset="1" stop-color="#9b30ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#20f6ff"/>
+      <stop offset="1" stop-color="#4a8fff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1 0 0 0 0 .12 0 0 1 0 .58 0 0 0 .75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1260" cy="90" r="260" fill="#ff1493" opacity=".16"/>
+  <circle cx="180" cy="830" r="300" fill="#20f6ff" opacity=".10"/>
+  <path d="M95 155h1410v590H95z" fill="#050505" opacity=".72" stroke="#ffffff" stroke-opacity=".12" stroke-width="2" rx="28"/>
+  <text x="135" y="120" fill="#ff1493" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="6">WEM TIKTOK SHOP STRATEGY</text>
+  <text x="135" y="230" fill="#ffffff" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900">AIGC AUTO-POST</text>
+  <text x="135" y="298" fill="#ffffff" opacity=".8" font-family="Arial, sans-serif" font-size="34">Needs an operator, not just a switch</text>
+  <g transform="translate(130 390)">
+    <rect width="295" height="210" rx="22" fill="#111827" stroke="#ff1493" stroke-opacity=".55"/>
+    <text x="28" y="48" fill="#ff1493" font-family="Arial, sans-serif" font-size="20" font-weight="700">01 PRODUCT INPUTS</text>
+    <text x="28" y="92" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">SKU pool</text>
+    <text x="28" y="128" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">PDP assets</text>
+    <text x="28" y="162" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">Images + claims</text>
+  </g>
+  <g transform="translate(470 390)">
+    <rect width="295" height="210" rx="22" fill="#111827" stroke="#20f6ff" stroke-opacity=".55"/>
+    <text x="28" y="48" fill="#20f6ff" font-family="Arial, sans-serif" font-size="20" font-weight="700">02 AIGC OUTPUT</text>
+    <text x="28" y="92" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">AI photos</text>
+    <text x="28" y="128" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">AI videos</text>
+    <text x="28" y="162" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">Daily publishing</text>
+  </g>
+  <g transform="translate(810 390)">
+    <rect width="295" height="210" rx="22" fill="#111827" stroke="#ff1493" stroke-opacity=".55"/>
+    <text x="28" y="48" fill="#ff1493" font-family="Arial, sans-serif" font-size="20" font-weight="700">03 REVIEW QUEUE</text>
+    <text x="28" y="92" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Scheduled Posts</text>
+    <text x="28" y="128" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">Cancel / regenerate</text>
+    <text x="28" y="162" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">Hidden from profile</text>
+  </g>
+  <g transform="translate(1150 390)">
+    <rect width="295" height="210" rx="22" fill="#111827" stroke="#20f6ff" stroke-opacity=".55"/>
+    <text x="28" y="48" fill="#20f6ff" font-family="Arial, sans-serif" font-size="20" font-weight="700">04 SCALE SIGNALS</text>
+    <text x="28" y="92" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Creators + ads</text>
+    <text x="28" y="128" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">VV + GMV</text>
+    <text x="28" y="162" fill="#ffffff" opacity=".72" font-family="Arial, sans-serif" font-size="18">Retargeting loop</text>
+  </g>
+  <g stroke="url(#pink)" stroke-width="5" stroke-linecap="round" fill="none" filter="url(#glow)">
+    <path d="M425 495h45"/>
+    <path d="M765 495h45"/>
+    <path d="M1105 495h45"/>
+  </g>
+  <text x="135" y="690" fill="#ffffff" opacity=".8" font-family="Arial, sans-serif" font-size="26">Why / How / Insight for TikTok Shop sellers</text>
+  <text x="135" y="735" fill="#ffffff" opacity=".55" font-family="Arial, sans-serif" font-size="20">Product inputs -> AIGC generation -> Scheduled Posts review -> paid amplification</text>
+</svg>

@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TikTok Shop Consulting & Advisory | WE Marketing</title>
+  <meta name="description" content="Founder-led TikTok Shop strategy sessions and ongoing advisory for brands with internal teams that need experienced operator guidance.">
+  <link rel="stylesheet" href="../colors_and_type.css">
+  <style>
+    :root {
+      --pink: #ff1493;
+      --pink-soft: #ff5eb7;
+      --purple: #9b30ff;
+      --blue: #4a8fff;
+      --ink: #050505;
+      --panel: #0b0b0e;
+      --panel-2: #121218;
+      --muted: rgba(255,255,255,.68);
+      --faint: rgba(255,255,255,.46);
+      --line: rgba(255,255,255,.12);
+      --line-strong: rgba(255,255,255,.22);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body {
+      margin: 0;
+      max-width: 100vw;
+      overflow-x: hidden;
+      background: #000;
+      color: #fff;
+      font-family: var(--font-sans, "Space Grotesk", Arial, sans-serif);
+      line-height: 1.55;
+    }
+    body.lang-en [data-zh], body.lang-zh [data-en] { display: none !important; }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    .wrap { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+    .eyebrow {
+      color: var(--pink);
+      font-family: var(--font-mono, "Space Mono", monospace);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 0 24px;
+      border: 0;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--pink), var(--purple));
+      color: #fff;
+      box-shadow: 0 0 30px rgba(255,20,147,.25);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: .045em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: transform .14s ease, box-shadow .14s ease;
+    }
+    .button:hover, .button:focus-visible {
+      transform: translateY(-2px);
+      box-shadow: 0 0 40px rgba(255,20,147,.42);
+      outline: none;
+    }
+    .button:active { transform: scale(.97); }
+    .button.secondary {
+      background: transparent;
+      border: 1px solid var(--line-strong);
+      box-shadow: none;
+    }
+    .button.secondary:hover, .button.secondary:focus-visible {
+      background: #fff;
+      color: #090909;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(0,0,0,.94);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand { display: inline-flex; align-items: center; text-decoration: none; }
+    .brand img { width: 42px; height: 42px; object-fit: contain; display: block; }
+    .nav-right { display: flex; align-items: center; gap: 18px; }
+    .nav-links { display: flex; align-items: center; gap: 22px; }
+    .nav-links a {
+      color: rgba(255,255,255,.76);
+      font-size: 13px;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .nav-links a:hover { color: #fff; }
+    .lang-toggle {
+      display: inline-flex;
+      padding: 3px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #0b0b0b;
+    }
+    .lang-toggle button {
+      min-width: 42px;
+      padding: 7px 10px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(255,255,255,.55);
+      font: inherit;
+      font-size: 11px;
+      font-weight: 850;
+      cursor: pointer;
+    }
+    .lang-toggle button.active { background: #fff; color: #050505; }
+
+    .hero {
+      position: relative;
+      min-height: 720px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 980px;
+      height: 780px;
+      top: -310px;
+      right: -250px;
+      background: radial-gradient(circle, rgba(255,20,147,.36) 0, rgba(155,48,255,.17) 34%, rgba(74,143,255,.08) 52%, transparent 70%);
+      filter: blur(18px);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .16;
+      background-image:
+        linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: linear-gradient(to bottom, #000, transparent 78%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(300px, .65fr);
+      gap: 70px;
+      align-items: end;
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+    .hero h1 {
+      max-width: 900px;
+      margin: 18px 0 24px;
+      font-family: var(--font-display, "Archivo Black", sans-serif);
+      font-size: clamp(58px, 7.4vw, 108px);
+      line-height: .92;
+      letter-spacing: -.048em;
+      text-transform: uppercase;
+    }
+    .hero h1 .gradient {
+      background: linear-gradient(90deg, #fff 0%, var(--pink-soft) 43%, #8fb5ff 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero-copy {
+      max-width: 760px;
+      margin: 0;
+      color: rgba(255,255,255,.76);
+      font-size: clamp(18px, 2vw, 22px);
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .hero-aside {
+      position: relative;
+      padding: 28px;
+      border: 1px solid rgba(255,20,147,.32);
+      border-radius: 14px;
+      background: #0b0710;
+    }
+    .hero-aside::before {
+      content: "";
+      position: absolute;
+      left: -1px;
+      top: 28px;
+      bottom: 28px;
+      width: 3px;
+      background: linear-gradient(var(--pink), var(--blue));
+    }
+    .hero-aside strong {
+      display: block;
+      margin-top: 11px;
+      font-size: 25px;
+      line-height: 1.15;
+    }
+    .hero-aside p { margin: 13px 0 0; color: var(--muted); font-size: 14px; }
+
+    .path-strip {
+      border-bottom: 1px solid var(--line);
+      background: #060606;
+    }
+    .path-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .path {
+      min-height: 170px;
+      padding: 34px 30px;
+      border-right: 1px solid var(--line);
+    }
+    .path:first-child { border-left: 1px solid var(--line); }
+    .path .num { color: var(--pink); font-family: var(--font-mono, monospace); font-size: 11px; letter-spacing: .14em; }
+    .path h2 { margin: 12px 0 8px; font-size: 23px; line-height: 1.1; }
+    .path p { margin: 0; color: var(--muted); font-size: 14px; }
+
+    section { border-bottom: 1px solid var(--line); }
+    .block { padding: 105px 0; }
+    .section-head { max-width: 820px; margin-bottom: 48px; }
+    .section-head h2 {
+      margin: 13px 0 18px;
+      font-family: var(--font-display, "Archivo Black", sans-serif);
+      font-size: clamp(42px, 5.4vw, 72px);
+      line-height: .98;
+      letter-spacing: -.035em;
+      text-transform: uppercase;
+    }
+    .section-head p { margin: 0; color: var(--muted); font-size: 18px; }
+
+    .decision-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 18px;
+    }
+    .decision-panel {
+      min-height: 430px;
+      padding: 38px;
+      border-radius: 14px;
+      background: #f5f3ef;
+      color: #0b0b0b;
+    }
+    .decision-panel.dark {
+      background: linear-gradient(145deg, #15121b, #09090b);
+      color: #fff;
+      border: 1px solid var(--line);
+    }
+    .decision-panel h3 {
+      max-width: 600px;
+      margin: 20px 0 26px;
+      font-size: clamp(30px, 4vw, 52px);
+      line-height: 1;
+      letter-spacing: -.035em;
+    }
+    .decision-list { display: grid; gap: 0; margin-top: 34px; }
+    .decision-row {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      padding: 17px 0;
+      border-top: 1px solid rgba(0,0,0,.15);
+    }
+    .dark .decision-row { border-color: var(--line); }
+    .decision-row span:first-child {
+      color: var(--pink);
+      font-family: var(--font-mono, monospace);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .decision-row strong { display: block; font-size: 16px; }
+    .decision-row small { display: block; margin-top: 5px; color: rgba(0,0,0,.58); font-size: 13px; }
+    .dark .decision-row small { color: var(--muted); }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 15px;
+      align-items: stretch;
+    }
+    .price-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 590px;
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      transition: transform .2s ease, border-color .2s ease;
+    }
+    .price-card:hover { transform: translateY(-4px); border-color: rgba(255,255,255,.28); }
+    .price-card.featured {
+      border-color: rgba(255,20,147,.48);
+      background: linear-gradient(155deg, rgba(255,20,147,.16), rgba(155,48,255,.08) 42%, #0b0b0e 78%);
+    }
+    .recommended {
+      position: absolute;
+      top: 19px;
+      right: 19px;
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: var(--pink);
+      color: #fff;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .price-card h3 { margin: 18px 0 8px; font-size: 27px; line-height: 1.1; }
+    .best-for { min-height: 68px; margin: 0; color: var(--muted); font-size: 14px; }
+    .price {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin: 30px 0 24px;
+      font-family: var(--font-display, "Archivo Black", sans-serif);
+      font-size: 52px;
+      letter-spacing: -.04em;
+    }
+    .price small {
+      color: var(--faint);
+      font-family: var(--font-sans, sans-serif);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .features { display: grid; gap: 12px; margin: 0 0 28px; padding: 0; list-style: none; }
+    .features li {
+      position: relative;
+      padding-left: 22px;
+      color: rgba(255,255,255,.76);
+      font-size: 14px;
+    }
+    .features li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--pink);
+      font-weight: 900;
+    }
+    .price-card .button { margin-top: auto; width: 100%; }
+    .price-note { margin: 16px 0 0; color: var(--faint); font-size: 11px; text-align: center; }
+
+    .scope {
+      background: #f5f3ef;
+      color: #0a0a0a;
+    }
+    .scope .eyebrow { color: #d00072; }
+    .scope .section-head p { color: rgba(0,0,0,.6); }
+    .scope-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .scope-card {
+      min-height: 390px;
+      padding: 38px;
+      border-radius: 14px;
+      background: #fff;
+      border: 1px solid rgba(0,0,0,.1);
+    }
+    .scope-card.execution {
+      background: #0b0b0e;
+      color: #fff;
+      border-color: #0b0b0e;
+    }
+    .scope-card h3 { margin: 15px 0 16px; font-size: 34px; line-height: 1; }
+    .scope-card p { margin: 0; color: rgba(0,0,0,.58); }
+    .scope-card.execution p { color: var(--muted); }
+    .scope-card ul { display: grid; gap: 12px; margin: 30px 0 0; padding: 0; list-style: none; }
+    .scope-card li { padding-top: 12px; border-top: 1px solid rgba(0,0,0,.12); font-size: 14px; }
+    .scope-card.execution li { border-color: var(--line); }
+
+    .process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .step {
+      min-height: 270px;
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+    }
+    .step .step-num {
+      font-family: var(--font-display, sans-serif);
+      font-size: 68px;
+      line-height: 1;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(255,255,255,.24);
+    }
+    .step h3 { margin: 24px 0 10px; font-size: 24px; }
+    .step p { margin: 0; color: var(--muted); font-size: 14px; }
+
+    .faq-list { display: grid; gap: 11px; }
+    details {
+      padding: 0 24px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #090909;
+    }
+    summary {
+      display: flex;
+      justify-content: space-between;
+      gap: 22px;
+      padding: 22px 0;
+      cursor: pointer;
+      list-style: none;
+      font-size: 17px;
+      font-weight: 850;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; color: var(--pink); font-size: 23px; line-height: 1; }
+    details[open] summary::after { content: "−"; }
+    details p { max-width: 900px; margin: 0; padding: 0 0 23px; color: var(--muted); }
+
+    .final {
+      position: relative;
+      overflow: hidden;
+      padding: 115px 0;
+      text-align: center;
+    }
+    .final::before {
+      content: "";
+      position: absolute;
+      width: 900px;
+      height: 520px;
+      left: 50%;
+      bottom: -380px;
+      transform: translateX(-50%);
+      background: radial-gradient(circle, rgba(255,20,147,.45), rgba(155,48,255,.12) 48%, transparent 70%);
+      filter: blur(18px);
+    }
+    .final .wrap { position: relative; z-index: 1; }
+    .final h2 {
+      max-width: 980px;
+      margin: 14px auto 20px;
+      font-family: var(--font-display, sans-serif);
+      font-size: clamp(48px, 6.5vw, 86px);
+      line-height: .96;
+      letter-spacing: -.04em;
+      text-transform: uppercase;
+    }
+    .final p { max-width: 720px; margin: 0 auto 30px; color: var(--muted); font-size: 18px; }
+    .final-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+    .credit-note { margin-top: 18px; color: var(--faint); font-size: 12px; }
+
+    footer { padding: 29px 0; border-top: 1px solid var(--line); color: var(--faint); font-size: 12px; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+
+    @media (max-width: 980px) {
+      .hero { min-height: auto; }
+      .hero-grid { grid-template-columns: 1fr; align-items: start; gap: 38px; }
+      .hero-aside { max-width: 620px; }
+      .pricing-grid { grid-template-columns: 1fr; }
+      .price-card { min-height: 0; }
+      .best-for { min-height: 0; }
+      .decision-grid, .scope-grid { grid-template-columns: 1fr; }
+      .process-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 760px) {
+      .wrap { padding-left: 20px; padding-right: 20px; }
+      .nav-links { display: none; }
+      .nav-inner { min-height: 64px; }
+      .path-grid { grid-template-columns: 1fr; }
+      .path, .path:first-child { border-left: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+      .path:last-child { border-bottom: 0; }
+      .hero-grid { padding-top: 68px; padding-bottom: 68px; }
+      .hero h1 { font-size: clamp(46px, 15vw, 66px); }
+      .block { padding: 76px 0; }
+      .decision-panel, .scope-card, .price-card { padding: 26px; }
+      .price { font-size: 46px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; }
+    }
+  </style>
+</head>
+<body class="lang-en">
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html" aria-label="WE Marketing home">
+        <img src="../assets/we-logo-white.png" alt="WE Marketing">
+      </a>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="../services.html"><span data-en>Services</span><span data-zh>服务</span></a>
+          <a href="../showcase.html"><span data-en>Case Studies</span><span data-zh>案例</span></a>
+          <a href="../blog.html"><span data-en>Insights</span><span data-zh>洞察</span></a>
+        </div>
+        <div class="lang-toggle" aria-label="Language">
+          <button type="button" class="active" data-set-lang="en">EN</button>
+          <button type="button" data-set-lang="zh">中文</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">
+            <span data-en>Founder-led TikTok Shop advisory</span>
+            <span data-zh>WEM 创始人顾问服务</span>
+          </div>
+          <h1>
+            <span data-en>Strategy before <span class="gradient">execution.</span></span>
+            <span data-zh>先判断方向，<span class="gradient">再投入执行。</span></span>
+          </h1>
+          <p class="hero-copy">
+            <span data-en>Some teams already have people who can execute. What they need is an experienced TikTok Shop operator helping them read the signals, make better decisions, and focus on the right work first.</span>
+            <span data-zh>有些团队不缺执行的人，缺的是一个真正做过 TikTok Shop 的 operator，帮你看懂信号、判断优先级，并决定下一步应该先做什么。</span>
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#plans"><span data-en>View advisory options →</span><span data-zh>查看顾问方案 →</span></a>
+            <a class="button secondary" href="#fit"><span data-en>Is advisory right for us?</span><span data-zh>我们适合顾问服务吗？</span></a>
+          </div>
+        </div>
+        <aside class="hero-aside">
+          <div class="eyebrow"><span data-en>A different kind of support</span><span data-zh>另一种合作方式</span></div>
+          <strong><span data-en>Your team executes. WEM helps you decide what to do next.</span><span data-zh>你们团队负责执行，WEM 帮你判断下一步。</span></strong>
+          <p><span data-en>Available as a focused one-time session or an ongoing monthly advisory relationship.</span><span data-zh>可以预约一次，也可以按月持续合作。</span></p>
+        </aside>
+      </div>
+    </header>
+
+    <section class="path-strip" aria-label="Ways to work with WEM">
+      <div class="wrap path-grid">
+        <article class="path">
+          <div class="num">01 · ONE DECISION</div>
+          <h2><span data-en>One-time strategy session</span><span data-zh>单次策略咨询</span></h2>
+          <p><span data-en>For one specific question that needs experienced operator judgment.</span><span data-zh>适合有一个明确问题，需要有经验的人帮你判断。</span></p>
+        </article>
+        <article class="path">
+          <div class="num">02 · ONGOING GUIDANCE</div>
+          <h2><span data-en>Monthly advisory</span><span data-zh>月度顾问服务</span></h2>
+          <p><span data-en>For in-house teams that need recurring data review and decision support.</span><span data-zh>适合有内部团队，但需要持续看数据、定方向的品牌。</span></p>
+        </article>
+        <article class="path">
+          <div class="num">03 · HANDS-ON EXECUTION</div>
+          <h2><span data-en>Full-service partnership</span><span data-zh>全案执行合作</span></h2>
+          <p><span data-en>For brands that want WEM to run creators, content, shop operations, and growth.</span><span data-zh>适合需要 WEM 直接负责达人、内容、店铺和增长执行的品牌。</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="block" id="fit">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow"><span data-en>What advisory is for</span><span data-zh>顾问服务解决什么</span></div>
+          <h2><span data-en>Bring the decision that is slowing your team down.</span><span data-zh>把最影响推进的那个问题带过来。</span></h2>
+          <p><span data-en>We connect the question to the full operating system, because product, creators, samples, content, paid media, inventory, and fulfillment rarely fail in isolation.</span><span data-zh>我们不会只回答表面问题，因为产品、达人、寄样、内容、广告、库存和履约通常是连在一起的。</span></p>
+        </div>
+        <div class="decision-grid">
+          <article class="decision-panel">
+            <div class="eyebrow"><span data-en>Good questions to bring</span><span data-zh>适合带来的问题</span></div>
+            <h3><span data-en>“What should we actually do next?”</span><span data-zh>“我们下一步到底应该先做什么？”</span></h3>
+            <div class="decision-list">
+              <div class="decision-row"><span>01</span><div><strong><span data-en>Launch readiness</span><span data-zh>启动准备度</span></strong><small><span data-en>Are the product, margin, inventory, offer, and fulfillment ready for TikTok Shop?</span><span data-zh>产品、利润、库存、offer 和履约是否真的 ready？</span></small></div></div>
+              <div class="decision-row"><span>02</span><div><strong><span data-en>Creator and sample performance</span><span data-zh>达人与寄样表现</span></strong><small><span data-en>Why are creators not accepting, posting, or converting, and what should change first?</span><span data-zh>为什么达人不接、不发或不转化，应该先改哪里？</span></small></div></div>
+              <div class="decision-row"><span>03</span><div><strong><span data-en>Growth priorities</span><span data-zh>增长优先级</span></strong><small><span data-en>Should the next dollar go to creators, content, GMV Max, offers, or shop conversion?</span><span data-zh>下一笔预算应该放在达人、内容、GMV Max、offer，还是商品页转化？</span></small></div></div>
+              <div class="decision-row"><span>04</span><div><strong><span data-en>Team and agency fit</span><span data-zh>团队与 agency 分工</span></strong><small><span data-en>What should stay in-house, what needs expert support, and what is not ready yet?</span><span data-zh>什么应该内部做，什么需要外部支持，什么现在还不该做？</span></small></div></div>
+            </div>
+          </article>
+          <article class="decision-panel dark">
+            <div class="eyebrow"><span data-en>What makes it useful</span><span data-zh>为什么不是普通聊天</span></div>
+            <h3><span data-en>Direct answers, connected to real operations.</span><span data-zh>直接回答，也把答案放回真实运营里。</span></h3>
+            <div class="decision-list">
+              <div class="decision-row"><span>01</span><div><strong><span data-en>Focused intake</span><span data-zh>会前聚焦</span></strong><small><span data-en>We review the context and choose the highest-value question before the call.</span><span data-zh>会前看背景，并确认最值得解决的问题。</span></small></div></div>
+              <div class="decision-row"><span>02</span><div><strong><span data-en>Operator perspective</span><span data-zh>Operator 视角</span></strong><small><span data-en>Recommendations reflect creator, content, shop, paid, and fulfillment tradeoffs.</span><span data-zh>建议会同时考虑达人、内容、店铺、广告和履约的取舍。</span></small></div></div>
+              <div class="decision-row"><span>03</span><div><strong><span data-en>Prioritized next actions</span><span data-zh>明确下一步</span></strong><small><span data-en>You leave knowing what to do first, what to measure, and what can wait.</span><span data-zh>你会知道先做什么、看什么指标、哪些事情可以等。</span></small></div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="plans">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow"><span data-en>Advisory options</span><span data-zh>顾问方案</span></div>
+          <h2><span data-en>One question, or an ongoing seat at the table.</span><span data-zh>解决一个问题，或持续参与关键判断。</span></h2>
+          <p><span data-en>Choose the level of judgment and review your team needs. Execution remains with your team unless we separately scope a full-service engagement.</span><span data-zh>根据团队需要的分析深度和频率选择。除非另行确定全案服务，日常执行仍由你们团队负责。</span></p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <div class="eyebrow"><span data-en>One-time</span><span data-zh>单次</span></div>
+            <h3><span data-en>Strategy Session</span><span data-zh>策略咨询</span></h3>
+            <p class="best-for"><span data-en>Best for one focused TikTok Shop question that needs a clear, experienced answer.</span><span data-zh>适合有一个明确的 TikTok Shop 问题，需要深入回答和下一步建议。</span></p>
+            <div class="price">$299 <small><span data-en>/ 60 minutes</span><span data-zh>/ 60 分钟</span></small></div>
+            <ul class="features">
+              <li><span data-en>Pre-session intake form</span><span data-zh>会前 intake form</span></li>
+              <li><span data-en>One core business or growth question</span><span data-zh>聚焦一个核心经营问题</span></li>
+              <li><span data-en>60-minute founder-led working session</span><span data-zh>60 分钟创始人策略会议</span></li>
+              <li><span data-en>3 to 5 prioritized next actions</span><span data-zh>3 到 5 个下一步优先事项</span></li>
+              <li><span data-en>One clarification question within 48 hours</span><span data-zh>48 小时内可追问一个 clarification</span></li>
+            </ul>
+            <a class="button secondary" href="#contact"><span data-en>Book one session →</span><span data-zh>预约单次咨询 →</span></a>
+            <p class="price-note"><span data-en>No full account audit or custom strategy deck.</span><span data-zh>不包含完整账户 audit 或定制 strategy deck。</span></p>
+          </article>
+
+          <article class="price-card featured">
+            <div class="recommended"><span data-en>Best starting point</span><span data-zh>推荐起点</span></div>
+            <div class="eyebrow"><span data-en>Twice monthly</span><span data-zh>每月两次</span></div>
+            <h3><span data-en>Growth Advisory</span><span data-zh>增长顾问</span></h3>
+            <p class="best-for"><span data-en>Best for in-house teams that can execute but need recurring data review and decision support.</span><span data-zh>适合有内部执行团队，需要持续看数据、校准方向和优先级的品牌。</span></p>
+            <div class="price">$1,499 <small><span data-en>/ month</span><span data-zh>/ 月</span></small></div>
+            <ul class="features">
+              <li><span data-en>Two 60-minute advisory sessions per month</span><span data-zh>每月两次 60 分钟顾问会议</span></li>
+              <li><span data-en>Pre-call review of core performance data</span><span data-zh>会前查看核心运营数据</span></li>
+              <li><span data-en>Creator, sample, content, shop, and paid-media diagnosis</span><span data-zh>达人、寄样、内容、店铺和广告诊断</span></li>
+              <li><span data-en>Priority list and decision notes after each session</span><span data-zh>每次会议后给 priority list 和 decision notes</span></li>
+              <li><span data-en>One short async question per week</span><span data-zh>每周一个简短 async question</span></li>
+            </ul>
+            <a class="button" href="#contact"><span data-en>Explore monthly advisory →</span><span data-zh>了解月度顾问 →</span></a>
+            <p class="price-note"><span data-en>Initial 3-month engagement. Calls do not roll over.</span><span data-zh>初始合作 3 个月，未使用会议不顺延。</span></p>
+          </article>
+
+          <article class="price-card">
+            <div class="eyebrow"><span data-en>Weekly</span><span data-zh>每周</span></div>
+            <h3><span data-en>Embedded Advisory</span><span data-zh>深度顾问</span></h3>
+            <p class="best-for"><span data-en>Best for active programs that need a senior operator involved in weekly performance decisions.</span><span data-zh>适合正在快速推进，需要 senior operator 每周参与关键经营判断的团队。</span></p>
+            <div class="price">$2,999 <small><span data-en>/ month</span><span data-zh>/ 月</span></small></div>
+            <ul class="features">
+              <li><span data-en>Up to four 60-minute sessions per billing month</span><span data-zh>每个 billing month 最多四次 60 分钟会议</span></li>
+              <li><span data-en>Weekly KPI and performance review</span><span data-zh>每周 KPI 与 performance review</span></li>
+              <li><span data-en>Cross-functional diagnosis and decision log</span><span data-zh>跨模块诊断与 decision log</span></li>
+              <li><span data-en>Updated 30-day priority roadmap</span><span data-zh>持续更新 30 天 priority roadmap</span></li>
+              <li><span data-en>Limited async support with two-business-day response</span><span data-zh>有限 async support，两个工作日内回复</span></li>
+            </ul>
+            <a class="button secondary" href="#contact"><span data-en>Discuss embedded advisory →</span><span data-zh>沟通深度顾问 →</span></a>
+            <p class="price-note"><span data-en>Initial 3-month engagement. Execution is scoped separately.</span><span data-zh>初始合作 3 个月，具体执行需另行定 scope。</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block scope">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow"><span data-en>Clear scope, better partnership</span><span data-zh>边界越清楚，合作越有效</span></div>
+          <h2><span data-en>Advisory guides the work. Full service runs it.</span><span data-zh>顾问服务负责判断，全案服务负责执行。</span></h2>
+          <p><span data-en>We keep this distinction explicit so your team knows what it owns and WEM does not quietly turn a consulting retainer into unlimited execution.</span><span data-zh>我们会把边界写清楚，避免顾问服务慢慢变成无限执行，也让你们团队知道自己需要负责什么。</span></p>
+        </div>
+        <div class="scope-grid">
+          <article class="scope-card">
+            <div class="eyebrow"><span data-en>Consulting & advisory</span><span data-zh>咨询与顾问</span></div>
+            <h3><span data-en>We diagnose, prioritize, and guide.</span><span data-zh>我们诊断、排序、给方向。</span></h3>
+            <p><span data-en>Your internal team keeps ownership of day-to-day execution.</span><span data-zh>日常执行由你们内部团队负责。</span></p>
+            <ul>
+              <li><span data-en>Data review and operating diagnosis</span><span data-zh>数据复盘与经营诊断</span></li>
+              <li><span data-en>Strategy, priorities, and decision support</span><span data-zh>策略、优先级与决策支持</span></li>
+              <li><span data-en>Team workflow and capability recommendations</span><span data-zh>团队工作流与能力建设建议</span></li>
+              <li><span data-en>Review of what to scale, repair, or stop</span><span data-zh>判断什么该放大、修复或停止</span></li>
+            </ul>
+          </article>
+          <article class="scope-card execution">
+            <div class="eyebrow"><span data-en>Full-service execution</span><span data-zh>全案执行</span></div>
+            <h3><span data-en>WEM owns the operating work.</span><span data-zh>WEM 直接负责运营执行。</span></h3>
+            <p><span data-en>Choose full service when you need more than recommendations.</span><span data-zh>如果你需要的不只是建议，就应该进入全案合作。</span></p>
+            <ul>
+              <li><span data-en>Creator sourcing, outreach, and follow-up</span><span data-zh>达人 sourcing、邀约与 follow-up</span></li>
+              <li><span data-en>Sample approval, briefs, and content review</span><span data-zh>寄样审核、brief 与内容 review</span></li>
+              <li><span data-en>Campaign, affiliate, and shop operations</span><span data-zh>Campaign、affiliate 与店铺运营</span></li>
+              <li><span data-en>Execution tracking, reporting, and escalation</span><span data-zh>执行追踪、汇报与问题升级</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow"><span data-en>How it works</span><span data-zh>合作流程</span></div>
+          <h2><span data-en>Come prepared. Leave with a decision.</span><span data-zh>带着问题来，带着决定走。</span></h2>
+        </div>
+        <div class="process-grid">
+          <article class="step">
+            <div class="step-num">01</div>
+            <h3><span data-en>Share the context</span><span data-zh>提交背景</span></h3>
+            <p><span data-en>Complete a focused intake with your product, current shop stage, data, team, and the decision you need to make.</span><span data-zh>填写 intake，说明产品、店铺阶段、数据、团队配置和这次需要做的决定。</span></p>
+          </article>
+          <article class="step">
+            <div class="step-num">02</div>
+            <h3><span data-en>Work through the real constraint</span><span data-zh>找到真正卡点</span></h3>
+            <p><span data-en>We use the session to connect the visible question to the underlying product, creator, content, paid, or operational issue.</span><span data-zh>会议中把表面问题连接到真正的产品、达人、内容、广告或运营卡点。</span></p>
+          </article>
+          <article class="step">
+            <div class="step-num">03</div>
+            <h3><span data-en>Set the next operating order</span><span data-zh>排出下一步顺序</span></h3>
+            <p><span data-en>Leave with a prioritized action order, the signal to watch, and a clear view of what your team can handle next.</span><span data-zh>带走明确的行动顺序、需要观察的信号，以及团队下一阶段该怎么推进。</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="faq">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow"><span data-en>Frequently asked</span><span data-zh>常见问题</span></div>
+          <h2><span data-en>Before you book.</span><span data-zh>预约前先确认。</span></h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary><span data-en>Is this a sales call?</span><span data-zh>这是一场 sales call 吗？</span></summary>
+            <p><span data-en>No. A paid strategy session is working time focused on your question. If WEM execution is the right next step, we can discuss that separately after the recommendation is clear.</span><span data-zh>不是。付费 strategy session 会围绕你的问题深入工作。如果最后发现 WEM 执行是更合适的下一步，我们会在建议明确后另行沟通。</span></p>
+          </details>
+          <details>
+            <summary><span data-en>What should I bring?</span><span data-zh>我需要准备什么？</span></summary>
+            <p><span data-en>Bring your priority products, current shop stage, relevant performance data, sample and inventory capacity, internal team ownership, and the decision you need to make. The intake form will guide you.</span><span data-zh>准备主推产品、当前店铺阶段、相关数据、样品和库存能力、团队分工，以及这次最需要做的决定。Intake form 会引导你填写。</span></p>
+          </details>
+          <details>
+            <summary><span data-en>Does advisory include hands-on work inside our account?</span><span data-zh>顾问服务会直接操作我们的账户吗？</span></summary>
+            <p><span data-en>No. Advisory includes analysis, recommendations, priorities, and review. Creator outreach, sample operations, content management, campaign changes, and shop execution require a separate full-service or project scope.</span><span data-zh>不会。顾问服务包括分析、建议、优先级和复盘。达人邀约、寄样、内容管理、campaign 修改和店铺操作需要另行确定 full-service 或项目 scope。</span></p>
+          </details>
+          <details>
+            <summary><span data-en>Can the one-time session fee be credited toward a larger engagement?</span><span data-zh>单次咨询费可以抵扣后续合作吗？</span></summary>
+            <p><span data-en>Yes. If you move into a monthly advisory or full-service engagement within 14 days, the $299 session fee can be credited toward the first month.</span><span data-zh>可以。如果在 14 天内进入月度顾问或 full-service 合作，$299 咨询费可以抵扣第一个月。</span></p>
+          </details>
+          <details>
+            <summary><span data-en>Who is not a good fit?</span><span data-zh>什么情况不适合？</span></summary>
+            <p><span data-en>This is not a shortcut to guaranteed GMV, a replacement for product readiness, or unlimited access to proprietary creator lists and WEM operating systems. We will be direct if your next step is preparation rather than growth spend.</span><span data-zh>这不是保证 GMV 的捷径，也不能代替产品 readiness，更不包含无限获取 WEM 的达人名单和内部运营系统。如果你现在最需要的是先补准备工作，我们会直接告诉你。</span></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final" id="contact">
+      <div class="wrap">
+        <div class="eyebrow"><span data-en>Choose the right conversation</span><span data-zh>预约真正适合你的沟通</span></div>
+        <h2><span data-en>Need advice, not another vague discovery call?</span><span data-zh>你需要的是建议，不是另一场模糊的 discovery call。</span></h2>
+        <p><span data-en>Book a focused strategy session, or tell us if your internal team needs ongoing advisory support. If you need WEM to execute, we will route you to the full-service path.</span><span data-zh>预约一次聚焦的 strategy session，或者告诉我们你们内部团队需要怎样的持续顾问支持。如果你需要 WEM 直接执行，我们会把你带到 full-service 路径。</span></p>
+        <div class="final-actions">
+          <a class="button" href="mailto:wendy@weglobalmarketing.com?subject=TikTok%20Shop%20Strategy%20Session"><span data-en>Request a strategy session →</span><span data-zh>申请策略咨询 →</span></a>
+          <a class="button secondary" href="../services.html#full-service-management"><span data-en>Explore full service</span><span data-zh>查看全案服务</span></a>
+        </div>
+        <div class="credit-note"><span data-en>Draft booking flow. Payment and calendar links will be connected after page approval.</span><span data-zh>当前为页面草稿。确认页面后再连接付款和预约链接。</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© 2026 WE Marketing</span>
+      <span><a href="../services.html">Services</a> · <a href="mailto:wendy@weglobalmarketing.com">wendy@weglobalmarketing.com</a></span>
+    </div>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('[data-set-lang]');
+    const applyLanguage = (lang) => {
+      document.body.classList.toggle('lang-en', lang === 'en');
+      document.body.classList.toggle('lang-zh', lang === 'zh');
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+      buttons.forEach((button) => button.classList.toggle('active', button.dataset.setLang === lang));
+    };
+    buttons.forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.setLang)));
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Creator traffic conversion loop</title>
+  <desc id="desc">A loop showing creator content, product page, offer testing, and reporting.</desc>
+  <rect width="1200" height="675" fill="#070707"/>
+  <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Creator Traffic → Conversion Loop</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Traffic is not the end; conversion review creates the growth loop</text>
+  <g transform="translate(190 178)" font-family="Inter, Arial, sans-serif">
+    <circle cx="410" cy="205" r="188" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="28"/>
+    <path d="M410 17 A188 188 0 0 1 598 205" fill="none" stroke="#FF1493" stroke-width="28" stroke-linecap="round"/>
+    <path d="M598 205 A188 188 0 0 1 410 393" fill="none" stroke="#9B30FF" stroke-width="28" stroke-linecap="round"/>
+    <path d="M410 393 A188 188 0 0 1 222 205" fill="none" stroke="#4A8FFF" stroke-width="28" stroke-linecap="round"/>
+    <path d="M222 205 A188 188 0 0 1 410 17" fill="none" stroke="#FF1493" stroke-width="28" stroke-linecap="round" opacity=".55"/>
+    <g fill="#101010" stroke="rgba(255,255,255,.16)">
+      <rect x="-80" y="64" width="230" height="104" rx="18"/><rect x="670" y="64" width="230" height="104" rx="18"/>
+      <rect x="670" y="250" width="230" height="104" rx="18"/><rect x="-80" y="250" width="230" height="104" rx="18"/>
+    </g>
+    <g fill="#fff" font-size="18" font-weight="900">
+      <text x="-46" y="106">Creator Content</text><text x="704" y="106">Product Page</text><text x="704" y="292">Offer Testing</text><text x="-46" y="292">Weekly Review</text>
+    </g>
+    <g fill="rgba(255,255,255,.64)" font-size="13">
+      <text x="-46" y="132">Hooks, demos, proof</text><text x="704" y="132">Title, image, FAQ</text><text x="704" y="318">Bundle, price, shipping</text><text x="-46" y="318">Sales, content, blockers</text>
+    </g>
+    <text x="342" y="197" fill="#fff" font-size="26" font-weight="900">Optimize</text>
+    <text x="320" y="230" fill="#FF1493" font-size="16" font-weight="800">Content + product page + offer</text>
+  </g>
+</svg>

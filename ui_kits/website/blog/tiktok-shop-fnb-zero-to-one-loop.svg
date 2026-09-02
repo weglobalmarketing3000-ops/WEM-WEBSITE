@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">WEM TikTok Shop F&amp;B 0-to-1 cold-start loop</title>
+  <desc id="desc">A seven-step loop connecting product truth, creator fit, content jobs, product page and offer, GMV Max testing, fulfillment, and the next scale, repair, or stop decision.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf4"/>
+      <stop offset="0.55" stop-color="#f5f0ff"/>
+      <stop offset="1" stop-color="#edf4ff"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1746b8"/>
+      <stop offset="0.5" stop-color="#7b61ff"/>
+      <stop offset="1" stop-color="#ed2b86"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#202040" flood-opacity=".10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#7b61ff"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="760" rx="34" fill="url(#bg)"/>
+  <text x="72" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#1746b8">WE MARKETING · F&amp;B COLD START</text>
+  <text x="72" y="145" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#14142b">Build the first repeatable loop</text>
+  <text x="72" y="187" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#55536a">Every layer should create evidence for the next decision.</text>
+
+  <path d="M184 340 C 220 252, 324 226, 414 274 S 565 318, 642 267 S 798 222, 884 276 S 1049 328, 1120 272 S 1260 248, 1298 336"
+        fill="none" stroke="url(#line)" stroke-width="10" stroke-linecap="round" opacity=".28"/>
+  <path d="M1268 519 C 1180 632, 982 661, 814 626 S 515 599, 358 641 S 136 601, 114 511"
+        fill="none" stroke="#7b61ff" stroke-width="5" stroke-dasharray="12 14" stroke-linecap="round" marker-end="url(#arrow)" opacity=".8"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g transform="translate(90 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#1746b8"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">1</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">Product truth</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">3-5 screens</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">1-3 hero SKUs</text>
+    </g>
+    <g transform="translate(380 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#4c62d6"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">2</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">Creator fit</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">Affinity + audience</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">Believable angle</text>
+    </g>
+    <g transform="translate(670 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#7b61ff"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">3</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">Content jobs</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">Taste · texture · use</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">Trust + offer</text>
+    </g>
+    <g transform="translate(960 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#a14fdd"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">4</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">PDP + offer</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">Product clarity</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">Price + shipping</text>
+    </g>
+    <g transform="translate(1058 505)" filter="url(#shadow)">
+      <rect width="250" height="148" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#ed2b86"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">5</text>
+      <text x="125" y="58" font-size="22" font-weight="800" fill="#14142b">GMV Max test</text>
+      <text x="125" y="91" font-size="17" fill="#615e73">Controlled spend</text>
+      <text x="125" y="117" font-size="17" fill="#615e73">Compare signals</text>
+    </g>
+    <g transform="translate(697 505)" filter="url(#shadow)">
+      <rect width="250" height="148" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#e64b9a"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">6</text>
+      <text x="125" y="58" font-size="22" font-weight="800" fill="#14142b">Fulfillment</text>
+      <text x="125" y="91" font-size="17" fill="#615e73">Inventory + freshness</text>
+      <text x="125" y="117" font-size="17" fill="#615e73">Support + reviews</text>
+    </g>
+    <g transform="translate(336 505)" filter="url(#shadow)">
+      <rect width="250" height="148" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#925dde"/>
+      <text x="125" y="9" font-size="25" font-weight="800" fill="#fff">7</text>
+      <text x="125" y="58" font-size="22" font-weight="800" fill="#14142b">Next decision</text>
+      <text x="125" y="91" font-size="17" fill="#615e73">Scale · repair · stop</text>
+      <text x="125" y="117" font-size="17" fill="#615e73">Then test again</text>
+    </g>
+  </g>
+  <rect x="72" y="690" width="1256" height="2" fill="url(#line)" opacity=".45"/>
+  <text x="72" y="727" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#615e73">0 → 1 means the first operating system the brand can understand, repeat, and improve.</text>
+</svg>

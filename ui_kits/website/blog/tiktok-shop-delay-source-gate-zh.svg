@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">先定义延迟来源，再选择功能</title>
+  <desc id="desc">上市延迟、生产延迟和补货延迟，需要不同的消费者承诺。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf9"/><stop offset="1" stop-color="#eee8ff"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#4b6fff"/><stop offset=".5" stop-color="#8d63e6"/><stop offset="1" stop-color="#ff5aa9"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#6756a8" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1600" height="960" fill="url(#bg)"/>
+  <circle cx="1450" cy="120" r="250" fill="#8d63e6" opacity=".08"/>
+  <circle cx="120" cy="880" r="260" fill="#ff5aa9" opacity=".06"/>
+  <text x="90" y="110" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="4" fill="#6b55a4">TIKTOK SHOP U.S. · OPERATING FRAMEWORK</text>
+  <text x="90" y="182" font-family="Arial,sans-serif" font-size="50" font-weight="700" fill="#171521">先定义延迟来源，再选择功能</text>
+  <text x="90" y="230" font-family="Arial,sans-serif" font-size="25" fill="#645d73">上市延迟、生产延迟和补货延迟，需要不同的消费者承诺。</text>
+  <g filter="url(#shadow)">
+  <rect x="90" y="330" width="400" height="260" rx="28" fill="#ffffff" stroke="#4b6fff" stroke-width="3"/>
+  <text x="120" y="376" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#4b6fff">尚未上市</text>
+  <text x="120" y="433" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Pre-Order</text>
+  <text x="120" y="478" font-family="Arial,sans-serif" font-size="21" fill="#645d73">固定发布日期</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="600" y="330" width="400" height="260" rx="28" fill="#ffffff" stroke="#8d63e6" stroke-width="3"/>
+  <text x="630" y="376" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#8d63e6">下单后生产</text>
+  <text x="630" y="433" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Made-to-Order</text>
+  <text x="630" y="478" font-family="Arial,sans-serif" font-size="21" fill="#645d73">按真实产能承诺</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="1110" y="330" width="400" height="260" rx="28" fill="#ffffff" stroke="#ff5aa9" stroke-width="3"/>
+  <text x="1140" y="376" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#ff5aa9">暂时缺货</text>
+  <text x="1140" y="433" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Backorder</text>
+  <text x="1140" y="478" font-family="Arial,sans-serif" font-size="21" fill="#645d73">确认补货计划</text>
+</g>
+     <text x="90" y="725" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#171521">原因或日期无法证明时，先暂停销售。</text>
+</svg>

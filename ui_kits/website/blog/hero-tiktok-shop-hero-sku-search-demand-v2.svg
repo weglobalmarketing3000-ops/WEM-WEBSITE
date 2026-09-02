@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <linearGradient id="leftWash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffefd" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#fffefd" stop-opacity="0.98"/>
+      <stop offset="0.70" stop-color="#fffefd" stop-opacity="0.68"/>
+      <stop offset="0.82" stop-color="#fffefd" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <image x="0" y="0" width="1672" height="941" preserveAspectRatio="xMidYMid slice"
+    xlink:href="file:///Users/wendylin/.codex/generated_images/019fa2f7-d287-7271-9485-3ca96f090544/call_NnNSstB2nYdCSxFzmti2qSov.png"/>
+  <rect x="0" y="0" width="1120" height="941" fill="url(#leftWash)"/>
+
+  <rect x="82" y="82" width="458" height="42" rx="21" fill="#E9EEFF"/>
+  <circle cx="106" cy="103" r="10" fill="#1554D1"/>
+  <path d="M101 103h10M106 98v10" stroke="#fff" stroke-width="2.3" stroke-linecap="round"/>
+  <text x="126" y="110" fill="#1554D1" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">TIKTOK SHOP U.S. / PRODUCT STRATEGY</text>
+
+  <text x="80" y="240" fill="#0D0D0D" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="80" font-weight="900">HERO SKU</text>
+  <text x="80" y="334" fill="#1554D1" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="80" font-weight="900">SEARCH DEMAND</text>
+  <text x="80" y="428" fill="#0D0D0D" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="80" font-weight="900">PLAYBOOK</text>
+
+  <rect x="82" y="478" width="66" height="5" rx="2.5" fill="#1554D1"/>
+  <text x="80" y="540" fill="#34343B" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400">Shortlist with signals.</text>
+  <text x="80" y="579" fill="#34343B" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400">Scale with proof.</text>
+
+  <g transform="translate(72 704)">
+    <rect x="0" y="0" width="172" height="154" rx="18" fill="#FFFFFF" fill-opacity="0.92"/>
+    <image x="17" y="7" width="138" height="138" preserveAspectRatio="xMidYMid meet"
+      xlink:href="file:///Users/wendylin/Downloads/WE Marketing Design System/assets/we-logo.png"/>
+  </g>
+</svg>

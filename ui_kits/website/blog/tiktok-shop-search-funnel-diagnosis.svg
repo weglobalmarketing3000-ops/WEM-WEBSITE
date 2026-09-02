@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Search-to-order funnel diagnosis</title>
+  <desc id="desc">A diagnostic path from demand through impressions, clicks, conversion and contribution margin, with a different repair action for each break.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0910"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <style>
+      .k{font:700 18px "Space Grotesk",Arial,sans-serif;letter-spacing:2px;fill:#38bdf8}.h{font:900 46px "Archivo Black",Arial,sans-serif;fill:#fff}
+      .sub{font:400 22px "Space Grotesk",Arial,sans-serif;fill:#c8c2d0}.label{font:800 23px "Space Grotesk",Arial,sans-serif;fill:#fff}
+      .metric{font:700 18px "Space Grotesk",Arial,sans-serif;fill:#f3dcea}.action{font:400 17px "Space Grotesk",Arial,sans-serif;fill:#c7bdce}
+      .arrow{stroke:#80758a;stroke-width:3;fill:none}.break{font:800 16px "Space Grotesk",Arial,sans-serif;fill:#ff75c8}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="36" fill="url(#bg)"/>
+  <text x="76" y="75" class="k">SEARCH PERFORMANCE IS A DIAGNOSIS</text>
+  <text x="76" y="133" class="h">Find the broken layer before adding traffic</text>
+  <text x="76" y="174" class="sub">Each metric answers a different question. One weak layer should produce one owned repair.</text>
+  <path d="M258 333H318M518 333H578M778 333H838M1038 333H1098" class="arrow"/>
+  <path d="M306 323l16 10-16 10M566 323l16 10-16 10M826 323l16 10-16 10M1086 323l16 10-16 10" class="arrow"/>
+  <g transform="translate(58 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#ff2ba6" stroke-width="2"/>
+    <text x="24" y="47" class="label">Demand</text><text x="24" y="82" class="metric">Specific query exists</text>
+    <text x="24" y="125" class="action"><tspan x="24">No signal?</tspan><tspan x="24" dy="25">Revisit product need</tspan><tspan x="24" dy="25">and exact match.</tspan></text>
+  </g>
+  <g transform="translate(318 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#d946ef" stroke-width="2"/>
+    <text x="24" y="47" class="label">Impressions</text><text x="24" y="82" class="metric">Relevance and coverage</text>
+    <text x="24" y="125" class="action"><tspan x="24">Low?</tspan><tspan x="24" dy="25">Repair listing relevance,</tspan><tspan x="24" dy="25">category and content.</tspan></text>
+  </g>
+  <g transform="translate(578 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#a855f7" stroke-width="2"/>
+    <text x="24" y="47" class="label">CTR</text><text x="24" y="82" class="metric">First impression</text>
+    <text x="24" y="125" class="action"><tspan x="24">Low?</tspan><tspan x="24" dy="25">Repair title, image,</tspan><tspan x="24" dy="25">offer or content promise.</tspan></text>
+  </g>
+  <g transform="translate(838 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#6366f1" stroke-width="2"/>
+    <text x="24" y="47" class="label">Conversion</text><text x="24" y="82" class="metric">Listing closes intent</text>
+    <text x="24" y="125" class="action"><tspan x="24">Low?</tspan><tspan x="24" dy="25">Repair price, proof, trust,</tspan><tspan x="24" dy="25">variants or shipping.</tspan></text>
+  </g>
+  <g transform="translate(1098 236)">
+    <rect width="244" height="194" rx="24" fill="#17131d" stroke="#38bdf8" stroke-width="2"/>
+    <text x="24" y="47" class="label">Contribution</text><text x="24" y="82" class="metric">Volume creates value</text>
+    <text x="24" y="125" class="action"><tspan x="24">Weak?</tspan><tspan x="24" dy="25">Repair discount, commission,</tspan><tspan x="24" dy="25">ads, shipping or returns.</tspan></text>
+  </g>
+  <g transform="translate(76 500)">
+    <rect width="1248" height="150" rx="26" fill="#0f0d13" stroke="#392f42"/>
+    <text x="30" y="46" class="break">POST-VIEW SEARCH LOOP</text>
+    <text x="30" y="82" class="label">A repeated follow-up query is unresolved intent.</text>
+    <text x="30" y="116" class="sub">Feed it into the next creator hook, product-page module, FAQ, and retest.</text>
+    <path d="M1125 45c70 0 70 72 0 72" stroke="#ff2ba6" stroke-width="4" fill="none"/><path d="M1128 105l-18 12 18 12" fill="none" stroke="#ff2ba6" stroke-width="4"/>
+  </g>
+</svg>

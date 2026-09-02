@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Creator vetting scorecard</title>
+  <desc id="desc">A scorecard for vetting TikTok Shop creators before sending samples.</desc>
+  <rect width="1200" height="675" fill="#070707"/>
+  <text x="72" y="86" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Creator Vetting Scorecard</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Evaluate creator fit before approving samples</text>
+  <g transform="translate(80 176)" font-family="Inter, Arial, sans-serif">
+    <rect width="1040" height="390" rx="20" fill="#101010" stroke="rgba(255,255,255,.14)"/>
+    <g fill="rgba(255,255,255,.48)" font-size="13" font-weight="800">
+      <text x="36" y="46">CRITERIA</text><text x="430" y="46">WHY IT MATTERS</text><text x="860" y="46">WEIGHT</text>
+    </g>
+    <g font-size="17" fill="#fff">
+      <text x="36" y="100">Category fit</text><text x="36" y="158">Content quality</text><text x="36" y="216">Audience match</text>
+      <text x="36" y="274">Posting reliability</text><text x="36" y="332">Communication</text>
+    </g>
+    <g font-size="14" fill="rgba(255,255,255,.68)">
+      <text x="430" y="100">Product feels natural in their content, not forced.</text>
+      <text x="430" y="158">Lighting, hooks, clarity, and product demonstration.</text>
+      <text x="430" y="216">Viewer needs match your price point and use case.</text>
+      <text x="430" y="274">They finish sample campaigns and publish on time.</text>
+      <text x="430" y="332">Fast replies make briefs and edits much easier.</text>
+    </g>
+    <g fill="#FF1493" font-size="18" font-weight="900">
+      <text x="860" y="100">25%</text><text x="860" y="158">25%</text><text x="860" y="216">20%</text><text x="860" y="274">20%</text><text x="860" y="332">10%</text>
+    </g>
+    <g stroke="rgba(255,255,255,.08)"><line x1="24" y1="70" x2="1016" y2="70"/><line x1="24" y1="126" x2="1016" y2="126"/><line x1="24" y1="184" x2="1016" y2="184"/><line x1="24" y1="242" x2="1016" y2="242"/><line x1="24" y1="300" x2="1016" y2="300"/></g>
+  </g>
+  <text x="80" y="622" fill="rgba(255,255,255,.5)" font-family="Inter, Arial, sans-serif" font-size="14">Use before sample approval</text>
+</svg>

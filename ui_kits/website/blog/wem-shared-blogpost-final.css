@@ -1,0 +1,23 @@
+/* Final shared WEM article rules. Loaded after legacy page-level overrides. */
+body .bp-wrap,
+body .bp-body { background: #F5F3EE !important; }
+
+body .bp-wrap .bp-section div:has(> .bp-faq-q) {
+  background: #FFF9FD !important;
+  border: 1px solid #DFDAD2 !important;
+  border-left: 3px solid #FF1493 !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+}
+
+body .bp-wrap .bp-section .bp-faq-list > div .bp-faq-q {
+  color: #202020 !important;
+  font-weight: 800 !important;
+}
+
+body .bp-wrap .bp-section .bp-faq-list > div .bp-faq-a {
+  background: #FFFFFF !important;
+  color: #3F3A35 !important;
+}
+
+body .bp-wrap .bp-h3 { color: #1746B8 !important; }

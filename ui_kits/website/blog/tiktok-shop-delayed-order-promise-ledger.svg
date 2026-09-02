@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">One delayed order, one promise ledger</title>
+  <desc id="desc">Marketing, supply chain, creators and customer service must use the same evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf9"/><stop offset="1" stop-color="#eee8ff"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#4b6fff"/><stop offset=".5" stop-color="#8d63e6"/><stop offset="1" stop-color="#ff5aa9"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#6756a8" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1600" height="960" fill="url(#bg)"/>
+  <circle cx="1450" cy="120" r="250" fill="#8d63e6" opacity=".08"/>
+  <circle cx="120" cy="880" r="260" fill="#ff5aa9" opacity=".06"/>
+  <text x="90" y="110" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="4" fill="#6b55a4">TIKTOK SHOP U.S. · OPERATING FRAMEWORK</text>
+  <text x="90" y="182" font-family="Arial,sans-serif" font-size="50" font-weight="700" fill="#171521">One delayed order, one promise ledger</text>
+  <text x="90" y="230" font-family="Arial,sans-serif" font-size="25" fill="#645d73">Marketing, supply chain, creators and customer service must use the same evidence.</text>
+  <g filter="url(#shadow)">
+  <rect x="100" y="325" width="300" height="210" rx="28" fill="#ffffff" stroke="#4b6fff" stroke-width="3"/>
+  <text x="130" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#4b6fff">01</text>
+  <text x="130" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Reason</text>
+  <text x="130" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">Launch · produce · restock</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="470" y="325" width="300" height="210" rx="28" fill="#ffffff" stroke="#6d69e5" stroke-width="3"/>
+  <text x="500" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#6d69e5">02</text>
+  <text x="500" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Date</text>
+  <text x="500" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">Internal and customer</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="840" y="325" width="300" height="210" rx="28" fill="#ffffff" stroke="#9b63da" stroke-width="3"/>
+  <text x="870" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#9b63da">03</text>
+  <text x="870" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Capacity</text>
+  <text x="870" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">Units and safety buffer</text>
+</g>
+     <g filter="url(#shadow)">
+  <rect x="1210" y="325" width="300" height="210" rx="28" fill="#ffffff" stroke="#ff5aa9" stroke-width="3"/>
+  <text x="1240" y="371" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#ff5aa9">04</text>
+  <text x="1240" y="428" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#171521">Owner</text>
+  <text x="1240" y="473" font-family="Arial,sans-serif" font-size="21" fill="#645d73">Daily evidence and stop rule</text>
+</g>
+     <path d="M400 430 L450 430" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+<path d="M432 412 L450 430 L432 448" fill="none" stroke="#8064df" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M770 430 L820 430" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+<path d="M802 412 L820 430 L802 448" fill="none" stroke="#8064df" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M1140 430 L1190 430" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+<path d="M1172 412 L1190 430 L1172 448" fill="none" stroke="#8064df" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+     <rect x="100" y="665" width="1410" height="92" rx="22" fill="#171521"/>
+     <text x="145" y="722" font-family="Arial,sans-serif" font-size="27" fill="#fff">Publish only when the promise ledger is complete and testable.</text>
+</svg>

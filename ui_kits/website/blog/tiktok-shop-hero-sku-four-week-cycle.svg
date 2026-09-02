@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Four-week Hero SKU decision cycle</title>
+  <desc id="desc">Week one builds a candidate pool, week two creates proof, week three repairs the broken layer and week four decides to scale, repair or stop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09070c"/><stop offset="1" stop-color="#17121d"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff2ba6"/><stop offset=".5" stop-color="#9a5cff"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <style>
+      .k{font:700 18px "Space Grotesk",Arial,sans-serif;letter-spacing:2px;fill:#ff65c2}.h{font:900 46px "Archivo Black",Arial,sans-serif;fill:#fff}
+      .sub{font:400 22px "Space Grotesk",Arial,sans-serif;fill:#c9c1cf}.week{font:800 17px "Space Grotesk",Arial,sans-serif;letter-spacing:1px;fill:#ff8ad0}
+      .label{font:800 27px "Space Grotesk",Arial,sans-serif;fill:#fff}.body{font:400 18px "Space Grotesk",Arial,sans-serif;fill:#c3b9c9}
+      .out{font:900 20px "Space Grotesk",Arial,sans-serif;fill:#09070c}.small{font:600 16px "Space Grotesk",Arial,sans-serif;fill:#d7cfdd}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="36" fill="url(#bg)"/>
+  <text x="76" y="76" class="k">CONTROLLED LAUNCH, CLEAR EXIT RULE</text>
+  <text x="76" y="135" class="h">Four-week Hero SKU decision cycle</text>
+  <text x="76" y="176" class="sub">Turn a search signal into a test with an owner, evidence standard and review date.</text>
+  <rect x="82" y="281" width="1236" height="8" rx="4" fill="url(#line)"/>
+  <g transform="translate(72 225)">
+    <circle cx="85" cy="60" r="30" fill="#ff2ba6"/><text x="75" y="68" class="out">1</text>
+    <rect y="105" width="260" height="246" rx="24" fill="#17131b" stroke="#ff2ba6"/>
+    <text x="26" y="143" class="week">WEEK 1</text><text x="26" y="181" class="label">Candidate pool</text>
+    <text x="26" y="220" class="body"><tspan x="26">Match demand exactly.</tspan><tspan x="26" dy="29">Screen proof, creator fit,</tspan><tspan x="26" dy="29">margin, inventory and risk.</tspan></text>
+    <text x="26" y="320" class="small">OUTPUT: 1–3 candidates</text>
+  </g>
+  <g transform="translate(402 225)">
+    <circle cx="85" cy="60" r="30" fill="#ce48e8"/><text x="75" y="68" class="out">2</text>
+    <rect y="105" width="260" height="246" rx="24" fill="#17131b" stroke="#ce48e8"/>
+    <text x="26" y="143" class="week">WEEK 2</text><text x="26" y="181" class="label">Create proof</text>
+    <text x="26" y="220" class="body"><tspan x="26">Activate creator cohorts.</tspan><tspan x="26" dy="29">Test different proof jobs.</tspan><tspan x="26" dy="29">Capture shopper questions.</tspan></text>
+    <text x="26" y="320" class="small">OUTPUT: evidence by path</text>
+  </g>
+  <g transform="translate(732 225)">
+    <circle cx="85" cy="60" r="30" fill="#8b5cf6"/><text x="75" y="68" class="out">3</text>
+    <rect y="105" width="260" height="246" rx="24" fill="#17131b" stroke="#8b5cf6"/>
+    <text x="26" y="143" class="week">WEEK 3</text><text x="26" y="181" class="label">Repair one layer</text>
+    <text x="26" y="220" class="body"><tspan x="26">Locate the constraint.</tspan><tspan x="26" dy="29">Assign owner and action.</tspan><tspan x="26" dy="29">Retest before adding traffic.</tspan></text>
+    <text x="26" y="320" class="small">OUTPUT: owned correction</text>
+  </g>
+  <g transform="translate(1062 225)">
+    <circle cx="85" cy="60" r="30" fill="#38bdf8"/><text x="75" y="68" class="out">4</text>
+    <rect y="105" width="266" height="246" rx="24" fill="#17131b" stroke="#38bdf8"/>
+    <text x="26" y="143" class="week">WEEK 4</text><text x="26" y="181" class="label">Make the call</text>
+    <rect x="26" y="218" width="70" height="34" rx="17" fill="#22c55e"/><text x="38" y="241" class="out">Scale</text>
+    <rect x="104" y="218" width="77" height="34" rx="17" fill="#f59e0b"/><text x="114" y="241" class="out">Repair</text>
+    <rect x="189" y="218" width="56" height="34" rx="17" fill="#f43f5e"/><text x="200" y="241" class="out">Stop</text>
+    <text x="26" y="295" class="body"><tspan x="26">Concentrate only when</tspan><tspan x="26" dy="27">the system can repeat.</tspan></text>
+  </g>
+  <rect x="80" y="640" width="1240" height="56" rx="18" fill="#100d14" stroke="#382d41"/>
+  <text x="108" y="676" class="small">Every test needs a reason to enter, a reason to exit, and evidence that changes the next product decision.</text>
+</svg>

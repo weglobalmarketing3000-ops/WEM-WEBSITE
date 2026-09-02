@@ -1,0 +1,126 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060606"/>
+      <stop offset="0.46" stop-color="#131313"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <radialGradient id="pinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(430 170) rotate(17) scale(420 260)">
+      <stop stop-color="#FF4FAE" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#FF4FAE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1320 220) rotate(145) scale(420 290)">
+      <stop stop-color="#5A8BFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#5A8BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#181818"/>
+      <stop offset="1" stop-color="#0E0E0E"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#171717"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF4FAE"/>
+      <stop offset="1" stop-color="#5A8BFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="44" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#pinkGlow)"/>
+  <rect width="1600" height="900" fill="url(#blueGlow)"/>
+
+  <g opacity="0.18">
+    <path d="M0 742C190 704 345 689 520 700C683 710 814 782 970 794C1143 807 1305 735 1600 660V900H0V742Z" fill="#202020"/>
+    <path d="M0 810C214 775 380 765 550 784C698 801 816 858 1000 857C1207 856 1374 782 1600 738V900H0V810Z" fill="#171717"/>
+  </g>
+
+  <g>
+    <rect x="88" y="92" width="406" height="90" rx="24" fill="#0F0F10" fill-opacity="0.92" stroke="#2C2C2E"/>
+    <text x="120" y="128" fill="#FF4FAE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3.2">TIKTOK SHOP U.S. · NEW SELLER STRATEGY</text>
+    <text x="120" y="162" fill="#F5F5F5" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Pick one growth path first</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="148" y="236" width="694" height="396" rx="30" fill="url(#panel)" stroke="#2E2E31"/>
+    <rect x="184" y="272" width="622" height="8" rx="4" fill="url(#accentLine)" opacity="0.9"/>
+    <text x="184" y="322" fill="#F7F7F8" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">New Seller Decision Dashboard</text>
+    <text x="184" y="352" fill="#929297" font-family="Arial, Helvetica, sans-serif" font-size="16">Build the first working loop before you add more tools.</text>
+
+    <rect x="184" y="390" width="186" height="186" rx="24" fill="#111112" stroke="#2B2B2D"/>
+    <rect x="212" y="422" width="108" height="10" rx="5" fill="#FF4FAE"/>
+    <text x="212" y="456" fill="#F2F2F3" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Short Video</text>
+    <text x="212" y="490" fill="#8C8C91" font-family="Arial, Helvetica, sans-serif" font-size="15">For clear hero SKUs</text>
+    <path d="M218 530L248 500L277 523L321 462" stroke="#65E6A1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="390" y="390" width="186" height="186" rx="24" fill="#111112" stroke="#2B2B2D"/>
+    <rect x="418" y="422" width="88" height="10" rx="5" fill="#5A8BFF"/>
+    <text x="418" y="456" fill="#F2F2F3" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Livestream</text>
+    <text x="418" y="490" fill="#8C8C91" font-family="Arial, Helvetica, sans-serif" font-size="15">For trust and demos</text>
+    <rect x="420" y="518" width="124" height="24" rx="12" fill="#1D1D20"/>
+    <rect x="432" y="524" width="42" height="12" rx="6" fill="#FFB347"/>
+    <rect x="420" y="550" width="110" height="12" rx="6" fill="#434348"/>
+
+    <rect x="596" y="390" width="210" height="186" rx="24" fill="#111112" stroke="#2B2B2D"/>
+    <rect x="624" y="422" width="120" height="10" rx="5" fill="#FFB347"/>
+    <text x="624" y="456" fill="#F2F2F3" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Creators + Affiliate</text>
+    <text x="624" y="490" fill="#8C8C91" font-family="Arial, Helvetica, sans-serif" font-size="15">For scaled social proof</text>
+    <rect x="624" y="520" width="152" height="14" rx="7" fill="#232327"/>
+    <rect x="624" y="548" width="132" height="14" rx="7" fill="#2D2D32"/>
+
+    <rect x="184" y="596" width="622" height="1" fill="#242428"/>
+
+    <text x="184" y="620" fill="#A4A4A9" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.4">DON'T SCALE YET IF</text>
+    <text x="184" y="648" fill="#F5F5F6" font-family="Arial, Helvetica, sans-serif" font-size="18">No hero SKU · weak PDP · no sample workflow · unstable offer · no weekly review loop</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="918" y="146" width="492" height="280" rx="28" fill="url(#panel)" stroke="#2F2F32"/>
+    <rect x="952" y="180" width="184" height="10" rx="5" fill="#2E2E31"/>
+    <rect x="952" y="210" width="330" height="20" rx="10" fill="#F3F3F4"/>
+    <rect x="952" y="252" width="420" height="10" rx="5" fill="#2E2E31"/>
+    <rect x="952" y="278" width="392" height="10" rx="5" fill="#2A2A2C"/>
+
+    <rect x="952" y="326" width="194" height="68" rx="18" fill="url(#card)" stroke="#303033"/>
+    <text x="976" y="354" fill="#FF4FAE" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">CAMPAIGNS</text>
+    <text x="976" y="378" fill="#F1F1F2" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Only after readiness</text>
+
+    <rect x="1168" y="326" width="208" height="68" rx="18" fill="url(#card)" stroke="#303033"/>
+    <text x="1192" y="354" fill="#5A8BFF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">PRODUCT GMV MAX</text>
+    <text x="1192" y="378" fill="#F1F1F2" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Scale valid signals</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="756" y="420" width="176" height="334" rx="34" fill="#090909" stroke="#2B2B2D"/>
+    <rect x="772" y="438" width="144" height="298" rx="24" fill="#131314"/>
+    <rect x="790" y="474" width="108" height="12" rx="6" fill="#2B2B2E"/>
+    <rect x="790" y="500" width="88" height="18" rx="9" fill="#F4F4F5"/>
+    <rect x="790" y="536" width="108" height="86" rx="20" fill="#0F0F10" stroke="#2D2D30"/>
+    <text x="806" y="562" fill="#FF4FAE" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.1">STEP 1</text>
+    <text x="806" y="588" fill="#F0F0F1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Choose hero SKU</text>
+    <rect x="790" y="638" width="108" height="86" rx="20" fill="#0F0F10" stroke="#2D2D30"/>
+    <text x="806" y="664" fill="#5A8BFF" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.1">STEP 2</text>
+    <text x="806" y="690" fill="#F0F0F1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Match the path</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="1000" y="536" width="320" height="168" rx="26" fill="url(#panel)" stroke="#2F2F31"/>
+    <text x="1030" y="576" fill="#9E9EA4" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.2">WHAT WEM HELPS CONNECT</text>
+    <text x="1030" y="620" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Product page</text>
+    <text x="1180" y="620" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">→</text>
+    <text x="1210" y="620" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Creators</text>
+    <text x="1030" y="652" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Samples</text>
+    <text x="1160" y="652" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">→</text>
+    <text x="1190" y="652" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Paid scale</text>
+    <text x="1030" y="684" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Weekly review</text>
+    <text x="1224" y="684" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">→</text>
+    <text x="1254" y="684" fill="#F6F6F7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">GMV</text>
+  </g>
+</svg>

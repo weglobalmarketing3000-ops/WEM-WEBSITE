@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">搜索到订单的漏斗诊断</title>
+  <desc id="desc">从需求、曝光、点击、转化到贡献利润，每一层失效都对应不同修复动作。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0910"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <style>
+      .k{font:700 18px "Noto Sans SC","PingFang SC",Arial,sans-serif;letter-spacing:2px;fill:#38bdf8}.h{font:900 44px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#fff}
+      .sub{font:400 22px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#c8c2d0}.label{font:800 23px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#fff}
+      .metric{font:700 18px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#f3dcea}.action{font:400 17px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#c7bdce}
+      .arrow{stroke:#80758a;stroke-width:3;fill:none}.break{font:800 16px "Noto Sans SC","PingFang SC",Arial,sans-serif;fill:#ff75c8}
+    </style>
+  </defs>
+  <rect width="1400" height="760" rx="36" fill="url(#bg)"/>
+  <text x="76" y="75" class="k">把搜索表现当成诊断</text>
+  <text x="76" y="133" class="h">增加流量之前，先找到失效的一层</text>
+  <text x="76" y="174" class="sub">每个指标回答不同问题。一个弱点，需要一个明确 owner 和修复动作。</text>
+  <path d="M258 333H318M518 333H578M778 333H838M1038 333H1098" class="arrow"/>
+  <path d="M306 323l16 10-16 10M566 323l16 10-16 10M826 323l16 10-16 10M1086 323l16 10-16 10" class="arrow"/>
+  <g transform="translate(58 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#ff2ba6" stroke-width="2"/>
+    <text x="24" y="47" class="label">需求</text><text x="24" y="82" class="metric">具体问题存在</text>
+    <text x="24" y="125" class="action"><tspan x="24">没有信号？</tspan><tspan x="24" dy="25">回到商品需求</tspan><tspan x="24" dy="25">和准确匹配。</tspan></text>
+  </g>
+  <g transform="translate(318 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#d946ef" stroke-width="2"/>
+    <text x="24" y="47" class="label">曝光</text><text x="24" y="82" class="metric">相关性和覆盖</text>
+    <text x="24" y="125" class="action"><tspan x="24">曝光低？</tspan><tspan x="24" dy="25">修 listing 相关性、</tspan><tspan x="24" dy="25">类目和内容覆盖。</tspan></text>
+  </g>
+  <g transform="translate(578 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#a855f7" stroke-width="2"/>
+    <text x="24" y="47" class="label">CTR</text><text x="24" y="82" class="metric">第一眼表达</text>
+    <text x="24" y="125" class="action"><tspan x="24">点击低？</tspan><tspan x="24" dy="25">修标题、主图、</tspan><tspan x="24" dy="25">Offer 和内容承诺。</tspan></text>
+  </g>
+  <g transform="translate(838 236)">
+    <rect width="205" height="194" rx="24" fill="#17131d" stroke="#6366f1" stroke-width="2"/>
+    <text x="24" y="47" class="label">转化</text><text x="24" y="82" class="metric">商品页承接意图</text>
+    <text x="24" y="125" class="action"><tspan x="24">转化低？</tspan><tspan x="24" dy="25">修价格、证明、信任、</tspan><tspan x="24" dy="25">变体或物流。</tspan></text>
+  </g>
+  <g transform="translate(1098 236)">
+    <rect width="244" height="194" rx="24" fill="#17131d" stroke="#38bdf8" stroke-width="2"/>
+    <text x="24" y="47" class="label">贡献利润</text><text x="24" y="82" class="metric">放量是否创造价值</text>
+    <text x="24" y="125" class="action"><tspan x="24">利润弱？</tspan><tspan x="24" dy="25">修折扣、佣金、投放、</tspan><tspan x="24" dy="25">物流或退货。</tspan></text>
+  </g>
+  <g transform="translate(76 500)">
+    <rect width="1248" height="150" rx="26" fill="#0f0d13" stroke="#392f42"/>
+    <text x="30" y="46" class="break">POST-VIEW SEARCH LOOP</text>
+    <text x="30" y="82" class="label">重复出现的看后搜索，是还没有被回答的意图。</text>
+    <text x="30" y="116" class="sub">把它放进下一条达人 hook、商品页模块、FAQ 和复测。</text>
+    <path d="M1125 45c70 0 70 72 0 72" stroke="#ff2ba6" stroke-width="4" fill="none"/><path d="M1128 105l-18 12 18 12" fill="none" stroke="#ff2ba6" stroke-width="4"/>
+  </g>
+</svg>

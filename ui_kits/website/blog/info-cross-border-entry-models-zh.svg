@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">美国 TikTok Shop 四种入驻路径对比</title>
+  <desc id="desc">对比中国香港主体 POP、美国主体 ACCU、全托管、品牌托管的适合对象、履约方式、材料和保证金。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#050505"/>
+      <stop offset=".54" stop-color="#111017"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+    <radialGradient id="pink" cx=".16" cy=".08" r=".55">
+      <stop stop-color="#FF1493" stop-opacity=".32"/>
+      <stop offset=".62" stop-color="#FF1493" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#FF1493" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="780" fill="url(#bg)"/>
+  <rect width="1400" height="780" fill="url(#pink)"/>
+  <text x="70" y="86" fill="#fff" font-size="42" font-weight="800" font-family="Arial, Helvetica, sans-serif">美国 TikTok Shop 入驻路径怎么选</text>
+  <text x="70" y="126" fill="#FF1493" font-size="18" font-weight="700" letter-spacing="2" font-family="Arial, Helvetica, sans-serif">POP · ACCU · 全托管 · 品牌托管</text>
+  <g transform="translate(70 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#180813"/>
+    <text x="24" y="46" fill="#FF1493" font-size="25" font-weight="800">POP 中国/香港主体</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">适合谁</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">已有中港主体，同时能做</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">美国本地仓和本地发货</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">核心材料</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">营业执照、法人证件、</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">唯一手机和邮箱、可选</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">第三方平台经验证明</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">每店 1500 美金</text>
+  </g>
+  <g transform="translate(395 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#111026"/>
+    <text x="24" y="46" fill="#FF1493" font-size="25" font-weight="800">POP 美国主体 ACCU</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">适合谁</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">美国注册企业，最终受益</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">人包含中国人</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">核心材料</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">美国公司注册文件、</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">中国受益人证件、主要</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">联系人证件，可能补 IRS</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">官方显示暂不缴纳</text>
+  </g>
+  <g transform="translate(720 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#101B1F"/>
+    <text x="24" y="46" fill="#FF1493" font-size="25" font-weight="800">全托管</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">适合谁</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">工贸一体、工厂型商家、</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">贸易商或想跨境供货者</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">核心材料</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">营业执照、法人证件、</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">公司/办公室/仓库图、</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">工厂营业执照信息</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">人民币 1000 元</text>
+  </g>
+  <g transform="translate(1045 180)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="300" height="500" rx="22" fill="#0D0D0F" stroke="#2A2A2D"/>
+    <rect x="0" y="0" width="300" height="76" rx="22" fill="#1A0D22"/>
+    <text x="24" y="46" fill="#FF1493" font-size="25" font-weight="800">品牌托管</text>
+    <text x="24" y="118" fill="#fff" font-size="22" font-weight="700">适合谁</text>
+    <text x="24" y="152" fill="#D7D7D9" font-size="18">国内电商头部商家，或</text>
+    <text x="24" y="180" fill="#D7D7D9" font-size="18">有独立站/跨境经验商家</text>
+    <text x="24" y="238" fill="#fff" font-size="22" font-weight="700">核心材料</text>
+    <text x="24" y="272" fill="#D7D7D9" font-size="18">材料接近全托管，但当前</text>
+    <text x="24" y="300" fill="#D7D7D9" font-size="18">采用定向邀请，通过运营</text>
+    <text x="24" y="328" fill="#D7D7D9" font-size="18">经理邀请码注册</text>
+    <text x="24" y="386" fill="#fff" font-size="22" font-weight="700">保证金</text>
+    <text x="24" y="422" fill="#4A8FFF" font-size="25" font-weight="800">人民币 1000 元</text>
+  </g>
+  <text x="70" y="728" fill="#A8A8AD" font-size="16" font-family="Arial, Helvetica, sans-serif">资料依据 TikTok Shop Global Selling 中文官方入驻页，页面规则可能更新，最终以官方入驻页和审核结果为准。</text>
+</svg>

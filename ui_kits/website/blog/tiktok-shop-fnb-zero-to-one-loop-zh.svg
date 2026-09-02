@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">WEM TikTok Shop 食品饮料 0-1 冷启动闭环</title>
+  <desc id="desc">七步闭环连接产品事实、达人匹配、内容任务、商品页与优惠、GMV Max 测试、履约和下一次扩大、修复或停止决策。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf4"/>
+      <stop offset="0.55" stop-color="#f5f0ff"/>
+      <stop offset="1" stop-color="#edf4ff"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1746b8"/>
+      <stop offset="0.5" stop-color="#7b61ff"/>
+      <stop offset="1" stop-color="#ed2b86"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#202040" flood-opacity=".10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#7b61ff"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="760" rx="34" fill="url(#bg)"/>
+  <text x="72" y="82" font-family="Arial, 'PingFang SC', sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#1746b8">WE MARKETING · F&amp;B 冷启动</text>
+  <text x="72" y="145" font-family="Arial, 'PingFang SC', sans-serif" font-size="48" font-weight="800" fill="#14142b">搭建第一套可重复的 0-1 系统</text>
+  <text x="72" y="187" font-family="Arial, 'PingFang SC', sans-serif" font-size="23" fill="#55536a">每一层都要为下一次决定提供证据。</text>
+
+  <path d="M184 340 C 220 252, 324 226, 414 274 S 565 318, 642 267 S 798 222, 884 276 S 1049 328, 1120 272 S 1260 248, 1298 336"
+        fill="none" stroke="url(#line)" stroke-width="10" stroke-linecap="round" opacity=".28"/>
+  <path d="M1268 519 C 1180 632, 982 661, 814 626 S 515 599, 358 641 S 136 601, 114 511"
+        fill="none" stroke="#7b61ff" stroke-width="5" stroke-dasharray="12 14" stroke-linecap="round" marker-end="url(#arrow)" opacity=".8"/>
+
+  <g font-family="Arial, 'PingFang SC', sans-serif" text-anchor="middle">
+    <g transform="translate(90 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#1746b8"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">1</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">产品事实</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">筛 3-5 个候选</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">集中 1-3 个 Hero SKU</text>
+    </g>
+    <g transform="translate(380 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#4c62d6"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">2</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">达人匹配</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">产品 affinity + 受众</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">真实可执行角度</text>
+    </g>
+    <g transform="translate(670 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#7b61ff"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">3</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">内容任务</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">味道 · 质地 · 场景</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">信任 + offer</text>
+    </g>
+    <g transform="translate(960 268)" filter="url(#shadow)">
+      <rect width="250" height="162" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#a14fdd"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">4</text>
+      <text x="125" y="61" font-size="22" font-weight="800" fill="#14142b">商品页 + offer</text>
+      <text x="125" y="94" font-size="17" fill="#615e73">产品讲清楚</text>
+      <text x="125" y="120" font-size="17" fill="#615e73">价格 + 运费</text>
+    </g>
+    <g transform="translate(1058 505)" filter="url(#shadow)">
+      <rect width="250" height="148" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#ed2b86"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">5</text>
+      <text x="125" y="58" font-size="22" font-weight="800" fill="#14142b">GMV Max 测试</text>
+      <text x="125" y="91" font-size="17" fill="#615e73">受控 spend</text>
+      <text x="125" y="117" font-size="17" fill="#615e73">比较真实信号</text>
+    </g>
+    <g transform="translate(697 505)" filter="url(#shadow)">
+      <rect width="250" height="148" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#e64b9a"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">6</text>
+      <text x="125" y="58" font-size="22" font-weight="800" fill="#14142b">履约</text>
+      <text x="125" y="91" font-size="17" fill="#615e73">库存 + 新鲜度</text>
+      <text x="125" y="117" font-size="17" fill="#615e73">客服 + 评价</text>
+    </g>
+    <g transform="translate(336 505)" filter="url(#shadow)">
+      <rect width="250" height="148" rx="24" fill="#fff"/>
+      <circle cx="125" cy="0" r="32" fill="#925dde"/><text x="125" y="9" font-size="25" font-weight="800" fill="#fff">7</text>
+      <text x="125" y="58" font-size="22" font-weight="800" fill="#14142b">下一次决定</text>
+      <text x="125" y="91" font-size="17" fill="#615e73">扩大 · 修复 · 停止</text>
+      <text x="125" y="117" font-size="17" fill="#615e73">再进入下一轮</text>
+    </g>
+  </g>
+  <rect x="72" y="690" width="1256" height="2" fill="url(#line)" opacity=".45"/>
+  <text x="72" y="727" font-family="Arial, 'PingFang SC', sans-serif" font-size="17" fill="#615e73">0 → 1 不是完成所有动作，而是建立品牌能理解、重复和改进的第一套运营系统。</text>
+</svg>

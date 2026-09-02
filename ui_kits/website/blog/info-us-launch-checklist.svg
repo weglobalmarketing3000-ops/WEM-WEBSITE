@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">TikTok Shop U.S. Launch Checklist</title>
+  <desc id="desc">A bilingual launch checklist for cross-border brands preparing TikTok Shop U.S. operations.</desc>
+  <defs>
+    <linearGradient id="pink" x1="0" x2="1"><stop stop-color="#FF1493"/><stop offset="1" stop-color="#9B30FF"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="675" fill="#070707"/>
+  <circle cx="1030" cy="80" r="260" fill="#FF1493" opacity=".12" filter="url(#glow)"/>
+  <text x="72" y="84" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">TikTok Shop U.S. Launch Checklist</text>
+  <text x="72" y="122" fill="#FF1493" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">A practical checklist before creator outreach</text>
+  <g transform="translate(72 170)" font-family="Inter, Arial, sans-serif">
+    <g fill="#111" stroke="rgba(255,255,255,.14)">
+      <rect x="0" y="0" width="320" height="180" rx="18"/>
+      <rect x="368" y="0" width="320" height="180" rx="18"/>
+      <rect x="736" y="0" width="320" height="180" rx="18"/>
+      <rect x="0" y="224" width="320" height="180" rx="18"/>
+      <rect x="368" y="224" width="320" height="180" rx="18"/>
+      <rect x="736" y="224" width="320" height="180" rx="18"/>
+    </g>
+    <g font-size="18" font-weight="800" fill="#fff">
+      <text x="28" y="44">1. Market Fit</text><text x="396" y="44">2. Shop Setup</text><text x="764" y="44">3. Product Page</text>
+      <text x="28" y="268">4. Creator Plan</text><text x="396" y="268">5. Logistics</text><text x="764" y="268">6. Launch Rhythm</text>
+    </g>
+    <g font-size="14" fill="rgba(255,255,255,.72)">
+      <text x="28" y="78">Category demand, price point,</text><text x="28" y="102">margin, creator-friendly proof.</text><text x="28" y="138" fill="#FF1493">Demand, margin, creator-friendly proof</text>
+      <text x="396" y="78">Entity, tax, payment, returns,</text><text x="396" y="102">policies, support owner.</text><text x="396" y="138" fill="#FF1493">Entity, tax, payout, returns</text>
+      <text x="764" y="78">Titles, images, benefits,</text><text x="764" y="102">offers, reviews, FAQ.</text><text x="764" y="138" fill="#FF1493">Title, images, benefits, FAQ</text>
+      <text x="28" y="302">Affiliate terms, samples, briefs,</text><text x="28" y="326">creator matching, content calendar.</text><text x="28" y="362" fill="#FF1493">Affiliate terms, samples, content rhythm</text>
+      <text x="396" y="302">Inventory, shipping templates,</text><text x="396" y="326">sample tracking, lead times.</text><text x="396" y="362" fill="#FF1493">Inventory, shipping, sample tracking</text>
+      <text x="764" y="302">Soft launch, creator follow-up,</text><text x="764" y="326">promo tests, weekly review.</text><text x="764" y="362" fill="#FF1493">Soft launch, review, scale</text>
+    </g>
+    <g fill="none" stroke="url(#pink)" stroke-width="4" stroke-linecap="round">
+      <path d="M292 32 l10 10 l22 -28"/><path d="M660 32 l10 10 l22 -28"/><path d="M1028 32 l10 10 l22 -28"/>
+      <path d="M292 256 l10 10 l22 -28"/><path d="M660 256 l10 10 l22 -28"/><path d="M1028 256 l10 10 l22 -28"/>
+    </g>
+  </g>
+  <text x="72" y="628" fill="rgba(255,255,255,.48)" font-family="Inter, Arial, sans-serif" font-size="14">WE Marketing framework · operational checklist, not legal advice</text>
+</svg>

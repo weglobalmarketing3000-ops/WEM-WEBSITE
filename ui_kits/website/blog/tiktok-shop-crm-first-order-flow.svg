@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">From creator discovery to repeat purchase</title>
+  <desc id="desc">A four-stage WEM operating flow showing creator discovery, first order, CRM message, and repeat purchase.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#1746b8"/>
+      <stop offset=".52" stop-color="#7b61ff"/>
+      <stop offset="1" stop-color="#ff4f9a"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#6f6259" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="500" rx="34" fill="#fffdf9"/>
+  <text x="76" y="72" fill="#e81583" font-family="Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="2.5">WEM OPERATING FLOW</text>
+  <text x="76" y="116" fill="#171717" font-family="Arial, sans-serif" font-size="32" font-weight="800">Turn the first order into the next useful customer moment</text>
+  <rect x="76" y="139" width="138" height="4" rx="2" fill="url(#accent)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="185" width="250" height="220" rx="30" fill="#fff" stroke="#e5e1da"/>
+    <rect x="410" y="185" width="250" height="220" rx="30" fill="#fff" stroke="#e5e1da"/>
+    <rect x="740" y="185" width="250" height="220" rx="30" fill="#fff" stroke="#e5e1da"/>
+    <rect x="1070" y="185" width="250" height="220" rx="30" fill="#fff" stroke="#e5e1da"/>
+  </g>
+
+  <g transform="translate(205 264)">
+    <circle r="56" fill="#edf3ff"/>
+    <circle cx="-20" cy="-10" r="17" fill="#1746b8"/>
+    <circle cx="22" cy="-7" r="14" fill="#628cf0"/>
+    <path d="M-52 34c4-28 18-41 34-41s31 13 35 41z" fill="#1746b8"/>
+    <path d="M5 34c3-22 14-33 28-33 13 0 25 11 29 33z" fill="#628cf0"/>
+  </g>
+  <g transform="translate(535 264)">
+    <circle r="56" fill="#fff0f5"/>
+    <path d="M-36-16h72l-7 61h-58z" fill="#ff4f9a"/>
+    <path d="M-21-17c0-21 9-34 21-34s21 13 21 34" fill="none" stroke="#e81583" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="14" r="8" fill="#fff"/>
+  </g>
+  <g transform="translate(865 264)">
+    <circle r="56" fill="#eef4ff"/>
+    <rect x="-42" y="-31" width="84" height="62" rx="12" fill="#2867d8"/>
+    <path d="M-32-20L0 5l32-25" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="34" cy="39" r="17" fill="#ff4f9a"/>
+    <path d="M27 39l5 5 10-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(1195 264)">
+    <circle r="56" fill="#fff0f5"/>
+    <path d="M-35-21h12l9 48h48l9-34h-59" fill="none" stroke="#e81583" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-5" cy="42" r="7" fill="#e81583"/>
+    <circle cx="32" cy="42" r="7" fill="#e81583"/>
+    <circle cx="35" cy="-33" r="18" fill="#1746b8"/>
+    <path d="M28-33l5 5 10-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g fill="none" stroke="#a8a39d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M344 275h45m-13-13 13 13-13 13"/>
+    <path d="M674 275h45m-13-13 13 13-13 13"/>
+    <path d="M1004 275h45m-13-13 13 13-13 13"/>
+  </g>
+
+  <g text-anchor="middle" font-family="Arial, sans-serif">
+    <text x="205" y="367" fill="#171717" font-size="21" font-weight="800">Creator discovery</text>
+    <text x="535" y="367" fill="#171717" font-size="21" font-weight="800">First order</text>
+    <text x="865" y="367" fill="#171717" font-size="21" font-weight="800">CRM message</text>
+    <text x="1195" y="367" fill="#171717" font-size="21" font-weight="800">Repeat purchase</text>
+  </g>
+  <text x="76" y="458" fill="#6f6a64" font-family="Arial, sans-serif" font-size="18">The message has one job: create a relevant reason for the customer to move forward.</text>
+</svg>
