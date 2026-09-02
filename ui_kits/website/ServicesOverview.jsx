@@ -1,6 +1,115 @@
 // ServicesOverview.jsx, full services page with section anchors.
 const SO_ACCENTS = ['#FF1493', '#4A8FFF', '#9B30FF', '#FF1493', '#4A8FFF', '#4A8FFF', '#9B30FF', '#FF1493'];
 
+const KO_SERVICES_DATA = {
+  hero: {
+    eyebrow: 'WEM SERVICES',
+    h1: ['미국 성장을 위한', 'TikTok Shop 서비스.'],
+    sub: 'WEM은 숍 운영, 크리에이터, 콘텐츠, 라이브 판매와 리포팅을 연결해 TikTok Shop을 실제로 작동하는 판매 채널로 만듭니다.',
+    cta: '상담 예약하기',
+    note: '제품 단계, 카테고리, 마진 구조와 내부 팀 역량에 맞춰 협업 범위를 설계합니다.',
+  },
+  intro: {
+    h: '풀서비스 운영을 중심으로, 지금 가장 필요한 영역부터 확장합니다.',
+    p: '성장은 단 한 편의 바이럴 영상만으로 만들어지지 않습니다. WEM은 상품 페이지, 크리에이터, 샘플, 라이브 판매, 오퍼와 주간 데이터 리뷰를 하나의 운영 시스템으로 연결합니다.',
+  },
+  services: [
+    {
+      id: 'full-service-management', icon: 'shopping-bag', title: 'TikTok Shop 풀서비스 운영',
+      best: '숍 운영, 크리에이터, 콘텐츠, 라이브와 리포팅을 한 팀이 함께 맡기를 원하는 브랜드에 적합합니다.',
+      handles: ['숍 운영, 상품 페이지, 상품 SEO, 가격 및 프로모션 기획', '크리에이터 어필리에이트 전략, 시딩과 캠페인 후속 관리', '콘텐츠 방향, 크리에이터 브리프와 성과 리뷰', '크리에이터 라이브 판매 및 캠페인 일정 조율', 'GMV, 크리에이터 활동, 콘텐츠 산출물, 숍 상태와 장애 요인을 아우르는 주간 리포팅'],
+      model: '월 리테이너와 GMV 성과 수수료 방식입니다. 카테고리, 성장 단계, 마진과 내부 팀 역량에 따라 범위를 정합니다.',
+      workHref: './showcase.html#case-wellness-affiliate-live',
+    },
+    {
+      id: 'cold-start', icon: 'rocket', title: 'TikTok Shop 콜드 스타트 론치',
+      best: '제로부터 시작해 숍 세팅, 크리에이터 시딩, 초기 콘텐츠, 첫 주문과 확장 기반이 필요한 브랜드에 적합합니다.',
+      handles: ['숍 세팅, 상품 리스팅 구조, 상품 SEO와 론치 로드맵', '1차 크리에이터 시딩, 어필리에이트 설정과 샘플 운영', '제품 메시지, 오퍼, 커미션, 크리에이터 유형과 콘텐츠 포맷 테스트', '초기 콘텐츠, 주문, 리뷰와 판매 신호 축적', '첫 크리에이터·콘텐츠 신호를 바탕으로 확장 가능한 요소 선별'],
+      model: '월 리테이너와 GMV 성과 수수료 방식이며, 보통 초기 60~90일을 중심으로 설계합니다.',
+      href: './services/cold-start.html', cta: '콜드 스타트 프로그램 보기', workHref: './showcase.html#case-fashion-cold-start',
+    },
+    {
+      id: 'consulting', icon: 'messages-square', title: 'TikTok Shop 전략 컨설팅',
+      best: '실행은 내부에서 담당하되, 시작 전에 경험 있는 TikTok Shop 파트너의 방향 설정이 필요한 팀에 적합합니다.',
+      handles: ['TikTok Shop 론치 전략, 성장 로드맵과 우선순위 설정', 'TikTok Shop 판매 경험이 없는 브랜드를 위한 물류·풀필먼트 전략', '크리에이터 어필리에이트 전략, 커미션 설계와 워크플로 구축', '숍 세팅, 상품 페이지, 오퍼와 캠페인 구조 진단', '실행 계획, 감사와 후속 권고안을 포함한 인하우스 팀 자문'],
+      model: '단발성 전략 수립과 감사부터 지속적인 어드바이저리까지, 내부 실행 팀에 맞춰 제공합니다.',
+      workHref: './showcase.html#case-beauty-gmv-growth',
+    },
+    {
+      id: 'affiliate-management', icon: 'users', title: '크리에이터 어필리에이트 운영',
+      best: '숍 운영 기반은 있지만 크리에이터 리소스가 부족하거나 아웃리치와 후속 관리 속도를 높이고 싶은 브랜드에 적합합니다.',
+      handles: ['WEM 커뮤니티, 카테고리 아웃리치, Affiliate Center와 기존 관계를 통한 크리에이터 발굴', '크리에이터 메시지, 타깃 협업, 초대와 일일 후속 관리를 포함한 Affiliate Center 운영', '커미션 전략, 캠페인 설정, 샘플 승인과 게시 리마인드', '브리프, 게시 가이드, 콘텐츠 리뷰와 이슈 에스컬레이션', '게시율, GMV, 크리에이터 응답, 샘플 ROI와 주간 어필리에이트 리포팅'],
+      model: '월 리테이너와 성과 수수료 방식입니다. 브랜드 팀이 숍을 운영하고 WEM이 크리에이터 영역을 맡는 하이브리드 모델에도 적합합니다.',
+      workHref: './showcase.html#case-wellness-affiliate-live',
+    },
+    {
+      id: 'ugc-content', icon: 'film', title: 'UGC·크리에이터 콘텐츠 패키지',
+      best: '풀서비스 운영 없이 TikTok Shop, Amazon 리스팅, DTC 페이지, 광고와 소셜 채널용 크리에이터 영상이 필요한 브랜드에 적합합니다.',
+      handles: ['Bulk, Plus, Premium 크리에이터 콘텐츠 패키지', '크리에이터 매칭, 브리프, 제작 추적과 품질 검수', '패키지 범위에 따른 편집, 캡션과 전체 사용권', '영어, 스페인어, 중국어 등 다국어 콘텐츠 옵션', '상품 페이지와 유료 미디어에 활용할 수 있는 크리에이티브 샘플'],
+      model: '패키지 단위로 진행합니다. 최소 수량, 가격, 예시, 사용권과 일정은 전용 페이지에서 확인할 수 있습니다.',
+      href: './services/creator-content.html#packages', cta: 'UGC 패키지 보기', workHref: './services/creator-content.html#ugc-video-examples',
+    },
+    {
+      id: 'creator-matchmaking', icon: 'sparkles', title: '크리에이터 매칭',
+      best: '카테고리 적합도를 높이고 소싱 속도를 개선하며 WEM의 활성화 지원을 활용하려는 인하우스 크리에이터 팀에 적합합니다.',
+      handles: ['카테고리, 오디언스, 언어, 콘텐츠 스타일과 판매 신호 기반 매칭', '캠페인 목표에 맞춘 크리에이터 후보와 적합성 메모', '선별 캠페인의 커미션 전용 옵션', '심층 소싱·활성화를 위한 고정 세팅비와 커미션 옵션', '아웃리치, 샘플, 브리프와 크리에이터 후속 관리 선택 지원'],
+      model: '선별 캠페인은 커미션 전용으로, 더 적극적인 소싱과 활성화가 필요하면 고정비와 커미션 방식으로 운영할 수 있습니다.',
+      workHref: './showcase.html#case-creator-matchmaking',
+    },
+    {
+      id: 'creator-live', icon: 'radio', title: 'TikTok Shop 크리에이터 라이브 판매',
+      best: '호스트 적합성, 오퍼 구조, 라이브룸 지원과 방송 후 리뷰까지 포함한 크리에이터 라이브 판매가 필요한 브랜드에 적합합니다.',
+      handles: ['카테고리, 오디언스, 언어, 판매 스타일과 일정에 맞춘 라이브 호스트 선정', '라이브 캠페인, 전용 플래시 세일과 경품 구성', '모더레이터, 진행 순서, 제품 핵심 메시지와 스크립트 지원', '오퍼, 커미션, 제품 구성, 샘플과 방송 전 준비 조율', 'GMV, 트래픽, 전환, 호스트 성과와 다음 단계 리뷰'],
+      model: '시간제 또는 라이브 패키지와 커미션 방식입니다. 확장 가능한 호스트, 오퍼와 포맷을 테스트하는 데 적합합니다.',
+    },
+    {
+      id: 'content-performance', icon: 'video', title: '숏폼 영상 제작',
+      best: 'TikTok Shop, Amazon 리스팅, Shopify·DTC 페이지, 광고와 미국 소셜 채널용 제품 숏폼이 필요한 브랜드에 적합합니다.',
+      handles: ['영상 콘셉트, 훅과 제품 판매 포인트 설계', '제품 데모와 소셜 프루프를 위한 크리에이터 또는 스튜디오 촬영', '루틴, 언박싱, 비교, 오퍼 중심 영상과 리스팅용 콘텐츠', '편집, 캡션, 자막과 플랫폼별 파일 납품', '실제 콘텐츠 신호를 반영한 다음 제작 배치 성과 리뷰'],
+      model: '단독 제작, UGC 패키지 추가 옵션 또는 풀서비스 운영 범위로 구성할 수 있습니다.',
+    },
+  ],
+  contentSnapshot: {
+    eyebrow: '콘텐츠 개선 성과', title: '조회에서 매출로 이어지는 최적화', caption: '훅, 제품 메시지, 전개 속도와 CTA를 반복 테스트했습니다.', mediaLabel: '크리에이터 영상 테스트',
+    mediaImage: '../assets/content-performance/creator-video-views.jpg', resultImage: '../assets/content-performance/creator-gmv-row-clean.png',
+    gmv: '$51.21K', gmvLabel: '한 크리에이터·한 제품의 30일 GMV',
+    metrics: [['5.57K', '판매 수량'], ['5.91%', '전체 GMV 비중'], ['$8.08K', '예상 커미션']],
+    note: '실제 캠페인 데이터를 기반으로 하며, 개인정보 보호를 위해 브랜드와 크리에이터 정보는 공개하지 않습니다.',
+  },
+  liveSnapshot: {
+    eyebrow: '크리에이터 라이브 실행', title: '크리에이터 주도 라이브 판매',
+    caption: 'WEM은 호스트 목록만 전달하지 않습니다. 적합한 라이브 셀러를 매칭하고 오퍼와 진행 흐름을 설계하며, 라이브룸을 지원한 뒤 확장 가능한 요소를 리뷰합니다.',
+    note: '실제 라이브 녹화본이며 크리에이터 계정과 시청자 정보는 개인정보 보호를 위해 공개하지 않습니다.',
+    tags: ['호스트 선정', '플래시 세일', '구매 카드', '모더레이터', '경품'], video: '../assets/live-hosts/creator-live-recording.mov',
+    proof: [['플래시 세일 구성', '오퍼 타이밍, 혜택 표현, 구매 카드 흐름과 한정 시간 긴급성을 설계합니다.'], ['호스트 적합성', '카테고리, 오디언스, 데모 스타일과 라이브 진행 리듬에 맞춰 호스트를 선정합니다.'], ['라이브룸 지원', '모더레이터, 댓글 흐름, 제품 리마인드와 경품 운영을 지원합니다.'], ['방송 후 리뷰', 'GMV, 트래픽, 전환, 호스트 성과와 다음 테스트 계획을 검토합니다.']],
+    shortlistTitle: '라이브 호스트 후보 예시', shortlistNote: 'WEM이 자주 협업하는 라이브 호스트 유형입니다. 실제 아웃리치 전에는 카테고리 적합성, 판매 스타일, 일정과 라이브 이력을 기준으로 다시 선별합니다.',
+    shortlist: [
+      { icon: 'bear', type: '완구·게이밍·딜 중심 라이브 호스트', signal: '$250K+ GMV / FOMO·플래시 세일·경매형 판매', fit: '완구, 게이밍 인접 제품, 빠른 딜, 한정 번들과 긴급한 구매 분위기가 필요한 라이브룸에 적합합니다.' },
+      { icon: 'vacuum', type: '생활가전·아웃도어 데모 호스트', signal: '$120K+ GMV / 팔로워 35.6K / 균형 잡힌 오디언스', fit: '$50~$100대 제품, 특히 직접 사용하거나 야외에서 보여줄 때 강점이 드러나는 생활가전에 적합합니다.' },
+      { icon: 'tools-auto', type: '영상·라이브 전환형 호스트', signal: '$500K+ GMV / 자동차·모터사이클·공구·하드웨어', fit: '숏폼으로 수요를 만들고 라이브로 전환하는 자동차, 공구, 하드웨어와 대형 데모 제품에 적합합니다.' },
+      { icon: 'beauty', type: '뷰티·데일리 스킨케어 호스트', signal: '$100K+ GMV / 영상 + 라이브 / 플래시 세일과 딜', fit: '성분, 루틴과 사용법 설명이 중요한 스킨케어 및 딜 중심 뷰티 캠페인에 적합합니다.' },
+    ],
+  },
+  labelBest: '추천 대상', labelHandles: 'WEM 운영 범위', labelModel: '협업 방식', relatedWorkCta: '관련 성과 보기', examplesLabel: '제작 예시',
+  shortVideoExamples: [
+    { title: '리스팅용 제품 데모', body: '제품 중심 영상, 얼굴 없는 데모, 루틴, 언박싱과 빠른 사용 사례를 TikTok Shop, Amazon, Shopify와 DTC 페이지에 맞춰 제작합니다.' },
+    { title: '유료·오가닉 판매 크리에이티브', body: '제품 메시지와 오퍼를 훅 중심으로 구성하고, 캡션·자막과 소셜 게시 및 광고용 버전을 함께 만듭니다.' },
+  ],
+  defaultCta: 'WEM에 문의하기',
+  final: { h: '어떤 서비스가 맞는지 모르겠다면?', p: 'TikTok Shop 운영이 지금 어디에서 막혀 있는지 알려주세요. 불필요한 서비스를 권하기보다 가장 적합한 시작점을 함께 찾겠습니다.' },
+  faq: {
+    eyebrow: 'SELLER & BRAND FAQ', h: '우리 브랜드에 맞는 TikTok Shop 지원 선택하기',
+    items: [
+      { q: 'TikTok Shop을 제로부터 시작하는 브랜드에는 어떤 서비스가 맞나요?', a: '콜드 스타트 론치는 숍 세팅, 상품 페이지 준비, 어필리에이트 설정, 1차 크리에이터 시딩, 초기 콘텐츠와 주문, 그리고 첫 60~90일 계획이 필요한 브랜드를 위한 서비스입니다. 이후에도 숍, 크리에이터, 콘텐츠, 라이브와 리포팅을 통합 운영하려면 풀서비스 운영이 더 적합합니다.' },
+      { q: '내부 팀이 숍을 운영하고 있다면 크리에이터 어필리에이트만 맡길 수 있나요?', a: '가능합니다. 브랜드 팀은 숍 운영을 유지하고 WEM은 크리에이터 소싱, Affiliate Center, 아웃리치, 커미션, 샘플, 게시 후속 관리, 브리프, 콘텐츠 리뷰와 주간 리포팅을 맡는 하이브리드 모델로 운영할 수 있습니다.' },
+      { q: '협업 전에 셀러나 브랜드가 준비해야 할 것은 무엇인가요?', a: '미국 내 재고 또는 실행 가능한 풀필먼트 계획, 정확한 제품·클레임 정보, 샘플 수량, 현실적인 마진, 전환 준비가 된 상품 페이지, 빠르게 의사결정할 담당자와 명확한 론치 또는 성장 우선순위가 필요합니다. WEM이 준비도 격차를 진단하고 보완할 수도 있습니다.' },
+      { q: 'WEM의 TikTok Shop 서비스 비용은 어떻게 정해지나요?', a: '협업 범위에 따라 달라집니다. 풀서비스와 어필리에이트 운영은 일반적으로 월 리테이너와 성과 수수료를 결합하고, UGC와 숏폼은 패키지 단위로 진행합니다. 컨설팅은 단발성 감사, 전략 프로젝트 또는 지속 자문으로 구성할 수 있습니다.' },
+      { q: 'WEM은 브랜드를 위해 크리에이터 커뮤니티를 어떻게 활용하나요?', a: '단순 연락처 목록이 아니라 활성화와 관계 구축의 기반으로 활용합니다. 카테고리 매칭, 기회 안내, 제품 교육, 샘플 후속 관리, 크리에이터 문의, 콘텐츠 피드백, 반복 협업과 신제품 론치 조율을 지원합니다.' },
+      { q: 'WEM은 어떤 성과 지표를 관리하나요?', a: '협업 범위에 따라 GMV, 주문, 전환, 숍 상태, 크리에이터 응답, 샘플 수령 후 게시율, 콘텐츠 산출물, 활용 가능한 크리에이티브, 라이브 성과, 어필리에이트 효율, 장애 요인과 다음 주 실행 항목을 관리합니다.' },
+    ],
+  },
+};
+
 const ServicesOverview = ({ lang }) => {
   const data = {
     en: {
@@ -162,6 +271,7 @@ const ServicesOverview = ({ lang }) => {
         ],
       },
     },
+    ko: KO_SERVICES_DATA,
     zh: {
       hero: {
         eyebrow: 'WEM 服务',
@@ -472,14 +582,14 @@ const ServicesOverview = ({ lang }) => {
           <p style={soStyles.heroSub} className="services-hero-sub">{data.hero.sub}</p>
           <div style={soStyles.heroCtas} className="services-hero-ctas">
             <a href={book} target="_blank" rel="noopener" className="we-btn we-btn-primary" style={soStyles.primary}>{data.hero.cta}</a>
-            <a href="#cold-start" style={soStyles.secondary}>{lang === 'en' ? 'Explore services' : '查看服务'}</a>
+            <a href="#cold-start" style={soStyles.secondary}>{lang === 'en' ? 'Explore services' : lang === 'ko' ? '서비스 살펴보기' : '查看服务'}</a>
           </div>
           <p style={soStyles.note}>{data.hero.note}</p>
         </div>
       </section>
 
       <section style={soStyles.intro} className="services-intro">
-        <div style={soStyles.introLabel}>{lang === 'en' ? 'HOW WEM WORKS' : 'WEM 怎么做'}</div>
+        <div style={soStyles.introLabel}>{lang === 'en' ? 'HOW WEM WORKS' : lang === 'ko' ? 'WEM 운영 방식' : 'WEM 怎么做'}</div>
         <h2 style={soStyles.introH} className="services-intro-title">{data.intro.h}</h2>
         <p style={soStyles.introP} className="services-intro-copy">{data.intro.p}</p>
       </section>

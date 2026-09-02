@@ -2,9 +2,9 @@
 const Footer = ({ lang, basePath = '' }) => {
   const b = basePath;
   const isKo = lang === 'ko';
-  const home = isKo ? '../index.html' : (b || './index.html');
+  const home = isKo ? './index.html' : (b || './index.html');
   const page = (path) => isKo
-    ? (path === 'about.html' || path === 'privacy.html' ? `./${path}` : `../${path}`)
+    ? (['about.html', 'privacy.html', 'affiliate.html', 'showcase.html', 'services.html', 'blog.html', 'services/creator-content.html', 'services/cold-start.html'].includes(path) ? `./${path}` : `../${path}`)
     : `${b}${path}`;
   const linkedIn = (
     <a href="https://www.linkedin.com/company/we-marketingtsp" target="_blank" rel="noopener" aria-label="WE Marketing LinkedIn" style={fStyles.socialLink}>

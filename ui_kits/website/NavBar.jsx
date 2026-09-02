@@ -21,7 +21,7 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
   const b = basePath;
   const isKo = lang === 'ko';
   const home = isKo ? './index.html' : (b || './index.html');
-  const page = (path) => isKo ? (['about.html', 'affiliate.html', 'showcase.html'].includes(path) ? `./${path}` : `../${path}`) : `${b}${path}`;
+  const page = (path) => isKo ? (['about.html', 'affiliate.html', 'showcase.html', 'services.html', 'blog.html', 'services/creator-content.html', 'services/cold-start.html'].includes(path) ? `./${path}` : `../${path}`) : `${b}${path}`;
   const koRoute = typeof window !== 'undefined'
     ? (() => {
       const route = window.location.pathname.replace(/^\/ko/, '').replace(/\.html$/, '') || '/';
