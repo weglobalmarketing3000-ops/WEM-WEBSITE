@@ -6,6 +6,7 @@
   <title>Privacy Policy | WE Marketing</title>
   <meta name="description" content="WE Marketing Privacy Policy describing how we collect, use, disclose, retain, and protect personal information, including data processed through authorized platform integrations.">
   <link rel="canonical" href="https://www.weglobalmarketing.com/privacy">
+  <link rel="alternate" hreflang="ko-KR" href="https://www.weglobalmarketing.com/ko/privacy">
   <meta property="og:title" content="Privacy Policy | WE Marketing">
   <meta property="og:description" content="How WE Marketing handles personal information and authorized platform data.">
   <meta property="og:type" content="website">
@@ -196,6 +197,11 @@
       .layout { grid-template-columns: 1fr; }
       aside { position: static; }
     }
+    @media (max-width: 640px) {
+      .nav { flex-wrap: wrap; gap: 10px 16px; padding: 12px 20px; }
+      .nav > .brand { flex: 1 1 auto; }
+      .nav > span.back { order: 3; flex: 0 0 100%; text-align: center; }
+    }
   </style>
 </head>
 <body>
@@ -203,6 +209,7 @@
   <header>
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/">WE MARKETING</a>
+      <span class="back" aria-label="Language selector"><a class="back" href="/privacy" aria-current="page">English</a> / <a class="back" href="/privacy?lang=zh">简体中文</a> / <a class="back" href="/ko/privacy">한국어</a></span>
       <a class="back" href="/">Back to website</a>
     </nav>
   </header>
