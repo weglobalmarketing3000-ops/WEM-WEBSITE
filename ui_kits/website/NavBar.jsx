@@ -21,7 +21,10 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
   const b = basePath;
   const isKo = lang === 'ko';
   const home = isKo ? '../index.html' : (b || './index.html');
-  const page = (path) => isKo ? (path === 'about.html' ? './about.html' : `../${path}`) : `${b}${path}`;
+  const page = (path) => isKo ? (['about.html', 'affiliate.html'].includes(path) ? `./${path}` : `../${path}`) : `${b}${path}`;
+  const koRoute = typeof window !== 'undefined'
+    ? window.location.pathname.replace(/^\/ko/, '').replace(/\.html$/, '') || '/'
+    : '/';
   const appointment = 'https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925';
   const t = {
     en: { nav: [['Our Services', page('services.html')], ['UGC Content', page('services/creator-content.html')], ['Our Work', page('showcase.html')], ['Creator Affiliate', page('affiliate.html')], ['About Us', page('about.html')], ['Blog', page('blog.html')]], cta: 'Book a call →' },
@@ -67,11 +70,11 @@ const NavBar = ({ lang, onLang, basePath = '' }) => {
         <div style={navStyles.right}>
           {lang === 'ko' ? (
             <div style={navStyles.routeLang} aria-label="Language">
-              <a href="/about" style={navStyles.routeLangLink}>English</a>
+              <a href={koRoute} style={navStyles.routeLangLink}>English</a>
               <span aria-hidden="true"> / </span>
-              <a href="/about?lang=zh" style={navStyles.routeLangLink}>简体中文</a>
+              <a href={`${koRoute}?lang=zh`} style={navStyles.routeLangLink}>简体中文</a>
               <span aria-hidden="true"> / </span>
-              <a href="/ko/about" style={navStyles.routeLangCurrent} aria-current="page">한국어</a>
+              <a href={`/ko${koRoute}`} style={navStyles.routeLangCurrent} aria-current="page">한국어</a>
             </div>
           ) : (
             <button style={navStyles.langBtn} onClick={() => onLang(lang === 'en' ? 'zh' : 'en')}>

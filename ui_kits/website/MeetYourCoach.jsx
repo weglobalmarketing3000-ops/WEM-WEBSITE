@@ -27,6 +27,19 @@ const MeetYourCoach = ({ lang }) => {
       ],
       name: 'APRIL ALDANA · 内容教练',
     },
+    ko: {
+      eyebrow: '// 크리에이터 코치',
+      h: '실제로 판매하는\n크리에이터에게 배우세요.',
+      sub: 'WEM 크리에이터는 매주 TikTok Shop 상위 1% 어필리에이트의 코칭을 받을 수 있습니다.',
+      body: 'April Aldana는 지난 1년간 $1M+ GMV, 한 번의 라이브에서 $30K+ GMV를 만들었습니다. 훅, 라이브 판매와 전환을 만드는 콘텐츠를 코칭합니다.',
+      pills: ['TIKTOK SHOP 상위 1% 어필리에이트', '지난 12개월 GMV $1M+', '한 번의 라이브에서 $30K+'],
+      bullets: [
+        { icon: 'video', text: '주간 숏폼 영상 전략' },
+        { icon: 'radio', text: '라이브 판매 코칭' },
+        { icon: 'message-square-text', text: '콘텐츠 리뷰 및 피드백' },
+      ],
+      name: 'APRIL ALDANA · 리드 콘텐츠 코치',
+    },
   }[lang];
   return (
     <section style={mcStyles.wrap} className="meet-coach">

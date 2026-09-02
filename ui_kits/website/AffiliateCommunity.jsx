@@ -31,6 +31,21 @@ const AffiliateCommunity = ({ lang }) => {
       stats: [['8K+','创作者交流'], ['24/7','社群支持'], ['3', '英西中支持']],
       status: '在线',
     },
+    ko: {
+      eyebrow: '// 크리에이터 커뮤니티',
+      h: '8,000+ 크리에이터.\n하나의 Discord.',
+      sub: '브랜드 론치, 샘플 신청, 콘텐츠 Q&A와 라이브 코칭을 한 Discord에서 만나보세요. WEM이 영어, 스페인어, 중국어로 지원합니다.',
+      features: [
+        { icon: 'message-square', label: '단독 협업 및 샘플 알림' },
+        { icon: 'video', label: '주간 1:1 콘텐츠 리뷰' },
+        { icon: 'shield-check', label: '위반 및 이의 제기 지원' },
+        { icon: 'trending-up', label: '트렌드 음원 및 훅 라이브러리' },
+      ],
+      cta: 'Discord 참여하기',
+      learn: '크리에이터 커뮤니티가 브랜드에 중요한 이유 →',
+      stats: [['8K+','동료 크리에이터'], ['24/7','커뮤니티 이용'], ['3', '영어 · 스페인어 · 중국어 지원']],
+      status: '온라인',
+    },
   }[lang];
   // Fake handle strings for avatar wall, no real PII.
   const handles = [

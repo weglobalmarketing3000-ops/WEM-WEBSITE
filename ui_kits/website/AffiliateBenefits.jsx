@@ -27,6 +27,19 @@ const AffiliateBenefits = ({ lang }) => {
         { icon: 'graduation-cap', accent: '#9B30FF', tag: '06', title: '头部达人内容建议', body: 'TikTok Shop Top 1% 达人会从 hook、节奏、产品植入、价格表达和下单引导等角度给建议，帮助内容提升转化率。' },
       ],
     },
+    ko: {
+      eyebrow: '// 크리에이터 혜택',
+      h: 'WEM 어필리에이트에\n참여해야 할 여섯 가지 이유.',
+      sub: '더 나은 커미션, 다양한 샘플, 빠른 브랜드 협업 기회와 콘텐츠 성장을 위한 실전 지원을 제공합니다.',
+      items: [
+        { icon: 'trending-up', accent: '#FF1493', tag: '01', title: '우대 커미션', body: '오픈 마켓플레이스보다 높은 커미션과 일부 론치 캠페인의 추가 보너스를 안내합니다.' },
+        { icon: 'handshake', accent: '#9B30FF', tag: '02', title: '브랜드 협업 우선 안내', body: '신제품, 샘플, 라이브 및 브랜드 협업 기회를 더 빠르게 확인할 수 있습니다.' },
+        { icon: 'package', accent: '#4A8FFF', tag: '03', title: '무료 샘플', body: '여러 카테고리의 제품에 지원하고 내 콘텐츠와 시청자에게 맞는 상품을 찾을 수 있습니다.' },
+        { icon: 'sparkles', accent: '#4A8FFF', tag: '04', title: '크리에이터 지원', body: '캠페인 규정, 위반 및 이의 제기, 계정 문의와 콘텐츠 방향에 대한 도움을 받을 수 있습니다.' },
+        { icon: 'users', accent: '#FF1493', tag: '05', title: '8,000+ 크리에이터 커뮤니티', body: 'Discord에서 샘플 소식, 콘텐츠 아이디어, 라이브 노트와 캠페인 인사이트를 나눕니다.' },
+        { icon: 'graduation-cap', accent: '#9B30FF', tag: '06', title: '상위 1% 크리에이터 코칭', body: '검증된 크리에이터에게 훅, 전개, 제품 노출, 가격 표현과 CTA를 배웁니다.' },
+      ],
+    },
   }[lang];
   return (
     <section id="perks" style={abStyles.wrap} className="affiliate-benefits">

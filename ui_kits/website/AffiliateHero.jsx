@@ -20,10 +20,22 @@ const AffiliateHero = ({ lang }) => {
       cta2: '了解可申请的合作',
       meta: ['免费加入', '新手可申请', '英西中三语支持'],
     },
+    ko: {
+      pill: 'WEM 어필리에이트 · 크리에이터 커뮤니티',
+      h1a: '콘텐츠가', h1accent: '수익이 되도록.',
+      sub: '8,000명 이상의 TikTok Shop 크리에이터와 함께 더 나은 커미션, 샘플, 브랜드 협업 기회와 실전 콘텐츠 지원을 만나보세요.',
+      cta1: 'Discord 참여하기',
+      cta2: '크리에이터 혜택 보기',
+      meta: ['무료 참여', '에이전시 연결 불필요', '영어 · 스페인어 · 중국어 지원'],
+    },
   }[lang];
   return (
     <section style={ahStyles.wrap} className="affiliate-hero">
       <style>{`
+        html[lang="ko-KR"] .affiliate-hero-title {
+          font-size: clamp(52px, 7vw, 88px) !important;
+          word-break: keep-all !important;
+        }
         @media (max-width: 760px) {
           .affiliate-hero { max-width: 100vw !important; overflow: hidden !important; }
           .affiliate-hero-inner {
@@ -43,6 +55,9 @@ const AffiliateHero = ({ lang }) => {
             line-height: .9 !important;
             letter-spacing: 0 !important;
             margin-top: 30px !important;
+          }
+          html[lang="ko-KR"] .affiliate-hero-title {
+            font-size: clamp(46px, 14vw, 64px) !important;
           }
           .affiliate-hero-sub {
             font-size: 19px !important;

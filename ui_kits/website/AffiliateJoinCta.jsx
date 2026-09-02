@@ -17,6 +17,14 @@ const AffiliateJoinCta = ({ lang }) => {
       alt: '邮件联系 WE 团队',
       fine: '免费加入。新账号也可以申请。主要面向服务美国市场的创作者。',
     },
+    ko: {
+      eyebrow: '// 함께 성장해요',
+      h: '다음 브랜드 협업이\n기다리고 있습니다.',
+      sub: 'Discord에서 진행 중인 브랜드 협업을 확인하고 직접 지원해 오늘부터 홍보를 시작하세요.',
+      cta: 'Discord 참여하기',
+      alt: '크리에이터 네트워크 문의',
+      fine: '무료 참여. 팔로워 수 제한 없음. 미국 시장에서 활동하는 크리에이터 대상.',
+    },
   }[lang];
   return (
     <section style={ajStyles.wrap}>
