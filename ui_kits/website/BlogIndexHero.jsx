@@ -13,6 +13,12 @@ const BlogIndexHero = ({ lang }) => {
       h1accent: '运营增长指南。',
       sub: '面向品牌方、Amazon 卖家、跨境团队和电商运营者，覆盖 TikTok Shop 启动、agency 选择、达人联盟、UGC、直播、商品页和店铺运营。',
     },
+    ko: {
+      pill: 'WE MARKETING 블로그',
+      h1a: '브랜드와 셀러를 위한',
+      h1accent: 'TikTok Shop 인사이트.',
+      sub: '브랜드와 이커머스 팀을 위해 TikTok Shop 론치, 에이전시 선정, 크리에이터 어필리에이트, UGC, 라이브 판매, 상품 페이지와 숍 운영을 다루는 실무 가이드를 제공합니다.',
+    },
   }[lang];
   return (
     <section style={bihStyles.wrap} className="blog-index-hero">

@@ -611,14 +611,14 @@ const SORTED_BLOG_POSTS = [...DISPLAY_BLOG_POSTS].sort(
   (a, b) => parseBlogDate(b.date.en) - parseBlogDate(a.date.en)
 );
 const BLOG_TAGS = [
-  { id: 'getting-started', label: { en: 'Getting Started', zh: '入门启动' }, desc: { en: 'Launch paths, readiness, and first operating decisions.', zh: '上线路径、准备度与第一阶段运营决策。' } },
-  { id: 'creator-affiliate', label: { en: 'Creator & Affiliate', zh: '达人与联盟' }, desc: { en: 'Creator matching, samples, briefs, and affiliate systems.', zh: '达人匹配、寄样、Brief 与联盟运营。' } },
-  { id: 'content-ugc', label: { en: 'Content & UGC', zh: '内容与 UGC' }, desc: { en: 'Content systems, UGC strategy, and creative learning.', zh: '内容系统、UGC 策略与素材复盘。' } },
-  { id: 'live-commerce', label: { en: 'LIVE Commerce', zh: '直播电商' }, desc: { en: 'LIVE readiness, hosts, offers, and repeatable formats.', zh: '直播准备、主播、Offer 与可复制流程。' } },
-  { id: 'shop-operations', label: { en: 'Shop Operations', zh: '店铺运营' }, desc: { en: 'Listings, logistics, trust, retention, and compliance.', zh: '商品页、履约、信任、留存与合规。' } },
-  { id: 'campaign-growth', label: { en: 'Campaigns & Growth', zh: '活动与增长' }, desc: { en: 'Campaign calendars, customer growth, and channel expansion.', zh: '活动日历、用户增长与渠道拓展。' } },
-  { id: 'agency-guides', label: { en: 'Agency Guides', zh: 'Agency 指南' }, desc: { en: 'How to compare scope, cost, teams, and operating support.', zh: '如何比较服务范围、费用、团队与交付。' } },
-  { id: 'cross-border', label: { en: 'Cross-Border', zh: '跨境出海' }, desc: { en: 'Entry models and U.S. market operating paths.', zh: '入驻模式与美国市场运营路径。' } },
+  { id: 'getting-started', label: { en: 'Getting Started', zh: '入门启动', ko: '시작하기' }, desc: { en: 'Launch paths, readiness, and first operating decisions.', zh: '上线路径、准备度与第一阶段运营决策。', ko: '론치 경로, 준비도와 첫 운영 의사결정.' } },
+  { id: 'creator-affiliate', label: { en: 'Creator & Affiliate', zh: '达人与联盟', ko: '크리에이터·어필리에이트' }, desc: { en: 'Creator matching, samples, briefs, and affiliate systems.', zh: '达人匹配、寄样、Brief 与联盟运营。', ko: '크리에이터 매칭, 샘플, 브리프와 어필리에이트 운영.' } },
+  { id: 'content-ugc', label: { en: 'Content & UGC', zh: '内容与 UGC', ko: '콘텐츠·UGC' }, desc: { en: 'Content systems, UGC strategy, and creative learning.', zh: '内容系统、UGC 策略与素材复盘。', ko: '콘텐츠 시스템, UGC 전략과 크리에이티브 학습.' } },
+  { id: 'live-commerce', label: { en: 'LIVE Commerce', zh: '直播电商', ko: '라이브 커머스' }, desc: { en: 'LIVE readiness, hosts, offers, and repeatable formats.', zh: '直播准备、主播、Offer 与可复制流程。', ko: '라이브 준비도, 호스트, 오퍼와 반복 가능한 포맷.' } },
+  { id: 'shop-operations', label: { en: 'Shop Operations', zh: '店铺运营', ko: '숍 운영' }, desc: { en: 'Listings, logistics, trust, retention, and compliance.', zh: '商品页、履约、信任、留存与合规。', ko: '리스팅, 물류, 신뢰, 리텐션과 규정 준수.' } },
+  { id: 'campaign-growth', label: { en: 'Campaigns & Growth', zh: '活动与增长', ko: '캠페인·성장' }, desc: { en: 'Campaign calendars, customer growth, and channel expansion.', zh: '活动日历、用户增长与渠道拓展。', ko: '캠페인 캘린더, 고객 성장과 채널 확장.' } },
+  { id: 'agency-guides', label: { en: 'Agency Guides', zh: 'Agency 指南', ko: '에이전시 가이드' }, desc: { en: 'How to compare scope, cost, teams, and operating support.', zh: '如何比较服务范围、费用、团队与交付。', ko: '서비스 범위, 비용, 팀과 운영 지원 비교 방법.' } },
+  { id: 'cross-border', label: { en: 'Cross-Border', zh: '跨境出海', ko: '크로스보더' }, desc: { en: 'Entry models and U.S. market operating paths.', zh: '入驻模式与美国市场运营路径。', ko: '미국 시장 진입 모델과 운영 경로.' } },
 ];
 const BLOG_TAG_ASSIGNMENTS = {
   'tiktok-shop-hero-sku-search-demand': ['campaign-growth', 'getting-started'],
@@ -686,7 +686,7 @@ const getTagLabel = (tagId, lang) => {
   const tag = BLOG_TAGS.find((item) => item.id === tagId);
   return tag ? tag.label[lang] : tagId;
 };
-const blogPostHref = (slug, lang) => `/blog/${slug}${lang === 'zh' ? '?lang=zh' : ''}`;
+const blogPostHref = (slug, lang) => lang === 'ko' ? `/ko/blog/${slug}` : `/blog/${slug}${lang === 'zh' ? '?lang=zh' : ''}`;
 const resolveBlogImage = (image, lang) => {
   if (!image) return '';
   if (typeof image === 'string') return image;
@@ -733,9 +733,24 @@ const BlogList = ({ lang }) => {
       archiveEyebrow: '文章库',
       archiveTitle: '浏览全部实操指南。',
     },
+    ko: {
+      search: '글, 주제 또는 전략 검색',
+      all: '전체',
+      count: (count) => `${count}개 글`,
+      empty: '현재 조건에 맞는 한국어 글이 없습니다.',
+      clear: '필터 초기화',
+      browseEyebrow: '주제별 탐색',
+      browseTitle: '지금 해결해야 할 운영 문제부터 찾아보세요.',
+      browseSub: '전체 아카이브를 스크롤하기보다 필요한 주제에서 시작하세요.',
+      recent: '최근 게시물',
+      viewAll: (count) => `전체 ${count}개 글 보기`,
+      backHome: '블로그 홈으로',
+      archiveEyebrow: '아티클 라이브러리',
+      archiveTitle: '전체 실무 가이드.',
+    },
   }[lang];
   const languagePosts = React.useMemo(
-    () => SORTED_BLOG_POSTS.filter((post) => !post.languages || post.languages.includes(lang)),
+    () => SORTED_BLOG_POSTS.filter((post) => (!post.languages || post.languages.includes(lang)) && (lang !== 'ko' || post.title.ko)),
     [lang]
   );
   const normalizedQuery = query.trim().toLocaleLowerCase();
@@ -859,6 +874,11 @@ const BlogList = ({ lang }) => {
                 <i data-lucide="arrow-right" style={{ width: 15, height: 15 }}/>
               </button>
             </div>
+            {lang === 'ko' && languagePosts.length === 0 && (
+              <p style={{ margin: '18px 0 0', color: '#5E5953', fontSize: 16, lineHeight: 1.6 }}>
+                한국어 아티클은 현재 순차적으로 검수·공개하고 있습니다. 검수가 끝난 글부터 이곳에 표시됩니다.
+              </p>
+            )}
             <div style={blStyles.recentLinks} className="blog-recent-links">
               {latestPosts.map((post) => (
                 <a
@@ -911,8 +931,8 @@ const BlogList = ({ lang }) => {
             </button>
           </div>
           <div style={blStyles.archiveControls} className="blog-archive-controls">
-            <div style={blStyles.tags} className="blog-tags" aria-label={lang === 'zh' ? '文章分类' : 'Article categories'}>
-              {[{ id: 'all', label: { en: copy.all, zh: copy.all } }, ...BLOG_TAGS].map((tag) => {
+            <div style={blStyles.tags} className="blog-tags" aria-label={lang === 'zh' ? '文章分类' : lang === 'ko' ? '글 카테고리' : 'Article categories'}>
+              {[{ id: 'all', label: { en: copy.all, zh: copy.all, ko: copy.all } }, ...BLOG_TAGS].map((tag) => {
                 const isActive = activeTag === tag.id;
                 return (
                   <button

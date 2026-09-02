@@ -10,8 +10,8 @@ function App() {
   });
   useEffect(() => {
     window.persistWemLang ? window.persistWemLang(lang) : localStorage.setItem('we-lang', lang);
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    document.title = lang === 'zh' ? 'TikTok Shop 品牌与卖家运营指南 | WEM' : 'TikTok Shop Insights for Brands & Sellers | WEM';
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang === 'ko' ? 'ko-KR' : 'en';
+    document.title = lang === 'zh' ? 'TikTok Shop 品牌与卖家运营指南 | WEM' : lang === 'ko' ? '브랜드와 셀러를 위한 TikTok Shop 인사이트 | WEM' : 'TikTok Shop Insights for Brands & Sellers | WEM';
   }, [lang]);
   useEffect(() => {
     if (window.lucide) window.lucide.createIcons();
