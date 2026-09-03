@@ -1,4 +1,5 @@
 route	source_file	ko_file	type	translation	metadata	schema	links	desktop	mobile	language_review	notes
+https://www.weglobalmarketing.com/blog/tiktok-shop-ai-live-video-diagnosis	blog/tiktok-shop-ai-live-video-diagnosis.html	ko/blog/tiktok-shop-ai-live-video-diagnosis.html	blog	complete	pass	pass	pass	pass	pass	pass	verified Korean counterpart; published date 2026-09-02; rank-one Korean Blog card
 https://www.weglobalmarketing.com/	index.html	ko/index.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/privacy	privacy.html	ko/privacy.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/showcase	showcase.html	ko/showcase.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
@@ -6,7 +7,7 @@ https://www.weglobalmarketing.com/about	about.html	ko/about.html	core	complete	p
 https://www.weglobalmarketing.com/affiliate	affiliate.html	ko/affiliate.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/services	services.html	ko/services.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/consulting	consulting.html	ko/consulting.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
-https://www.weglobalmarketing.com/blog	blog.html	ko/blog.html	core	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; Korean article cards populate only after route review; not deployed
+https://www.weglobalmarketing.com/blog	blog.html	ko/blog.html	core	complete	pass	pass	pass	pass	pass	pass	96 Korean article cards generated from reviewed Korean titles and metadata; newest article is rank one
 https://www.weglobalmarketing.com/blog/tiktok-shop-voice-of-customer-content-system	blog/tiktok-shop-voice-of-customer-content-system.html	ko/blog/tiktok-shop-voice-of-customer-content-system.html	blog	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/blog/tiktok-shop-returns-margin-trust	blog/tiktok-shop-returns-margin-trust.html	ko/blog/tiktok-shop-returns-margin-trust.html	blog	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
 https://www.weglobalmarketing.com/blog/tiktok-shop-performance-score-growth-ceiling	blog/tiktok-shop-performance-score-growth-ceiling.html	ko/blog/tiktok-shop-performance-score-growth-ceiling.html	blog	complete	pass	pass	pass	pass	pass	pass	verified locally at desktop and 390px mobile; not deployed
