@@ -8,7 +8,8 @@ window.getWemInitialLang = () => {
     localStorage.setItem('we-lang-version', WEM_LANG_VERSION);
     return 'en';
   }
-  return localStorage.getItem('we-lang') || 'en';
+  const savedLang = localStorage.getItem('we-lang');
+  return savedLang === 'zh' || savedLang === 'en' ? savedLang : 'en';
 };
 window.persistWemLang = (lang) => {
   localStorage.setItem('we-lang', lang);
