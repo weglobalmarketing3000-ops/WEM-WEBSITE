@@ -1,0 +1,63 @@
+const DISCORD_URL="https://discord.gg/g2CKPFyR4X";window.DISCORD_URL=DISCORD_URL;const AffiliateHero=({lang})=>{const t={en:{pill:"WEM AFFILIATE \xB7 CREATOR COMMUNITY",h1a:"Build. Post.",h1accent:"Earn.",sub:"Join 8,000+ TikTok Shop creators for better commissions, sample access, brand opportunities, and practical content support.",cta1:"Join our Discord",cta2:"See creator perks",meta:["Free to join","No agency link required","English + Espa\xF1ol + \u4E2D\u6587 support"]},zh:{pill:"WE \u8FBE\u4EBA\u8054\u76DF \xB7 TikTok Shop \u521B\u4F5C\u8005\u793E\u7FA4",h1a:"\u63A5\u54C1\u724C",h1accent:"\u8D5A\u4F63\u91D1",sub:"\u52A0\u5165 WE \u8FBE\u4EBA\u8054\u76DF\uFF0C\u4F18\u5148\u770B\u5230\u54C1\u724C\u5408\u4F5C\u3001\u5BC4\u6837\u540D\u989D\u548C\u4F63\u91D1\u6D3B\u52A8\uFF0C\u4E5F\u80FD\u83B7\u5F97\u5185\u5BB9\u5EFA\u8BAE\u3002\u9002\u5408\u5728\u7F8E\u56FD\u5E02\u573A\u505A TikTok Shop \u5E26\u8D27\u7684\u521B\u4F5C\u8005\u3002",cta1:"\u52A0\u5165 Discord \u793E\u7FA4",cta2:"\u4E86\u89E3\u53EF\u7533\u8BF7\u7684\u5408\u4F5C",meta:["\u514D\u8D39\u52A0\u5165","\u65B0\u624B\u53EF\u7533\u8BF7","\u82F1\u897F\u4E2D\u4E09\u8BED\u652F\u6301"]},ko:{pill:"WEM \uC5B4\uD544\uB9AC\uC5D0\uC774\uD2B8 \xB7 \uD06C\uB9AC\uC5D0\uC774\uD130 \uCEE4\uBBA4\uB2C8\uD2F0",h1a:"\uCF58\uD150\uCE20\uAC00",h1accent:"\uC218\uC775\uC774 \uB418\uB3C4\uB85D.",sub:"8,000\uBA85 \uC774\uC0C1\uC758 TikTok Shop \uD06C\uB9AC\uC5D0\uC774\uD130\uC640 \uD568\uAED8 \uB354 \uB098\uC740 \uCEE4\uBBF8\uC158, \uC0D8\uD50C, \uBE0C\uB79C\uB4DC \uD611\uC5C5 \uAE30\uD68C\uC640 \uC2E4\uC804 \uCF58\uD150\uCE20 \uC9C0\uC6D0\uC744 \uB9CC\uB098\uBCF4\uC138\uC694.",cta1:"Discord \uCC38\uC5EC\uD558\uAE30",cta2:"\uD06C\uB9AC\uC5D0\uC774\uD130 \uD61C\uD0DD \uBCF4\uAE30",meta:["\uBB34\uB8CC \uCC38\uC5EC","\uC5D0\uC774\uC804\uC2DC \uC5F0\uACB0 \uBD88\uD544\uC694","\uC601\uC5B4 \xB7 \uC2A4\uD398\uC778\uC5B4 \xB7 \uC911\uAD6D\uC5B4 \uC9C0\uC6D0"]}}[lang];return React.createElement("section",{style:ahStyles.wrap,className:"affiliate-hero"},React.createElement("style",null,`
+        html[lang="ko-KR"] .affiliate-hero-title {
+          font-size: clamp(52px, 7vw, 88px) !important;
+          word-break: keep-all !important;
+        }
+        @media (max-width: 760px) {
+          .affiliate-hero { max-width: 100vw !important; overflow: hidden !important; }
+          .affiliate-hero-inner {
+            display: block !important;
+            padding: 92px 22px 70px !important;
+            max-width: 100% !important;
+          }
+          .affiliate-hero-pill {
+            max-width: 100% !important;
+            white-space: normal !important;
+            font-size: 12px !important;
+            line-height: 1.2 !important;
+            padding: 10px 18px !important;
+          }
+          .affiliate-hero-title {
+            font-size: clamp(58px, 20vw, 82px) !important;
+            line-height: .9 !important;
+            letter-spacing: 0 !important;
+            margin-top: 30px !important;
+          }
+          html[lang="ko-KR"] .affiliate-hero-title {
+            font-size: clamp(46px, 14vw, 64px) !important;
+          }
+          .affiliate-hero-sub {
+            font-size: 19px !important;
+            line-height: 1.42 !important;
+            max-width: 100% !important;
+            margin-top: 28px !important;
+          }
+          .affiliate-hero-ctas {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+            margin-top: 34px !important;
+          }
+          .affiliate-hero-ctas a {
+            width: 100% !important;
+            justify-content: center !important;
+            text-align: center !important;
+            min-height: 56px !important;
+          }
+          .affiliate-hero-meta {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+            margin-top: 26px !important;
+          }
+          .affiliate-hero-right {
+            margin-top: 46px !important;
+            width: 100% !important;
+            justify-content: center !important;
+          }
+          .affiliate-network {
+            width: min(100%, 340px) !important;
+            margin: 0 auto !important;
+          }
+        }
+      `),React.createElement("div",{style:ahStyles.orb1}),React.createElement("div",{style:ahStyles.orb2}),React.createElement("div",{style:ahStyles.inner,className:"affiliate-hero-inner"},React.createElement("div",{style:ahStyles.left},React.createElement("div",{style:ahStyles.pill,className:"affiliate-hero-pill"},React.createElement("svg",{width:"16",height:"16",viewBox:"0 0 24 24",fill:"#000"},React.createElement("path",{d:"M12 0l2.5 7L22 8l-5.5 5L18 22l-6-3.5L6 22l1.5-9L2 8l7.5-1z"})),t.pill),React.createElement("h1",{style:ahStyles.h1,className:"affiliate-hero-title"},t.h1a,React.createElement("br",null),React.createElement("span",{style:ahStyles.h1accent},t.h1accent)),React.createElement("p",{style:ahStyles.sub,className:"affiliate-hero-sub"},t.sub),React.createElement("div",{style:ahStyles.ctas,className:"affiliate-hero-ctas"},React.createElement("a",{href:DISCORD_URL,target:"_blank",rel:"noopener",className:"we-btn we-btn-primary",style:{fontSize:16,padding:"16px 30px",textDecoration:"none",display:"inline-flex",alignItems:"center",gap:10}},React.createElement("svg",{width:"20",height:"20",viewBox:"0 0 127.14 96.36",fill:"currentColor"},React.createElement("path",{d:"M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"})),t.cta1),React.createElement("a",{href:"#perks",style:ahStyles.ghost},t.cta2)),React.createElement("div",{style:ahStyles.meta,className:"affiliate-hero-meta"},t.meta.map((m,i)=>React.createElement("div",{key:i,style:ahStyles.metaItem},React.createElement("i",{"data-lucide":"check-circle-2",style:{width:16,height:16,color:"#4A8FFF"}}),m)))),React.createElement("div",{style:ahStyles.right,className:"affiliate-hero-right"},React.createElement(NetworkGraphic,null))))};const NetworkGraphic=()=>{const center={x:260,y:250};const nodes=[{x:235,y:55,r:30,seed:"Maya",ring:"#FF1493"},{x:430,y:100,r:22,seed:"Sofia",ring:"#9B30FF"},{x:475,y:215,r:26,seed:"Amara",ring:"#4A8FFF"},{x:450,y:380,r:20,seed:"Lily",ring:"#4A8FFF"},{x:290,y:450,r:28,seed:"Emma",ring:"#FF1493"},{x:95,y:410,r:22,seed:"Priya",ring:"#9B30FF"},{x:35,y:270,r:26,seed:"Marcus",ring:"#4A8FFF"},{x:80,y:125,r:20,seed:"Diego",ring:"#4A8FFF"},{x:200,y:190,r:16,seed:"Kenji",ring:"#FF1493"}];const centerR=58;return React.createElement("svg",{className:"affiliate-network",viewBox:"0 0 520 500",style:{width:"100%",height:"auto",maxWidth:540}},React.createElement("defs",null,React.createElement("radialGradient",{id:"coreGlow",cx:"50%",cy:"50%",r:"50%"},React.createElement("stop",{offset:"0%",stopColor:"#FF1493",stopOpacity:"0.7"}),React.createElement("stop",{offset:"60%",stopColor:"#9B30FF",stopOpacity:"0.15"}),React.createElement("stop",{offset:"100%",stopColor:"#9B30FF",stopOpacity:"0"})),React.createElement("filter",{id:"nodeGlow",x:"-50%",y:"-50%",width:"200%",height:"200%"},React.createElement("feGaussianBlur",{stdDeviation:"5"})),nodes.map((n,i)=>React.createElement("clipPath",{key:`cp${i}`,id:`avClip${i}`},React.createElement("circle",{cx:n.x,cy:n.y,r:n.r})))),React.createElement("circle",{cx:center.x,cy:center.y,r:"240",fill:"url(#coreGlow)"}),nodes.map((n,i)=>React.createElement("line",{key:`e${i}`,x1:center.x,y1:center.y,x2:n.x,y2:n.y,stroke:n.ring,strokeWidth:"1",strokeOpacity:"0.4",strokeDasharray:"3 5"},React.createElement("animate",{attributeName:"stroke-dashoffset",from:"0",to:"-16",dur:`${2+i%4*0.4}s`,repeatCount:"indefinite"}))),[[0,1],[1,2],[2,3],[5,6],[7,0],[3,4],[8,5]].map(([a,b],i)=>React.createElement("line",{key:`pe${i}`,x1:nodes[a].x,y1:nodes[a].y,x2:nodes[b].x,y2:nodes[b].y,stroke:"#fff",strokeWidth:"1",strokeOpacity:"0.1"})),nodes.map((n,i)=>React.createElement("g",{key:`n${i}`},React.createElement("circle",{cx:n.x,cy:n.y,r:n.r+6,fill:n.ring,opacity:"0.25",filter:"url(#nodeGlow)"},React.createElement("animate",{attributeName:"opacity",values:"0.15;0.38;0.15",dur:`${2.2+i%4*0.35}s`,repeatCount:"indefinite"})),React.createElement("circle",{cx:n.x,cy:n.y,r:n.r,fill:"#1a1a1a"}),React.createElement("image",{href:`https://api.dicebear.com/7.x/avataaars/svg?seed=${n.seed}&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf`,x:n.x-n.r,y:n.y-n.r,width:n.r*2,height:n.r*2,clipPath:`url(#avClip${i})`,preserveAspectRatio:"xMidYMid slice"}),React.createElement("circle",{cx:n.x,cy:n.y,r:n.r,fill:"none",stroke:n.ring,strokeWidth:"2"}))),React.createElement("circle",{cx:center.x,cy:center.y,r:centerR,fill:"#000",stroke:"#FF1493",strokeWidth:"2"}),React.createElement("circle",{cx:center.x,cy:center.y,r:centerR,fill:"url(#coreGlow)",opacity:"0.5"}),React.createElement("text",{x:center.x,y:center.y+9,textAnchor:"middle",fontFamily:"var(--font-display, 'Barlow Condensed')",fontWeight:"900",fontSize:"38",fill:"#fff",letterSpacing:"-0.5"},"WEM"),React.createElement("circle",{cx:center.x,cy:center.y,r:centerR,fill:"none",stroke:"#FF1493",strokeWidth:"1",opacity:"0.4"},React.createElement("animate",{attributeName:"r",from:centerR,to:"160",dur:"3s",repeatCount:"indefinite"}),React.createElement("animate",{attributeName:"opacity",from:"0.5",to:"0",dur:"3s",repeatCount:"indefinite"})),React.createElement("circle",{cx:center.x,cy:center.y,r:centerR,fill:"none",stroke:"#9B30FF",strokeWidth:"1",opacity:"0.4"},React.createElement("animate",{attributeName:"r",from:centerR,to:"160",dur:"3s",begin:"1.5s",repeatCount:"indefinite"}),React.createElement("animate",{attributeName:"opacity",from:"0.5",to:"0",dur:"3s",begin:"1.5s",repeatCount:"indefinite"})))};const ahStyles={wrap:{position:"relative",background:"#000",color:"#fff",overflow:"hidden"},orb1:{position:"absolute",top:-120,right:-160,width:720,height:720,background:"radial-gradient(circle, #FF1493 0%, transparent 50%)",filter:"blur(60px)",opacity:.3,pointerEvents:"none"},orb2:{position:"absolute",bottom:-120,left:-120,width:560,height:560,background:"radial-gradient(circle, #5865F2 0%, transparent 60%)",filter:"blur(80px)",opacity:.35,pointerEvents:"none"},inner:{position:"relative",maxWidth:1280,margin:"0 auto",padding:"100px 32px 100px",display:"grid",gridTemplateColumns:"1.3fr 1fr",gap:48,alignItems:"center"},left:{},right:{display:"flex",justifyContent:"center",alignItems:"center"},pill:{display:"inline-flex",alignItems:"center",gap:12,background:"#fff",color:"#000",borderRadius:999,padding:"10px 22px",fontFamily:"var(--font-sans)",fontWeight:800,fontSize:14,letterSpacing:".06em"},h1:{fontFamily:"var(--font-display)",fontWeight:900,fontSize:"clamp(60px, 7.5vw, 124px)",lineHeight:.95,letterSpacing:"-.01em",textTransform:"uppercase",margin:"32px 0 0",color:"#fff"},h1accent:{background:"linear-gradient(90deg, #FF1493 0%, #9B30FF 50%, #4A8FFF 100%)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",backgroundClip:"text",color:"transparent"},sub:{fontFamily:"var(--font-sans)",fontWeight:600,fontSize:20,lineHeight:1.45,color:"rgba(255,255,255,.85)",maxWidth:620,marginTop:28},ctas:{display:"flex",gap:14,marginTop:40,flexWrap:"wrap"},ghost:{background:"transparent",border:"1.5px solid rgba(255,255,255,.4)",color:"#fff",padding:"16px 30px",borderRadius:999,fontFamily:"var(--font-sans)",fontWeight:700,fontSize:16,letterSpacing:".04em",textTransform:"uppercase",cursor:"pointer",textDecoration:"none",display:"inline-flex",alignItems:"center"},meta:{display:"flex",gap:28,marginTop:36,flexWrap:"wrap"},metaItem:{display:"inline-flex",alignItems:"center",gap:8,fontFamily:"var(--font-sans)",fontWeight:600,fontSize:14,color:"rgba(255,255,255,.75)"}};window.AffiliateHero=AffiliateHero;
