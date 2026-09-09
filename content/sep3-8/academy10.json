@@ -1,0 +1,201 @@
+{
+  "slug": "tiktok-shop-ai-campaign-control-room",
+  "enSections": [
+    {
+      "title": "Direct answer: AI surfaces work, the control room governs it",
+      "kind": "normal",
+      "image": "decision-system",
+      "paras": [
+        "Build the campaign control room before anyone accepts an AI recommendation. The room should connect campaign eligibility, product readiness, contribution margin, inventory, approved content, compliance, customer service and recovery. TikTok Shop AI can shorten the path to a campaign page, alert or suggested action. It should not make the final decision on behalf of the brand about economic safety, demand capacity or the accuracy of the public promise.",
+        "The release rule is simple: no recommendation becomes an action until one person attaches current evidence, names the consequence, chooses a guardrail and owns the live readback. This keeps AI in the role where it is most useful. It helps the team find and organize work while the brand retains control over money, product truth and customer impact."
+      ]
+    },
+    {
+      "title": "What a campaign control room actually is",
+      "kind": "normal",
+      "paras": [
+        "A control room is not a collection of screenshots and it is not another dashboard. It is a decision ledger. Each row names the campaign, product or issue; links the current native record; states whether the row is pending, blocked, approved, released or verified; and identifies the owner, allowed action, stop rule and readback time. A useful row can be understood by someone who was not in the meeting.",
+        "Separate system evidence from brand evidence. System evidence includes the campaign page, eligibility message, product status, violation notice, ticket and measured result. Brand evidence includes landed cost, seller-funded discount, creator commission, inventory buffer, replenishment lead time, approved claims and service capacity. The platform can surface the first family. The brand must supply and defend the second."
+      ]
+    },
+    {
+      "title": "Gate 1: confirm eligibility before planning upside",
+      "kind": "card",
+      "paras": [
+        "Start with the exact campaign, market, shop, product and participation window. Open the current campaign page and read the qualification requirements and product state. Do not use an old email, another account or a remembered rule. If Seller Center says the shop or item is not eligible, record the exact reason and owner. Do not compensate by creating a duplicate product or repeatedly submitting an unchanged item.",
+        "Eligibility is a hard gate because every later forecast assumes the product can participate. An AI suggestion may be based on signals that are useful for discovery while still being unavailable to the exact account. The control room keeps the suggestion, but changes its state to investigation rather than approved execution. Availability, interface paths and campaign rules can change, so every approval needs a timestamp."
+      ]
+    },
+    {
+      "title": "Gate 2: model contribution, not headline GMV",
+      "kind": "card",
+      "paras": [
+        "For every proposed product, calculate a downside, base and upside case after seller-funded discounts, creator commission, paid traffic, shipping support, pick and pack cost, expected cancellations, returns and customer-service exposure. Use the brand's current landed cost and contribution floor. If any figure is unavailable, label it unknown instead of entering zero. A product can be campaign-eligible and still be economically wrong for the sale.",
+        "The control room should show which lever can change and who may approve it. A margin owner may approve a smaller discount, a channel owner may constrain traffic and an inventory owner may limit units. AI can help locate a promotion or summarize performance, but it should not hide the fact that a growth recommendation crosses the brand's floor. Higher GMV is not a win when the event transfers too much value away from the business."
+      ]
+    },
+    {
+      "title": "Gate 3: convert the demand plan into inventory stop rules",
+      "kind": "card",
+      "paras": [
+        "Use sellable, variant-level inventory rather than a total catalog number. Subtract reserved units, damaged stock, open customer replacements and any buffer required to protect normal operations. Add replenishment lead time and the point at which the campaign must pause. If the product has one fast-moving variation, the stop rule should protect that exact variation instead of waiting for the entire parent product to reach zero.",
+        "Write the response before demand arrives. The response may be to remove the product from the campaign, reduce traffic support, switch to an approved alternative or stop a creator push. It may not be to promise a substitute the shopper did not order. The inventory owner must be able to see the current state and execute the stop. An alert without authority is only notification noise."
+      ]
+    },
+    {
+      "title": "Gate 4: freeze product truth and campaign copy",
+      "kind": "card",
+      "paras": [
+        "Match every campaign asset to the exact product, variation, quantity, price window and fulfillment promise. Check the product page, hero image, creator brief, paid creative, LIVE talking points and automated drafts against one approved facts record. Claims that require substantiation must link to the evidence and approved wording. A generated headline or summary remains a draft until the responsible reviewer accepts it.",
+        "This gate matters because campaign speed creates copy drift. One team changes the price, another updates the listing and a creator continues using an earlier brief. The control room stores the effective dates and version so the operator can see which promise is live. If content and product truth disagree, hold distribution and repair the earliest source. Do not try to solve a truth problem with a stronger call to action."
+      ]
+    },
+    {
+      "title": "Gate 5: run the sale from exceptions, not excitement",
+      "kind": "card",
+      "paras": [
+        "During the campaign, watch only signals connected to a planned decision. Examples include eligibility changes, spend against guardrail, contribution, variant stock, conversion movement, cancellation rate, customer complaints, violations and open tickets. Every alert needs a threshold, owner and permitted response. The team should know which person can pause a product, traffic source or content asset without waiting for a large meeting.",
+        "Avoid reacting to one noisy metric by changing price, budget, creative and assortment together. If customer safety, compliance or inventory requires a larger correction, protect the business first and mark the period non-comparable. Otherwise, release one bounded change and keep the previous state. The goal is not to prevent all movement. It is to preserve enough control to understand the result."
+      ]
+    },
+    {
+      "title": "Gate 6: close recovery as operating work",
+      "kind": "card",
+      "image": "operating-loop",
+      "paras": [
+        "A campaign does not finish when the sale timer ends. Reconcile paid orders, cancellations, refunds, inventory, customer-service cases, compliance tickets and any content or product rollback. For each exception, record the exact terminal state. Submitted, uploaded and sent are intermediate states. Resolved means the intended live state is visible or the affected order and customer consequence are closed.",
+        "Recovery evidence should feed the next campaign. A repeated stock exception changes the inventory buffer. A repeated claim question changes the approved brief. A ticket that took two days to reach the right owner changes the escalation map. The control room becomes more useful when it captures these operational truths instead of preserving only the success slide."
+      ]
+    },
+    {
+      "title": "When not to accept the AI recommendation",
+      "kind": "normal",
+      "paras": [
+        "Do not accept when the recommendation cannot be matched to the exact campaign or product; when eligibility is stale or unknown; when margin, inventory or claim evidence is missing; when the proposed action changes several levers without a readback plan; or when the account interface does not expose the capability described. In these cases, keep the recommendation as a hypothesis and route the missing evidence to an owner.",
+        "Also decline recommendations that optimize a proxy against the real operating goal. More traffic can be wrong when the product page is confusing. A larger discount can be wrong when contribution is already below floor. A faster response can be wrong when it repeats an unsupported claim. Human review is not a ceremonial approval after the AI has decided. It is the point where business context changes the decision."
+      ]
+    },
+    {
+      "title": "Hypothetical campaign example",
+      "kind": "example",
+      "paras": [
+        "A hypothetical beauty seller receives an AI recommendation to add three products to a sale. Product A has adequate margin but its fastest variation is below the inventory buffer. Product B has healthy stock, but the campaign image uses an unsupported comparative claim. Product C clears current eligibility, contribution, inventory and content review. The team does not accept all three because the suggestion appears in one card.",
+        "The control room releases Product C, assigns Product A to replenishment review and holds Product B for claim repair. During the sale, the operator watches Product C's stock and contribution against written thresholds. Afterward, the team reconciles orders, returns and service cases before calling the row verified. This is slower than one click and much faster than repairing avoidable failures across three products."
+      ]
+    },
+    {
+      "title": "Smallest useful next action",
+      "kind": "action",
+      "paras": [
+        "Create six rows today: eligibility, economics, inventory, content, in-campaign control and recovery. Give each row one current source, one owner, one stop rule and one readback time. Put every AI recommendation into one of those rows before anyone acts. If a recommendation cannot survive that placement, it is not ready to become campaign work."
+      ]
+    }
+  ],
+  "zhSections": [
+    {
+      "title": "直接答案：AI 负责暴露任务，控制室负责放行",
+      "kind": "normal",
+      "image": "decision-system",
+      "paras": [
+        "大促开始前，先建立控制室，再处理任何 AI 建议。控制室要把活动资格、商品准备度、贡献利润、库存、已批准内容、合规、客服和活动后恢复放在同一张决策表里。TikTok Shop AI 可以更快找到活动页面、预警或建议动作，但不能替品牌判断这项建议是否符合经营底线、商品能否承接新增需求，以及公开承诺是否准确。",
+        "放行规则应该非常简单：任何建议变成动作前，都必须由一个负责人连接当前证据，写清犯错后果，设置停止条件，并负责回读线上状态。这样 AI 才处在最有价值的位置。它帮助团队找到和整理工作，品牌继续掌握资金、商品事实与消费者后果。"
+      ]
+    },
+    {
+      "title": "大促控制室到底是什么",
+      "kind": "normal",
+      "paras": [
+        "控制室不是截图合集，也不是另一个数据看板，而是一份决策台账。每一行都要写活动、商品或异常，连接当前平台记录，标明待补证据、已阻塞、已批准、已放行或已核验，并写负责人、允许动作、停止条件和回读时间。一个没有参加会议的人，也应该能看懂这一行为什么存在。",
+        "平台证据与品牌证据要分开。平台证据包括活动页面、资格消息、商品状态、违规通知、工单和测量结果；品牌证据包括到岸成本、商家折扣、达人佣金、库存缓冲、补货周期、批准话术和客服容量。平台可以帮助暴露前一类信息，后一类必须由品牌提供并承担责任。"
+      ]
+    },
+    {
+      "title": "第一关：先确认资格，再讨论增长空间",
+      "kind": "card",
+      "paras": [
+        "先冻结准确活动、市场、店铺、商品和参与时间。打开当前活动页面，阅读资格条件与商品状态，不使用旧邮件、其他账号或记忆里的规则。如果 Seller Center 显示店铺或商品不符合资格，就记录准确原因和负责人。不要通过复制商品或反复提交没有改变的资料绕过问题。",
+        "资格是硬门槛，因为后续所有预测都默认商品可以参加。AI 建议可能适合帮助发现机会，却不一定适用于这个账号的当前状态。控制室保留建议，但把状态改为“待调查”，而不是“批准执行”。功能可用性、页面路径与活动规则可能改变，所以每次批准都需要时间戳。"
+      ]
+    },
+    {
+      "title": "第二关：算贡献利润，不只看成交额",
+      "kind": "card",
+      "paras": [
+        "每个拟参加商品都要做保守、基准和乐观三种情景。计算商家折扣、达人佣金、付费流量、运费支持、拣货包装、预期取消、退货和客服成本后的贡献。使用品牌当前到岸成本和利润底线。任何数字拿不到就写“未知”，不要填成零。一个商品可以符合活动资格，却不适合这次活动的经营账。",
+        "控制室还要写明哪个杠杆可以改变，以及谁有权批准。利润负责人可以减少折扣，渠道负责人可以限制流量，库存负责人可以限制数量。AI 能帮助定位活动或总结表现，却不能把越过利润底线的建议包装成增长机会。成交额增加但企业留下的价值更少，不是胜利。"
+      ]
+    },
+    {
+      "title": "第三关：把需求计划变成库存停止条件",
+      "kind": "card",
+      "paras": [
+        "使用规格级可售库存，不使用一个总目录数字。先扣除预留、残损、客户补发，以及保护日常运营所需的安全库存，再加入补货周期和必须暂停活动的数量线。如果商品有一个销售特别快的规格，停止条件就要保护这个规格，而不是等整个父商品全部归零。",
+        "需求到来前就写好响应动作，可以是把商品移出活动、降低流量支持、切换到已批准替代品，或停止达人推动；不能承诺消费者没有下单的替代品。库存负责人必须能看到当前状态，也必须有权执行停止。只有提醒、没有权限的预警，只会制造通知噪音。"
+      ]
+    },
+    {
+      "title": "第四关：冻结商品事实与活动文案",
+      "kind": "card",
+      "paras": [
+        "把每一份活动素材连接到准确商品、规格、数量、价格窗口和履约承诺。用同一份批准事实表检查商品页、主图、达人 Brief、付费素材、LIVE 话术和自动生成草稿。需要证据支持的效果描述必须连接证明文件和批准表述。生成的标题或摘要在负责人接受前一直是草稿。",
+        "这一关重要，因为大促速度很容易造成文案漂移。一组人改价格，另一组人改商品页，达人还在使用旧 Brief。控制室保存生效日期和版本，让运营知道哪一项承诺真正在线。如果内容与商品事实冲突，先停止分发并修复最早的信息源，不能用更强的行动号召解决事实错误。"
+      ]
+    },
+    {
+      "title": "第五关：按异常运营，不被热闹牵着走",
+      "kind": "card",
+      "paras": [
+        "活动进行中，只监控能触发计划内决定的信号，例如资格变化、花费是否越线、贡献利润、规格库存、转化变化、取消率、消费者投诉、违规和未关闭工单。每个提醒都要有门槛、负责人和允许响应。团队要提前知道谁可以暂停商品、流量来源或内容素材，不要等到问题扩大后才开会。",
+        "不要因为一个噪音指标，同时改价格、预算、创意和商品组合。如果消费者安全、合规或库存要求更大修复，先保护业务，并把这一阶段标记为不可比较；其他情况下只放行一个边界清楚的改变，同时保留旧状态。目标不是阻止变化，而是保留足够控制力，让团队知道结果为什么发生。"
+      ]
+    },
+    {
+      "title": "第六关：把活动后恢复也当成运营",
+      "kind": "card",
+      "image": "operating-loop",
+      "paras": [
+        "活动倒计时结束，不代表工作结束。团队还要对账已付款订单、取消、退款、库存、客服案例、合规工单，以及任何内容或商品回滚。每个异常都要记录准确终态。“已提交”“已上传”“已发送”只是中间状态；只有目标线上状态可见，或相关订单与消费者后果真正关闭，才算解决。",
+        "恢复证据必须进入下一次活动。重复缺货会改变库存缓冲；重复出现的 Claim 问题会改变批准 Brief；一个工单需要两天才找到正确负责人，就应该改变升级路线。控制室保存这些运营事实，而不是只保存活动结束后的成功汇报，才会越来越有价值。"
+      ]
+    },
+    {
+      "title": "哪些情况不应该采纳 AI 建议",
+      "kind": "normal",
+      "paras": [
+        "建议无法连接到准确活动或商品时，不采纳；资格过期或未知时，不采纳；利润、库存或话术证据缺失时，不采纳；建议一次改变多个杠杆却没有回读计划时，不采纳；当前账号界面没有资料中描述的能力时，也不采纳。此时保留建议作为假设，把缺失证据交给具体负责人。",
+        "当建议优化的只是替代指标，而不是实际经营目标时，也要拒绝。商品页混乱时，更多流量可能更糟；贡献已经低于底线时，更大折扣可能更糟；内容重复未支持 Claim 时，更快回复也可能更糟。人工审查不是 AI 决定后的盖章，而是业务背景真正改变决定的地方。"
+      ]
+    },
+    {
+      "title": "假设性大促案例",
+      "kind": "example",
+      "paras": [
+        "假设一家美妆店收到 AI 建议，要把三个商品加入活动。商品 A 利润足够，但最快规格低于库存缓冲；商品 B 库存健康，可活动图使用了没有证据的对比表述；商品 C 通过当前资格、贡献利润、库存和内容检查。团队不会因为三项建议出现在同一张卡片上，就全部接受。",
+        "控制室只放行商品 C，把商品 A 交给补货负责人，把商品 B 暂缓到 Claim 修复完成。活动中，运营按书面门槛监控商品 C 的库存与贡献。活动后，团队对账订单、退货和客服，再把这一行写成“已核验”。它比一键接受慢一点，却比同时修复三个可避免的问题快得多。"
+      ]
+    },
+    {
+      "title": "今天最小可执行动作",
+      "kind": "action",
+      "paras": [
+        "今天建立六行：资格、经营账、库存、内容、活动中控制、活动后恢复。每行连接一个当前来源，指定一个负责人、一个停止条件和一个回读时间。任何 AI 建议都要先进入其中一行才能执行。如果一条建议无法通过这一步，它就还没有准备好成为大促任务。"
+      ]
+    }
+  ],
+  "faqEn": [
+    ["When should we accept an AI campaign recommendation?", "Only after it is matched to the exact campaign and product, current eligibility is confirmed, margin and inventory clear their guardrails, public copy is approved and one owner accepts the readback."],
+    ["When should we reject or hold the recommendation?", "Hold it when eligibility, product truth, cost, stock, claims or account availability is unknown, or when the proposed action cannot be isolated and safely stopped."],
+    ["Can the control room be a dashboard?", "A dashboard can supply evidence, but the control room must also record the decision, owner, allowed action, stop rule, live state and terminal reconciliation."],
+    ["What should trigger an inventory pause?", "Use a variant-level threshold based on sellable units, reservations, safety buffer and replenishment lead time. Set the threshold before demand arrives."],
+    ["How do we avoid changing too many campaign levers?", "Tie every alert to one planned decision. Change one controllable variable where practical and mark emergency multi-variable corrections as non-comparable."],
+    ["When is a campaign row complete?", "After the intended live state is verified and related orders, inventory, tickets and customer consequences are reconciled. Submission is not completion."]
+  ],
+  "faqZh": [
+    ["什么时候可以采纳 AI 的大促建议？", "建议连接到准确活动与商品，当前资格已确认，利润和库存通过底线，公开文案已批准，并且一个负责人接受回读责任以后，才可以采纳。"],
+    ["什么时候应该拒绝或暂缓建议？", "资格、商品事实、成本、库存、Claim 或账号功能任何一项未知，或者建议无法被隔离和安全停止时，都应该暂缓。"],
+    ["控制室可以只是一张数据看板吗？", "不可以。数据看板可以提供证据，控制室还必须记录决定、负责人、允许动作、停止条件、线上状态和终态对账。"],
+    ["什么情况应该触发库存暂停？", "使用规格级门槛，计算可售数量、预留、安全缓冲与补货周期，并在需求到来前写好门槛。"],
+    ["怎样避免一次改变太多大促杠杆？", "让每个提醒只连接一个计划内决定。条件允许时只改变一个可控变量，紧急的多变量修复要标记为不可比较。"],
+    ["一条大促任务什么时候才算完成？", "目标线上状态已核验，并且相关订单、库存、工单和消费者后果完成对账以后才算完成。提交不是完成。"]
+  ]
+}
