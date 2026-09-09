@@ -1,0 +1,189 @@
+{
+  "slug": "tiktok-shop-live-control-room",
+  "enSections": [
+    {
+      "title": "A LIVE control room protects the promise behind the performance",
+      "kind": "card",
+      "paras": [
+        "A strong TikTok Shop LIVE is not one person improvising faster. The host makes the product understandable and demonstrates only approved facts. The operator keeps the correct product, offer, comments, and room state under control. The fulfillment owner protects the inventory and delivery promise after the buyer taps purchase. A control room gives those owners one shared record and a clear way to stop when the live promise no longer matches reality.",
+        "This matters because viewers experience one continuous event while the business runs through several systems. The host may be describing one variation while the product card points to another. A promotion may end while the script still names the old price. Inventory may look available in a planning sheet but be inaccessible to the warehouse. The operating design must catch those differences before they multiply across orders."
+      ]
+    },
+    {
+      "title": "Freeze product truth before the countdown",
+      "kind": "normal",
+      "image": "decision-system",
+      "paras": [
+        "Build the run of show from the exact sellable products, not from a creative deck. For every item that may be shown or pinned, record the product and variation, current page, approved claims, live offer window, available-to-promise inventory, and any demonstration limitation. The host brief, operator product order, and fulfillment pick reference must point to the same item.",
+        "Complete a final readback close enough to the session that the information is still useful. Open the product page and the current LIVE setup, verify the visible variation and offer, then confirm the reserved quantity with fulfillment. A screenshot from rehearsal does not prove the state at show time. If a required fact is missing, mark the item held rather than asking the host to fill the gap with confident language.",
+        "Separate product truth from selling language. The host can make an accurate fact easier to understand, but cannot upgrade an estimate into a guarantee. Shipping timing, stock, compatibility, ingredients, performance, and promotional conditions should come from the current approved record. When the answer depends on an order or account, route it to the operator or service owner instead of answering broadly on camera."
+      ]
+    },
+    {
+      "title": "Give the host a buyer-facing lane",
+      "kind": "normal",
+      "paras": [
+        "The host owns attention, comprehension, and truthful demonstration. The brief should say who the product may fit, which problem the segment addresses, what can be shown, which claims are approved, which common questions have verified answers, and which questions require escalation. The host should also know the exact phrase that buys time without inventing a fact, such as asking the operator to verify the current variation or offer.",
+        "Do not make the host monitor every operational signal. Reading comments, switching products, checking promotion state, watching inventory, handling moderation, and demonstrating at the same time creates divided attention. The host needs a small set of visible cues: continue, repeat, correct, hold, and move on. The operator owns the evidence behind those cues.",
+        "A useful host handoff is short enough to use during a live segment. Put the product name, approved promise, demonstration sequence, prohibited or conditional language, three likely buyer questions, and escalation cue on one view. Long policy notes belong in the supporting record, not in the host's speaking lane."
+      ]
+    },
+    {
+      "title": "Make one operator responsible for the room state",
+      "kind": "normal",
+      "paras": [
+        "The operator owns what is happening in the room now. That includes the selected product, visible offer, comments and moderation, current activity or order signals, content or policy alerts, and every exception that could change what the host should say. Shared access is useful, but shared access without one decision owner produces delay and contradictory instructions.",
+        "Before the session, confirm that the operator can reach the required current tools and records. During the session, log material changes with a timestamp: wrong product pinned, promotion mismatch, stock warning, claim concern, buyer-service issue, or connection problem. The log does not need to capture every comment. It needs to preserve the exceptions that changed a buyer promise or an operating decision.",
+        "The operator also protects comparison quality. If the team changes the product order, offer, traffic support, or segment length, record when it happened. Later performance cannot be interpreted cleanly when the operating record treats several different conditions as one uninterrupted test."
+      ]
+    },
+    {
+      "title": "Let fulfillment define what can safely be promised",
+      "kind": "normal",
+      "paras": [
+        "Fulfillment ownership begins before the first viewer arrives. Reserve the exact sellable units or establish a reliable available-to-promise rule. Confirm warehouse cut-off, variation-level pick instructions, packaging requirements, tracking workflow, and the person who receives urgent stock or order exceptions. A total stock number is insufficient when the session sells different colors, sizes, bundles, or fragile items.",
+        "Define the threshold that changes the room. When a variation reaches its protected floor, the operator may remove the pin, ask the host to stop naming it, or switch to an approved alternative. The fulfillment owner supplies the trusted inventory signal; the operator applies the room action; the host communicates only the approved replacement wording. This is a handoff, not three people independently checking different numbers.",
+        "After the session, fulfillment confirms whether orders entered the expected workflow, inventory changed as expected, and any special packing instructions survived the handoff. A successful broadcast does not close the work if the promised units cannot be picked or tracked correctly."
+      ]
+    },
+    {
+      "title": "Use a short exception ladder while the room is live",
+      "kind": "normal",
+      "paras": [
+        "Classify exceptions by the buyer risk they create. A small presentation issue may be corrected at the next natural pause. A wrong product, wrong price, unsupported claim, safety concern, or unavailable variation requires an immediate hold. The control room should state who can call that hold and what safe state follows, such as removing the product, pausing the segment, or replacing the wording.",
+        "Keep the escalation path short: host signals uncertainty, operator verifies the current source, and the named business owner decides when the issue exceeds the operator's authority. Do not debate a material exception in a crowded chat while the host continues making the same promise. The first goal is to stop additional exposure; diagnosis can continue after the room is safe.",
+        "Prepare replacement language in advance for predictable failures. If a promotion changes, the host should know how to state that the operator is confirming the current offer. If a variation sells out, the host should know whether an approved alternative exists. Preparation makes the correction calm and accurate without pretending that every exception can be hidden from viewers."
+      ]
+    },
+    {
+      "title": "A hypothetical wrong-variation incident",
+      "kind": "example",
+      "paras": [
+        "Imagine a home organization brand demonstrating a three-piece set. The operator notices that the pinned product is the two-piece variation and that the three-piece set has reached its inventory floor. The operator removes the pin and sends the hold cue. The host stops naming the set and tells viewers that the team is confirming the current option. Fulfillment checks the reserved units, and the operator restores only the verified variation.",
+        "The room loses several minutes of selling rhythm, but the team avoids creating more mismatched orders. After the session, it checks the replay timestamp, affected clicks and orders, inventory movement, and any buyer questions. This is an illustrative operating example, not a WEM client result. Its value is the ownership sequence: detect, hold, verify, communicate, reconcile, and decide whether the offer can safely run again."
+      ]
+    },
+    {
+      "title": "Close the session with a four-way readback",
+      "kind": "normal",
+      "image": "operating-loop",
+      "paras": [
+        "The closing readback connects the room, orders, inventory, and service queue. Record which products and offers were actually presented, the timestamps of material exceptions, current order status, inventory changes, tracking readiness, refunds or tickets already visible, and the owner of every open item. Do not substitute the end-of-session dashboard for these records.",
+        "Compare the final state with the approved plan. If the correct product stayed live, the promised variation was fulfillable, and no unresolved buyer-risk exception remains, the session can be marked reconciled. If an issue remains open, record the affected product or order, safe interim state, owner, and next check time. Unknown does not mean zero, and submitted does not mean resolved.",
+        "Use the readback to make one next decision: repeat the same conditions, repair an earlier handoff, change one controlled element, expand within verified capacity, or stop. More views are not the default answer when the room generated confusion, product mismatch, or unfulfilled promises."
+      ]
+    },
+    {
+      "title": "Build the one-page control room for the next LIVE",
+      "kind": "action",
+      "paras": [
+        "Create three ownership columns for Host, Operator, and Fulfillment. Under each column, list the evidence that person must see, the decisions they may make, the facts they must escalate, and the final readback they owe. Add the exact products and variations, approved offer window, inventory floor, five high-risk exceptions, stop owner, and post-session reconciliation time. Review the page together before the next session starts."
+      ]
+    }
+  ],
+  "zhSections": [
+    {
+      "title": "控场系统保护的是直播背后的承诺",
+      "kind": "card",
+      "paras": [
+        "一场稳定的 TikTok Shop 直播，不是让一个人更快地临场发挥。主播负责让买家听懂商品，并且只演示已经核实的事实；运营负责当前直播间里的商品、优惠、评论和异常；履约负责人负责买家下单以后，承诺的商品能否准确拣货、包装、录入物流并送达。控场系统把三方放进同一份记录，并提前写明什么时候必须停止。",
+        "买家看到的是一场连续直播，但品牌背后同时运行着多个系统。主播可能正在介绍一个规格，置顶商品却指向另一个规格；优惠已经结束，话术还在说旧价格；计划表显示有库存，仓库却拿不到对应商品。控场设计的任务，就是在这些差异扩散到更多订单前发现并处理。"
+      ]
+    },
+    {
+      "title": "倒计时开始前，先锁定商品事实",
+      "kind": "normal",
+      "image": "decision-system",
+      "paras": [
+        "直播流程必须从准确的可售商品出发，不能从创意提案倒推。每个可能被展示或置顶的商品，都要记录具体商品与规格、当前商品页、已批准的产品表述、优惠有效时间、可承诺库存，以及演示限制。主播提示卡、运营的上品顺序和仓库拣货依据，必须指向同一个商品。",
+        "在开播前足够接近的时间完成最后一次核对。打开当前商品页和直播设置，确认买家实际看到的规格与优惠，再由履约团队确认预留数量。彩排时的截图不能证明开播时仍是同一状态。只要关键事实缺失，就先暂停该商品，不要让主播用肯定语气填补空白。",
+        "商品事实和销售表达要分开管理。主播可以把准确事实讲得更容易理解，但不能把估计说成保证。发货时间、库存、适用范围、成分、效果和优惠条件，都应来自当前已批准记录。需要查看具体订单或账号才能回答的问题，应交给运营或客服负责人。"
+      ]
+    },
+    {
+      "title": "主播只负责面向买家的表达",
+      "kind": "normal",
+      "paras": [
+        "主播负责吸引注意、帮助理解和如实演示。提示卡应写清商品适合谁、本段解决什么购买问题、可以展示什么、哪些表述已经批准、常见问题有哪些确定答案，以及哪些问题必须升级。主播还需要一句统一的缓冲话术，例如请运营确认当前规格或优惠，而不是当场猜测。",
+        "不要让主播同时监控全部运营信号。读评论、切换商品、确认优惠、看库存、处理评论秩序并继续演示，会让注意力被切碎。主播只需要看到少量明确提示：继续、重复、纠正、暂停、进入下一段。每个提示背后的证据由运营负责。",
+        "真正好用的主播交接资料必须足够短。把商品名称、已批准承诺、演示顺序、禁止或有条件使用的表述、三个高频问题和升级提示放在同一个视图。完整政策说明可以保留在支持文件中，不应该塞进主播的口播区域。"
+      ]
+    },
+    {
+      "title": "指定一名运营对直播间当前状态负责",
+      "kind": "normal",
+      "paras": [
+        "运营负责直播间此刻正在发生什么，包括当前置顶商品、可见优惠、评论管理、活动或订单信号，以及可能改变主播表达的内容或政策提醒。多人可以协作查看，但必须只有一名当班决策人。否则同一异常会收到相互冲突的指令，处理时间也会被拉长。",
+        "开播前确认运营能够进入所需的当前工具和记录。直播中，只记录会改变买家承诺或运营决定的重要变化，并保留时间：商品置顶错误、优惠不一致、库存预警、产品表述风险、客服问题或连接异常。无需保存每条评论，但必须保留真正改变现场处理的事件。",
+        "运营还负责保护复盘的可比性。如果直播中改变了商品顺序、优惠、流量支持或每段时长，就记录发生时间。不同条件被混在一场看似连续的测试里，事后就无法准确解释表现变化。"
+      ]
+    },
+    {
+      "title": "由履约团队决定哪些承诺能够兑现",
+      "kind": "normal",
+      "paras": [
+        "履约责任在第一位观众进入前就开始。预留准确可售数量，或者建立可靠的可承诺库存规则；确认仓库截止时间、分规格拣货说明、包装要求、物流录入流程，以及接收紧急库存或订单异常的人。直播销售不同颜色、尺寸、组合装或易损商品时，一个库存总数远远不够。",
+        "提前写清哪条库存线会改变直播间动作。某个规格触及保护数量后，运营可以移除置顶、让主播停止提及，或切换到已批准替代商品。履约提供可信库存信号，运营执行现场动作，主播只使用批准好的替换表达。这是一条交接链，不是三个人各看一套数字。",
+        "直播结束后，履约还要确认订单是否进入预期流程、库存是否按预期变化、特殊包装说明是否完整传递。直播间顺利结束并不代表工作完成。如果承诺的商品无法准确拣货或录入追踪，问题仍然存在。"
+      ]
+    },
+    {
+      "title": "直播中用一条简短的异常升级链",
+      "kind": "normal",
+      "paras": [
+        "先按买家风险给异常分级。轻微的展示问题可以在自然停顿时纠正；置顶商品错误、价格错误、没有依据的产品表述、安全问题或缺货规格，则必须立即暂停。控场表要写清谁有权叫停，以及暂停后的安全状态，例如移除商品、停止本段或改用核实后的表达。",
+        "升级链越短越好：主播表示需要确认，运营查看当前依据，超过运营权限时由指定业务负责人决定。不要在多人聊天里长时间讨论重要异常，同时让主播继续重复同一承诺。第一目标是停止扩大影响，详细诊断可以在现场安全以后继续。",
+        "对常见异常提前准备替换表达。优惠发生变化时，主播应说明团队正在确认当前条件；某个规格售罄时，只有存在已批准替代方案才能切换。准备充分可以让纠正过程平静、准确，但不需要假装所有异常都能对买家隐形。"
+      ]
+    },
+    {
+      "title": "一个置顶规格错误的假设案例",
+      "kind": "example",
+      "paras": [
+        "假设一家家居品牌正在演示三件套收纳产品。运营发现置顶商品实际是两件套，而且三件套库存已经触及保护线，于是立即移除置顶并发送暂停提示。主播停止提及三件套，告诉观众团队正在确认当前选项。履约核对预留商品后，运营只恢复已经确认的规格。",
+        "直播间因此损失了几分钟节奏，却避免产生更多规格不一致的订单。直播后，团队核对回放时间、受影响的点击与订单、库存变化和买家问题。这个案例只用于说明运营方法，不是 WEM 客户结果。关键顺序是发现、暂停、核实、沟通、对账，再决定该优惠能否安全重开。"
+      ]
+    },
+    {
+      "title": "结束直播时完成四项对账",
+      "kind": "normal",
+      "image": "operating-loop",
+      "paras": [
+        "收尾对账要连接直播间、订单、库存和客服队列。记录实际展示的商品与优惠、重要异常发生时间、当前订单状态、库存变化、物流准备情况、已经出现的退款或客服事项，以及每个未完成事项的负责人。直播结束时的看板不能替代这些记录。",
+        "把最终状态与批准计划逐项比较。如果正确商品一直在线、承诺规格能够履约，并且没有未解决的买家风险，就可以标记本场已经对账。如果仍有问题，写清受影响商品或订单、临时安全状态、负责人和下次检查时间。未知不等于零，已经提交也不等于已经解决。",
+        "复盘最后只做一个下一步决定：相同条件重做、先修复前面的交接、只改变一个可控因素、在已验证容量内扩大，或者停止。直播产生了混乱、商品不一致或无法兑现的承诺时，默认答案不能是继续增加流量。"
+      ]
+    },
+    {
+      "title": "为下一场直播建立一页控场表",
+      "kind": "action",
+      "paras": [
+        "建立主播、运营、履约三列。每列写清必须看到的证据、可以做的决定、必须升级的事实，以及直播结束后需要交付的核实结果。再补上准确商品与规格、优惠有效时间、库存保护线、五类高风险异常、停止负责人和收尾对账时间。下一场开播前，让三方一起完成一次核对。"
+      ]
+    }
+  ],
+  "faqEn": [
+    ["Does a small LIVE need a separate operator?", "The role must be owned even when the team is small. One person may cover more than one role during a low-complexity session, but the host should not be expected to demonstrate, monitor every room signal, verify stock, and resolve exceptions simultaneously."],
+    ["What should the host never guess?", "Do not guess about the exact product or variation, current price or promotion, stock, shipping timing, safety, regulated or performance claims, or any fact that depends on a buyer's specific order. Use the agreed verification cue."],
+    ["Who is allowed to stop a product segment?", "Name the stop owner before the session. The operator usually needs authority to remove a wrong product or hold a risky segment immediately, with a named business owner available for decisions outside the operator's boundary."],
+    ["How should low inventory be handled during LIVE?", "Set a variation-level inventory floor and the action attached to it before going live. Fulfillment supplies the trusted signal, the operator changes the room state, and the host uses only the approved replacement wording."],
+    ["Is the session complete when the stream ends?", "No. Reconcile the products and offers shown, orders, inventory, fulfillment readiness, exceptions, and open service items. Give each unresolved item an owner and next check time."],
+    ["What is the smallest useful control-room setup?", "Use one page with Host, Operator, and Fulfillment columns, plus the exact products, offer window, inventory floor, exception ladder, stop owner, and post-session readback time."]
+  ],
+  "faqZh": [
+    ["小型直播也需要单独的运营吗？", "团队再小，也要明确谁承担运营职责。低复杂度直播可以由一人兼任多个角色，但不能要求主播同时演示、监控全部现场信号、核实库存并处理异常。"],
+    ["哪些信息主播不能现场猜？", "不能猜具体商品或规格、当前价格与优惠、库存、发货时间、安全信息、受监管或效果类表述，以及任何需要查看买家具体订单才能确认的事实。应使用约定好的核实提示。"],
+    ["谁可以叫停一个商品环节？", "开播前指定停止负责人。运营通常需要有权立即移除错误商品或暂停高风险环节；超出运营权限的决定，再由预先指定的业务负责人处理。"],
+    ["直播中库存不足应该怎样处理？", "开播前按规格设定库存保护线，并写清触线后的动作。履约提供可信库存信号，运营改变直播间状态，主播只使用已批准的替换表达。"],
+    ["直播关闭就算完成了吗？", "不算。还要核对实际展示的商品与优惠、订单、库存、履约准备、异常和未完成的客服事项，并给每个未完成事项指定负责人和下次检查时间。"],
+    ["最小可用的控场系统需要什么？", "用一页表分出主播、运营、履约三列，再写上准确商品、优惠时间、库存保护线、异常升级顺序、停止负责人和直播后对账时间。"]
+  ],
+  "editorialNotes": {
+    "status": "ready_for_preview",
+    "verifiedOn": "2026-09-09",
+    "visualLabelsEn": ["Product truth", "Host promise", "Operator room state", "Fulfillment capacity", "Buyer-safe action"],
+    "visualLabelsZh": ["商品事实", "主播承诺", "运营现场状态", "履约能力", "保护买家的动作"],
+    "visualLoopEn": ["Detect exception", "Hold exposure", "Verify current fact", "Communicate correction", "Reconcile result"],
+    "visualLoopZh": ["发现异常", "停止扩大影响", "核实当前事实", "沟通纠正", "完成对账"]
+  }
+}
