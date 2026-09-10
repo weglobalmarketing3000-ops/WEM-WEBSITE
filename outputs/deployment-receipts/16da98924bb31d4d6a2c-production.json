@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-10-training34-short-video-localization",
+  "patchFingerprint": "16da98924bb31d4d6a2c2117a4cf9b241a43b23e94dea1f9a1c55e4bdebfb545",
+  "pid": null,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/16da98924bb31d4d6a2c-production.log",
+  "url": "https://wem-website-1ngc75s0f-wem1.vercel.app",
+  "deploymentId": "dpl_9gP7FahcPf54mtxMbZcWcm6X3Eq3",
+  "exitCode": 0,
+  "updatedAt": "2026-09-10T10:28:01Z"
+}

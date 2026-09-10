@@ -1,0 +1,52 @@
+{
+  "mode": "production",
+  "checks": {
+    "index_cache_version_advanced": true,
+    "index_version_matches_content_hash": true,
+    "unique_first_card": true,
+    "prior_six_dates_order_preserved": true,
+    "canonical": true,
+    "hreflang": true,
+    "bilingual_schema_date": true,
+    "bilingual_faq": true,
+    "sitemap_date": true,
+    "llms": true,
+    "no_em_dash": true,
+    "en_body_minimum": true,
+    "zh-CN_body_minimum": true,
+    "no_english_sentence_leak": true,
+    "images_nonempty": true,
+    "editorial_enhancer": true
+  },
+  "assets": {
+    "/assets/we-logo.png": {
+      "bytes": 28617,
+      "sha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394"
+    },
+    "/blog/hero-tiktok-shop-short-video-localization-us-shoppers-v1.png": {
+      "bytes": 1095071,
+      "sha256": "854238259278d583f8c48f1f64c5db6537035972eceba2f8b3cbd8f353d96910"
+    },
+    "/blog/tiktok-shop-short-video-localization-us-shoppers-decision-system-v1.svg": {
+      "bytes": 2506,
+      "sha256": "3c3be2ed18eeaec74e32db3db1443fcc8a41c093fd8a92a46fc3181354c4a97f"
+    },
+    "/blog/tiktok-shop-short-video-localization-us-shoppers-decision-system-zh-v1.svg": {
+      "bytes": 2524,
+      "sha256": "8adee959ad43ee548a24bff7c3051f8ade00a1e81c2cb63561e1df05f80d43f2"
+    },
+    "/blog/tiktok-shop-short-video-localization-us-shoppers-operating-loop-v1.svg": {
+      "bytes": 2487,
+      "sha256": "d98fa742c09eeda1f2e964c7579fb1c46696fa3874f6ab2e475ed72190edcf73"
+    },
+    "/blog/tiktok-shop-short-video-localization-us-shoppers-operating-loop-zh-v1.svg": {
+      "bytes": 2515,
+      "sha256": "aabdb4cebfeb271a9ff019c0ca0916f78c63a203bb065ab42064ee5ed8339ca8"
+    }
+  },
+  "blog_script_version": "93b6d9e2e141",
+  "en_body_count": 1558,
+  "zh-CN_body_count": 2541,
+  "long_english_runs_in_chinese": [],
+  "passed": true
+}
