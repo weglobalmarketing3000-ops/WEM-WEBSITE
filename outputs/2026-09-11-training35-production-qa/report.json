@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-09-11T06:55:00-07:00",
+  "productionUrl": "https://www.weglobalmarketing.com",
+  "article": {
+    "slug": "tiktok-shop-video-photo-live-content-job",
+    "englishUrl": "https://www.weglobalmarketing.com/blog/tiktok-shop-video-photo-live-content-job",
+    "chineseUrl": "https://www.weglobalmarketing.com/blog/tiktok-shop-video-photo-live-content-job?lang=zh",
+    "desktop": {
+      "englishTitle": "Choose Video, Photo Posts or LIVE Based on the Content Job",
+      "chineseTitle": "短视频、图文还是直播：按内容任务选，不按习惯做",
+      "dateParity": true,
+      "visibleFaqPerLanguage": 6,
+      "relatedGuidesPerLanguage": 3,
+      "ctaAndFooterPerLanguage": true,
+      "brokenImages": 0,
+      "horizontalOverflow": false,
+      "inactiveLanguageHidden": true
+    },
+    "mobile390x844": {
+      "englishH1": {"x": 15, "right": 375, "width": 360, "fontPx": 42.9},
+      "chineseH1": {"x": 15, "right": 375, "width": 360, "fontPx": 35.1},
+      "englishHero": {"x": 16, "right": 374, "width": 358},
+      "chineseHero": {"x": 16, "right": 374, "width": 358},
+      "visibleFaqPerLanguage": 6,
+      "ctaAndFooterPerLanguage": true,
+      "brokenImages": 0,
+      "horizontalOverflow": false
+    }
+  },
+  "blogIndex": {
+    "firstCardDate": "Sep 11, 2026",
+    "firstCardTitle": "Choose Video, Photo Posts or LIVE Based on the Content Job",
+    "targetCardCount": 1,
+    "scriptVersion": "f1c005772bdf",
+    "freshAndWarmRender": true,
+    "mobileCard": {"x": 20, "right": 370, "width": 350},
+    "brokenImages": 0,
+    "horizontalOverflow": false
+  },
+  "styleParity": {
+    "referenceSlug": "tiktok-shop-short-video-localization-us-shoppers",
+    "exactComputedStyleParity": true,
+    "bodyBackground": "rgb(245, 243, 238)",
+    "h1": {"fontPx": 70, "color": "rgb(23, 23, 23)"},
+    "sourceHeading": {"fontPx": 54, "color": "rgb(23, 23, 23)"},
+    "sourceBody": {"fontPx": 16, "color": "rgb(55, 51, 47)"},
+    "faqBorder": "rgb(223, 218, 210) rgb(223, 218, 210) rgb(223, 218, 210) rgb(255, 20, 147)"
+  },
+  "assets": {
+    "coverSha256": "1ed56fbfe266be2b2df911cd8e17d72f154b8e80ebe2378e8b5c73c1652e9d8a",
+    "publicCoverMatchesPatch": true,
+    "blogListSha256": "c747798bac574ad7a79af68fb371d7f83225ab6449289e8173638ce46837cd6e",
+    "publicBlogListMatchesPatch": true
+  },
+  "verification": {
+    "productionVerifierPassed": true,
+    "rankAndDateVerifierPassed": true,
+    "sitemapRoutes200": "221/221"
+  },
+  "passed": true
+}

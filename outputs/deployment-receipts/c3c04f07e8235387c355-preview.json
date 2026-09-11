@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-11-training35-content-format-job",
+  "patchFingerprint": "c3c04f07e8235387c355095289068187c96e256d2e63299fde4b2e23d08f3efb",
+  "pid": 40658,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/c3c04f07e8235387c355-preview.log",
+  "url": "https://wem-website-jez321n4r-wem1.vercel.app",
+  "deploymentId": "dpl_84gMYjSuMPJzBZxuqGE9y18yNw3h",
+  "exitCode": 0,
+  "updatedAt": "2026-09-11T13:36:42Z"
+}
