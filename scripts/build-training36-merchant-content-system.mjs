@@ -8,9 +8,13 @@ import { pathToFileURL } from 'node:url';
 const repo = path.resolve(import.meta.dirname, '..');
 const patchDir = path.join(repo, 'outputs/patches/2026-09-12-training36-merchant-content-system');
 const blogDir = path.join(patchDir, 'blog');
+const priorAcceptedPatch = path.join(repo, 'outputs/patches/2026-09-11-training35-content-format-job');
 const live = {
-  list: '/tmp/wem_BlogList.jsx', index: '/tmp/wem_blog.html', sitemap: '/tmp/wem_sitemap.xml',
-  llms: '/tmp/wem_llms.txt', enhancer: '/tmp/wem_blog_wem-editorial-enhance.js'
+  list: path.join(priorAcceptedPatch, 'BlogList.jsx'),
+  index: path.join(priorAcceptedPatch, 'blog.html'),
+  sitemap: path.join(priorAcceptedPatch, 'sitemap.xml'),
+  llms: path.join(priorAcceptedPatch, 'llms.txt'),
+  enhancer: path.join(priorAcceptedPatch, 'blog/wem-editorial-enhance.js')
 };
 const officialLogo = await fs.readFile(path.join(repo, 'ui_kits/website/assets/we-logo.png'));
 const logoData = `data:image/png;base64,${officialLogo.toString('base64')}`;
@@ -341,7 +345,8 @@ page = function pageWithReferenceParity(a,enBody,zhBody) {
     .replace('</head>',`<style>${parityStyles}</style></head>`);
 };
 
-await fs.rm(patchDir,{recursive:true,force:true}); await fs.mkdir(path.join(blogDir,'optimized'),{recursive:true}); await fs.mkdir(path.join(blogDir,'thumbs'),{recursive:true}); await fs.mkdir(path.join(patchDir,'assets'),{recursive:true}); await fs.copyFile(path.join(repo,'ui_kits/website/assets/we-logo.png'),path.join(patchDir,'assets/we-logo.png')); await fs.copyFile(path.join(repo,'ui_kits/website/assets/we-logo-white.png'),path.join(patchDir,'assets/we-logo-white.png'));
+await fs.access(path.join(priorAcceptedPatch, 'blog/tiktok-shop-video-photo-live-content-job.html'));
+await fs.rm(patchDir,{recursive:true,force:true}); await fs.mkdir(blogDir,{recursive:true}); await fs.cp(path.join(priorAcceptedPatch,'blog'),blogDir,{recursive:true}); await fs.mkdir(path.join(blogDir,'optimized'),{recursive:true}); await fs.mkdir(path.join(blogDir,'thumbs'),{recursive:true}); await fs.mkdir(path.join(patchDir,'assets'),{recursive:true}); await fs.copyFile(path.join(repo,'ui_kits/website/assets/we-logo.png'),path.join(patchDir,'assets/we-logo.png')); await fs.copyFile(path.join(repo,'ui_kits/website/assets/we-logo-white.png'),path.join(patchDir,'assets/we-logo-white.png'));
 const chrome='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'; const stats=[];
 const targetArticles=articles.filter(a=>a.id==='training-36');
 for (const a of targetArticles){const i=articles.indexOf(a), enBody=expandEn(a), zhBody=expandZh(a); const enWords=strip(enBody).split(/\s+/).filter(Boolean).length, zhChars=(strip(zhBody).match(/[\u3400-\u9fff]/g)||[]).length; if(enWords<1300||zhChars<1800) throw new Error(`${a.id} length ${enWords}/${zhChars}`); if(/[—]/.test(enBody+zhBody))throw new Error(`${a.id} em dash`); const version=coverVersion(a); await fs.writeFile(path.join(blogDir,`${a.slug}.html`),page(a,enBody,zhBody)); await fs.writeFile(path.join(blogDir,`hero-${a.slug}-${version}.svg`),coverSvg(a,i)); await fs.writeFile(path.join(blogDir,`${a.slug}-decision-system-v1.svg`),diagram(a,false,false)); await fs.writeFile(path.join(blogDir,`${a.slug}-decision-system-zh-v1.svg`),diagram(a,true,false)); await fs.writeFile(path.join(blogDir,`${a.slug}-operating-loop-v1.svg`),diagram(a,false,true)); await fs.writeFile(path.join(blogDir,`${a.slug}-operating-loop-zh-v1.svg`),diagram(a,true,true)); execFileSync(chrome,['--headless=new','--hide-scrollbars','--disable-gpu','--no-sandbox','--force-device-scale-factor=1','--window-size=1774,887',`--screenshot=${path.join(blogDir,`hero-${a.slug}-${version}.png`)}`,pathToFileURL(path.join(blogDir,`hero-${a.slug}-${version}.svg`)).href]); execFileSync('sips',['-s','format','jpeg','-s','formatOptions','90','-z','800','1600',path.join(blogDir,`hero-${a.slug}-${version}.png`),'--out',path.join(blogDir,'optimized',`hero-${a.slug}-${version}.jpg`)]); execFileSync('sips',['-Z','880',path.join(blogDir,`hero-${a.slug}-${version}.png`),'--out',path.join(blogDir,'thumbs',`hero-${a.slug}-${version}.png`)]); execFileSync('sips',['-s','format','jpeg','-s','formatOptions','86',path.join(blogDir,'thumbs',`hero-${a.slug}-${version}.png`),'--out',path.join(blogDir,'thumbs',`hero-${a.slug}-${version}.jpg`)]); stats.push({id:a.id,slug:a.slug,date:a.date,enWords,zhChars,cover:coverFile(a)});}

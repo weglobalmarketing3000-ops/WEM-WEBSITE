@@ -11,6 +11,11 @@
     "bilingual_faq": true,
     "sitemap_date": true,
     "llms": true,
+    "previous_day_route": true,
+    "previous_day_schema_date": true,
+    "previous_day_sitemap": true,
+    "previous_day_llms": true,
+    "previous_day_assets_nonempty": true,
     "no_em_dash": true,
     "en_body_minimum": true,
     "zh-CN_body_minimum": true,
@@ -44,7 +49,7 @@
       "sha256": "059e5ea9c766293fac02f9a8c30c3033f53af94e382c066ee29e8279f2b386d6"
     }
   },
-  "blog_script_version": "075858e2c0d3",
+  "blog_script_version": "9521c0f67804",
   "en_body_count": 1462,
   "zh-CN_body_count": 2814,
   "long_english_runs_in_chinese": [],

@@ -1,62 +1,600 @@
 {
-  "checkedAt": "2026-09-12T06:19:00-07:00",
-  "productionUrl": "https://www.weglobalmarketing.com",
-  "article": {
-    "slug": "tiktok-shop-merchant-content-compounding-system",
-    "englishUrl": "https://www.weglobalmarketing.com/blog/tiktok-shop-merchant-content-compounding-system",
-    "chineseUrl": "https://www.weglobalmarketing.com/blog/tiktok-shop-merchant-content-compounding-system?lang=zh",
-    "desktop": {
-      "englishTitle": "Build a Merchant Content System That Can Actually Compound",
-      "chineseTitle": "商家自制内容如何形成复利，而不是每天重做一条",
-      "dateParity": true,
-      "visibleFaqPerLanguage": 6,
-      "relatedGuidesPerLanguage": 3,
-      "relatedLabelsDefined": true,
-      "ctaAndFooterPerLanguage": true,
-      "brokenImages": 0,
-      "horizontalOverflow": false,
-      "inactiveLanguageHidden": true
+  "index": [
+    {
+      "cacheState": "fresh",
+      "viewport": [
+        1280,
+        720
+      ],
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-merchant-content-compounding-system",
+          "text": "Sep 12, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nBuild a Merchant Content System That Can Actually Compound\n\nTurn recurring buyer questions into a merchant-owned TikTok Shop content loop with one product truth, reusable briefs, controlled production and decision-led readback.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-merchant-content-compounding-system-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-video-photo-live-content-job",
+          "text": "Sep 11, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nChoose Video, Photo Posts or LIVE Based on the Content Job\n\nMatch short video, eligible Shoppable Photos, or LIVE to the buyer question, proof type, operating cost, and feedback the brand actually needs.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-video-photo-live-content-job-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-short-video-localization-us-shoppers",
+          "text": "Sep 10, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nLocalize TikTok Shop Short Video Content for U.S. Shoppers\n\nRebuild the buyer situation, product proof, plain language and shopping destination so U.S. shoppers can understand and act without translating the brand's internal context.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-short-video-localization-us-shoppers-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=9521c0f67804",
+      "brokenImages": [],
+      "overflow": false,
+      "scrollWidth": 1280
     },
-    "mobile390x844": {
-      "englishH1": {"x": 15, "right": 375, "width": 360, "fontPx": 42.9},
-      "chineseH1": {"x": 15, "right": 375, "width": 360, "fontPx": 35.1},
-      "englishHero": {"x": 16, "right": 374, "width": 358},
-      "chineseHero": {"x": 16, "right": 374, "width": 358},
-      "visibleFaqPerLanguage": 6,
-      "ctaAndFooterPerLanguage": true,
-      "brokenImages": 0,
-      "horizontalOverflow": false
+    {
+      "cacheState": "warm",
+      "viewport": [
+        1280,
+        720
+      ],
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-merchant-content-compounding-system",
+          "text": "Sep 12, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nBuild a Merchant Content System That Can Actually Compound\n\nTurn recurring buyer questions into a merchant-owned TikTok Shop content loop with one product truth, reusable briefs, controlled production and decision-led readback.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-merchant-content-compounding-system-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-video-photo-live-content-job",
+          "text": "Sep 11, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nChoose Video, Photo Posts or LIVE Based on the Content Job\n\nMatch short video, eligible Shoppable Photos, or LIVE to the buyer question, proof type, operating cost, and feedback the brand actually needs.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-video-photo-live-content-job-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-short-video-localization-us-shoppers",
+          "text": "Sep 10, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nLocalize TikTok Shop Short Video Content for U.S. Shoppers\n\nRebuild the buyer situation, product proof, plain language and shopping destination so U.S. shoppers can understand and act without translating the brand's internal context.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-short-video-localization-us-shoppers-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=9521c0f67804",
+      "brokenImages": [],
+      "overflow": false,
+      "scrollWidth": 1280
+    },
+    {
+      "cacheState": "fresh",
+      "viewport": [
+        390,
+        844
+      ],
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-merchant-content-compounding-system",
+          "text": "Sep 12, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nBuild a Merchant Content System That Can Actually Compound\n\nTurn recurring buyer questions into a merchant-owned TikTok Shop content loop with one product truth, reusable briefs, controlled production and decision-led readback.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-merchant-content-compounding-system-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-video-photo-live-content-job",
+          "text": "Sep 11, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nChoose Video, Photo Posts or LIVE Based on the Content Job\n\nMatch short video, eligible Shoppable Photos, or LIVE to the buyer question, proof type, operating cost, and feedback the brand actually needs.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-video-photo-live-content-job-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-short-video-localization-us-shoppers",
+          "text": "Sep 10, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nLocalize TikTok Shop Short Video Content for U.S. Shoppers\n\nRebuild the buyer situation, product proof, plain language and shopping destination so U.S. shoppers can understand and act without translating the brand's internal context.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-short-video-localization-us-shoppers-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=9521c0f67804",
+      "brokenImages": [],
+      "overflow": false,
+      "scrollWidth": 390
+    },
+    {
+      "cacheState": "warm",
+      "viewport": [
+        390,
+        844
+      ],
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-merchant-content-compounding-system",
+          "text": "Sep 12, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nBuild a Merchant Content System That Can Actually Compound\n\nTurn recurring buyer questions into a merchant-owned TikTok Shop content loop with one product truth, reusable briefs, controlled production and decision-led readback.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-merchant-content-compounding-system-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-video-photo-live-content-job",
+          "text": "Sep 11, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nChoose Video, Photo Posts or LIVE Based on the Content Job\n\nMatch short video, eligible Shoppable Photos, or LIVE to the buyer question, proof type, operating cost, and feedback the brand actually needs.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-video-photo-live-content-job-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        },
+        {
+          "href": "/blog/tiktok-shop-short-video-localization-us-shoppers",
+          "text": "Sep 10, 2026\nTIKTOK-SHOP\nCONTENT & UGC\nLocalize TikTok Shop Short Video Content for U.S. Shoppers\n\nRebuild the buyer situation, product proof, plain language and shopping destination so U.S. shoppers can understand and act without translating the brand's internal context.",
+          "images": [
+            {
+              "src": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-short-video-localization-us-shoppers-v1.jpg",
+              "naturalWidth": 880
+            }
+          ]
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=9521c0f67804",
+      "brokenImages": [],
+      "overflow": false,
+      "scrollWidth": 390
     }
-  },
-  "blogIndex": {
-    "firstCardDate": "Sep 12, 2026",
-    "firstCardTitle": "Build a Merchant Content System That Can Actually Compound",
-    "targetCardCount": 1,
-    "scriptVersion": "075858e2c0d3",
-    "freshAndWarmRender": true,
-    "mobileCard": {"x": 20, "right": 370, "width": 350},
-    "brokenImages": 0,
-    "horizontalOverflow": false
-  },
-  "styleParity": {
-    "referenceSlug": "tiktok-shop-video-photo-live-content-job",
-    "exactComputedStyleParity": true,
-    "bodyBackground": "rgb(245, 243, 238)",
-    "h1": {"fontPx": 70, "color": "rgb(23, 23, 23)"},
-    "sourceHeading": {"fontPx": 54, "color": "rgb(23, 23, 23)"},
-    "sourceBody": {"fontPx": 16, "color": "rgb(55, 51, 47)"},
-    "faqBorder": "rgb(223, 218, 210) rgb(223, 218, 210) rgb(223, 218, 210) rgb(255, 20, 147)"
-  },
-  "assets": {
-    "coverSha256": "2113b7c3961dcf9df1b9ff5317e9301fe318f3a33f2cfa6420055fdcb569cd98",
-    "publicCoverMatchesPatch": true,
-    "blogListSha256": "d83ad90a094b9a726097834f19fdcceb7012e782fb35e8cc6f3911302836b227",
-    "publicBlogListMatchesPatch": true
-  },
-  "verification": {
-    "productionVerifierPassed": true,
-    "rankAndDateVerifierPassed": true,
-    "sitemapRoutes200": "221/221"
+  ],
+  "articles": [
+    {
+      "slug": "tiktok-shop-merchant-content-compounding-system",
+      "lang": "en",
+      "viewportName": "desktop",
+      "viewport": [
+        1280,
+        720
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "Build a Merchant Content System That Can Actually Compound",
+      "h1": {
+        "x": 180,
+        "right": 1100,
+        "width": 920,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "800",
+        "lineHeight": "71.1936px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "54px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 181,
+        "right": 1099,
+        "width": 918,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Choose Video, Photo Posts or LIVE Based on the Content Job",
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 1280
+    },
+    {
+      "slug": "tiktok-shop-merchant-content-compounding-system",
+      "lang": "zh-CN",
+      "viewportName": "desktop",
+      "viewport": [
+        1280,
+        720
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "商家自制内容如何形成复利，而不是每天重做一条",
+      "h1": {
+        "x": 180,
+        "right": 1100,
+        "width": 920,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "800",
+        "lineHeight": "71.1936px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "54px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 181,
+        "right": 1099,
+        "width": 918,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Choose Video, Photo Posts or LIVE Based on the Content Job",
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 1280
+    },
+    {
+      "slug": "tiktok-shop-video-photo-live-content-job",
+      "lang": "en",
+      "viewportName": "desktop",
+      "viewport": [
+        1280,
+        720
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "Choose Video, Photo Posts or LIVE Based on the Content Job",
+      "h1": {
+        "x": 180,
+        "right": 1100,
+        "width": 920,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "800",
+        "lineHeight": "71.1936px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "54px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 181,
+        "right": 1099,
+        "width": 918,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns",
+        "The First Five LIVE Sessions Learning System"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 1280
+    },
+    {
+      "slug": "tiktok-shop-video-photo-live-content-job",
+      "lang": "zh-CN",
+      "viewportName": "desktop",
+      "viewport": [
+        1280,
+        720
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "短视频、图文还是直播：按内容任务选，不按习惯做",
+      "h1": {
+        "x": 180,
+        "right": 1100,
+        "width": 920,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "800",
+        "lineHeight": "71.1936px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "54px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 181,
+        "right": 1099,
+        "width": 918,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns",
+        "The First Five LIVE Sessions Learning System"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 1280
+    },
+    {
+      "slug": "tiktok-shop-merchant-content-compounding-system",
+      "lang": "en",
+      "viewportName": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "Build a Merchant Content System That Can Actually Compound",
+      "h1": {
+        "x": 15,
+        "right": 375,
+        "width": 360,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "42.9px",
+        "fontWeight": "800",
+        "lineHeight": "44.187px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "38px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 16,
+        "right": 374,
+        "width": 358,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Choose Video, Photo Posts or LIVE Based on the Content Job",
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 390
+    },
+    {
+      "slug": "tiktok-shop-merchant-content-compounding-system",
+      "lang": "zh-CN",
+      "viewportName": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "商家自制内容如何形成复利，而不是每天重做一条",
+      "h1": {
+        "x": 15,
+        "right": 375,
+        "width": 360,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "35.1px",
+        "fontWeight": "800",
+        "lineHeight": "37.206px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "38px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 16,
+        "right": 374,
+        "width": 358,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Choose Video, Photo Posts or LIVE Based on the Content Job",
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 390
+    },
+    {
+      "slug": "tiktok-shop-video-photo-live-content-job",
+      "lang": "en",
+      "viewportName": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "Choose Video, Photo Posts or LIVE Based on the Content Job",
+      "h1": {
+        "x": 15,
+        "right": 375,
+        "width": 360,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "42.9px",
+        "fontWeight": "800",
+        "lineHeight": "44.187px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "38px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 16,
+        "right": 374,
+        "width": 358,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns",
+        "The First Five LIVE Sessions Learning System"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 390
+    },
+    {
+      "slug": "tiktok-shop-video-photo-live-content-job",
+      "lang": "zh-CN",
+      "viewportName": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "activeVisible": true,
+      "inactiveHidden": true,
+      "title": "短视频、图文还是直播：按内容任务选，不按习惯做",
+      "h1": {
+        "x": 15,
+        "right": 375,
+        "width": 360,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "35.1px",
+        "fontWeight": "800",
+        "lineHeight": "37.206px",
+        "color": "rgb(23, 23, 23)"
+      },
+      "body": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "exists": true,
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "fontSize": "38px",
+        "fontWeight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "hero": {
+        "x": 16,
+        "right": 374,
+        "width": 358,
+        "naturalWidth": 1774
+      },
+      "faqVisible": 6,
+      "related": [
+        "Localize TikTok Shop Short Video Content for U.S. Shoppers",
+        "Build a TikTok Shop Content Factory That Learns",
+        "The First Five LIVE Sessions Learning System"
+      ],
+      "cta": true,
+      "contactAction": true,
+      "footer": true,
+      "brokenImages": [],
+      "undefinedText": false,
+      "overflow": false,
+      "scrollWidth": 390
+    }
+  ],
+  "checks": {
+    "indexPassed": true,
+    "articlePassed": true,
+    "styleParity": true
   },
   "passed": true
 }

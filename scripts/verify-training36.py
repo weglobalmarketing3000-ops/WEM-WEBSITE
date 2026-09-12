@@ -31,7 +31,7 @@ checks['index_cache_version_advanced'] = bool(version) and version.group(1) != '
 checks['index_version_matches_content_hash'] = bool(version) and version.group(1) == hashlib.sha256(index.rstrip('\n').encode()).hexdigest()[:12]
 slugs = re.findall(r'\{slug:"([a-z0-9-]+)"', index.split('const BLOG_POSTS=[', 1)[-1].split('const BLOG_TAGS=', 1)[0])
 checks['unique_first_card'] = bool(slugs) and slugs[0] == slug and slugs.count(slug) == 1
-prior = ['tiktok-shop-short-video-localization-us-shoppers', 'tiktok-shop-live-control-room', 'tiktok-shop-live-auction-economics', 'tiktok-shop-live-auction-category-readiness', 'tiktok-shop-live-temporary-listing-test', 'tiktok-shop-live-funnel-diagnosis']
+prior = ['tiktok-shop-video-photo-live-content-job', 'tiktok-shop-short-video-localization-us-shoppers', 'tiktok-shop-live-control-room', 'tiktok-shop-live-auction-economics', 'tiktok-shop-live-auction-category-readiness', 'tiktok-shop-live-temporary-listing-test']
 checks['prior_six_dates_order_preserved'] = slugs[1:7] == prior
 checks['canonical'] = f'rel="canonical" href="{base}/blog/{slug}"' in source
 checks['hreflang'] = all(f'hreflang="{x}"' in source for x in ['en-US', 'zh-CN', 'x-default'])
@@ -43,6 +43,23 @@ checks['bilingual_schema_date'] = len(posts) == 2 and all(n.get('datePublished')
 checks['bilingual_faq'] = len(faqs) == 2 and all(len(n.get('mainEntity', [])) >= 5 for n in faqs)
 checks['sitemap_date'] = f'<loc>{base}/blog/{slug}</loc><lastmod>{date}</lastmod>' in get('/sitemap.xml').decode()
 checks['llms'] = slug in get('/llms.txt').decode()
+previous_slug = 'tiktok-shop-video-photo-live-content-job'
+previous_source = get('/blog/' + previous_slug).decode()
+previous_schemas = [json.loads(s) for s in re.findall(r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>', previous_source, re.S)]
+previous_nodes = [n for s in previous_schemas for n in s.get('@graph', [s])]
+previous_posts = [n for n in previous_nodes if n.get('@type') == 'BlogPosting']
+checks['previous_day_route'] = 'Choose Video, Photo Posts or LIVE Based on the Content Job' in previous_source
+checks['previous_day_schema_date'] = len(previous_posts) == 2 and all(n.get('datePublished') == '2026-09-11' for n in previous_posts)
+checks['previous_day_sitemap'] = f'<loc>{base}/blog/{previous_slug}</loc><lastmod>2026-09-11</lastmod>' in get('/sitemap.xml').decode()
+checks['previous_day_llms'] = previous_slug in get('/llms.txt').decode()
+previous_assets = [
+    f'/blog/hero-{previous_slug}-v1.png',
+    f'/blog/{previous_slug}-decision-system-v1.svg',
+    f'/blog/{previous_slug}-decision-system-zh-v1.svg',
+    f'/blog/{previous_slug}-operating-loop-v1.svg',
+    f'/blog/{previous_slug}-operating-loop-zh-v1.svg',
+]
+checks['previous_day_assets_nonempty'] = all(len(get(route)) > 100 for route in previous_assets)
 checks['no_em_dash'] = '—' not in source
 for lang in ['en', 'zh-CN']:
     article = re.search(r'<article\s+lang="' + lang + r'"[^>]*>(.*?)</article>', source, re.S).group(1)
