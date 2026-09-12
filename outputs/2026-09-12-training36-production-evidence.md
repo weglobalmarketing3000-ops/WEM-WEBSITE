@@ -62,6 +62,7 @@ The completed source-validation stage used five current TikTok Shop U.S. Seller 
 
 ## Queue close
 
+- Pen final independent acceptance: `ACCEPTED` for corrected production `dpl_5tj1ai1hsADcuZeHWQEXMrTTcqCF` and receipt `cc1a3844ac35013aab95-production` only. Independent live checks confirmed the September 12 -> September 11 -> September 10 order, complete prior-nine history, restored September 11 bilingual route/schema/sitemap/llms/cover/four diagrams, all 222 sitemap routes at HTTP 200, eight article viewport-language combinations, fresh/warm mobile index, and exact style parity. Pen evidence: `outputs/daniel-publication-recovery-2026-09-12/live-corrected.json`, `restored-acceptance.json`, and `accepted.json` in the Pen workspace.
 - `training-36` is `published_complete`.
 - Remaining approved topics: 11, `training-37` through `training-47`.
 - Next target: `training-37` for 2026-09-13 PT.
