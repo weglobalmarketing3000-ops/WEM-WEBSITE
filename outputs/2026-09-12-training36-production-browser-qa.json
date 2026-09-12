@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-09-12T06:19:00-07:00",
+  "productionUrl": "https://www.weglobalmarketing.com",
+  "article": {
+    "slug": "tiktok-shop-merchant-content-compounding-system",
+    "englishUrl": "https://www.weglobalmarketing.com/blog/tiktok-shop-merchant-content-compounding-system",
+    "chineseUrl": "https://www.weglobalmarketing.com/blog/tiktok-shop-merchant-content-compounding-system?lang=zh",
+    "desktop": {
+      "englishTitle": "Build a Merchant Content System That Can Actually Compound",
+      "chineseTitle": "商家自制内容如何形成复利，而不是每天重做一条",
+      "dateParity": true,
+      "visibleFaqPerLanguage": 6,
+      "relatedGuidesPerLanguage": 3,
+      "relatedLabelsDefined": true,
+      "ctaAndFooterPerLanguage": true,
+      "brokenImages": 0,
+      "horizontalOverflow": false,
+      "inactiveLanguageHidden": true
+    },
+    "mobile390x844": {
+      "englishH1": {"x": 15, "right": 375, "width": 360, "fontPx": 42.9},
+      "chineseH1": {"x": 15, "right": 375, "width": 360, "fontPx": 35.1},
+      "englishHero": {"x": 16, "right": 374, "width": 358},
+      "chineseHero": {"x": 16, "right": 374, "width": 358},
+      "visibleFaqPerLanguage": 6,
+      "ctaAndFooterPerLanguage": true,
+      "brokenImages": 0,
+      "horizontalOverflow": false
+    }
+  },
+  "blogIndex": {
+    "firstCardDate": "Sep 12, 2026",
+    "firstCardTitle": "Build a Merchant Content System That Can Actually Compound",
+    "targetCardCount": 1,
+    "scriptVersion": "075858e2c0d3",
+    "freshAndWarmRender": true,
+    "mobileCard": {"x": 20, "right": 370, "width": 350},
+    "brokenImages": 0,
+    "horizontalOverflow": false
+  },
+  "styleParity": {
+    "referenceSlug": "tiktok-shop-video-photo-live-content-job",
+    "exactComputedStyleParity": true,
+    "bodyBackground": "rgb(245, 243, 238)",
+    "h1": {"fontPx": 70, "color": "rgb(23, 23, 23)"},
+    "sourceHeading": {"fontPx": 54, "color": "rgb(23, 23, 23)"},
+    "sourceBody": {"fontPx": 16, "color": "rgb(55, 51, 47)"},
+    "faqBorder": "rgb(223, 218, 210) rgb(223, 218, 210) rgb(223, 218, 210) rgb(255, 20, 147)"
+  },
+  "assets": {
+    "coverSha256": "2113b7c3961dcf9df1b9ff5317e9301fe318f3a33f2cfa6420055fdcb569cd98",
+    "publicCoverMatchesPatch": true,
+    "blogListSha256": "d83ad90a094b9a726097834f19fdcceb7012e782fb35e8cc6f3911302836b227",
+    "publicBlogListMatchesPatch": true
+  },
+  "verification": {
+    "productionVerifierPassed": true,
+    "rankAndDateVerifierPassed": true,
+    "sitemapRoutes200": "221/221"
+  },
+  "passed": true
+}

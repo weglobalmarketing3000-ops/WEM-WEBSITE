@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-12-training36-merchant-content-system",
+  "patchFingerprint": "a971343d46a44cba197c8506528927bf61654400aacc13597b6e59176243df24",
+  "pid": 24167,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/a971343d46a44cba197c-preview.log",
+  "url": "https://wem-website-brsjbvza9-wem1.vercel.app",
+  "deploymentId": "dpl_JBo9jnCmvD93ZjeFa9fHFEzkyDRJ",
+  "exitCode": 0,
+  "updatedAt": "2026-09-12T13:11:58Z"
+}
