@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-14",
+  "slug": "tiktok-shop-creator-live-brand-system",
+  "rank": 1,
+  "checks": [
+    [
+      "blog-card rank 1 slug",
+      true
+    ],
+    [
+      "blog-card rank 1 visible EN date",
+      true
+    ],
+    [
+      "English BlogPosting datePublished",
+      true
+    ],
+    [
+      "Chinese BlogPosting datePublished",
+      true
+    ],
+    [
+      "sitemap URL and lastmod",
+      true
+    ]
+  ],
+  "passed": true
+}

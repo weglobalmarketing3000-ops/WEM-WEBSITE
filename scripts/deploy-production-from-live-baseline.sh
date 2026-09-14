@@ -292,26 +292,38 @@ echo "Deployment receipt: $receipt_file"
 echo "Deployment URL: $deployment_url"
 
 if [[ "${WE_MARKETING_DEPLOY_PREVIEW:-0}" != "1" ]]; then
-  for production_path in / /robots.txt /blog /sitemap.xml /llms.txt; do
-    status="$(curl -L -sS -o /dev/null -w '%{http_code}' --max-time 20 \
-      "https://www.weglobalmarketing.com$production_path")"
-    [[ "$status" == "200" ]] || {
-      echo "Production verification failed ($status): $production_path" >&2
-      exit 1
-    }
+  alias_verified=0
+  for alias_attempt in {1..10}; do
+    alias_failure=""
+    for production_path in / /robots.txt /blog /sitemap.xml /llms.txt; do
+      status="$(curl -L -sS -o /dev/null -w '%{http_code}' --max-time 20 \
+        "https://www.weglobalmarketing.com$production_path" || true)"
+      if [[ "$status" != "200" ]]; then
+        alias_failure="$production_path returned ${status:-no status}"
+        break
+      fi
+    done
+    if [[ -z "$alias_failure" ]]; then
+      homepage_html="$(curl -L -sS --max-time 20 https://www.weglobalmarketing.com/ || true)"
+      robots_text="$(curl -L -sS --max-time 20 https://www.weglobalmarketing.com/robots.txt || true)"
+      if ! grep -q '<title>WE Marketing' <<<"$homepage_html"; then
+        alias_failure="homepage title was not found"
+      elif ! grep -q 'Sitemap: https://www.weglobalmarketing.com/sitemap.xml' <<<"$robots_text"; then
+        alias_failure="robots.txt sitemap declaration was not found"
+      fi
+    fi
+    if [[ -z "$alias_failure" ]]; then
+      alias_verified=1
+      echo "Production alias verification passed on attempt $alias_attempt"
+      break
+    fi
+    echo "Production alias not propagated on attempt $alias_attempt/10: $alias_failure" >&2
+    (( alias_attempt < 10 )) && sleep 5
   done
-
-  curl -L -sS --max-time 20 https://www.weglobalmarketing.com/ \
-    | grep -q '<title>WE Marketing' || {
-      echo "Production verification failed: homepage title was not found" >&2
-      exit 1
-    }
-
-  curl -L -sS --max-time 20 https://www.weglobalmarketing.com/robots.txt \
-    | grep -q 'Sitemap: https://www.weglobalmarketing.com/sitemap.xml' || {
-      echo "Production verification failed: robots.txt sitemap declaration was not found" >&2
-      exit 1
-    }
+  [[ "$alias_verified" == "1" ]] || {
+    echo "Production verification failed after bounded alias propagation retries: $alias_failure" >&2
+    exit 1
+  }
 
   node <<'NODE'
 (async () => {

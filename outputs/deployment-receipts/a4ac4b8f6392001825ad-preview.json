@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-14-training38-creator-live-brand-system",
+  "patchFingerprint": "a4ac4b8f6392001825ad387857c70b0843b4464cd4fa5fabafff923d2ab63d13",
+  "pid": 53815,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/a4ac4b8f6392001825ad-preview.log",
+  "url": "https://wem-website-83rpy4uyq-wem1.vercel.app",
+  "deploymentId": "dpl_HgXcASKc2MnPCuxfi31iZxxJHCKD",
+  "exitCode": 0,
+  "updatedAt": "2026-09-14T13:21:46Z"
+}
