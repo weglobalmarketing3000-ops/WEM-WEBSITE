@@ -1,0 +1,57 @@
+{
+  "mode": "production",
+  "checks": {
+    "index_cache_version_advanced": true,
+    "index_version_matches_content_hash": true,
+    "unique_first_card": true,
+    "prior_six_dates_order_preserved": true,
+    "canonical": true,
+    "hreflang": true,
+    "bilingual_schema_date": true,
+    "bilingual_faq": true,
+    "sitemap_date": true,
+    "llms": true,
+    "previous_day_route": true,
+    "previous_day_schema_date": true,
+    "previous_day_sitemap": true,
+    "previous_day_llms": true,
+    "previous_day_assets_nonempty": true,
+    "no_em_dash": true,
+    "en_body_minimum": true,
+    "zh-CN_body_minimum": true,
+    "no_english_sentence_leak": true,
+    "images_nonempty": true,
+    "editorial_enhancer": true
+  },
+  "assets": {
+    "/assets/we-logo.png": {
+      "bytes": 28617,
+      "sha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394"
+    },
+    "/blog/hero-tiktok-shop-search-shop-tab-content-discovery-v1.png": {
+      "bytes": 868411,
+      "sha256": "08dee9f3d73d844414c16b8905bf32ae8613b0deef6183ebd3772ec9e934eb23"
+    },
+    "/blog/tiktok-shop-search-shop-tab-content-discovery-decision-system-v1.svg": {
+      "bytes": 2493,
+      "sha256": "ca41138802e90ee7d57d091a8bf1982a0d7c9c3eab0b386042bffd831b45a890"
+    },
+    "/blog/tiktok-shop-search-shop-tab-content-discovery-decision-system-zh-v1.svg": {
+      "bytes": 2491,
+      "sha256": "972444d0bbdcbc0a74c7182a38ebcdd1e0f229e987cc57676de2d18da0c4c524"
+    },
+    "/blog/tiktok-shop-search-shop-tab-content-discovery-operating-loop-v1.svg": {
+      "bytes": 2477,
+      "sha256": "828ca6d4ac5e2fd34bebaeb7a745ca988e6b417000d740ffdf41201a5e1e64e4"
+    },
+    "/blog/tiktok-shop-search-shop-tab-content-discovery-operating-loop-zh-v1.svg": {
+      "bytes": 2515,
+      "sha256": "0674323283b536874942e71bde634406555fb9f0384851495c309446968103ed"
+    }
+  },
+  "blog_script_version": "40ab5f0d8bd1",
+  "en_body_count": 1717,
+  "zh-CN_body_count": 2963,
+  "long_english_runs_in_chinese": [],
+  "passed": true
+}

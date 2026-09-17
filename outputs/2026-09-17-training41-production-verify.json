@@ -1,0 +1,57 @@
+{
+  "mode": "production",
+  "checks": {
+    "index_cache_version_advanced": true,
+    "index_version_matches_content_hash": true,
+    "unique_first_card": true,
+    "prior_six_dates_order_preserved": true,
+    "canonical": true,
+    "hreflang": true,
+    "bilingual_schema_date": true,
+    "bilingual_faq": true,
+    "sitemap_date": true,
+    "llms": true,
+    "previous_day_route": true,
+    "previous_day_schema_date": true,
+    "previous_day_sitemap": true,
+    "previous_day_llms": true,
+    "previous_day_assets_nonempty": true,
+    "no_em_dash": true,
+    "en_body_minimum": true,
+    "zh-CN_body_minimum": true,
+    "no_english_sentence_leak": true,
+    "images_nonempty": true,
+    "editorial_enhancer": true
+  },
+  "assets": {
+    "/assets/we-logo.png": {
+      "bytes": 28617,
+      "sha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394"
+    },
+    "/blog/hero-tiktok-shop-product-readiness-content-creators-paid-scale-v1.png": {
+      "bytes": 840463,
+      "sha256": "e43990804b023fcc3aeef0e61e033cede5276ea153e759b6da8ff2b5f54cdf0c"
+    },
+    "/blog/tiktok-shop-product-readiness-content-creators-paid-scale-decision-system-v1.svg": {
+      "bytes": 2521,
+      "sha256": "7b32c4869e90b38f9ffec4124c49e965790278bcf649e88602d477df313f9c75"
+    },
+    "/blog/tiktok-shop-product-readiness-content-creators-paid-scale-decision-system-zh-v1.svg": {
+      "bytes": 2491,
+      "sha256": "c70d361ff230b0b1c2f50159b6fa33cc60a449704dcc6aa1566ff54e437de7dd"
+    },
+    "/blog/tiktok-shop-product-readiness-content-creators-paid-scale-operating-loop-v1.svg": {
+      "bytes": 2505,
+      "sha256": "6fedc13de9f67b5589081551072bbf249ec6bead0e7fd37bffb38dbf98fa1c3d"
+    },
+    "/blog/tiktok-shop-product-readiness-content-creators-paid-scale-operating-loop-zh-v1.svg": {
+      "bytes": 2515,
+      "sha256": "827b415053044d374b25241fe24e39bedc1def52c416664ff79867b7378e180c"
+    }
+  },
+  "blog_script_version": "0c9ef5d36955",
+  "en_body_count": 1775,
+  "zh-CN_body_count": 3271,
+  "long_english_runs_in_chinese": [],
+  "passed": true
+}
