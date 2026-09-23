@@ -1,0 +1,516 @@
+{
+  "status": "public_qa_complete",
+  "base": "https://www.weglobalmarketing.com",
+  "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+  "fingerprint": "fbf2179678b72af488a826f3479709f0fce181b35546d32a9cd6a13d9d0e0ac8",
+  "checks": {
+    "receipt": true,
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "crosslinks": true,
+    "discovery": true
+  },
+  "hashes": {
+    "BlogList.compiled.js": {
+      "match": true,
+      "bytes": 135235
+    },
+    "blog.html": {
+      "match": true,
+      "bytes": 11078
+    },
+    "sitemap.xml": {
+      "match": true,
+      "bytes": 43374
+    },
+    "llms.txt": {
+      "match": true,
+      "bytes": 29631
+    },
+    "blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro.html": {
+      "match": true,
+      "bytes": 37504
+    },
+    "blog/tiktok-shop-growth-autopilot-beta-guide.html": {
+      "match": true,
+      "bytes": 40104
+    },
+    "blog/tiktok-shop-growth-autopilot-roi-protection.html": {
+      "match": true,
+      "bytes": 31094
+    },
+    "blog/growth-autopilot-editorial-v1.js": {
+      "match": true,
+      "bytes": 32849
+    },
+    "blog/hero-tiktok-shop-growth-autopilot-vs-gmv-max-pro-v1.png": {
+      "match": true,
+      "bytes": 124707
+    },
+    "blog/optimized/hero-tiktok-shop-growth-autopilot-vs-gmv-max-pro-v1.jpg": {
+      "match": true,
+      "bytes": 66121
+    },
+    "blog/thumbs/hero-tiktok-shop-growth-autopilot-vs-gmv-max-pro-v1.jpg": {
+      "match": true,
+      "bytes": 26647
+    },
+    "blog/growth-autopilot-2026/campaign-setup.jpeg": {
+      "match": true,
+      "bytes": 121673
+    },
+    "blog/growth-autopilot-2026/schedule.jpeg": {
+      "match": true,
+      "bytes": 51794
+    }
+  },
+  "raw": [
+    {
+      "suffix": "",
+      "bytes": 31348,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "alternates": {
+        "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+        "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+        "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+      },
+      "posts": [
+        {
+          "lang": "en-US",
+          "date": "2026-09-23",
+          "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+        },
+        {
+          "lang": "zh-CN",
+          "date": "2026-09-23",
+          "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh"
+        }
+      ],
+      "faqs": [
+        {
+          "lang": "en-US",
+          "n": 6
+        },
+        {
+          "lang": "zh-CN",
+          "n": 6
+        }
+      ],
+      "source": true,
+      "languageScripts": 1,
+      "literalMarkdown": false
+    },
+    {
+      "suffix": "?lang=zh",
+      "bytes": 31348,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "alternates": {
+        "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+        "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+        "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+      },
+      "posts": [
+        {
+          "lang": "en-US",
+          "date": "2026-09-23",
+          "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+        },
+        {
+          "lang": "zh-CN",
+          "date": "2026-09-23",
+          "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh"
+        }
+      ],
+      "faqs": [
+        {
+          "lang": "en-US",
+          "n": 6
+        },
+        {
+          "lang": "zh-CN",
+          "n": 6
+        }
+      ],
+      "source": true,
+      "languageScripts": 1,
+      "literalMarkdown": false
+    }
+  ],
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "htmlLang": "en",
+      "active": true,
+      "inactive": true,
+      "h1": "Growth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?",
+      "images": [
+        1792,
+        981,
+        671
+      ],
+      "faq": 6,
+      "heroCopy": 0,
+      "literalMarkdown": false,
+      "cta": true,
+      "footer": true,
+      "source": true,
+      "crosslinks": {
+        "foundation": true,
+        "roi": true
+      },
+      "overflow": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "switches": [
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh"
+      ],
+      "switched": {
+        "htmlLang": "zh-CN",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "htmlLang": "zh-CN",
+      "active": true,
+      "inactive": true,
+      "h1": "Growth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度",
+      "images": [
+        1792,
+        981,
+        671
+      ],
+      "faq": 6,
+      "heroCopy": 0,
+      "literalMarkdown": false,
+      "cta": true,
+      "footer": true,
+      "source": true,
+      "crosslinks": {
+        "foundation": true,
+        "roi": true
+      },
+      "overflow": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+      "switches": [
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+      ],
+      "switched": {
+        "htmlLang": "en",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "htmlLang": "en",
+      "active": true,
+      "inactive": true,
+      "h1": "Growth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?",
+      "images": [
+        1792,
+        981,
+        671
+      ],
+      "faq": 6,
+      "heroCopy": 0,
+      "literalMarkdown": false,
+      "cta": true,
+      "footer": true,
+      "source": true,
+      "crosslinks": {
+        "foundation": true,
+        "roi": true
+      },
+      "overflow": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "switches": [
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh"
+      ],
+      "switched": {
+        "htmlLang": "zh-CN",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "htmlLang": "zh-CN",
+      "active": true,
+      "inactive": true,
+      "h1": "Growth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度",
+      "images": [
+        1792,
+        981,
+        671
+      ],
+      "faq": 6,
+      "heroCopy": 0,
+      "literalMarkdown": false,
+      "cta": true,
+      "footer": true,
+      "source": true,
+      "crosslinks": {
+        "foundation": true,
+        "roi": true
+      },
+      "overflow": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+      "switches": [
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+        "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+      ],
+      "switched": {
+        "htmlLang": "en",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "vp": "desktop",
+      "lang": "en",
+      "reload": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot: The New 7-Day Ad Cycle Sellers Need to Understand\n\nA first look at TikTok Shop Growth Autopilot: seven-day budgets, ROI protection, separate growth investment, beta access, and what sellers should check before using it.",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "desktop",
+      "lang": "en",
+      "reload": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot: The New 7-Day Ad Cycle Sellers Need to Understand\n\nA first look at TikTok Shop Growth Autopilot: seven-day budgets, ROI protection, separate growth investment, beta access, and what sellers should check before using it.",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "desktop",
+      "lang": "zh",
+      "reload": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot：新的七天投放周期，卖家该怎么看？\n\n基于 TikTok Shop 测试界面，拆解 Growth Autopilot 的七天预算、ROI 目标、90% ROI 保障、额外增长投入与卖家使用前的判断。",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "desktop",
+      "lang": "zh",
+      "reload": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot：新的七天投放周期，卖家该怎么看？\n\n基于 TikTok Shop 测试界面，拆解 Growth Autopilot 的七天预算、ROI 目标、90% ROI 保障、额外增长投入与卖家使用前的判断。",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "mobile",
+      "lang": "en",
+      "reload": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot: The New 7-Day Ad Cycle Sellers Need to Understand\n\nA first look at TikTok Shop Growth Autopilot: seven-day budgets, ROI protection, separate growth investment, beta access, and what sellers should check before using it.",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "mobile",
+      "lang": "en",
+      "reload": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot: The New 7-Day Ad Cycle Sellers Need to Understand\n\nA first look at TikTok Shop Growth Autopilot: seven-day budgets, ROI protection, separate growth investment, beta access, and what sellers should check before using it.",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "mobile",
+      "lang": "zh",
+      "reload": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot：新的七天投放周期，卖家该怎么看？\n\n基于 TikTok Shop 测试界面，拆解 Growth Autopilot 的七天预算、ROI 目标、90% ROI 保障、额外增长投入与卖家使用前的判断。",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "vp": "mobile",
+      "lang": "zh",
+      "reload": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "img": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-beta-guide?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot：新的七天投放周期，卖家该怎么看？\n\n基于 TikTok Shop 测试界面，拆解 Growth Autopilot 的七天预算、ROI 目标、90% ROI 保障、额外增长投入与卖家使用前的判断。",
+          "img": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=6db83bdcbaa9",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "crosslinks": {
+    "tiktok-shop-growth-autopilot-beta-guide": {
+      "foundation": 12,
+      "roi": 0,
+      "comparison": 2
+    },
+    "tiktok-shop-growth-autopilot-roi-protection": {
+      "foundation": 2,
+      "roi": 12,
+      "comparison": 2
+    },
+    "tiktok-shop-growth-autopilot-vs-gmv-max-pro": {
+      "foundation": 2,
+      "roi": 2,
+      "comparison": 13
+    }
+  },
+  "receipt": {
+    "state": "succeeded",
+    "stage": "production_health_complete",
+    "mode": "production",
+    "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-23-growth-autopilot-comparison",
+    "patchFingerprint": "fbf2179678b72af488a826f3479709f0fce181b35546d32a9cd6a13d9d0e0ac8",
+    "pid": 7636,
+    "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/fbf2179678b72af488a8-production.log",
+    "url": "https://wem-website-hur9uzor1-wem1.vercel.app",
+    "deploymentId": "dpl_7XutTDk9LbemzTu4NJiZsAYHcHgC",
+    "exitCode": 0,
+    "updatedAt": "2026-09-23T13:25:45Z"
+  },
+  "passed": true
+}

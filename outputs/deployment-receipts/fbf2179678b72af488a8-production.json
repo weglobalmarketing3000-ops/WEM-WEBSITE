@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-23-growth-autopilot-comparison",
+  "patchFingerprint": "fbf2179678b72af488a826f3479709f0fce181b35546d32a9cd6a13d9d0e0ac8",
+  "pid": 7636,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/fbf2179678b72af488a8-production.log",
+  "url": "https://wem-website-hur9uzor1-wem1.vercel.app",
+  "deploymentId": "dpl_7XutTDk9LbemzTu4NJiZsAYHcHgC",
+  "exitCode": 0,
+  "updatedAt": "2026-09-23T13:25:45Z"
+}
