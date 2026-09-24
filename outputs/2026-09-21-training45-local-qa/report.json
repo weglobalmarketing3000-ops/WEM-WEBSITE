@@ -1,0 +1,355 @@
+{
+  "status": "local_only_not_published",
+  "assembly": [
+    "ui_kits/website",
+    "training44 full accepted local build",
+    "Growth Autopilot production patches",
+    "training45 target-only overlay"
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "overflow": false,
+      "broken": [],
+      "script": "http://127.0.0.1:18745/BlogList.compiled.js?v=5fe495bc7047"
+    },
+    {
+      "viewport": "desktop",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "overflow": false,
+      "broken": [],
+      "script": "http://127.0.0.1:18745/BlogList.compiled.js?v=5fe495bc7047"
+    },
+    {
+      "viewport": "mobile",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "overflow": false,
+      "broken": [],
+      "script": "http://127.0.0.1:18745/BlogList.compiled.js?v=5fe495bc7047"
+    },
+    {
+      "viewport": "mobile",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "overflow": false,
+      "broken": [],
+      "script": "http://127.0.0.1:18745/BlogList.compiled.js?v=5fe495bc7047"
+    }
+  ],
+  "articles": [
+    {
+      "viewport": "desktop",
+      "slug": "tiktok-shop-jewelry-category-operating-system",
+      "lang": "en",
+      "title": "TikTok Shop for Jewelry: A Category Operating System Beyond Product Listings",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1774,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "desktop",
+      "slug": "tiktok-shop-jewelry-category-operating-system",
+      "lang": "zh-CN",
+      "title": "珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1774,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "desktop",
+      "slug": "tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "lang": "en",
+      "title": "Growth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1792,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "desktop",
+      "slug": "tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "lang": "zh-CN",
+      "title": "Growth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1792,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "mobile",
+      "slug": "tiktok-shop-jewelry-category-operating-system",
+      "lang": "en",
+      "title": "TikTok Shop for Jewelry: A Category Operating System Beyond Product Listings",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1774,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "mobile",
+      "slug": "tiktok-shop-jewelry-category-operating-system",
+      "lang": "zh-CN",
+      "title": "珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1774,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "mobile",
+      "slug": "tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "lang": "en",
+      "title": "Growth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1792,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    },
+    {
+      "viewport": "mobile",
+      "slug": "tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+      "lang": "zh-CN",
+      "title": "Growth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度",
+      "active": true,
+      "otherHidden": true,
+      "hero": 1792,
+      "heroCopy": 0,
+      "source": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "h1": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "broken": [],
+      "overflow": false,
+      "undefinedText": false
+    }
+  ],
+  "checks": {
+    "index": true,
+    "article": true,
+    "styleParity": true
+  },
+  "passed": true
+}

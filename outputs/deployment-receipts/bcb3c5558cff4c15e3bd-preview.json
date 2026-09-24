@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-21-training45-scoped-local",
+  "patchFingerprint": "bcb3c5558cff4c15e3bdf5e6dc8c314c24387c49c91a47804bcb637dd135d31d",
+  "pid": 91601,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/bcb3c5558cff4c15e3bd-preview.log",
+  "url": "https://wem-website-23mdot3pn-wem1.vercel.app",
+  "deploymentId": "dpl_4NvrnjNZapGsyVtr9tpxNTv6FbPT",
+  "exitCode": 0,
+  "updatedAt": "2026-09-24T13:48:08Z"
+}

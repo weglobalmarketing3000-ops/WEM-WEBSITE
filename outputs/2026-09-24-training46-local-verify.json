@@ -1,0 +1,37 @@
+{
+  "status": "local_only_not_published",
+  "slug": "tiktok-shop-consumer-electronics-operating-system",
+  "date": "2026-09-24",
+  "checks": {
+    "source_rank1_unique": true,
+    "history_retained": true,
+    "index_cache_hash": true,
+    "canonical": true,
+    "hreflang": true,
+    "bilingual_date": true,
+    "six_faqs_each": true,
+    "sitemap": true,
+    "llms": true,
+    "source_links": true,
+    "no_em_dash": true,
+    "en_length": true,
+    "zh_length": true,
+    "no_english_leak": true,
+    "all_images": true,
+    "enhancer": true
+  },
+  "bodyCounts": {
+    "en": 1569,
+    "zh-CN": 2805
+  },
+  "assets": [
+    "assets/we-logo.png",
+    "blog/hero-tiktok-shop-consumer-electronics-operating-system-v1.png",
+    "blog/tiktok-shop-consumer-electronics-operating-system-product-truth-v1.svg",
+    "blog/tiktok-shop-consumer-electronics-operating-system-trust-loop-v1.svg",
+    "blog/hero-tiktok-shop-consumer-electronics-operating-system-v1.png",
+    "blog/tiktok-shop-consumer-electronics-operating-system-product-truth-zh-v1.svg",
+    "blog/tiktok-shop-consumer-electronics-operating-system-trust-loop-zh-v1.svg"
+  ],
+  "passed": true
+}

@@ -1,0 +1,43 @@
+Retrieving project…
+Deploying wem1/wem-website
+Inspect: https://vercel.com/wem1/wem-website/5yCjjmyEQGKCXKXAdwaMsw3NZahp [1s]
+Production: https://wem-website-jeqa9jaz4-wem1.vercel.app [1s]
+Building...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 1434 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 59.25.4
+Building: Build Completed in /vercel/output [4s]
+Building: Deploying outputs...
+Building: Deployment completed
+Building: Creating build cache...
+Building: Skipping cache upload because no files were prepared
+[2K[1A[2K[GProduction: https://wem-website-jeqa9jaz4-wem1.vercel.app [22s]
+Completing...
+Aliased: https://www.weglobalmarketing.com [22s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_5yCjjmyEQGKCXKXAdwaMsw3NZahp",
+    "url": "https://wem-website-jeqa9jaz4-wem1.vercel.app",
+    "inspectorUrl": "https://vercel.com/wem1/wem-website/5yCjjmyEQGKCXKXAdwaMsw3NZahp",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_5yCjjmyEQGKCXKXAdwaMsw3NZahp"
+  },
+  "message": "Deployment wem-website-jeqa9jaz4-wem1.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect wem-website-jeqa9jaz4-wem1.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

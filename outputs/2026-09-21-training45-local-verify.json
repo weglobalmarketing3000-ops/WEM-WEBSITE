@@ -1,0 +1,37 @@
+{
+  "status": "local_only_not_published",
+  "slug": "tiktok-shop-jewelry-category-operating-system",
+  "date": "2026-09-21",
+  "checks": {
+    "source_rank3_unique": true,
+    "foundation_retained": true,
+    "index_cache_hash": true,
+    "canonical": true,
+    "hreflang": true,
+    "bilingual_date": true,
+    "six_faqs_each": true,
+    "sitemap": true,
+    "llms": true,
+    "source_links": true,
+    "no_em_dash": true,
+    "en_length": true,
+    "zh_length": true,
+    "no_english_leak": true,
+    "all_images": true,
+    "enhancer": true
+  },
+  "bodyCounts": {
+    "en": 1648,
+    "zh-CN": 2805
+  },
+  "assets": [
+    "assets/we-logo.png",
+    "blog/hero-tiktok-shop-jewelry-category-operating-system-v1.png",
+    "blog/tiktok-shop-jewelry-category-operating-system-release-gate-v1.svg",
+    "blog/tiktok-shop-jewelry-category-operating-system-operating-loop-v1.svg",
+    "blog/hero-tiktok-shop-jewelry-category-operating-system-v1.png",
+    "blog/tiktok-shop-jewelry-category-operating-system-release-gate-zh-v1.svg",
+    "blog/tiktok-shop-jewelry-category-operating-system-operating-loop-zh-v1.svg"
+  ],
+  "passed": true
+}

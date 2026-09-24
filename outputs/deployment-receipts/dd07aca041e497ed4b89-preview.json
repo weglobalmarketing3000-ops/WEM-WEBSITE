@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-09-24-training46-consumer-electronics",
+  "patchFingerprint": "dd07aca041e497ed4b89a30f256c1ea5aab7877ef9cec1f76962b6b7556f329d",
+  "pid": 66621,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/dd07aca041e497ed4b89-preview.log",
+  "url": "https://wem-website-lisx974xd-wem1.vercel.app",
+  "deploymentId": "dpl_9EkSxXDYeyWkvuUQuDmWt5XZdBBD",
+  "exitCode": 0,
+  "updatedAt": "2026-09-24T14:15:13Z"
+}

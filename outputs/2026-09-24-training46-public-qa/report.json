@@ -1,0 +1,564 @@
+{
+  "status": "public_qa_complete",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 136169,
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 121772,
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "match": true
+    },
+    "blog/hero-tiktok-shop-consumer-electronics-operating-system-v1.png": {
+      "bytes": 1046503,
+      "match": true
+    },
+    "blog/hero-tiktok-shop-consumer-electronics-operating-system-v1.svg": {
+      "bytes": 2032990,
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-consumer-electronics-operating-system-v1.jpg": {
+      "bytes": 190980,
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-consumer-electronics-operating-system-v1.jpg": {
+      "bytes": 73920,
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-consumer-electronics-operating-system-v1.png": {
+      "bytes": 299782,
+      "match": true
+    },
+    "blog/tiktok-shop-consumer-electronics-operating-system-product-truth-v1.svg": {
+      "bytes": 2611,
+      "match": true
+    },
+    "blog/tiktok-shop-consumer-electronics-operating-system-product-truth-zh-v1.svg": {
+      "bytes": 2607,
+      "match": true
+    },
+    "blog/tiktok-shop-consumer-electronics-operating-system-trust-loop-v1.svg": {
+      "bytes": 3021,
+      "match": true
+    },
+    "blog/tiktok-shop-consumer-electronics-operating-system-trust-loop-zh-v1.svg": {
+      "bytes": 3003,
+      "match": true
+    },
+    "blog/tiktok-shop-consumer-electronics-operating-system.html": {
+      "bytes": 45441,
+      "match": true
+    },
+    "blog/wem-editorial-enhance.js": {
+      "bytes": 33014,
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 30196,
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 43938,
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 36627,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-09-24",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system"
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-09-24",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh"
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "htmlLang": "en",
+      "documentTitle": "TikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together | WE Marketing",
+      "description": "Build a consumer-electronics operating system that keeps qualification, specifications, demonstrations, compatibility, fulfillment and aftersales tied to the same product truth.",
+      "active": true,
+      "inactive": true,
+      "title": "TikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "18px",
+        "weight": "400",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "htmlLang": "zh-CN",
+      "documentTitle": "3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统 | WE Marketing",
+      "description": "把准入、规格、演示、兼容性、履约与售后连接到同一份商品事实，搭建可持续的 3C 经营系统。",
+      "active": true,
+      "inactive": true,
+      "title": "3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "18px",
+        "weight": "400",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "htmlLang": "en",
+      "documentTitle": "TikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together | WE Marketing",
+      "description": "Build a consumer-electronics operating system that keeps qualification, specifications, demonstrations, compatibility, fulfillment and aftersales tied to the same product truth.",
+      "active": true,
+      "inactive": true,
+      "title": "TikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "39px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "16px",
+        "weight": "400",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.4px"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "htmlLang": "zh-CN",
+      "documentTitle": "3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统 | WE Marketing",
+      "description": "把准入、规格、演示、兼容性、履约与售后连接到同一份商品事实，搭建可持续的 3C 经营系统。",
+      "active": true,
+      "inactive": true,
+      "title": "3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "39px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "16px",
+        "weight": "400",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.4px"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-consumer-electronics-operating-system"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system",
+          "text": "Sep 24, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together\n\nBuild a consumer-electronics operating system that keeps qualification, specifications, demonstrations, compatibility, fulfillment and aftersales tied to the same product truth.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system",
+          "text": "Sep 24, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together\n\nBuild a consumer-electronics operating system that keeps qualification, specifications, demonstrations, compatibility, fulfillment and aftersales tied to the same product truth.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+          "text": "2026 年 9 月 24 日\nTIKTOK-SHOP\n店铺运营\n3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统\n\n把准入、规格、演示、兼容性、履约与售后连接到同一份商品事实，搭建可持续的 3C 经营系统。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+          "text": "2026 年 9 月 24 日\nTIKTOK-SHOP\n店铺运营\n3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统\n\n把准入、规格、演示、兼容性、履约与售后连接到同一份商品事实，搭建可持续的 3C 经营系统。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system",
+          "text": "Sep 24, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together\n\nBuild a consumer-electronics operating system that keeps qualification, specifications, demonstrations, compatibility, fulfillment and aftersales tied to the same product truth.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system",
+          "text": "Sep 24, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Consumer Electronics: Make Demonstration, Trust and Service Work Together\n\nBuild a consumer-electronics operating system that keeps qualification, specifications, demonstrations, compatibility, fulfillment and aftersales tied to the same product truth.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+          "text": "2026 年 9 月 24 日\nTIKTOK-SHOP\n店铺运营\n3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统\n\n把准入、规格、演示、兼容性、履约与售后连接到同一份商品事实，搭建可持续的 3C 经营系统。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-consumer-electronics-operating-system?lang=zh",
+          "text": "2026 年 9 月 24 日\nTIKTOK-SHOP\n店铺运营\n3C 品牌做 TikTok Shop：把演示、信任与售后做成一个系统\n\n把准入、规格、演示、兼容性、履约与售后连接到同一份商品事实，搭建可持续的 3C 经营系统。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b5f7b9c27edf",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "history": {
+    "tiktok-shop-consumer-electronics-operating-system": {
+      "bytes": 36627,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-growth-autopilot-vs-gmv-max-pro": {
+      "bytes": 31348,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-growth-autopilot-roi-protection": {
+      "bytes": 26859,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-jewelry-category-operating-system": {
+      "bytes": 36572,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-growth-autopilot-beta-guide": {
+      "bytes": 33914,
+      "hasEnglish": true,
+      "hasChinese": true
+    }
+  },
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "history": true,
+    "discovery": true
+  },
+  "passed": true
+}

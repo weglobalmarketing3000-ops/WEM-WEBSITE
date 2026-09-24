@@ -1,0 +1,523 @@
+{
+  "status": "public_qa_complete",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 135066,
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 120889,
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "match": true
+    },
+    "blog/hero-tiktok-shop-jewelry-category-operating-system-v1.png": {
+      "bytes": 1216764,
+      "match": true
+    },
+    "blog/hero-tiktok-shop-jewelry-category-operating-system-v1.svg": {
+      "bytes": 2360591,
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-jewelry-category-operating-system-v1.jpg": {
+      "bytes": 215463,
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-jewelry-category-operating-system-v1.jpg": {
+      "bytes": 82159,
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-jewelry-category-operating-system-v1.png": {
+      "bytes": 339003,
+      "match": true
+    },
+    "blog/tiktok-shop-jewelry-category-operating-system-operating-loop-v1.svg": {
+      "bytes": 2580,
+      "match": true
+    },
+    "blog/tiktok-shop-jewelry-category-operating-system-operating-loop-zh-v1.svg": {
+      "bytes": 2598,
+      "match": true
+    },
+    "blog/tiktok-shop-jewelry-category-operating-system-release-gate-v1.svg": {
+      "bytes": 2589,
+      "match": true
+    },
+    "blog/tiktok-shop-jewelry-category-operating-system-release-gate-zh-v1.svg": {
+      "bytes": 2579,
+      "match": true
+    },
+    "blog/tiktok-shop-jewelry-category-operating-system.html": {
+      "bytes": 45248,
+      "match": true
+    },
+    "blog/wem-editorial-enhance.js": {
+      "bytes": 32604,
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 29903,
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 43652,
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 36572,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-09-21",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system"
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-09-21",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh"
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "htmlLang": "en",
+      "active": true,
+      "inactive": true,
+      "title": "TikTok Shop for Jewelry: A Category Operating System Beyond Product Listings",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "htmlLang": "zh-CN",
+      "active": true,
+      "inactive": true,
+      "title": "珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "54px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "htmlLang": "en",
+      "active": true,
+      "inactive": true,
+      "title": "TikTok Shop for Jewelry: A Category Operating System Beyond Product Listings",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "htmlLang": "zh-CN",
+      "active": true,
+      "inactive": true,
+      "title": "珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统",
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, \"system-ui\", \"Segoe UI\", system-ui, sans-serif",
+        "size": "38px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "images": [
+        1774,
+        1200,
+        1200
+      ],
+      "heroCopy": 0,
+      "faq": 6,
+      "related": 3,
+      "cta": true,
+      "booking": true,
+      "footer": true,
+      "source": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+      "links": {
+        "current": false,
+        "comparison": false,
+        "roi": false
+      },
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-jewelry-category-operating-system"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\n店铺运营\n珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统\n\n用类目权限、商品证据、买家证明、达人匹配、履约与售后搭建珠宝经营系统，而不是只扩充商品目录。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\n店铺运营\n珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统\n\n用类目权限、商品证据、买家证明、达人匹配、履约与售后搭建珠宝经营系统，而不是只扩充商品目录。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro",
+          "text": "Sep 23, 2026\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot vs. GMV Max Pro: Which TikTok Shop Setup Fits Your Business?\n\nCompare the visible Growth Autopilot beta cycle with GMV Max Pro, then decide whether your SKU, inventory, budget and operating owner are ready.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection",
+          "text": "Sep 22, 2026\nTIKTOK-SHOP\nGMV-MAX\nTikTok Shop Growth Autopilot ROI Protection: What the 90% Threshold Covers\n\nUnderstand what the Growth Autopilot 90% ROI protection screen covers, what it does not cover, and how to reconcile campaign cost with separate growth investment.",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system",
+          "text": "Sep 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop for Jewelry: A Category Operating System Beyond Product Listings\n\nBuild a jewelry operating system around category permission, product evidence, buyer proof, creator fit, fulfillment and aftersales, not a larger catalog.",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\n店铺运营\n珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统\n\n用类目权限、商品证据、买家证明、达人匹配、履约与售后搭建珠宝经营系统，而不是只扩充商品目录。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-vs-gmv-max-pro?lang=zh",
+          "text": "2026 年 9 月 23 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 和 GMV Max Pro 怎么选？先看七天预算、操作空间和店铺准备度\n\n对比 Growth Autopilot beta 的七天周期与 GMV Max Pro，再判断你的 SKU、库存、预算和运营 Owner 是否真的准备好。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-growth-autopilot-roi-protection?lang=zh",
+          "text": "2026 年 9 月 22 日\nTIKTOK-SHOP\nGMV-MAX\nGrowth Autopilot 的 90% ROI 保障：额外增长投入后，这笔账怎么算？\n\n拆解 Growth Autopilot 的 90% ROI 保障、单独增长投入与七天周期总成本，避免把广告金或平台归因当成利润。",
+          "image": 880
+        },
+        {
+          "href": "/blog/tiktok-shop-jewelry-category-operating-system?lang=zh",
+          "text": "2026 年 9 月 21 日\nTIKTOK-SHOP\n店铺运营\n珠宝品牌做 TikTok Shop：不止上架，而是品类经营系统\n\n用类目权限、商品证据、买家证明、达人匹配、履约与售后搭建珠宝经营系统，而不是只扩充商品目录。",
+          "image": 880
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fe495bc7047",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "history": {
+    "tiktok-shop-growth-autopilot-vs-gmv-max-pro": {
+      "bytes": 31348,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-growth-autopilot-roi-protection": {
+      "bytes": 26859,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-jewelry-category-operating-system": {
+      "bytes": 36572,
+      "hasEnglish": true,
+      "hasChinese": true
+    },
+    "tiktok-shop-growth-autopilot-beta-guide": {
+      "bytes": 33914,
+      "hasEnglish": true,
+      "hasChinese": true
+    }
+  },
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "history": true,
+    "discovery": true
+  },
+  "passed": true
+}
