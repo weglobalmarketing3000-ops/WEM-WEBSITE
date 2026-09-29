@@ -5,8 +5,8 @@ Before merge, clone the repository and check out `codex/wem-website-skills-sync-
 ## macOS or Linux
 
 ```sh
-git clone https://github.com/weglobalmarketing3000-ops/WEM-WEBSITE.git
-cd "WE Marketing Design System"
+git clone https://github.com/weglobalmarketing3000-ops/WEM-WEBSITE.git "WEM-WEBSITE"
+cd "WEM-WEBSITE"
 git switch codex/wem-website-skills-sync-20260929
 ./scripts/install-wem-skills.sh
 ```
