@@ -1,0 +1,4 @@
+interface:
+  display_name: "WEM Daily GEO Blog Publisher"
+  short_description: "Publish one verified bilingual WEM GEO article daily"
+  default_prompt: "Use $wem-daily-geo-blog-publisher to publish and verify today’s WEM GEO article before the evening review."
