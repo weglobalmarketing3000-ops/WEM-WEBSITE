@@ -1,7 +1,7 @@
 // Marquee.jsx, brand partners scrolling marquee (dark)
 const Marquee = ({ lang }) => {
   // Real partner brands
-  const realBrands = ['SKIN1004','MISSHA','MEOWANT','MEDICUBE','MAGNETOPIA','BASK & LATHER','ENA SKIN','INA LABS','ANANKECLO','MINISO','GUYU GLOBAL','TGIDEAS','FIFA WORLD CUP MERCHANDISE','RITUAL'];
+  const realBrands = ['SKIN1004','MISSHA','MEOWANT','MEDICUBE','MAGNETOPIA','BASK & LATHER','ENA SKIN','INA LABS','ANANKECLO','MINISO','GUYU GLOBAL','TGIDEAS','FIFA WORLD CUP MERCHANDISE','RITUAL','TEREZ & HONOR','AULA','DR. MELAXIN','ANKER','COOFANDY','MEDIHEAL','FINENOLO'];
   // Placeholder brands — replace these directly with real partner names
   const placeholderBrands = ['HI!PAPA','ZUTTONYAN','PAPABLIC','GUYU','MOONBREW','COSRX'];
   const brands = [...realBrands, ...placeholderBrands];
