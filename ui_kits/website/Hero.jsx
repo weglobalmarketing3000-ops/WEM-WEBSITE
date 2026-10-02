@@ -39,14 +39,14 @@ const Hero = ({ lang }) => {
       pill: 'FULL SERVICE TIKTOK SHOP PARTNER AGENCY',
       h1a: 'We help brands', h1accent: 'scale', h1b: 'on TikTok.',
       sub: 'From cold start to sustained GMV. Creator outreach, content, live, and shop operations, all run by one team. 160+ brands. $15M+ annual sales. Certified TikTok Shop Partner Agency.',
-      cta1: 'Apply for consulting →', cta2: 'See our work',
+      cta1: 'Book a discovery call →', cta2: 'See our work',
       stats: [[8000,'+','Creators in Community'],[24000,'+','Vetted Creators'],[160,'+','Shop Partners Served'],[15,'M+','Annual Sales']],
     },
     zh: {
       pill: '美国 TIKTOK SHOP 代运营与增长团队',
       h1a: '让跨境品牌', h1accent: '在美国', h1b: '卖起来',
       sub: '我们服务出海品牌、Amazon 卖家和在美华人品牌团队。从开店、商品页、达人联盟、UGC 内容、直播到店铺运营，帮你把美国 TikTok Shop 做成真正能出单的渠道。',
-      cta1: '申请咨询', cta2: '查看案例',
+      cta1: '预约咨询', cta2: '查看案例',
       stats: [[8000,'+','达人社群'],[24000,'+','筛选达人'],[160,'+','服务品牌'],[15,'M+','年管理销售额']],
     },
   }[lang];
@@ -54,7 +54,7 @@ const Hero = ({ lang }) => {
   const openIntro = () => {
     if (introOpening) return;
     setIntroOpening(true);
-    window.setTimeout(() => setIntroVisible(false), 860);
+    window.setTimeout(() => setIntroVisible(false), 560);
   };
   return (
     <>
@@ -107,13 +107,13 @@ const Hero = ({ lang }) => {
         }
         .wem-intro-overlay.is-opening {
           pointer-events: none;
-          animation: wemIntroOpen .86s cubic-bezier(.65,0,.15,1) forwards;
+          animation: wemIntroOpen .56s cubic-bezier(.65,0,.15,1) forwards;
         }
         .wem-intro-overlay.is-opening .wem-intro-flash {
-          animation: wemIntroFlash .72s cubic-bezier(.65,0,.15,1) forwards;
+          animation: wemIntroFlash .46s cubic-bezier(.65,0,.15,1) forwards;
         }
         .wem-intro-overlay.is-opening .wem-intro-gate {
-          animation: wemIntroSnapOut .78s cubic-bezier(.65,0,.15,1) forwards;
+          animation: wemIntroSnapOut .52s cubic-bezier(.65,0,.15,1) forwards;
           border-color: rgba(255,255,255,.62) !important;
           box-shadow: 0 0 130px rgba(190,55,128,.42), 0 0 210px rgba(112,70,190,.28), 0 0 250px rgba(255,255,255,.28), inset 0 0 96px rgba(255,255,255,.26) !important;
         }
@@ -429,7 +429,7 @@ const Hero = ({ lang }) => {
             </h1>
             <p style={heroStyles.sub} className="wem-hero-sub">{t.sub}</p>
             <div style={heroStyles.ctas} className="wem-hero-ctas">
-              <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => location.href='consulting.html'}>{t.cta1}</button>
+              <button className="we-btn we-btn-primary" style={{ fontSize: 16, padding: '16px 30px' }} onClick={() => window.open('https://zus03h0enw04.sg.larksuite.com/scheduler/03970278dd9a7925','_blank')}>{t.cta1}</button>
               <button style={heroStyles.ghost} onClick={() => location.href='showcase.html'}>{t.cta2}</button>
             </div>
           </div>
@@ -566,10 +566,10 @@ const OpeningPortalScene = ({ opening }) => {
     const ctx = canvas.getContext('2d', { alpha: true });
     const compact = window.matchMedia('(max-width: 640px)').matches;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const particleTotal = compact ? 150 : 420;
-    const microTotal = compact ? 90 : 260;
-    const distantTotal = compact ? 80 : 180;
-    const foregroundTotal = compact ? 8 : 18;
+    const particleTotal = compact ? 72 : 190;
+    const microTotal = compact ? 36 : 100;
+    const distantTotal = compact ? 42 : 90;
+    const foregroundTotal = compact ? 4 : 8;
     const particles = Array.from({ length: reduced ? 0 : particleTotal }, (_, index) => {
       const arm = index % 5;
       const depth = Math.random();
@@ -629,7 +629,7 @@ const OpeningPortalScene = ({ opening }) => {
     let height = 1;
     const resize = () => {
       const rect = canvas.parentElement.getBoundingClientRect();
-      const dpr = compact ? 1 : Math.min(window.devicePixelRatio || 1, 1.25);
+      const dpr = compact ? 1 : Math.min(window.devicePixelRatio || 1, 1.1);
       width = Math.max(1, rect.width);
       height = Math.max(1, rect.height);
       canvas.width = Math.round(width * dpr);
@@ -741,8 +741,18 @@ const OpeningPortalScene = ({ opening }) => {
         ctx.restore();
       }
     };
+    let lastPaint = 0;
+    let visible = !document.hidden;
+    const onVisibilityChange = () => { visible = !document.hidden; };
+    document.addEventListener('visibilitychange', onVisibilityChange);
     const animate = (time) => {
       if (disposed) return;
+      const frameInterval = compact ? 40 : 33;
+      if (openingRef.current || !visible || time - lastPaint < frameInterval) {
+        frame = requestAnimationFrame(animate);
+        return;
+      }
+      lastPaint = time;
       const openingBoost = openingRef.current ? 1 : 0;
       ctx.clearRect(0, 0, width, height);
       microStars.forEach((p) => {
@@ -822,6 +832,7 @@ const OpeningPortalScene = ({ opening }) => {
     return () => {
       disposed = true;
       cancelAnimationFrame(frame);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
       ro.disconnect();
     };
   }, []);
@@ -847,219 +858,9 @@ const getHeroServices = (lang) => (
     ]
 );
 const HeroThreeScene = ({ lang, active, onActive }) => {
-  const canvasRef = React.useRef(null);
-  const activeRef = React.useRef(active);
-  activeRef.current = active;
   const services = getHeroServices(lang);
-  React.useLayoutEffect(() => {
-    let disposed = false;
-    let frame = 0;
-    let cleanup = () => {};
-    import('./vendor/three.module.min.js?v=20260612').then((THREE) => {
-      if (disposed || !canvasRef.current) return;
-      const canvas = canvasRef.current;
-      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'high-performance' });
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.8));
-      renderer.setClearColor(0x000000, 0);
-
-      const scene = new THREE.Scene();
-      scene.fog = new THREE.FogExp2(0x050008, 0.045);
-      const camera = new THREE.PerspectiveCamera(46, 1, 0.1, 80);
-      camera.position.set(0, 2.1, 12.5);
-
-      const root = new THREE.Group();
-      root.position.set(2.25, .05, 0);
-      root.scale.setScalar(1.18);
-      scene.add(root);
-
-      const ambient = new THREE.AmbientLight(0xffffff, .7);
-      scene.add(ambient);
-      const pinkLight = new THREE.PointLight(0xff1493, 16, 26);
-      pinkLight.position.set(-5, 4, 5);
-      scene.add(pinkLight);
-      const rimLight = new THREE.PointLight(0xffffff, 12, 24);
-      rimLight.position.set(5, -1, 6);
-      scene.add(rimLight);
-
-      const coreMaterial = new THREE.MeshPhysicalMaterial({
-        color: 0xff1493,
-        emissive: 0xff1493,
-        emissiveIntensity: .72,
-        metalness: .2,
-        roughness: .12,
-        transmission: .08,
-        clearcoat: .72,
-        clearcoatRoughness: .2,
-      });
-      const core = new THREE.Mesh(new THREE.IcosahedronGeometry(1.62, 4), coreMaterial);
-      root.add(core);
-      const wire = new THREE.Mesh(
-        new THREE.IcosahedronGeometry(1.72, 2),
-        new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: true, transparent: true, opacity: .34 }),
-      );
-      root.add(wire);
-
-      const ringGroup = new THREE.Group();
-      root.add(ringGroup);
-      [
-        [2.35, 2.35, 0, 0xff1493, .26],
-        [3.2, 3.2, Math.PI / 2.8, 0xffffff, .2],
-        [4.2, 4.2, -Math.PI / 3.2, 0xffffff, .12],
-      ].forEach(([rx, ry, rot, color, opacity]) => {
-        const ring = new THREE.Mesh(
-          new THREE.TorusGeometry(rx, .012, 10, 180),
-          new THREE.MeshBasicMaterial({ color, transparent: true, opacity }),
-        );
-        ring.scale.y = ry / rx;
-        ring.rotation.x = 1.16;
-        ring.rotation.z = rot;
-        ringGroup.add(ring);
-      });
-
-      const orbit = new THREE.Group();
-      root.add(orbit);
-      const nodeMeshes = [];
-      services.forEach((service, index) => {
-        const angle = (Math.PI * 2 * index) / services.length;
-        const color = new THREE.Color(service[2]);
-        const group = new THREE.Group();
-        group.position.set(Math.cos(angle) * 4.15, Math.sin(angle * 1.4) * .95, Math.sin(angle) * 2.35);
-        const mesh = new THREE.Mesh(
-          index % 2 ? new THREE.OctahedronGeometry(.38, 1) : new THREE.BoxGeometry(.58, .58, .58, 2, 2, 2),
-          new THREE.MeshPhysicalMaterial({
-            color,
-            emissive: color,
-            emissiveIntensity: .95,
-            metalness: .54,
-            roughness: .16,
-            clearcoat: .7,
-          }),
-        );
-        mesh.userData.serviceIndex = index;
-        group.add(mesh);
-        const halo = new THREE.Mesh(
-          new THREE.TorusGeometry(.7, .018, 10, 80),
-          new THREE.MeshBasicMaterial({ color, transparent: true, opacity: .72 }),
-        );
-        halo.rotation.x = Math.PI / 2.6;
-        group.add(halo);
-        const line = new THREE.Line(
-          new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(0, 0, 0), group.position.clone()]),
-          new THREE.LineBasicMaterial({ color, transparent: true, opacity: .22 }),
-        );
-        orbit.add(line);
-        orbit.add(group);
-        nodeMeshes.push(mesh);
-      });
-
-      const particleCount = 720;
-      const positions = new Float32Array(particleCount * 3);
-      const colors = new Float32Array(particleCount * 3);
-      const palette = [new THREE.Color(0xff1493), new THREE.Color(0xffffff), new THREE.Color(0xffffff), new THREE.Color(0xffffff)];
-      for (let i = 0; i < particleCount; i += 1) {
-        const radius = 4 + Math.random() * 11;
-        const theta = Math.random() * Math.PI * 2;
-        const phi = Math.acos((Math.random() * 2) - 1);
-        positions[i * 3] = Math.sin(phi) * Math.cos(theta) * radius;
-        positions[i * 3 + 1] = (Math.cos(phi) * radius * .54) + (Math.random() - .5);
-        positions[i * 3 + 2] = Math.sin(phi) * Math.sin(theta) * radius;
-        const c = palette[i % palette.length];
-        colors[i * 3] = c.r;
-        colors[i * 3 + 1] = c.g;
-        colors[i * 3 + 2] = c.b;
-      }
-      const particleGeometry = new THREE.BufferGeometry();
-      particleGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-      particleGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
-      const particles = new THREE.Points(
-        particleGeometry,
-        new THREE.PointsMaterial({ size: .045, vertexColors: true, transparent: true, opacity: .76, blending: THREE.AdditiveBlending }),
-      );
-      scene.add(particles);
-
-      const raycaster = new THREE.Raycaster();
-      const pointer = new THREE.Vector2(-10, -10);
-      const target = { x: 0, y: 0 };
-      const resize = () => {
-        const rect = canvas.parentElement.getBoundingClientRect();
-        const width = Math.max(1, rect.width);
-        const height = Math.max(1, rect.height);
-        renderer.setSize(width, height, false);
-        camera.aspect = width / height;
-        camera.updateProjectionMatrix();
-      };
-      const onMove = (event) => {
-        const rect = canvas.getBoundingClientRect();
-        if (!rect.width || !rect.height) return;
-        const x = (event.clientX - rect.left) / rect.width;
-        const y = (event.clientY - rect.top) / rect.height;
-        pointer.x = x * 2 - 1;
-        pointer.y = -(y * 2 - 1);
-        target.x = (x - .5) * .9;
-        target.y = (y - .5) * .55;
-      };
-      const ro = new ResizeObserver(resize);
-      ro.observe(canvas.parentElement);
-      window.addEventListener('mousemove', onMove, { passive: true });
-      resize();
-
-      const clock = new THREE.Clock();
-      const animate = () => {
-        if (disposed) return;
-        const elapsed = clock.getElapsedTime();
-        root.rotation.y += (target.x - root.rotation.y) * .025;
-        root.rotation.x += (-target.y - root.rotation.x) * .025;
-        orbit.rotation.y = elapsed * .11;
-        ringGroup.rotation.y = elapsed * .06;
-        ringGroup.rotation.z = Math.sin(elapsed * .22) * .12;
-        core.rotation.x = elapsed * .22;
-        core.rotation.y = elapsed * .34;
-        wire.rotation.x = -elapsed * .18;
-        wire.rotation.y = elapsed * .24;
-        particles.rotation.y = elapsed * .018;
-        particles.rotation.x = Math.sin(elapsed * .08) * .07;
-
-        nodeMeshes.forEach((mesh) => {
-          const index = mesh.userData.serviceIndex;
-          const selected = index === activeRef.current;
-          mesh.scale.lerp(new THREE.Vector3(selected ? 1.62 : 1, selected ? 1.62 : 1, selected ? 1.62 : 1), .08);
-          mesh.rotation.x += .012 + index * .001;
-          mesh.rotation.y += .018;
-        });
-
-        raycaster.setFromCamera(pointer, camera);
-        const hit = raycaster.intersectObjects(nodeMeshes, false)[0];
-        if (hit && typeof hit.object.userData.serviceIndex === 'number' && hit.object.userData.serviceIndex !== activeRef.current) {
-          onActive(hit.object.userData.serviceIndex);
-        }
-        renderer.render(scene, camera);
-        frame = requestAnimationFrame(animate);
-      };
-      animate();
-
-      cleanup = () => {
-        cancelAnimationFrame(frame);
-        window.removeEventListener('mousemove', onMove);
-        ro.disconnect();
-        scene.traverse((obj) => {
-          if (obj.geometry) obj.geometry.dispose();
-          if (obj.material) {
-            if (Array.isArray(obj.material)) obj.material.forEach((m) => m.dispose());
-            else obj.material.dispose();
-          }
-        });
-        renderer.dispose();
-      };
-    }).catch(() => {});
-    return () => {
-      disposed = true;
-      cleanup();
-    };
-  }, [lang, onActive]);
-
   return (
     <div style={heroStyles.threeLayer} aria-hidden="true">
-      <canvas ref={canvasRef} className="wem-hero-three-canvas"/>
       <div style={heroStyles.threeVignette}/>
       <div style={heroStyles.domConstellation} className="wem-dom-constellation">
         <div style={heroStyles.domCore}>
