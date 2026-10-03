@@ -1,0 +1,580 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 143682,
+      "localSha256": "d4933033041e504276e73f1b2788e18b24cbce987eb3db82cdf74d684f44e059",
+      "remoteSha256": "d4933033041e504276e73f1b2788e18b24cbce987eb3db82cdf74d684f44e059",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 126821,
+      "localSha256": "3932dc341e7a71838d19654064ea0e64d91f28d48d68924cd57ac3b76c6ccb1b",
+      "remoteSha256": "3932dc341e7a71838d19654064ea0e64d91f28d48d68924cd57ac3b76c6ccb1b",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "f09cb9c3579c95ee96394e5e9c24854ffbae7a4f7867d1b672bcd2c883e3b094",
+      "remoteSha256": "f09cb9c3579c95ee96394e5e9c24854ffbae7a4f7867d1b672bcd2c883e3b094",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.png": {
+      "bytes": 127321,
+      "localSha256": "1ad24f535fddd9d5855ce06161f707402488c6874ac62a339448a4df78b53ddb",
+      "remoteSha256": "1ad24f535fddd9d5855ce06161f707402488c6874ac62a339448a4df78b53ddb",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.png": {
+      "bytes": 122164,
+      "localSha256": "70946bd781c50793e9a9f7a05117b1615f677a19122f5610fc16479f73803cd0",
+      "remoteSha256": "70946bd781c50793e9a9f7a05117b1615f677a19122f5610fc16479f73803cd0",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg": {
+      "bytes": 71115,
+      "localSha256": "b84a1b94ff78fb5d2a8a5fff2b591acbc0c5c1c2f4f85c52286932ce333fdb33",
+      "remoteSha256": "b84a1b94ff78fb5d2a8a5fff2b591acbc0c5c1c2f4f85c52286932ce333fdb33",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg": {
+      "bytes": 64482,
+      "localSha256": "6e4cceaf5329e17b87becfdbc5215835f032960e30fb4946728797b9cff4be52",
+      "remoteSha256": "6e4cceaf5329e17b87becfdbc5215835f032960e30fb4946728797b9cff4be52",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg": {
+      "bytes": 29182,
+      "localSha256": "f7f1833b914e769832d0b227035cdbf4084c14032ba2f0a4f6e931728c109d74",
+      "remoteSha256": "f7f1833b914e769832d0b227035cdbf4084c14032ba2f0a4f6e931728c109d74",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg": {
+      "bytes": 26597,
+      "localSha256": "b4ecda9d9b679bf3d53ab923b21904aa4c5a5bd8049750328fcb765e0b48ebb6",
+      "remoteSha256": "b4ecda9d9b679bf3d53ab923b21904aa4c5a5bd8049750328fcb765e0b48ebb6",
+      "match": true
+    },
+    "blog/tiktok-shop-creator-commission-video-usage-rights.html": {
+      "bytes": 25929,
+      "localSha256": "325062ae3f8153d4f3b9952784d2e8de3ec2a16ddc562a9c908be64891fde81f",
+      "remoteSha256": "325062ae3f8153d4f3b9952784d2e8de3ec2a16ddc562a9c908be64891fde81f",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 31865,
+      "localSha256": "9dce260b865a27206ac7747a53211601fcbf7e8efeaa84a00f2a0f8613e41e29",
+      "remoteSha256": "9dce260b865a27206ac7747a53211601fcbf7e8efeaa84a00f2a0f8613e41e29",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 45622,
+      "localSha256": "2a06ae88b7ea239a8eb80b1530ef5fdcdcf180dc4befca47d507e60e3e8d8cc8",
+      "remoteSha256": "2a06ae88b7ea239a8eb80b1530ef5fdcdcf180dc4befca47d507e60e3e8d8cc8",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 22287,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-02",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-commission-video-usage-rights-v1.png",
+          "width": 1672,
+          "height": 941,
+          "caption": "WE Marketing TikTok Shop Discount Architecture"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-02",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-commission-video-usage-rights-v1.png",
+          "width": 1672,
+          "height": 941,
+          "caption": "WE Marketing TikTok Shop 折扣架构"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Creator Commission Does Not Buy Video Usage Rights",
+      "documentTitle": "TikTok Shop Creator Commission Does Not Buy Video Usage Rights | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么",
+      "documentTitle": "TikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么 | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Creator Commission Does Not Buy Video Usage Rights",
+      "documentTitle": "TikTok Shop Creator Commission Does Not Buy Video Usage Rights | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么",
+      "documentTitle": "TikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么 | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-commission-video-usage-rights"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale",
+          "text": "Sep 29, 2026\nCONTENT & UGC\nSHOP OPERATIONS\nHow Brands Should Review TikTok Shop Creator Videos and LIVEs Before They Scale\n\nReview product truth, claims, price, AI visuals and LIVE behavior before creator content scales.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale",
+          "text": "Sep 29, 2026\nCONTENT & UGC\nSHOP OPERATIONS\nHow Brands Should Review TikTok Shop Creator Videos and LIVEs Before They Scale\n\nReview product truth, claims, price, AI visuals and LIVE behavior before creator content scales.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale?lang=zh",
+          "text": "2026 年 9 月 29 日\n内容与 UGC\n店铺运营\nTikTok Shop 达人短视频和 LIVE 上线前，品牌到底应该审核什么？\n\n达人内容上线和放量前，逐项审核商品事实、Claim、价格、AI 画面与 LIVE 表达。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale?lang=zh",
+          "text": "2026 年 9 月 29 日\n内容与 UGC\n店铺运营\nTikTok Shop 达人短视频和 LIVE 上线前，品牌到底应该审核什么？\n\n达人内容上线和放量前，逐项审核商品事实、Claim、价格、AI 画面与 LIVE 表达。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale",
+          "text": "Sep 29, 2026\nCONTENT & UGC\nSHOP OPERATIONS\nHow Brands Should Review TikTok Shop Creator Videos and LIVEs Before They Scale\n\nReview product truth, claims, price, AI visuals and LIVE behavior before creator content scales.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale",
+          "text": "Sep 29, 2026\nCONTENT & UGC\nSHOP OPERATIONS\nHow Brands Should Review TikTok Shop Creator Videos and LIVEs Before They Scale\n\nReview product truth, claims, price, AI visuals and LIVE behavior before creator content scales.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale?lang=zh",
+          "text": "2026 年 9 月 29 日\n内容与 UGC\n店铺运营\nTikTok Shop 达人短视频和 LIVE 上线前，品牌到底应该审核什么？\n\n达人内容上线和放量前，逐项审核商品事实、Claim、价格、AI 画面与 LIVE 表达。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-content-review-before-scale?lang=zh",
+          "text": "2026 年 9 月 29 日\n内容与 UGC\n店铺运营\nTikTok Shop 达人短视频和 LIVE 上线前，品牌到底应该审核什么？\n\n达人内容上线和放量前，逐项审核商品事实、Claim、价格、AI 画面与 LIVE 表达。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-content-review-before-scale-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d4933033041e",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

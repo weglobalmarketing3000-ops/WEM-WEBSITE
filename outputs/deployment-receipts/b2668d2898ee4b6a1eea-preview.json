@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-03-q4-07-creator-agency-contract",
+  "patchFingerprint": "b2668d2898ee4b6a1eea1df9b085ed198ee0ec573cedbfbe7635206e66837979",
+  "pid": 26605,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/b2668d2898ee4b6a1eea-preview.log",
+  "url": "https://wem-website-2k45f5fz8-wem1.vercel.app",
+  "deploymentId": "dpl_CqzaXe334Xi4HfV5fnAfUJPCKVWo",
+  "exitCode": 0,
+  "updatedAt": "2026-10-03T13:20:17Z"
+}

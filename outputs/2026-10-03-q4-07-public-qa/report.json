@@ -1,0 +1,658 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 144669,
+      "localSha256": "f8a48b9b3e82d0ad667e48d7c597a2542bdfbd807e57fa8d83688010723cd201",
+      "remoteSha256": "f8a48b9b3e82d0ad667e48d7c597a2542bdfbd807e57fa8d83688010723cd201",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 127621,
+      "localSha256": "ce79845174fef7d87b997d0c2a9b05f94c3da7cc1f55556fece377c263f96c8d",
+      "remoteSha256": "ce79845174fef7d87b997d0c2a9b05f94c3da7cc1f55556fece377c263f96c8d",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "f31b887963e0721906243a4c586c138df72cd0bd98eb04b2a9baffbb72a77375",
+      "remoteSha256": "f31b887963e0721906243a4c586c138df72cd0bd98eb04b2a9baffbb72a77375",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png": {
+      "bytes": 130794,
+      "localSha256": "aab41662c1f2958d07cb93f0793e9c9ae348346bc4f2e0fb94eb03212771f48b",
+      "remoteSha256": "aab41662c1f2958d07cb93f0793e9c9ae348346bc4f2e0fb94eb03212771f48b",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png": {
+      "bytes": 123569,
+      "localSha256": "f8024543513605929d0010f7873189b56e117db565eda2f7c702e47f34588651",
+      "remoteSha256": "f8024543513605929d0010f7873189b56e117db565eda2f7c702e47f34588651",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg": {
+      "bytes": 73875,
+      "localSha256": "05cb85fbef7998692360be3a492399c45423175f1c23823084d63d9ff26a8d7c",
+      "remoteSha256": "05cb85fbef7998692360be3a492399c45423175f1c23823084d63d9ff26a8d7c",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg": {
+      "bytes": 69863,
+      "localSha256": "9afaa949db612882d8457272a908b969b2f0e18d9c83751df962a8f3a6244271",
+      "remoteSha256": "9afaa949db612882d8457272a908b969b2f0e18d9c83751df962a8f3a6244271",
+      "match": true
+    },
+    "blog/q4-07-contract-control/matrix-en-v1.png": {
+      "bytes": 54810,
+      "localSha256": "1dc671e6bfea86d1b4f28d46d9e5b3f0662cb539018654b65b516e247fc250d6",
+      "remoteSha256": "1dc671e6bfea86d1b4f28d46d9e5b3f0662cb539018654b65b516e247fc250d6",
+      "match": true
+    },
+    "blog/q4-07-contract-control/matrix-zh-v1.png": {
+      "bytes": 49472,
+      "localSha256": "43d6fc70cee82971126d6a4b238ba8d47848b3ed9740b7d39d6b1a6034bb761e",
+      "remoteSha256": "43d6fc70cee82971126d6a4b238ba8d47848b3ed9740b7d39d6b1a6034bb761e",
+      "match": true
+    },
+    "blog/q4-07-contract-control/owners-en-v1.png": {
+      "bytes": 48590,
+      "localSha256": "2943cb4235539f9d12ef7fd97ccbcb3bd1fab37a3d861aacd988d3256c5807c4",
+      "remoteSha256": "2943cb4235539f9d12ef7fd97ccbcb3bd1fab37a3d861aacd988d3256c5807c4",
+      "match": true
+    },
+    "blog/q4-07-contract-control/owners-zh-v1.png": {
+      "bytes": 44741,
+      "localSha256": "ad012c4ac070a037a116514a105160e817c60f30764c90fb0ca82f48f1268370",
+      "remoteSha256": "ad012c4ac070a037a116514a105160e817c60f30764c90fb0ca82f48f1268370",
+      "match": true
+    },
+    "blog/q4-07-contract-control/release-en-v1.png": {
+      "bytes": 51846,
+      "localSha256": "abdef75dd361225fa54d515f14757332fdfa23bf40d6c2d08084779822f77739",
+      "remoteSha256": "abdef75dd361225fa54d515f14757332fdfa23bf40d6c2d08084779822f77739",
+      "match": true
+    },
+    "blog/q4-07-contract-control/release-zh-v1.png": {
+      "bytes": 49773,
+      "localSha256": "024cee555ee6572c61d09452c6f72bdf865897c193978186870d53d66a091e26",
+      "remoteSha256": "024cee555ee6572c61d09452c6f72bdf865897c193978186870d53d66a091e26",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg": {
+      "bytes": 32557,
+      "localSha256": "5853d6c4154c23a9dc0bc89d43e6d7a104a876a8e397469279ed59a1d3e5a100",
+      "remoteSha256": "5853d6c4154c23a9dc0bc89d43e6d7a104a876a8e397469279ed59a1d3e5a100",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg": {
+      "bytes": 30425,
+      "localSha256": "7adb95142901b3e69ff47442be946c1217c89be3469c6593e2d9d5241669b0c0",
+      "remoteSha256": "7adb95142901b3e69ff47442be946c1217c89be3469c6593e2d9d5241669b0c0",
+      "match": true
+    },
+    "blog/tiktok-shop-creator-agency-contract-control.html": {
+      "bytes": 30181,
+      "localSha256": "acef1a15e748264061b937356fe090086221dcae4477b3b8fe83ae36c2a15dc9",
+      "remoteSha256": "acef1a15e748264061b937356fe090086221dcae4477b3b8fe83ae36c2a15dc9",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 32127,
+      "localSha256": "c5a1a01bf98b4c80ee3aa1e40658100b8b61e748ecc00e3164210e9f24fe4ef8",
+      "remoteSha256": "c5a1a01bf98b4c80ee3aa1e40658100b8b61e748ecc00e3164210e9f24fe4ef8",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 45896,
+      "localSha256": "0d05b28c439cef5e6a200cac0e6a6ccbf37a7a1a5602984245c75fe5a2ff406d",
+      "remoteSha256": "0d05b28c439cef5e6a200cac0e6a6ccbf37a7a1a5602984245c75fe5a2ff406d",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 24964,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-03",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-03",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract",
+      "documentTitle": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract | WE Marketing",
+      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么",
+      "documentTitle": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么 | WE Marketing",
+      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract",
+      "documentTitle": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract | WE Marketing",
+      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么",
+      "documentTitle": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么 | WE Marketing",
+      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku",
+          "text": "Sep 30, 2026\nSHOP OPERATIONS\nAI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU\n\nA SKU-level audit for AI product images: identity, scale, count, attributes and effects.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+          "text": "2026 年 9 月 30 日\n店铺运营\nTikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU\n\nAI 商品图如何逐项核对 SKU 身份、比例、数量、属性和效果。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=f8a48b9b3e82",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
