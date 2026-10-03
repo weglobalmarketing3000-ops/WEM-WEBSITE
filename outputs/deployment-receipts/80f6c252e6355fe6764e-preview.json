@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-03-q4-05-q4-06-regression-repair",
+  "patchFingerprint": "80f6c252e6355fe6764e46a507b5749b6beb304e4408846b9b5ce4af79670197",
+  "pid": 3658,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/80f6c252e6355fe6764e-preview.log",
+  "url": "https://wem-website-72dge6ctn-wem1.vercel.app",
+  "deploymentId": "dpl_CCos1Z1h6aCLyVGfcFhfJiHzHmYU",
+  "exitCode": 0,
+  "updatedAt": "2026-10-03T13:47:35Z"
+}

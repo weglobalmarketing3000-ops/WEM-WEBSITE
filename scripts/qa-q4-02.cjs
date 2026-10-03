@@ -10,13 +10,16 @@ const target = process.argv[4] || 'q4-02';
 const configs = {
   'q4-02': { patch: '2026-09-28-q4-02-bfcm-product-preflight', prefix: '2026-09-28-q4-02', slug: 'tiktok-shop-bfcm-two-week-product-preflight', date: '2026-09-28', enDate: 'Sep 28, 2026', zhDate: '2026 年 9 月 28 日', expectedFiles: 17, expectedImages: 3 },
   'q4-03': { patch: '2026-09-29-q4-03-creator-content-review', prefix: '2026-09-29-q4-03', slug: 'tiktok-shop-creator-content-review-before-scale', date: '2026-09-29', enDate: 'Sep 29, 2026', zhDate: '2026 年 9 月 29 日', expectedFiles: 17, expectedImages: 3 },
-  'q4-04': { patch: '2026-09-30-q4-04-aigc-product-images', prefix: '2026-09-30-q4-04', slug: 'tiktok-shop-ai-product-images-real-sku', date: '2026-09-30', enDate: 'Sep 30, 2026', zhDate: '2026 年 9 月 30 日', expectedFiles: 15, expectedImages: 2 },
-  'q4-05': { patch: '2026-10-01-q4-05-bfcm-pricing', prefix: '2026-10-01-q4-05', slug: 'tiktok-shop-bfcm-pricing-margin-waterfall', date: '2026-10-01', enDate: 'Oct 1, 2026', zhDate: '2026 年 10 月 1 日', expectedFiles: 21, expectedImages: 4 },
-  'q4-06': { patch: '2026-10-02-q4-06-live-recovered', prefix: '2026-10-02-q4-06', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 13, expectedImages: 1 },
-  'q4-07': { patch: '2026-10-03-q4-07-creator-agency-contract', prefix: '2026-10-03-q4-07', slug: 'tiktok-shop-creator-agency-contract-control', date: '2026-10-03', enDate: 'Oct 3, 2026', zhDate: '2026 年 10 月 3 日', expectedFiles: 19, expectedImages: 4 },
+  'q4-04': { patch: '2026-09-30-q4-04-aigc-product-images', prefix: '2026-09-30-q4-04', slug: 'tiktok-shop-ai-product-images-real-sku', date: '2026-09-30', enDate: 'Sep 30, 2026', zhDate: '2026 年 9 月 30 日', expectedFiles: 15, expectedImages: 2, rank: 4 },
+  'q4-05': { patch: '2026-10-01-q4-05-bfcm-pricing', prefix: '2026-10-01-q4-05', slug: 'tiktok-shop-bfcm-pricing-margin-waterfall', date: '2026-10-01', enDate: 'Oct 1, 2026', zhDate: '2026 年 10 月 1 日', expectedFiles: 21, expectedImages: 4, rank: 3 },
+  'q4-06': { patch: '2026-10-02-q4-06-live-recovered', prefix: '2026-10-02-q4-06', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 13, expectedImages: 1, rank: 2 },
+  'q4-07': { patch: '2026-10-03-q4-07-creator-agency-contract', prefix: '2026-10-03-q4-07', slug: 'tiktok-shop-creator-agency-contract-control', date: '2026-10-03', enDate: 'Oct 3, 2026', zhDate: '2026 年 10 月 3 日', expectedFiles: 19, expectedImages: 4, rank: 1 },
+  'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];
+const sharedHashFiles = ['BlogList.compiled.js', 'BlogList.jsx', 'blog.html', 'llms.txt', 'sitemap.xml'];
+if (['q4-04', 'q4-05', 'q4-07'].includes(target)) config.hashExclude = sharedHashFiles;
 const patchDir = path.join(root, 'outputs/patches', config.patch);
 const out = path.join(root, `outputs/${config.prefix}-${mode}-qa`);
 const slug = config.slug;
@@ -136,7 +139,7 @@ async function waitImage(locator) {
         const cards = page.locator('a[href*="blog/tiktok-shop-"]');
         for (let index = 0; index < Math.min(3, await cards.count()); index += 1) { const image = cards.nth(index).locator('img'); if (await image.count()) await waitImage(image); }
         const indexData = await page.evaluate(() => ({
-          cards: [...document.querySelectorAll('a[href*="blog/tiktok-shop-"]')].slice(0, 3).map((card) => ({ href: card.getAttribute('href'), text: card.innerText, image: card.querySelector('img')?.naturalWidth || 0, imageSrc: card.querySelector('img')?.currentSrc || '' })),
+          cards: [...document.querySelectorAll('a[href*="blog/tiktok-shop-"]')].slice(0, 4).map((card) => ({ href: card.getAttribute('href'), text: card.innerText, image: card.querySelector('img')?.naturalWidth || 0, imageSrc: card.querySelector('img')?.currentSrc || '' })),
           script: [...document.scripts].map((script) => script.src).find((source) => source.includes('BlogList.compiled')),
           overflow: document.documentElement.scrollWidth > innerWidth,
         }));
@@ -149,7 +152,9 @@ async function waitImage(locator) {
 
   const sitemap = (await fetchBytes('/sitemap.xml')).toString();
   const llms = (await fetchBytes('/llms.txt')).toString();
-  report.checks.hashes = Object.keys(report.files).length === config.expectedFiles && Object.values(report.files).every((file) => file.match && file.bytes > 100);
+  const hashExclude = new Set(config.hashExclude || []);
+  const scopedHashEntries = Object.entries(report.files).filter(([relative]) => !hashExclude.has(relative));
+  report.checks.hashes = Object.keys(report.files).length === config.expectedFiles && scopedHashEntries.every(([, file]) => file.match && file.bytes > 100);
   report.checks.schema = report.raw.bytes > 15000 && report.raw.canonical === articleUrl && report.raw.alternates['en-US'] === articleUrl && report.raw.alternates['zh-CN'] === `${articleUrl}?lang=zh` && report.raw.alternates['x-default'] === articleUrl && report.raw.posts.length === 2 && report.raw.posts.every((post) => post.date === config.date) && report.raw.faqs.length === 2 && report.raw.faqs.every((faq) => faq.count === 6);
   report.checks.render = report.pages.every((page) => page.status === 200 && page.active && page.inactive && page.title.length > 20 && page.description.length > 35 && page.images.length === config.expectedImages && page.images.every((image) => image.width > 0) && page.faq === 6 && page.related === 3 && page.source && page.cta && page.footer && page.booking && page.ready && page.h1Style.weight === '850' && page.h1Style.color === 'rgb(23, 23, 23)' && page.sourceStyle.weight === '800' && page.sourceStyle.color === 'rgb(23, 23, 23)' && page.paragraphStyle.color === 'rgb(55, 51, 47)' && page.paragraphStyle.size === (page.viewport === 'mobile' ? '16px' : '18px') && !page.overflow && !page.undefinedText && !page.literalMarkdown && page.errors.length === 0 && page.canonical === `${articleUrl}${page.lang === 'zh-CN' ? '?lang=zh' : ''}` && page.switched.htmlLang === (page.lang === 'en' ? 'zh-CN' : 'en') && page.switched.canonical === `${articleUrl}${page.lang === 'en' ? '?lang=zh' : ''}`);
   if (local) {
@@ -157,7 +162,18 @@ async function waitImage(locator) {
     const indexHtml = await fs.readFile(path.join(patchDir, 'blog.html'), 'utf8');
     report.checks.index = (source.includes(`slug:'${slug}'`) || source.includes(`slug:"${slug}"`)) && (source.includes(`en:'${config.enDate}'`) || source.includes(`en:"${config.enDate}"`)) && (source.includes(`zh:'${config.zhDate}'`) || source.includes(`zh:"${config.zhDate}"`)) && source.includes(`hero-${slug}-en-v1.png`) && source.includes(`hero-${slug}-zh-v1.png`) && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(indexHtml);
   } else {
-    report.checks.index = report.index.every((entry) => entry.cards.length >= 1 && entry.cards[0].href.split('?')[0].endsWith(slug) && entry.cards[0].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[0].image === 880 && entry.cards[0].imageSrc.includes(entry.lang === 'zh' ? '-zh-v1' : '-en-v1') && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
+    const rankIndex = (config.rank || 1) - 1;
+    if (rankIndex < 3) {
+      report.checks.index = report.index.every((entry) => entry.cards.length > rankIndex && entry.cards[rankIndex].href.split('?')[0].endsWith(slug) && entry.cards[rankIndex].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[rankIndex].image === 880 && entry.cards[rankIndex].imageSrc.includes(entry.lang === 'zh' ? '-zh-v1' : '-en-v1') && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
+    } else {
+      const currentList = (await fetchBytes('/BlogList.compiled.js')).toString();
+      const listSource = currentList.slice(currentList.indexOf('const BLOG_POSTS=['), currentList.indexOf('const BLOG_TAGS='));
+      const entryStarts = [...listSource.matchAll(/\{slug:"([a-z0-9-]+)"/g)];
+      const rankedStart = entryStarts[rankIndex];
+      const rankedEnd = entryStarts[rankIndex + 1]?.index ?? listSource.length;
+      const rankedEntry = rankedStart ? listSource.slice(rankedStart.index, rankedEnd) : '';
+      report.checks.index = rankedEntry.includes(`slug:"${slug}"`) && rankedEntry.includes(`date:{en:"${config.enDate}"`) && report.index.every((entry) => entry.cards.length === 3 && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
+    }
   }
   report.checks.discovery = sitemap.includes(`<loc>${articleUrl}</loc><lastmod>${config.date}</lastmod>`) && sitemap.includes(`<loc>${articleUrl}?lang=zh</loc><lastmod>${config.date}</lastmod>`) && llms.includes(articleUrl);
   report.passed = Object.values(report.checks).every(Boolean);

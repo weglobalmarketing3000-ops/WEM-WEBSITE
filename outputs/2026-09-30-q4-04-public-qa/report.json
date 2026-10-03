@@ -5,13 +5,13 @@
   "files": {
     "BlogList.compiled.js": {
       "bytes": 145647,
-      "localSha256": "f8a48b9b3e82d0ad667e48d7c597a2542bdfbd807e57fa8d83688010723cd201",
+      "localSha256": "1fd6ea808057279b0d35ff19ffc15d1bdac5d76eac4532492e8a0e02b57de9e4",
       "remoteSha256": "6f1b47bde8e0f9a4be25d124937679bf9d75249d6ea03fff010a2d3bc384e9ee",
       "match": false
     },
     "BlogList.jsx": {
       "bytes": 128427,
-      "localSha256": "ce79845174fef7d87b997d0c2a9b05f94c3da7cc1f55556fece377c263f96c8d",
+      "localSha256": "d88e4ef1d56088f3376608be01b31cada0a7b7792e1d7bcabb5412a5b88aac15",
       "remoteSha256": "256bb84efd18ceff86194ecf8eacb3a9ce780de55314e48634c99faed8df98af",
       "match": false
     },
@@ -23,121 +23,97 @@
     },
     "blog.html": {
       "bytes": 11078,
-      "localSha256": "f31b887963e0721906243a4c586c138df72cd0bd98eb04b2a9baffbb72a77375",
+      "localSha256": "b73fcf05c2c23a1e2c68c9842491f96329d9e57522bdb8734d4dff18633199d6",
       "remoteSha256": "e959b4b3f2be0a8c00237502d89cf8df42302b3c65e5608fdf1a78b239032afd",
       "match": false
     },
-    "blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png": {
-      "bytes": 130794,
-      "localSha256": "aab41662c1f2958d07cb93f0793e9c9ae348346bc4f2e0fb94eb03212771f48b",
-      "remoteSha256": "aab41662c1f2958d07cb93f0793e9c9ae348346bc4f2e0fb94eb03212771f48b",
+    "blog/hero-tiktok-shop-ai-product-images-real-sku-en-v1.png": {
+      "bytes": 134690,
+      "localSha256": "fed484706bc69c1d36077c706a4479b49696148e522bf6f6decbc7bb743a91f5",
+      "remoteSha256": "fed484706bc69c1d36077c706a4479b49696148e522bf6f6decbc7bb743a91f5",
       "match": true
     },
-    "blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png": {
-      "bytes": 123569,
-      "localSha256": "f8024543513605929d0010f7873189b56e117db565eda2f7c702e47f34588651",
-      "remoteSha256": "f8024543513605929d0010f7873189b56e117db565eda2f7c702e47f34588651",
+    "blog/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.png": {
+      "bytes": 135932,
+      "localSha256": "7c7abbbe35ad0c00298f7f38604bae9484c49ff775812e442acf3b58f233f222",
+      "remoteSha256": "7c7abbbe35ad0c00298f7f38604bae9484c49ff775812e442acf3b58f233f222",
       "match": true
     },
-    "blog/optimized/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg": {
-      "bytes": 73875,
-      "localSha256": "05cb85fbef7998692360be3a492399c45423175f1c23823084d63d9ff26a8d7c",
-      "remoteSha256": "05cb85fbef7998692360be3a492399c45423175f1c23823084d63d9ff26a8d7c",
+    "blog/optimized/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg": {
+      "bytes": 74267,
+      "localSha256": "2103f33993c78c735b5af7d89737d35a6cd9c1f249ebc48b32ff40a1164b01c8",
+      "remoteSha256": "2103f33993c78c735b5af7d89737d35a6cd9c1f249ebc48b32ff40a1164b01c8",
       "match": true
     },
-    "blog/optimized/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg": {
-      "bytes": 69863,
-      "localSha256": "9afaa949db612882d8457272a908b969b2f0e18d9c83751df962a8f3a6244271",
-      "remoteSha256": "9afaa949db612882d8457272a908b969b2f0e18d9c83751df962a8f3a6244271",
+    "blog/optimized/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg": {
+      "bytes": 76853,
+      "localSha256": "4d26098eeaaadee568008efdcad34ac0ff0a908377d612202df13eeea97cf311",
+      "remoteSha256": "4d26098eeaaadee568008efdcad34ac0ff0a908377d612202df13eeea97cf311",
       "match": true
     },
-    "blog/q4-07-contract-control/matrix-en-v1.png": {
-      "bytes": 54810,
-      "localSha256": "1dc671e6bfea86d1b4f28d46d9e5b3f0662cb539018654b65b516e247fc250d6",
-      "remoteSha256": "1dc671e6bfea86d1b4f28d46d9e5b3f0662cb539018654b65b516e247fc250d6",
+    "blog/q4-04-aigc-product-images/sku-audit-en-v1.png": {
+      "bytes": 59359,
+      "localSha256": "101a4862e92c4dcf063d505d07239f834108e67c9a7ff61d8484d01b4a9aac17",
+      "remoteSha256": "101a4862e92c4dcf063d505d07239f834108e67c9a7ff61d8484d01b4a9aac17",
       "match": true
     },
-    "blog/q4-07-contract-control/matrix-zh-v1.png": {
-      "bytes": 49472,
-      "localSha256": "43d6fc70cee82971126d6a4b238ba8d47848b3ed9740b7d39d6b1a6034bb761e",
-      "remoteSha256": "43d6fc70cee82971126d6a4b238ba8d47848b3ed9740b7d39d6b1a6034bb761e",
+    "blog/q4-04-aigc-product-images/sku-audit-zh-v1.png": {
+      "bytes": 53359,
+      "localSha256": "770d83d6ff279fe6d02616251fbeac9366ff6e18c350e862fb8d379c626bfe09",
+      "remoteSha256": "770d83d6ff279fe6d02616251fbeac9366ff6e18c350e862fb8d379c626bfe09",
       "match": true
     },
-    "blog/q4-07-contract-control/owners-en-v1.png": {
-      "bytes": 48590,
-      "localSha256": "2943cb4235539f9d12ef7fd97ccbcb3bd1fab37a3d861aacd988d3256c5807c4",
-      "remoteSha256": "2943cb4235539f9d12ef7fd97ccbcb3bd1fab37a3d861aacd988d3256c5807c4",
+    "blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-en-v1.jpg": {
+      "bytes": 32274,
+      "localSha256": "7af61e5c3d8350faecb693ff5ae3feb3837f278e113bc3dfb056fe8db54e0e21",
+      "remoteSha256": "7af61e5c3d8350faecb693ff5ae3feb3837f278e113bc3dfb056fe8db54e0e21",
       "match": true
     },
-    "blog/q4-07-contract-control/owners-zh-v1.png": {
-      "bytes": 44741,
-      "localSha256": "ad012c4ac070a037a116514a105160e817c60f30764c90fb0ca82f48f1268370",
-      "remoteSha256": "ad012c4ac070a037a116514a105160e817c60f30764c90fb0ca82f48f1268370",
+    "blog/thumbs/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.jpg": {
+      "bytes": 33321,
+      "localSha256": "919114677bcd05c194419da1831fc61722a6dd7ca137704f98df88d1a3d37b5b",
+      "remoteSha256": "919114677bcd05c194419da1831fc61722a6dd7ca137704f98df88d1a3d37b5b",
       "match": true
     },
-    "blog/q4-07-contract-control/release-en-v1.png": {
-      "bytes": 51846,
-      "localSha256": "abdef75dd361225fa54d515f14757332fdfa23bf40d6c2d08084779822f77739",
-      "remoteSha256": "abdef75dd361225fa54d515f14757332fdfa23bf40d6c2d08084779822f77739",
-      "match": true
-    },
-    "blog/q4-07-contract-control/release-zh-v1.png": {
-      "bytes": 49773,
-      "localSha256": "024cee555ee6572c61d09452c6f72bdf865897c193978186870d53d66a091e26",
-      "remoteSha256": "024cee555ee6572c61d09452c6f72bdf865897c193978186870d53d66a091e26",
-      "match": true
-    },
-    "blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg": {
-      "bytes": 32557,
-      "localSha256": "5853d6c4154c23a9dc0bc89d43e6d7a104a876a8e397469279ed59a1d3e5a100",
-      "remoteSha256": "5853d6c4154c23a9dc0bc89d43e6d7a104a876a8e397469279ed59a1d3e5a100",
-      "match": true
-    },
-    "blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg": {
-      "bytes": 30425,
-      "localSha256": "7adb95142901b3e69ff47442be946c1217c89be3469c6593e2d9d5241669b0c0",
-      "remoteSha256": "7adb95142901b3e69ff47442be946c1217c89be3469c6593e2d9d5241669b0c0",
-      "match": true
-    },
-    "blog/tiktok-shop-creator-agency-contract-control.html": {
-      "bytes": 30181,
-      "localSha256": "acef1a15e748264061b937356fe090086221dcae4477b3b8fe83ae36c2a15dc9",
-      "remoteSha256": "acef1a15e748264061b937356fe090086221dcae4477b3b8fe83ae36c2a15dc9",
+    "blog/tiktok-shop-ai-product-images-real-sku.html": {
+      "bytes": 23573,
+      "localSha256": "18f088bd5aaa7538358b2b272c696a161ba0bbbff36ae13c3a6abd25c9bf5e6a",
+      "remoteSha256": "18f088bd5aaa7538358b2b272c696a161ba0bbbff36ae13c3a6abd25c9bf5e6a",
       "match": true
     },
     "llms.txt": {
       "bytes": 32404,
-      "localSha256": "c5a1a01bf98b4c80ee3aa1e40658100b8b61e748ecc00e3164210e9f24fe4ef8",
+      "localSha256": "6932e9d89d2b9796611424aaa81f11e03b8585a38494aa6c8a8231cacdc79a60",
       "remoteSha256": "c8f89f09760f19a5dece74c57e25c41f876b0aa8b4a22b3578d43ca363f55abb",
       "match": false
     },
     "sitemap.xml": {
       "bytes": 46166,
-      "localSha256": "0d05b28c439cef5e6a200cac0e6a6ccbf37a7a1a5602984245c75fe5a2ff406d",
+      "localSha256": "a3ff4ca4004f785d665433cfe0e61456a0ebea2d24dcfacce75623ed85ed52e6",
       "remoteSha256": "45f2d776906101b274f9f5010ac46521bbdd2c8cc72992949b487bc861b7fc30",
       "match": false
     }
   },
   "raw": {
-    "bytes": 24964,
-    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+    "bytes": 19908,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
     "alternates": {
-      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku"
     },
     "posts": [
       {
         "language": "en-US",
-        "date": "2026-10-03",
-        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+        "date": "2026-09-30",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
+        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-ai-product-images-real-sku-en-v1.png"
       },
       {
         "language": "zh-CN",
-        "date": "2026-10-03",
-        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+        "date": "2026-09-30",
+        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.png"
       }
     ],
     "faqs": [
@@ -157,9 +133,9 @@
       "lang": "en",
       "status": 200,
       "htmlLang": "en",
-      "title": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract",
-      "documentTitle": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "AI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU",
+      "documentTitle": "AI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -183,22 +159,12 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-ai-product-images-real-sku-en-v1.png"
         },
         {
           "width": 1600,
           "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-en-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-en-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-en-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/q4-04-aigc-product-images/sku-audit-en-v1.png"
         }
       ],
       "faq": 6,
@@ -211,11 +177,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
       "switched": {
         "htmlLang": "zh-CN",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh"
       },
       "errors": []
     },
@@ -224,9 +190,9 @@
       "lang": "zh-CN",
       "status": 200,
       "htmlLang": "zh-CN",
-      "title": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么",
-      "documentTitle": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么 | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "TikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU",
+      "documentTitle": "TikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -250,22 +216,12 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.png"
         },
         {
           "width": 1600,
           "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-zh-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-zh-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-zh-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/q4-04-aigc-product-images/sku-audit-zh-v1.png"
         }
       ],
       "faq": 6,
@@ -278,11 +234,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
       "switched": {
         "htmlLang": "en",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku"
       },
       "errors": []
     },
@@ -291,9 +247,9 @@
       "lang": "en",
       "status": 200,
       "htmlLang": "en",
-      "title": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract",
-      "documentTitle": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "AI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU",
+      "documentTitle": "AI Product Images on TikTok Shop: Keep Every Visual Tied to the Real SKU | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -317,22 +273,12 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-ai-product-images-real-sku-en-v1.png"
         },
         {
           "width": 1600,
           "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-en-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-en-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-en-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/q4-04-aigc-product-images/sku-audit-en-v1.png"
         }
       ],
       "faq": 6,
@@ -345,11 +291,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
       "switched": {
         "htmlLang": "zh-CN",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh"
       },
       "errors": []
     },
@@ -358,9 +304,9 @@
       "lang": "zh-CN",
       "status": 200,
       "htmlLang": "zh-CN",
-      "title": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么",
-      "documentTitle": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么 | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "TikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU",
+      "documentTitle": "TikTok Shop AI 商品图怎么用：每一张图都要回到真实 SKU | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -384,22 +330,12 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-ai-product-images-real-sku-zh-v1.png"
         },
         {
           "width": 1600,
           "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-zh-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-zh-v1.png"
-        },
-        {
-          "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-zh-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/q4-04-aigc-product-images/sku-audit-zh-v1.png"
         }
       ],
       "faq": 6,
@@ -412,11 +348,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku?lang=zh",
       "switched": {
         "htmlLang": "en",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-ai-product-images-real-sku"
       },
       "errors": []
     }

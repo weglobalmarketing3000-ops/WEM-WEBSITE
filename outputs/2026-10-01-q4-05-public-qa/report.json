@@ -5,13 +5,13 @@
   "files": {
     "BlogList.compiled.js": {
       "bytes": 145647,
-      "localSha256": "f8a48b9b3e82d0ad667e48d7c597a2542bdfbd807e57fa8d83688010723cd201",
+      "localSha256": "e71c9740dc0537205c46dd5f0c9af879ff2025408b1255edc9eca287f682faa7",
       "remoteSha256": "6f1b47bde8e0f9a4be25d124937679bf9d75249d6ea03fff010a2d3bc384e9ee",
       "match": false
     },
     "BlogList.jsx": {
       "bytes": 128427,
-      "localSha256": "ce79845174fef7d87b997d0c2a9b05f94c3da7cc1f55556fece377c263f96c8d",
+      "localSha256": "005041ea02ae439f16bb39f6e55f6539ca45a0add21c621e3c3dbae6a16829f7",
       "remoteSha256": "256bb84efd18ceff86194ecf8eacb3a9ce780de55314e48634c99faed8df98af",
       "match": false
     },
@@ -23,121 +23,151 @@
     },
     "blog.html": {
       "bytes": 11078,
-      "localSha256": "f31b887963e0721906243a4c586c138df72cd0bd98eb04b2a9baffbb72a77375",
+      "localSha256": "4bcdd995bfd5e382c44d444f21dfcad718f65eb9fd6c5f62046a849d19ff8650",
       "remoteSha256": "e959b4b3f2be0a8c00237502d89cf8df42302b3c65e5608fdf1a78b239032afd",
       "match": false
     },
-    "blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png": {
-      "bytes": 130794,
-      "localSha256": "aab41662c1f2958d07cb93f0793e9c9ae348346bc4f2e0fb94eb03212771f48b",
-      "remoteSha256": "aab41662c1f2958d07cb93f0793e9c9ae348346bc4f2e0fb94eb03212771f48b",
+    "blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-en-v1.png": {
+      "bytes": 126541,
+      "localSha256": "9193d472a55a008412f8d48518aadeb253a6e288b5f660aba76f49bfc3910c35",
+      "remoteSha256": "9193d472a55a008412f8d48518aadeb253a6e288b5f660aba76f49bfc3910c35",
       "match": true
     },
-    "blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png": {
-      "bytes": 123569,
-      "localSha256": "f8024543513605929d0010f7873189b56e117db565eda2f7c702e47f34588651",
-      "remoteSha256": "f8024543513605929d0010f7873189b56e117db565eda2f7c702e47f34588651",
+    "blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-zh-v1.png": {
+      "bytes": 131287,
+      "localSha256": "fdbc21d28accd769b08359a002e9b27a7924f0e5e3ebd7766fc5a33bcca3cb13",
+      "remoteSha256": "fdbc21d28accd769b08359a002e9b27a7924f0e5e3ebd7766fc5a33bcca3cb13",
       "match": true
     },
-    "blog/optimized/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg": {
-      "bytes": 73875,
-      "localSha256": "05cb85fbef7998692360be3a492399c45423175f1c23823084d63d9ff26a8d7c",
-      "remoteSha256": "05cb85fbef7998692360be3a492399c45423175f1c23823084d63d9ff26a8d7c",
+    "blog/optimized/hero-tiktok-shop-bfcm-pricing-margin-waterfall-en-v1.jpg": {
+      "bytes": 70265,
+      "localSha256": "eff20bb386198b7c3cfcabf79f8190793741eafdf28d682ddf3f52ebf383f258",
+      "remoteSha256": "eff20bb386198b7c3cfcabf79f8190793741eafdf28d682ddf3f52ebf383f258",
       "match": true
     },
-    "blog/optimized/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg": {
-      "bytes": 69863,
-      "localSha256": "9afaa949db612882d8457272a908b969b2f0e18d9c83751df962a8f3a6244271",
-      "remoteSha256": "9afaa949db612882d8457272a908b969b2f0e18d9c83751df962a8f3a6244271",
+    "blog/optimized/hero-tiktok-shop-bfcm-pricing-margin-waterfall-zh-v1.jpg": {
+      "bytes": 71300,
+      "localSha256": "cf925903556130beae6db4eece4a3470bfc8abaee289a6e92a622bc235a1e7cd",
+      "remoteSha256": "cf925903556130beae6db4eece4a3470bfc8abaee289a6e92a622bc235a1e7cd",
       "match": true
     },
-    "blog/q4-07-contract-control/matrix-en-v1.png": {
-      "bytes": 54810,
-      "localSha256": "1dc671e6bfea86d1b4f28d46d9e5b3f0662cb539018654b65b516e247fc250d6",
-      "remoteSha256": "1dc671e6bfea86d1b4f28d46d9e5b3f0662cb539018654b65b516e247fc250d6",
+    "blog/q4-05-bfcm-pricing-waterfall-en-v1.png": {
+      "bytes": 58492,
+      "localSha256": "ec1aa29adec8cbce46558652b38463b935b6d7d0d80a25b1ed5a84d49417d7da",
+      "remoteSha256": "ec1aa29adec8cbce46558652b38463b935b6d7d0d80a25b1ed5a84d49417d7da",
       "match": true
     },
-    "blog/q4-07-contract-control/matrix-zh-v1.png": {
-      "bytes": 49472,
-      "localSha256": "43d6fc70cee82971126d6a4b238ba8d47848b3ed9740b7d39d6b1a6034bb761e",
-      "remoteSha256": "43d6fc70cee82971126d6a4b238ba8d47848b3ed9740b7d39d6b1a6034bb761e",
+    "blog/q4-05-bfcm-pricing-waterfall-zh-v1.png": {
+      "bytes": 56370,
+      "localSha256": "a5c4f8cef6f2fed9a6ee84c4f2f982b8fa277b3157dcca95c470f30351ce98cb",
+      "remoteSha256": "a5c4f8cef6f2fed9a6ee84c4f2f982b8fa277b3157dcca95c470f30351ce98cb",
       "match": true
     },
-    "blog/q4-07-contract-control/owners-en-v1.png": {
-      "bytes": 48590,
-      "localSha256": "2943cb4235539f9d12ef7fd97ccbcb3bd1fab37a3d861aacd988d3256c5807c4",
-      "remoteSha256": "2943cb4235539f9d12ef7fd97ccbcb3bd1fab37a3d861aacd988d3256c5807c4",
+    "blog/thumbs/hero-tiktok-shop-bfcm-pricing-margin-waterfall-en-v1.jpg": {
+      "bytes": 28776,
+      "localSha256": "f7f0193ee38859b7f3d42894c4a9cbde087708754144ce3160a138ee0cf76b00",
+      "remoteSha256": "f7f0193ee38859b7f3d42894c4a9cbde087708754144ce3160a138ee0cf76b00",
       "match": true
     },
-    "blog/q4-07-contract-control/owners-zh-v1.png": {
-      "bytes": 44741,
-      "localSha256": "ad012c4ac070a037a116514a105160e817c60f30764c90fb0ca82f48f1268370",
-      "remoteSha256": "ad012c4ac070a037a116514a105160e817c60f30764c90fb0ca82f48f1268370",
+    "blog/thumbs/hero-tiktok-shop-bfcm-pricing-margin-waterfall-zh-v1.jpg": {
+      "bytes": 29988,
+      "localSha256": "268195410903b6bfd894668c6b4a3499287019b7a66396e92e0fa5208d1ab30c",
+      "remoteSha256": "268195410903b6bfd894668c6b4a3499287019b7a66396e92e0fa5208d1ab30c",
       "match": true
     },
-    "blog/q4-07-contract-control/release-en-v1.png": {
-      "bytes": 51846,
-      "localSha256": "abdef75dd361225fa54d515f14757332fdfa23bf40d6c2d08084779822f77739",
-      "remoteSha256": "abdef75dd361225fa54d515f14757332fdfa23bf40d6c2d08084779822f77739",
+    "blog/tiktok-shop-bfcm-pricing-margin-waterfall.html": {
+      "bytes": 53750,
+      "localSha256": "d95f13768da511b9fcee3ebe93752f2894d4ded7519baa3fbad9ba105b65fe86",
+      "remoteSha256": "d95f13768da511b9fcee3ebe93752f2894d4ded7519baa3fbad9ba105b65fe86",
       "match": true
     },
-    "blog/q4-07-contract-control/release-zh-v1.png": {
-      "bytes": 49773,
-      "localSha256": "024cee555ee6572c61d09452c6f72bdf865897c193978186870d53d66a091e26",
-      "remoteSha256": "024cee555ee6572c61d09452c6f72bdf865897c193978186870d53d66a091e26",
+    "blog/tiktok-shop-discount-layer-jobs-zh.svg": {
+      "bytes": 4065,
+      "localSha256": "4396342ad0667a0f69f4dc2c76763999384e933f382dc0896e8a43467af9fc44",
+      "remoteSha256": "4396342ad0667a0f69f4dc2c76763999384e933f382dc0896e8a43467af9fc44",
       "match": true
     },
-    "blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg": {
-      "bytes": 32557,
-      "localSha256": "5853d6c4154c23a9dc0bc89d43e6d7a104a876a8e397469279ed59a1d3e5a100",
-      "remoteSha256": "5853d6c4154c23a9dc0bc89d43e6d7a104a876a8e397469279ed59a1d3e5a100",
+    "blog/tiktok-shop-discount-layer-jobs.svg": {
+      "bytes": 4020,
+      "localSha256": "3f7498986cd05f4a400f0dcf9bb8c937dc7ad2b7befc3bb0d2c15dbcb5f919a8",
+      "remoteSha256": "3f7498986cd05f4a400f0dcf9bb8c937dc7ad2b7befc3bb0d2c15dbcb5f919a8",
       "match": true
     },
-    "blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg": {
-      "bytes": 30425,
-      "localSha256": "7adb95142901b3e69ff47442be946c1217c89be3469c6593e2d9d5241669b0c0",
-      "remoteSha256": "7adb95142901b3e69ff47442be946c1217c89be3469c6593e2d9d5241669b0c0",
+    "blog/tiktok-shop-promotion-ledger-zh.svg": {
+      "bytes": 4128,
+      "localSha256": "418bfa1ac8c9a3ab5746002d38adda5431cc21731be20112dec7fb9ddfdafd52",
+      "remoteSha256": "418bfa1ac8c9a3ab5746002d38adda5431cc21731be20112dec7fb9ddfdafd52",
       "match": true
     },
-    "blog/tiktok-shop-creator-agency-contract-control.html": {
-      "bytes": 30181,
-      "localSha256": "acef1a15e748264061b937356fe090086221dcae4477b3b8fe83ae36c2a15dc9",
-      "remoteSha256": "acef1a15e748264061b937356fe090086221dcae4477b3b8fe83ae36c2a15dc9",
+    "blog/tiktok-shop-promotion-ledger.svg": {
+      "bytes": 4113,
+      "localSha256": "2152238559189830fb848cb1d60b8e7b6c02c33541375a1b5926d0b418abd6b6",
+      "remoteSha256": "2152238559189830fb848cb1d60b8e7b6c02c33541375a1b5926d0b418abd6b6",
+      "match": true
+    },
+    "blog/tiktok-shop-promotion-release-gate-zh.svg": {
+      "bytes": 4801,
+      "localSha256": "91a23e16750192ac6fd0d2d3a5e3fdac762ae726e50eacef8999288599da5ef3",
+      "remoteSha256": "91a23e16750192ac6fd0d2d3a5e3fdac762ae726e50eacef8999288599da5ef3",
+      "match": true
+    },
+    "blog/tiktok-shop-promotion-release-gate.svg": {
+      "bytes": 4821,
+      "localSha256": "5ee74fb0e84947af00915b6eb799f7f8649f2156e13b585de63fe87468840568",
+      "remoteSha256": "5ee74fb0e84947af00915b6eb799f7f8649f2156e13b585de63fe87468840568",
       "match": true
     },
     "llms.txt": {
       "bytes": 32404,
-      "localSha256": "c5a1a01bf98b4c80ee3aa1e40658100b8b61e748ecc00e3164210e9f24fe4ef8",
+      "localSha256": "597d0186234e89ab8771e17b02b6e1e42556861de81168f35d471879de66908c",
       "remoteSha256": "c8f89f09760f19a5dece74c57e25c41f876b0aa8b4a22b3578d43ca363f55abb",
       "match": false
     },
     "sitemap.xml": {
       "bytes": 46166,
-      "localSha256": "0d05b28c439cef5e6a200cac0e6a6ccbf37a7a1a5602984245c75fe5a2ff406d",
+      "localSha256": "31cc37959175657bfc9e4dd871075cc6be646f7be95d14c8a73a86f7e587409c",
       "remoteSha256": "45f2d776906101b274f9f5010ac46521bbdd2c8cc72992949b487bc861b7fc30",
       "match": false
     }
   },
   "raw": {
-    "bytes": 24964,
-    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+    "bytes": 45141,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall",
     "alternates": {
-      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall"
     },
     "posts": [
       {
         "language": "en-US",
-        "date": "2026-10-03",
-        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+        "date": "2026-10-01",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-v1.png",
+          "width": 1672,
+          "height": 941,
+          "caption": "WE Marketing TikTok Shop Discount Architecture"
+        }
       },
       {
         "language": "zh-CN",
-        "date": "2026-10-03",
-        "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-        "image": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+        "date": "2026-10-01",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-v1.png",
+          "width": 1672,
+          "height": 941,
+          "caption": "WE Marketing TikTok Shop 折扣架构"
+        }
       }
     ],
     "faqs": [
@@ -157,9 +187,9 @@
       "lang": "en",
       "status": 200,
       "htmlLang": "en",
-      "title": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract",
-      "documentTitle": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "TikTok Shop BFCM Pricing: Protect Margin When Campaign Prices and Promotions Do Not Stack",
+      "documentTitle": "TikTok Shop BFCM Pricing: Protect Margin When Campaign Prices and Promotions Do Not Stack | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -183,22 +213,22 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-en-v1.png"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-en-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-discount-layer-jobs.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-en-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-ledger.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-en-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-release-gate.svg"
         }
       ],
       "faq": 6,
@@ -211,11 +241,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall",
       "switched": {
         "htmlLang": "zh-CN",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh"
       },
       "errors": []
     },
@@ -224,9 +254,9 @@
       "lang": "zh-CN",
       "status": 200,
       "htmlLang": "zh-CN",
-      "title": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么",
-      "documentTitle": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么 | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "TikTok Shop BFCM 定价：活动价不叠加时，怎么守住毛利",
+      "documentTitle": "TikTok Shop BFCM 定价：活动价不叠加时，怎么守住毛利 | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -250,22 +280,22 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-zh-v1.png"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-zh-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-discount-layer-jobs-zh.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-zh-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-ledger-zh.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-zh-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-release-gate-zh.svg"
         }
       ],
       "faq": 6,
@@ -278,11 +308,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh",
       "switched": {
         "htmlLang": "en",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall"
       },
       "errors": []
     },
@@ -291,9 +321,9 @@
       "lang": "en",
       "status": 200,
       "htmlLang": "en",
-      "title": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract",
-      "documentTitle": "TikTok Shop Does Not Become a Party to Your Creator or Agency Contract | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "TikTok Shop BFCM Pricing: Protect Margin When Campaign Prices and Promotions Do Not Stack",
+      "documentTitle": "TikTok Shop BFCM Pricing: Protect Margin When Campaign Prices and Promotions Do Not Stack | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -317,22 +347,22 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-en-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-en-v1.png"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-en-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-discount-layer-jobs.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-en-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-ledger.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-en-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-release-gate.svg"
         }
       ],
       "faq": 6,
@@ -345,11 +375,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall",
       "switched": {
         "htmlLang": "zh-CN",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh"
       },
       "errors": []
     },
@@ -358,9 +388,9 @@
       "lang": "zh-CN",
       "status": 200,
       "htmlLang": "zh-CN",
-      "title": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么",
-      "documentTitle": "TikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么 | WE Marketing",
-      "description": "A commercial operating-control checklist for TikTok Shop creator and agency contracts.",
+      "title": "TikTok Shop BFCM 定价：活动价不叠加时，怎么守住毛利",
+      "documentTitle": "TikTok Shop BFCM 定价：活动价不叠加时，怎么守住毛利 | WE Marketing",
+      "description": "A SKU-level audit for TikTok Shop AI product images.",
       "active": true,
       "inactive": true,
       "h1Style": {
@@ -384,22 +414,22 @@
         {
           "width": 1792,
           "height": 896,
-          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-creator-agency-contract-control-zh-v1.png"
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-pricing-margin-waterfall-zh-v1.png"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/matrix-zh-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-discount-layer-jobs-zh.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/owners-zh-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-ledger-zh.svg"
         },
         {
           "width": 1600,
-          "height": 720,
-          "src": "https://www.weglobalmarketing.com/blog/q4-07-contract-control/release-zh-v1.png"
+          "height": 960,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-promotion-release-gate-zh.svg"
         }
       ],
       "faq": 6,
@@ -412,11 +442,11 @@
       "overflow": false,
       "undefinedText": false,
       "literalMarkdown": false,
-      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh",
       "switched": {
         "htmlLang": "en",
-        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control",
-        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-creator-agency-contract-control"
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-pricing-margin-waterfall"
       },
       "errors": []
     }
