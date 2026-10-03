@@ -13,6 +13,7 @@ const configs = {
   'q4-04': { patch: '2026-09-30-q4-04-aigc-product-images', prefix: '2026-09-30-q4-04', slug: 'tiktok-shop-ai-product-images-real-sku', date: '2026-09-30', enDate: 'Sep 30, 2026', zhDate: '2026 年 9 月 30 日', expectedFiles: 15, expectedImages: 2 },
   'q4-05': { patch: '2026-10-01-q4-05-bfcm-pricing', prefix: '2026-10-01-q4-05', slug: 'tiktok-shop-bfcm-pricing-margin-waterfall', date: '2026-10-01', enDate: 'Oct 1, 2026', zhDate: '2026 年 10 月 1 日', expectedFiles: 21, expectedImages: 4 },
   'q4-07': { patch: '2026-10-03-q4-07-contract-controls', prefix: '2026-10-03-q4-07', slug: 'tiktok-shop-creator-agency-contract-controls', date: '2026-10-03', enDate: 'Oct 3, 2026', zhDate: '2026 年 10 月 3 日', expectedFiles: 17, expectedImages: 3 },
+  'q4-07-recovery': { patch: '2026-10-03-q4-07-concurrent-recovery', prefix: '2026-10-03-q4-07-recovery', slug: 'tiktok-shop-creator-agency-contract-controls', date: '2026-10-03', enDate: 'Oct 3, 2026', zhDate: '2026 年 10 月 3 日', expectedFiles: 17, expectedImages: 3 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];

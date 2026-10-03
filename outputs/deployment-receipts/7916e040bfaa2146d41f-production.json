@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-03-q4-07-concurrent-recovery",
+  "patchFingerprint": "7916e040bfaa2146d41f0fdeeb6f9f342c53f9209e4866e6ac62d3fb4e58af61",
+  "pid": 82784,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/7916e040bfaa2146d41f-production.log",
+  "url": "https://wem-website-mn3yzgi3t-wem1.vercel.app",
+  "deploymentId": "dpl_C3woGaVqsKjtqGcddzyvBDiUTNTS",
+  "exitCode": 0,
+  "updatedAt": "2026-10-03T13:48:00Z"
+}
