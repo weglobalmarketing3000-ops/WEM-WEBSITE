@@ -1,0 +1,638 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 146625,
+      "localSha256": "3ca5e2e5e2e9acef4586261277e9bbd1e6089f479467d69179f3949e29930d5a",
+      "remoteSha256": "3ca5e2e5e2e9acef4586261277e9bbd1e6089f479467d69179f3949e29930d5a",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 129236,
+      "localSha256": "f99b90f7b37d2d5011b4b46567fa9f4e441e33104ee6c074c3f29bab9bceb4cd",
+      "remoteSha256": "f99b90f7b37d2d5011b4b46567fa9f4e441e33104ee6c074c3f29bab9bceb4cd",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "3bc33d8347cd336057c0a6ab1c11522580720a7208e8da8c4585e31e93e14e08",
+      "remoteSha256": "3bc33d8347cd336057c0a6ab1c11522580720a7208e8da8c4585e31e93e14e08",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.png": {
+      "bytes": 129232,
+      "localSha256": "084da891e64876c57c58467443776725a124827a6a688522e04a7381d6101320",
+      "remoteSha256": "084da891e64876c57c58467443776725a124827a6a688522e04a7381d6101320",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.png": {
+      "bytes": 119278,
+      "localSha256": "2390f39f81d4077ec60743250796c2895275ad6e5327c63325a4b80998e3771f",
+      "remoteSha256": "2390f39f81d4077ec60743250796c2895275ad6e5327c63325a4b80998e3771f",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg": {
+      "bytes": 72267,
+      "localSha256": "501493906664dffdaffd9429b89e8195626dd9b2330f53b204650a3a077856b7",
+      "remoteSha256": "501493906664dffdaffd9429b89e8195626dd9b2330f53b204650a3a077856b7",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg": {
+      "bytes": 61457,
+      "localSha256": "9bd9614059bc36f5711858bf80b68a0990df73fdd9dfadcb97dee347146cc346",
+      "remoteSha256": "9bd9614059bc36f5711858bf80b68a0990df73fdd9dfadcb97dee347146cc346",
+      "match": true
+    },
+    "blog/q4-08-inventory-en.png": {
+      "bytes": 83177,
+      "localSha256": "fbe84912b835e5c16d8416bd42ef2689e4b5c8f3b616e346b9bcea2c8f63b8c4",
+      "remoteSha256": "fbe84912b835e5c16d8416bd42ef2689e4b5c8f3b616e346b9bcea2c8f63b8c4",
+      "match": true
+    },
+    "blog/q4-08-inventory-zh.png": {
+      "bytes": 74942,
+      "localSha256": "b821d78173ff17afd700142270930a849dfa25a3f377f073ddbba45b1d271d97",
+      "remoteSha256": "b821d78173ff17afd700142270930a849dfa25a3f377f073ddbba45b1d271d97",
+      "match": true
+    },
+    "blog/q4-08-readback-en.png": {
+      "bytes": 80366,
+      "localSha256": "d1b4b427ed433839a5ab6bb3d5aeb56eac9e62ed5ed500b6699d3b32d82c01b1",
+      "remoteSha256": "d1b4b427ed433839a5ab6bb3d5aeb56eac9e62ed5ed500b6699d3b32d82c01b1",
+      "match": true
+    },
+    "blog/q4-08-readback-zh.png": {
+      "bytes": 76430,
+      "localSha256": "4b39ac603241ceed1aae690fbdc0875ebf889f467cf6f8a195e0cb92965d974c",
+      "remoteSha256": "4b39ac603241ceed1aae690fbdc0875ebf889f467cf6f8a195e0cb92965d974c",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg": {
+      "bytes": 30510,
+      "localSha256": "29704b02d68f2782bbd70eda55b0bd0362e53fb2c72076c329a11b2a20a581d5",
+      "remoteSha256": "29704b02d68f2782bbd70eda55b0bd0362e53fb2c72076c329a11b2a20a581d5",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg": {
+      "bytes": 25673,
+      "localSha256": "128cee53ab4744f01e61d19d25deeeab84e759c08889f9660050d417fc199d65",
+      "remoteSha256": "128cee53ab4744f01e61d19d25deeeab84e759c08889f9660050d417fc199d65",
+      "match": true
+    },
+    "blog/tiktok-shop-agency-app-offboarding-data-access.html": {
+      "bytes": 34167,
+      "localSha256": "e697b93243b3a5b715089e6042cbfb7605015dd3dd28e5ca06d7dbd99545407d",
+      "remoteSha256": "e697b93243b3a5b715089e6042cbfb7605015dd3dd28e5ca06d7dbd99545407d",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 32673,
+      "localSha256": "b697f34c57d1d8b39ed8ca6464422e40cdfea1d907966f5d4cf73270fc4aea45",
+      "remoteSha256": "b697f34c57d1d8b39ed8ca6464422e40cdfea1d907966f5d4cf73270fc4aea45",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 46564,
+      "localSha256": "b5b88882880539972631ccd50caddd00b24a87316e821adb13dbd93a67cdeb59",
+      "remoteSha256": "b5b88882880539972631ccd50caddd00b24a87316e821adb13dbd93a67cdeb59",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 28312,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-04",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop access offboarding system"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-04",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop 权限退出系统"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Offboard a TikTok Shop Agency or App Without Leaving Data Access Behind",
+      "documentTitle": "Offboard a TikTok Shop Agency or App Without Leaving Data Access Behind | WE Marketing",
+      "description": "A practical TikTok Shop agency and app offboarding system for access, authorization, API and data readback.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-inventory-en.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-readback-en.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来",
+      "documentTitle": "TikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来 | WE Marketing",
+      "description": "TikTok Shop Agency 与 App 退出时的权限、授权、API 与数据回读运营系统。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-inventory-zh.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-readback-zh.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Offboard a TikTok Shop Agency or App Without Leaving Data Access Behind",
+      "documentTitle": "Offboard a TikTok Shop Agency or App Without Leaving Data Access Behind | WE Marketing",
+      "description": "A practical TikTok Shop agency and app offboarding system for access, authorization, API and data readback.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-inventory-en.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-readback-en.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来",
+      "documentTitle": "TikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来 | WE Marketing",
+      "description": "TikTok Shop Agency 与 App 退出时的权限、授权、API 与数据回读运营系统。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-inventory-zh.png"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-08-readback-zh.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-agency-app-offboarding-data-access"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control",
+          "text": "Oct 3, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Does Not Become a Party to Your Creator or Agency Contract\n\nThe platform is not your contract party. Make scope, acceptance, evidence and exit explicit.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights",
+          "text": "Oct 2, 2026\nTIKTOK-SHOP\nCREATOR & AFFILIATE\nTikTok Shop Creator Commission Does Not Buy Video Usage Rights\n\nCreator commission pays for service. Define video usage rights separately before reposting or paid media.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-agency-contract-control?lang=zh",
+          "text": "2026 年 10 月 3 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 不会替你承担达人或 Agency 合同：签约前要写清什么\n\n平台不是合同方。签约前写清范围、验收、证据和退出责任。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-agency-contract-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh",
+          "text": "2026 年 10 月 2 日\nTIKTOK-SHOP\n达人与联盟\nTikTok Shop 达人佣金不等于视频使用权：品牌还要单独谈什么\n\n达人佣金是服务报酬。转载或投放前，必须把视频使用权单独写清。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-creator-commission-video-usage-rights-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=3ca5e2e5e2e9",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
