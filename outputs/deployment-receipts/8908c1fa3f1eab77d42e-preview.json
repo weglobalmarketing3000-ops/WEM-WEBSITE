@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-05-q4-09-customer-data-marketing",
+  "patchFingerprint": "8908c1fa3f1eab77d42e38202323aa7d3f3e462d8a7d403b39582170850e0df0",
+  "pid": 76465,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/8908c1fa3f1eab77d42e-preview.log",
+  "url": "https://wem-website-lp9lib0kz-wem1.vercel.app",
+  "deploymentId": "dpl_Cpn7mvtyjBfm2zkNYx1iGGYQ5e2e",
+  "exitCode": 0,
+  "updatedAt": "2026-10-05T13:11:13Z"
+}

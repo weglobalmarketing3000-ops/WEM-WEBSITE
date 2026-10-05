@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-05",
+  "slug": "tiktok-shop-customer-data-email-sms-marketing",
+  "rank": 1,
+  "checks": {
+    "blogCardRank1Slug": true,
+    "blogCardRank1VisibleEnglishDate": true,
+    "englishBlogPostingDatePublished": true,
+    "chineseBlogPostingDatePublished": true,
+    "sitemapUrlAndLastmod": true
+  },
+  "passed": true
+}

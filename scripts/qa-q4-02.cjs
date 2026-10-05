@@ -15,6 +15,7 @@ const configs = {
   'q4-06': { patch: '2026-10-02-q4-06-live-recovered', prefix: '2026-10-02-q4-06', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 13, expectedImages: 1, rank: 2 },
   'q4-07': { patch: '2026-10-03-q4-07-creator-agency-contract', prefix: '2026-10-03-q4-07', slug: 'tiktok-shop-creator-agency-contract-control', date: '2026-10-03', enDate: 'Oct 3, 2026', zhDate: '2026 年 10 月 3 日', expectedFiles: 19, expectedImages: 4, rank: 1 },
   'q4-08': { patch: '2026-10-04-q4-08-live-recovered', prefix: '2026-10-04-q4-08', slug: 'tiktok-shop-agency-app-offboarding-data-access', date: '2026-10-04', enDate: 'Oct 4, 2026', zhDate: '2026 年 10 月 4 日', expectedFiles: 16, expectedImages: 3, rank: 1 },
+  'q4-09': { patch: '2026-10-05-q4-09-customer-data-marketing', prefix: '2026-10-05-q4-09', slug: 'tiktok-shop-customer-data-email-sms-marketing', date: '2026-10-05', enDate: 'Oct 5, 2026', zhDate: '2026 年 10 月 5 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
