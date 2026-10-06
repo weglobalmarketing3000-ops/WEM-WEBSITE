@@ -1,0 +1,93 @@
+{
+  "status": "authenticated_production_readback_complete",
+  "deploymentId": "dpl_H24jZV9gnmPTYdd65vgmxJryiXhW",
+  "deploymentUrl": "https://wem-website-burmb9yt3-wem1.vercel.app",
+  "readbackAt": "2026-10-06T13:28:43.916Z",
+  "files": [
+    {
+      "path": "BlogList.compiled.js",
+      "bytes": 148669,
+      "sha256": "c6eb8b155acbac5c28d0d8adb7b4ff2385e33fa953ff3a2015bf0845aceaecb5"
+    },
+    {
+      "path": "BlogList.jsx",
+      "bytes": 130894,
+      "sha256": "da54c8f1edd9e0739f5492b7e3304e111ef74fbb1d6cd478465fc83d3253ace9"
+    },
+    {
+      "path": "assets/we-logo.png",
+      "bytes": 28617,
+      "sha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394"
+    },
+    {
+      "path": "blog.html",
+      "bytes": 11078,
+      "sha256": "2328cbb63b29fa7ca82c79dd6ef6f39984248bdaffe4c994453bd6e2c0322485"
+    },
+    {
+      "path": "blog/hero-tiktok-shop-originality-protection-image-evidence-en-v1.png",
+      "bytes": 123390,
+      "sha256": "d3596a552918d3a44c16f66a960af088a7c1f57b8dff2b019ba46747123a8975"
+    },
+    {
+      "path": "blog/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.png",
+      "bytes": 120334,
+      "sha256": "123a71e27a3b0db3a5468661344f82434ddf41a1c526ac9d513e367dfc33fd1e"
+    },
+    {
+      "path": "blog/optimized/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg",
+      "bytes": 70844,
+      "sha256": "5e6015244b60944ef42ce40e8cae491ab07f9a3b2c52291d3d30e22f60c73fa1"
+    },
+    {
+      "path": "blog/optimized/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg",
+      "bytes": 67323,
+      "sha256": "1cbad776c931ff098fa4d36dde4d4b92bad4d8c4a44850d75f73f63859f13cb9"
+    },
+    {
+      "path": "blog/q4-10-originality/controls-en-v1.png",
+      "bytes": 84329,
+      "sha256": "b4c6389411720f19d75f036c7eb16ddc9e369ac9d688eb156a4fdf9a9fd1b5a0"
+    },
+    {
+      "path": "blog/q4-10-originality/controls-zh-v1.png",
+      "bytes": 72335,
+      "sha256": "109050f300866159b5d1cac4abc75aa91f433b2fff01519654fc9745e3e6263f"
+    },
+    {
+      "path": "blog/q4-10-originality/ledger-en-v1.png",
+      "bytes": 56318,
+      "sha256": "c64a51945d3e5537ac93aacfabdbde8f852215df3e91105a951962d4bdc5710d"
+    },
+    {
+      "path": "blog/q4-10-originality/ledger-zh-v1.png",
+      "bytes": 54320,
+      "sha256": "f2732025683b0d8a114fda43b9ba9a6add68479cc045e48fe6105dd3954f0823"
+    },
+    {
+      "path": "blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg",
+      "bytes": 31152,
+      "sha256": "6931a7d24c30c11f084c510188ce1a8aba312fb4a903985acf45690c3b6cfdda"
+    },
+    {
+      "path": "blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg",
+      "bytes": 28046,
+      "sha256": "38328406f3c07301d7feb1ef3000436628b40e2b9ec0538772d25fe1a990b210"
+    },
+    {
+      "path": "blog/tiktok-shop-originality-protection-image-evidence.html",
+      "bytes": 40791,
+      "sha256": "0cc849251f33454cf52534cccabc117d29dc170dc4e673b79557967630436243"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 33221,
+      "sha256": "b4676d2069a902d7b2d13b93a822be62296cff23fb247d16a67e9e04cef47b08"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 47128,
+      "sha256": "611377cfa953babbf7ca60bb69d5c563f4d3b633fb6038adb6b5614220740699"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "status": "authenticated_production_readback_complete",
+  "reconciledAt": "2026-10-06T13:06:46.455Z",
+  "deploymentId": "dpl_DiR51UZFbMpmJhzd8xQtkMfLA6q9",
+  "deploymentUrl": "https://wem-website-j2wb7dwkc-wem1.vercel.app",
+  "publicAliases": [
+    "https://www.weglobalmarketing.com",
+    "https://weglobalmarketing.com"
+  ],
+  "historicalPreviewReceiptRecovered": false,
+  "statement": "The original protected preview receipt was not present locally and was not recreated. These 17 files were read back from the authenticated READY production deployment and used as the exact-byte reference for anonymous public QA.",
+  "files": [
+    {
+      "path": "BlogList.compiled.js",
+      "bytes": 147635,
+      "sha256": "b4f4906e3c6ae2684f755476ae0afe6b7802975fcdeb51475d8efb59859d6efc"
+    },
+    {
+      "path": "BlogList.jsx",
+      "bytes": 130050,
+      "sha256": "936cef2fedbd19d2449388235fe40a0645166e6af5c0e83647eb4edcd1f502ac"
+    },
+    {
+      "path": "assets/we-logo.png",
+      "bytes": 28617,
+      "sha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394"
+    },
+    {
+      "path": "blog.html",
+      "bytes": 11078,
+      "sha256": "b3e90b3394ce99f241a5844d9f08a2fa1ed97df69dc8108eaec4560eccf827f5"
+    },
+    {
+      "path": "blog/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.png",
+      "bytes": 128238,
+      "sha256": "2adefa527eede2fe36375e0b83ab1a053f58b195fe2a45cab7d60fb1fb3dd9a7"
+    },
+    {
+      "path": "blog/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.png",
+      "bytes": 120673,
+      "sha256": "08f458a374df03b7cd1ad7cadef459db4df8bd3007ce9c8d0138beaad93ff81d"
+    },
+    {
+      "path": "blog/optimized/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg",
+      "bytes": 77321,
+      "sha256": "53c3b8574cda92bf55c4fde8afa304a69c758f2f9045bf7cfc796e95768a0c97"
+    },
+    {
+      "path": "blog/optimized/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg",
+      "bytes": 71179,
+      "sha256": "6e6ebba62c12ded1335a3e9c7ce9a8d83ba6243dcbc1daaf961436e7c4a3eed6"
+    },
+    {
+      "path": "blog/q4-09-data-marketing/decision-en-v1.png",
+      "bytes": 55703,
+      "sha256": "b68a3fa2e25eb40a759d59fc84eb0344f4a333d3839cc56203b034deac4c554e"
+    },
+    {
+      "path": "blog/q4-09-data-marketing/decision-zh-v1.png",
+      "bytes": 51154,
+      "sha256": "d65a622bf7d9f48fd8ef5ff64b67da9103f7077cbf56b7529d7822d3df50a75e"
+    },
+    {
+      "path": "blog/q4-09-data-marketing/lanes-en-v1.png",
+      "bytes": 75377,
+      "sha256": "d62719eaa015831a76627b1422323f1df710febaafc5f0827cf89674ee9bf3ac"
+    },
+    {
+      "path": "blog/q4-09-data-marketing/lanes-zh-v1.png",
+      "bytes": 66064,
+      "sha256": "8c4ee09b433123912e45baa9959754b0301d33d6c0bb9dda11fe2994fd087957"
+    },
+    {
+      "path": "blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg",
+      "bytes": 33406,
+      "sha256": "908a05af610bb55a74e3a10e429ea09de9f107c4085e9e2d54fb7c37b040d98c"
+    },
+    {
+      "path": "blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg",
+      "bytes": 29452,
+      "sha256": "c25858cab259e48e87c661e6551ad31862f21a56d668bb2e911031cc3de048b4"
+    },
+    {
+      "path": "blog/tiktok-shop-customer-data-email-sms-marketing.html",
+      "bytes": 40390,
+      "sha256": "3b12474b8ef812c9e109c86dcd986fa5cf9370de73edde7830da57c8b6a892ac"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 32934,
+      "sha256": "a8f06d35de575477b772b795fc130c25fa72907be21d1b7f2c88a0ab9cbf5638"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 46842,
+      "sha256": "ca844ed5d90833cd575a5a5dfaccf2f82a2e4886dfa4115f89c753c10e47aeca"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 148669,
+      "localSha256": "c6eb8b155acbac5c28d0d8adb7b4ff2385e33fa953ff3a2015bf0845aceaecb5",
+      "remoteSha256": "c6eb8b155acbac5c28d0d8adb7b4ff2385e33fa953ff3a2015bf0845aceaecb5",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 130894,
+      "localSha256": "da54c8f1edd9e0739f5492b7e3304e111ef74fbb1d6cd478465fc83d3253ace9",
+      "remoteSha256": "da54c8f1edd9e0739f5492b7e3304e111ef74fbb1d6cd478465fc83d3253ace9",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "2328cbb63b29fa7ca82c79dd6ef6f39984248bdaffe4c994453bd6e2c0322485",
+      "remoteSha256": "2328cbb63b29fa7ca82c79dd6ef6f39984248bdaffe4c994453bd6e2c0322485",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-originality-protection-image-evidence-en-v1.png": {
+      "bytes": 123390,
+      "localSha256": "d3596a552918d3a44c16f66a960af088a7c1f57b8dff2b019ba46747123a8975",
+      "remoteSha256": "d3596a552918d3a44c16f66a960af088a7c1f57b8dff2b019ba46747123a8975",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.png": {
+      "bytes": 120334,
+      "localSha256": "123a71e27a3b0db3a5468661344f82434ddf41a1c526ac9d513e367dfc33fd1e",
+      "remoteSha256": "123a71e27a3b0db3a5468661344f82434ddf41a1c526ac9d513e367dfc33fd1e",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg": {
+      "bytes": 70844,
+      "localSha256": "5e6015244b60944ef42ce40e8cae491ab07f9a3b2c52291d3d30e22f60c73fa1",
+      "remoteSha256": "5e6015244b60944ef42ce40e8cae491ab07f9a3b2c52291d3d30e22f60c73fa1",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg": {
+      "bytes": 67323,
+      "localSha256": "1cbad776c931ff098fa4d36dde4d4b92bad4d8c4a44850d75f73f63859f13cb9",
+      "remoteSha256": "1cbad776c931ff098fa4d36dde4d4b92bad4d8c4a44850d75f73f63859f13cb9",
+      "match": true
+    },
+    "blog/q4-10-originality/controls-en-v1.png": {
+      "bytes": 84329,
+      "localSha256": "b4c6389411720f19d75f036c7eb16ddc9e369ac9d688eb156a4fdf9a9fd1b5a0",
+      "remoteSha256": "b4c6389411720f19d75f036c7eb16ddc9e369ac9d688eb156a4fdf9a9fd1b5a0",
+      "match": true
+    },
+    "blog/q4-10-originality/controls-zh-v1.png": {
+      "bytes": 72335,
+      "localSha256": "109050f300866159b5d1cac4abc75aa91f433b2fff01519654fc9745e3e6263f",
+      "remoteSha256": "109050f300866159b5d1cac4abc75aa91f433b2fff01519654fc9745e3e6263f",
+      "match": true
+    },
+    "blog/q4-10-originality/ledger-en-v1.png": {
+      "bytes": 56318,
+      "localSha256": "c64a51945d3e5537ac93aacfabdbde8f852215df3e91105a951962d4bdc5710d",
+      "remoteSha256": "c64a51945d3e5537ac93aacfabdbde8f852215df3e91105a951962d4bdc5710d",
+      "match": true
+    },
+    "blog/q4-10-originality/ledger-zh-v1.png": {
+      "bytes": 54320,
+      "localSha256": "f2732025683b0d8a114fda43b9ba9a6add68479cc045e48fe6105dd3954f0823",
+      "remoteSha256": "f2732025683b0d8a114fda43b9ba9a6add68479cc045e48fe6105dd3954f0823",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg": {
+      "bytes": 31152,
+      "localSha256": "6931a7d24c30c11f084c510188ce1a8aba312fb4a903985acf45690c3b6cfdda",
+      "remoteSha256": "6931a7d24c30c11f084c510188ce1a8aba312fb4a903985acf45690c3b6cfdda",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg": {
+      "bytes": 28046,
+      "localSha256": "38328406f3c07301d7feb1ef3000436628b40e2b9ec0538772d25fe1a990b210",
+      "remoteSha256": "38328406f3c07301d7feb1ef3000436628b40e2b9ec0538772d25fe1a990b210",
+      "match": true
+    },
+    "blog/tiktok-shop-originality-protection-image-evidence.html": {
+      "bytes": 40791,
+      "localSha256": "0cc849251f33454cf52534cccabc117d29dc170dc4e673b79557967630436243",
+      "remoteSha256": "0cc849251f33454cf52534cccabc117d29dc170dc4e673b79557967630436243",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 33221,
+      "localSha256": "b4676d2069a902d7b2d13b93a822be62296cff23fb247d16a67e9e04cef47b08",
+      "remoteSha256": "b4676d2069a902d7b2d13b93a822be62296cff23fb247d16a67e9e04cef47b08",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 47128,
+      "localSha256": "611377cfa953babbf7ca60bb69d5c563f4d3b633fb6038adb6b5614220740699",
+      "remoteSha256": "611377cfa953babbf7ca60bb69d5c563f4d3b633fb6038adb6b5614220740699",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 33224,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-06",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-originality-protection-image-evidence-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop originality protection evidence system"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-06",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop 原创图片证据系统"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear",
+      "documentTitle": "TikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear | WE Marketing",
+      "description": "Build a provenance ledger and evidence packet for TikTok Shop Originality Protection before image copying creates a dispute.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-originality-protection-image-evidence-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/ledger-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/controls-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 原创保护：被抄图之前，先把图片证据链建好",
+      "documentTitle": "TikTok Shop 原创保护：被抄图之前，先把图片证据链建好 | WE Marketing",
+      "description": "在图片被抄之前，为 TikTok Shop 原创保护建立来源台账、权利链和证据包。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/ledger-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/controls-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear",
+      "documentTitle": "TikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear | WE Marketing",
+      "description": "Build a provenance ledger and evidence packet for TikTok Shop Originality Protection before image copying creates a dispute.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-originality-protection-image-evidence-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/ledger-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/controls-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 原创保护：被抄图之前，先把图片证据链建好",
+      "documentTitle": "TikTok Shop 原创保护：被抄图之前，先把图片证据链建好 | WE Marketing",
+      "description": "在图片被抄之前，为 TikTok Shop 原创保护建立来源台账、权利链和证据包。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 720,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/ledger-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-10-originality/controls-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-originality-protection-image-evidence"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access",
+          "text": "Oct 4, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nOffboard a TikTok Shop Agency or App Without Leaving Data Access Behind\n\nEnd an agency or app relationship with an inventory, revocation and independent access readback.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-agency-app-offboarding-data-access?lang=zh",
+          "text": "2026 年 10 月 4 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Agency 或 App 停止合作后，数据权限怎么真正收回来\n\n用盘点、撤销和独立回读，真正结束 Agency 或 App 的数据权限。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-agency-app-offboarding-data-access-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=c6eb8b155acb",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

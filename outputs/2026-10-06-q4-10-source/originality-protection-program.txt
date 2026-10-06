@@ -1,0 +1,68 @@
+
+
+Originality Protection Program
+This article explains how the Originality Protection (OP) program safeguards your original product images on TikTok Shop, who can join, how many images are protected, and what happens when another seller uses a protected image. It is intended for sellers who create their own product photography and want to protect it as an original image asset.
+Key Points
+Originality Protection treats eligible applicants' original product images as protected assets.
+The program delivers three capabilities: New Product Image Auto-Verification and Registration, Proactive Push + Quick Removal (Risk Alert), and Listing Admission Interception.
+Participation depends on eligibility. Once enrolled, protection is applied when listing products — there are no manual registration steps.
+Only main product images that are first published on TikTok Shop meet clarity requirements are eligible. Originality Protection lasts for one year.
+Sellers who use a protected image without authorization may have their listing blocked before publication or recalled after publication, and will receive a violation notice.
+What Is Originality Protection (OP)
+OP is a TikTok Shop program for eligible sellers that protects the original product images you create as protected assets. Product photography is often the first thing a buyer sees, and copied images can divert sales and dilute your brand. Traditionally, protecting an image requires establishing your ownership of a valid copyright, and/or, when applicable, registering a trademark and then policing the marketplace for violators yourself. Originality Protection removes that burden.
+When you list products, the platform automatically verifies which of your main product images are first published on TikTok Shop, registers the qualifying images as protected assets in your Intellectual Property Protection Center (IPPC) account, and then monitors the marketplace on your behalf. If another seller tries to reuse one of your protected images, their listings will either be blocked or you can take action with a single click.
+Core Capabilities
+OP combines three capabilities that work together across the product lifecycle.
+1. New Product Image Auto-Verification and Registration
+When listing a new product, the platform automatically checks your main product images to confirm they are first-published on TikTok Shop. Images that meet OP criteria are automatically protected and registered as protected assets in your IPPC account, filed under the corresponding product ID. You do not need to upload images separately or submit any paperwork. Verification and registration happen automatically in the background as part of the normal listing process.
+2. Proactive Push + Quick Removal (Risk Alert)
+For listings that are already published, products that are detected as reusing your protected images will be automatically detected by the platform. When there is a suspected match, you will receive an IPPC Risk Alert in your IPPC account identifying the flagged listing. After reviewing, if confirmed that the image used was done so without proper authorization, you can click to remove the image directly. This feature will be available shortly.
+3. Listing Admission Interception
+Once an image is protected, the platform helps to compare images submitted by other sellers during their listing process. If another seller attempts to publish a listing using images detected as protected images without authorization, that listing is intercepted and blocked from going live.
+Who Is Eligible
+OP is currently available on an eligibility-basis. Eligibility criteria are set out below:
+Selected sellers are enrolled automatically and do not need to apply.
+Other sellers can be nominated for the program by their TikTok Shop account manager.
+All participating sellers must have an Intellectual Property Protection Center (IPPC) account:
+Protected images are registered within IPPC. Risk Alerts notifications and filing of complaints are all managed within IPPC account.
+Note: If you are not currently enrolled and would like to participate, contact your TikTok Shop account manager to discuss eligibility.
+How It Works
+Once you are enrolled, the program runs automatically:
+When listing your product in Seller Center, the platform automatically verifies your main product images.
+Verified images are automatically protected and registered as protected assets in your IPPC account.
+You will receive a weekly summary email in Seller Center reporting which of your images were added to the protected bank.
+If another seller reuses a protected image, the platform blocks their listing at the point of their application.
+You can use the image assets to file original image complaints in IPPC. Once complaints are approved, you can also receive a Risk Alert about a published listing and have the choice to remove the violating image upon click.
+Originality Protection Image Eligibility Criteria
+Not every image uploaded will be protected. Only images that meet all of the following criteria are automatically protected and registered as protected assets.
+
+What Happens to Sellers Who Use Protected Images
+If a seller lists a product using an image protected under this program without authorization, the platform takes one of two actions depending on when the reuse is detected:
+Blocked at admission: If the reuse is detected while the seller is listing the product, the listing is intercepted and cannot be published.
+Recalled after publication: If the reuse is detected after the listing is already live, the listing is recalled and removed from the marketplace.
+In the second case, the seller receives a violation notice explaining the reason for the enforcement action.
+A seller who believes the enforcement was issued in error, or who has a legitimate basis to use the image, can submit an appeal for a recalled listing through Seller Center.
+How to appeal
+Open the violation notice in Seller Center and click Appeal.
+Choose the appeal reason that fits your situation.
+Write a short explanation and upload your supporting documents.
+Check your information one more time, then submit.
+Which reason should I choose?
+Pick the reason that matches why you should be allowed to use the image. Here is what each one means in plain language.
+I own or have authorization to use the images.
+The image is yours: you took the photo or made the design yourself, your business owns it, or a contractor or agency created it and transferred the copyright to you in a written agreement.
+Choose this if… the image belongs to you or your business, or it was created on your behalf.
+What to upload: proof that the image belongs to you or that you are allowed to use it, such as ownership proof, a licensing agreement, or your service or contractor agreement.
+I have written authorization from the rights holder to use the image for commercial sales.
+Someone else owns the image, and they gave you written authorization to use it when selling products.
+Choose this if… you are using another person's or company's image with their written authorization.
+What to upload: the written authorization or license. It should clearly show who gives authorization, who receives it (this must match your seller account), what it permits, that it covers the United States, and how long it lasts.
+Tips
+Make sure every document is clear and readable, with no cut-off or blurry text.
+The name on the authorization must match your shop's account information.
+The authorization must cover the United States and still be within its valid dates.
+Double-check that you selected the reason that truly fits before you submit.
+Important Note:
+Failed image verification does not affect your listing. If one of your images does not qualify for OP, your product is still listed and sold normally. Verification only determines whether an image is added to the protected bank — it never blocks your own listing.
+Image verification decisions are not appealable. If an image is not protected or registered as a protected asset (for example, because it is not first-published or does not meet clarity requirements), that decision cannot be appealed. This is separate from the appeal available to sellers whose listings are recalled for using someone else's protected image.
+Frequently Asked Questions
