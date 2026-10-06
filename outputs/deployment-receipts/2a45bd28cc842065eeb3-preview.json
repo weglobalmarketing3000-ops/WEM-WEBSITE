@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-06-q4-10-originality-protection",
+  "patchFingerprint": "2a45bd28cc842065eeb3436c760be1fbe1153b605414e2fa9c5e463b173d336a",
+  "pid": 20465,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/2a45bd28cc842065eeb3-preview.log",
+  "url": "https://wem-website-hyz4ynn87-wem1.vercel.app",
+  "deploymentId": "dpl_H84eRGDvd6m7wBKFYuhaWYVLKQeU",
+  "exitCode": 0,
+  "updatedAt": "2026-10-06T13:12:07Z"
+}

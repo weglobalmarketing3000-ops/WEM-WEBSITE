@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-06",
+  "slug": "tiktok-shop-originality-protection-image-evidence",
+  "rank": 1,
+  "checks": {
+    "blogCardRank1Slug": true,
+    "blogCardRank1VisibleEnglishDate": true,
+    "englishBlogPostingDatePublished": true,
+    "chineseBlogPostingDatePublished": true,
+    "sitemapUrlAndLastmod": true
+  },
+  "passed": true
+}
