@@ -1,0 +1,644 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 149715,
+      "localSha256": "5a3ca93f42fef2bb5c559d845526d23efbd23e2f3c960c70c105a886780e739a",
+      "remoteSha256": "5a3ca93f42fef2bb5c559d845526d23efbd23e2f3c960c70c105a886780e739a",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 131744,
+      "localSha256": "71d8e88097b7d2a202c15b725feaae18c676a01a5bfa4fca615b0158db789cba",
+      "remoteSha256": "71d8e88097b7d2a202c15b725feaae18c676a01a5bfa4fca615b0158db789cba",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "17195b6657eed3b27396ecb6223e71b09dc9671fb5cc2a85f1ec87cd22e95956",
+      "remoteSha256": "17195b6657eed3b27396ecb6223e71b09dc9671fb5cc2a85f1ec87cd22e95956",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.png": {
+      "bytes": 131892,
+      "localSha256": "e2a65d54e138a79a2af35c0465a297bb4648df909195b15c503a0a62f9618d60",
+      "remoteSha256": "e2a65d54e138a79a2af35c0465a297bb4648df909195b15c503a0a62f9618d60",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.png": {
+      "bytes": 128436,
+      "localSha256": "cbea1534279a2fa129cfb82b1715a9e49791c218a4df39a17f240686af81aa51",
+      "remoteSha256": "cbea1534279a2fa129cfb82b1715a9e49791c218a4df39a17f240686af81aa51",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg": {
+      "bytes": 72172,
+      "localSha256": "df12a0c3800f81cfb961a2a41c2ca7446a872b139a7a1fd3fbadaaf43dd8ad88",
+      "remoteSha256": "df12a0c3800f81cfb961a2a41c2ca7446a872b139a7a1fd3fbadaaf43dd8ad88",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg": {
+      "bytes": 69934,
+      "localSha256": "49d423b9a2c858c62b7d804547534351762e401eb6757591bbda38bf1508be3f",
+      "remoteSha256": "49d423b9a2c858c62b7d804547534351762e401eb6757591bbda38bf1508be3f",
+      "match": true
+    },
+    "blog/q4-11-authorization/matrix-en-v1.png": {
+      "bytes": 58766,
+      "localSha256": "58cec4fa3c009c6b2d9ee953c7e472b6a5512005e2328d20d0b760e19e53bcf9",
+      "remoteSha256": "58cec4fa3c009c6b2d9ee953c7e472b6a5512005e2328d20d0b760e19e53bcf9",
+      "match": true
+    },
+    "blog/q4-11-authorization/matrix-zh-v1.png": {
+      "bytes": 49791,
+      "localSha256": "2d9d6d8423acbd0f0cae91fd4aec74992bc78f095778fdbea26e0812b72a7724",
+      "remoteSha256": "2d9d6d8423acbd0f0cae91fd4aec74992bc78f095778fdbea26e0812b72a7724",
+      "match": true
+    },
+    "blog/q4-11-authorization/tree-en-v1.png": {
+      "bytes": 89868,
+      "localSha256": "fcc178e57d69e4c783ede4554e2631e5a20bdc6a827fd63717c857615ed99041",
+      "remoteSha256": "fcc178e57d69e4c783ede4554e2631e5a20bdc6a827fd63717c857615ed99041",
+      "match": true
+    },
+    "blog/q4-11-authorization/tree-zh-v1.png": {
+      "bytes": 76593,
+      "localSha256": "56c729d7777bcf64150cbef12dc94ca268dc7b53cca177fbdecab711d333adbc",
+      "remoteSha256": "56c729d7777bcf64150cbef12dc94ca268dc7b53cca177fbdecab711d333adbc",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg": {
+      "bytes": 30755,
+      "localSha256": "c7d6bdf97cc80ea3eba1954e6de16163550d7c101ee6376b54747d48f2289ed4",
+      "remoteSha256": "c7d6bdf97cc80ea3eba1954e6de16163550d7c101ee6376b54747d48f2289ed4",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg": {
+      "bytes": 29159,
+      "localSha256": "1dd92e45f319148de72c77272aa85719b65df3799c776ba5ae5ee70c2f87c2f6",
+      "remoteSha256": "1dd92e45f319148de72c77272aa85719b65df3799c776ba5ae5ee70c2f87c2f6",
+      "match": true
+    },
+    "blog/tiktok-shop-brand-cobranded-originality-protection-decision.html": {
+      "bytes": 44403,
+      "localSha256": "b52f83c0c9ae79e250307115aea0285cbc261e70038618bb90455c5ee6cbb52a",
+      "remoteSha256": "b52f83c0c9ae79e250307115aea0285cbc261e70038618bb90455c5ee6cbb52a",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 33522,
+      "localSha256": "9d888dafeba229a9ca4353ff2f42547594d23747155de511c0bc7a0a34285332",
+      "remoteSha256": "9d888dafeba229a9ca4353ff2f42547594d23747155de511c0bc7a0a34285332",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 47434,
+      "localSha256": "c38c17d46eff2559c5432d5991bc3feb6173adac32a8d5696b87bb5cea5a544a",
+      "remoteSha256": "c38c17d46eff2559c5432d5991bc3feb6173adac32a8d5696b87bb5cea5a544a",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 36742,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-07",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop brand rights decision system"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-07",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop 品牌权利决策系统"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Brand Authorization, Cobranded Authorization or Image Originality Protection?",
+      "documentTitle": "Brand Authorization, Cobranded Authorization or Image Originality Protection? | WE Marketing",
+      "description": "Choose the correct TikTok Shop rights route for a brand, a cobranded product, or original product images without confusing permission with protection.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/tree-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/matrix-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选",
+      "documentTitle": "品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选 | WE Marketing",
+      "description": "用一套决策树区分 TikTok Shop 品牌授权、联名授权和原创图片保护，不再把销售许可与图片保护混为一谈。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/tree-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/matrix-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Brand Authorization, Cobranded Authorization or Image Originality Protection?",
+      "documentTitle": "Brand Authorization, Cobranded Authorization or Image Originality Protection? | WE Marketing",
+      "description": "Choose the correct TikTok Shop rights route for a brand, a cobranded product, or original product images without confusing permission with protection.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/tree-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/matrix-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选",
+      "documentTitle": "品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选 | WE Marketing",
+      "description": "用一套决策树区分 TikTok Shop 品牌授权、联名授权和原创图片保护，不再把销售许可与图片保护混为一谈。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/tree-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-11-authorization/matrix-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-brand-cobranded-originality-protection-decision"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing",
+          "text": "Oct 5, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCan TikTok Shop Customer Data Be Used for Email or SMS Marketing?\n\nA purchase is not blanket marketing consent. Gate email and SMS use by source, purpose, consent and evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-customer-data-email-sms-marketing?lang=zh",
+          "text": "2026 年 10 月 5 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 客户数据能不能拿去做邮件或短信营销？\n\n购买不等于营销同意。按来源、用途、同意与证据判断邮件和短信用途。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-customer-data-email-sms-marketing-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5a3ca93f42fe",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

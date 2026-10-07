@@ -1,0 +1,37 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-07",
+  "sources": {
+    "brand": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=2419888845686570&lang=en",
+      "httpStatus": 200,
+      "bytes": 225364,
+      "sha256": "89fddfe68db83aa0bc996b5588efd7be63e29988c7ad4f435a3982f171c8d898"
+    },
+    "cobranded": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5038197223900942&lang=en",
+      "httpStatus": 200,
+      "bytes": 169902,
+      "sha256": "ba50aec9ccc930b09378918a422e473676967b01bffc8ecafd8bbbf6d971d1f5"
+    },
+    "policy": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837901778306818&lang=en",
+      "httpStatus": 200,
+      "bytes": 271097,
+      "sha256": "365d3b0393a8971e51b8ae1e500043f831de9872b59f9a8d5ef46b8a7b7cc0ce"
+    },
+    "originality": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5459556890052373&lang=en",
+      "httpStatus": 200,
+      "bytes": 149313,
+      "sha256": "775d8a74dd880dbb568c5f340cd6d85a29e3b3ef8f349a3c54a37819108aed92"
+    }
+  },
+  "facts": [
+    "Brand Authorization proves the seller route for a specific brand and is separate from image-level Originality Protection.",
+    "Cobranded Authorization requires a complete license agreement identifying licensor, licensee, licensed IP, term and product category.",
+    "A reseller of cobranded products must obtain and submit the cobranding licensing agreement.",
+    "Image use rights remain separate from product and brand authorization; unauthorized protected imagery may be blocked or recalled.",
+    "Originality Protection is eligibility-based and applies to qualifying main product images; Risk Alert is described as available shortly."
+  ]
+}

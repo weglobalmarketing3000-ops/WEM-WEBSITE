@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-07-q4-11-authorization-decision",
+  "patchFingerprint": "801572f91787b9934addfc498ef8117316b02f9b9c1e70cd0c9778ea8f78a104",
+  "pid": 65289,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/801572f91787b9934add-preview.log",
+  "url": "https://wem-website-e2ahfsoj4-wem1.vercel.app",
+  "deploymentId": "dpl_BtH1ZCMFT5rLDb5zgGdiQcG3txP8",
+  "exitCode": 0,
+  "updatedAt": "2026-10-07T13:12:53Z"
+}

@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_BtH1ZCMFT5rLDb5zgGdiQcG3txP8",
+  "url": "https://wem-website-e2ahfsoj4-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 149715,
+      "localSha256": "5a3ca93f42fef2bb5c559d845526d23efbd23e2f3c960c70c105a886780e739a",
+      "remoteSha256": "5a3ca93f42fef2bb5c559d845526d23efbd23e2f3c960c70c105a886780e739a",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 131744,
+      "localSha256": "71d8e88097b7d2a202c15b725feaae18c676a01a5bfa4fca615b0158db789cba",
+      "remoteSha256": "71d8e88097b7d2a202c15b725feaae18c676a01a5bfa4fca615b0158db789cba",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "17195b6657eed3b27396ecb6223e71b09dc9671fb5cc2a85f1ec87cd22e95956",
+      "remoteSha256": "17195b6657eed3b27396ecb6223e71b09dc9671fb5cc2a85f1ec87cd22e95956",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.png",
+      "bytes": 131892,
+      "localSha256": "e2a65d54e138a79a2af35c0465a297bb4648df909195b15c503a0a62f9618d60",
+      "remoteSha256": "e2a65d54e138a79a2af35c0465a297bb4648df909195b15c503a0a62f9618d60",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.png",
+      "bytes": 128436,
+      "localSha256": "cbea1534279a2fa129cfb82b1715a9e49791c218a4df39a17f240686af81aa51",
+      "remoteSha256": "cbea1534279a2fa129cfb82b1715a9e49791c218a4df39a17f240686af81aa51",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg",
+      "bytes": 72172,
+      "localSha256": "df12a0c3800f81cfb961a2a41c2ca7446a872b139a7a1fd3fbadaaf43dd8ad88",
+      "remoteSha256": "df12a0c3800f81cfb961a2a41c2ca7446a872b139a7a1fd3fbadaaf43dd8ad88",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg",
+      "bytes": 69934,
+      "localSha256": "49d423b9a2c858c62b7d804547534351762e401eb6757591bbda38bf1508be3f",
+      "remoteSha256": "49d423b9a2c858c62b7d804547534351762e401eb6757591bbda38bf1508be3f",
+      "match": true
+    },
+    "blog/q4-11-authorization/matrix-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-11-authorization/matrix-en-v1.png",
+      "bytes": 58766,
+      "localSha256": "58cec4fa3c009c6b2d9ee953c7e472b6a5512005e2328d20d0b760e19e53bcf9",
+      "remoteSha256": "58cec4fa3c009c6b2d9ee953c7e472b6a5512005e2328d20d0b760e19e53bcf9",
+      "match": true
+    },
+    "blog/q4-11-authorization/matrix-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-11-authorization/matrix-zh-v1.png",
+      "bytes": 49791,
+      "localSha256": "2d9d6d8423acbd0f0cae91fd4aec74992bc78f095778fdbea26e0812b72a7724",
+      "remoteSha256": "2d9d6d8423acbd0f0cae91fd4aec74992bc78f095778fdbea26e0812b72a7724",
+      "match": true
+    },
+    "blog/q4-11-authorization/tree-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-11-authorization/tree-en-v1.png",
+      "bytes": 89868,
+      "localSha256": "fcc178e57d69e4c783ede4554e2631e5a20bdc6a827fd63717c857615ed99041",
+      "remoteSha256": "fcc178e57d69e4c783ede4554e2631e5a20bdc6a827fd63717c857615ed99041",
+      "match": true
+    },
+    "blog/q4-11-authorization/tree-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-11-authorization/tree-zh-v1.png",
+      "bytes": 76593,
+      "localSha256": "56c729d7777bcf64150cbef12dc94ca268dc7b53cca177fbdecab711d333adbc",
+      "remoteSha256": "56c729d7777bcf64150cbef12dc94ca268dc7b53cca177fbdecab711d333adbc",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg",
+      "bytes": 30755,
+      "localSha256": "c7d6bdf97cc80ea3eba1954e6de16163550d7c101ee6376b54747d48f2289ed4",
+      "remoteSha256": "c7d6bdf97cc80ea3eba1954e6de16163550d7c101ee6376b54747d48f2289ed4",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg",
+      "bytes": 29159,
+      "localSha256": "1dd92e45f319148de72c77272aa85719b65df3799c776ba5ae5ee70c2f87c2f6",
+      "remoteSha256": "1dd92e45f319148de72c77272aa85719b65df3799c776ba5ae5ee70c2f87c2f6",
+      "match": true
+    },
+    "blog/tiktok-shop-brand-cobranded-originality-protection-decision.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-brand-cobranded-originality-protection-decision.html",
+      "bytes": 44403,
+      "localSha256": "b52f83c0c9ae79e250307115aea0285cbc261e70038618bb90455c5ee6cbb52a",
+      "remoteSha256": "b52f83c0c9ae79e250307115aea0285cbc261e70038618bb90455c5ee6cbb52a",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 33522,
+      "localSha256": "9d888dafeba229a9ca4353ff2f42547594d23747155de511c0bc7a0a34285332",
+      "remoteSha256": "9d888dafeba229a9ca4353ff2f42547594d23747155de511c0bc7a0a34285332",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 47434,
+      "localSha256": "c38c17d46eff2559c5432d5991bc3feb6173adac32a8d5696b87bb5cea5a544a",
+      "remoteSha256": "c38c17d46eff2559c5432d5991bc3feb6173adac32a8d5696b87bb5cea5a544a",
+      "match": true
+    }
+  },
+  "passed": true
+}

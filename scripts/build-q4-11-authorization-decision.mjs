@@ -1,0 +1,195 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import vm from 'node:vm';
+import {createRequire} from 'node:module';
+
+const require=createRequire(import.meta.url);
+const sharp=require('/Users/wendylin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const root=path.resolve(import.meta.dirname,'..');
+const base=path.join(root,'outputs/patches/2026-10-06-q4-10-originality-protection');
+const out=path.join(root,'outputs/patches/2026-10-07-q4-11-authorization-decision');
+const slug='tiktok-shop-brand-cobranded-originality-protection-decision';
+const date='2026-10-07';
+const url=`https://www.weglobalmarketing.com/blog/${slug}`;
+const sources={
+  brand:'https://seller-us.tiktok.com/university/essay?knowledge_id=2419888845686570&lang=en',
+  cobranded:'https://seller-us.tiktok.com/university/essay?knowledge_id=5038197223900942&lang=en',
+  policy:'https://seller-us.tiktok.com/university/essay?knowledge_id=6837901778306818&lang=en',
+  originality:'https://seller-us.tiktok.com/university/essay?knowledge_id=5459556890052373&lang=en'
+};
+const enTitle='Brand Authorization, Cobranded Authorization or Image Originality Protection?';
+const zhTitle='品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选';
+const enDescription='Choose the correct TikTok Shop rights route for a brand, a cobranded product, or original product images without confusing permission with protection.';
+const zhDescription='用一套决策树区分 TikTok Shop 品牌授权、联名授权和原创图片保护，不再把销售许可与图片保护混为一谈。';
+const sha=value=>crypto.createHash('sha256').update(value).digest('hex');
+
+await fs.rm(out,{recursive:true,force:true});
+for(const dir of ['assets','blog','blog/optimized','blog/thumbs','blog/q4-11-authorization']) await fs.mkdir(path.join(out,dir),{recursive:true});
+await fs.copyFile(path.join(root,'assets/we-logo.png'),path.join(out,'assets/we-logo.png'));
+const logo=(await fs.readFile(path.join(out,'assets/we-logo.png'))).toString('base64');
+
+function cover(zh){
+  const lines=zh?['品牌权利','先选正确路径']:['BRAND RIGHTS','CHOOSE THE RIGHT ROUTE'];
+  return `<svg width="1792" height="896" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="bg" x2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#e9e3ff"/></linearGradient><linearGradient id="g" x2="1" y2="1"><stop stop-color="#245bd7"/><stop offset="1" stop-color="#8d62e8"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity=".18"/></filter></defs><rect width="1792" height="896" fill="url(#bg)"/><path d="M1080 0h712v896h-770c162-236 180-646 58-896z" fill="#eeeaff"/><rect x="82" y="78" width="600" height="50" rx="25" fill="#e8efff"/><text x="110" y="111" font-family="Arial" font-size="21" font-weight="800" fill="#1746b8">TIKTOK SHOP · BRAND PROTECTION</text>${lines.map((line,i)=>`<text x="82" y="${250+i*86}" font-family="Arial Narrow,Arial,PingFang SC" font-size="${zh?68:(i===1?54:66)}" font-weight="900" fill="#17151a">${line}</text>`).join('')}<rect x="84" y="430" width="88" height="6" rx="3" fill="#ed168c"/><text x="82" y="495" font-family="Arial,PingFang SC" font-size="25" fill="#4f4a55">${zh?'品牌 · 联名 · 图片':'BRAND · COBRAND · IMAGE'}</text><image href="data:image/png;base64,${logo}" x="82" y="700" width="145" height="105"/><g filter="url(#s)"><ellipse cx="1390" cy="748" rx="320" ry="68" fill="#beb9ed"/><rect x="1140" y="155" width="460" height="525" rx="44" fill="#fff"/><path d="M1370 210l170 82v128c0 104-69 180-170 214-101-34-170-110-170-214V292z" fill="#e9e5ff"/><path d="M1370 245l132 64v107c0 78-50 137-132 168-82-31-132-90-132-168V309z" fill="url(#g)"/><path d="M1302 416l47 47 91-108" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1110" cy="520" r="72" fill="#ed168c"/><path d="M1072 520h76M1110 482v76" stroke="#fff" stroke-width="15" stroke-linecap="round"/><circle cx="1600" cy="500" r="64" fill="#245bd7"/><path d="M1568 500h64M1600 468v64" stroke="#fff" stroke-width="13" stroke-linecap="round"/></g></svg>`;
+}
+
+function visual(zh,type){
+  if(type==='tree'){
+    const title=zh?'先问“要证明哪一种权利？”':'Start with the right question: what must be proved?';
+    const rows=zh?[
+      ['销售单一品牌商品','品牌授权','商标号、LOA 或采购证明'],
+      ['商品同时出现多方品牌或角色 IP','联名授权','Licensor、Licensee、许可 IP'],
+      ['保护自己创作的合格商品主图','原创图片保护','源文件、首次发布、IPPC 回读']
+    ]:[
+      ['Sell one branded product','Brand Authorization','Trademark, LOA or purchase proof'],
+      ['Use multiple brand or licensed elements','Cobranded Authorization','Licensor, licensee and licensed IP'],
+      ['Protect qualifying original main images','Originality Protection','Source file, first publish and IPPC readback']
+    ];
+    return `<svg width="1600" height="820" xmlns="http://www.w3.org/2000/svg"><rect width="1600" height="820" rx="42" fill="#f5f2ff"/><text x="72" y="105" font-family="Arial,PingFang SC" font-size="42" font-weight="850" fill="#17141d">${title}</text><g transform="translate(70 185)">${rows.map((r,i)=>`<g transform="translate(0 ${i*182})"><rect width="1460" height="148" rx="28" fill="#fff"/><circle cx="78" cy="74" r="42" fill="${i===2?'#ed168c':'#245bd7'}"/><text x="78" y="88" text-anchor="middle" font-family="Arial" font-size="31" font-weight="900" fill="#fff">${i+1}</text><text x="150" y="58" font-family="Arial,PingFang SC" font-size="25" font-weight="800" fill="#17141d">${r[0]}</text><text x="150" y="105" font-family="Arial,PingFang SC" font-size="27" font-weight="850" fill="#1746b8">${r[1]}</text><text x="850" y="87" font-family="Arial,PingFang SC" font-size="23" fill="#4f4a55">${r[2]}</text></g>`).join('')}</g></svg>`;
+  }
+  const title=zh?'一份权利档案，三个独立状态':'One rights file, three independent statuses';
+  const cols=zh?[
+    ['品牌授权','允许销售品牌商品','Seller Entity、品牌、品类、地区、期限'],
+    ['联名授权','允许使用合作方 IP','Licensor、Licensee、许可 IP、协议'],
+    ['原创保护','保护合格原创主图','Asset ID、源文件、首次发布、回读']
+  ]:[
+    ['Brand authorization','Permission to sell the brand','Seller entity, brand, category, region, term'],
+    ['Cobranded authorization','Permission to use partner IP','Licensor, licensee, licensed IP, agreement'],
+    ['Originality protection','Protection for qualifying images','Asset ID, source, first publish, readback']
+  ];
+  return `<svg width="1600" height="760" xmlns="http://www.w3.org/2000/svg"><rect width="1600" height="760" rx="42" fill="#f5f2ff"/><text x="72" y="105" font-family="Arial,PingFang SC" font-size="43" font-weight="850" fill="#17141d">${title}</text><g transform="translate(55 190)">${cols.map((r,i)=>`<g transform="translate(${i*500} 0)"><rect width="470" height="455" rx="30" fill="#fff"/><rect width="470" height="16" rx="8" fill="${i===2?'#ed168c':'#245bd7'}"/><text x="38" y="93" font-family="Arial,PingFang SC" font-size="29" font-weight="850" fill="#1746b8">${r[0]}</text><text x="38" y="170" font-family="Arial,PingFang SC" font-size="25" font-weight="800" fill="#17141d">${r[1]}</text><line x1="38" y1="215" x2="432" y2="215" stroke="#ddd7eb" stroke-width="3"/><foreignObject x="38" y="250" width="390" height="160"><div xmlns="http://www.w3.org/1999/xhtml" style="font:23px Arial,PingFang SC;color:#4f4a55;line-height:1.55">${r[2]}</div></foreignObject></g>`).join('')}</g></svg>`;
+}
+
+for(const [lang,zh] of [['en',false],['zh',true]]){
+  const name=`hero-${slug}-${lang}-v1`;
+  await sharp(Buffer.from(cover(zh))).png().toFile(path.join(out,'blog',`${name}.png`));
+  await sharp(path.join(out,'blog',`${name}.png`)).resize({width:1600}).jpeg({quality:90}).toFile(path.join(out,'blog/optimized',`${name}.jpg`));
+  await sharp(path.join(out,'blog',`${name}.png`)).resize({width:880}).jpeg({quality:88}).toFile(path.join(out,'blog/thumbs',`${name}.jpg`));
+  for(const type of ['tree','matrix']) await sharp(Buffer.from(visual(zh,type))).png().toFile(path.join(out,'blog/q4-11-authorization',`${type}-${lang}-v1.png`));
+}
+
+const faqEn=[
+  ['Does Brand Authorization protect my product images?','No. Brand Authorization confirms a route to sell products of a specific brand. Image-level protection is a separate Originality Protection workflow with separate eligibility and evidence.'],
+  ['When is Cobranded Authorization the right route?','Use it when a product features your own brand together with another brand or licensed IP, and the licensing relationship can identify the licensor, licensee and licensed IP.'],
+  ['If I only resell a cobranded product, do I still need the license agreement?','The current official guide says a reseller must obtain and submit a copy of the cobranding licensing agreement, often with help from the supplier.'],
+  ['Can I list a branded item as No brand while authorization is pending?','No. The current Brand Authorization guide says selecting No brand for a clearly branded product is prohibited and may lead to listing removal.'],
+  ['Does OP cover every photo used in a listing?','No. The current program covers qualifying main product images for eligible participants. Secondary images, detail shots and videos are outside the stated program coverage.'],
+  ['What if the same listing needs both a brand license and image permission?','Maintain both records. A license to sell or co-brand the product does not automatically grant rights to every image, and image authorization does not replace the brand or licensing route.']
+];
+const faqZh=[
+  ['品牌授权会自动保护商品图片吗？','不会。品牌授权确认的是销售某品牌商品的路径；图片级保护属于独立的 Originality Protection 流程，有自己的资格与证据要求。'],
+  ['什么情况下应该走联名授权？','当商品同时呈现自己的品牌与另一品牌或被许可 IP，而且许可关系能清楚写明 Licensor、Licensee 和 Licensed IP 时，应按联名或许可路径处理。'],
+  ['我只是转售联名商品，也要提供联名协议吗？','当前官方指南说明，转售方仍需取得并提交联名许可协议副本，通常需要供应商协助提供。'],
+  ['授权还没下来，可以先把有品牌的商品选成 No brand 吗？','不可以。当前品牌授权指南明确说明，把明显有品牌的商品选成 No brand 属于禁止行为，可能导致 Listing 被移除。'],
+  ['OP 会覆盖 Listing 里的每一张图片吗？','不会。当前项目覆盖符合资格参与者的合格商品主图，辅图、细节图和视频不在该项目写明的覆盖范围。'],
+  ['同一个 Listing 同时需要品牌许可与图片许可怎么办？','两套记录都要保留。销售或联名许可不会自动授予每张图片的使用权，图片授权也不能替代品牌或联名授权。']
+];
+const faqHtml=(items,zh)=>`<section class="faq"><h2>${zh?'常见问题':'Common questions'}</h2>${items.map(([q,a])=>`<div class="faq-item"><h3>${q}</h3><p>${a}</p></div>`).join('')}</section>`;
+const P=items=>items.join('');
+
+const EN=P([
+  `<p class="eyebrow">TIKTOK SHOP U.S. · BRAND PROTECTION</p><h1>${enTitle}</h1><img class="hero" src="/blog/hero-${slug}-en-v1.png" alt="${enTitle}"><p class="byline">WE Marketing Team · Oct 7, 2026 · 15 min read</p>`,
+  `<p><strong>Direct answer:</strong> choose the route by the right you need to prove. Use <strong>Brand Authorization</strong> when the seller must prove permission to list products under one brand. Use <strong>Cobranded Authorization</strong> when the product combines the seller's brand with another brand, character, logo or licensed IP. Use <strong>Originality Protection</strong> when an eligible seller wants image-level protection for qualifying original main product images. These controls can overlap, but none substitutes for the others.</p>`,
+  `<p>The practical error is starting with the name of a TikTok Shop feature. Start with the product, the seller entity and the exact right in question. A reseller may have permission to sell a branded item but no license to place a third-party character on it. A licensee may have a valid collaboration agreement but no right to reuse a studio's photograph. A brand may own an image but still not meet the platform's current OP criteria. The decision tree below keeps those questions separate.</p>`,
+  `<h2>Three routes solve three different problems</h2><p><strong>Brand Authorization</strong> is the product-and-brand route. The current U.S. guide says authorization may be required for products containing restricted trademarks. Applications go through the Qualification Center, and the evidence depends on the seller's relationship to the brand. A trademark owner uses a U.S. trademark registration and verification. A first-level authorized seller submits a Letter of Authorization from the owner. A second-level seller documents the chain from owner to distributor and from distributor to the seller, subject to the current application flow. Proof of Purchase may be available where the seller can demonstrate inventory came from a legitimate distributor.</p>`,
+  `<p><strong>Cobranded Authorization</strong> is the collaboration-and-license route. The current guide defines cobranding as a product that features identifiers from two or more brands, usually supported by a licensing agreement. The application must clearly identify the licensor, the licensee, the licensed IP, the license term and the intended product category. After approval, the guide instructs the seller to list under the licensee's brand. A reseller of a cobranded product is not excused from the evidence requirement; the guide says the reseller must obtain a copy of the cobranding licensing agreement.</p>`,
+  `<p><strong>Originality Protection</strong> is the qualifying-image route. It does not authorize sale of a brand and does not establish a collaboration license. For eligible participants, the program evaluates main product images during listing and can register qualifying images in IPPC as protected assets. Current criteria include a main product image, first publication on TikTok Shop and sufficient clarity. Protection lasts one year. Failed verification does not block the seller's own listing, and that verification result is not appealable.</p>`,
+  `<figure><img src="/blog/q4-11-authorization/tree-en-v1.png" alt="Decision tree for TikTok Shop brand, cobranded and image protection routes"><figcaption>Identify the right to prove before selecting a platform route.</figcaption></figure>`,
+  `<h2>Decision 1: is the listing for one brand?</h2><p>Map every visible brand signal before opening the application. Inspect the product, packaging, title, main image, detail images, variants, shop name and planned content. If the commercial item belongs to one brand and the seller needs permission to list it, begin with Brand Authorization. Do not choose “No brand” for a clearly branded item while waiting. The official guide expressly warns that this is prohibited and may result in removal.</p>`,
+  `<p>Next classify the applicant. Is it the trademark owner, a party authorized directly by the owner, a party authorized through a distributor, or a reseller relying on valid purchase evidence? The name on the document must connect to the Company or Owner name on the seller account. Brand name, capitalization, punctuation and spacing should match the official website, trademark record, packaging and labels. The authorization must also address the relevant region, category and term.</p>`,
+  `<p>For a Letter of Authorization, create a preflight table with grantor, recipient, brand, category, territory, start date, expiration or permanent status, signature or official stamp and seller-entity match. The current guide says the document should be clear and legible, and that renewal should begin at least 30 days before expiration. Approval applies to future products under that brand. Existing listings need to be edited, assigned the brand and republished for the authorization to apply.</p>`,
+  `<h2>Decision 2: does the product combine brand or licensed elements?</h2><p>If a product carries the seller's brand plus another brand, logo, character, design or licensed identifier, the ordinary single-brand file may not explain the complete rights chain. Route it through Cobranded Authorization. The license agreement must make the roles explicit: the licensor grants use of the IP, the licensee receives that permission, and the licensed IP is the exact trademark, character, logo or identifier used on the product.</p>`,
+  `<p>The product category should match the licensor IP's trademark class, and the license must be active or clearly permanent. The licensor name and licensed IP should match the official trademark record. The licensee name should match the business documents associated with the seller account. If one agreement covers several characters, the current guide says the seller may reuse the agreement but must still submit individual applications for each character.</p>`,
+  `<p>Do not confuse a distribution agreement with an IP license. The IP Policy says TikTok Shop does not typically enforce private distribution agreements unless separate IP infringement exists. A commercial right to distribute inventory, a license to place a brand or character on a product, and permission to use an image are different instruments. The operator should identify which one the submitted document actually grants.</p>`,
+  `<h2>Decision 3: who owns or may use the listing images?</h2><p>After the product route is clear, audit the image route independently. Ask who created each main image, who owns it, whether the seller received written commercial-use rights, where it first appeared and whether it is a qualifying main image. Supplier access to a JPEG is not evidence of a license. Permission to sell the product is not automatically permission to copy the brand owner's or another seller's photography.</p>`,
+  `<p>If the seller created a new image, keep the raw file, brief, creator record, edits, final approval, hash and publication history under one Asset ID. If an agency, freelancer or studio created it, connect the service agreement, assignment or license to that ID. If another rights holder owns it, keep written authorization that identifies the parties, permitted use, United States coverage and valid term.</p>`,
+  `<p>For enrolled OP participants, record the IPPC protected-asset readback after listing. Do not state that every original image is automatically protected. The current program is eligibility-based, covers qualifying main product images, and excludes the secondary images, detail shots and videos identified in its FAQ. The program page also says the Proactive Push and Quick Removal Risk Alert capability will be available shortly, so this article does not present that alert as universally live.</p>`,
+  `<figure><img src="/blog/q4-11-authorization/matrix-en-v1.png" alt="Evidence matrix for brand authorization, cobranded authorization and originality protection"><figcaption>One listing may require multiple independent records.</figcaption></figure>`,
+  `<h2>Build one rights file without collapsing the statuses</h2><p>Create a rights-file ID for the product family. Inside it, keep four linked sections: seller-and-product identity, brand authorization, collaboration licenses and image provenance. Each section needs its own owner, status, expiry, last verification date and source document. A single green “approved” field is too vague because a brand authorization can be valid while a character license has expired, or an OP asset can be registered while the seller's product authorization remains incomplete.</p>`,
+  `<table><tr><th>Control</th><th>Question</th><th>Minimum operating evidence</th></tr><tr><td>Seller identity</td><td>Which legal entity lists the product?</td><td>Seller account name, company record and responsible owner</td></tr><tr><td>Brand route</td><td>Why may this entity sell under the brand?</td><td>Trademark record, LOA chain or accepted purchase proof</td></tr><tr><td>Cobrand route</td><td>Why may the product use the partner IP?</td><td>Complete agreement, licensor, licensee, licensed IP, class and term</td></tr><tr><td>Image route</td><td>Why may this exact image be used or protected?</td><td>Asset ID, source file, creation or authorization record and publication history</td></tr><tr><td>Platform readback</td><td>What did the current account actually approve?</td><td>Qualification result, IPPC asset, notice, appeal or rejection record</td></tr></table>`,
+  `<h2>Run a release gate before the listing goes live</h2><p>First, freeze the final SKU, packaging and brand presentation. Second, verify that the seller entity in the account matches the party named in the submitted documents. Third, check the ordinary brand authorization route. Fourth, check whether every visible external brand, character or licensed identifier creates a cobrand requirement. Fifth, verify image ownership and permission. Sixth, save the actual approval or rejection readback instead of treating submission as approval.</p>`,
+  `<p>For renewals, calculate the operating deadline from the earliest expiring control, not from the launch date. A permanent brand authorization does not keep a time-limited character license alive. An active license does not renew an expiring Letter of Authorization. A protected image's one-year OP period does not extend any product or IP license. Route each expiry to the correct owner.</p>`,
+  `<p>If the platform issues an infringement notice, open the exact case and use the appeal path and evidence requested for that violation. The IP Policy describes Seller Center appeals and, for certain copyright removals, DMCA counter-notices. It also warns that deliberately misleading notices can create liability. When ownership, scope, infringement or counter-notice language is uncertain, use qualified U.S. intellectual-property counsel rather than converting an operational checklist into legal advice.</p>`,
+  `<h2>Operational example: licensed character packaging with studio photography</h2><p>Consider a hypothetical beverage brand selling a bottle that carries its own brand plus a licensed entertainment character. The seller first confirms the ordinary brand authorization for its beverage brand. It then builds the cobrand file showing the character owner or licensing representative as licensor, the beverage brand as licensee, the exact character as licensed IP, the covered category and the active term.</p>`,
+  `<p>A studio photographs the finished bottle. That studio contract is added to the separate image file, along with raw captures, approved edits and assignment or license language. If the image is first published as a qualifying TikTok Shop main image and the seller is enrolled in OP, the team records the IPPC result. Neither the character license nor the OP status replaces the other. The launch gate closes only when the seller, brand, cobrand and image records all match the final SKU.</p>`,
+  `<h2>The smallest useful next action</h2><p>Choose one SKU scheduled to publish this week and create four rows: <strong>seller entity, brand route, cobrand route, image route.</strong> Mark each row Yes, No or Not applicable, attach the exact evidence and name the owner. If any Yes row lacks a matching document or current platform readback, hold that part of the release until it is resolved.</p>`,
+  `<h2>Source notes and execution boundary</h2><p>This original WE Marketing decision system draws on the current TikTok Shop U.S. <a href="${sources.brand}">Requirements for Brand Authorization</a>, <a href="${sources.cobranded}">Requirements for Cobranded Brand Authorization</a>, <a href="${sources.policy}">Intellectual Property Policy</a> and <a href="${sources.originality}">Originality Protection Program</a>, revalidated October 7, 2026. The sources describe the current platform routes and evidence expectations. They do not guarantee application approval, OP eligibility, enforcement or appeal outcome. Interfaces and policy can change. Verify the current Seller Center and IPPC account, and use qualified counsel for ownership, licensing, infringement or legal-preservation decisions.</p>`,
+  faqHtml(faqEn,false),
+  `<h2>Related WEM guides</h2><section class="related-grid"><a href="/blog/tiktok-shop-originality-protection-image-evidence"><strong>Originality Protection evidence</strong><span>Build image provenance before copying occurs.</span></a><a href="/blog/tiktok-shop-ai-product-images-real-sku"><strong>AI product image truth</strong><span>Keep generated visuals tied to the real SKU.</span></a><a href="/blog/tiktok-shop-creator-commission-video-usage-rights"><strong>Commission versus usage rights</strong><span>Separate service payment from content permission.</span></a></section>`
+]);
+
+const ZH=P([
+  `<p class="eyebrow">TIKTOK SHOP 美国站 · 品牌保护</p><h1>${zhTitle}</h1><img class="hero" src="/blog/hero-${slug}-zh-v1.png" alt="${zhTitle}"><p class="byline">WE Marketing Team · 2026 年 10 月 7 日 · 15 分钟阅读</p>`,
+  `<p><strong>直接答案：</strong>先看你需要证明哪一种权利。卖家需要证明可以销售某一个品牌的商品，就走 <strong>Brand Authorization</strong>；商品同时结合自己的品牌与另一品牌、角色、Logo 或被许可 IP，就走 <strong>Cobranded Authorization</strong>；符合资格的卖家要保护合格原创商品主图，就看 <strong>Originality Protection</strong>。三条路径可能同时出现，但不能互相替代。</p>`,
+  `<p>最常见的错误，是先从 TikTok Shop 的功能名称出发。正确顺序应该是先看商品、卖家主体与具体权利。一个 Reseller 可能有权销售品牌商品，却没有权把第三方角色放到商品上；一个 Licensee 可能有完整联名协议，却没有权复用 Studio 的摄影图；品牌也可能真正拥有某张图片，但不满足当前 OP 标准。下面的决策树就是要把这些问题拆开。</p>`,
+  `<h2>三条路径解决三个不同问题</h2><p><strong>品牌授权</strong>解决商品与品牌的关系。当前美国站指南说明，含受限制商标的商品可能需要 Brand Authorization，申请入口在 Qualification Center，证据取决于卖家与品牌的关系。Trademark Owner 使用美国商标注册号并完成核验；First-Level Authorized Seller 提交品牌方直接出具的 LOA；Second-Level Seller 按当前流程证明从品牌方到经销商、再到自己的授权链；能够证明库存来自合法经销商时，申请流程也可能提供 Proof of Purchase 选项。</p>`,
+  `<p><strong>联名授权</strong>解决合作与许可关系。当前指南把 Cobranding 定义为两个或多个品牌共同出现在一个商品上，通常由许可协议支持。申请材料要清楚写明 Licensor、Licensee、Licensed IP、许可期限与商品品类。通过后，指南要求按 Licensee 自己的品牌发布商品。即使只是转售联名商品，也不能跳过证据；官方页面要求转售方取得联名许可协议副本。</p>`,
+  `<p><strong>原创图片保护</strong>解决合格图片的保护问题。它不授权卖家销售某品牌，也不建立联名许可。对于符合资格的参与者，平台会在上架时检查商品主图，并把符合条件的图片登记为 IPPC 的受保护资产。当前标准包括商品主图、首次发布在 TikTok Shop 和足够清晰，保护期为一年。图片验证失败不会阻止卖家自己的商品上架，这一验证结果也不能申诉。</p>`,
+  `<figure><img src="/blog/q4-11-authorization/tree-zh-v1.png" alt="TikTok Shop 品牌授权、联名授权与原创图片保护决策树"><figcaption>先识别要证明的权利，再选择平台路径。</figcaption></figure>`,
+  `<h2>决策一：这是单一品牌商品吗</h2><p>打开申请前，先把所有可见品牌信号列出来，包括商品、包装、Title、主图、辅图、Variant、Shop Name 和计划发布的内容。如果商业商品属于一个品牌，卖家需要证明自己有权销售，就从品牌授权开始。授权还没通过时，不要把明显有品牌的商品选成 No brand。当前指南明确说明这是禁止行为，可能导致 Listing 被移除。</p>`,
+  `<p>然后确认申请人身份：是 Trademark Owner、品牌方直接授权的 First-Level Seller、经销商链条下的 Second-Level Seller，还是依赖有效采购证明的 Reseller。文件中的主体名称必须连接 Seller Account 的 Company 或 Owner Name。品牌名的大小写、标点与空格，应与官网、商标记录、包装和标签保持一致；授权还要覆盖正确地区、品类和期限。</p>`,
+  `<p>对于 LOA，建立一个提交前检查表：Grantor、Recipient、Brand、Category、Territory、开始日期、到期或 Permanent 状态、签字或官方 Stamp，以及 Seller Entity Match。当前指南要求文件清晰可读，并建议在到期前至少 30 天开始续签。授权通过后会适用于以后发布的该品牌商品；已有 Listing 还需要逐个编辑、添加品牌并重新发布。</p>`,
+  `<h2>决策二：商品是否结合多个品牌或许可元素</h2><p>如果商品同时出现卖家自己的品牌与另一品牌、Logo、Character、Design 或其他 Licensed Identifier，一份普通单品牌授权往往无法解释完整权利链，应按联名授权处理。License Agreement 必须明确三个核心角色：Licensor 是授权 IP 使用的一方，Licensee 是获得权限的一方，Licensed IP 是商品实际使用的商标、角色、Logo 或其他标识。</p>`,
+  `<p>商品品类应与 Licensor IP 的商标 Class 匹配，License 必须仍然有效或清楚写明 Permanent。Licensor Name 和 Licensed IP 要与官方商标记录匹配，Licensee Name 要与 Seller Account 的 Business Documents 匹配。如果一份 Agreement 覆盖多个 Character，当前指南说明可以重复使用同一份协议，但每个 Character 仍需要分别提交申请。</p>`,
+  `<p>不要把 Distribution Agreement 当成 IP License。IP Policy 说明，平台通常不会仅因为私人经销协议被违反而执法，除非同时存在独立知识产权侵权。销售库存的商业权利、把品牌或角色放到商品上的许可、以及使用某张图片的权限，是三种不同文件。运营要判断手里的材料到底授予了什么。</p>`,
+  `<h2>决策三：Listing 图片由谁拥有、谁可以使用</h2><p>商品路径确认后，还要单独审核图片路径。逐张询问：谁创作主图、谁拥有权利、卖家是否拿到书面商业使用许可、图片在哪里首次发布、它是否属于合格商品主图。供应商把 JPEG 发给你，不等于给了 License；有权销售商品，也不自动等于有权复制品牌方或其他卖家的摄影图。</p>`,
+  `<p>如果卖家自己制作新图片，就用同一个 Asset ID 保存 Raw File、Brief、Creator Record、编辑过程、最终批准、Hash 与发布时间线。如果 Agency、Freelancer 或 Studio 创作，就把 Service Agreement、Assignment 或 License 连接到该 ID。如果图片归另一权利人所有，则保留写明双方、允许用途、美国地区范围和有效期限的书面授权。</p>`,
+  `<p>对于已经纳入 OP 的卖家，上架后要保存 IPPC 受保护资产回读。不要说所有原创图片都会自动获得保护。当前项目按资格开放，覆盖合格商品主图；官方 FAQ 写明辅图、细节图与视频不在该项目覆盖范围。项目页面也写明 Proactive Push 与 Quick Removal 的 Risk Alert 将于近期提供，所以本文不会把它描述成所有账号已经上线。</p>`,
+  `<figure><img src="/blog/q4-11-authorization/matrix-zh-v1.png" alt="品牌授权、联名授权与原创图片保护证据矩阵"><figcaption>同一个 Listing 可能同时需要多套独立记录。</figcaption></figure>`,
+  `<h2>建立一份权利档案，但不要把状态压成一个</h2><p>为商品系列建立 Rights File ID，下面放四个相互连接的区块：卖家与商品身份、品牌授权、合作 License、图片来源。每个区块都有自己的 Owner、Status、Expiry、Last Verification Date 和 Source Document。只放一个绿色 Approved 字段不够，因为品牌授权可能有效，而 Character License 已经过期；也可能 OP 图片已经登记，但商品品牌授权仍不完整。</p>`,
+  `<table><tr><th>控制</th><th>要回答的问题</th><th>最小运营证据</th></tr><tr><td>卖家身份</td><td>哪个法律主体发布商品</td><td>Seller Account Name、公司记录与负责人</td></tr><tr><td>品牌路径</td><td>该主体为何可以销售这个品牌</td><td>商标记录、LOA 链或被接受的采购证明</td></tr><tr><td>联名路径</td><td>商品为何可以使用合作方 IP</td><td>完整协议、Licensor、Licensee、Licensed IP、Class 与期限</td></tr><tr><td>图片路径</td><td>为何可以使用或保护这张图片</td><td>Asset ID、源文件、创作或授权记录、发布时间线</td></tr><tr><td>平台回读</td><td>当前账号实际批准了什么</td><td>Qualification Result、IPPC Asset、Notice、Appeal 或 Reject Record</td></tr></table>`,
+  `<h2>Listing 上线前跑一次 Release Gate</h2><p>第一步，冻结最终 SKU、包装与品牌呈现。第二步，确认账号中的 Seller Entity 与文件里的被授权主体一致。第三步，检查普通品牌授权路径。第四步，检查每一个外部 Brand、Character 或 Licensed Identifier 是否触发联名要求。第五步，核验图片所有权和使用权限。第六步，保存真实批准或拒绝回读，不能把 Submitted 当成 Approved。</p>`,
+  `<p>续签时，从最早到期的控制倒排，而不是从 Launch Date 倒排。Permanent 的品牌授权不会让限期 Character License 永久有效；有效 License 也不会自动延长即将到期的 LOA；原创图片一年保护期更不会延长商品或 IP License。每一个 Expiry 都要回到正确 Owner。</p>`,
+  `<p>如果平台发出侵权通知，就打开准确 Case，按该违规要求选择 Appeal 路径与证据。IP Policy 描述了 Seller Center Appeal，以及部分版权移除可以使用的 DMCA Counter-Notice，同时也提醒故意提交误导性通知可能产生责任。所有权、Scope、侵权事实或反通知语言不确定时，应交给合格美国知识产权律师，不能把运营 Checklist 当作法律意见。</p>`,
+  `<h2>运营场景：角色授权包装加 Studio 摄影</h2><p>假设一个饮料品牌销售同时带有自有品牌和授权娱乐角色的水瓶。卖家先确认自己饮料品牌的普通品牌授权，再建立联名档案，写明角色权利人或 Licensing Representative 是 Licensor，饮料品牌是 Licensee，准确 Character 是 Licensed IP，并连接覆盖品类与有效期限。</p>`,
+  `<p>Studio 为成品水瓶拍摄主图，这份 Studio Contract 要进入独立图片档案，并连接 Raw Capture、Approved Edit 和 Assignment 或 License 条款。如果该图首次作为合格 TikTok Shop 主图发布，而且卖家已纳入 OP，再记录 IPPC 结果。Character License 和 OP Status 谁也不能替代谁，只有卖家、品牌、联名与图片四套记录都匹配最终 SKU，Launch Gate 才能关闭。</p>`,
+  `<h2>现在就做的最小动作</h2><p>选择本周准备发布的一个 SKU，建立四行记录：<strong>Seller Entity、Brand Route、Cobrand Route、Image Route。</strong>每行标记 Yes、No 或 Not applicable，附上准确证据并指定 Owner。任何 Yes 行缺少匹配文件或当前平台回读，都先 Hold 对应发布环节。</p>`,
+  `<h2>来源说明与执行边界</h2><p>这套 WE Marketing 决策系统基于 2026 年 10 月 7 日重新核验的 TikTok Shop 美国站 <a href="${sources.brand}">Requirements for Brand Authorization</a>、<a href="${sources.cobranded}">Requirements for Cobranded Brand Authorization</a>、<a href="${sources.policy}">Intellectual Property Policy</a> 与 <a href="${sources.originality}">Originality Protection Program</a>。这些来源描述当前平台路径与证据要求，但不保证申请一定通过、卖家一定获得 OP 资格、平台一定执法或 Appeal 一定成功。界面与政策可能变化，执行前应核验当前 Seller Center 与 IPPC；所有权、License、侵权与法律保全问题应交给合格律师。</p>`,
+  faqHtml(faqZh,true),
+  `<h2>相关 WEM 指南</h2><section class="related-grid"><a href="/blog/tiktok-shop-originality-protection-image-evidence?lang=zh"><strong>原创保护证据链</strong><span>图片被复制前先建立来源证据。</span></a><a href="/blog/tiktok-shop-ai-product-images-real-sku?lang=zh"><strong>AI 商品图与真实 SKU</strong><span>让生成画面回到真实商品事实。</span></a><a href="/blog/tiktok-shop-creator-commission-video-usage-rights?lang=zh"><strong>佣金与内容使用权</strong><span>把服务报酬和内容权限分开。</span></a></section>`
+]);
+
+const citations=Object.values(sources);
+const graph={'@context':'https://schema.org','@graph':[
+  {'@type':'BlogPosting','@id':`${url}#article`,headline:enTitle,description:enDescription,inLanguage:'en-US',author:{'@type':'Organization','@id':'https://www.weglobalmarketing.com/#editorial-team',name:'WE Marketing Team'},publisher:{'@type':'Organization','@id':'https://www.weglobalmarketing.com/#organization',name:'WE Marketing',alternateName:'WEM'},image:{'@type':'ImageObject',url:`https://www.weglobalmarketing.com/blog/hero-${slug}-en-v1.png`,width:1792,height:896,caption:'WE Marketing TikTok Shop brand rights decision system'},datePublished:date,dateModified:date,mainEntityOfPage:{'@type':'WebPage','@id':url},citation:citations,keywords:['TikTok Shop Brand Authorization','TikTok Shop Cobranded Authorization','TikTok Shop Originality Protection']},
+  {'@type':'BlogPosting','@id':`${url}?lang=zh#article`,headline:zhTitle,description:zhDescription,inLanguage:'zh-CN',translationOfWork:{'@id':`${url}#article`},author:{'@id':'https://www.weglobalmarketing.com/#editorial-team'},publisher:{'@id':'https://www.weglobalmarketing.com/#organization'},image:{'@type':'ImageObject',url:`https://www.weglobalmarketing.com/blog/hero-${slug}-zh-v1.png`,width:1792,height:896,caption:'WE Marketing TikTok Shop 品牌权利决策系统'},datePublished:date,dateModified:date,mainEntityOfPage:{'@type':'WebPage','@id':`${url}?lang=zh`},citation:citations},
+  ...[[faqEn,'en-US',`${url}#faq`],[faqZh,'zh-CN',`${url}?lang=zh#faq`]].map(([items,lang,id])=>({'@type':'FAQPage','@id':id,inLanguage:lang,mainEntity:items.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))})),
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://www.weglobalmarketing.com/'},{'@type':'ListItem',position:2,name:'Blog',item:'https://www.weglobalmarketing.com/blog'},{'@type':'ListItem',position:3,name:enTitle,item:url}]}
+]};
+
+const oldHtml=await fs.readFile(path.join(base,'blog/tiktok-shop-originality-protection-image-evidence.html'),'utf8');
+const style=oldHtml.match(/<style>[\s\S]*?<\/style>/)[0];
+const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>document.documentElement.dataset.lang=new URLSearchParams(location.search).get('lang')==='zh'?'zh':'en';document.documentElement.lang=document.documentElement.dataset.lang==='zh'?'zh-CN':'en'</script><title>${enTitle} | WE Marketing</title><meta name="description" content="${enDescription}"><link rel="canonical" href="${url}"><link rel="alternate" hreflang="en-US" href="${url}"><link rel="alternate" hreflang="zh-CN" href="${url}?lang=zh"><link rel="alternate" hreflang="x-default" href="${url}"><script type="application/ld+json">${JSON.stringify(graph)}</script>${style}</head><body><nav class="nav"><a class="logo" href="/"><img src="/assets/we-logo.png" alt="WE Marketing"></a><a href="/services">SERVICES</a><a href="/about">ABOUT</a><a href="/blog">BLOG</a><span class="spacer"></span><div class="switch"><a class="zh" href="?lang=zh">中文</a><a class="en" href="?">EN</a></div></nav><main class="wrap"><div class="tools"><a class="en" href="/blog">← BLOG</a><a class="zh" href="/blog?lang=zh">← 博客</a></div><article lang="en">${EN}</article><article lang="zh-CN">${ZH}</article></main><section class="cta"><h2 class="en">READY TO TALK<br>TO WEM?</h2><h2 class="zh">准备好和 WEM<br>一起把计划落地吗？</h2><p class="en">Turn brand, license and image evidence into one release-ready rights file.</p><p class="zh">把品牌、License 与图片证据整理成一份可放行的权利档案。</p><a class="en" href="https://scheduler.zoom.us/wendylin001">BOOK A DISCOVERY CALL</a><a class="zh" href="https://scheduler.zoom.us/wendylin001">预约咨询</a></section><footer class="footer"><img src="/assets/we-logo.png" alt="WE Marketing"><p class="en">WE Marketing connects strategy, creator operations, paid growth and TikTok Shop execution.</p><p class="zh">WE Marketing 帮助品牌连接策略、达人运营、付费增长与 TikTok Shop 执行。</p><p>© 2026 WE Marketing. All rights reserved.</p></footer><script>if(document.documentElement.dataset.lang==='zh'){document.title=${JSON.stringify(zhTitle+' | WE Marketing')};document.querySelector('meta[name=description]').content=${JSON.stringify(zhDescription)};document.querySelector('link[rel=canonical]').href='${url}?lang=zh'}</script></body></html>`;
+await fs.writeFile(path.join(out,'blog',`${slug}.html`),html);
+
+let list=await fs.readFile(path.join(base,'BlogList.jsx'),'utf8');
+const row={slug,tags:['tiktok-shop','shop-operations','brand-protection'],cat:{en:'TIKTOK SHOP U.S. · BRAND PROTECTION',zh:'TIKTOK SHOP 美国站 · 品牌保护'},title:{en:enTitle,zh:zhTitle},excerpt:{en:'Choose the correct route for brand rights, licensed IP and original product images.',zh:'区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。'},date:{en:'Oct 7, 2026',zh:'2026 年 10 月 7 日'},read:{en:'15 min read',zh:'15 分钟阅读'},image:{en:`hero-${slug}-en-v1.png`,zh:`hero-${slug}-zh-v1.png`}};
+list=list.replace('const BLOG_POSTS = [',`const BLOG_POSTS = [${JSON.stringify(row).replace(/"([A-Za-z_$][\w$]*)":/g,'$1:')},`);
+await fs.writeFile(path.join(out,'BlogList.jsx'),list);
+const sandbox={};vm.createContext(sandbox);vm.runInContext(await fs.readFile(path.join(root,'.cache/babel-standalone-7.29.0.min.js'),'utf8'),sandbox);
+const compiled=sandbox.Babel.transform(list,{presets:[['react',{runtime:'classic'}]],compact:true,minified:true,sourceType:'script'}).code+'\n';
+await fs.writeFile(path.join(out,'BlogList.compiled.js'),compiled);
+const version=sha(compiled).slice(0,12);
+const index=await fs.readFile(path.join(base,'blog.html'),'utf8');
+await fs.writeFile(path.join(out,'blog.html'),index.replace(/BlogList\.compiled\.js\?v=[^"']+/,`BlogList.compiled.js?v=${version}`));
+let sitemap=await fs.readFile(path.join(base,'sitemap.xml'),'utf8');
+await fs.writeFile(path.join(out,'sitemap.xml'),sitemap.replace('</urlset>',`<url><loc>${url}</loc><lastmod>${date}</lastmod></url><url><loc>${url}?lang=zh</loc><lastmod>${date}</lastmod></url></urlset>`));
+await fs.writeFile(path.join(out,'llms.txt'),(await fs.readFile(path.join(base,'llms.txt'),'utf8'))+`\n- ${enTitle}: ${url}\n  - 中文：${url}?lang=zh\n`);
+
+const sourceDir=path.join(root,'outputs/2026-10-07-q4-11-source');
+const sourceReport={status:'source_revalidated',date,sources:{}};
+for(const [name,sourceUrl] of Object.entries(sources)){
+  const file=path.join(sourceDir,`${name==='brand'?'brand-authorization':name==='cobranded'?'cobranded-authorization':name==='policy'?'ip-policy':'originality-protection'}.html`);
+  const bytes=await fs.readFile(file);
+  sourceReport.sources[name]={url:sourceUrl,httpStatus:200,bytes:bytes.length,sha256:sha(bytes)};
+}
+sourceReport.facts=[
+  'Brand Authorization proves the seller route for a specific brand and is separate from image-level Originality Protection.',
+  'Cobranded Authorization requires a complete license agreement identifying licensor, licensee, licensed IP, term and product category.',
+  'A reseller of cobranded products must obtain and submit the cobranding licensing agreement.',
+  'Image use rights remain separate from product and brand authorization; unauthorized protected imagery may be blocked or recalled.',
+  'Originality Protection is eligibility-based and applies to qualifying main product images; Risk Alert is described as available shortly.'
+];
+await fs.writeFile(path.join(root,'outputs/2026-10-07-q4-11-source-revalidation.json'),`${JSON.stringify(sourceReport,null,2)}\n`);
+console.log(JSON.stringify({out,version,enWords:EN.replace(/<[^>]+>/g,' ').trim().split(/\s+/).length,zhChars:ZH.replace(/<[^>]+>/g,'').replace(/\s/g,'').length}));
