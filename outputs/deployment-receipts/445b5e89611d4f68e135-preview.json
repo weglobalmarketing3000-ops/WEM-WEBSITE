@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-08-q4-12-shop-tab-eligibility",
+  "patchFingerprint": "445b5e89611d4f68e135776ad10867e0526fdb23e42a94715831470285920e91",
+  "pid": 53049,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/445b5e89611d4f68e135-preview.log",
+  "url": "https://wem-website-9zuef0v9d-wem1.vercel.app",
+  "deploymentId": "dpl_6DHiufTCZdHDX5RQZGaHe9yqjfWn",
+  "exitCode": 0,
+  "updatedAt": "2026-10-08T13:09:42Z"
+}

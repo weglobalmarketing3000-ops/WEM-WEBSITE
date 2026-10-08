@@ -1,0 +1,17 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-08",
+  "source": {
+    "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3688464537175863&lang=en",
+    "httpStatus": 200,
+    "bytes": 112221,
+    "sha256": "0babac7ba9a8275803c778a034c482bb252895e08a8069d00b21e4a590af1b52"
+  },
+  "facts": [
+    "Shop Tab is a customer-facing landing page where recommendations actively promote products.",
+    "Some products may be allowed for sale but not suitable for homepage placement.",
+    "Listings and promotional content, including LIVE covers and videos, are subject to Shop Tab eligibility.",
+    "Products excluded from Shop Tab recommendation may still appear in search.",
+    "Enforcement may include AHR points, listing removal, loss of selling privileges, removal from promotional surfaces and refunds."
+  ]
+}

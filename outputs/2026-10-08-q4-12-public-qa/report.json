@@ -1,0 +1,644 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 150708,
+      "localSha256": "7734948c448795f4293d8a97ed7d99aa4c0e66a3507ba14fef88a32583bf1d59",
+      "remoteSha256": "7734948c448795f4293d8a97ed7d99aa4c0e66a3507ba14fef88a32583bf1d59",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 132556,
+      "localSha256": "07184ccb450eb9ccc854b166d729e3b4dc9781022e3050319f7cd27fb144ee73",
+      "remoteSha256": "07184ccb450eb9ccc854b166d729e3b4dc9781022e3050319f7cd27fb144ee73",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "d3b75f8669a3b72c0dff356c99d7b6a40d2214be223a3aefdb80f145688ccfd5",
+      "remoteSha256": "d3b75f8669a3b72c0dff356c99d7b6a40d2214be223a3aefdb80f145688ccfd5",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.png": {
+      "bytes": 116130,
+      "localSha256": "57ea2d293f5975c2d15619e64ced7c55b031451e998990cf0d2cf2e0300c7108",
+      "remoteSha256": "57ea2d293f5975c2d15619e64ced7c55b031451e998990cf0d2cf2e0300c7108",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.png": {
+      "bytes": 113842,
+      "localSha256": "e5086639c0d4010a4a7485953a5c05c1674672ecbfbcb0d64b35bf0c0f7caa99",
+      "remoteSha256": "e5086639c0d4010a4a7485953a5c05c1674672ecbfbcb0d64b35bf0c0f7caa99",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg": {
+      "bytes": 66215,
+      "localSha256": "523ce5b4a3b3b35f6036d48b97bc59332cd7665bf123283c81702d05559d5891",
+      "remoteSha256": "523ce5b4a3b3b35f6036d48b97bc59332cd7665bf123283c81702d05559d5891",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg": {
+      "bytes": 64877,
+      "localSha256": "d7368f1e6376aeaa6b2bac775dd161fe2f15a35e41203d32b8565e8ccd3b2b3f",
+      "remoteSha256": "d7368f1e6376aeaa6b2bac775dd161fe2f15a35e41203d32b8565e8ccd3b2b3f",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/gates-en-v1.png": {
+      "bytes": 83353,
+      "localSha256": "96ade65f968391bc0b060118d5f4414c0d2da3b126d104c7d9a99c51753ca927",
+      "remoteSha256": "96ade65f968391bc0b060118d5f4414c0d2da3b126d104c7d9a99c51753ca927",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/gates-zh-v1.png": {
+      "bytes": 76076,
+      "localSha256": "2dbcb4c5928408463d8e536ba6de362d3d8432eb2f8cc8cb702fb05ce7ff65bc",
+      "remoteSha256": "2dbcb4c5928408463d8e536ba6de362d3d8432eb2f8cc8cb702fb05ce7ff65bc",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/routing-en-v1.png": {
+      "bytes": 70681,
+      "localSha256": "db6ff202113609c6e2dbdd3b45be2e24a676fbd9bbaa162b79618eef1752748f",
+      "remoteSha256": "db6ff202113609c6e2dbdd3b45be2e24a676fbd9bbaa162b79618eef1752748f",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/routing-zh-v1.png": {
+      "bytes": 66250,
+      "localSha256": "372c2a7c347f320e9e78419238714f459e96775caaf4b11b807e87156dc3f757",
+      "remoteSha256": "372c2a7c347f320e9e78419238714f459e96775caaf4b11b807e87156dc3f757",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg": {
+      "bytes": 28071,
+      "localSha256": "414fb974264dbd18678a6be778740e0ebf591a122d93bbdde79f312b3783a7cb",
+      "remoteSha256": "414fb974264dbd18678a6be778740e0ebf591a122d93bbdde79f312b3783a7cb",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg": {
+      "bytes": 27333,
+      "localSha256": "923edd600dade251955068b0c68cbb5cd7336e2cef244eebacd75abf7bead7cd",
+      "remoteSha256": "923edd600dade251955068b0c68cbb5cd7336e2cef244eebacd75abf7bead7cd",
+      "match": true
+    },
+    "blog/tiktok-shop-shop-tab-eligibility-three-gate-audit.html": {
+      "bytes": 41982,
+      "localSha256": "50e97d0c6b8f45b88061f2f13304c463e8af523eb34f350785d3bf6fc09fdef4",
+      "remoteSha256": "50e97d0c6b8f45b88061f2f13304c463e8af523eb34f350785d3bf6fc09fdef4",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 33799,
+      "localSha256": "1f40fa882180072198dd61aa969d0eba7e62d10ac53f44d7e439a3b9c07e620d",
+      "remoteSha256": "1f40fa882180072198dd61aa969d0eba7e62d10ac53f44d7e439a3b9c07e620d",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 47720,
+      "localSha256": "090727f6065b08c6602f952906210fb533b60b89d4cf8c2c4ad6f0a9c1552caf",
+      "remoteSha256": "090727f6065b08c6602f952906210fb533b60b89d4cf8c2c4ad6f0a9c1552caf",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 34869,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-08",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop recommendation eligibility audit"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-08",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop 推荐资格三门审核"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Allowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation",
+      "documentTitle": "Allowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation | WE Marketing",
+      "description": "Use a three-gate audit to separate permission to sell, Shop Tab recommendation eligibility and readiness to scale on TikTok Shop.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/gates-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/routing-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步",
+      "documentTitle": "能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步 | WE Marketing",
+      "description": "用销售、推荐、放量三道门，区分 TikTok Shop 商品可售、Shop Tab 推荐资格与真正可放量状态。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/gates-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/routing-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Allowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation",
+      "documentTitle": "Allowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation | WE Marketing",
+      "description": "Use a three-gate audit to separate permission to sell, Shop Tab recommendation eligibility and readiness to scale on TikTok Shop.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/gates-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/routing-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步",
+      "documentTitle": "能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步 | WE Marketing",
+      "description": "用销售、推荐、放量三道门，区分 TikTok Shop 商品可售、Shop Tab 推荐资格与真正可放量状态。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/gates-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-12-shop-tab/routing-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision",
+          "text": "Oct 7, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBrand Authorization, Cobranded Authorization or Image Originality Protection?\n\nChoose the correct route for brand rights, licensed IP and original product images.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence",
+          "text": "Oct 6, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Originality Protection: Build the Image Evidence Before Copycats Appear\n\nBuild the provenance ledger, rights chain and evidence packet before an original product image is copied.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-brand-cobranded-originality-protection-decision?lang=zh",
+          "text": "2026 年 10 月 7 日\nTIKTOK-SHOP\n店铺运营\n品牌授权、联名授权还是原创图片保护？TikTok Shop 怎么选\n\n区分品牌销售权、联名 IP 许可与原创商品图保护，建立正确证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-brand-cobranded-originality-protection-decision-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-originality-protection-image-evidence?lang=zh",
+          "text": "2026 年 10 月 6 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 原创保护：被抄图之前，先把图片证据链建好\n\n图片被复制前，先建立来源台账、权利链、证据包和平台回读。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-originality-protection-image-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7734948c4487",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

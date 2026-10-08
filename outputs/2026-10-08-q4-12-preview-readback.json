@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_6DHiufTCZdHDX5RQZGaHe9yqjfWn",
+  "url": "https://wem-website-9zuef0v9d-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 150708,
+      "localSha256": "7734948c448795f4293d8a97ed7d99aa4c0e66a3507ba14fef88a32583bf1d59",
+      "remoteSha256": "7734948c448795f4293d8a97ed7d99aa4c0e66a3507ba14fef88a32583bf1d59",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 132556,
+      "localSha256": "07184ccb450eb9ccc854b166d729e3b4dc9781022e3050319f7cd27fb144ee73",
+      "remoteSha256": "07184ccb450eb9ccc854b166d729e3b4dc9781022e3050319f7cd27fb144ee73",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "d3b75f8669a3b72c0dff356c99d7b6a40d2214be223a3aefdb80f145688ccfd5",
+      "remoteSha256": "d3b75f8669a3b72c0dff356c99d7b6a40d2214be223a3aefdb80f145688ccfd5",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.png",
+      "bytes": 116130,
+      "localSha256": "57ea2d293f5975c2d15619e64ced7c55b031451e998990cf0d2cf2e0300c7108",
+      "remoteSha256": "57ea2d293f5975c2d15619e64ced7c55b031451e998990cf0d2cf2e0300c7108",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.png",
+      "bytes": 113842,
+      "localSha256": "e5086639c0d4010a4a7485953a5c05c1674672ecbfbcb0d64b35bf0c0f7caa99",
+      "remoteSha256": "e5086639c0d4010a4a7485953a5c05c1674672ecbfbcb0d64b35bf0c0f7caa99",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg",
+      "bytes": 66215,
+      "localSha256": "523ce5b4a3b3b35f6036d48b97bc59332cd7665bf123283c81702d05559d5891",
+      "remoteSha256": "523ce5b4a3b3b35f6036d48b97bc59332cd7665bf123283c81702d05559d5891",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg",
+      "bytes": 64877,
+      "localSha256": "d7368f1e6376aeaa6b2bac775dd161fe2f15a35e41203d32b8565e8ccd3b2b3f",
+      "remoteSha256": "d7368f1e6376aeaa6b2bac775dd161fe2f15a35e41203d32b8565e8ccd3b2b3f",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/gates-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-12-shop-tab/gates-en-v1.png",
+      "bytes": 83353,
+      "localSha256": "96ade65f968391bc0b060118d5f4414c0d2da3b126d104c7d9a99c51753ca927",
+      "remoteSha256": "96ade65f968391bc0b060118d5f4414c0d2da3b126d104c7d9a99c51753ca927",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/gates-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-12-shop-tab/gates-zh-v1.png",
+      "bytes": 76076,
+      "localSha256": "2dbcb4c5928408463d8e536ba6de362d3d8432eb2f8cc8cb702fb05ce7ff65bc",
+      "remoteSha256": "2dbcb4c5928408463d8e536ba6de362d3d8432eb2f8cc8cb702fb05ce7ff65bc",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/routing-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-12-shop-tab/routing-en-v1.png",
+      "bytes": 70681,
+      "localSha256": "db6ff202113609c6e2dbdd3b45be2e24a676fbd9bbaa162b79618eef1752748f",
+      "remoteSha256": "db6ff202113609c6e2dbdd3b45be2e24a676fbd9bbaa162b79618eef1752748f",
+      "match": true
+    },
+    "blog/q4-12-shop-tab/routing-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-12-shop-tab/routing-zh-v1.png",
+      "bytes": 66250,
+      "localSha256": "372c2a7c347f320e9e78419238714f459e96775caaf4b11b807e87156dc3f757",
+      "remoteSha256": "372c2a7c347f320e9e78419238714f459e96775caaf4b11b807e87156dc3f757",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg",
+      "bytes": 28071,
+      "localSha256": "414fb974264dbd18678a6be778740e0ebf591a122d93bbdde79f312b3783a7cb",
+      "remoteSha256": "414fb974264dbd18678a6be778740e0ebf591a122d93bbdde79f312b3783a7cb",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg",
+      "bytes": 27333,
+      "localSha256": "923edd600dade251955068b0c68cbb5cd7336e2cef244eebacd75abf7bead7cd",
+      "remoteSha256": "923edd600dade251955068b0c68cbb5cd7336e2cef244eebacd75abf7bead7cd",
+      "match": true
+    },
+    "blog/tiktok-shop-shop-tab-eligibility-three-gate-audit.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit.html",
+      "bytes": 41982,
+      "localSha256": "50e97d0c6b8f45b88061f2f13304c463e8af523eb34f350785d3bf6fc09fdef4",
+      "remoteSha256": "50e97d0c6b8f45b88061f2f13304c463e8af523eb34f350785d3bf6fc09fdef4",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 33799,
+      "localSha256": "1f40fa882180072198dd61aa969d0eba7e62d10ac53f44d7e439a3b9c07e620d",
+      "remoteSha256": "1f40fa882180072198dd61aa969d0eba7e62d10ac53f44d7e439a3b9c07e620d",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 47720,
+      "localSha256": "090727f6065b08c6602f952906210fb533b60b89d4cf8c2c4ad6f0a9c1552caf",
+      "remoteSha256": "090727f6065b08c6602f952906210fb533b60b89d4cf8c2c4ad6f0a9c1552caf",
+      "match": true
+    }
+  },
+  "passed": true
+}
