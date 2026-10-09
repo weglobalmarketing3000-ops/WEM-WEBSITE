@@ -1,0 +1,37 @@
+{
+  "status": "visual_preview_accepted",
+  "date": "2026-10-09",
+  "slug": "tiktok-shop-bfcm-creator-brief-creators-can-follow",
+  "checks": {
+    "comparedWithApprovedArticle1": true,
+    "comparedWithApprovedArticle2": true,
+    "comparedWithApprovedArticle3Corrected": true,
+    "warmWhiteLavenderSeriesPalette": true,
+    "leftHeadlineRightSingleScene": true,
+    "officialWemLogo": true,
+    "englishFullCoverHeadlineAndLogoLegible": true,
+    "chineseFullCoverHeadlineAndLogoLegible": true,
+    "english880ThumbnailHeadlineAndLogoLegible": true,
+    "chinese880ThumbnailHeadlineAndLogoLegible": true,
+    "bodyVisualsLocalized": true,
+    "publicCardSameVersion": true
+  },
+  "hashes": {
+    "englishCover": "35616e57199fa78b7cd5d9e1adc33f53dfe72bf272ae155ac18e3fd8062e3d67",
+    "chineseCover": "3acd285a1aa8d1262e6c86a2387881d566df4f68529602cd761f98ff77ddd464",
+    "englishThumbnail": "f99f5f26f28f807f947c00e4c3f0465650173e228b1dc5bff86e645c1983f0e6",
+    "chineseThumbnail": "627ec8b8b0729052f1829857eeb263ed5751434f482b13df13767237c78a1053",
+    "englishOptimized": "39670a829afa51f553e2de11e6029922cdf3b6acdb99b0719a07bba2c98abcd8",
+    "chineseOptimized": "56f801aad531264ec99c3f364941990cae3a4b61ce92a84711ba54cd582a7731"
+  },
+  "publicCardEvidence": {
+    "deploymentId": "dpl_6hPHiwNvXMgcgc9upaSWoMdeuhEk",
+    "report": "outputs/2026-10-09-q4-13-public-qa/report.json",
+    "englishScreenshot": "outputs/2026-10-09-q4-13-public-qa/index-en-desktop-fresh.png",
+    "chineseScreenshot": "outputs/2026-10-09-q4-13-public-qa/index-zh-desktop-fresh.png",
+    "visibleDate": "2026-10-09",
+    "thumbnailNaturalWidth": 880
+  },
+  "rawScene": "outputs/2026-10-09-q4-13-source/raw-scene-not-for-review.png",
+  "note": "The generated raw scene was used only as compositing input and was not accepted as the cover."
+}

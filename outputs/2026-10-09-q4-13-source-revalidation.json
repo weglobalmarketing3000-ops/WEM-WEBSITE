@@ -1,0 +1,31 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-09",
+  "sources": {
+    "policy": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "httpStatus": 200,
+      "bytes": 225844,
+      "sha256": "58b261b0c680770262dad06f44c809cde4206b48c0adf48dcab27245cd9d12c9"
+    },
+    "seller": {
+      "url": "https://seller-us.tiktok.com/university/essay?content_id=8146792370325290&knowledge_id=26854147802894&lang=en",
+      "httpStatus": 200,
+      "bytes": 262090,
+      "sha256": "87a8ffa7f2c8d9a2a37644a3aaeee85dbe980df046d37f8e75d145d13948a84c"
+    },
+    "creator": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5468405153498900&lang=en",
+      "httpStatus": 200,
+      "bytes": 183649,
+      "sha256": "a662292e55fe0f7e28921816e363a1f13445931489269124ca672bf0b6d18f8c"
+    }
+  },
+  "facts": [
+    "The current Content Policy applies to creator LIVEs, videos, images, titles, spoken statements, on-screen text, backgrounds and demonstrations.",
+    "Promoted content must be accurate, compliant and consistent with the product and reliable evidence.",
+    "The 2026 BFCM seller guide requires accurate, compliant and in-stock product listings for campaign participation.",
+    "The current BFCM creator guide connects participation to current eligibility, content and product quality, compliance, CHR and PPS signals.",
+    "Campaign status, prices, dates, thresholds and interfaces are volatile and require current account readback."
+  ]
+}

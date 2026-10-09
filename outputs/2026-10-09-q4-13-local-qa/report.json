@@ -1,0 +1,492 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:8765",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 151729,
+      "localSha256": "e7956648a466f14f9f78c6577e8ab377eb1f782ea732c030b6e09e5d1402cbf4",
+      "remoteSha256": "e7956648a466f14f9f78c6577e8ab377eb1f782ea732c030b6e09e5d1402cbf4",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 133384,
+      "localSha256": "0fd29ecff93b574717c4347927222222960d53bdaedd8f5fc229f39bc8411cf0",
+      "remoteSha256": "0fd29ecff93b574717c4347927222222960d53bdaedd8f5fc229f39bc8411cf0",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "85101c35f92d41eee48e02195887bdd729555cd7945b3c864aa0e053561c40db",
+      "remoteSha256": "85101c35f92d41eee48e02195887bdd729555cd7945b3c864aa0e053561c40db",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-en-v1.png": {
+      "bytes": 1456592,
+      "localSha256": "35616e57199fa78b7cd5d9e1adc33f53dfe72bf272ae155ac18e3fd8062e3d67",
+      "remoteSha256": "35616e57199fa78b7cd5d9e1adc33f53dfe72bf272ae155ac18e3fd8062e3d67",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-zh-v1.png": {
+      "bytes": 1454530,
+      "localSha256": "3acd285a1aa8d1262e6c86a2387881d566df4f68529602cd761f98ff77ddd464",
+      "remoteSha256": "3acd285a1aa8d1262e6c86a2387881d566df4f68529602cd761f98ff77ddd464",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-en-v1.jpg": {
+      "bytes": 126462,
+      "localSha256": "39670a829afa51f553e2de11e6029922cdf3b6acdb99b0719a07bba2c98abcd8",
+      "remoteSha256": "39670a829afa51f553e2de11e6029922cdf3b6acdb99b0719a07bba2c98abcd8",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-zh-v1.jpg": {
+      "bytes": 122532,
+      "localSha256": "56f801aad531264ec99c3f364941990cae3a4b61ce92a84711ba54cd582a7731",
+      "remoteSha256": "56f801aad531264ec99c3f364941990cae3a4b61ce92a84711ba54cd582a7731",
+      "match": true
+    },
+    "blog/q4-13-creator-brief/anatomy-en-v1.png": {
+      "bytes": 90339,
+      "localSha256": "bab1a97ab12a824f0f408285093c30366a255ac012c25aa9962784cf58c4560e",
+      "remoteSha256": "bab1a97ab12a824f0f408285093c30366a255ac012c25aa9962784cf58c4560e",
+      "match": true
+    },
+    "blog/q4-13-creator-brief/anatomy-zh-v1.png": {
+      "bytes": 86136,
+      "localSha256": "25edebb421ea04c4f00e3ff972176002ee1c509877e5d1aad67e34bbe1cb39ba",
+      "remoteSha256": "25edebb421ea04c4f00e3ff972176002ee1c509877e5d1aad67e34bbe1cb39ba",
+      "match": true
+    },
+    "blog/q4-13-creator-brief/routing-en-v1.png": {
+      "bytes": 69137,
+      "localSha256": "8ca616b638ea675a7164ad613e50aa83343bcea3869afd0cc63ba5a1b769aec4",
+      "remoteSha256": "8ca616b638ea675a7164ad613e50aa83343bcea3869afd0cc63ba5a1b769aec4",
+      "match": true
+    },
+    "blog/q4-13-creator-brief/routing-zh-v1.png": {
+      "bytes": 65782,
+      "localSha256": "afc7d7914bf68855082d50e47deab60a6b7e5e4318f705dc718dc974a6f373d8",
+      "remoteSha256": "afc7d7914bf68855082d50e47deab60a6b7e5e4318f705dc718dc974a6f373d8",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-en-v1.jpg": {
+      "bytes": 48262,
+      "localSha256": "f99f5f26f28f807f947c00e4c3f0465650173e228b1dc5bff86e645c1983f0e6",
+      "remoteSha256": "f99f5f26f28f807f947c00e4c3f0465650173e228b1dc5bff86e645c1983f0e6",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-zh-v1.jpg": {
+      "bytes": 46890,
+      "localSha256": "627ec8b8b0729052f1829857eeb263ed5751434f482b13df13767237c78a1053",
+      "remoteSha256": "627ec8b8b0729052f1829857eeb263ed5751434f482b13df13767237c78a1053",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-creator-brief-creators-can-follow.html": {
+      "bytes": 41134,
+      "localSha256": "2cb56d0d8c5bd794d5fbe9dfbcdbdf2bae1c4958caa04aeb9212e25002c4a70d",
+      "remoteSha256": "2cb56d0d8c5bd794d5fbe9dfbcdbdf2bae1c4958caa04aeb9212e25002c4a70d",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 34071,
+      "localSha256": "a9bc8957b0ceedfa4926f39f4f0b7ace685340aa895112797e961aa76d9f4955",
+      "remoteSha256": "a9bc8957b0ceedfa4926f39f4f0b7ace685340aa895112797e961aa76d9f4955",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 48008,
+      "localSha256": "df5575deabe1f3aaf9475f79bc70efa1937f8a2e3110c669734d5a5e5da989c8",
+      "remoteSha256": "df5575deabe1f3aaf9475f79bc70efa1937f8a2e3110c669734d5a5e5da989c8",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 34527,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-09",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop BFCM creator brief system"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-09",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop BFCM 达人 Brief 系统"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "A TikTok Shop BFCM Creator Brief That Creators Can Actually Follow",
+      "documentTitle": "A TikTok Shop BFCM Creator Brief That Creators Can Actually Follow | WE Marketing",
+      "description": "Build a one-page TikTok Shop BFCM creator brief that keeps product truth, price, proof, demonstrations and no-go zones aligned.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8765/blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/anatomy-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/routing-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:8765/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区",
+      "documentTitle": "一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区 | WE Marketing",
+      "description": "用一页 TikTok Shop BFCM 达人 Brief 对齐商品事实、价格、证据、演示动作与内容禁区。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8765/blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/anatomy-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/routing-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:8765/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "A TikTok Shop BFCM Creator Brief That Creators Can Actually Follow",
+      "documentTitle": "A TikTok Shop BFCM Creator Brief That Creators Can Actually Follow | WE Marketing",
+      "description": "Build a one-page TikTok Shop BFCM creator brief that keeps product truth, price, proof, demonstrations and no-go zones aligned.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8765/blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/anatomy-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/routing-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:8765/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区",
+      "documentTitle": "一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区 | WE Marketing",
+      "description": "用一页 TikTok Shop BFCM 达人 Brief 对齐商品事实、价格、证据、演示动作与内容禁区。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8765/blog/hero-tiktok-shop-bfcm-creator-brief-creators-can-follow-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/anatomy-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:8765/blog/q4-13-creator-brief/routing-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:8765/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-creator-brief-creators-can-follow"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:8765/BlogList.compiled.js?v=e7956648a466",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/private/tmp/wem-q4-13.JIIpIm/outputs/patches/2026-10-09-q4-13-bfcm-creator-brief",
+  "patchFingerprint": "2d2a5e2eb58783bf5e1212c758359bf78c5d56d30e23e6275642aec0354c85ba",
+  "pid": 46467,
+  "log": "/private/tmp/wem-q4-13.JIIpIm/outputs/deployment-receipts/logs/2d2a5e2eb58783bf5e12-preview.log",
+  "url": "https://wem-website-f0xbvaj9j-wem1.vercel.app",
+  "deploymentId": "dpl_EEvsjFjzsRnW1rRRigWAw7hqgR49",
+  "exitCode": 0,
+  "updatedAt": "2026-10-09T13:13:15Z"
+}
