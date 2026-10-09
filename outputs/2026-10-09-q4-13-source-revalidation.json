@@ -1,0 +1,31 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-09",
+  "sources": {
+    "content": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "httpStatus": 200,
+      "bytes": 225844,
+      "sha256": "e6176e3d1d1ae36cf1127d16714538b8e3907eed457ca274b502211001d2e09d"
+    },
+    "bfcm": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5468405153498900&lang=en",
+      "httpStatus": 200,
+      "bytes": 183649,
+      "sha256": "74a217dcb6403136ea0e050bfe84e28a131aee6180b119979744975f3f9112ab"
+    },
+    "price": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6935962194478864&lang=en",
+      "httpStatus": 200,
+      "bytes": 176801,
+      "sha256": "1c5a444d595b2c13b3a164f4cb8ab6e161e521889434b2c303ea585aa87da0b2"
+    }
+  },
+  "facts": [
+    "The Content Policy applies to LIVEs, videos, images, titles, spoken claims, on-screen text, props, demonstrations and other promoted elements.",
+    "The 2026 BFCM Creator Campaign Guide requires truthful, supportable product claims based on official seller information and authorized IP.",
+    "BFCM participants should prepare content and product listings in advance; creator performance and eligibility may be monitored during the campaign.",
+    "Price and discount claims must be accurate, current and qualified for coupons, SKUs, bundles, eligibility, shipping, taxes or promotion period where applicable.",
+    "Preheat is not activation; expired price or discount claims should be updated, unlinked, removed or no longer promoted where possible."
+  ]
+}

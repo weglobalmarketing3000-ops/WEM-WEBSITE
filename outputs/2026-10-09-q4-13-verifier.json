@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-09",
+  "slug": "tiktok-shop-bfcm-creator-brief",
+  "rank": 1,
+  "checks": [
+    ["blog-card rank 1 slug", true],
+    ["blog-card rank 1 visible EN date", true],
+    ["English BlogPosting datePublished", true],
+    ["Chinese BlogPosting datePublished", true],
+    ["sitemap URL and lastmod", true]
+  ],
+  "passed": true
+}

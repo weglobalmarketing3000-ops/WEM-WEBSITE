@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_FgSauVdTGfzudQr3DKEJMH2KMNur",
+  "url": "https://wem-website-d84q3ukek-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 151658,
+      "localSha256": "e1d2b405d7a04185fbfda609eb684a087c1d31dca07ef79a49c774a4474e8ed1",
+      "remoteSha256": "e1d2b405d7a04185fbfda609eb684a087c1d31dca07ef79a49c774a4474e8ed1",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 133328,
+      "localSha256": "67a300b487720843850f3e31b9314f1709557609631f2af35f44253226df0cb5",
+      "remoteSha256": "67a300b487720843850f3e31b9314f1709557609631f2af35f44253226df0cb5",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "24423cce66771c834ef773e61dc15eb30c164364de29859301660d4de28c7964",
+      "remoteSha256": "24423cce66771c834ef773e61dc15eb30c164364de29859301660d4de28c7964",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-creator-brief-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-creator-brief-en-v1.png",
+      "bytes": 112143,
+      "localSha256": "f7a67f84f22aaa89c0e9ab867dd79a7d7d0714cef12c17fcaff31c57881f1d98",
+      "remoteSha256": "f7a67f84f22aaa89c0e9ab867dd79a7d7d0714cef12c17fcaff31c57881f1d98",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-creator-brief-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-creator-brief-zh-v1.png",
+      "bytes": 108129,
+      "localSha256": "96a473b0b9a8f3e2342ee0c326f19d0810dbb80fcde95f1754b2be8a988290d2",
+      "remoteSha256": "96a473b0b9a8f3e2342ee0c326f19d0810dbb80fcde95f1754b2be8a988290d2",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg",
+      "bytes": 65084,
+      "localSha256": "c6ce0c043d15db97f0f1e557b3a8df86401aba01f132ed97fbd28a7c7238292f",
+      "remoteSha256": "c6ce0c043d15db97f0f1e557b3a8df86401aba01f132ed97fbd28a7c7238292f",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg",
+      "bytes": 58376,
+      "localSha256": "fb1d9c2475fb4d6042cb781cfc1eb8fc53a14d778d76b18c01865a1041deff15",
+      "remoteSha256": "fb1d9c2475fb4d6042cb781cfc1eb8fc53a14d778d76b18c01865a1041deff15",
+      "match": true
+    },
+    "blog/q4-13-bfcm-brief/evidence-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-13-bfcm-brief/evidence-en-v1.png",
+      "bytes": 73527,
+      "localSha256": "ee17b2f7276100f3b99148815a69daf50c36b4694661cbcbfa794285ba332fef",
+      "remoteSha256": "ee17b2f7276100f3b99148815a69daf50c36b4694661cbcbfa794285ba332fef",
+      "match": true
+    },
+    "blog/q4-13-bfcm-brief/evidence-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-13-bfcm-brief/evidence-zh-v1.png",
+      "bytes": 66668,
+      "localSha256": "31b76101daadcc97cc15fd8c0e73ee315f7d05a7cea71dddd9365b0f82c9ad84",
+      "remoteSha256": "31b76101daadcc97cc15fd8c0e73ee315f7d05a7cea71dddd9365b0f82c9ad84",
+      "match": true
+    },
+    "blog/q4-13-bfcm-brief/page-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-13-bfcm-brief/page-en-v1.png",
+      "bytes": 90326,
+      "localSha256": "571595b7d5c10e1a825c58cd33804aeaf14dd0290918846f013a10fa30f7db4a",
+      "remoteSha256": "571595b7d5c10e1a825c58cd33804aeaf14dd0290918846f013a10fa30f7db4a",
+      "match": true
+    },
+    "blog/q4-13-bfcm-brief/page-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-13-bfcm-brief/page-zh-v1.png",
+      "bytes": 80286,
+      "localSha256": "fa8541959697d55b3e4eb0bab436e70e358833d71778d31640ef409439d42598",
+      "remoteSha256": "fa8541959697d55b3e4eb0bab436e70e358833d71778d31640ef409439d42598",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg",
+      "bytes": 27179,
+      "localSha256": "638fbb36d5ba4a6b733b032107002db7602c4496a1e851431066695afe4ffbf2",
+      "remoteSha256": "638fbb36d5ba4a6b733b032107002db7602c4496a1e851431066695afe4ffbf2",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg",
+      "bytes": 25029,
+      "localSha256": "6a088e32e6f7fd3a5f3aad9a58e2bea95ef9718d5825ba364574a0af2a04c8d4",
+      "remoteSha256": "6a088e32e6f7fd3a5f3aad9a58e2bea95ef9718d5825ba364574a0af2a04c8d4",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-creator-brief.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-creator-brief.html",
+      "bytes": 48051,
+      "localSha256": "24eec85210e3eb4c0310ac3db56cfa1a18347bfa818e5fedaa104c00ed56fe90",
+      "remoteSha256": "24eec85210e3eb4c0310ac3db56cfa1a18347bfa818e5fedaa104c00ed56fe90",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 34031,
+      "localSha256": "edb82a2b7fd387ec779810f61cee8d7508a6b1bbac0afd2e036290dd7d05fad1",
+      "remoteSha256": "edb82a2b7fd387ec779810f61cee8d7508a6b1bbac0afd2e036290dd7d05fad1",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 47968,
+      "localSha256": "b1db1957af5dda18f7e02dfd12f976c5696675f71ba3d2e91a70174a416399f1",
+      "remoteSha256": "b1db1957af5dda18f7e02dfd12f976c5696675f71ba3d2e91a70174a416399f1",
+      "match": true
+    }
+  },
+  "passed": true
+}

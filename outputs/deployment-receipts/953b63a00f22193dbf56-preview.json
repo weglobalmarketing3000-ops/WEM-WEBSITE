@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-09-q4-13-bfcm-creator-brief",
+  "patchFingerprint": "953b63a00f22193dbf5677de1e470876ae7588f48e6957da54bcdafccfb924e9",
+  "pid": 50576,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/953b63a00f22193dbf56-preview.log",
+  "url": "https://wem-website-d84q3ukek-wem1.vercel.app",
+  "deploymentId": "dpl_FgSauVdTGfzudQr3DKEJMH2KMNur",
+  "exitCode": 0,
+  "updatedAt": "2026-10-09T13:23:59Z"
+}

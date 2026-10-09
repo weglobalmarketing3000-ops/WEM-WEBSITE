@@ -1,0 +1,240 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import vm from 'node:vm';
+import {createRequire} from 'node:module';
+
+const require=createRequire(import.meta.url);
+const sharp=require('/Users/wendylin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const root=path.resolve(import.meta.dirname,'..');
+const base=path.join(root,'outputs/patches/2026-10-08-q4-12-shop-tab-eligibility');
+const out=path.join(root,'outputs/patches/2026-10-09-q4-13-bfcm-creator-brief');
+const slug='tiktok-shop-bfcm-creator-brief';
+const date='2026-10-09';
+const url=`https://www.weglobalmarketing.com/blog/${slug}`;
+const sources={
+  content:'https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en',
+  bfcm:'https://seller-us.tiktok.com/university/essay?knowledge_id=5468405153498900&lang=en',
+  price:'https://seller-us.tiktok.com/university/essay?knowledge_id=6935962194478864&lang=en'
+};
+const enTitle='A TikTok Shop BFCM Creator Brief That Creators Can Actually Follow';
+const zhTitle='一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区';
+const enDescription='Build a one-page TikTok Shop BFCM creator brief with product truth, proof tasks, price guardrails, claim boundaries and evidence attachments.';
+const zhDescription='用一页 TikTok Shop BFCM 达人 Brief 对齐商品事实、镜头任务、实时价格、表达禁区与证据附件。';
+const sha=value=>crypto.createHash('sha256').update(value).digest('hex');
+
+await fs.rm(out,{recursive:true,force:true});
+for(const dir of ['assets','blog','blog/optimized','blog/thumbs','blog/q4-13-bfcm-brief']) await fs.mkdir(path.join(out,dir),{recursive:true});
+await fs.copyFile(path.join(root,'assets/we-logo.png'),path.join(out,'assets/we-logo.png'));
+const logo=(await fs.readFile(path.join(out,'assets/we-logo.png'))).toString('base64');
+
+function cover(zh){
+  const lines=zh?['BFCM 达人','一页 BRIEF']:['BFCM CREATOR','ONE-PAGE BRIEF'];
+  return `<svg width="1792" height="896" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="bg" x2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#e9e3ff"/></linearGradient><linearGradient id="g" x2="1" y2="1"><stop stop-color="#245bd7"/><stop offset="1" stop-color="#8d62e8"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity=".18"/></filter></defs><rect width="1792" height="896" fill="url(#bg)"/><path d="M1080 0h712v896h-770c162-236 180-646 58-896z" fill="#eeeaff"/><rect x="82" y="78" width="630" height="50" rx="25" fill="#e8efff"/><text x="110" y="111" font-family="Arial" font-size="21" font-weight="800" fill="#1746b8">TIKTOK SHOP · BFCM CREATOR OPERATIONS</text>${lines.map((line,i)=>`<text x="82" y="${250+i*88}" font-family="Arial Narrow,Arial,PingFang SC" font-size="${zh?70:(i===1?61:67)}" font-weight="900" fill="${i===1?'#245bd7':'#17151a'}">${line}</text>`).join('')}<rect x="84" y="438" width="88" height="6" rx="3" fill="#ed168c"/><text x="82" y="505" font-family="Arial,PingFang SC" font-size="25" fill="#4f4a55">${zh?'商品事实 · 价格 · 禁区':'TRUTH · PRICE · GUARDRAILS'}</text><image href="data:image/png;base64,${logo}" x="82" y="700" width="145" height="105"/><g filter="url(#s)"><ellipse cx="1390" cy="748" rx="320" ry="68" fill="#beb9ed"/><rect x="1170" y="140" width="420" height="545" rx="42" fill="#fff"/><rect x="1300" y="112" width="160" height="62" rx="26" fill="#d8d3ff"/><rect x="1230" y="220" width="300" height="56" rx="18" fill="url(#g)"/><rect x="1230" y="320" width="250" height="20" rx="10" fill="#d6d2e8"/><rect x="1230" y="372" width="300" height="20" rx="10" fill="#d6d2e8"/><rect x="1230" y="424" width="210" height="20" rx="10" fill="#d6d2e8"/><circle cx="1260" cy="525" r="38" fill="#e8efff"/><path d="M1243 525l12 12 24-30" fill="none" stroke="#245bd7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1370" cy="525" r="38" fill="#fce0ef"/><path d="M1348 525h44M1370 503v44" stroke="#ed168c" stroke-width="10" stroke-linecap="round"/><circle cx="1480" cy="525" r="38" fill="#eeeaff"/><path d="M1458 540l22-30 22 30" fill="none" stroke="#6f55d9" stroke-width="10" stroke-linecap="round"/><rect x="1230" y="600" width="300" height="18" rx="9" fill="#d6d2e8"/></g></svg>`;
+}
+
+function visual(zh,type){
+  if(type==='page'){
+    const title=zh?'一页 Brief 只保留五个执行区':'A one-page brief needs five execution blocks';
+    const rows=zh?[
+      ['商品事实','准确 SKU、变体、数量、材质、配件'],
+      ['镜头任务','这条内容要让买家看懂什么'],
+      ['实时 Offer','发布时核验价格、条件与有效期'],
+      ['表达禁区','不能说、必须限定、需要证据'],
+      ['交付回路','时间、挂链、问题 Owner、回读']
+    ]:[
+      ['PRODUCT TRUTH','Exact SKU, variant, quantity, material and contents'],
+      ['PROOF JOB','What the shopper must understand on camera'],
+      ['LIVE OFFER','Verify price, conditions and validity at posting'],
+      ['GUARDRAILS','Do not say, qualify and evidence required'],
+      ['HANDOFF LOOP','Timing, link, question owner and readback']
+    ];
+    return `<svg width="1600" height="850" xmlns="http://www.w3.org/2000/svg"><rect width="1600" height="850" rx="42" fill="#f5f2ff"/><text x="72" y="105" font-family="Arial,PingFang SC" font-size="42" font-weight="850" fill="#17141d">${title}</text><g transform="translate(70 170)">${rows.map((r,i)=>`<g transform="translate(0 ${i*124})"><rect width="1460" height="98" rx="24" fill="#fff"/><circle cx="60" cy="49" r="31" fill="${i===2?'#ed168c':'#245bd7'}"/><text x="60" y="60" text-anchor="middle" font-family="Arial" font-size="24" font-weight="900" fill="#fff">${i+1}</text><text x="120" y="43" font-family="Arial,PingFang SC" font-size="23" font-weight="850" fill="#1746b8">${r[0]}</text><text x="120" y="74" font-family="Arial,PingFang SC" font-size="23" fill="#4f4a55">${r[1]}</text></g>`).join('')}</g></svg>`;
+  }
+  const title=zh?'Brief 后面必须跟着证据，不是更多口号':'Attach evidence behind the brief, not more slogans';
+  const cols=zh?[
+    ['SKU 卡','商品页、包装、变体','与实物一致'],
+    ['Claim 文件','批准表达、限制条件','与证据来源'],
+    ['Offer 回读','发布时价格、Coupon','SKU 与有效期'],
+    ['Rights + 时间','音乐、Logo、使用权','与交付节点']
+  ]:[
+    ['SKU CARD','Listing, package and variant','agree with the physical unit'],
+    ['CLAIM FILE','Approved wording, conditions','and supporting evidence'],
+    ['OFFER READBACK','Price, coupon, SKU and term','verified at posting time'],
+    ['RIGHTS + TIMING','Music, logos, usage rights','and delivery gates']
+  ];
+  return `<svg width="1600" height="760" xmlns="http://www.w3.org/2000/svg"><rect width="1600" height="760" rx="42" fill="#f5f2ff"/><text x="72" y="105" font-family="Arial,PingFang SC" font-size="43" font-weight="850" fill="#17141d">${title}</text><g transform="translate(55 190)">${cols.map((r,i)=>`<g transform="translate(${i*375} 0)"><rect width="345" height="455" rx="30" fill="#fff"/><rect width="345" height="16" rx="8" fill="${i===2?'#ed168c':'#245bd7'}"/><text x="30" y="90" font-family="Arial,PingFang SC" font-size="23" font-weight="850" fill="#1746b8">${r[0]}</text><line x1="30" y1="130" x2="315" y2="130" stroke="#ddd7eb" stroke-width="3"/><text x="30" y="205" font-family="Arial,PingFang SC" font-size="21" font-weight="700" fill="#17141d">${r[1]}</text><text x="30" y="245" font-family="Arial,PingFang SC" font-size="21" font-weight="700" fill="#17141d">${r[2]}</text><circle cx="172" cy="380" r="38" fill="${i===2?'#fce0ef':'#e8efff'}"/><path d="M154 380l12 12 25-30" fill="none" stroke="${i===2?'#ed168c':'#245bd7'}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></g>`).join('')}</g></svg>`;
+}
+
+for(const [lang,zh] of [['en',false],['zh',true]]){
+  const name=`hero-${slug}-${lang}-v1`;
+  await sharp(Buffer.from(cover(zh))).png().toFile(path.join(out,'blog',`${name}.png`));
+  await sharp(path.join(out,'blog',`${name}.png`)).resize({width:1600}).jpeg({quality:90}).toFile(path.join(out,'blog/optimized',`${name}.jpg`));
+  await sharp(path.join(out,'blog',`${name}.png`)).resize({width:880}).jpeg({quality:88}).toFile(path.join(out,'blog/thumbs',`${name}.jpg`));
+  for(const type of ['page','evidence']) await sharp(Buffer.from(visual(zh,type))).png().toFile(path.join(out,'blog/q4-13-bfcm-brief',`${type}-${lang}-v1.png`));
+}
+
+const faqEn=[
+  ['What should a TikTok Shop BFCM creator brief include?','Include the exact SKU and variant, product truth, one visible proof task, approved claim boundaries, a live-offer verification rule, deliverables, timing, product-link instructions, rights terms and a named contact for questions.'],
+  ['Should a BFCM creator brief include a fixed promotional price?','Only when the price is active, verified and the conditions are clear. For content posted before activation or expected to remain live after the event, use a posting-time price check and conditional language instead of a stale universal price promise.'],
+  ['Should brands write the full creator script?','Usually no. Lock product facts, required disclosures, prohibited claims and operational handoffs. Give the creator freedom over the hook, phrasing and story structure unless exact approved wording is necessary.'],
+  ['Can a creator say lowest price or cheapest during BFCM?','The current Content Policy prohibits unsupported superlatives such as lowest or cheapest. A brief should use only supportable price language and direct the creator to verify the active product path.'],
+  ['What evidence should be attached to the brief?','Attach the current product page, SKU and packaging record, claim substantiation, approved visual examples, posting-time offer source, product link, rights terms and the escalation contact.'],
+  ['What should happen when an offer expires after a video is posted?','Review the content and product link. Where possible, update, unlink, remove or stop promoting outdated price or discount claims, following the current platform notice and available controls.']
+];
+const faqZh=[
+  ['TikTok Shop BFCM 达人 Brief 应该包含什么？','至少包括准确 SKU 与变体、商品事实、一个可见镜头任务、批准 Claim 与表达禁区、发布时 Offer 核验规则、交付物、时间、挂链、Rights 条款和问题负责人。'],
+  ['BFCM Brief 应该直接写死促销价吗？','只有价格已经生效、完成核验且适用条件清楚时才适合写入。预热期或会长期保留的视频，应要求发布时回读，并使用条件表达，避免把活动价写成所有人长期可得。'],
+  ['品牌需要给达人完整逐字稿吗？','通常不需要。品牌应锁定商品事实、必要 Disclosure、禁区与交付节点，让达人保留 Hook、措辞和 Story Structure 的自由，除非某句话必须使用批准版本。'],
+  ['BFCM 内容可以说全网最低或 TikTok Shop 最便宜吗？','当前 Content Policy 禁止没有证据支持的 Lowest、Cheapest 等绝对价格表达。Brief 只能提供可支持的价格语言，并要求达人核验实时商品路径。'],
+  ['Brief 后面应该附什么证据？','附当前商品页、SKU 与包装记录、Claim 证据、批准视觉示例、发布时 Offer 来源、正确挂链、Rights 条款和异常联系人。'],
+  ['视频发布后 Offer 过期了怎么办？','重新检查内容与 Product Link。根据当前平台 Notice 和可用控制，尽可能更新、解绑、移除或停止推广已经过期的价格与折扣表达。']
+];
+const faqHtml=(items,zh)=>`<section class="faq"><h2>${zh?'常见问题':'Common questions'}</h2>${items.map(([q,a])=>`<div class="faq-item"><h3>${q}</h3><p>${a}</p></div>`).join('')}</section>`;
+const P=items=>items.join('');
+
+const EN=P([
+  `<p class="eyebrow">TIKTOK SHOP U.S. · BFCM CREATOR OPERATIONS</p><h1>${enTitle}</h1><img class="hero" src="/blog/hero-${slug}-en-v1.png" alt="${enTitle}"><p class="byline">WE Marketing Team · Oct 9, 2026 · 15 min read</p>`,
+  `<p><strong>Direct answer:</strong> a useful BFCM creator brief is a one-page execution control sheet, not a mood board and not a word-for-word script. It gives the creator one verified product truth, one audience decision, one visible proof task, the current offer-check rule, clear claim boundaries, the correct product link, timing and a named owner for questions. The evidence lives behind that page as attachments.</p>`,
+  `<p>The brief should be strict where an error could mislead a shopper and flexible where the creator's own voice creates attention. Lock the SKU, variant, quantity, material, included items, compatibility, approved claims, conditions, posting window and rights. Do not force every creator to use the same hook, sentence order, room or personality. A seasonal brief succeeds when a creator can film accurately without opening a ten-page deck during production.</p>`,
+  `<p>BFCM makes this separation more important. The current U.S. creator campaign guide tells participants to prepare content and listings ahead of the campaign, rely on official seller information, make supportable claims, avoid restricted topics and use authorized intellectual property. The current Content Policy applies to spoken words, on-screen text, covers, titles, props, demonstrations and other promoted elements. A safe brief therefore controls the complete content package, not only the caption.</p>`,
+  `<figure><img src="/blog/q4-13-bfcm-brief/page-en-v1.png" alt="Five blocks in a one-page TikTok Shop BFCM creator brief"><figcaption>Keep the decision sheet short, then attach evidence behind it.</figcaption></figure>`,
+  `<h2>Start with the campaign job, not the slogan</h2>`,
+  `<p>Write one sentence that says what the content should help a shopper understand or decide. Examples include choosing the correct size, seeing what arrives in the box, understanding a setup step, comparing two approved variants or recognizing who the product is for. “Create an exciting BFCM video” is not an executable job. It does not tell the creator what proof the shopper needs.</p>`,
+  `<p>Connect that job to one audience situation. Describe the buyer in behavioral terms, such as a renter who needs compact storage or a parent comparing pack sizes, rather than a vague demographic profile. Then name the visible proof: show the folded dimensions, count the included pieces, demonstrate the approved installation or compare the texture under normal lighting. One content asset can have more than one benefit, but it should have one primary proof job.</p>`,
+  `<p>Do not turn the proof task into a performance promise. A demonstration shows what happened in a defined setup. It does not establish that everyone will obtain the same result. Record the product, variant, accessories, conditions and time used in the demonstration so the final edit can be checked against the exact SKU.</p>`,
+  `<h2>Block 1: freeze the product truth</h2>`,
+  `<p>The first section of the brief should identify the sellable unit: product name, PID or product link, SKU or variant, color, size, quantity, material, included accessories and current packaging. Add only the facts that matter for the content job. The creator must know whether the sample differs from the sellable unit and which differences cannot appear on camera.</p>`,
+  `<p>The current Content Policy prohibits information that is false, misleading or inconsistent with the advertised product. It covers key attributes, models, product guarantees, warranties, delivery, logistics, returns and customer service. AI-generated demonstrations also cannot change scale, material, color, bundle quantity, lighting effect, movement, installation, surface compatibility, rated capacity or results. The brief should link each material fact to the product page or an evidence attachment.</p>`,
+  `<p>For BFCM, confirm that the creator is linking the registered product and intended variation. The current campaign guide says variations cannot be changed after a product is registered during the campaign. If the sample, product page and registered variation do not match, do not ask the creator to explain around the conflict. Hold the asset until the correct unit and link are available.</p>`,
+  `<h2>Block 2: define the proof and creative freedom</h2>`,
+  `<p>Separate mandatory truth from creative preference. Mandatory items may include showing the exact product, demonstrating a specific step accurately, naming the correct pack count, using a required disclosure and attaching the correct product link. Creative preferences include the opening hook, room, transitions, music choice within available rights, edit pace and personal wording.</p>`,
+  `<p>A creator should not receive a list of ten equal benefits. Prioritize two or three facts and identify the one fact the camera must prove. Give examples of acceptable proof, not a single shot-for-shot storyboard. If the creator discovers a clearer demonstration, the question should be whether it remains accurate and authorized, not whether it matches the brand team's favorite transition.</p>`,
+  `<p>High-quality seasonal content still needs a recognizable creator. The Content Policy treats content that lacks meaningful presentation or product demonstration as low quality. A checkout recording or static graphic is not a substitute for useful product information. Ask the creator to explain, handle, use or compare the item in a way that resolves the defined buyer question.</p>`,
+  `<h2>Block 3: create a posting-time price gate</h2>`,
+  `<p>A BFCM brief should not turn a planned price into an unconditional promise. Prices may depend on coupons, selected SKUs, bundles, minimum spend, user eligibility, shipping, taxes, fees or the promotion period. The current price-and-discount guide says the safest reference is the price shown in the showcase when the creator binds the product, unless a lower price is supported by an active coupon, selected SKU or promotion and the key conditions are explained.</p>`,
+  `<p>Use three fields: offer source, valid window and required qualifier. The offer source is the current product path or approved campaign record. The valid window is the period during which the claim can be published as active. The qualifier explains coupon clipping, selected variant, bundle, new-user status, minimum spend, availability or other conditions. Add a posting-time readback owner rather than asking the creator to rely on a screenshot from the briefing date.</p>`,
+  `<p>Preheat is not activation. If a price, coupon or campaign is scheduled but not public, do not tell viewers they can obtain it now. Likewise, avoid unsupported absolute language such as “lowest price,” “cheapest” or “guaranteed.” If a video is expected to remain live after BFCM, consider a product-led version without a specific price, or establish an expiration cleanup plan before posting.</p>`,
+  `<h2>Block 4: show the boundaries in usable language</h2>`,
+  `<p>Do not paste an entire policy into the brief. Translate the relevant risk into three columns: approved wording, wording that requires a condition and wording that is not allowed. For a skincare product, the file might permit a texture demonstration and cosmetic appearance language, require a “results may vary” treatment only where the current rule supports it, and prohibit disease, medical or dramatic instant-result claims.</p>`,
+  `<p>The BFCM creator guide calls out truthful product claims, medical and weight-management restrictions, minors, fundraising, off-platform redirection, sensitive topics, inappropriate content and unauthorized IP. It also says creators should use seller-provided information and focus on features and functionality instead of unrealistic promises. A brand should narrow the brief to the risks that actually apply to the SKU and planned scene.</p>`,
+  `<p>Include rights boundaries. The creator should know which logos, character assets, brand images and music may be used. An available image file is not proof of commercial permission. The campaign guide warns against counterfeit goods, unauthorized logos or trademarks, unlicensed characters, music and other protected assets. Put approved assets in one controlled folder and label everything else unavailable.</p>`,
+  `<h2>Block 5: make the handoff executable</h2>`,
+  `<p>State the deliverable, posting window, required product visibility, link instructions, draft or review rule when applicable, and the owner who will answer questions. Separate factual corrections from optional creative feedback. A correction addresses the wrong SKU, unsupported claim, inaccurate price, missing condition, rights issue or broken link. A preference changes style without correcting a material risk.</p>`,
+  `<p>Set response times. If a creator asks whether a claim or offer is approved, the answer must arrive while production can still change. Assign one source owner for product facts, one for live offers and one final release owner. If nobody owns an answer, the creator should omit the uncertain claim rather than improvise.</p>`,
+  `<p>Record the final asset ID, linked product, posting date, offer readback, approval version and public URL. A draft approval is not proof that the posted video used the same file or product link. After posting, verify the public asset and capture any product-anchor, price or policy notice that changes the operating state.</p>`,
+  `<figure><img src="/blog/q4-13-bfcm-brief/evidence-en-v1.png" alt="Evidence attachments for a TikTok Shop BFCM creator brief"><figcaption>The one-page brief points to controlled evidence for product, claims, offer and rights.</figcaption></figure>`,
+  `<h2>Attach four evidence packets</h2>`,
+  `<p><strong>SKU card:</strong> current product page, variant map, package photo and sample-to-sellable-unit differences. <strong>Claim file:</strong> approved claims, supporting source, conditions and owner. <strong>Offer readback:</strong> posting-time showcase or product-path price, coupon, selected SKU, eligibility and validity. <strong>Rights and timing:</strong> approved logos, music route, usage-rights terms, delivery milestones and escalation contacts.</p>`,
+  `<p>The brief remains one page because these packets hold the depth. Use links or IDs that point to a controlled version, not a folder of ambiguous drafts. Every packet needs a last-verified date and owner. When product packaging, a variant, claim, promotion or rights term changes, update the packet and issue a new brief version only to affected creators.</p>`,
+  `<h2>A BFCM creator workflow</h2>`,
+  `<p>Before sample shipment, confirm the creator-product fit, exact sample and sellable SKU. At receipt, ask the creator to report damage, mismatch or missing contents before filming. Before filming, close open product and claim questions. Before posting, verify the final product link, active offer and conditions. After posting, read back the public content, product anchor and current campaign or account notices.</p>`,
+  `<p>During the campaign, monitor more than output count. The official guide explains that creator participation may depend on CHR, PPS and additional quality or compliance signals, and that performance is monitored. The brief cannot guarantee eligibility or prevent enforcement. It can reduce avoidable inconsistency and provide a cleaner record for correction.</p>`,
+  `<p>When an offer expires, review every asset containing specific price or urgency language. The current price guide recommends updating, unlinking, removing or stopping promotion of outdated claims where possible. A reusable content system should tag price-sensitive assets at approval so the team can find them without searching the whole creator library after the campaign.</p>`,
+  `<h2>One-page template</h2>`,
+  `<table><tr><th>Section</th><th>What the brand supplies</th><th>Release check</th></tr><tr><td>Campaign job</td><td>One buyer decision and one audience situation</td><td>The job is observable on camera</td></tr><tr><td>Product truth</td><td>Exact SKU, variant, contents, material, compatibility and link</td><td>Sample, listing and sellable unit agree</td></tr><tr><td>Proof task</td><td>One visible demonstration plus two or three priority facts</td><td>Setup and result stay within evidence</td></tr><tr><td>Offer</td><td>Source, active window, conditions and fallback language</td><td>Posting-time readback is recorded</td></tr><tr><td>Guardrails</td><td>Approved, conditional and prohibited wording</td><td>Claim and rights owners have cleared it</td></tr><tr><td>Handoff</td><td>Deliverable, timing, link, rights, contacts and version</td><td>Public asset and product anchor are verified</td></tr></table>`,
+  `<h2>Operational example: a holiday kitchen bundle</h2>`,
+  `<p>Consider a hypothetical brand briefing creators for a BFCM kitchen-tool bundle. The sellable unit contains four tools, but an early sample contains three. The team does not tell creators to mention four while filming three. It waits for the correct sample or limits the shot to an accurate demonstration that does not misrepresent quantity, then records the final package before release.</p>`,
+  `<p>The planned discount applies only to the bundle and requires an active coupon. The brief does not say everyone gets one universal price. It gives a release-day product-path check, the conditional sentence, and a no-specific-price fallback. The proof job is to show how the four tools store together. Claims about being the “best” or “cheapest” are excluded. This is a WEM operating example, not a claim about platform approval or performance.</p>`,
+  `<h2>The smallest useful action today</h2>`,
+  `<p>Choose one priority BFCM SKU and compress its current creator instructions into five blocks: product truth, proof job, live offer, guardrails and handoff. Delete any instruction that cannot be verified or acted on. Put the supporting product, claim, offer and rights records behind the page, assign owners, then test the brief with one person who did not write it. If they cannot identify the exact SKU, proof and posting-time check in two minutes, revise before sending it to creators.</p>`,
+  `<h2>Source notes and execution boundary</h2>`,
+  `<p>This original WE Marketing operating framework draws on the complete current TikTok Shop U.S. Seller University <a href="${sources.content}">Content Policy</a>, published September 25, 2026, the <a href="${sources.bfcm}">2026 BFCM Creator Campaign Guide</a>, published September 23, 2026, and the <a href="${sources.price}">Price and Discount Content Claims Guide</a>, published July 16, 2026. All three were revalidated October 9, 2026. Platform interfaces, campaign eligibility, scores, offers and enforcement can change. Verify the current creator tools, Seller Center, product path and applicable policies before execution. This brief system does not guarantee campaign eligibility, distribution, sales or absence of enforcement.</p>`,
+  faqHtml(faqEn,false),
+  `<h2>Related WEM guides</h2><section class="related-grid"><a href="/blog/tiktok-shop-creator-brief-template"><strong>Creator brief foundation</strong><span>Build the core brief before adding seasonal controls.</span></a><a href="/blog/tiktok-shop-bfcm-pricing-margin-waterfall"><strong>BFCM price and margin</strong><span>Connect campaign prices to the actual margin stack.</span></a><a href="/blog/tiktok-shop-creator-content-review-before-scale"><strong>Creator content review</strong><span>Separate factual corrections from creative preference.</span></a></section>`
+]);
+
+const ZH=P([
+  `<p class="eyebrow">TIKTOK SHOP 美国站 · BFCM 达人运营</p><h1>${zhTitle}</h1><img class="hero" src="/blog/hero-${slug}-zh-v1.png" alt="${zhTitle}"><p class="byline">WE Marketing Team · 2026 年 10 月 9 日 · 15 分钟阅读</p>`,
+  `<p><strong>直接答案：</strong>真正能执行的 BFCM 达人 Brief，应该是一页操作控制表，不是 Mood Board，也不是逐字稿。它只放一个已经核验的商品事实、一个买家决策、一个可见镜头任务、实时 Offer 核验规则、清楚的 Claim 边界、准确挂链、时间和问题负责人；更深的证据放在这一页后面的附件里。</p>`,
+  `<p>容易误导买家的地方要严格锁定，体现达人个性的地方要保留自由。锁定 SKU、Variant、数量、材质、Included Items、Compatibility、批准 Claim、适用条件、Posting Window 与 Rights；不要要求每个达人使用同一个 Hook、同一句话、同一个房间和同一种性格。Seasonal Brief 的价值，是让达人拍摄时不需要打开十页 Deck，也能准确完成内容。</p>`,
+  `<p>BFCM 会放大任何不一致。当前美国站 Creator Campaign Guide 要求参与者提前准备内容与 Listing，使用官方卖家信息，保持 Claim 可支持，避开限制主题并使用有授权的 IP。当前 Content Policy 同时覆盖口播、On-screen Text、Cover、Title、Props、Demonstration 等元素，所以 Brief 控制的是完整内容包，不只是 Caption。</p>`,
+  `<figure><img src="/blog/q4-13-bfcm-brief/page-zh-v1.png" alt="一页 TikTok Shop BFCM 达人 Brief 的五个执行区"><figcaption>决策页保持短，证据放在后面的受控附件里。</figcaption></figure>`,
+  `<h2>先写 Campaign Job，不要先写口号</h2>`,
+  `<p>用一句话说明，这条内容要帮助买家看懂什么或决定什么，例如选对 Size、确认包装里有哪些配件、理解一个 Setup Step、比较两个批准 Variant，或者判断产品适合谁。“拍一条很有 BFCM 氛围的视频”不是可执行任务，因为达人不知道镜头需要证明什么。</p>`,
+  `<p>再把 Job 连接到一个真实使用情境。不要只写年龄和性别，而是写租房、收纳空间有限、正在比较 Pack Size 等行为问题。然后指定可见 Proof：展示折叠尺寸、数清 Included Pieces、演示批准的安装步骤，或者在正常光线下比较 Texture。一个内容可以讲多个 Benefit，但应只有一个主 Proof Job。</p>`,
+  `<p>Proof Task 不能偷换成 Performance Promise。一次 Demonstration 只说明在特定 Setup 下发生了什么，不能证明每个人都会得到同样结果。保存实际商品、Variant、配件、环境和时间，Final Edit 才能回到准确 SKU 做审核。</p>`,
+  `<h2>区块一：冻结 Product Truth</h2>`,
+  `<p>Brief 第一部分写清 Sellable Unit：Product Name、PID 或 Product Link、SKU 或 Variant、Color、Size、Quantity、Material、Included Accessories 和当前 Packaging。只保留和内容任务有关的事实。达人必须知道 Sample 与 Sellable Unit 是否不同，以及哪些差异不能出现在镜头里。</p>`,
+  `<p>当前 Content Policy 禁止与被推广商品不一致、虚假或误导的信息，包括 Key Attribute、Model、Guarantee、Warranty、Delivery、Logistics、Return 与 Customer Service。AIGC Demonstration 也不能改变 Scale、Material、Color、Bundle Quantity、Lighting Effect、Movement、Installation、Surface Compatibility、Rated Capacity 或 Result。Brief 中的重要事实要能连接商品页或证据附件。</p>`,
+  `<p>BFCM 还要确认达人挂的是已注册商品和计划 Variant。当前活动指南说明，商品注册进 Campaign 后，活动期间不能修改 Variation。Sample、Product Page 和 Registered Variation 不一致时，不要让达人用口播“解释过去”，应 Hold 内容，等待正确实物与 Link。</p>`,
+  `<h2>区块二：分开 Proof 与 Creative Freedom</h2>`,
+  `<p>把 Mandatory Truth 和 Creative Preference 分开。Mandatory 可以包括展示准确商品、正确演示步骤、准确 Pack Count、必要 Disclosure 与正确 Product Link；Creative Preference 包括 Opening Hook、Room、Transition、合规且有 Rights 的 Music、Edit Pace 和个人措辞。</p>`,
+  `<p>不要给达人十个同等重要的 Benefit。只选两到三个事实，并指定镜头必须证明的一个事实。提供几种可接受 Proof 示例，而不是唯一的 Shot-by-shot Storyboard。如果达人找到更清楚的演示方式，审核问题应该是“是否准确、是否有授权”，而不是“有没有使用品牌团队最喜欢的 Transition”。</p>`,
+  `<p>高质量节日内容仍要让人感受到真实 Creator。Content Policy 把缺少有意义呈现或商品演示的内容视为低质量。只录 Checkout Screen 或只放静态 Graphic 不能替代 Product Information。达人需要解释、拿取、使用或比较商品，真正解决 Brief 定义的 Buyer Question。</p>`,
+  `<h2>区块三：建立发布时价格 Gate</h2>`,
+  `<p>BFCM Brief 不能把 Planned Price 写成无条件承诺。价格可能受 Coupon、Selected SKU、Bundle、Minimum Spend、User Eligibility、Shipping、Tax、Fee 与 Promotion Period 影响。当前价格指南说明，达人挂链时 Showcase 显示的价格是更安全的参考；如果更低价格由 Active Coupon、Selected SKU 或 Promotion 支持，则必须说明关键条件。</p>`,
+  `<p>Offer 部分使用三个字段：Offer Source、Valid Window 与 Required Qualifier。Source 是当前商品路径或批准的活动记录；Valid Window 是可以把 Offer 说成 Active 的期间；Qualifier 说明 Coupon、Selected Variant、Bundle、New-user Status、Minimum Spend、Availability 等条件。指定一个 Posting-time Readback Owner，不要让达人依赖 Brief 日期的旧截图。</p>`,
+  `<p>Preheat 不等于已经生效。Price、Coupon 或 Campaign 还在 Preview 阶段时，不能告诉买家现在已经可以获得。也不要使用没有证据支持的 Lowest Price、Cheapest 或 Guaranteed。预计 BFCM 后仍长期保留的视频，可以使用不写具体价格的 Product-led 版本，或者在发布前建立 Expiration Cleanup Plan。</p>`,
+  `<h2>区块四：用达人看得懂的语言写边界</h2>`,
+  `<p>不要把整份 Policy 粘贴进 Brief。只把与 SKU 有关的风险整理成三栏：批准表达、需要条件的表达、不能使用的表达。以护肤品为例，Texture Demonstration 和 Cosmetic Appearance Language 可能属于可用范围；只有当前规则支持时，才在特定 Before-and-after 或时间结果里使用合适限定；Disease、Medical 或 Dramatic Instant Result Claim 则不能出现。</p>`,
+  `<p>BFCM Creator Guide 特别提醒 Truthful Claim、Medical 和 Weight-management Restriction、Minor、Fundraising、Off-platform Redirection、Sensitive Topic、Inappropriate Content 与 Unauthorized IP，并要求达人使用 Seller-provided Information，聚焦 Product Feature 与 Functionality，避免 Unrealistic Promise。品牌应只把真实适用的风险放进 Brief。</p>`,
+  `<p>Rights 也要写清。达人需要知道哪些 Logo、Character Asset、Brand Image 和 Music 可以使用。拿到一个文件，不等于有 Commercial Permission。活动指南提醒不要推广 Counterfeit，也不要擅自使用 Logo、Trademark、Character、Music 与其他 Protected Asset。批准资产放进一个受控文件夹，其他素材清楚标记不可用。</p>`,
+  `<h2>区块五：让 Handoff 真正可执行</h2>`,
+  `<p>写明 Deliverable、Posting Window、Required Product Visibility、挂链方式、适用时的 Draft 或 Review Rule，以及问题联系人。Factual Correction 与 Creative Preference 要分开。Correction 解决 Wrong SKU、Unsupported Claim、Inaccurate Price、Missing Condition、Rights Issue 或 Broken Link；Preference 只是改变风格，并没有修正实质风险。</p>`,
+  `<p>还要设置回答时间。达人问 Claim 或 Offer 能不能说时，答案必须在 Production 还能修改时回来。商品事实、Live Offer 与 Final Release 分别指定 Owner。没有人能确认时，达人应该删掉不确定 Claim，而不是自己猜。</p>`,
+  `<p>保存 Final Asset ID、Linked Product、Posting Date、Offer Readback、Approval Version 和 Public URL。Draft Approved 不等于发布的视频仍使用同一个 File 与 Product Link。发布后还要回读 Public Asset、Product Anchor，以及改变运营状态的 Price 或 Policy Notice。</p>`,
+  `<figure><img src="/blog/q4-13-bfcm-brief/evidence-zh-v1.png" alt="TikTok Shop BFCM 达人 Brief 需要连接的证据附件"><figcaption>一页 Brief 连接商品、Claim、Offer 与 Rights 四组受控证据。</figcaption></figure>`,
+  `<h2>在 Brief 后面连接四组证据</h2>`,
+  `<p><strong>SKU Card：</strong>当前 Product Page、Variant Map、Package Photo，以及 Sample 与 Sellable Unit 的差异。<strong>Claim File：</strong>批准表达、Supporting Source、Condition 与 Owner。<strong>Offer Readback：</strong>发布时 Showcase 或 Product Path 的 Price、Coupon、Selected SKU、Eligibility 与 Validity。<strong>Rights + Timing：</strong>批准 Logo、Music Route、Usage Rights、Delivery Milestone 与 Escalation Contact。</p>`,
+  `<p>Brief 可以保持一页，是因为附件承载深度。使用指向 Controlled Version 的 Link 或 ID，不要给达人一个充满 Draft 的 Folder。每个附件都要有 Last-verified Date 与 Owner。Packaging、Variant、Claim、Promotion 或 Rights Term 变化时，只更新受影响 Packet，并向对应达人发新 Version。</p>`,
+  `<h2>一条 BFCM 达人工作流</h2>`,
+  `<p>寄样前确认 Creator-product Fit、准确 Sample 与 Sellable SKU；签收时让达人在拍摄前报告 Damage、Mismatch 或 Missing Contents；拍摄前关闭 Product 与 Claim 问题；发布前核验 Final Product Link、Active Offer 与 Conditions；发布后回读 Public Content、Product Anchor 和当前 Campaign 或 Account Notice。</p>`,
+  `<p>活动中不能只看发布数量。官方指南说明 Creator Participation 可能受 CHR、PPS 与其他 Quality、Compliance Signal 影响，而且平台会持续监控表现。Brief 不能保证资格，也不能保证不被 Enforcement，但能减少本可避免的不一致，并保留更清楚的修正记录。</p>`,
+  `<p>Offer 到期后，检查所有包含 Specific Price 或 Urgency Language 的 Asset。当前 Price Guide 建议，在可用情况下更新、解绑、移除或停止推广过期 Claim。批准时就给 Price-sensitive Asset 打 Tag，活动结束后才能准确找到，而不是重新搜索整个 Creator Library。</p>`,
+  `<h2>一页模板</h2>`,
+  `<table><tr><th>区块</th><th>品牌提供什么</th><th>Release Check</th></tr><tr><td>Campaign Job</td><td>一个 Buyer Decision 与一个 Audience Situation</td><td>任务能在镜头里观察</td></tr><tr><td>Product Truth</td><td>准确 SKU、Variant、内容物、材质、Compatibility 与 Link</td><td>Sample、Listing 与 Sellable Unit 一致</td></tr><tr><td>Proof Task</td><td>一个可见演示与两到三个 Priority Fact</td><td>Setup 与 Result 不超出证据</td></tr><tr><td>Offer</td><td>Source、Active Window、Condition 与 Fallback Language</td><td>保存发布时回读</td></tr><tr><td>Guardrails</td><td>批准、条件和禁止表达</td><td>Claim 与 Rights Owner 已确认</td></tr><tr><td>Handoff</td><td>Deliverable、Timing、Link、Rights、Contact 与 Version</td><td>回读 Public Asset 与 Product Anchor</td></tr></table>`,
+  `<h2>运营示例：节日厨房工具 Bundle</h2>`,
+  `<p>假设一个品牌为 BFCM 厨房工具 Bundle Brief 达人。Sellable Unit 有四件工具，但早期 Sample 只有三件。团队不能让达人一边拍三件、一边口播四件。它应等待正确 Sample，或者把画面限制在不会误导 Quantity 的准确 Demonstration，再在 Release 前记录最终包装。</p>`,
+  `<p>Planned Discount 只适用于 Bundle，而且要求 Active Coupon。Brief 不写“所有人都是一个价格”，而是给出 Release-day Product-path Check、Condition Sentence 与 No-specific-price Fallback。Proof Job 是展示四件工具怎样一起收纳；Best、Cheapest 等 Claim 被排除。这是 WEM 运营示例，不代表平台批准或表现保证。</p>`,
+  `<h2>今天就做的最小动作</h2>`,
+  `<p>选一个 Priority BFCM SKU，把现有达人说明压缩成五块：Product Truth、Proof Job、Live Offer、Guardrails 与 Handoff。删掉所有无法核验或无法执行的 Instruction。把 Product、Claim、Offer 与 Rights Record 连接在这一页后面，指定 Owner，再交给一个没有参与写作的人测试。如果两分钟内说不出准确 SKU、Proof 和 Posting-time Check，就继续修改，不要先发给达人。</p>`,
+  `<h2>来源说明与执行边界</h2>`,
+  `<p>这套 WE Marketing 原创运营框架基于 TikTok Shop 美国站 Seller University 的完整当前 <a href="${sources.content}">Content Policy</a>（2026 年 9 月 25 日）、<a href="${sources.bfcm}">2026 BFCM Creator Campaign Guide</a>（2026 年 9 月 23 日）和 <a href="${sources.price}">Price and Discount Content Claims Guide</a>（2026 年 7 月 16 日），三份来源均于 2026 年 10 月 9 日重新核验。平台界面、Campaign Eligibility、Score、Offer 与 Enforcement 可能变化，执行前应核验当前 Creator Tools、Seller Center、Product Path 与适用 Policy。Brief 系统不保证活动资格、分发、销量或不会触发平台措施。</p>`,
+  faqHtml(faqZh,true),
+  `<h2>相关 WEM 指南</h2><section class="related-grid"><a href="/blog/tiktok-shop-creator-brief-template?lang=zh"><strong>达人 Brief 基础模板</strong><span>先建立核心 Brief，再添加季节活动控制。</span></a><a href="/blog/tiktok-shop-bfcm-pricing-margin-waterfall?lang=zh"><strong>BFCM 价格与毛利</strong><span>把活动价格连接到真实利润结构。</span></a><a href="/blog/tiktok-shop-creator-content-review-before-scale?lang=zh"><strong>达人内容审核</strong><span>分开事实修正与创意偏好。</span></a></section>`
+]);
+
+const citations=Object.values(sources);
+const graph={'@context':'https://schema.org','@graph':[
+  {'@type':'BlogPosting','@id':`${url}#article`,headline:enTitle,description:enDescription,inLanguage:'en-US',author:{'@type':'Organization','@id':'https://www.weglobalmarketing.com/#editorial-team',name:'WE Marketing Team'},publisher:{'@type':'Organization','@id':'https://www.weglobalmarketing.com/#organization',name:'WE Marketing',alternateName:'WEM'},image:{'@type':'ImageObject',url:`https://www.weglobalmarketing.com/blog/hero-${slug}-en-v1.png`,width:1792,height:896,caption:'WE Marketing TikTok Shop BFCM creator brief system'},datePublished:date,dateModified:date,mainEntityOfPage:{'@type':'WebPage','@id':url},citation:citations,keywords:['TikTok Shop BFCM creator brief','TikTok Shop creator brief','BFCM creator content']},
+  {'@type':'BlogPosting','@id':`${url}?lang=zh#article`,headline:zhTitle,description:zhDescription,inLanguage:'zh-CN',translationOfWork:{'@id':`${url}#article`},author:{'@id':'https://www.weglobalmarketing.com/#editorial-team'},publisher:{'@id':'https://www.weglobalmarketing.com/#organization'},image:{'@type':'ImageObject',url:`https://www.weglobalmarketing.com/blog/hero-${slug}-zh-v1.png`,width:1792,height:896,caption:'WE Marketing TikTok Shop BFCM 达人 Brief 系统'},datePublished:date,dateModified:date,mainEntityOfPage:{'@type':'WebPage','@id':`${url}?lang=zh`},citation:citations},
+  ...[[faqEn,'en-US',`${url}#faq`],[faqZh,'zh-CN',`${url}?lang=zh#faq`]].map(([items,lang,id])=>({'@type':'FAQPage','@id':id,inLanguage:lang,mainEntity:items.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))})),
+  {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:'https://www.weglobalmarketing.com/'},{'@type':'ListItem',position:2,name:'Blog',item:'https://www.weglobalmarketing.com/blog'},{'@type':'ListItem',position:3,name:enTitle,item:url}]}
+]};
+
+const oldHtml=await fs.readFile(path.join(base,'blog/tiktok-shop-shop-tab-eligibility-three-gate-audit.html'),'utf8');
+const style=oldHtml.match(/<style>[\s\S]*?<\/style>/)[0];
+const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>document.documentElement.dataset.lang=new URLSearchParams(location.search).get('lang')==='zh'?'zh':'en';document.documentElement.lang=document.documentElement.dataset.lang==='zh'?'zh-CN':'en'</script><title>${enTitle} | WE Marketing</title><meta name="description" content="${enDescription}"><link rel="canonical" href="${url}"><link rel="alternate" hreflang="en-US" href="${url}"><link rel="alternate" hreflang="zh-CN" href="${url}?lang=zh"><link rel="alternate" hreflang="x-default" href="${url}"><script type="application/ld+json">${JSON.stringify(graph)}</script>${style}</head><body><nav class="nav"><a class="logo" href="/"><img src="/assets/we-logo.png" alt="WE Marketing"></a><a href="/services">SERVICES</a><a href="/about">ABOUT</a><a href="/blog">BLOG</a><span class="spacer"></span><div class="switch"><a class="zh" href="?lang=zh">中文</a><a class="en" href="?">EN</a></div></nav><main class="wrap"><div class="tools"><a class="en" href="/blog">← BLOG</a><a class="zh" href="/blog?lang=zh">← 博客</a></div><article lang="en">${EN}</article><article lang="zh-CN">${ZH}</article></main><section class="cta"><h2 class="en">READY TO TALK<br>TO WEM?</h2><h2 class="zh">准备好和 WEM<br>一起把计划落地吗？</h2><p class="en">Turn BFCM creator instructions into one controlled, executable brief.</p><p class="zh">把 BFCM 达人说明变成一页可控、可执行的 Brief。</p><a class="en" href="https://scheduler.zoom.us/wendylin001">BOOK A DISCOVERY CALL</a><a class="zh" href="https://scheduler.zoom.us/wendylin001">预约咨询</a></section><footer class="footer"><img src="/assets/we-logo.png" alt="WE Marketing"><p class="en">WE Marketing connects strategy, creator operations, paid growth and TikTok Shop execution.</p><p class="zh">WE Marketing 帮助品牌连接策略、达人运营、付费增长与 TikTok Shop 执行。</p><p>© 2026 WE Marketing. All rights reserved.</p></footer><script>if(document.documentElement.dataset.lang==='zh'){document.title=${JSON.stringify(zhTitle+' | WE Marketing')};document.querySelector('meta[name=description]').content=${JSON.stringify(zhDescription)};document.querySelector('link[rel=canonical]').href='${url}?lang=zh'}</script></body></html>`;
+await fs.writeFile(path.join(out,'blog',`${slug}.html`),html);
+
+let list=await fs.readFile(path.join(base,'BlogList.jsx'),'utf8');
+const row={slug,tags:['tiktok-shop','campaign-growth','content-ugc'],cat:{en:'TIKTOK SHOP U.S. · BFCM CREATOR OPERATIONS',zh:'TIKTOK SHOP 美国站 · BFCM 达人运营'},title:{en:enTitle,zh:zhTitle},excerpt:{en:'Give creators one executable page for product truth, proof, live offers and claim boundaries.',zh:'用一页 Brief 对齐商品事实、镜头任务、实时 Offer 与表达禁区。'},date:{en:'Oct 9, 2026',zh:'2026 年 10 月 9 日'},read:{en:'15 min read',zh:'15 分钟阅读'},image:{en:`hero-${slug}-en-v1.png`,zh:`hero-${slug}-zh-v1.png`}};
+list=list.replace('const BLOG_POSTS = [',`const BLOG_POSTS = [${JSON.stringify(row).replace(/"([A-Za-z_$][\w$]*)":/g,'$1:')},`);
+await fs.writeFile(path.join(out,'BlogList.jsx'),list);
+const sandbox={};vm.createContext(sandbox);vm.runInContext(await fs.readFile(path.join(root,'.cache/babel-standalone-7.29.0.min.js'),'utf8'),sandbox);
+const compiled=sandbox.Babel.transform(list,{presets:[['react',{runtime:'classic'}]],compact:true,minified:true,sourceType:'script'}).code+'\n';
+await fs.writeFile(path.join(out,'BlogList.compiled.js'),compiled);
+const version=sha(compiled).slice(0,12);
+const index=await fs.readFile(path.join(base,'blog.html'),'utf8');
+await fs.writeFile(path.join(out,'blog.html'),index.replace(/BlogList\.compiled\.js\?v=[^"']+/,`BlogList.compiled.js?v=${version}`));
+let sitemap=await fs.readFile(path.join(base,'sitemap.xml'),'utf8');
+await fs.writeFile(path.join(out,'sitemap.xml'),sitemap.replace('</urlset>',`<url><loc>${url}</loc><lastmod>${date}</lastmod></url><url><loc>${url}?lang=zh</loc><lastmod>${date}</lastmod></url></urlset>`));
+await fs.writeFile(path.join(out,'llms.txt'),(await fs.readFile(path.join(base,'llms.txt'),'utf8'))+`\n- ${enTitle}: ${url}\n  - 中文：${url}?lang=zh\n`);
+
+const sourceDir=path.join(root,'outputs/2026-10-09-q4-13-source');
+const sourceReport={status:'source_revalidated',date,sources:{}};
+for(const [name,sourceUrl] of Object.entries(sources)){
+  const file=path.join(sourceDir,name==='content'?'content-policy.html':name==='bfcm'?'bfcm-creator-campaign-guide.html':'price-discount-content-claims.html');
+  const bytes=await fs.readFile(file);
+  sourceReport.sources[name]={url:sourceUrl,httpStatus:200,bytes:bytes.length,sha256:sha(bytes)};
+}
+sourceReport.facts=[
+  'The Content Policy applies to LIVEs, videos, images, titles, spoken claims, on-screen text, props, demonstrations and other promoted elements.',
+  'The 2026 BFCM Creator Campaign Guide requires truthful, supportable product claims based on official seller information and authorized IP.',
+  'BFCM participants should prepare content and product listings in advance; creator performance and eligibility may be monitored during the campaign.',
+  'Price and discount claims must be accurate, current and qualified for coupons, SKUs, bundles, eligibility, shipping, taxes or promotion period where applicable.',
+  'Preheat is not activation; expired price or discount claims should be updated, unlinked, removed or no longer promoted where possible.'
+];
+await fs.writeFile(path.join(root,'outputs/2026-10-09-q4-13-source-revalidation.json'),`${JSON.stringify(sourceReport,null,2)}\n`);
+console.log(JSON.stringify({out,version,enWords:EN.replace(/<[^>]+>/g,' ').trim().split(/\s+/).length,zhChars:ZH.replace(/<[^>]+>/g,'').replace(/\s/g,'').length}));
