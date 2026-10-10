@@ -1,0 +1,38 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-10",
+  "sources": {
+    "content": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "httpStatus": 200,
+      "bytes": 225843,
+      "sha256": "91eb1b3fcecddee5367cc28918f518f6cbee6938a4f07a2b924c52288d63593a"
+    },
+    "claims": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6935962194478864&lang=en",
+      "httpStatus": 200,
+      "bytes": 178154,
+      "sha256": "270445506080f8285fe1ff79791a0c5843866009059b6c7d85c805f8796e8b85"
+    },
+    "transparency": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1584424904427277&lang=en",
+      "httpStatus": 200,
+      "bytes": 321227,
+      "sha256": "4f58234564496db08490d9bbd205dd9d046c6ecadbb3a5ef5752ae0b6a0ee0a2"
+    },
+    "rewards": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5122516513113876&lang=en",
+      "httpStatus": 200,
+      "bytes": 201676,
+      "sha256": "d5e179d06f41d0b6cedb29f0913ef63f764559b7d352ab50904da99e021a1dd2"
+    }
+  },
+  "facts": [
+    "The current Content Policy applies price-claim accuracy requirements across spoken statements, on-screen text, images, titles, links and other promoted elements.",
+    "Specific prices and discounts must be accurate, current and reasonably available through the promoted product path, with material conditions disclosed.",
+    "A scheduled price in preheat or preview is not an active offer and should not be represented as currently obtainable.",
+    "Campaign sale price and estimated campaign price are separate; same-layer priority and allowed cross-layer stacking can change the shopper-facing result.",
+    "The 2026 BFCM unified registration flow assigns product and SKU benefit tiers based on the registered price; SKU differences can affect the applied tier.",
+    "Expired or changed price claims should be updated, unlinked, removed or no longer promoted where available."
+  ]
+}

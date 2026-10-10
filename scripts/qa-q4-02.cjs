@@ -20,6 +20,7 @@ const configs = {
   'q4-11': { patch: '2026-10-07-q4-11-authorization-decision', prefix: '2026-10-07-q4-11', slug: 'tiktok-shop-brand-cobranded-originality-protection-decision', date: '2026-10-07', enDate: 'Oct 7, 2026', zhDate: '2026 年 10 月 7 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-12': { patch: '2026-10-08-q4-12-shop-tab-eligibility', prefix: '2026-10-08-q4-12', slug: 'tiktok-shop-shop-tab-eligibility-three-gate-audit', date: '2026-10-08', enDate: 'Oct 8, 2026', zhDate: '2026 年 10 月 8 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-13': { patch: '2026-10-09-q4-13-bfcm-creator-brief', prefix: '2026-10-09-q4-13', slug: 'tiktok-shop-bfcm-creator-brief', date: '2026-10-09', enDate: 'Oct 9, 2026', zhDate: '2026 年 10 月 9 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
+  'q4-14': { patch: '2026-10-10-q4-14-bfcm-price-claim-audit', prefix: '2026-10-10-q4-14', slug: 'tiktok-shop-bfcm-price-claim-audit', date: '2026-10-10', enDate: 'Oct 10, 2026', zhDate: '2026 年 10 月 10 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);

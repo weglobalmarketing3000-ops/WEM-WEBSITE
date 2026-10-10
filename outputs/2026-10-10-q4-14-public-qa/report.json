@@ -1,0 +1,644 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 152659,
+      "localSha256": "5fb878d1eb62266a5f839a06fdd2c69ec16d15a7df54f2bc85030a9f21362362",
+      "remoteSha256": "5fb878d1eb62266a5f839a06fdd2c69ec16d15a7df54f2bc85030a9f21362362",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 134136,
+      "localSha256": "eba085dd26232688be32de21395c434f1227b3dd816913a0892d7c9b1b05d7e4",
+      "remoteSha256": "eba085dd26232688be32de21395c434f1227b3dd816913a0892d7c9b1b05d7e4",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "2533bb026e7e9359d173f47ad64c54c93bd668d61d14dfe6d8bf5d11a6bc8362",
+      "remoteSha256": "2533bb026e7e9359d173f47ad64c54c93bd668d61d14dfe6d8bf5d11a6bc8362",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.png": {
+      "bytes": 114225,
+      "localSha256": "112b581e4378a8e5a637788a857f85e3b222546636c9328037461a8572354487",
+      "remoteSha256": "112b581e4378a8e5a637788a857f85e3b222546636c9328037461a8572354487",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.png": {
+      "bytes": 112958,
+      "localSha256": "36e428f4cf233b2a843733e2d0fa8e741931ead1647a25e860d4f3e274ef9279",
+      "remoteSha256": "36e428f4cf233b2a843733e2d0fa8e741931ead1647a25e860d4f3e274ef9279",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg": {
+      "bytes": 62733,
+      "localSha256": "f2be123d221afc672c6560bf6344619ef3011e6bf66d00ef718eccb0c65cdb78",
+      "remoteSha256": "f2be123d221afc672c6560bf6344619ef3011e6bf66d00ef718eccb0c65cdb78",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg": {
+      "bytes": 61952,
+      "localSha256": "5ce5df52a12e727b290e7ed4687f197798e4dbc2bc0ba1f3cb205817766205db",
+      "remoteSha256": "5ce5df52a12e727b290e7ed4687f197798e4dbc2bc0ba1f3cb205817766205db",
+      "match": true
+    },
+    "blog/q4-14-price-audit/kill-switch-en-v1.png": {
+      "bytes": 72781,
+      "localSha256": "45f848bdfbde9073656b4900ddadb72b19ef70e6b41f19f3c195ce97ddb4d1d3",
+      "remoteSha256": "45f848bdfbde9073656b4900ddadb72b19ef70e6b41f19f3c195ce97ddb4d1d3",
+      "match": true
+    },
+    "blog/q4-14-price-audit/kill-switch-zh-v1.png": {
+      "bytes": 69727,
+      "localSha256": "2dfe662e2f2f774d8dbc903fc3a97a254de1bd834fcc545463a1f10d362137e1",
+      "remoteSha256": "2dfe662e2f2f774d8dbc903fc3a97a254de1bd834fcc545463a1f10d362137e1",
+      "match": true
+    },
+    "blog/q4-14-price-audit/ledger-en-v1.png": {
+      "bytes": 75051,
+      "localSha256": "c05b6b84179827f332714f0bd873e096c7ed32163074c3180072f03d62a5f42b",
+      "remoteSha256": "c05b6b84179827f332714f0bd873e096c7ed32163074c3180072f03d62a5f42b",
+      "match": true
+    },
+    "blog/q4-14-price-audit/ledger-zh-v1.png": {
+      "bytes": 68406,
+      "localSha256": "58618dd9a741574c32c283fc7c77a93fe3868a1b6475a792bc1d3f8a10bb8436",
+      "remoteSha256": "58618dd9a741574c32c283fc7c77a93fe3868a1b6475a792bc1d3f8a10bb8436",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg": {
+      "bytes": 27314,
+      "localSha256": "b3fe2c4c578cb36bb6c1497af3cd852d4fb4ed217b08d1e4e9129490f6f0a039",
+      "remoteSha256": "b3fe2c4c578cb36bb6c1497af3cd852d4fb4ed217b08d1e4e9129490f6f0a039",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg": {
+      "bytes": 26717,
+      "localSha256": "e26df062fd86fd87d657985543e844d9f5d3893f1290dd421d4c9dd482b896ea",
+      "remoteSha256": "e26df062fd86fd87d657985543e844d9f5d3893f1290dd421d4c9dd482b896ea",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-price-claim-audit.html": {
+      "bytes": 41469,
+      "localSha256": "04175ad879dd6d07ecf4e812c02a002014495210b983cfde119e11f0f4bf9981",
+      "remoteSha256": "04175ad879dd6d07ecf4e812c02a002014495210b983cfde119e11f0f4bf9981",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 34281,
+      "localSha256": "767b5204c99ad9b4850f96a35da95c29968d372c03fc2d1f992559549d33d50e",
+      "remoteSha256": "767b5204c99ad9b4850f96a35da95c29968d372c03fc2d1f992559549d33d50e",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 48224,
+      "localSha256": "eb2933f9d85e6def1f1026b973823d4321d934e307e7a986b14fa92511ec5950",
+      "remoteSha256": "eb2933f9d85e6def1f1026b973823d4321d934e307e7a986b14fa92511ec5950",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 35208,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-10",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop BFCM price claim audit"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-10",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop BFCM 价格 Claim 审计"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page",
+      "documentTitle": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page | WE Marketing",
+      "description": "Build one TikTok Shop BFCM price-claim ledger across product pages, videos and LIVEs, with posting-time verification and a practical kill switch.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 850,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/ledger-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/kill-switch-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对",
+      "documentTitle": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对 | WE Marketing",
+      "description": "用一张 TikTok Shop BFCM 价格口径台账统一商品页、短视频与直播，并建立发布时核验和失效下线机制。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 850,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/ledger-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/kill-switch-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page",
+      "documentTitle": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page | WE Marketing",
+      "description": "Build one TikTok Shop BFCM price-claim ledger across product pages, videos and LIVEs, with posting-time verification and a practical kill switch.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 850,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/ledger-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/kill-switch-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对",
+      "documentTitle": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对 | WE Marketing",
+      "description": "用一张 TikTok Shop BFCM 价格口径台账统一商品页、短视频与直播，并建立发布时核验和失效下线机制。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 850,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/ledger-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "https://www.weglobalmarketing.com/blog/q4-14-price-audit/kill-switch-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit?",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit",
+          "text": "Oct 10, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nAudit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page\n\nAudit every price claim across product pages, videos and LIVEs with one ledger and kill switch.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief",
+          "text": "Oct 9, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nA TikTok Shop BFCM Creator Brief That Creators Can Actually Follow\n\nGive creators one executable page for product truth, proof, live offers and claim boundaries.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit",
+          "text": "Oct 10, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nAudit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page\n\nAudit every price claim across product pages, videos and LIVEs with one ledger and kill switch.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief",
+          "text": "Oct 9, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nA TikTok Shop BFCM Creator Brief That Creators Can Actually Follow\n\nGive creators one executable page for product truth, proof, live offers and claim boundaries.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+          "text": "2026 年 10 月 10 日\nTIKTOK-SHOP\n活动与增长\nTikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对\n\n用一张台账和 Kill Switch 核对商品页、短视频与直播的全部价格口径。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief?lang=zh",
+          "text": "2026 年 10 月 9 日\nTIKTOK-SHOP\n活动与增长\n一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区\n\n用一页 Brief 对齐商品事实、镜头任务、实时 Offer 与表达禁区。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+          "text": "2026 年 10 月 10 日\nTIKTOK-SHOP\n活动与增长\nTikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对\n\n用一张台账和 Kill Switch 核对商品页、短视频与直播的全部价格口径。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief?lang=zh",
+          "text": "2026 年 10 月 9 日\nTIKTOK-SHOP\n活动与增长\n一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区\n\n用一页 Brief 对齐商品事实、镜头任务、实时 Offer 与表达禁区。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit",
+          "text": "Oct 10, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nAudit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page\n\nAudit every price claim across product pages, videos and LIVEs with one ledger and kill switch.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief",
+          "text": "Oct 9, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nA TikTok Shop BFCM Creator Brief That Creators Can Actually Follow\n\nGive creators one executable page for product truth, proof, live offers and claim boundaries.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit",
+          "text": "Oct 10, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nAudit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page\n\nAudit every price claim across product pages, videos and LIVEs with one ledger and kill switch.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief",
+          "text": "Oct 9, 2026\nTIKTOK-SHOP\nCAMPAIGNS & GROWTH\nA TikTok Shop BFCM Creator Brief That Creators Can Actually Follow\n\nGive creators one executable page for product truth, proof, live offers and claim boundaries.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit",
+          "text": "Oct 8, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nAllowed to Sell Does Not Mean Eligible for TikTok Shop Tab Recommendation\n\nSeparate permission to sell, Shop Tab recommendation eligibility and readiness to scale.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+          "text": "2026 年 10 月 10 日\nTIKTOK-SHOP\n活动与增长\nTikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对\n\n用一张台账和 Kill Switch 核对商品页、短视频与直播的全部价格口径。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief?lang=zh",
+          "text": "2026 年 10 月 9 日\nTIKTOK-SHOP\n活动与增长\n一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区\n\n用一页 Brief 对齐商品事实、镜头任务、实时 Offer 与表达禁区。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-price-claim-audit?lang=zh",
+          "text": "2026 年 10 月 10 日\nTIKTOK-SHOP\n活动与增长\nTikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对\n\n用一张台账和 Kill Switch 核对商品页、短视频与直播的全部价格口径。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-creator-brief?lang=zh",
+          "text": "2026 年 10 月 9 日\nTIKTOK-SHOP\n活动与增长\n一份达人真正能执行的 TikTok Shop BFCM Brief：商品事实、价格与禁区\n\n用一页 Brief 对齐商品事实、镜头任务、实时 Offer 与表达禁区。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-creator-brief-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shop-tab-eligibility-three-gate-audit?lang=zh",
+          "text": "2026 年 10 月 8 日\nTIKTOK-SHOP\n店铺运营\n能卖不等于能被 TikTok Shop Tab 推荐：商品和内容还差哪一步\n\n把商品可售、Shop Tab 推荐资格与真正可放量状态分开判断。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shop-tab-eligibility-three-gate-audit-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=5fb878d1eb62",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

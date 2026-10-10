@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_BB6tNnq7ou2HtoQZcAUvjLUZ2EKW",
+  "url": "https://wem-website-qj1aeg15u-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 152659,
+      "localSha256": "5fb878d1eb62266a5f839a06fdd2c69ec16d15a7df54f2bc85030a9f21362362",
+      "remoteSha256": "5fb878d1eb62266a5f839a06fdd2c69ec16d15a7df54f2bc85030a9f21362362",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 134136,
+      "localSha256": "eba085dd26232688be32de21395c434f1227b3dd816913a0892d7c9b1b05d7e4",
+      "remoteSha256": "eba085dd26232688be32de21395c434f1227b3dd816913a0892d7c9b1b05d7e4",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "2533bb026e7e9359d173f47ad64c54c93bd668d61d14dfe6d8bf5d11a6bc8362",
+      "remoteSha256": "2533bb026e7e9359d173f47ad64c54c93bd668d61d14dfe6d8bf5d11a6bc8362",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.png",
+      "bytes": 114225,
+      "localSha256": "112b581e4378a8e5a637788a857f85e3b222546636c9328037461a8572354487",
+      "remoteSha256": "112b581e4378a8e5a637788a857f85e3b222546636c9328037461a8572354487",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.png",
+      "bytes": 112958,
+      "localSha256": "36e428f4cf233b2a843733e2d0fa8e741931ead1647a25e860d4f3e274ef9279",
+      "remoteSha256": "36e428f4cf233b2a843733e2d0fa8e741931ead1647a25e860d4f3e274ef9279",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg",
+      "bytes": 62733,
+      "localSha256": "f2be123d221afc672c6560bf6344619ef3011e6bf66d00ef718eccb0c65cdb78",
+      "remoteSha256": "f2be123d221afc672c6560bf6344619ef3011e6bf66d00ef718eccb0c65cdb78",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg",
+      "bytes": 61952,
+      "localSha256": "5ce5df52a12e727b290e7ed4687f197798e4dbc2bc0ba1f3cb205817766205db",
+      "remoteSha256": "5ce5df52a12e727b290e7ed4687f197798e4dbc2bc0ba1f3cb205817766205db",
+      "match": true
+    },
+    "blog/q4-14-price-audit/kill-switch-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-audit/kill-switch-en-v1.png",
+      "bytes": 72781,
+      "localSha256": "45f848bdfbde9073656b4900ddadb72b19ef70e6b41f19f3c195ce97ddb4d1d3",
+      "remoteSha256": "45f848bdfbde9073656b4900ddadb72b19ef70e6b41f19f3c195ce97ddb4d1d3",
+      "match": true
+    },
+    "blog/q4-14-price-audit/kill-switch-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-audit/kill-switch-zh-v1.png",
+      "bytes": 69727,
+      "localSha256": "2dfe662e2f2f774d8dbc903fc3a97a254de1bd834fcc545463a1f10d362137e1",
+      "remoteSha256": "2dfe662e2f2f774d8dbc903fc3a97a254de1bd834fcc545463a1f10d362137e1",
+      "match": true
+    },
+    "blog/q4-14-price-audit/ledger-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-audit/ledger-en-v1.png",
+      "bytes": 75051,
+      "localSha256": "c05b6b84179827f332714f0bd873e096c7ed32163074c3180072f03d62a5f42b",
+      "remoteSha256": "c05b6b84179827f332714f0bd873e096c7ed32163074c3180072f03d62a5f42b",
+      "match": true
+    },
+    "blog/q4-14-price-audit/ledger-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-audit/ledger-zh-v1.png",
+      "bytes": 68406,
+      "localSha256": "58618dd9a741574c32c283fc7c77a93fe3868a1b6475a792bc1d3f8a10bb8436",
+      "remoteSha256": "58618dd9a741574c32c283fc7c77a93fe3868a1b6475a792bc1d3f8a10bb8436",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-en-v1.jpg",
+      "bytes": 27314,
+      "localSha256": "b3fe2c4c578cb36bb6c1497af3cd852d4fb4ed217b08d1e4e9129490f6f0a039",
+      "remoteSha256": "b3fe2c4c578cb36bb6c1497af3cd852d4fb4ed217b08d1e4e9129490f6f0a039",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-zh-v1.jpg",
+      "bytes": 26717,
+      "localSha256": "e26df062fd86fd87d657985543e844d9f5d3893f1290dd421d4c9dd482b896ea",
+      "remoteSha256": "e26df062fd86fd87d657985543e844d9f5d3893f1290dd421d4c9dd482b896ea",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-price-claim-audit.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-price-claim-audit.html",
+      "bytes": 41469,
+      "localSha256": "04175ad879dd6d07ecf4e812c02a002014495210b983cfde119e11f0f4bf9981",
+      "remoteSha256": "04175ad879dd6d07ecf4e812c02a002014495210b983cfde119e11f0f4bf9981",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 34281,
+      "localSha256": "767b5204c99ad9b4850f96a35da95c29968d372c03fc2d1f992559549d33d50e",
+      "remoteSha256": "767b5204c99ad9b4850f96a35da95c29968d372c03fc2d1f992559549d33d50e",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 48224,
+      "localSha256": "eb2933f9d85e6def1f1026b973823d4321d934e307e7a986b14fa92511ec5950",
+      "remoteSha256": "eb2933f9d85e6def1f1026b973823d4321d934e307e7a986b14fa92511ec5950",
+      "match": true
+    }
+  },
+  "passed": true
+}

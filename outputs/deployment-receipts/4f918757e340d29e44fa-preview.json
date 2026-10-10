@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-10-q4-14-bfcm-price-claim-audit",
+  "patchFingerprint": "4f918757e340d29e44fa3ac9ad1e0d6334753544041197b99f7c42a12399e321",
+  "pid": 61493,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/4f918757e340d29e44fa-preview.log",
+  "url": "https://wem-website-qj1aeg15u-wem1.vercel.app",
+  "deploymentId": "dpl_BB6tNnq7ou2HtoQZcAUvjLUZ2EKW",
+  "exitCode": 0,
+  "updatedAt": "2026-10-10T13:14:26Z"
+}
