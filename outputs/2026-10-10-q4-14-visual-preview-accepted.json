@@ -1,0 +1,42 @@
+{
+  "status": "visual_preview_accepted",
+  "date": "2026-10-10",
+  "target": "q4-14",
+  "slug": "tiktok-shop-bfcm-price-claim-audit-video-live-product-page",
+  "rawScene": {
+    "path": "outputs/2026-10-10-q4-14-source/raw-scene-not-for-review.png",
+    "reviewStatus": "raw scene - not for review"
+  },
+  "referenceInspection": {
+    "article1": "ui_kits/website/blog/hero-tiktok-shop-hero-sku-search-demand-v2.png",
+    "article2": "ui_kits/website/blog/hero-tiktok-shop-catalog-architecture-v2.png",
+    "article3": "ui_kits/website/blog/hero-tiktok-shop-preorder-mto-backorder-v3.png",
+    "passed": true,
+    "notes": "Final bilingual covers retain the established warm-white and lavender field, condensed left headline, official WEM logo, blue-purple palette, generous whitespace and one cohesive right-side 3D operating scene. The cover is not an infographic or multi-panel workflow."
+  },
+  "fullSize": {
+    "englishSha256": "7516cc854b6e34fc43f02a10e26a2173d42c23ba38adb01bfc3da931e6e18a74",
+    "chineseSha256": "c67412cb05326677126c8460da77a015c947461494a46b947ca2b6177d3203c3",
+    "headlineAndOfficialLogoLegible": true
+  },
+  "optimized": {
+    "englishSha256": "ddd129d081cffe0d346bb9f0e2ab24142e5233abf772ba1c7cbf7720cc1cca63",
+    "chineseSha256": "26bf4175424e40f3eb72003ebc532f75b9bf590349fd433ee3760a97422f67a8"
+  },
+  "thumbnail": {
+    "width": 880,
+    "englishSha256": "06eec371b0f4a5a6382a6a2c988ed19f7a668af66b89913540945b3eb43c64a3",
+    "chineseSha256": "d3f7c5533bff802604dc9df3c9eaa49d1736ad2abc4e3917f1e900b65802b251",
+    "headlineAndOfficialLogoLegible": true
+  },
+  "localRenderedReadback": {
+    "report": "outputs/2026-10-10-q4-14-local-qa/report.json",
+    "articleDesktopAndMobile": true,
+    "indexCard": true
+  },
+  "publicCardSameVersion": true,
+  "publicCardPendingProduction": false,
+  "productionDeploymentId": "dpl_2guau5VnRwnEGnH8Pcc6wkTxsLnK",
+  "publicIndexScreenshot": "outputs/2026-10-10-q4-14-public-qa/index-en-desktop-fresh.png",
+  "publicArticleScreenshot": "outputs/2026-10-10-q4-14-public-qa/article-en-desktop.png"
+}

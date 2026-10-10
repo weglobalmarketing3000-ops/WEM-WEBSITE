@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/private/tmp/wem-q4-14.LsRGhX/outputs/patches/2026-10-10-q4-14-bfcm-price-claim-audit",
+  "patchFingerprint": "6288636935013ddb9ea560062f774b9e0118d30d544eedd74c61a8887e431a28",
+  "pid": 57365,
+  "log": "/private/tmp/wem-q4-14.LsRGhX/outputs/deployment-receipts/logs/6288636935013ddb9ea5-preview.log",
+  "url": "https://wem-website-bpvl5fise-wem1.vercel.app",
+  "deploymentId": "dpl_GBgiPwGbnwLGahAsXJ37hSyW2zN5",
+  "exitCode": 0,
+  "updatedAt": "2026-10-10T13:13:56Z"
+}

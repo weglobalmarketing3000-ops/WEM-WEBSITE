@@ -1,0 +1,26 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-10",
+  "sources": {
+    "policy": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "httpStatus": 200,
+      "bytes": 225844,
+      "sha256": "fc74346ca4147b545fc00ad0929d2c694cd00663abc349354db285cb19b379aa"
+    },
+    "seller": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894&lang=en",
+      "httpStatus": 200,
+      "bytes": 261282,
+      "sha256": "f2d4118e4503b33ce3fd134188f48234b785d1aaaf1c9c7e8ac239ef57b0ee04"
+    }
+  },
+  "facts": [
+    "Price, discount, coupon and deal claims must be accurate, clear, current and not misleading.",
+    "Material conditions can include coupon redemption, selected SKUs, bundles, minimum spend, user eligibility, limited-time availability, shipping, taxes, fees and regional restrictions.",
+    "False, unavailable, expired and unsupported lowest or cheapest price claims are prohibited.",
+    "The current BFCM guide says strike-through pricing appears only when campaign sale price is lower than regular retail price.",
+    "The current BFCM guide says many self-promotion tools do not stack, campaign price usually applies first and some additional promotions may be disabled.",
+    "Prices, eligibility, campaign state, interface and checkout conditions require current account readback."
+  ]
+}

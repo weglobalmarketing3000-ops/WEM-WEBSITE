@@ -1,0 +1,492 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4174",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 152791,
+      "localSha256": "8dc1cfd99525a55552390b7a03f3c28fa014b3c0d1a179d91ef657c4705b0196",
+      "remoteSha256": "8dc1cfd99525a55552390b7a03f3c28fa014b3c0d1a179d91ef657c4705b0196",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 134247,
+      "localSha256": "df233ba5b7f2ed9430341ada7e88a77371439009fc4d3bbc3ea5d44d90449fce",
+      "remoteSha256": "df233ba5b7f2ed9430341ada7e88a77371439009fc4d3bbc3ea5d44d90449fce",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "de8356f04fc3113d8b451640604a6c3e7cbdacad3011f5abd9eebda5db4cca92",
+      "remoteSha256": "de8356f04fc3113d8b451640604a6c3e7cbdacad3011f5abd9eebda5db4cca92",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.png": {
+      "bytes": 1563773,
+      "localSha256": "7516cc854b6e34fc43f02a10e26a2173d42c23ba38adb01bfc3da931e6e18a74",
+      "remoteSha256": "7516cc854b6e34fc43f02a10e26a2173d42c23ba38adb01bfc3da931e6e18a74",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.png": {
+      "bytes": 1566117,
+      "localSha256": "c67412cb05326677126c8460da77a015c947461494a46b947ca2b6177d3203c3",
+      "remoteSha256": "c67412cb05326677126c8460da77a015c947461494a46b947ca2b6177d3203c3",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.jpg": {
+      "bytes": 135560,
+      "localSha256": "ddd129d081cffe0d346bb9f0e2ab24142e5233abf772ba1c7cbf7720cc1cca63",
+      "remoteSha256": "ddd129d081cffe0d346bb9f0e2ab24142e5233abf772ba1c7cbf7720cc1cca63",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.jpg": {
+      "bytes": 135480,
+      "localSha256": "26bf4175424e40f3eb72003ebc532f75b9bf590349fd433ee3760a97422f67a8",
+      "remoteSha256": "26bf4175424e40f3eb72003ebc532f75b9bf590349fd433ee3760a97422f67a8",
+      "match": true
+    },
+    "blog/q4-14-price-claims/ledger-en-v1.png": {
+      "bytes": 90219,
+      "localSha256": "7d470f0acc7f0abf474b19df27501b6c760e0a30c3e2bffc2913549506b786e1",
+      "remoteSha256": "7d470f0acc7f0abf474b19df27501b6c760e0a30c3e2bffc2913549506b786e1",
+      "match": true
+    },
+    "blog/q4-14-price-claims/ledger-zh-v1.png": {
+      "bytes": 88249,
+      "localSha256": "7800da3460a212882d053fd252250fed9f16d4dda21d62982922f9c1b6c75532",
+      "remoteSha256": "7800da3460a212882d053fd252250fed9f16d4dda21d62982922f9c1b6c75532",
+      "match": true
+    },
+    "blog/q4-14-price-claims/states-en-v1.png": {
+      "bytes": 67352,
+      "localSha256": "e5456ef1327beda284613632129c982a826e42137ea749350c6ec70c1ef23f7d",
+      "remoteSha256": "e5456ef1327beda284613632129c982a826e42137ea749350c6ec70c1ef23f7d",
+      "match": true
+    },
+    "blog/q4-14-price-claims/states-zh-v1.png": {
+      "bytes": 64491,
+      "localSha256": "19086965bc96788fc87d95d8eec3f9d3ba776fc7a5ac4aef8b9fa3a2159e4553",
+      "remoteSha256": "19086965bc96788fc87d95d8eec3f9d3ba776fc7a5ac4aef8b9fa3a2159e4553",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.jpg": {
+      "bytes": 53341,
+      "localSha256": "06eec371b0f4a5a6382a6a2c988ed19f7a668af66b89913540945b3eb43c64a3",
+      "remoteSha256": "06eec371b0f4a5a6382a6a2c988ed19f7a668af66b89913540945b3eb43c64a3",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.jpg": {
+      "bytes": 53017,
+      "localSha256": "d3f7c5533bff802604dc9df3c9eaa49d1736ad2abc4e3917f1e900b65802b251",
+      "remoteSha256": "d3f7c5533bff802604dc9df3c9eaa49d1736ad2abc4e3917f1e900b65802b251",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html": {
+      "bytes": 39512,
+      "localSha256": "5a881930c6d9ad9bcf093cec97b3efe5b816e04ba7b74719a64edb2ee6364306",
+      "remoteSha256": "5a881930c6d9ad9bcf093cec97b3efe5b816e04ba7b74719a64edb2ee6364306",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 34369,
+      "localSha256": "08d785abc34af045b209367334e01e3d53e6df3c52b8d9796e004355fba194a4",
+      "remoteSha256": "08d785abc34af045b209367334e01e3d53e6df3c52b8d9796e004355fba194a4",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 48312,
+      "localSha256": "b33dd32560d796c5a8790106690aae8dcd531c290fed72e00ef9404354d039b5",
+      "remoteSha256": "b33dd32560d796c5a8790106690aae8dcd531c290fed72e00ef9404354d039b5",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 33475,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-10",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop BFCM price claim audit"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-10",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.png",
+          "width": 1792,
+          "height": 896,
+          "caption": "WE Marketing TikTok Shop BFCM 价格口径审计"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page",
+      "documentTitle": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page | WE Marketing",
+      "description": "Use one evidence-led ledger to keep TikTok Shop BFCM prices, conditions and claims aligned across videos, LIVE rooms and product pages.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4174/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/ledger-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/states-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4174/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对",
+      "documentTitle": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对 | WE Marketing",
+      "description": "用一份有证据、有版本的价格台账，对齐 TikTok Shop BFCM 短视频、直播与商品页的价格和优惠条件。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4174/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/ledger-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/states-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4174/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page",
+      "documentTitle": "Audit Every TikTok Shop BFCM Price Claim Across Video, LIVE and Product Page | WE Marketing",
+      "description": "Use one evidence-led ledger to keep TikTok Shop BFCM prices, conditions and claims aligned across videos, LIVE rooms and product pages.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4174/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/ledger-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/states-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4174/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对",
+      "documentTitle": "TikTok Shop BFCM 价格口径怎么统一：短视频、直播和商品页逐项核对 | WE Marketing",
+      "description": "用一份有证据、有版本的价格台账，对齐 TikTok Shop BFCM 短视频、直播与商品页的价格和优惠条件。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4174/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 880,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/ledger-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4174/blog/q4-14-price-claims/states-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4174/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4174/BlogList.compiled.js?v=8dc1cfd99525",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

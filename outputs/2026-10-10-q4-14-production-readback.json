@@ -1,0 +1,129 @@
+{
+  "deploymentId": "dpl_2guau5VnRwnEGnH8Pcc6wkTxsLnK",
+  "url": "https://wem-website-q0igt0g7b-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 152791,
+      "localSha256": "8dc1cfd99525a55552390b7a03f3c28fa014b3c0d1a179d91ef657c4705b0196",
+      "remoteSha256": "8dc1cfd99525a55552390b7a03f3c28fa014b3c0d1a179d91ef657c4705b0196",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 134247,
+      "localSha256": "df233ba5b7f2ed9430341ada7e88a77371439009fc4d3bbc3ea5d44d90449fce",
+      "remoteSha256": "df233ba5b7f2ed9430341ada7e88a77371439009fc4d3bbc3ea5d44d90449fce",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "de8356f04fc3113d8b451640604a6c3e7cbdacad3011f5abd9eebda5db4cca92",
+      "remoteSha256": "de8356f04fc3113d8b451640604a6c3e7cbdacad3011f5abd9eebda5db4cca92",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.png",
+      "bytes": 1563773,
+      "localSha256": "7516cc854b6e34fc43f02a10e26a2173d42c23ba38adb01bfc3da931e6e18a74",
+      "remoteSha256": "7516cc854b6e34fc43f02a10e26a2173d42c23ba38adb01bfc3da931e6e18a74",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.png",
+      "bytes": 1566117,
+      "localSha256": "c67412cb05326677126c8460da77a015c947461494a46b947ca2b6177d3203c3",
+      "remoteSha256": "c67412cb05326677126c8460da77a015c947461494a46b947ca2b6177d3203c3",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.jpg",
+      "bytes": 135560,
+      "localSha256": "ddd129d081cffe0d346bb9f0e2ab24142e5233abf772ba1c7cbf7720cc1cca63",
+      "remoteSha256": "ddd129d081cffe0d346bb9f0e2ab24142e5233abf772ba1c7cbf7720cc1cca63",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.jpg",
+      "bytes": 135480,
+      "localSha256": "26bf4175424e40f3eb72003ebc532f75b9bf590349fd433ee3760a97422f67a8",
+      "remoteSha256": "26bf4175424e40f3eb72003ebc532f75b9bf590349fd433ee3760a97422f67a8",
+      "match": true
+    },
+    "blog/q4-14-price-claims/ledger-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-claims/ledger-en-v1.png",
+      "bytes": 90219,
+      "localSha256": "7d470f0acc7f0abf474b19df27501b6c760e0a30c3e2bffc2913549506b786e1",
+      "remoteSha256": "7d470f0acc7f0abf474b19df27501b6c760e0a30c3e2bffc2913549506b786e1",
+      "match": true
+    },
+    "blog/q4-14-price-claims/ledger-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-claims/ledger-zh-v1.png",
+      "bytes": 88249,
+      "localSha256": "7800da3460a212882d053fd252250fed9f16d4dda21d62982922f9c1b6c75532",
+      "remoteSha256": "7800da3460a212882d053fd252250fed9f16d4dda21d62982922f9c1b6c75532",
+      "match": true
+    },
+    "blog/q4-14-price-claims/states-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-claims/states-en-v1.png",
+      "bytes": 67352,
+      "localSha256": "e5456ef1327beda284613632129c982a826e42137ea749350c6ec70c1ef23f7d",
+      "remoteSha256": "e5456ef1327beda284613632129c982a826e42137ea749350c6ec70c1ef23f7d",
+      "match": true
+    },
+    "blog/q4-14-price-claims/states-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-14-price-claims/states-zh-v1.png",
+      "bytes": 64491,
+      "localSha256": "19086965bc96788fc87d95d8eec3f9d3ba776fc7a5ac4aef8b9fa3a2159e4553",
+      "remoteSha256": "19086965bc96788fc87d95d8eec3f9d3ba776fc7a5ac4aef8b9fa3a2159e4553",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-en-v1.jpg",
+      "bytes": 53341,
+      "localSha256": "06eec371b0f4a5a6382a6a2c988ed19f7a668af66b89913540945b3eb43c64a3",
+      "remoteSha256": "06eec371b0f4a5a6382a6a2c988ed19f7a668af66b89913540945b3eb43c64a3",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-price-claim-audit-video-live-product-page-zh-v1.jpg",
+      "bytes": 53017,
+      "localSha256": "d3f7c5533bff802604dc9df3c9eaa49d1736ad2abc4e3917f1e900b65802b251",
+      "remoteSha256": "d3f7c5533bff802604dc9df3c9eaa49d1736ad2abc4e3917f1e900b65802b251",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-price-claim-audit-video-live-product-page.html",
+      "bytes": 39512,
+      "localSha256": "5a881930c6d9ad9bcf093cec97b3efe5b816e04ba7b74719a64edb2ee6364306",
+      "remoteSha256": "5a881930c6d9ad9bcf093cec97b3efe5b816e04ba7b74719a64edb2ee6364306",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 34369,
+      "localSha256": "08d785abc34af045b209367334e01e3d53e6df3c52b8d9796e004355fba194a4",
+      "remoteSha256": "08d785abc34af045b209367334e01e3d53e6df3c52b8d9796e004355fba194a4",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 48312,
+      "localSha256": "b33dd32560d796c5a8790106690aae8dcd531c290fed72e00ef9404354d039b5",
+      "remoteSha256": "b33dd32560d796c5a8790106690aae8dcd531c290fed72e00ef9404354d039b5",
+      "match": true
+    }
+  },
+  "expectedFiles": 17,
+  "matchedFiles": 17,
+  "passed": true
+}
