@@ -76,8 +76,13 @@ if [[ -f "$receipt_file" ]]; then
   case "$(jq -r '.classification' <<<"$classification")" in
     recoverable_success)
       echo "Recovered completed deployment receipt: $receipt_file"
-      echo "Deployment URL: $(jq -r '.receipt.url' <<<"$classification")"
-      exit 0
+      if [[ "$deploy_mode" == "preview" ]]; then
+        echo "Deployment URL: $(jq -r '.receipt.url' <<<"$classification")"
+        exit 0
+      fi
+      receipt_url="$(jq -r '.receipt.url' <<<"$classification")"
+      receipt_deployment_id="$(jq -r '.receipt.deploymentId' <<<"$classification")"
+      echo "Revalidating and re-promoting the recorded production deployment before accepting its receipt."
       ;;
     active_duplicate)
       echo "Deployment already running; inspect receipt instead of starting a duplicate: $receipt_file" >&2
@@ -137,11 +142,18 @@ if [[ "${WEM_DEPLOY_TEST_ONLY:-0}" == "1" ]]; then
 fi
 
 if [[ -z "$deployment_id" ]]; then
-  deployment_list="$(npx vercel ls wem-website --prod --yes)"
-  printf '%s\n' "$deployment_list"
-  deployment_url="$(grep -Eo 'https://wem-website-[a-z0-9-]+-wem1\.vercel\.app' <<<"$deployment_list" | sed -n '1p' || true)"
-  [[ -n "$deployment_url" ]] || { echo "Could not resolve a production deployment URL." >&2; exit 1; }
-  deployment_id="$(npx vercel inspect "$deployment_url" --format=json | jq -r '.id')"
+  # Reconstruct from the deployment that currently owns the verified custom
+  # domain. The newest production deployment may be an unaccepted CLI build
+  # and must never become the merge baseline merely because it is newer.
+  alias_inspect="$(npx vercel inspect https://www.weglobalmarketing.com --format=json)"
+  deployment_url="$(jq -r '.url // empty' <<<"$alias_inspect")"
+  deployment_id="$(jq -r '.id // empty' <<<"$alias_inspect")"
+  deployment_state="$(jq -r '.readyState // .status // empty' <<<"$alias_inspect" | tr '[:lower:]' '[:upper:]')"
+  [[ -n "$deployment_url" && -n "$deployment_id" && "$deployment_state" == "READY" ]] || {
+    echo "Could not resolve the verified custom-domain deployment." >&2
+    exit 1
+  }
+  printf 'Using verified custom-domain baseline %s (%s)\n' "$deployment_url" "$deployment_id"
 fi
 [[ -n "$deployment_id" ]] || { echo "Could not resolve a production deployment." >&2; exit 1; }
 
@@ -267,7 +279,7 @@ else
   if [[ "${WE_MARKETING_DEPLOY_PREVIEW:-0}" == "1" ]]; then
     npx vercel deploy --yes 2>&1 | tee "$deployment_log"
   else
-    npx vercel deploy --prod --yes 2>&1 | tee "$deployment_log"
+    npx vercel deploy --prod --skip-domain --yes 2>&1 | tee "$deployment_log"
   fi
   deploy_exit="${PIPESTATUS[0]}"
   set -e
@@ -292,6 +304,10 @@ echo "Deployment receipt: $receipt_file"
 echo "Deployment URL: $deployment_url"
 
 if [[ "${WE_MARKETING_DEPLOY_PREVIEW:-0}" != "1" ]]; then
+  write_receipt "running" "assigning_verified_production_aliases" "$deployment_url" "$deployment_result_id"
+  npx vercel alias set "$deployment_url" www.weglobalmarketing.com
+  npx vercel alias set "$deployment_url" weglobalmarketing.com
+
   alias_verified=0
   for alias_attempt in {1..10}; do
     alias_failure=""

@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-11-q4-15-peak-shipping-margin",
+  "patchFingerprint": "ee8e06d1b729784c02f49874a0688ea86b4fb3d2228b257db4d19130ca2c29e0",
+  "pid": 65497,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/ee8e06d1b729784c02f4-preview.log",
+  "url": "https://wem-website-99tj8k8uy-wem1.vercel.app",
+  "deploymentId": "dpl_DLeHyvwnp1gvjSuM44QpBsYKzoAc",
+  "exitCode": 0,
+  "updatedAt": "2026-10-11T13:23:03Z"
+}

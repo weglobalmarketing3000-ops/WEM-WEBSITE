@@ -32,6 +32,11 @@ after="$(shasum -a 256 "$receipt_file" | awk '{print $1}')"
 [[ "$(jq -r '.state' "$receipt_file")" == "running" ]]
 wait "$owner_pid"
 
+WEM_DEPLOY_RECEIPT_DIR="$receipt_dir" WEM_DEPLOY_TEST_ONLY=1 \
+  "$repo_root/scripts/deploy-production-from-live-baseline.sh" "$patch_dir" > "$test_root/revalidate-success.log" 2>&1
+[[ "$(jq -r '.state' "$receipt_file")" == "succeeded" ]]
+grep -q 'Revalidating and re-promoting the recorded production deployment' "$test_root/revalidate-success.log"
+
 rm -f "$receipt_file"
 mkdir "$receipt_dir/wem-production-baseline.lock"
 jq -n --argjson pid 99999999 '{pid:$pid}' > "$receipt_dir/wem-production-baseline.lock/owner.json"

@@ -7,6 +7,7 @@ const root = path.resolve(__dirname, '..');
 const base = process.argv[2] || 'https://www.weglobalmarketing.com';
 const mode = process.argv[3] || (base.includes('127.0.0.1') ? 'local' : 'public');
 const target = process.argv[4] || 'q4-02';
+const shareUrl = process.argv[5] || '';
 const configs = {
   'q4-02': { patch: '2026-09-28-q4-02-bfcm-product-preflight', prefix: '2026-09-28-q4-02', slug: 'tiktok-shop-bfcm-two-week-product-preflight', date: '2026-09-28', enDate: 'Sep 28, 2026', zhDate: '2026 年 9 月 28 日', expectedFiles: 17, expectedImages: 3 },
   'q4-03': { patch: '2026-09-29-q4-03-creator-content-review', prefix: '2026-09-29-q4-03', slug: 'tiktok-shop-creator-content-review-before-scale', date: '2026-09-29', enDate: 'Sep 29, 2026', zhDate: '2026 年 9 月 29 日', expectedFiles: 17, expectedImages: 3 },
@@ -21,6 +22,7 @@ const configs = {
   'q4-12': { patch: '2026-10-08-q4-12-shop-tab-eligibility', prefix: '2026-10-08-q4-12', slug: 'tiktok-shop-shop-tab-eligibility-three-gate-audit', date: '2026-10-08', enDate: 'Oct 8, 2026', zhDate: '2026 年 10 月 8 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-13': { patch: '2026-10-09-q4-13-bfcm-creator-brief', prefix: '2026-10-09-q4-13', slug: 'tiktok-shop-bfcm-creator-brief', date: '2026-10-09', enDate: 'Oct 9, 2026', zhDate: '2026 年 10 月 9 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-14': { patch: '2026-10-10-q4-14-bfcm-price-claim-audit', prefix: '2026-10-10-q4-14', slug: 'tiktok-shop-bfcm-price-claim-audit', date: '2026-10-10', enDate: 'Oct 10, 2026', zhDate: '2026 年 10 月 10 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
+  'q4-15': { patch: '2026-10-11-q4-15-peak-shipping-margin', prefix: '2026-10-11-q4-15', slug: 'tiktok-shop-peak-season-shipping-margin', date: '2026-10-11', enDate: 'Oct 11, 2026', zhDate: '2026 年 10 月 11 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
@@ -33,12 +35,20 @@ const slug = config.slug;
 const productionBase = 'https://www.weglobalmarketing.com';
 const articleUrl = `${productionBase}/blog/${slug}`;
 const local = base.includes('127.0.0.1');
+const protectedHeaders = process.env.VERCEL_OIDC_TOKEN ? { 'x-vercel-trusted-oidc-idp-token': process.env.VERCEL_OIDC_TOKEN } : {};
+const shareToken = shareUrl ? new URL(shareUrl).searchParams.get('_vercel_share') : '';
+const withProtectedAccess = (value) => {
+  if (!shareToken) return value;
+  const targetUrl = new URL(value);
+  targetUrl.searchParams.set('_vercel_share', shareToken);
+  return targetUrl.toString();
+};
 const hash = (buffer) => crypto.createHash('sha256').update(buffer).digest('hex');
 const routeFor = (relative) => relative === 'blog.html' ? '/blog.html' : relative === `blog/${slug}.html` ? `/blog/${slug}${local ? '.html' : ''}` : `/${relative}`;
 
 async function fetchBytes(route) {
-  const url = `${base}${route}${route.includes('?') ? '&' : '?'}qa=${Date.now()}`;
-  const response = await fetch(url, { headers: { 'cache-control': 'no-cache', pragma: 'no-cache' } });
+  const url = withProtectedAccess(`${base}${route}${route.includes('?') ? '&' : '?'}qa=${Date.now()}`);
+  const response = await fetch(url, { headers: { 'cache-control': 'no-cache', pragma: 'no-cache', ...protectedHeaders } });
   if (!response.ok) throw new Error(`${url} returned ${response.status}`);
   return Buffer.from(await response.arrayBuffer());
 }
@@ -55,6 +65,12 @@ async function waitImage(locator) {
 }
 
 (async () => {
+  if (shareToken) {
+    const seed = await fetch(withProtectedAccess(`${base}/`), { redirect: 'manual' });
+    const cookie = seed.headers.get('set-cookie')?.match(/^([^;]+)/)?.[1];
+    if (!cookie) throw new Error('Protected preview did not return a share cookie');
+    protectedHeaders.cookie = cookie;
+  }
   await fs.mkdir(out, { recursive: true });
   const report = { status: `${mode}_qa_in_progress`, mode, base, files: {}, raw: {}, pages: [], index: [], checks: {} };
   const files = [];
@@ -86,13 +102,15 @@ async function waitImage(locator) {
   try {
     for (const viewport of [{ name: 'desktop', width: 1280, height: 900 }, { name: 'mobile', width: 390, height: 844 }]) {
       for (const lang of ['en', 'zh-CN']) {
-        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height } });
+        const browserHeaders = { ...protectedHeaders }; delete browserHeaders.cookie;
+        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height }, extraHTTPHeaders: browserHeaders });
+        if (protectedHeaders.cookie) await context.addCookies([{ name: protectedHeaders.cookie.split('=')[0], value: protectedHeaders.cookie.split('=').slice(1).join('='), domain: new URL(base).hostname, path: '/', secure: true, httpOnly: true, sameSite: 'Lax' }]);
         const page = await context.newPage();
         const errors = [];
         page.on('pageerror', (error) => errors.push(`pageerror:${error.message}`));
         page.on('console', (message) => { if (message.type() === 'error') errors.push(`console:${message.text()}`); });
         page.on('response', (response) => { if (response.status() >= 400 && !response.url().endsWith('/favicon.ico')) errors.push(`${response.status()} ${response.url()}`); });
-        const requested = `${base}/blog/${slug}${local ? '.html' : ''}${lang === 'zh-CN' ? '?lang=zh' : ''}`;
+        const requested = withProtectedAccess(`${base}/blog/${slug}${local ? '.html' : ''}${lang === 'zh-CN' ? '?lang=zh' : ''}`);
         const response = await page.goto(requested, { waitUntil: 'networkidle' });
         const article = page.locator(`article[lang="${lang}"]`);
         for (const image of await article.locator('img').all()) await waitImage(image);
@@ -137,12 +155,14 @@ async function waitImage(locator) {
       }
 
       for (const lang of ['en', 'zh']) for (const cache of ['fresh', 'warm']) {
-        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height } });
+        const browserHeaders = { ...protectedHeaders }; delete browserHeaders.cookie;
+        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height }, extraHTTPHeaders: browserHeaders });
+        if (protectedHeaders.cookie) await context.addCookies([{ name: protectedHeaders.cookie.split('=')[0], value: protectedHeaders.cookie.split('=').slice(1).join('='), domain: new URL(base).hostname, path: '/', secure: true, httpOnly: true, sameSite: 'Lax' }]);
         const page = await context.newPage();
         const errors = [];
         page.on('pageerror', (error) => errors.push(error.message));
         const indexRoute = local ? '/blog.html' : '/blog';
-        await page.goto(`${base}${indexRoute}${lang === 'zh' ? '?lang=zh' : ''}`, { waitUntil: 'networkidle' });
+        await page.goto(withProtectedAccess(`${base}${indexRoute}${lang === 'zh' ? '?lang=zh' : ''}`), { waitUntil: 'networkidle' });
         const cards = page.locator('a[href*="blog/tiktok-shop-"]');
         for (let index = 0; index < Math.min(3, await cards.count()); index += 1) { const image = cards.nth(index).locator('img'); if (await image.count()) await waitImage(image); }
         const indexData = await page.evaluate(() => ({

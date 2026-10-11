@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_DLeHyvwnp1gvjSuM44QpBsYKzoAc",
+  "url": "https://wem-website-99tj8k8uy-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 153623,
+      "localSha256": "86123dd2c850a335bb64ab6a5a18c8e8f75b0eed840e730595bab3b22d1dd4a1",
+      "remoteSha256": "86123dd2c850a335bb64ab6a5a18c8e8f75b0eed840e730595bab3b22d1dd4a1",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 134934,
+      "localSha256": "8d2bbfe6853be13fc7993bca9b9e94525d12b1b150f4b9d25b1c3a99a30058d1",
+      "remoteSha256": "8d2bbfe6853be13fc7993bca9b9e94525d12b1b150f4b9d25b1c3a99a30058d1",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "9fd6c759e1914d93f17bfda7ae011aba626376f4a33307b84597fc97afb8e04e",
+      "remoteSha256": "9fd6c759e1914d93f17bfda7ae011aba626376f4a33307b84597fc97afb8e04e",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png",
+      "bytes": 126456,
+      "localSha256": "4391ae5e9afccee9608abea128e553a68475065443996ed6dc6899c9f8f181d6",
+      "remoteSha256": "4391ae5e9afccee9608abea128e553a68475065443996ed6dc6899c9f8f181d6",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png",
+      "bytes": 121597,
+      "localSha256": "c83d8cbde2f7905ae8391ec2ab20d792a7197ef8f28870bf8edc364c507cb5a5",
+      "remoteSha256": "c83d8cbde2f7905ae8391ec2ab20d792a7197ef8f28870bf8edc364c507cb5a5",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg",
+      "bytes": 72376,
+      "localSha256": "117afbb9b1a90f1185b2c15325766d68e04c87730c6dc0b5ba19bf1ccbe8866c",
+      "remoteSha256": "117afbb9b1a90f1185b2c15325766d68e04c87730c6dc0b5ba19bf1ccbe8866c",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg",
+      "bytes": 67224,
+      "localSha256": "7a1baee163914f76913b82cca69604e5cd1f51ebe807379b9a118bd664ba4880",
+      "remoteSha256": "7a1baee163914f76913b82cca69604e5cd1f51ebe807379b9a118bd664ba4880",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/margin-gate-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-15-shipping-margin/margin-gate-en-v1.png",
+      "bytes": 78550,
+      "localSha256": "9c1b9f342655c82dc779fee9e516bbfab50d7787076e83afdf16418bce11cc5c",
+      "remoteSha256": "9c1b9f342655c82dc779fee9e516bbfab50d7787076e83afdf16418bce11cc5c",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/margin-gate-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-15-shipping-margin/margin-gate-zh-v1.png",
+      "bytes": 73975,
+      "localSha256": "5dd874937b2f0c3a6ab97aa5dd9a5abe737643064988a10a56f5e95a279e087d",
+      "remoteSha256": "5dd874937b2f0c3a6ab97aa5dd9a5abe737643064988a10a56f5e95a279e087d",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/worksheet-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-15-shipping-margin/worksheet-en-v1.png",
+      "bytes": 93407,
+      "localSha256": "a4ffcaa4a3b3af1cbfd2cf36c39022994e0b021fdeb2c599c5b6e3800530c86e",
+      "remoteSha256": "a4ffcaa4a3b3af1cbfd2cf36c39022994e0b021fdeb2c599c5b6e3800530c86e",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/worksheet-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/q4-15-shipping-margin/worksheet-zh-v1.png",
+      "bytes": 83891,
+      "localSha256": "8c39e6f0ccde7ab65e4d273c3797a202ceeca1457234e2705291c993c13264e6",
+      "remoteSha256": "8c39e6f0ccde7ab65e4d273c3797a202ceeca1457234e2705291c993c13264e6",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg",
+      "bytes": 30964,
+      "localSha256": "cc1b382a787c5c968c0cb01e5ad0151efce35b1f5fecda583d8137c6272bcd3a",
+      "remoteSha256": "cc1b382a787c5c968c0cb01e5ad0151efce35b1f5fecda583d8137c6272bcd3a",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg",
+      "bytes": 28680,
+      "localSha256": "25491d6f94d6e6a12a1e51ff466109efa75faa8167aad8077a5c615edafe3a1e",
+      "remoteSha256": "25491d6f94d6e6a12a1e51ff466109efa75faa8167aad8077a5c615edafe3a1e",
+      "match": true
+    },
+    "blog/tiktok-shop-peak-season-shipping-margin.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-peak-season-shipping-margin.html",
+      "bytes": 38617,
+      "localSha256": "79bbb7cac5c91b0d28c5237319571c94594f8394269ccf64b9cd55eb86cc88ca",
+      "remoteSha256": "79bbb7cac5c91b0d28c5237319571c94594f8394269ccf64b9cd55eb86cc88ca",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 34548,
+      "localSha256": "85f6a51d679f4a8b5d3e59b36803e71ddda4660e967b3800349ceb78200fa8e0",
+      "remoteSha256": "85f6a51d679f4a8b5d3e59b36803e71ddda4660e967b3800349ceb78200fa8e0",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 48490,
+      "localSha256": "0b734f4328ff0b7edf1f31bc52b744b24da79eabfbe8105638d72346b2f4fac2",
+      "remoteSha256": "0b734f4328ff0b7edf1f31bc52b744b24da79eabfbe8105638d72346b2f4fac2",
+      "match": true
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,27 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-11",
+  "sources": {
+    "peak": {
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=4797361814980370",
+      "file": "outputs/2026-10-11-q4-15-source/peak-season-shipping-rate.html",
+      "httpStatus": 200,
+      "bytes": 201613,
+      "sha256": "95c0b5d4c75492df4e61722b5b9ad33a0167e993734fc9e60e3f80327eff1e09"
+    },
+    "live": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6744662208792321&default_language=en",
+      "file": "outputs/2026-10-11-q4-15-source/live-flat-rate.html",
+      "httpStatus": 200,
+      "bytes": 250517,
+      "sha256": "0cf0ddc8f4f8bf42f0d12cbb763ec829c4fbb26d714cb10cfdb634cb1af4e14f"
+    },
+    "standard": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=987788883576589&lang=en",
+      "file": "outputs/2026-10-11-q4-15-source/standard-delivery.html",
+      "httpStatus": 200,
+      "bytes": 224403,
+      "sha256": "c0e3e1832068da58618f53649da12e81d123df8fbbd8b58c21fe0249e041b57e"
+    }
+  }
+}

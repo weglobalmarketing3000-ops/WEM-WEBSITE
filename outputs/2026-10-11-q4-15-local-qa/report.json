@@ -1,0 +1,490 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4180",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 153623,
+      "localSha256": "86123dd2c850a335bb64ab6a5a18c8e8f75b0eed840e730595bab3b22d1dd4a1",
+      "remoteSha256": "86123dd2c850a335bb64ab6a5a18c8e8f75b0eed840e730595bab3b22d1dd4a1",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 134934,
+      "localSha256": "8d2bbfe6853be13fc7993bca9b9e94525d12b1b150f4b9d25b1c3a99a30058d1",
+      "remoteSha256": "8d2bbfe6853be13fc7993bca9b9e94525d12b1b150f4b9d25b1c3a99a30058d1",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "9fd6c759e1914d93f17bfda7ae011aba626376f4a33307b84597fc97afb8e04e",
+      "remoteSha256": "9fd6c759e1914d93f17bfda7ae011aba626376f4a33307b84597fc97afb8e04e",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png": {
+      "bytes": 126456,
+      "localSha256": "4391ae5e9afccee9608abea128e553a68475065443996ed6dc6899c9f8f181d6",
+      "remoteSha256": "4391ae5e9afccee9608abea128e553a68475065443996ed6dc6899c9f8f181d6",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png": {
+      "bytes": 121597,
+      "localSha256": "c83d8cbde2f7905ae8391ec2ab20d792a7197ef8f28870bf8edc364c507cb5a5",
+      "remoteSha256": "c83d8cbde2f7905ae8391ec2ab20d792a7197ef8f28870bf8edc364c507cb5a5",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg": {
+      "bytes": 72376,
+      "localSha256": "117afbb9b1a90f1185b2c15325766d68e04c87730c6dc0b5ba19bf1ccbe8866c",
+      "remoteSha256": "117afbb9b1a90f1185b2c15325766d68e04c87730c6dc0b5ba19bf1ccbe8866c",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg": {
+      "bytes": 67224,
+      "localSha256": "7a1baee163914f76913b82cca69604e5cd1f51ebe807379b9a118bd664ba4880",
+      "remoteSha256": "7a1baee163914f76913b82cca69604e5cd1f51ebe807379b9a118bd664ba4880",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/margin-gate-en-v1.png": {
+      "bytes": 78550,
+      "localSha256": "9c1b9f342655c82dc779fee9e516bbfab50d7787076e83afdf16418bce11cc5c",
+      "remoteSha256": "9c1b9f342655c82dc779fee9e516bbfab50d7787076e83afdf16418bce11cc5c",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/margin-gate-zh-v1.png": {
+      "bytes": 73975,
+      "localSha256": "5dd874937b2f0c3a6ab97aa5dd9a5abe737643064988a10a56f5e95a279e087d",
+      "remoteSha256": "5dd874937b2f0c3a6ab97aa5dd9a5abe737643064988a10a56f5e95a279e087d",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/worksheet-en-v1.png": {
+      "bytes": 93407,
+      "localSha256": "a4ffcaa4a3b3af1cbfd2cf36c39022994e0b021fdeb2c599c5b6e3800530c86e",
+      "remoteSha256": "a4ffcaa4a3b3af1cbfd2cf36c39022994e0b021fdeb2c599c5b6e3800530c86e",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/worksheet-zh-v1.png": {
+      "bytes": 83891,
+      "localSha256": "8c39e6f0ccde7ab65e4d273c3797a202ceeca1457234e2705291c993c13264e6",
+      "remoteSha256": "8c39e6f0ccde7ab65e4d273c3797a202ceeca1457234e2705291c993c13264e6",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg": {
+      "bytes": 30964,
+      "localSha256": "cc1b382a787c5c968c0cb01e5ad0151efce35b1f5fecda583d8137c6272bcd3a",
+      "remoteSha256": "cc1b382a787c5c968c0cb01e5ad0151efce35b1f5fecda583d8137c6272bcd3a",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg": {
+      "bytes": 28680,
+      "localSha256": "25491d6f94d6e6a12a1e51ff466109efa75faa8167aad8077a5c615edafe3a1e",
+      "remoteSha256": "25491d6f94d6e6a12a1e51ff466109efa75faa8167aad8077a5c615edafe3a1e",
+      "match": true
+    },
+    "blog/tiktok-shop-peak-season-shipping-margin.html": {
+      "bytes": 38617,
+      "localSha256": "79bbb7cac5c91b0d28c5237319571c94594f8394269ccf64b9cd55eb86cc88ca",
+      "remoteSha256": "79bbb7cac5c91b0d28c5237319571c94594f8394269ccf64b9cd55eb86cc88ca",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 34548,
+      "localSha256": "85f6a51d679f4a8b5d3e59b36803e71ddda4660e967b3800349ceb78200fa8e0",
+      "remoteSha256": "85f6a51d679f4a8b5d3e59b36803e71ddda4660e967b3800349ceb78200fa8e0",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 48490,
+      "localSha256": "0b734f4328ff0b7edf1f31bc52b744b24da79eabfbe8105638d72346b2f4fac2",
+      "remoteSha256": "0b734f4328ff0b7edf1f31bc52b744b24da79eabfbe8105638d72346b2f4fac2",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 32485,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-11",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-11",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Put TikTok Shipping Peak-Season Rates Into SKU Contribution Margin Before You Scale",
+      "documentTitle": "Put TikTok Shipping Peak-Season Rates Into SKU Contribution Margin Before You Scale | WE Marketing",
+      "description": "Build a TikTok Shop SKU contribution-margin worksheet that separates LIVE and non-LIVE shipping, dimensional weight and peak-season settlement before scale.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4180/blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 920,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/worksheet-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/margin-gate-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4180/blog/tiktok-shop-peak-season-shipping-margin.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shipping 旺季费率先算进 SKU 毛利，再决定放量",
+      "documentTitle": "TikTok Shipping 旺季费率先算进 SKU 毛利，再决定放量 | WE Marketing",
+      "description": "建立 TikTok Shop SKU 毛利表，把 LIVE 与非 LIVE 运费、体积重和旺季结算拆开，再决定是否放量。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4180/blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 920,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/worksheet-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/margin-gate-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4180/blog/tiktok-shop-peak-season-shipping-margin.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Put TikTok Shipping Peak-Season Rates Into SKU Contribution Margin Before You Scale",
+      "documentTitle": "Put TikTok Shipping Peak-Season Rates Into SKU Contribution Margin Before You Scale | WE Marketing",
+      "description": "Build a TikTok Shop SKU contribution-margin worksheet that separates LIVE and non-LIVE shipping, dimensional weight and peak-season settlement before scale.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4180/blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 920,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/worksheet-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/margin-gate-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4180/blog/tiktok-shop-peak-season-shipping-margin.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shipping 旺季费率先算进 SKU 毛利，再决定放量",
+      "documentTitle": "TikTok Shipping 旺季费率先算进 SKU 毛利，再决定放量 | WE Marketing",
+      "description": "建立 TikTok Shop SKU 毛利表，把 LIVE 与非 LIVE 运费、体积重和旺季结算拆开，再决定是否放量。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4180/blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 920,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/worksheet-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 820,
+          "src": "http://127.0.0.1:4180/blog/q4-15-shipping-margin/margin-gate-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4180/blog/tiktok-shop-peak-season-shipping-margin.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-peak-season-shipping-margin"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4180/BlogList.compiled.js?v=86123dd2c850",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
