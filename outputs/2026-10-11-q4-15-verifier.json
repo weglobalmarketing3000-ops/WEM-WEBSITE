@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "slug": "tiktok-shop-peak-season-shipping-margin",
+  "deploymentId": "dpl_4ut1zMRsC7kufkGMcuCxnGfRZSc3",
+  "rank": 1,
+  "priorRank": 2,
+  "checks": [
+    [
+      "custom domain points to accepted deployment",
+      true
+    ],
+    [
+      "English route and date",
+      true
+    ],
+    [
+      "Chinese route and date",
+      true
+    ],
+    [
+      "q4-15 blog card rank 1",
+      true
+    ],
+    [
+      "q4-14 blog card rank 2",
+      true
+    ],
+    [
+      "q4-15 sitemap EN and ZH",
+      true
+    ],
+    [
+      "q4-14 bilingual regression routes remain live",
+      true
+    ]
+  ],
+  "passed": true
+}
