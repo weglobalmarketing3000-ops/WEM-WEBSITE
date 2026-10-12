@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-12-q4-16-cbt-warehouse-handoff",
+  "patchFingerprint": "ba244a2187bfc4f14b80d11f3b0efbc25086351b45a60c9e902b46a4df97f38a",
+  "pid": 85738,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/ba244a2187bfc4f14b80-production.log",
+  "url": "https://wem-website-cc6r85gi5-wem1.vercel.app",
+  "deploymentId": "dpl_7uGa6kHWzL9dUX7DFEqt8hbnQnzF",
+  "exitCode": 0,
+  "updatedAt": "2026-10-12T13:17:15Z"
+}

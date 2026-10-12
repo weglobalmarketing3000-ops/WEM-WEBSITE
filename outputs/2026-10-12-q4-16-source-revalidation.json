@@ -1,0 +1,34 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-12",
+  "sources": {
+    "overview": {
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=8667360597444366",
+      "file": "outputs/2026-10-12-q4-16-source/what-is-cbt.html",
+      "httpStatus": 200,
+      "bytes": 242591,
+      "sha256": "246aa8f291d5392e31a78c5c220aedb1beaa1716c94119daf56fb9ffe6380ec9"
+    },
+    "sop": {
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&identity=1&knowledge_id=196358794184494",
+      "file": "outputs/2026-10-12-q4-16-source/cbt-warehouse-operations-sop.html",
+      "httpStatus": 200,
+      "bytes": 313068,
+      "sha256": "b186d24670ca751d0eeacfac7f55bec2859ef7f6f5552f1dbb86ae97829eeecc"
+    },
+    "shipping": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837879804970754",
+      "file": "outputs/2026-10-12-q4-16-source/customer-order-shipping-requirements.html",
+      "httpStatus": 200,
+      "bytes": 216661,
+      "sha256": "1e9af78d3f3419e6ab42a1ec6fb871d9384a331e4011ac378c3359436186592a"
+    },
+    "manifest": {
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=2159226148472596",
+      "file": "outputs/2026-10-12-q4-16-source/tiktok-manifest.html",
+      "httpStatus": 200,
+      "bytes": 227108,
+      "sha256": "9da8d14144ef6c597ed8a0c3dc07b3538c5c9a996916d590e70b84e727906fbd"
+    }
+  }
+}

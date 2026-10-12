@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-12",
+  "slug": "tiktok-shop-collection-warehouse-handoff",
+  "deploymentId": "dpl_7uGa6kHWzL9dUX7DFEqt8hbnQnzF",
+  "readyState": "READY",
+  "rank": 1,
+  "priorRank": 2,
+  "prior2Rank": 3,
+  "checks": [
+    [
+      "custom domain points to accepted deployment",
+      true
+    ],
+    [
+      "English route and date",
+      true
+    ],
+    [
+      "Chinese route and date",
+      true
+    ],
+    [
+      "q4-16 blog card rank 1",
+      true
+    ],
+    [
+      "q4-15 blog card rank 2",
+      true
+    ],
+    [
+      "q4-14 blog card rank 3",
+      true
+    ],
+    [
+      "q4-16 sitemap EN and ZH",
+      true
+    ],
+    [
+      "q4-15 and q4-14 bilingual regression routes remain live",
+      true
+    ]
+  ],
+  "passed": true
+}
