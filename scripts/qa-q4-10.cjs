@@ -18,6 +18,9 @@ const configs = {
   'q4-09-reconciliation': { patch: '2026-10-06-q4-09-reconciled-production', prefix: '2026-10-06-q4-09-reconciliation', slug: 'tiktok-shop-customer-data-email-sms-marketing', date: '2026-10-05', enDate: 'Oct 5, 2026', zhDate: '2026 年 10 月 5 日', expectedFiles: 17, expectedImages: 3 },
   'q4-10': { patch: '2026-10-06-q4-10-originality-protection', prefix: '2026-10-06-q4-10', slug: 'tiktok-shop-originality-protection-image-evidence', date: '2026-10-06', enDate: 'Oct 6, 2026', zhDate: '2026 年 10 月 6 日', expectedFiles: 17, expectedImages: 3 },
   'q4-10-production': { patch: '2026-10-06-q4-10-production-reconciled', prefix: '2026-10-06-q4-10-production', slug: 'tiktok-shop-originality-protection-image-evidence', date: '2026-10-06', enDate: 'Oct 6, 2026', zhDate: '2026 年 10 月 6 日', expectedFiles: 17, expectedImages: 3 },
+  'q4-11': { patch: '2026-10-07-q4-11-brand-authorization', prefix: '2026-10-07-q4-11', slug: 'tiktok-shop-brand-authorization-cobranded-originality', date: '2026-10-07', enDate: 'Oct 7, 2026', zhDate: '2026 年 10 月 7 日', expectedFiles: 17, expectedImages: 3 },
+  'q4-16-production': { patch: '2026-10-12-q4-16-production-readback', prefix: '2026-10-12-q4-16-production', slug: 'tiktok-shop-collection-warehouse-handoff', date: '2026-10-12', enDate: 'Oct 12, 2026', zhDate: '2026 年 10 月 12 日', expectedFiles: 17, expectedImages: 3, indexRank: 1 },
+  'q4-17': { patch: '2026-10-13-q4-17-qualifying-dispatch', prefix: '2026-10-13-q4-17', slug: 'tiktok-shop-qualifying-dispatch-event', date: '2026-10-13', enDate: 'Oct 13, 2026', zhDate: '2026 年 10 月 13 日', expectedFiles: 17, expectedImages: 3 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];
@@ -27,12 +30,13 @@ const slug = config.slug;
 const productionBase = 'https://www.weglobalmarketing.com';
 const articleUrl = `${productionBase}/blog/${slug}`;
 const local = base.includes('127.0.0.1');
+const authHeaders = process.env.VERCEL_OIDC_TOKEN ? { 'x-vercel-trusted-oidc-idp-token': process.env.VERCEL_OIDC_TOKEN } : {};
 const hash = (buffer) => crypto.createHash('sha256').update(buffer).digest('hex');
 const routeFor = (relative) => relative === 'blog.html' ? '/blog.html' : relative === `blog/${slug}.html` ? `/blog/${slug}${local ? '.html' : ''}` : `/${relative}`;
 
 async function fetchBytes(route) {
   const url = `${base}${route}${route.includes('?') ? '&' : '?'}qa=${Date.now()}`;
-  const response = await fetch(url, { headers: { 'cache-control': 'no-cache', pragma: 'no-cache' } });
+  const response = await fetch(url, { headers: { 'cache-control': 'no-cache', pragma: 'no-cache', ...authHeaders } });
   if (!response.ok) throw new Error(`${url} returned ${response.status}`);
   return Buffer.from(await response.arrayBuffer());
 }
@@ -80,7 +84,7 @@ async function waitImage(locator) {
   try {
     for (const viewport of [{ name: 'desktop', width: 1280, height: 900 }, { name: 'mobile', width: 390, height: 844 }]) {
       for (const lang of ['en', 'zh-CN']) {
-        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height } });
+        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height }, extraHTTPHeaders: authHeaders });
         const page = await context.newPage();
         const errors = [];
         page.on('pageerror', (error) => errors.push(`pageerror:${error.message}`));
@@ -131,7 +135,7 @@ async function waitImage(locator) {
       }
 
       for (const lang of ['en', 'zh']) for (const cache of ['fresh', 'warm']) {
-        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height } });
+        const context = await browser.newContext({ viewport: { width: viewport.width, height: viewport.height }, extraHTTPHeaders: authHeaders });
         const page = await context.newPage();
         const errors = [];
         page.on('pageerror', (error) => errors.push(error.message));
@@ -161,7 +165,8 @@ async function waitImage(locator) {
     const indexHtml = await fs.readFile(path.join(patchDir, 'blog.html'), 'utf8');
     report.checks.index = (source.includes(`slug:'${slug}'`) || source.includes(`slug:"${slug}"`)) && (source.includes(`en:'${config.enDate}'`) || source.includes(`en:"${config.enDate}"`)) && (source.includes(`zh:'${config.zhDate}'`) || source.includes(`zh:"${config.zhDate}"`)) && source.includes(`hero-${slug}-en-v1.png`) && source.includes(`hero-${slug}-zh-v1.png`) && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(indexHtml);
   } else {
-    report.checks.index = report.index.every((entry) => entry.cards.length >= 1 && entry.cards[0].href.split('?')[0].endsWith(slug) && entry.cards[0].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[0].image === 880 && entry.cards[0].imageSrc.includes(entry.lang === 'zh' ? '-zh-v1' : '-en-v1') && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
+    const indexRank = config.indexRank || 0;
+    report.checks.index = report.index.every((entry) => entry.cards.length > indexRank && entry.cards[indexRank].href.split('?')[0].endsWith(slug) && entry.cards[indexRank].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[indexRank].image === 880 && entry.cards[indexRank].imageSrc.includes(entry.lang === 'zh' ? '-zh-v1' : '-en-v1') && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
   }
   report.checks.discovery = sitemap.includes(`<loc>${articleUrl}</loc><lastmod>${config.date}</lastmod>`) && sitemap.includes(`<loc>${articleUrl}?lang=zh</loc><lastmod>${config.date}</lastmod>`) && llms.includes(articleUrl);
   report.passed = Object.values(report.checks).every(Boolean);
