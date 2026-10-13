@@ -1,0 +1,622 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4177",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 155565,
+      "localSha256": "b37ecd6e0043f26e4859be01956619155d2f3963eaa6fb03f09a1a5335ccd713",
+      "remoteSha256": "b37ecd6e0043f26e4859be01956619155d2f3963eaa6fb03f09a1a5335ccd713",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 136508,
+      "localSha256": "6730294714b512cae19998645371d0a63ce1a8a0e469b83c0f49cbfc65179089",
+      "remoteSha256": "6730294714b512cae19998645371d0a63ce1a8a0e469b83c0f49cbfc65179089",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "219665b515fd8a85573308355d89450ab5fa36035da8bef4cbe59328e1e40d28",
+      "remoteSha256": "219665b515fd8a85573308355d89450ab5fa36035da8bef4cbe59328e1e40d28",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-collection-warehouse-handoff-en-v1.png": {
+      "bytes": 129965,
+      "localSha256": "d2c59cb84ed0ceea843a2f9fe5754b5200a814192fbea0a5b7940c23465c33a2",
+      "remoteSha256": "d2c59cb84ed0ceea843a2f9fe5754b5200a814192fbea0a5b7940c23465c33a2",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.png": {
+      "bytes": 128535,
+      "localSha256": "97cbd504478a145dfe3695b287703d8ae2cd582248264d49b9b344cae9b6bb04",
+      "remoteSha256": "97cbd504478a145dfe3695b287703d8ae2cd582248264d49b9b344cae9b6bb04",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-peak-season-shipping-margin-en-v1.png": {
+      "bytes": 126456,
+      "localSha256": "4391ae5e9afccee9608abea128e553a68475065443996ed6dc6899c9f8f181d6",
+      "remoteSha256": "4391ae5e9afccee9608abea128e553a68475065443996ed6dc6899c9f8f181d6",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.png": {
+      "bytes": 121597,
+      "localSha256": "c83d8cbde2f7905ae8391ec2ab20d792a7197ef8f28870bf8edc364c507cb5a5",
+      "remoteSha256": "c83d8cbde2f7905ae8391ec2ab20d792a7197ef8f28870bf8edc364c507cb5a5",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-qualifying-dispatch-event-en-v1.png": {
+      "bytes": 541306,
+      "localSha256": "55e1e6738030ab830a189c40da7adb029a4292a6b8ebbaef435fe58515a936ec",
+      "remoteSha256": "55e1e6738030ab830a189c40da7adb029a4292a6b8ebbaef435fe58515a936ec",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.png": {
+      "bytes": 540083,
+      "localSha256": "3e1fcd9503a9c1bebe70ebb7adc3f4ae027d792c7fd942e7f7cc7687bbedf29a",
+      "remoteSha256": "3e1fcd9503a9c1bebe70ebb7adc3f4ae027d792c7fd942e7f7cc7687bbedf29a",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-collection-warehouse-handoff-en-v1.jpg": {
+      "bytes": 72792,
+      "localSha256": "229ebe6127b1c4f21b44f40a1421ef0b26688efdcbb15608dece461c5cec49cb",
+      "remoteSha256": "229ebe6127b1c4f21b44f40a1421ef0b26688efdcbb15608dece461c5cec49cb",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.jpg": {
+      "bytes": 73152,
+      "localSha256": "3d7cfd6e892a2fa1c0f3decb0345e2f31962c136e88ce9688d5d8b0113c5b1c5",
+      "remoteSha256": "3d7cfd6e892a2fa1c0f3decb0345e2f31962c136e88ce9688d5d8b0113c5b1c5",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg": {
+      "bytes": 72376,
+      "localSha256": "117afbb9b1a90f1185b2c15325766d68e04c87730c6dc0b5ba19bf1ccbe8866c",
+      "remoteSha256": "117afbb9b1a90f1185b2c15325766d68e04c87730c6dc0b5ba19bf1ccbe8866c",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg": {
+      "bytes": 67224,
+      "localSha256": "7a1baee163914f76913b82cca69604e5cd1f51ebe807379b9a118bd664ba4880",
+      "remoteSha256": "7a1baee163914f76913b82cca69604e5cd1f51ebe807379b9a118bd664ba4880",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg": {
+      "bytes": 83577,
+      "localSha256": "79495ab9aab38412c72987c8afab82ef2cc34302153cb8a1ab91db53c8b095b6",
+      "remoteSha256": "79495ab9aab38412c72987c8afab82ef2cc34302153cb8a1ab91db53c8b095b6",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg": {
+      "bytes": 82224,
+      "localSha256": "2c78ca8052f366ae26d26fbea076667eb2a8271281ffef6a505b3937f1b6eff2",
+      "remoteSha256": "2c78ca8052f366ae26d26fbea076667eb2a8271281ffef6a505b3937f1b6eff2",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/margin-gate-en-v1.png": {
+      "bytes": 78550,
+      "localSha256": "9c1b9f342655c82dc779fee9e516bbfab50d7787076e83afdf16418bce11cc5c",
+      "remoteSha256": "9c1b9f342655c82dc779fee9e516bbfab50d7787076e83afdf16418bce11cc5c",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/margin-gate-zh-v1.png": {
+      "bytes": 73975,
+      "localSha256": "5dd874937b2f0c3a6ab97aa5dd9a5abe737643064988a10a56f5e95a279e087d",
+      "remoteSha256": "5dd874937b2f0c3a6ab97aa5dd9a5abe737643064988a10a56f5e95a279e087d",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/worksheet-en-v1.png": {
+      "bytes": 93407,
+      "localSha256": "a4ffcaa4a3b3af1cbfd2cf36c39022994e0b021fdeb2c599c5b6e3800530c86e",
+      "remoteSha256": "a4ffcaa4a3b3af1cbfd2cf36c39022994e0b021fdeb2c599c5b6e3800530c86e",
+      "match": true
+    },
+    "blog/q4-15-shipping-margin/worksheet-zh-v1.png": {
+      "bytes": 83891,
+      "localSha256": "8c39e6f0ccde7ab65e4d273c3797a202ceeca1457234e2705291c993c13264e6",
+      "remoteSha256": "8c39e6f0ccde7ab65e4d273c3797a202ceeca1457234e2705291c993c13264e6",
+      "match": true
+    },
+    "blog/q4-16-cbt-handoff/exception-ledger-en-v1.png": {
+      "bytes": 102857,
+      "localSha256": "3f8a32a0747fcdd97798361d4a9617738ce192a640b4b1f7f84d832ac60668df",
+      "remoteSha256": "3f8a32a0747fcdd97798361d4a9617738ce192a640b4b1f7f84d832ac60668df",
+      "match": true
+    },
+    "blog/q4-16-cbt-handoff/exception-ledger-zh-v1.png": {
+      "bytes": 97609,
+      "localSha256": "1c75295b86d66a2741274f3578b8bb2a66cd8a07c514fae4cd01270b467591a1",
+      "remoteSha256": "1c75295b86d66a2741274f3578b8bb2a66cd8a07c514fae4cd01270b467591a1",
+      "match": true
+    },
+    "blog/q4-16-cbt-handoff/handoff-chain-en-v1.png": {
+      "bytes": 64789,
+      "localSha256": "470030d4996f979cc3fe4af8d3833fce88042d6bd5978d3f09ac877399a2a585",
+      "remoteSha256": "470030d4996f979cc3fe4af8d3833fce88042d6bd5978d3f09ac877399a2a585",
+      "match": true
+    },
+    "blog/q4-16-cbt-handoff/handoff-chain-zh-v1.png": {
+      "bytes": 60179,
+      "localSha256": "0d025b62344261300b6fa85697cb4ddc22452be09f269874df094bdf6100cb86",
+      "remoteSha256": "0d025b62344261300b6fa85697cb4ddc22452be09f269874df094bdf6100cb86",
+      "match": true
+    },
+    "blog/q4-17-dispatch/dispatch-chain-en-v1.png": {
+      "bytes": 67325,
+      "localSha256": "77dc5f58edd50f3a2de7ad7a98c28297b7eb112c76c477a4b6d26b13eb6880f9",
+      "remoteSha256": "77dc5f58edd50f3a2de7ad7a98c28297b7eb112c76c477a4b6d26b13eb6880f9",
+      "match": true
+    },
+    "blog/q4-17-dispatch/dispatch-chain-zh-v1.png": {
+      "bytes": 64669,
+      "localSha256": "e6ab7fd92ad6d654c1920c27b83b412ad51ddbfc1cb6ffa8d09788afd8114e2f",
+      "remoteSha256": "e6ab7fd92ad6d654c1920c27b83b412ad51ddbfc1cb6ffa8d09788afd8114e2f",
+      "match": true
+    },
+    "blog/q4-17-dispatch/evidence-table-en-v1.png": {
+      "bytes": 94386,
+      "localSha256": "5bc1fb6a87be31f59e86babfaed78a2e396159a9106ae1eb0132f78bc6a43f49",
+      "remoteSha256": "5bc1fb6a87be31f59e86babfaed78a2e396159a9106ae1eb0132f78bc6a43f49",
+      "match": true
+    },
+    "blog/q4-17-dispatch/evidence-table-zh-v1.png": {
+      "bytes": 90623,
+      "localSha256": "3c4af7faf09bbe5340be382f3319f7ffdbd356d07356a660dd6ebe825ed8ee6b",
+      "remoteSha256": "3c4af7faf09bbe5340be382f3319f7ffdbd356d07356a660dd6ebe825ed8ee6b",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-en-v1.jpg": {
+      "bytes": 30700,
+      "localSha256": "74859aadb4d3ebc20297635067ff409ab225c1608f41db33ed3e60ebeaf2ee6a",
+      "remoteSha256": "74859aadb4d3ebc20297635067ff409ab225c1608f41db33ed3e60ebeaf2ee6a",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.jpg": {
+      "bytes": 31169,
+      "localSha256": "448102743d6f85fcced59f10a5bd83edc0ee2057d3acb163a220207e9605bd5d",
+      "remoteSha256": "448102743d6f85fcced59f10a5bd83edc0ee2057d3acb163a220207e9605bd5d",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-en-v1.jpg": {
+      "bytes": 30964,
+      "localSha256": "cc1b382a787c5c968c0cb01e5ad0151efce35b1f5fecda583d8137c6272bcd3a",
+      "remoteSha256": "cc1b382a787c5c968c0cb01e5ad0151efce35b1f5fecda583d8137c6272bcd3a",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-peak-season-shipping-margin-zh-v1.jpg": {
+      "bytes": 28680,
+      "localSha256": "25491d6f94d6e6a12a1e51ff466109efa75faa8167aad8077a5c615edafe3a1e",
+      "remoteSha256": "25491d6f94d6e6a12a1e51ff466109efa75faa8167aad8077a5c615edafe3a1e",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg": {
+      "bytes": 33999,
+      "localSha256": "ab4396471f5e9716fd8fba2ec2760a33dfb93abe4cb173ccd4f3d87d52a05526",
+      "remoteSha256": "ab4396471f5e9716fd8fba2ec2760a33dfb93abe4cb173ccd4f3d87d52a05526",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg": {
+      "bytes": 33178,
+      "localSha256": "d207cfe8c363923b75e0737559764ebc16315e4da7263997f2cc7898ce3bbbee",
+      "remoteSha256": "d207cfe8c363923b75e0737559764ebc16315e4da7263997f2cc7898ce3bbbee",
+      "match": true
+    },
+    "blog/tiktok-shop-collection-warehouse-handoff.html": {
+      "bytes": 40814,
+      "localSha256": "be473c2faef12b85972016c20a3fde5be3bd39241cdd795411260304231a75e3",
+      "remoteSha256": "be473c2faef12b85972016c20a3fde5be3bd39241cdd795411260304231a75e3",
+      "match": true
+    },
+    "blog/tiktok-shop-peak-season-shipping-margin.html": {
+      "bytes": 38617,
+      "localSha256": "79bbb7cac5c91b0d28c5237319571c94594f8394269ccf64b9cd55eb86cc88ca",
+      "remoteSha256": "79bbb7cac5c91b0d28c5237319571c94594f8394269ccf64b9cd55eb86cc88ca",
+      "match": true
+    },
+    "blog/tiktok-shop-qualifying-dispatch-event.html": {
+      "bytes": 40250,
+      "localSha256": "b22d90ddbc83ed2cbdb9e8bb7a921d8798facd0882ee09712b2b874aefb1f05d",
+      "remoteSha256": "b22d90ddbc83ed2cbdb9e8bb7a921d8798facd0882ee09712b2b874aefb1f05d",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 35043,
+      "localSha256": "ecc8b6b6364ad6ecdc883abcd9365f5bdc9788bee25144c2be9bd757e06dd6c6",
+      "remoteSha256": "ecc8b6b6364ad6ecdc883abcd9365f5bdc9788bee25144c2be9bd757e06dd6c6",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 49020,
+      "localSha256": "bf501d8ceb92470793bd5a33d0960ee1dc6c4f936ac724520a6d582bc74e1dd9",
+      "remoteSha256": "bf501d8ceb92470793bd5a33d0960ee1dc6c4f936ac724520a6d582bc74e1dd9",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 34339,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-13",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-qualifying-dispatch-event-en-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-13",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "What Counts as a TikTok Shop Qualifying Dispatch Event?",
+      "documentTitle": "What Counts as a TikTok Shop Qualifying Dispatch Event? | WE Marketing",
+      "description": "Separate label creation, Awaiting Collection, physical handoff, eligible manifest scans and carrier acceptance with one order-level dispatch evidence table.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4177/blog/hero-tiktok-shop-qualifying-dispatch-event-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/evidence-table-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/dispatch-chain-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4177/blog/tiktok-shop-qualifying-dispatch-event.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 什么才算有效发货：面单、交仓和承运商扫描不是一回事",
+      "documentTitle": "TikTok Shop 什么才算有效发货：面单、交仓和承运商扫描不是一回事 | WE Marketing",
+      "description": "用订单级发货证据表区分打印面单、Awaiting Collection、实体交仓、合资格扫描与承运商接收。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4177/blog/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/evidence-table-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/dispatch-chain-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4177/blog/tiktok-shop-qualifying-dispatch-event.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "What Counts as a TikTok Shop Qualifying Dispatch Event?",
+      "documentTitle": "What Counts as a TikTok Shop Qualifying Dispatch Event? | WE Marketing",
+      "description": "Separate label creation, Awaiting Collection, physical handoff, eligible manifest scans and carrier acceptance with one order-level dispatch evidence table.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4177/blog/hero-tiktok-shop-qualifying-dispatch-event-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/evidence-table-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/dispatch-chain-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4177/blog/tiktok-shop-qualifying-dispatch-event.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 什么才算有效发货：面单、交仓和承运商扫描不是一回事",
+      "documentTitle": "TikTok Shop 什么才算有效发货：面单、交仓和承运商扫描不是一回事 | WE Marketing",
+      "description": "用订单级发货证据表区分打印面单、Awaiting Collection、实体交仓、合资格扫描与承运商接收。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4177/blog/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/evidence-table-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4177/blog/q4-17-dispatch/dispatch-chain-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4177/blog/tiktok-shop-qualifying-dispatch-event.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-qualifying-dispatch-event"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4177/BlogList.compiled.js?v=b37ecd6e0043",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

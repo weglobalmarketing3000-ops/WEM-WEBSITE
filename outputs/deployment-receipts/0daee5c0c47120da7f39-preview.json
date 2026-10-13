@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-13-q4-17-qualifying-dispatch",
+  "patchFingerprint": "0daee5c0c47120da7f396a5d03bdbb36df6438dbd88e0db3cf34e6408ce29ec2",
+  "pid": 99904,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/0daee5c0c47120da7f39-preview.log",
+  "url": "https://wem-website-e6zrzc5qg-wem1.vercel.app",
+  "deploymentId": "dpl_DZwiT8kCaqfqnNAJxWQixGt8JGdx",
+  "exitCode": 0,
+  "updatedAt": "2026-10-13T13:11:50Z"
+}

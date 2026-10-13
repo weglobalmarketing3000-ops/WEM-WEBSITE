@@ -1,0 +1,41 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-13",
+  "sources": {
+    "logistics": {
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=7740101263378189&role=1",
+      "file": "outputs/2026-10-13-q4-17-source/logistics-fulfillment-options.html",
+      "httpStatus": 200,
+      "bytes": 515722,
+      "sha256": "2710c8fcb895a6e5452ac2c16f6918c06430fdd80bb1eb1b6ec3b413d5022041"
+    },
+    "fulfillment": {
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=3995852763301633&role=1",
+      "file": "outputs/2026-10-13-q4-17-source/fulfillment-policy.html",
+      "httpStatus": 200,
+      "bytes": 267136,
+      "sha256": "04fb8fd829efa843d131ea24d8e558560e5a44874276ca997a32079384555541"
+    },
+    "shipping": {
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=6837879804970754",
+      "file": "outputs/2026-10-13-q4-17-source/customer-order-shipping-requirements.html",
+      "httpStatus": 200,
+      "bytes": 216725,
+      "sha256": "756070b1a6659ce9599edf2a6589d4a1f600781481bf1d65e5b80897153214b4"
+    },
+    "ldr": {
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=3668989549299511&role=1",
+      "file": "outputs/2026-10-13-q4-17-source/late-dispatch-rate-requirements.html",
+      "httpStatus": 200,
+      "bytes": 122572,
+      "sha256": "619a536351d087e7f01dd1e3b43b3063d5c2078afa13ba363c64a6d29eeafc2e"
+    },
+    "manifest": {
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=2159226148472596",
+      "file": "outputs/2026-10-13-q4-17-source/tiktok-manifest.html",
+      "httpStatus": 200,
+      "bytes": 227230,
+      "sha256": "7323d6cf45f4df489ec4e511601407fa36204abf02b84801ac82444d30bd4d1a"
+    }
+  }
+}
