@@ -19,8 +19,9 @@ const configs = {
   'q4-10': { patch: '2026-10-06-q4-10-originality-protection', prefix: '2026-10-06-q4-10', slug: 'tiktok-shop-originality-protection-image-evidence', date: '2026-10-06', enDate: 'Oct 6, 2026', zhDate: '2026 年 10 月 6 日', expectedFiles: 17, expectedImages: 3 },
   'q4-10-production': { patch: '2026-10-06-q4-10-production-reconciled', prefix: '2026-10-06-q4-10-production', slug: 'tiktok-shop-originality-protection-image-evidence', date: '2026-10-06', enDate: 'Oct 6, 2026', zhDate: '2026 年 10 月 6 日', expectedFiles: 17, expectedImages: 3 },
   'q4-11': { patch: '2026-10-07-q4-11-brand-authorization', prefix: '2026-10-07-q4-11', slug: 'tiktok-shop-brand-authorization-cobranded-originality', date: '2026-10-07', enDate: 'Oct 7, 2026', zhDate: '2026 年 10 月 7 日', expectedFiles: 17, expectedImages: 3 },
-  'q4-16-production': { patch: '2026-10-12-q4-16-production-readback', prefix: '2026-10-12-q4-16-production', slug: 'tiktok-shop-collection-warehouse-handoff', date: '2026-10-12', enDate: 'Oct 12, 2026', zhDate: '2026 年 10 月 12 日', expectedFiles: 17, expectedImages: 3, indexRank: 1 },
-  'q4-17': { patch: '2026-10-13-q4-17-qualifying-dispatch', prefix: '2026-10-13-q4-17', slug: 'tiktok-shop-qualifying-dispatch-event', date: '2026-10-13', enDate: 'Oct 13, 2026', zhDate: '2026 年 10 月 13 日', expectedFiles: 17, expectedImages: 3 },
+  'q4-16-production': { patch: '2026-10-12-q4-16-production-readback', prefix: '2026-10-12-q4-16-production', slug: 'tiktok-shop-collection-warehouse-handoff', date: '2026-10-12', enDate: 'Oct 12, 2026', zhDate: '2026 年 10 月 12 日', expectedFiles: 17, expectedImages: 3, indexRank: 2 },
+  'q4-17': { patch: '2026-10-13-q4-17-qualifying-dispatch', prefix: '2026-10-13-q4-17', slug: 'tiktok-shop-qualifying-dispatch-event', date: '2026-10-13', enDate: 'Oct 13, 2026', zhDate: '2026 年 10 月 13 日', expectedFiles: 17, expectedImages: 3, indexRank: 1 },
+  'q4-18': { patch: '2026-10-14-q4-18-order-capacity', prefix: '2026-10-14-q4-18', slug: 'tiktok-shop-order-capacity-q4-demand-spike', date: '2026-10-14', enDate: 'Oct 14, 2026', zhDate: '2026 年 10 月 14 日', expectedFiles: 17, expectedImages: 3 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];

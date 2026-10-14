@@ -1,0 +1,642 @@
+{
+  "status": "preview_qa_complete",
+  "mode": "preview",
+  "base": "http://127.0.0.1:4181",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 156327,
+      "localSha256": "fbcc64a3c4c7434ef6fc92f4d4c09e2e618d98ad03cf1bee258eb8b117253908",
+      "remoteSha256": "fbcc64a3c4c7434ef6fc92f4d4c09e2e618d98ad03cf1bee258eb8b117253908",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 137170,
+      "localSha256": "7ba961f46fe4bf0bc6e0a141fe0c5fcbf20b2d0888bb823040e3f2985450512e",
+      "remoteSha256": "7ba961f46fe4bf0bc6e0a141fe0c5fcbf20b2d0888bb823040e3f2985450512e",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "5379ab9554b673ee2d1add3001543523d14264bc4ce624aa974293d0ae3ddf9a",
+      "remoteSha256": "5379ab9554b673ee2d1add3001543523d14264bc4ce624aa974293d0ae3ddf9a",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png": {
+      "bytes": 1923603,
+      "localSha256": "61868c815dc2628e0eff15c862aca7831ba329f771550d6ce41cd5cbeae57359",
+      "remoteSha256": "61868c815dc2628e0eff15c862aca7831ba329f771550d6ce41cd5cbeae57359",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png": {
+      "bytes": 1922643,
+      "localSha256": "85933c5dee6fd3405ad8ba5a6722accd05ab80b59abc5863a69a71880ecd2084",
+      "remoteSha256": "85933c5dee6fd3405ad8ba5a6722accd05ab80b59abc5863a69a71880ecd2084",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg": {
+      "bytes": 89805,
+      "localSha256": "10b83b0ca065df17f402ef0b8644c98e9fe6e85f404bbe447db5b31f57d22fd1",
+      "remoteSha256": "10b83b0ca065df17f402ef0b8644c98e9fe6e85f404bbe447db5b31f57d22fd1",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg": {
+      "bytes": 88502,
+      "localSha256": "396f218e2efcf8a5fa845a7b896652cce1ed87fcc478f0bf10d3b60cb6fc60e1",
+      "remoteSha256": "396f218e2efcf8a5fa845a7b896652cce1ed87fcc478f0bf10d3b60cb6fc60e1",
+      "match": true
+    },
+    "blog/q4-18-capacity/model-en-v1.png": {
+      "bytes": 98293,
+      "localSha256": "a027508be3c77bfc81dde11212421efdf5b0c11b503fdfad406676902a06bc9d",
+      "remoteSha256": "a027508be3c77bfc81dde11212421efdf5b0c11b503fdfad406676902a06bc9d",
+      "match": true
+    },
+    "blog/q4-18-capacity/model-zh-v1.png": {
+      "bytes": 92262,
+      "localSha256": "eab0c0d6bec99c627d99aac801298be41fe4873b24bcf94e4385b04f847cb542",
+      "remoteSha256": "eab0c0d6bec99c627d99aac801298be41fe4873b24bcf94e4385b04f847cb542",
+      "match": true
+    },
+    "blog/q4-18-capacity/triggers-en-v1.png": {
+      "bytes": 76733,
+      "localSha256": "10d7d8474bcb49f4e65cbf812eada3cce26288ff3756d9a40b27f83c1cbdfc87",
+      "remoteSha256": "10d7d8474bcb49f4e65cbf812eada3cce26288ff3756d9a40b27f83c1cbdfc87",
+      "match": true
+    },
+    "blog/q4-18-capacity/triggers-zh-v1.png": {
+      "bytes": 71656,
+      "localSha256": "850fa1c2cf0678f35d4358df3cc7ab5736097f8f5a84c3f7a31f78f0cb58bb9a",
+      "remoteSha256": "850fa1c2cf0678f35d4358df3cc7ab5736097f8f5a84c3f7a31f78f0cb58bb9a",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg": {
+      "bytes": 51334,
+      "localSha256": "a805c7a09916872fa412e5ad7237720fdbecc2799188c0010d1b63ab606230f8",
+      "remoteSha256": "a805c7a09916872fa412e5ad7237720fdbecc2799188c0010d1b63ab606230f8",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg": {
+      "bytes": 50735,
+      "localSha256": "54b9878a9013775ad7a555d464742d74b164b64929c0ec72b3c7ed8f0a48a57b",
+      "remoteSha256": "54b9878a9013775ad7a555d464742d74b164b64929c0ec72b3c7ed8f0a48a57b",
+      "match": true
+    },
+    "blog/tiktok-shop-order-capacity-q4-demand-spike.html": {
+      "bytes": 38234,
+      "localSha256": "5be2c5459020493d8d2840b7082a301b7fa12cb880faf820d105f29fe6d267fa",
+      "remoteSha256": "5be2c5459020493d8d2840b7082a301b7fa12cb880faf820d105f29fe6d267fa",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 35304,
+      "localSha256": "2d5c42a769c9033074bae1283033a2649503eeb2aef687ab676548339270642e",
+      "remoteSha256": "2d5c42a769c9033074bae1283033a2649503eeb2aef687ab676548339270642e",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 49292,
+      "localSha256": "bfa960f1d9ce8faee243356dfca805e460cd2be5d150d905bcd20076d4e8897a",
+      "remoteSha256": "bfa960f1d9ce8faee243356dfca805e460cd2be5d150d905bcd20076d4e8897a",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 31801,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-14",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-14",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You",
+      "documentTitle": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You | WE Marketing",
+      "description": "Set a defensible TikTok Shop daily order capacity, define surge triggers and protect dispatch quality before a Q4 demand spike.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/model-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/triggers-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-order-capacity-q4-demand-spike.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单",
+      "documentTitle": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单 | WE Marketing",
+      "description": "在 Q4 需求高峰前设定可验证的 TikTok Shop 每日订单产能、预警触发线与履约保护动作。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/model-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/triggers-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-order-capacity-q4-demand-spike.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You",
+      "documentTitle": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You | WE Marketing",
+      "description": "Set a defensible TikTok Shop daily order capacity, define surge triggers and protect dispatch quality before a Q4 demand spike.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/model-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/triggers-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-order-capacity-q4-demand-spike.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单",
+      "documentTitle": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单 | WE Marketing",
+      "description": "在 Q4 需求高峰前设定可验证的 TikTok Shop 每日订单产能、预警触发线与履约保护动作。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/model-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 760,
+          "src": "http://127.0.0.1:4181/blog/q4-18-capacity/triggers-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-order-capacity-q4-demand-spike.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff",
+          "text": "Oct 12, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCollection by TikTok Warehouse Handoff: The Cutoff, Scan and Exception SOP\n\nControl CBT cutoff, labels, scans, physical carrier handoff and warehouse exceptions.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff",
+          "text": "Oct 12, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCollection by TikTok Warehouse Handoff: The Cutoff, Scan and Exception SOP\n\nControl CBT cutoff, labels, scans, physical carrier handoff and warehouse exceptions.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff?lang=zh",
+          "text": "2026 年 10 月 12 日\nTIKTOK-SHOP\n店铺运营\nCollection by TikTok 仓库交接：截单、扫描与异常处理 SOP\n\n用一套 SOP 控制 CBT 截单、面单、扫描、实体交接与仓库异常。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff?lang=zh",
+          "text": "2026 年 10 月 12 日\nTIKTOK-SHOP\n店铺运营\nCollection by TikTok 仓库交接：截单、扫描与异常处理 SOP\n\n用一套 SOP 控制 CBT 截单、面单、扫描、实体交接与仓库异常。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff",
+          "text": "Oct 12, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCollection by TikTok Warehouse Handoff: The Cutoff, Scan and Exception SOP\n\nControl CBT cutoff, labels, scans, physical carrier handoff and warehouse exceptions.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff",
+          "text": "Oct 12, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nCollection by TikTok Warehouse Handoff: The Cutoff, Scan and Exception SOP\n\nControl CBT cutoff, labels, scans, physical carrier handoff and warehouse exceptions.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff?lang=zh",
+          "text": "2026 年 10 月 12 日\nTIKTOK-SHOP\n店铺运营\nCollection by TikTok 仓库交接：截单、扫描与异常处理 SOP\n\n用一套 SOP 控制 CBT 截单、面单、扫描、实体交接与仓库异常。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-collection-warehouse-handoff?lang=zh",
+          "text": "2026 年 10 月 12 日\nTIKTOK-SHOP\n店铺运营\nCollection by TikTok 仓库交接：截单、扫描与异常处理 SOP\n\n用一套 SOP 控制 CBT 截单、面单、扫描、实体交接与仓库异常。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-collection-warehouse-handoff-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=fbcc64a3c4c7",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

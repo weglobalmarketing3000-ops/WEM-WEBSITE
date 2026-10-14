@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-14-q4-18-order-capacity",
+  "patchFingerprint": "2039b3edea5e9df5636fc07c271332886657b2d9b68c32a9412fe47767257b80",
+  "pid": 55409,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/2039b3edea5e9df5636f-production.log",
+  "url": "https://wem-website-o7fead2ip-wem1.vercel.app",
+  "deploymentId": "dpl_7E4A4WMo9LnDqfnswbeWQ4vHmK2N",
+  "exitCode": 0,
+  "updatedAt": "2026-10-14T13:21:50Z"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-14",
+  "sources": [
+    {
+      "file": "order-handling-capacity.html",
+      "bytes": 214185,
+      "sha256": "6e542507f4bbd28f3d1654926ba5d0dd962a3ee18e68244f0caad83072d7319e"
+    },
+    {
+      "file": "fulfillment-policy.html",
+      "bytes": 267100,
+      "sha256": "9ac0dac28e3690e8e9b8f2ee92f8b19c996fa511a56f4df4eaa096820684729f"
+    },
+    {
+      "file": "logistics-fulfillment-score.html",
+      "bytes": 382398,
+      "sha256": "a166948e639d71a9ce85ae99b2f576a8ed3e2968d4cae26e38ae64e3f0dea5f3"
+    },
+    {
+      "file": "bfcm-guide.html",
+      "bytes": 261254,
+      "sha256": "3a930901dc39390a4a1968fa8b0a36def3652aee0ef7cd71874df38a193ea959"
+    }
+  ],
+  "facts": [
+    "Daily order handling capacity is the estimated maximum order volume a shop can efficiently dispatch in one day.",
+    "Capacity-setting changes take effect the next day.",
+    "Eligible excess volume may receive automatic timing extensions, while volume above three times capacity may trigger surge protection.",
+    "The new Logistics and Fulfillment Score was preview-only through October 14, 2026 and scheduled to launch October 15.",
+    "WEM adds a bottleneck model, recovery buffer, trigger ladder and daily capacity cadence."
+  ]
+}
