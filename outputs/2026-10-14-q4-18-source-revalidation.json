@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-14T13:06:52.975Z",
+  "records": [
+    {
+      "name": "order-handling-capacity",
+      "url": "https://seller-us.tiktok.com/university/essay?course_type=1&from=search&identity=1&knowledge_id=5941246229022506&role=1",
+      "status": 200,
+      "bytes": 214332,
+      "sha256": "761a7f9463271cefc56d26d16e579827f74bf08d7f4f9e491cee789c22bc60ad",
+      "file": "outputs/2026-10-14-q4-18-source/order-handling-capacity.html"
+    },
+    {
+      "name": "fulfillment-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=3995852763301633&role=1",
+      "status": 200,
+      "bytes": 267137,
+      "sha256": "30e3788191d46fbcca6848213d221d9f6598cef3dac70936a3a38917d1fdaacd",
+      "file": "outputs/2026-10-14-q4-18-source/fulfillment-policy.html"
+    },
+    {
+      "name": "bfcm-seller-campaign-guide",
+      "url": "https://seller-us.tiktok.com/university/essay?content_id=2786070166210347&course_type=1&from=new-and-updated&identity=1&knowledge_id=26854147802894&learning_id=26854147802894&module_id=latest_policies&role=seller",
+      "status": 200,
+      "bytes": 261700,
+      "sha256": "11164b22af48eec311f7919f241c0206131fab32944808e1e3e7ac2eab617076",
+      "file": "outputs/2026-10-14-q4-18-source/bfcm-seller-campaign-guide.html"
+    },
+    {
+      "name": "logistics-fulfillment-score",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=7082627485452050",
+      "status": 200,
+      "bytes": 382398,
+      "sha256": "4b7a8c276a4d92d4585089f59a27bf5ba901e91a8eb5581011a41b02b183fdd8",
+      "file": "outputs/2026-10-14-q4-18-source/logistics-fulfillment-score.html"
+    },
+    {
+      "name": "order-fulfillment-best-practices",
+      "url": "https://seller-us.tiktok.com/university/essay?course_type=1&knowledge_id=6179821974439723",
+      "status": 200,
+      "bytes": 229028,
+      "sha256": "ed257644d2412abc713de5d0d7466326f73af358bbf5852441c794f6bcde6e75",
+      "file": "outputs/2026-10-14-q4-18-source/order-fulfillment-best-practices.html"
+    }
+  ]
+}

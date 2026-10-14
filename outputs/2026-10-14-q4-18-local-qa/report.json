@@ -1,0 +1,490 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4178",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 156342,
+      "localSha256": "fb8e9fa950f62b689afdf69f724fe6452f418b270766f6d19c23b51d0f482d21",
+      "remoteSha256": "fb8e9fa950f62b689afdf69f724fe6452f418b270766f6d19c23b51d0f482d21",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 137194,
+      "localSha256": "22b9d0e6bc40cb86a840c7a1e66fc040c0c0ed23a1ebdc36136fc95055a33d95",
+      "remoteSha256": "22b9d0e6bc40cb86a840c7a1e66fc040c0c0ed23a1ebdc36136fc95055a33d95",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "51a2f30ed82efb490a08de23b815edabe2aee90ba1cb8b5ae45cfb7962875ecb",
+      "remoteSha256": "51a2f30ed82efb490a08de23b815edabe2aee90ba1cb8b5ae45cfb7962875ecb",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png": {
+      "bytes": 583959,
+      "localSha256": "d6409ed95cb50a356c72ca7b2ed7f38e238af24d4acd8822be2c09ba8659f8aa",
+      "remoteSha256": "d6409ed95cb50a356c72ca7b2ed7f38e238af24d4acd8822be2c09ba8659f8aa",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png": {
+      "bytes": 578342,
+      "localSha256": "c09f6b59a0ed8778cecc0f3ee8a2407209b591c78de3febe4aecdf0c6ca0d71f",
+      "remoteSha256": "c09f6b59a0ed8778cecc0f3ee8a2407209b591c78de3febe4aecdf0c6ca0d71f",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg": {
+      "bytes": 104167,
+      "localSha256": "2e0546f1a78376712b7d720af5ac6e2b4c8be0358183584d3934e6cc3cf25ce1",
+      "remoteSha256": "2e0546f1a78376712b7d720af5ac6e2b4c8be0358183584d3934e6cc3cf25ce1",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg": {
+      "bytes": 97327,
+      "localSha256": "cacbf937083eb59713cf3c8cad1c3f74955136d7fdc5ec54344d8905795b217f",
+      "remoteSha256": "cacbf937083eb59713cf3c8cad1c3f74955136d7fdc5ec54344d8905795b217f",
+      "match": true
+    },
+    "blog/q4-18-capacity/capacity-model-en-v1.png": {
+      "bytes": 96221,
+      "localSha256": "f3c3ffa93d6813ee62fcab3c5f631e2cffc67251bade8ea6fc86966e4b4d2acd",
+      "remoteSha256": "f3c3ffa93d6813ee62fcab3c5f631e2cffc67251bade8ea6fc86966e4b4d2acd",
+      "match": true
+    },
+    "blog/q4-18-capacity/capacity-model-zh-v1.png": {
+      "bytes": 85758,
+      "localSha256": "f0f7d4024ad3668351fccba420a798202a694aa1e9985f4ee18df773e2e433a8",
+      "remoteSha256": "f0f7d4024ad3668351fccba420a798202a694aa1e9985f4ee18df773e2e433a8",
+      "match": true
+    },
+    "blog/q4-18-capacity/trigger-ladder-en-v1.png": {
+      "bytes": 91337,
+      "localSha256": "6b10f4ec24684ae5006552dbc62646aa0ba0472378e604e3babe55c0966c0ab7",
+      "remoteSha256": "6b10f4ec24684ae5006552dbc62646aa0ba0472378e604e3babe55c0966c0ab7",
+      "match": true
+    },
+    "blog/q4-18-capacity/trigger-ladder-zh-v1.png": {
+      "bytes": 79879,
+      "localSha256": "8536a6df7012d0a7089f8d3b4dbdf0d5e89f283650795555a705b2caa21b0505",
+      "remoteSha256": "8536a6df7012d0a7089f8d3b4dbdf0d5e89f283650795555a705b2caa21b0505",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg": {
+      "bytes": 42448,
+      "localSha256": "73d9f7d3814055d80f6e80349f146ab2d955ce51cf9570ded86e2a015e188000",
+      "remoteSha256": "73d9f7d3814055d80f6e80349f146ab2d955ce51cf9570ded86e2a015e188000",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg": {
+      "bytes": 38546,
+      "localSha256": "c745933ca927f8a4723cee636903b13c7629da06a99d2a2e674bedaff2003404",
+      "remoteSha256": "c745933ca927f8a4723cee636903b13c7629da06a99d2a2e674bedaff2003404",
+      "match": true
+    },
+    "blog/tiktok-shop-order-capacity-q4-demand-spike.html": {
+      "bytes": 40962,
+      "localSha256": "bbb3d5db421dc3d4b0f6db9338302b7ccfa2ef573e111cf6ecb8f189a0e8d2a9",
+      "remoteSha256": "bbb3d5db421dc3d4b0f6db9338302b7ccfa2ef573e111cf6ecb8f189a0e8d2a9",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 35304,
+      "localSha256": "2d5c42a769c9033074bae1283033a2649503eeb2aef687ab676548339270642e",
+      "remoteSha256": "2d5c42a769c9033074bae1283033a2649503eeb2aef687ab676548339270642e",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 49292,
+      "localSha256": "bfa960f1d9ce8faee243356dfca805e460cd2be5d150d905bcd20076d4e8897a",
+      "remoteSha256": "bfa960f1d9ce8faee243356dfca805e460cd2be5d150d905bcd20076d4e8897a",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 34283,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-14",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-14",
+        "page": {
+          "@type": "WebPage",
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png",
+          "width": 1792,
+          "height": 896
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You",
+      "documentTitle": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You | WE Marketing",
+      "description": "Turn observed warehouse throughput into a TikTok Shop daily order-capacity limit, trigger ladder and evidence-backed Q4 control.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4178/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/capacity-model-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/trigger-ladder-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4178/blog/tiktok-shop-order-capacity-q4-demand-spike.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单",
+      "documentTitle": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单 | WE Marketing",
+      "description": "把仓库真实吞吐量变成 TikTok Shop 日订单产能、触发阶梯和有证据的 Q4 履约控制。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4178/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/capacity-model-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/trigger-ladder-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4178/blog/tiktok-shop-order-capacity-q4-demand-spike.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You",
+      "documentTitle": "Set TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You | WE Marketing",
+      "description": "Turn observed warehouse throughput into a TikTok Shop daily order-capacity limit, trigger ladder and evidence-backed Q4 control.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4178/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/capacity-model-en-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/trigger-ladder-en-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4178/blog/tiktok-shop-order-capacity-q4-demand-spike.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单",
+      "documentTitle": "Q4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单 | WE Marketing",
+      "description": "把仓库真实吞吐量变成 TikTok Shop 日订单产能、触发阶梯和有证据的 Q4 履约控制。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4178/blog/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 940,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/capacity-model-zh-v1.png"
+        },
+        {
+          "width": 1600,
+          "height": 860,
+          "src": "http://127.0.0.1:4178/blog/q4-18-capacity/trigger-ladder-zh-v1.png"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4178/blog/tiktok-shop-order-capacity-q4-demand-spike.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-capacity-q4-demand-spike"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4178/BlogList.compiled.js?v=fb8e9fa950f6",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

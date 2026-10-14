@@ -25,6 +25,8 @@ const configs = {
   'q4-15': { patch: '2026-10-11-q4-15-peak-shipping-margin', prefix: '2026-10-11-q4-15', slug: 'tiktok-shop-peak-season-shipping-margin', date: '2026-10-11', enDate: 'Oct 11, 2026', zhDate: '2026 年 10 月 11 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-16': { patch: '2026-10-12-q4-16-cbt-warehouse-handoff', prefix: '2026-10-12-q4-16', slug: 'tiktok-shop-collection-warehouse-handoff', date: '2026-10-12', enDate: 'Oct 12, 2026', zhDate: '2026 年 10 月 12 日', expectedFiles: 28, expectedImages: 3, rank: 1 },
   'q4-17': { patch: '2026-10-13-q4-17-qualifying-dispatch', prefix: '2026-10-13-q4-17', slug: 'tiktok-shop-qualifying-dispatch-event', date: '2026-10-13', enDate: 'Oct 13, 2026', zhDate: '2026 年 10 月 13 日', expectedFiles: 39, expectedImages: 3, rank: 1 },
+  'q4-17-current': { patch: '2026-10-14-q4-17-current-readback', prefix: '2026-10-14-q4-17-current', slug: 'tiktok-shop-qualifying-dispatch-event', date: '2026-10-13', enDate: 'Oct 13, 2026', zhDate: '2026 年 10 月 13 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
+  'q4-18': { patch: '2026-10-14-q4-18-order-capacity', prefix: '2026-10-14-q4-18', slug: 'tiktok-shop-order-capacity-q4-demand-spike', date: '2026-10-14', enDate: 'Oct 14, 2026', zhDate: '2026 年 10 月 14 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
