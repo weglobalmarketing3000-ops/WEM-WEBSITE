@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-15-q4-19-bfcm-fulfillment-extension",
+  "patchFingerprint": "d361e6b6b6c034bb8e186c32fb91775892a72bb46e7717f56cb98d9bffc2e92a",
+  "pid": 7626,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/d361e6b6b6c034bb8e18-preview.log",
+  "url": "https://wem-website-5smj7xjf7-wem1.vercel.app",
+  "deploymentId": "dpl_HquRNU8wbSpq46HN8ygfE7XZQbKU",
+  "exitCode": 0,
+  "updatedAt": "2026-10-15T13:12:44Z"
+}

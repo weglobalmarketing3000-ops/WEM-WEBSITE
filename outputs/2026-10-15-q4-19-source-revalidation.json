@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-15T13:04:33.514Z",
+  "records": [
+    {
+      "name": "bfcm-seller-campaign-guide",
+      "url": "https://seller-us.tiktok.com/university/essay?content_id=2786070166210347&course_type=1&from=new-and-updated&identity=1&knowledge_id=26854147802894&learning_id=26854147802894&module_id=latest_policies&role=seller",
+      "status": 200,
+      "bytes": 261702,
+      "sha256": "f41c2a73423196cb7287e534674400a047ce57ad1b2115cdd1eac241a167b06e",
+      "file": "outputs/2026-10-15-q4-19-source/bfcm-seller-campaign-guide.html"
+    },
+    {
+      "name": "fulfillment-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=3995852763301633&role=1",
+      "status": 200,
+      "bytes": 267136,
+      "sha256": "eb5bc932fd7e0d6a0e7e4c7078585f6ea3769e5ccaff6dd1e3c84ae643783206",
+      "file": "outputs/2026-10-15-q4-19-source/fulfillment-policy.html"
+    },
+    {
+      "name": "late-dispatch-rate-requirements",
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&knowledge_id=3668989549299511",
+      "status": 200,
+      "bytes": 122572,
+      "sha256": "efce9b99585c8a7fd0848e5cd40eff39ec383a34895a78339ad26fd65c4b494c",
+      "file": "outputs/2026-10-15-q4-19-source/late-dispatch-rate-requirements.html"
+    },
+    {
+      "name": "order-fulfillment-best-practices",
+      "url": "https://seller-us.tiktok.com/university/essay?course_type=1&knowledge_id=6179821974439723",
+      "status": 200,
+      "bytes": 229027,
+      "sha256": "c1782ae6aa67ab0ea6063c27c7716f4e755cb30d29501d596454a1b2e890301d",
+      "file": "outputs/2026-10-15-q4-19-source/order-fulfillment-best-practices.html"
+    },
+    {
+      "name": "order-handling-capacity",
+      "url": "https://seller-us.tiktok.com/university/essay?course_type=1&from=search&identity=1&knowledge_id=5941246229022506&role=1",
+      "status": 200,
+      "bytes": 215514,
+      "sha256": "32fd75fd616577a24965d26c662090a0dc5e6bab586a8d7648b1b150edd7da21",
+      "file": "outputs/2026-10-15-q4-19-source/order-handling-capacity.html"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-15",
+  "slug": "tiktok-shop-bfcm-fulfillment-extension-order-sla",
+  "deploymentId": "dpl_4nZP5w43FFuQNgnLxCRAcBH5Mz5D",
+  "readyState": "READY",
+  "rank": 1,
+  "priorRank": 2,
+  "prior2Rank": 3,
+  "checks": [
+    [
+      "custom domain points to accepted deployment",
+      true
+    ],
+    [
+      "English route and date",
+      true
+    ],
+    [
+      "Chinese route and date",
+      true
+    ],
+    [
+      "q4-19 blog card rank 1",
+      true
+    ],
+    [
+      "q4-18 blog card rank 2",
+      true
+    ],
+    [
+      "q4-17 blog card rank 3",
+      true
+    ],
+    [
+      "q4-19 sitemap EN and ZH",
+      true
+    ],
+    [
+      "q4-18 and q4-17 bilingual regression routes remain live",
+      true
+    ]
+  ],
+  "passed": true
+}
