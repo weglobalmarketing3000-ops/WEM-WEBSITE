@@ -1,0 +1,636 @@
+{
+  "status": "preview_qa_complete",
+  "mode": "preview",
+  "base": "http://127.0.0.1:4183",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 157234,
+      "localSha256": "8ca74adf8aa00f0893704df4fb4660b98c87b26e3c6e80f846efd135b3b09b62",
+      "remoteSha256": "8ca74adf8aa00f0893704df4fb4660b98c87b26e3c6e80f846efd135b3b09b62",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 137926,
+      "localSha256": "e3f9a7d2d718dfd266e64742f8e3e7648c034f6561315fb8652c0bc5f3e3e852",
+      "remoteSha256": "e3f9a7d2d718dfd266e64742f8e3e7648c034f6561315fb8652c0bc5f3e3e852",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "4b108b8c7b5316ced122f263b09de8301ac4626f9a183fc1d9fd7192e4c57feb",
+      "remoteSha256": "4b108b8c7b5316ced122f263b09de8301ac4626f9a183fc1d9fd7192e4c57feb",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.png": {
+      "bytes": 540551,
+      "localSha256": "e1909f3feef133fece1d003c4bf915a673377c4e51ced3a32543896d7fdcf0b1",
+      "remoteSha256": "e1909f3feef133fece1d003c4bf915a673377c4e51ced3a32543896d7fdcf0b1",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.png": {
+      "bytes": 541766,
+      "localSha256": "458d6d432fafddade030b436af6a609cc20a8c71f85e13cad899788a5a8aa92a",
+      "remoteSha256": "458d6d432fafddade030b436af6a609cc20a8c71f85e13cad899788a5a8aa92a",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg": {
+      "bytes": 76506,
+      "localSha256": "617a9f8d5a12153e3ac6703fc29ed38b40e973ab3610e99f70739ef8229c6606",
+      "remoteSha256": "617a9f8d5a12153e3ac6703fc29ed38b40e973ab3610e99f70739ef8229c6606",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg": {
+      "bytes": 75339,
+      "localSha256": "82751ff7c7b649501f9707b119421c9f6493bee090e51b23b4b2795a5272b3ba",
+      "remoteSha256": "82751ff7c7b649501f9707b119421c9f6493bee090e51b23b4b2795a5272b3ba",
+      "match": true
+    },
+    "blog/q4-19-sla/board-en-v1.svg": {
+      "bytes": 1662,
+      "localSha256": "706d4f7e30ce0894e4f9f63c65751bcd1f71095659171d98c00efb323b479395",
+      "remoteSha256": "706d4f7e30ce0894e4f9f63c65751bcd1f71095659171d98c00efb323b479395",
+      "match": true
+    },
+    "blog/q4-19-sla/board-zh-v1.svg": {
+      "bytes": 1644,
+      "localSha256": "6ed61268d13d5fc1ee688054652f734e34bc4d68f38d9811202721a29c4f7890",
+      "remoteSha256": "6ed61268d13d5fc1ee688054652f734e34bc4d68f38d9811202721a29c4f7890",
+      "match": true
+    },
+    "blog/q4-19-sla/handoff-en-v1.svg": {
+      "bytes": 1662,
+      "localSha256": "706d4f7e30ce0894e4f9f63c65751bcd1f71095659171d98c00efb323b479395",
+      "remoteSha256": "706d4f7e30ce0894e4f9f63c65751bcd1f71095659171d98c00efb323b479395",
+      "match": true
+    },
+    "blog/q4-19-sla/handoff-zh-v1.svg": {
+      "bytes": 1644,
+      "localSha256": "6ed61268d13d5fc1ee688054652f734e34bc4d68f38d9811202721a29c4f7890",
+      "remoteSha256": "6ed61268d13d5fc1ee688054652f734e34bc4d68f38d9811202721a29c4f7890",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg": {
+      "bytes": 28811,
+      "localSha256": "a7a46de3c827c4fd0c02aeb6de479c48b37f5aaed8870b13322b99af9aaa365c",
+      "remoteSha256": "a7a46de3c827c4fd0c02aeb6de479c48b37f5aaed8870b13322b99af9aaa365c",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg": {
+      "bytes": 26947,
+      "localSha256": "23e6789dbe1fdb340876dd9c9226331749ae9fc423addb65f8a4dd1756f1272c",
+      "remoteSha256": "23e6789dbe1fdb340876dd9c9226331749ae9fc423addb65f8a4dd1756f1272c",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-fulfillment-extension-order-sla.html": {
+      "bytes": 31228,
+      "localSha256": "119ede80861423f47e4777691a538b113f0ee773f674c1d65af3f7250db04433",
+      "remoteSha256": "119ede80861423f47e4777691a538b113f0ee773f674c1d65af3f7250db04433",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 35581,
+      "localSha256": "c5c9bc487fe936eee45a4b7542c31b786fe28d22c3b81f698b94141c7d6f97a3",
+      "remoteSha256": "c5c9bc487fe936eee45a4b7542c31b786fe28d22c3b81f698b94141c7d6f97a3",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 49576,
+      "localSha256": "8b1dc48764bf4b683b79213959c09fb79d9bde471463b31c2a7aafb4e2303c0f",
+      "remoteSha256": "8b1dc48764bf4b683b79213959c09fb79d9bde471463b31c2a7aafb4e2303c0f",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 25919,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-15",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-15",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Do Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order",
+      "documentTitle": "Do Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order | WE Marketing",
+      "description": "A per-order TikTok Shop BFCM SLA board that separates eligible extensions from pre-order, back-order and standard-policy exceptions.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4183/blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/board-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/handoff-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4183/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA",
+      "documentTitle": "不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA | WE Marketing",
+      "description": "用逐单 SLA 看板区分 BFCM 延长履约、预售、补货与标准规则例外。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4183/blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/board-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/handoff-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4183/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Do Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order",
+      "documentTitle": "Do Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order | WE Marketing",
+      "description": "A per-order TikTok Shop BFCM SLA board that separates eligible extensions from pre-order, back-order and standard-policy exceptions.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4183/blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/board-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/handoff-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4183/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA",
+      "documentTitle": "不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA | WE Marketing",
+      "description": "用逐单 SLA 看板区分 BFCM 延长履约、预售、补货与标准规则例外。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4183/blog/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/board-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 680,
+          "src": "http://127.0.0.1:4183/blog/q4-19-sla/handoff-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4183/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike",
+          "text": "Oct 14, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nSet TikTok Shop Order Capacity Before a Q4 Demand Spike Sets It for You\n\nSet a defensible daily order ceiling before Q4 demand outruns fulfillment.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event",
+          "text": "Oct 13, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nWhat Counts as a TikTok Shop Qualifying Dispatch Event?\n\nSeparate label creation, TikTok scans, physical handoff and carrier acceptance.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-capacity-q4-demand-spike?lang=zh",
+          "text": "2026 年 10 月 14 日\nTIKTOK-SHOP\n店铺运营\nQ4 爆单前先设 TikTok Shop 订单产能，不要等平台替你限单\n\n在 Q4 需求超过履约能力前，先设定有证据的每日订单上限。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-order-capacity-q4-demand-spike-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-qualifying-dispatch-event?lang=zh",
+          "text": "2026 年 10 月 13 日\nTIKTOK-SHOP\n店铺运营\n什么才算 TikTok Shop Qualifying Dispatch Event？\n\n把面单创建、TikTok 扫描、实体交接与承运商接收分开记录。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4183/blog/thumbs/hero-tiktok-shop-qualifying-dispatch-event-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4183/BlogList.compiled.js?v=8ca74adf8aa0",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

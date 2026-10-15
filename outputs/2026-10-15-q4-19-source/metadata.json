@@ -1,0 +1,23 @@
+{
+  "status": "source_revalidated",
+  "date": "2026-10-15",
+  "sources": [
+    {
+      "file": "bfcm-guide.html",
+      "sha256": "4f86868464bb4b1f7da84eadd5c8029a4da8903b3dbdae84c7bdfdadcc4e57c5"
+    },
+    {
+      "file": "fulfillment-policy.html",
+      "sha256": "956ca8b570c7ea0efd802168be2cee08ca8b25673ba2908d7f7e4c1e446918f7"
+    },
+    {
+      "file": "late-dispatch-rate.html",
+      "sha256": "71875c7d198e18b3adfa69fbb91ff697532de1a7d953737e68bece1e4e2b514b"
+    }
+  ],
+  "facts": [
+    "BFCM extension must be assessed at the order level.",
+    "The BFCM guide states extensions do not apply to pre-order and back-order.",
+    "Normal fulfillment and dispatch evidence controls remain relevant."
+  ]
+}

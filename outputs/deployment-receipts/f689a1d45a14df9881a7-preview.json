@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-15-q4-19-fulfillment-extension",
+  "patchFingerprint": "f689a1d45a14df9881a7dc451e386f1e0a335d099edba41d00a30643add67f46",
+  "pid": 15191,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/f689a1d45a14df9881a7-preview.log",
+  "url": "https://wem-website-82gzt49g5-wem1.vercel.app",
+  "deploymentId": "dpl_DbofpvTeUrcAdHuranfjXFQiMFqB",
+  "exitCode": 0,
+  "updatedAt": "2026-10-15T13:13:35Z"
+}
