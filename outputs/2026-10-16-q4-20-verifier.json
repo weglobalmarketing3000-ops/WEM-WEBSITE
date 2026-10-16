@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "slug": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+  "deploymentId": "dpl_4X7j1jcutVpCZsqEMeoBUZmCZfeA",
+  "readyState": "READY",
+  "rank": 1,
+  "priorRank": 2,
+  "prior2Rank": 3,
+  "checks": [
+    [
+      "custom domain points to accepted deployment",
+      true
+    ],
+    [
+      "English route and date",
+      true
+    ],
+    [
+      "Chinese route and date",
+      true
+    ],
+    [
+      "q4-20 blog card rank 1",
+      true
+    ],
+    [
+      "q4-19 blog card rank 2",
+      true
+    ],
+    [
+      "q4-18 blog card rank 3",
+      true
+    ],
+    [
+      "q4-20 sitemap EN and ZH",
+      true
+    ],
+    [
+      "q4-19 and q4-18 bilingual regression routes remain live",
+      true
+    ]
+  ],
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-16-q4-20-bfcm-holiday-returns",
+  "patchFingerprint": "e8299ba866fa0ff6c56f9c9e7a47601363936f2ec7ac9a290da1b7ef07b883a7",
+  "pid": 61760,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/e8299ba866fa0ff6c56f-production.log",
+  "url": "https://wem-website-qpo3m08v8-wem1.vercel.app",
+  "deploymentId": "dpl_4X7j1jcutVpCZsqEMeoBUZmCZfeA",
+  "exitCode": 0,
+  "updatedAt": "2026-10-16T13:11:54Z"
+}

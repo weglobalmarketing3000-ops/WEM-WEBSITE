@@ -162,6 +162,15 @@ mkdir -p "$snapshot/.vercel" "$snapshot/ui_kits/website/.vercel/output/static"
 cp "$project_link" "$snapshot/.vercel/project.json"
 ln -s ../ui_kits/website/.vercel/output "$snapshot/.vercel/output"
 
+if [[ -n "${WEM_LOCAL_BASELINE_DIR:-}" ]]; then
+  [[ -s "$WEM_LOCAL_BASELINE_DIR/index.html" && -s "$WEM_LOCAL_BASELINE_DIR/sitemap.xml" ]] || {
+    echo "Local baseline is incomplete: $WEM_LOCAL_BASELINE_DIR" >&2
+    exit 1
+  }
+  rsync -a --exclude '.DS_Store' "$WEM_LOCAL_BASELINE_DIR/" "$snapshot/ui_kits/website/.vercel/output/static/"
+  echo "Using previously read back immutable deployment baseline: $WEM_LOCAL_BASELINE_DIR"
+  write_receipt "running" "local_baseline_reconstruction"
+else
 npx vercel api "/v6/deployments/$deployment_id/files?limit=10000" > "$snapshot/files.json"
 node -e '
 const fs=require("fs"); const tree=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));
@@ -208,6 +217,7 @@ if (( ${#batch_pids[@]} > 0 )); then
   downloaded=$((downloaded + ${#batch_pids[@]}))
   echo "Baseline download progress: $downloaded/$total_downloads files"
   write_receipt "running" "baseline_download_${downloaded}_of_${total_downloads}"
+fi
 fi
 
 rsync -a --exclude '.DS_Store' "$patch_dir/" "$snapshot/ui_kits/website/.vercel/output/static/"

@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-16T13:06:03.997Z",
+  "records": [
+    {
+      "name": "bfcm-seller-campaign-guide",
+      "url": "https://seller-us.tiktok.com/university/essay?content_id=2786070166210347&course_type=1&from=new-and-updated&identity=1&knowledge_id=26854147802894&learning_id=26854147802894&module_id=latest_policies&role=seller",
+      "status": 200,
+      "bytes": 261700,
+      "sha256": "2dbc074368c570b8eec10e993df3d76bbd2df73340023c987a5527d5aad7e9af",
+      "file": "outputs/2026-10-16-q4-20-source/bfcm-seller-campaign-guide.html"
+    },
+    {
+      "name": "returns-refunds-replacements",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=984433248438058&lang=en",
+      "status": 200,
+      "bytes": 377359,
+      "sha256": "9f6bcea03c4e4e8395a616f9f5feef861a3feb45fe02480a5202b7c3a31a4200",
+      "file": "outputs/2026-10-16-q4-20-source/returns-refunds-replacements.html"
+    },
+    {
+      "name": "customer-cancellation-return-refund-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634",
+      "status": 200,
+      "bytes": 935057,
+      "sha256": "5b1b34e2940764ea1140c497f57e10aec13a474bcb5778c38c31e9042ce1f1a0",
+      "file": "outputs/2026-10-16-q4-20-source/customer-cancellation-return-refund-policy.html"
+    },
+    {
+      "name": "customizing-return-refund-features",
+      "url": "https://seller-us.tiktok.com/university/essay?course_type=1&knowledge_id=4875447742662443",
+      "status": 200,
+      "bytes": 292375,
+      "sha256": "9b802a811b866711c58954a67128f8e175e056058e552132aa24da41e972321c",
+      "file": "outputs/2026-10-16-q4-20-source/customizing-return-refund-features.html"
+    },
+    {
+      "name": "live-auction-best-practices",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5425223583352594",
+      "status": 200,
+      "bytes": 336096,
+      "sha256": "63e2a6dacf7dc37bb9509dc77a8ac7653ca8b42573bba4d6ad29f613fb121a3d",
+      "file": "outputs/2026-10-16-q4-20-source/live-auction-best-practices.html"
+    }
+  ]
+}

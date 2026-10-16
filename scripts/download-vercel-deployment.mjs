@@ -42,6 +42,19 @@ if (includeDirectory) {
   files.splice(0, files.length, ...selected);
   if (files.length !== wanted.size) throw new Error(`deployment readback selection mismatch: wanted ${wanted.size}, found ${files.length}`);
 }
+// Resume safely after Vercel's per-minute file-read limit. Existing files in the
+// destination are deployment readbacks from an earlier attempt and do not need
+// to be fetched again.
+const pending = [];
+for (const file of files) {
+  const outputRelative = file.outputRelative || (file.relative.startsWith('src/') ? file.relative.slice(4) : file.relative);
+  try {
+    await fs.access(path.join(destination, outputRelative));
+  } catch {
+    pending.push(file);
+  }
+}
+files.splice(0, files.length, ...pending);
 let cursor = 0;
 async function worker() {
   while (cursor < files.length) {
