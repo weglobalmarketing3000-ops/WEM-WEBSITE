@@ -1,0 +1,13 @@
+{
+  "state": "failed",
+  "stage": "terminal_interrupted_before_deployment",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-16-q4-20-holiday-returns",
+  "patchFingerprint": "edf7319d968daf6a1a53388e7df359d484fbf72424c2541fb72f41dec2c6c12f",
+  "pid": 94579,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/edf7319d968daf6a1a53-preview.log",
+  "url": "",
+  "deploymentId": "",
+  "exitCode": -1,
+  "updatedAt": "2026-10-16T13:20:00Z"
+}
