@@ -1,0 +1,636 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 159162,
+      "localSha256": "22ac98c21294a99938b3cee047fee039150615a833f78bf769d477af46c13691",
+      "remoteSha256": "22ac98c21294a99938b3cee047fee039150615a833f78bf769d477af46c13691",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 139507,
+      "localSha256": "95849b212e383cfbef921d7facd0808b618507d39f674eb79e331063155a0d37",
+      "remoteSha256": "95849b212e383cfbef921d7facd0808b618507d39f674eb79e331063155a0d37",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "1a33a9905604c5f6586466ba2e4d0622789aa6565967a7d54a3d1a8baa759084",
+      "remoteSha256": "1a33a9905604c5f6586466ba2e4d0622789aa6565967a7d54a3d1a8baa759084",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.png": {
+      "bytes": 92600,
+      "localSha256": "80bed553f2f160683b0d711977daa6f7148e83a9f799132a7f6c12f6261f078a",
+      "remoteSha256": "80bed553f2f160683b0d711977daa6f7148e83a9f799132a7f6c12f6261f078a",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.png": {
+      "bytes": 85684,
+      "localSha256": "059f4cba0fe860cb66f692a77b0dddae1993cf7a75394d9d77c01f7cef2ef1a9",
+      "remoteSha256": "059f4cba0fe860cb66f692a77b0dddae1993cf7a75394d9d77c01f7cef2ef1a9",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg": {
+      "bytes": 75182,
+      "localSha256": "6dc4bf9faea4cd7c8a1e6153d2b7e1fa82d7836b1d951d7a42a51a1b5ce3c89f",
+      "remoteSha256": "6dc4bf9faea4cd7c8a1e6153d2b7e1fa82d7836b1d951d7a42a51a1b5ce3c89f",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg": {
+      "bytes": 63721,
+      "localSha256": "974eea3e736561d278e1a1d02fe86f4c9d1253c3fd695602ef7498a21e070120",
+      "remoteSha256": "974eea3e736561d278e1a1d02fe86f4c9d1253c3fd695602ef7498a21e070120",
+      "match": true
+    },
+    "blog/q4-21-automation/loop-en-v1.svg": {
+      "bytes": 2318,
+      "localSha256": "003530e2aa0b6add19f873db14055a1d1f0296747d774dfb034fb4c697b89992",
+      "remoteSha256": "003530e2aa0b6add19f873db14055a1d1f0296747d774dfb034fb4c697b89992",
+      "match": true
+    },
+    "blog/q4-21-automation/loop-zh-v1.svg": {
+      "bytes": 2293,
+      "localSha256": "2810bf0f6d6ecd771d86abecc48b468c2eef164b3b8f6ae97912bfd0ab147378",
+      "remoteSha256": "2810bf0f6d6ecd771d86abecc48b468c2eef164b3b8f6ae97912bfd0ab147378",
+      "match": true
+    },
+    "blog/q4-21-automation/matrix-en-v1.svg": {
+      "bytes": 1517,
+      "localSha256": "31abe491df5d79f0f69568edadb47742238f319a7dd596041f7569a245e36960",
+      "remoteSha256": "31abe491df5d79f0f69568edadb47742238f319a7dd596041f7569a245e36960",
+      "match": true
+    },
+    "blog/q4-21-automation/matrix-zh-v1.svg": {
+      "bytes": 1488,
+      "localSha256": "2399e85e4b7f0db1ea011804b611f38461a49a2ab8c965a94bcb3de1ae8f3fa6",
+      "remoteSha256": "2399e85e4b7f0db1ea011804b611f38461a49a2ab8c965a94bcb3de1ae8f3fa6",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg": {
+      "bytes": 29246,
+      "localSha256": "0a2c109c95bc8a21e34aa9a1f850d5110eb35a244a668b912713c10dc440024f",
+      "remoteSha256": "0a2c109c95bc8a21e34aa9a1f850d5110eb35a244a668b912713c10dc440024f",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg": {
+      "bytes": 24434,
+      "localSha256": "517cb3c13eedd93fa8ecca071a6531994e49968b534ebc24f444c8baa42b2e70",
+      "remoteSha256": "517cb3c13eedd93fa8ecca071a6531994e49968b534ebc24f444c8baa42b2e70",
+      "match": true
+    },
+    "blog/tiktok-shop-aftersales-automation-approval-rules.html": {
+      "bytes": 32204,
+      "localSha256": "42bae88fd3d73dd6f7a9c9f1c51e2e9acedea78e051f8d81584dc08c8231df37",
+      "remoteSha256": "42bae88fd3d73dd6f7a9c9f1c51e2e9acedea78e051f8d81584dc08c8231df37",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 36136,
+      "localSha256": "7fcb517280888fba537fde2305c94b3cf8398a7bb24dedb9a9e658fa165fe264",
+      "remoteSha256": "7fcb517280888fba537fde2305c94b3cf8398a7bb24dedb9a9e658fa165fe264",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 50142,
+      "localSha256": "e6dcfae715aea5b886b095385a8893fb7c7f22bd913f235f3ff9b4b80bef1c5e",
+      "remoteSha256": "e6dcfae715aea5b886b095385a8893fb7c7f22bd913f235f3ff9b4b80bef1c5e",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 26845,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-17",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-17",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Aftersales Automation: Decide What the System May Approve for You",
+      "documentTitle": "TikTok Shop Aftersales Automation: Decide What the System May Approve for You | WE Marketing",
+      "description": "A practical authority system for TikTok Shop aftersales automation.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/matrix-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/loop-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统",
+      "documentTitle": "TikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统 | WE Marketing",
+      "description": "用权限、证据和停止条件管理 TikTok Shop 售后自动化。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/matrix-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/loop-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Aftersales Automation: Decide What the System May Approve for You",
+      "documentTitle": "TikTok Shop Aftersales Automation: Decide What the System May Approve for You | WE Marketing",
+      "description": "A practical authority system for TikTok Shop aftersales automation.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/matrix-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/loop-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统",
+      "documentTitle": "TikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统 | WE Marketing",
+      "description": "用权限、证据和停止条件管理 TikTok Shop 售后自动化。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/matrix-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 650,
+          "src": "https://www.weglobalmarketing.com/blog/q4-21-automation/loop-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-aftersales-automation-approval-rules"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla",
+          "text": "Oct 15, 2026\nTIKTOK-SHOP\nFULFILLMENT\nDo Not Assume the BFCM Fulfillment Extension Covers Every TikTok Shop Order\n\nUse a per-order deadline board before assuming a BFCM SLA extension applies.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-fulfillment-extension-order-sla?lang=zh",
+          "text": "2026 年 10 月 15 日\nTIKTOK-SHOP\nFULFILLMENT\n不要默认 BFCM 所有订单都自动延长履约：逐单看 SLA\n\n先用逐单截止时间看板判断 BFCM SLA 延长是否适用。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-fulfillment-extension-order-sla-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=22ac98c21294",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

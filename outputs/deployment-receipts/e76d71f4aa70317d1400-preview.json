@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-17-q4-21-aftersales-automation",
+  "patchFingerprint": "e76d71f4aa70317d140038edb41c0b9f7279c9a71c55cfb09c7990a4d9c8f88f",
+  "pid": 94062,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/e76d71f4aa70317d1400-preview.log",
+  "url": "https://wem-website-ldaidr054-wem1.vercel.app",
+  "deploymentId": "dpl_HtGjJKjgXAPicod4yNE87PHFEtKw",
+  "exitCode": 0,
+  "updatedAt": "2026-10-17T13:11:04Z"
+}
