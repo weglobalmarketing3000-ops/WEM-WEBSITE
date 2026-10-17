@@ -1,0 +1,2631 @@
+{
+  "baseline": [
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Free, Refundable or Auto-Approved Samples: A Better Decision System",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "免费、可退款还是自动批准寄样：品牌该怎么选？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Shop-Ready Is Not Scale-Ready",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "68px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16.64px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary material read in full on August 8, 2026: TikTok Shop U.S. Academy, Sales Accelerator: Your Two-Stage Growth Plan, and New Seller Growth Strategy Step 3: Scale"
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop 商品“可上架”不等于“可放大”",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "68px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16.64px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n已在 2026 年 8 月 8 日完整阅读 TikTok Shop 美国站 Academy 的 Sales Accelerator: Your Two-Stage Growth Plan 与 New Seller Growth Strategy Step 3。平台功能、任务分数、激励、账户访问、活动条款和推荐可能变化，执行前必须在当前美国站 Se"
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Free, Refundable or Auto-Approved Samples: A Better Decision System",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "免费、可退款还是自动批准寄样：品牌该怎么选？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Shop-Ready Is Not Scale-Ready",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary material read in full on August 8, 2026: TikTok Shop U.S. Academy, Sales Accelerator: Your Two-Stage Growth Plan, and New Seller Growth Strategy Step 3: Scale"
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop 商品“可上架”不等于“可放大”",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n已在 2026 年 8 月 8 日完整阅读 TikTok Shop 美国站 Academy 的 Sales Accelerator: Your Two-Stage Growth Plan 与 New Seller Growth Strategy Step 3。平台功能、任务分数、激励、账户访问、活动条款和推荐可能变化，执行前必须在当前美国站 Se"
+    }
+  ],
+  "records": [
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Free, Refundable or Auto-Approved Samples: A Better Decision System",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "免费、可退款还是自动批准寄样：品牌该怎么选？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Shop-Ready Is Not Scale-Ready",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "68px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16.64px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary material read in full on August 8, 2026: TikTok Shop U.S. Academy, Sales Accelerator: Your Two-Stage Growth Plan, and New Seller Growth Strategy Step 3: Scale"
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop 商品“可上架”不等于“可放大”",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "68px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16.64px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n已在 2026 年 8 月 8 日完整阅读 TikTok Shop 美国站 Academy 的 Sales Accelerator: Your Two-Stage Growth Plan 与 New Seller Growth Strategy Step 3。平台功能、任务分数、激励、账户访问、活动条款和推荐可能变化，执行前必须在当前美国站 Se"
+    },
+    {
+      "date": "2026-08-15",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Which Products Actually Belong in TikTok Shop Open Collaboration?",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary material read in full on August 15, 2026: TikTok Shop U.S. Seller University, Setting Up Affiliate Collaborations (July 16, 2026), Affiliate Marketing Policy "
+    },
+    {
+      "date": "2026-08-15",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "哪些商品真正适合放进 TikTok Shop Open Collaboration？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 15 日完整阅读 TikTok Shop 美国站 Seller University 的 Setting Up Affiliate Collaborations（2026 年 7 月 16 日）、Affiliate Marketing Policy（2026 年 7 月 31 日）和 How Standard A"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "How to Change TikTok Shop Affiliate Commission Without Breaking Creator Trust",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. TikTok Shop Seller University materials were revalidated on August 20, 2026: How Standard Affiliate Commission Works, Setting Up Affiliate Collaborations"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "如何调整 TikTok Shop 联盟佣金，又不破坏达人信任",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新完整核验美国站官方资料：How Standard Affiliate Commission Works、Setting Up Affiliate Collaborations 与 Affiliate Marketing Policy。平台生效时间、资格、页面路径、保护规则、通知与账户控制项都可能变化，"
+    },
+    {
+      "date": "2026-08-17",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "How to Measure a TikTok Shop Partner After You Hire Them",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. sources revalidated on August 20, 2026 include Affiliate Partnerships Overview, Creator Matchmaking Tool, Seller POV, ACE Your Shop Seller Playbook 2026,"
+    },
+    {
+      "date": "2026-08-17",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "合作之后，如何评估 TikTok Shop Partner 或 Agency 是否有效？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新核验 Affiliate Partnerships Overview、Creator Matchmaking Tool Seller POV、ACE Your Shop Seller Playbook 2026 及 ACE 诊断资料。页面路径、指标定义、权限、归因与表现口径都可能变化或因账户不同。官方"
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "How to Grow While Your TikTok Shop Is Still in Probation",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. sources revalidated on August 20, 2026 include New Shop Probation Program Requirements, Sales Accelerator, New Seller Growth Strategy Step 2, and Step 3."
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop 新店考察期内，品牌应该怎么增长？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新核验 New Shop Probation Program Requirements、Sales Accelerator、New Seller Growth Strategy Step 2 与 Step 3。限制、阶段、资格、任务、奖励、页面路径和建议都可能变化并受账户影响，执行前请以当前美国站 Se"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "The Weekly TikTok Shop Operating Review",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. materials revalidated on August 20, 2026 include ACE Your Shop Seller Playbook 2026, ACE-powered diagnostic material, and Affiliate Partnerships Overview"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "每周 TikTok Shop 运营复盘：看什么指标、谁负责、做什么决定",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新核验 ACE Your Shop Seller Playbook 2026、ACE 诊断资料与 Affiliate Partnerships Overview。指标、定义、刷新节奏、路径、权限、资格和建议都可能变化。执行前请以当前 Seller Center 与品牌自己的财务定义为准。\n\n相关 WEM"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop LIVE 0-1: Why Your First Five Sessions Are a Learning System",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis WEM module was built from current TikTok Shop U.S. Academy material covering LIVE selling resources, LIVE Shopping preparation, LIVE Events, practice and managem"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop LIVE 从 0 到 1：前 5 场如何跑通增长模型",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n本模块参考了当天可访问的 TikTok Shop 美国站 Academy LIVE 资料，包括 LIVE selling 学习资源、LIVE Shopping 准备、LIVE Events、Practice、产品与 Moderator 管理以及直播后分析；中国跨境卖家大学 2026 年 5 月 26 日发布、适用范围为美国的《商家内容场实操手册-"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "tiktok-shop-live-preheat-system",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "The TikTok Shop LIVE Preheat System: Build Demand Before You Go Live",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on current U.S. TikTok Shop Seller University materials revalidated on August 21, 2026: TikTok LIVE Shopping, LIVE Events,"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "tiktok-shop-live-preheat-system",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop LIVE 预热系统：开播前如何建立进房理由",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 运营框架基于 2026 年 8 月 23 日重新核验的美国站 TikTok Shop Seller University：TikTok LIVE Shopping、LIVE Events 和 Captivate Your Audience with a Compelling Teaser Video。功能、审核、账户资格、推广选"
+    },
+    {
+      "date": "2026-08-24",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Where TikTok Shop Seller Assistant Should Act, Recommend or Stop",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: Seller Assistant: From As"
+    },
+    {
+      "date": "2026-08-24",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop Seller Assistant 哪些能自动做、哪些必须人工确认",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：Seller Assistant: From Assistant to Agentic AI、TikTok Shop Seller University 资料 8802375889602305、Ti"
+    },
+    {
+      "date": "2026-08-25",
+      "slug": "validate-tiktok-shop-ai-report",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Validate a TikTok Shop AI Report Before You Make a Growth Decision",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: TikTok Shop Seller Univer"
+    },
+    {
+      "date": "2026-08-25",
+      "slug": "validate-tiktok-shop-ai-report",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop AI Report 怎么验证：先核对口径，再做增长决策",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：TikTok Shop Seller University 资料 5898943267702529、TikTok Shop Seller University 资料 5901602913519376"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Can You Say Organic, Non-GMO, Eco-Friendly or Made in USA on TikTok Shop?",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: Regulated Claims: What Yo"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop 商品文案哪些词不能随便写：受监管声明审核系统",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：Regulated Claims: What You Need to Know、TikTok Shop Seller University 资料 4007545728452407、TikTok Sh"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "The First 24 Hours After a TikTok Shop Violation",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: What To Do When You Recei"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "收到 TikTok Shop 违规后的第一天：通知、Ticket、倒计时与应急分工",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：What To Do When You Receive A Violation、TikTok Shop Seller University 资料 2380042836166443。Platform "
+    },
+    {
+      "date": "2026-08-28",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Correct or Appeal a TikTok Shop Violation? Choose by Facts, Evidence and Deadline",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: How to Correct Seller Vio"
+    },
+    {
+      "date": "2026-08-28",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop 违规应该整改还是申诉：按事实、证据与时限判断",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：How to Correct Seller Violations、What To Do When You Receive A Violation、TikTok Shop Seller Univers"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop Policy Quiz vs. Milestone Quiz: Recover Points or Shorten Enforcement?",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: All About TikTok Shop's P"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop Policy Quiz 和 Milestone Quiz：恢复积分还是缩短处罚？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：All About TikTok Shop's Policy/Milestone Quiz、What To Do When You Receive A Violation、How to Correc"
+    },
+    {
+      "date": "2026-08-30",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "A 0–90 Day TikTok Shop AI Operating System for New Sellers",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: TikTok Shop Seller Univer"
+    },
+    {
+      "date": "2026-08-30",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop 新卖家前 90 天：如何用 AI 完成设置、上架与早期优化",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：TikTok Shop Seller University 资料 5898943268030209、TikTok Shop Seller University 资料 8802375889602305"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "tiktok-shop-live-assortment",
+      "lang": "en",
+      "viewport": 1280,
+      "http": 200,
+      "title": "Build a TikTok Shop LIVE Assortment That Protects Margin and Inventory",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated August 31, 2026: LIVE Product Set, A Guide to"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "tiktok-shop-live-assortment",
+      "lang": "zh-CN",
+      "viewport": 1280,
+      "http": 200,
+      "title": "TikTok Shop LIVE 货盘运营：管住库存、毛利、上下架与复盘",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "69.12px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：LIVE Product Set、A Guide to Your First LIVE Selling Preparations & How to Select Products、TikTok LI"
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Free, Refundable or Auto-Approved Samples: A Better Decision System",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-01",
+      "slug": "tiktok-shop-sample-decision-system",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "免费、可退款还是自动批准寄样：品牌该怎么选？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": null,
+      "sourceExists": false,
+      "activeVisible": true,
+      "heroNaturalWidth": null,
+      "faqs": 0,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": null
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Shop-Ready Is Not Scale-Ready",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary material read in full on August 8, 2026: TikTok Shop U.S. Academy, Sales Accelerator: Your Two-Stage Growth Plan, and New Seller Growth Strategy Step 3: Scale"
+    },
+    {
+      "date": "2026-08-08",
+      "slug": "tiktok-shop-shop-ready-scale-ready",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop 商品“可上架”不等于“可放大”",
+      "h1": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "42px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "color": "rgb(54, 53, 65)"
+      },
+      "source": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1600,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n已在 2026 年 8 月 8 日完整阅读 TikTok Shop 美国站 Academy 的 Sales Accelerator: Your Two-Stage Growth Plan 与 New Seller Growth Strategy Step 3。平台功能、任务分数、激励、账户访问、活动条款和推荐可能变化，执行前必须在当前美国站 Se"
+    },
+    {
+      "date": "2026-08-15",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Which Products Actually Belong in TikTok Shop Open Collaboration?",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary material read in full on August 15, 2026: TikTok Shop U.S. Seller University, Setting Up Affiliate Collaborations (July 16, 2026), Affiliate Marketing Policy "
+    },
+    {
+      "date": "2026-08-15",
+      "slug": "tiktok-shop-open-collaboration-product-fit",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "哪些商品真正适合放进 TikTok Shop Open Collaboration？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 15 日完整阅读 TikTok Shop 美国站 Seller University 的 Setting Up Affiliate Collaborations（2026 年 7 月 16 日）、Affiliate Marketing Policy（2026 年 7 月 31 日）和 How Standard A"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "How to Change TikTok Shop Affiliate Commission Without Breaking Creator Trust",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. TikTok Shop Seller University materials were revalidated on August 20, 2026: How Standard Affiliate Commission Works, Setting Up Affiliate Collaborations"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "tiktok-shop-affiliate-commission-change",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "如何调整 TikTok Shop 联盟佣金，又不破坏达人信任",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新完整核验美国站官方资料：How Standard Affiliate Commission Works、Setting Up Affiliate Collaborations 与 Affiliate Marketing Policy。平台生效时间、资格、页面路径、保护规则、通知与账户控制项都可能变化，"
+    },
+    {
+      "date": "2026-08-17",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "How to Measure a TikTok Shop Partner After You Hire Them",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. sources revalidated on August 20, 2026 include Affiliate Partnerships Overview, Creator Matchmaking Tool, Seller POV, ACE Your Shop Seller Playbook 2026,"
+    },
+    {
+      "date": "2026-08-17",
+      "slug": "measure-tiktok-shop-partner-performance",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "合作之后，如何评估 TikTok Shop Partner 或 Agency 是否有效？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新核验 Affiliate Partnerships Overview、Creator Matchmaking Tool Seller POV、ACE Your Shop Seller Playbook 2026 及 ACE 诊断资料。页面路径、指标定义、权限、归因与表现口径都可能变化或因账户不同。官方"
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "How to Grow While Your TikTok Shop Is Still in Probation",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. sources revalidated on August 20, 2026 include New Shop Probation Program Requirements, Sales Accelerator, New Seller Growth Strategy Step 2, and Step 3."
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "tiktok-shop-probation-growth-plan",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop 新店考察期内，品牌应该怎么增长？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新核验 New Shop Probation Program Requirements、Sales Accelerator、New Seller Growth Strategy Step 2 与 Step 3。限制、阶段、资格、任务、奖励、页面路径和建议都可能变化并受账户影响，执行前请以当前美国站 Se"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "The Weekly TikTok Shop Operating Review",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nPrimary U.S. materials revalidated on August 20, 2026 include ACE Your Shop Seller Playbook 2026, ACE-powered diagnostic material, and Affiliate Partnerships Overview"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "weekly-tiktok-shop-operating-review",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "每周 TikTok Shop 运营复盘：看什么指标、谁负责、做什么决定",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\nWEM 于 2026 年 8 月 20 日重新核验 ACE Your Shop Seller Playbook 2026、ACE 诊断资料与 Affiliate Partnerships Overview。指标、定义、刷新节奏、路径、权限、资格和建议都可能变化。执行前请以当前 Seller Center 与品牌自己的财务定义为准。\n\n相关 WEM"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop LIVE 0-1: Why Your First Five Sessions Are a Learning System",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis WEM module was built from current TikTok Shop U.S. Academy material covering LIVE selling resources, LIVE Shopping preparation, LIVE Events, practice and managem"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "tiktok-shop-live-first-five-sessions-learning-system",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop LIVE 从 0 到 1：前 5 场如何跑通增长模型",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n本模块参考了当天可访问的 TikTok Shop 美国站 Academy LIVE 资料，包括 LIVE selling 学习资源、LIVE Shopping 准备、LIVE Events、Practice、产品与 Moderator 管理以及直播后分析；中国跨境卖家大学 2026 年 5 月 26 日发布、适用范围为美国的《商家内容场实操手册-"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "tiktok-shop-live-preheat-system",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "The TikTok Shop LIVE Preheat System: Build Demand Before You Go Live",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on current U.S. TikTok Shop Seller University materials revalidated on August 21, 2026: TikTok LIVE Shopping, LIVE Events,"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "tiktok-shop-live-preheat-system",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop LIVE 预热系统：开播前如何建立进房理由",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 运营框架基于 2026 年 8 月 23 日重新核验的美国站 TikTok Shop Seller University：TikTok LIVE Shopping、LIVE Events 和 Captivate Your Audience with a Compelling Teaser Video。功能、审核、账户资格、推广选"
+    },
+    {
+      "date": "2026-08-24",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Where TikTok Shop Seller Assistant Should Act, Recommend or Stop",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: Seller Assistant: From As"
+    },
+    {
+      "date": "2026-08-24",
+      "slug": "tiktok-shop-seller-assistant-human-control",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop Seller Assistant 哪些能自动做、哪些必须人工确认",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：Seller Assistant: From Assistant to Agentic AI、TikTok Shop Seller University 资料 8802375889602305、Ti"
+    },
+    {
+      "date": "2026-08-25",
+      "slug": "validate-tiktok-shop-ai-report",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Validate a TikTok Shop AI Report Before You Make a Growth Decision",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: TikTok Shop Seller Univer"
+    },
+    {
+      "date": "2026-08-25",
+      "slug": "validate-tiktok-shop-ai-report",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop AI Report 怎么验证：先核对口径，再做增长决策",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：TikTok Shop Seller University 资料 5898943267702529、TikTok Shop Seller University 资料 5901602913519376"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Can You Say Organic, Non-GMO, Eco-Friendly or Made in USA on TikTok Shop?",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: Regulated Claims: What Yo"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "tiktok-shop-regulated-claims-review",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop 商品文案哪些词不能随便写：受监管声明审核系统",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：Regulated Claims: What You Need to Know、TikTok Shop Seller University 资料 4007545728452407、TikTok Sh"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "The First 24 Hours After a TikTok Shop Violation",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: What To Do When You Recei"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "tiktok-shop-violation-first-24-hours",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "收到 TikTok Shop 违规后的第一天：通知、Ticket、倒计时与应急分工",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：What To Do When You Receive A Violation、TikTok Shop Seller University 资料 2380042836166443。Platform "
+    },
+    {
+      "date": "2026-08-28",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Correct or Appeal a TikTok Shop Violation? Choose by Facts, Evidence and Deadline",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: How to Correct Seller Vio"
+    },
+    {
+      "date": "2026-08-28",
+      "slug": "tiktok-shop-correct-or-appeal",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop 违规应该整改还是申诉：按事实、证据与时限判断",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：How to Correct Seller Violations、What To Do When You Receive A Violation、TikTok Shop Seller Univers"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop Policy Quiz vs. Milestone Quiz: Recover Points or Shorten Enforcement?",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: All About TikTok Shop's P"
+    },
+    {
+      "date": "2026-08-29",
+      "slug": "tiktok-shop-policy-vs-milestone-quiz",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop Policy Quiz 和 Milestone Quiz：恢复积分还是缩短处罚？",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：All About TikTok Shop's Policy/Milestone Quiz、What To Do When You Receive A Violation、How to Correc"
+    },
+    {
+      "date": "2026-08-30",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "A 0–90 Day TikTok Shop AI Operating System for New Sellers",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated on August 31, 2026: TikTok Shop Seller Univer"
+    },
+    {
+      "date": "2026-08-30",
+      "slug": "tiktok-shop-ai-first-90-days",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop 新卖家前 90 天：如何用 AI 完成设置、上架与早期优化",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：TikTok Shop Seller University 资料 5898943268030209、TikTok Shop Seller University 资料 8802375889602305"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "tiktok-shop-live-assortment",
+      "lang": "en",
+      "viewport": 390,
+      "http": 200,
+      "title": "Build a TikTok Shop LIVE Assortment That Protects Margin and Inventory",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "Source notes\n\nThis original WEM operating framework draws on complete current U.S. TikTok Shop Seller University materials revalidated August 31, 2026: LIVE Product Set, A Guide to"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "tiktok-shop-live-assortment",
+      "lang": "zh-CN",
+      "viewport": 390,
+      "http": 200,
+      "title": "TikTok Shop LIVE 货盘运营：管住库存、毛利、上下架与复盘",
+      "h1": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "39px",
+        "fontWeight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "copy": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(55, 51, 47)"
+      },
+      "source": {
+        "fontFamily": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceExists": true,
+      "activeVisible": true,
+      "heroNaturalWidth": 1774,
+      "faqs": 12,
+      "cta": true,
+      "footer": true,
+      "brokenImages": [],
+      "overflow": false,
+      "sourceText": "来源说明\n\n这个原创 WEM 经营框架基于 2026 年 8 月 31 日重新核验的完整美国站 TikTok Shop Seller University 资料：LIVE Product Set、A Guide to Your First LIVE Selling Preparations & How to Select Products、TikTok LI"
+    }
+  ],
+  "issues": [],
+  "missingDates": [
+    "2026-08-21",
+    "2026-08-22"
+  ]
+}
