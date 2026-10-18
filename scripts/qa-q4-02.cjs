@@ -30,12 +30,15 @@ const configs = {
   'q4-19': { patch: '2026-10-15-q4-19-bfcm-fulfillment-extension', prefix: '2026-10-15-q4-19', slug: 'tiktok-shop-bfcm-fulfillment-extension-order-sla', date: '2026-10-15', enDate: 'Oct 15, 2026', zhDate: '2026 年 10 月 15 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-19-current': { patch: '2026-10-16-q4-19-current-accepted', prefix: '2026-10-16-q4-19-current', slug: 'tiktok-shop-bfcm-fulfillment-extension-order-sla', date: '2026-10-15', enDate: 'Oct 15, 2026', zhDate: '2026 年 10 月 15 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-20': { patch: '2026-10-16-q4-20-bfcm-holiday-returns', prefix: '2026-10-16-q4-20', slug: 'tiktok-shop-bfcm-2026-holiday-return-window-liability', date: '2026-10-16', enDate: 'Oct 16, 2026', zhDate: '2026 年 10 月 16 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
+  'q4-20-current': { patch: '2026-10-18-q4-20-current-accepted', prefix: '2026-10-18-q4-20-current', slug: 'tiktok-shop-bfcm-2026-holiday-returns-liability', date: '2026-10-16', enDate: 'Oct 16, 2026', zhDate: '2026 年 10 月 16 日', expectedFiles: 17, expectedImages: 3, rank: 3 },
+  'q4-21-current': { patch: '2026-10-18-q4-21-current-accepted', prefix: '2026-10-18-q4-21-current', slug: 'tiktok-shop-aftersales-automation-approval-rules', date: '2026-10-17', enDate: 'Oct 17, 2026', zhDate: '2026 年 10 月 17 日', expectedFiles: 17, expectedImages: 3, rank: 2 },
+  'q4-22': { patch: '2026-10-18-q4-22-return-rejection-isrr', prefix: '2026-10-18-q4-22', slug: 'tiktok-shop-return-rejection-evidence-isrr-risk', date: '2026-10-18', enDate: 'Oct 18, 2026', zhDate: '2026 年 10 月 18 日', expectedFiles: 18, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];
 const sharedHashFiles = ['BlogList.compiled.js', 'BlogList.jsx', 'blog.html', 'llms.txt', 'sitemap.xml'];
-if (['q4-04', 'q4-05', 'q4-07', 'q4-14'].includes(target)) config.hashExclude = sharedHashFiles;
+if (['q4-04', 'q4-05', 'q4-07', 'q4-14', 'q4-20-current', 'q4-21-current'].includes(target)) config.hashExclude = sharedHashFiles;
 const patchDir = path.join(root, 'outputs/patches', config.patch);
 const out = path.join(root, `outputs/${config.prefix}-${mode}-qa`);
 const slug = config.slug;

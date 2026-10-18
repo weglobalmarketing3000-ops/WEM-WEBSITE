@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "destination": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/",

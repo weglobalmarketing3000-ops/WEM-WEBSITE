@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-18-q4-22-return-rejection-isrr",
+  "patchFingerprint": "f65817746241544f88e84e1b735aeb5dfe0db45acb3ce7563094b53de5dbfd6d",
+  "pid": 31269,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/f65817746241544f88e8-preview.log",
+  "url": "https://wem-website-8d4vpg6fp-wem1.vercel.app",
+  "deploymentId": "dpl_FYNVbUZuffByMvq5MhALxxFfoCdD",
+  "exitCode": 0,
+  "updatedAt": "2026-10-18T13:07:42Z"
+}

@@ -1,0 +1,57 @@
+{
+  "verifiedAt": "2026-10-18T13:10:35.999Z",
+  "deploymentId": "dpl_AeRMnxEUm8GMmc9pKb52awagS7RB",
+  "readyState": "READY",
+  "ranks": {
+    "tiktok-shop-return-rejection-evidence-isrr-risk": 1,
+    "tiktok-shop-aftersales-automation-approval-rules": 2,
+    "tiktok-shop-bfcm-2026-holiday-returns-liability": 3
+  },
+  "checks": [
+    [
+      "custom domain accepted deployment",
+      true
+    ],
+    [
+      "deployment READY",
+      true
+    ],
+    [
+      "q4-22/q4-21/q4-20 rank order",
+      true
+    ],
+    [
+      "all bilingual routes return 200",
+      true
+    ],
+    [
+      "all bilingual BlogPosting dates match",
+      true
+    ],
+    [
+      "q4-21 Chinese description repair present",
+      true
+    ],
+    [
+      "old q4-20 EN redirects permanently",
+      true
+    ],
+    [
+      "old q4-20 ZH redirect preserves lang",
+      true
+    ],
+    [
+      "q4-22 sitemap EN/ZH",
+      true
+    ],
+    [
+      "q4-22 llms discovery",
+      true
+    ],
+    [
+      "article cache no-store",
+      true
+    ]
+  ],
+  "passed": true
+}
