@@ -1,0 +1,636 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4188",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 160013,
+      "localSha256": "0ca25652ae37f11d97512665d7b99bfbe76a2fb0339493e0eb373fcf7a742ddf",
+      "remoteSha256": "0ca25652ae37f11d97512665d7b99bfbe76a2fb0339493e0eb373fcf7a742ddf",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 140216,
+      "localSha256": "7f53de82851eaf80c5caa855ada89fcd79c3c4c18b90dd50721151b702548434",
+      "remoteSha256": "7f53de82851eaf80c5caa855ada89fcd79c3c4c18b90dd50721151b702548434",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "cfb239998cc894518895f31e54d7a9f372965ec4953014a8c32ae6758c167b1f",
+      "remoteSha256": "cfb239998cc894518895f31e54d7a9f372965ec4953014a8c32ae6758c167b1f",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.png": {
+      "bytes": 129909,
+      "localSha256": "5981c8b2f72edd29e4c3e04fcf5da9e3b74377a46222c29287f6b1e2dba2acb0",
+      "remoteSha256": "5981c8b2f72edd29e4c3e04fcf5da9e3b74377a46222c29287f6b1e2dba2acb0",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.png": {
+      "bytes": 128858,
+      "localSha256": "4520d8dc57d8a06185e4a001b25634810d6dace887524dc238ca59baa3077457",
+      "remoteSha256": "4520d8dc57d8a06185e4a001b25634810d6dace887524dc238ca59baa3077457",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg": {
+      "bytes": 85159,
+      "localSha256": "b470860dd196b73799398c5e1a9edec4c82bed8a4e784382624ada3da6a90447",
+      "remoteSha256": "b470860dd196b73799398c5e1a9edec4c82bed8a4e784382624ada3da6a90447",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg": {
+      "bytes": 81055,
+      "localSha256": "d9d45995500da5198d0bb80c618a2d44e7be7364c4b355046c1b490c3420744a",
+      "remoteSha256": "d9d45995500da5198d0bb80c618a2d44e7be7364c4b355046c1b490c3420744a",
+      "match": true
+    },
+    "blog/q4-22-evidence/decision-paths-en-v1.svg": {
+      "bytes": 2402,
+      "localSha256": "66eb815b8e13ff92b6192a9c8d5836188dad77f152eeedb87647982526d30662",
+      "remoteSha256": "66eb815b8e13ff92b6192a9c8d5836188dad77f152eeedb87647982526d30662",
+      "match": true
+    },
+    "blog/q4-22-evidence/decision-paths-zh-v1.svg": {
+      "bytes": 2379,
+      "localSha256": "8ba8aa3da2ddf7f81116d85344b32aa49c978fa85ee6d0b7558a0839a5aad4f7",
+      "remoteSha256": "8ba8aa3da2ddf7f81116d85344b32aa49c978fa85ee6d0b7558a0839a5aad4f7",
+      "match": true
+    },
+    "blog/q4-22-evidence/evidence-gates-en-v1.svg": {
+      "bytes": 2063,
+      "localSha256": "3b1f9b56edad521234501b0a64e6bb18d44ea8cd3d921f1d24c85fcf10e53ec4",
+      "remoteSha256": "3b1f9b56edad521234501b0a64e6bb18d44ea8cd3d921f1d24c85fcf10e53ec4",
+      "match": true
+    },
+    "blog/q4-22-evidence/evidence-gates-zh-v1.svg": {
+      "bytes": 2051,
+      "localSha256": "a2738308ea3a8d8c237f62e0f83469e6584e2e0f5ac816c11cfe4e7e84e00403",
+      "remoteSha256": "a2738308ea3a8d8c237f62e0f83469e6584e2e0f5ac816c11cfe4e7e84e00403",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg": {
+      "bytes": 34007,
+      "localSha256": "e3fc495d068900afbcbac1e57ea184f45bbd84ab25c98724a844ee7a98737067",
+      "remoteSha256": "e3fc495d068900afbcbac1e57ea184f45bbd84ab25c98724a844ee7a98737067",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg": {
+      "bytes": 30981,
+      "localSha256": "4d0c16d2279e8dd8c109dcecbc6db96e4142450a2e84e5ccfa42097925d40c1a",
+      "remoteSha256": "4d0c16d2279e8dd8c109dcecbc6db96e4142450a2e84e5ccfa42097925d40c1a",
+      "match": true
+    },
+    "blog/tiktok-shop-return-rejection-evidence-isrr-risk.html": {
+      "bytes": 35731,
+      "localSha256": "6d99a93a83dbc8ac4ac1c207eb0782fa976606ef79957a50c7698fd1c403ef19",
+      "remoteSha256": "6d99a93a83dbc8ac4ac1c207eb0782fa976606ef79957a50c7698fd1c403ef19",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 36408,
+      "localSha256": "7ed0a5214bbd4af053debfd708aa798c22729716bfec428bf5873482758eb54a",
+      "remoteSha256": "7ed0a5214bbd4af053debfd708aa798c22729716bfec428bf5873482758eb54a",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 50424,
+      "localSha256": "225a7015433ecdcf6caa392a1a88fb0d8a6269ae2da2308aeaab8fc60c38feb8",
+      "remoteSha256": "225a7015433ecdcf6caa392a1a88fb0d8a6269ae2da2308aeaab8fc60c38feb8",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 28718,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-18",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-18",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Before You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk",
+      "documentTitle": "Before You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk | WE Marketing",
+      "description": "A practical evidence and escalation system for TikTok Shop return rejections and ISRR risk.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/evidence-gates-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 690,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/decision-paths-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-rejection-evidence-isrr-risk.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险",
+      "documentTitle": "拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险 | WE Marketing",
+      "description": "用订单事实、政策资格、证据卡和升级机制控制 TikTok Shop 退货拒绝与 ISRR 风险。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/evidence-gates-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 690,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/decision-paths-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-rejection-evidence-isrr-risk.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Before You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk",
+      "documentTitle": "Before You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk | WE Marketing",
+      "description": "A practical evidence and escalation system for TikTok Shop return rejections and ISRR risk.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/evidence-gates-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 690,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/decision-paths-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-rejection-evidence-isrr-risk.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险",
+      "documentTitle": "拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险 | WE Marketing",
+      "description": "用订单事实、政策资格、证据卡和升级机制控制 TikTok Shop 退货拒绝与 ISRR 风险。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/evidence-gates-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 690,
+          "src": "http://127.0.0.1:4188/blog/q4-22-evidence/decision-paths-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-rejection-evidence-isrr-risk.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-rejection-evidence-isrr-risk"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules",
+          "text": "Oct 17, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop Aftersales Automation: Decide What the System May Approve for You\n\nDefine what the system may approve, when a person must review and which cases must escalate.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+          "text": "Oct 16, 2026\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop BFCM 2026 Holiday Returns: Plan the Liability Before November 11\n\nPlan return eligibility, exceptions, reserve fields and evidence before holiday volume arrives.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh",
+          "text": "2026 年 10 月 17 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 售后自动化：哪些退款、退货和换货可以交给系统\n\n划清系统可批准、人工必审和必须升级的售后边界。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-aftersales-automation-approval-rules-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability?lang=zh",
+          "text": "2026 年 10 月 16 日\nTIKTOK-SHOP\nAFTERSALES\nTikTok Shop 2026 BFCM 节日退货：11 月 11 日前先把责任算清楚\n\n在节日订单到来前，先规划退货资格、例外、准备金字段和证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-bfcm-2026-holiday-returns-liability-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=0ca25652ae37",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-18-q4-22-isrr-return-evidence",
+  "patchFingerprint": "2e0e0acac8ecf57d8ea700e2402a8743001cd61ef2ebcc9b3c8b887494eabcaa",
+  "pid": 61610,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/2e0e0acac8ecf57d8ea7-production.log",
+  "url": "https://wem-website-3zp4lgx1u-wem1.vercel.app",
+  "deploymentId": "dpl_BBcbYXHjxfVVzGBcRDHfdo6whEnv",
+  "exitCode": 0,
+  "updatedAt": "2026-10-18T13:21:42Z"
+}
