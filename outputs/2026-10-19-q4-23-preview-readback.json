@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_Di5mMaMPhcmL9LX6sU48SxG58oQf",
+  "url": "https://wem-website-nothwx893-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 160868,
+      "localSha256": "6fab48f61735686e160a14543e455dffc19f15c12681e6a16e8790beb19c74a6",
+      "remoteSha256": "6fab48f61735686e160a14543e455dffc19f15c12681e6a16e8790beb19c74a6",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 140920,
+      "localSha256": "d7e9885acfd80711154e734c63910b4b7792d93dc4cebc44d98c7c69d1685d46",
+      "remoteSha256": "d7e9885acfd80711154e734c63910b4b7792d93dc4cebc44d98c7c69d1685d46",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "d4eb13949dd7ff1afb8b369771b3670b96adb7c8ccfd8fc6d3173a5745d6ce37",
+      "remoteSha256": "d4eb13949dd7ff1afb8b369771b3670b96adb7c8ccfd8fc6d3173a5745d6ce37",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.png",
+      "bytes": 585077,
+      "localSha256": "db3cb38e1094e1a26813a6e21eaadd5580d9ad32966e85ce7a7fa0d4080187a9",
+      "remoteSha256": "db3cb38e1094e1a26813a6e21eaadd5580d9ad32966e85ce7a7fa0d4080187a9",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.png",
+      "bytes": 579330,
+      "localSha256": "137b86537be71f054691063743f92a61774d5e9d1c8ae348df84112e1e9a12b4",
+      "remoteSha256": "137b86537be71f054691063743f92a61774d5e9d1c8ae348df84112e1e9a12b4",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg",
+      "bytes": 97604,
+      "localSha256": "4fd10cd6d84bad16ffb2b585befd586bac49d50ea888c92ac7dede847988be01",
+      "remoteSha256": "4fd10cd6d84bad16ffb2b585befd586bac49d50ea888c92ac7dede847988be01",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg",
+      "bytes": 93341,
+      "localSha256": "2f70c862779ff29f31245333c9be188ad41c1533d9bd00f3e239779818c41237",
+      "remoteSha256": "2f70c862779ff29f31245333c9be188ad41c1533d9bd00f3e239779818c41237",
+      "match": true
+    },
+    "blog/q4-23-chargeback/evidence-pack-en-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-23-chargeback/evidence-pack-en-v1.svg",
+      "bytes": 3256,
+      "localSha256": "bd27207012541fcb549bfa06be09548cbb96ac7dc86d757fdab0b70600a46b9b",
+      "remoteSha256": "bd27207012541fcb549bfa06be09548cbb96ac7dc86d757fdab0b70600a46b9b",
+      "match": true
+    },
+    "blog/q4-23-chargeback/evidence-pack-zh-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-23-chargeback/evidence-pack-zh-v1.svg",
+      "bytes": 3305,
+      "localSha256": "df1ec2051d627a81f5389b4745b3b901efdfd28c3ce8f306023348b9bba4fd75",
+      "remoteSha256": "df1ec2051d627a81f5389b4745b3b901efdfd28c3ce8f306023348b9bba4fd75",
+      "match": true
+    },
+    "blog/q4-23-chargeback/timeline-en-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-23-chargeback/timeline-en-v1.svg",
+      "bytes": 3657,
+      "localSha256": "118ccf5fbd64ff20e29f3348670b8456ada39144a7ba0dd7f27d1c3d22a8ff58",
+      "remoteSha256": "118ccf5fbd64ff20e29f3348670b8456ada39144a7ba0dd7f27d1c3d22a8ff58",
+      "match": true
+    },
+    "blog/q4-23-chargeback/timeline-zh-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-23-chargeback/timeline-zh-v1.svg",
+      "bytes": 3673,
+      "localSha256": "25b926c136074a2a484bfc85d9ab906a377597f7f325ccd2d3bd27b468a14e4f",
+      "remoteSha256": "25b926c136074a2a484bfc85d9ab906a377597f7f325ccd2d3bd27b468a14e4f",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg",
+      "bytes": 54319,
+      "localSha256": "55b63ba7d122e8237cc517aa3310a50f484a9f29f49f3328f365bb726760574f",
+      "remoteSha256": "55b63ba7d122e8237cc517aa3310a50f484a9f29f49f3328f365bb726760574f",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg",
+      "bytes": 51543,
+      "localSha256": "8abd479e3b79378f4f98889a56808b65a4dacd9b5c87edbe5af7b718dcc4b15b",
+      "remoteSha256": "8abd479e3b79378f4f98889a56808b65a4dacd9b5c87edbe5af7b718dcc4b15b",
+      "match": true
+    },
+    "blog/tiktok-shop-chargeback-seven-day-evidence-pack.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-chargeback-seven-day-evidence-pack.html",
+      "bytes": 38871,
+      "localSha256": "bb7d0bd628b6ea30b7c112f741a41604ccb41a61e0e4efabce75e21abc3cb01b",
+      "remoteSha256": "bb7d0bd628b6ea30b7c112f741a41604ccb41a61e0e4efabce75e21abc3cb01b",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 36654,
+      "localSha256": "a8f6542445a6a430414cf63549d0905d86f03dc758e444fa92b1cb5c8a2c8c92",
+      "remoteSha256": "a8f6542445a6a430414cf63549d0905d86f03dc758e444fa92b1cb5c8a2c8c92",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 50704,
+      "localSha256": "63f4064bb27e51064cdf3beda01cece4b3bbb6aaac673e6735a207dce313199a",
+      "remoteSha256": "63f4064bb27e51064cdf3beda01cece4b3bbb6aaac673e6735a207dce313199a",
+      "match": true
+    }
+  },
+  "passed": true
+}

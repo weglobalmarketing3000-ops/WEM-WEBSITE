@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-19-q4-23-chargeback-evidence",
+  "patchFingerprint": "9191f5aaa7c6661f93fc2d557a554b353d2b7ecfcc1ccfab97e9687178bc5bca",
+  "pid": 64273,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/9191f5aaa7c6661f93fc-production.log",
+  "url": "https://wem-website-be2it1xpx-wem1.vercel.app",
+  "deploymentId": "dpl_HStjBR2vAnQ9V62yqfkv3Bg6ybZY",
+  "exitCode": 0,
+  "updatedAt": "2026-10-19T13:14:52Z"
+}

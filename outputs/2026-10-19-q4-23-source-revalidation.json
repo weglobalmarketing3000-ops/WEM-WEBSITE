@@ -1,0 +1,37 @@
+{
+  "status": "source_revalidated",
+  "facts": {
+    "policyDate": "2026-09-23",
+    "appealWindow": "7 calendar days from chargeback notification; use the specific reply-by date shown in Seller Center",
+    "required": [
+      "transaction status",
+      "product description",
+      "proof that the item was received by the cardholder"
+    ],
+    "optional": [
+      "order confirmation",
+      "changes/refunds/cancellation",
+      "tracking numbers",
+      "product images",
+      "customer messages"
+    ],
+    "process": "TikTok Shop reviews the seller submission, prepares representment, and submits it to the financial institution",
+    "outcome": "financial institution controls the outcome; Seller Center provides outcome readback"
+  },
+  "sources": [
+    {
+      "name": "chargeback-policy.html",
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&identity=1&knowledge_id=7989055607670570",
+      "bytes": 110886,
+      "sha256": "7289ed77a7c1bbee5a5b53efe3a026a58d452382f6472113095e37fcf6bc9c6c",
+      "fetchedAt": "2026-10-19T13:07:12.751Z"
+    },
+    {
+      "name": "aftersales-evidence-guide.html",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=7042659022210829",
+      "bytes": 165970,
+      "sha256": "c9b07edf3aa3da4020539c9644740719aaa546f9e46be1429666e2a3d3df8a90",
+      "fetchedAt": "2026-10-19T13:07:13.089Z"
+    }
+  ]
+}
