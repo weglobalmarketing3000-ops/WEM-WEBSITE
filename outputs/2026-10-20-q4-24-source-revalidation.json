@@ -1,0 +1,52 @@
+{
+  "status": "source_revalidated",
+  "facts": {
+    "requirementsDate": "2026-09-17",
+    "reviewWindow": "seller-managed returns are reviewed within 4 business days; use the live Seller Center deadline",
+    "grades": [
+      "Original",
+      "Minor damage / Functional",
+      "Severe damage / Unsellable",
+      "Buyer shipped the wrong item"
+    ],
+    "gradingUpload": [
+      "JPG or PNG only",
+      "no video in this grading upload",
+      "5 MB maximum per file",
+      "up to 6 images",
+      "optional additional comments"
+    ],
+    "broaderEvidence": "continuous return-unboxing video and other order-linked proof may be required in appeals or disputes outside the grading photo upload",
+    "evidencePrinciple": "connect the return label, parcel exterior, all contents, product identifiers and exact resale-impacting condition to the same order"
+  },
+  "sources": [
+    {
+      "name": "returns-refunds-requirements.html",
+      "url": "https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=984433248438058",
+      "bytes": 377368,
+      "sha256": "81036e97d7ddc1935410a3677b47df9f507b129ec6a1c2bb90e382f69a2d900c",
+      "fetchedAt": "2026-10-20T13:08:24.292Z"
+    },
+    {
+      "name": "aftersales-evidence-guide.html",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=7042659022210829",
+      "bytes": 165969,
+      "sha256": "4682d0f2fa07a1819690c3237132a3a62642b1a79c6134b41603aea6b555bf51",
+      "fetchedAt": "2026-10-20T13:08:24.601Z"
+    },
+    {
+      "name": "aftersales-dispute-escalations.html",
+      "url": "https://seller-us.tiktok.com/university/essay?from=policy&identity=1&knowledge_id=3985068541478658&role=1",
+      "bytes": 356912,
+      "sha256": "5700b04080839e0e0e647e482ac618743e1d1dba20ca783821607836f62cd428",
+      "fetchedAt": "2026-10-20T13:08:24.912Z"
+    },
+    {
+      "name": "customer-return-refund-policy.html",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634",
+      "bytes": 935057,
+      "sha256": "08649923162924011746a500b30fe97c489223dbddf834d8d4b434631ecae12c",
+      "fetchedAt": "2026-10-20T13:08:25.481Z"
+    }
+  ]
+}

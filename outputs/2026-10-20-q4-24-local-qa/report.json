@@ -1,0 +1,636 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4188",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 161744,
+      "localSha256": "bd3bbf4217f1db88224887394a2eb9447d15c4728e3cbe7e8a2a61bcaaaf6383",
+      "remoteSha256": "bd3bbf4217f1db88224887394a2eb9447d15c4728e3cbe7e8a2a61bcaaaf6383",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 141640,
+      "localSha256": "857a9d4860053a37171f568aaacf804c52f872482f629bfcd2b2736358b2ffa4",
+      "remoteSha256": "857a9d4860053a37171f568aaacf804c52f872482f629bfcd2b2736358b2ffa4",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "5c038467284d090ab29907e5319fe4372edaa9629634591e11d7607caec5bdc1",
+      "remoteSha256": "5c038467284d090ab29907e5319fe4372edaa9629634591e11d7607caec5bdc1",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.png": {
+      "bytes": 819542,
+      "localSha256": "cc91ac35a354712d65fd090fe8999ec5c084025b2e2c8f51f1a277a332e54ff0",
+      "remoteSha256": "cc91ac35a354712d65fd090fe8999ec5c084025b2e2c8f51f1a277a332e54ff0",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.png": {
+      "bytes": 816742,
+      "localSha256": "20bd600be4fb68ae71693e5f6c59ffaeda1f28245b0d5f5cc3bd481fd992d4e2",
+      "remoteSha256": "20bd600be4fb68ae71693e5f6c59ffaeda1f28245b0d5f5cc3bd481fd992d4e2",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg": {
+      "bytes": 116369,
+      "localSha256": "d92b258434ad4191de7579fc33953576c7e0c9effc7b1d794ee87762e5649846",
+      "remoteSha256": "d92b258434ad4191de7579fc33953576c7e0c9effc7b1d794ee87762e5649846",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg": {
+      "bytes": 111954,
+      "localSha256": "cc1adf867afe66754deafc2f93f4fc1755aa9248b80b31116dfec80eea069d8e",
+      "remoteSha256": "cc1adf867afe66754deafc2f93f4fc1755aa9248b80b31116dfec80eea069d8e",
+      "match": true
+    },
+    "blog/q4-24-return-inspection/naming-ledger-en-v1.svg": {
+      "bytes": 2528,
+      "localSha256": "d8d9690d4ada0f8c965e092d3aa6f8da1c48f848730a9a22873050145a62d88a",
+      "remoteSha256": "d8d9690d4ada0f8c965e092d3aa6f8da1c48f848730a9a22873050145a62d88a",
+      "match": true
+    },
+    "blog/q4-24-return-inspection/naming-ledger-zh-v1.svg": {
+      "bytes": 2503,
+      "localSha256": "4ba1631a47476bef36dcd58bc3cda9b31e8b3234a796bf62695793244dac3004",
+      "remoteSha256": "4ba1631a47476bef36dcd58bc3cda9b31e8b3234a796bf62695793244dac3004",
+      "match": true
+    },
+    "blog/q4-24-return-inspection/six-frame-en-v1.svg": {
+      "bytes": 4947,
+      "localSha256": "79b359999d3b9d159b3628b57464e8e167799c84760e693a18d439a77447902d",
+      "remoteSha256": "79b359999d3b9d159b3628b57464e8e167799c84760e693a18d439a77447902d",
+      "match": true
+    },
+    "blog/q4-24-return-inspection/six-frame-zh-v1.svg": {
+      "bytes": 4944,
+      "localSha256": "5857899632ef3e645e17941e9d7c5c17a5e4912d1a2afeab61c3302380c9d338",
+      "remoteSha256": "5857899632ef3e645e17941e9d7c5c17a5e4912d1a2afeab61c3302380c9d338",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg": {
+      "bytes": 62120,
+      "localSha256": "1eb9504967ad0366d3ad4ec4bfc5622fe0f64291d694e26fb7ceca05e8c64c0c",
+      "remoteSha256": "1eb9504967ad0366d3ad4ec4bfc5622fe0f64291d694e26fb7ceca05e8c64c0c",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg": {
+      "bytes": 59054,
+      "localSha256": "66218e967eb73ecc6b3910f21d834dd27b1d60a30cdcaaadd9c60e383dee3add",
+      "remoteSha256": "66218e967eb73ecc6b3910f21d834dd27b1d60a30cdcaaadd9c60e383dee3add",
+      "match": true
+    },
+    "blog/tiktok-shop-return-inspection-six-photo-evidence.html": {
+      "bytes": 39373,
+      "localSha256": "76984818bbf6459c26e2fcc5f4d5a0524b3663d8a658cd565df0f3eedcf423e9",
+      "remoteSha256": "76984818bbf6459c26e2fcc5f4d5a0524b3663d8a658cd565df0f3eedcf423e9",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 36926,
+      "localSha256": "16d95c936ee6f97699a249d97b32be88521fa1dc3d9b51d4da44daadb41e4ac3",
+      "remoteSha256": "16d95c936ee6f97699a249d97b32be88521fa1dc3d9b51d4da44daadb41e4ac3",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 50988,
+      "localSha256": "e7bb9b001f7393117c681d0d8f098879af72f383c78667f07b9fe018add80ae1",
+      "remoteSha256": "e7bb9b001f7393117c681d0d8f098879af72f383c78667f07b9fe018add80ae1",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 32176,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-20",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-20",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Photograph TikTok Shop Returns for the Decision You May Need to Defend",
+      "documentTitle": "Photograph TikTok Shop Returns for the Decision You May Need to Defend | WE Marketing",
+      "description": "Use a six-frame return inspection photo protocol, condition grade and order-linked naming convention to make TikTok Shop decisions reviewable.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 820,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/six-frame-en-v1.svg"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/naming-ledger-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-inspection-six-photo-evidence.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证",
+      "documentTitle": "TikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证 | WE Marketing",
+      "description": "用六帧退货验货照片、状态分级和订单关联命名，让 TikTok Shop 售后决定可复核、可申诉。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 820,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/six-frame-zh-v1.svg"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/naming-ledger-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-inspection-six-photo-evidence.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Photograph TikTok Shop Returns for the Decision You May Need to Defend",
+      "documentTitle": "Photograph TikTok Shop Returns for the Decision You May Need to Defend | WE Marketing",
+      "description": "Use a six-frame return inspection photo protocol, condition grade and order-linked naming convention to make TikTok Shop decisions reviewable.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 820,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/six-frame-en-v1.svg"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/naming-ledger-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-inspection-six-photo-evidence.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证",
+      "documentTitle": "TikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证 | WE Marketing",
+      "description": "用六帧退货验货照片、状态分级和订单关联命名，让 TikTok Shop 售后决定可复核、可申诉。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.png"
+        },
+        {
+          "width": 1400,
+          "height": 820,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/six-frame-zh-v1.svg"
+        },
+        {
+          "width": 1400,
+          "height": 760,
+          "src": "http://127.0.0.1:4188/blog/q4-24-return-inspection/naming-ledger-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-return-inspection-six-photo-evidence.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-six-photo-evidence"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six inspection frames to make every return decision reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six inspection frames to make every return decision reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六帧验货照片，让每次退货决定都可复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六帧验货照片，让每次退货决定都可复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six inspection frames to make every return decision reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six inspection frames to make every return decision reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk",
+          "text": "Oct 18, 2026\nTIKTOK-SHOP\nAFTERSALES\nBefore You Reject a TikTok Shop Return, Check the Evidence and ISRR Risk\n\nMake every return rejection evidence-led and reviewable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六帧验货照片，让每次退货决定都可复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六帧验货照片，让每次退货决定都可复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh",
+          "text": "2026 年 10 月 18 日\nTIKTOK-SHOP\nAFTERSALES\n拒绝 TikTok Shop 退货前：先看证据和 ISRR 风险\n\n让每一次退货拒绝都有证据，也经得起复核。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-rejection-evidence-isrr-risk-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=bd3bbf4217f1",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

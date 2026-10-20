@@ -1,0 +1,110 @@
+{
+  "deploymentId": "dpl_HCV4SFfHfupyo1Wq3a4qx6m3CMwX",
+  "url": "https://wem-website-oqeofd805-wem1.vercel.app",
+  "files": 17,
+  "allMatch": true,
+  "rows": [
+    {
+      "file": "BlogList.compiled.js",
+      "patch": "bd3bbf4217f1db88224887394a2eb9447d15c4728e3cbe7e8a2a61bcaaaf6383",
+      "readback": "bd3bbf4217f1db88224887394a2eb9447d15c4728e3cbe7e8a2a61bcaaaf6383",
+      "match": true
+    },
+    {
+      "file": "BlogList.jsx",
+      "patch": "857a9d4860053a37171f568aaacf804c52f872482f629bfcd2b2736358b2ffa4",
+      "readback": "857a9d4860053a37171f568aaacf804c52f872482f629bfcd2b2736358b2ffa4",
+      "match": true
+    },
+    {
+      "file": "assets/we-logo.png",
+      "patch": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "readback": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    {
+      "file": "blog.html",
+      "patch": "5c038467284d090ab29907e5319fe4372edaa9629634591e11d7607caec5bdc1",
+      "readback": "5c038467284d090ab29907e5319fe4372edaa9629634591e11d7607caec5bdc1",
+      "match": true
+    },
+    {
+      "file": "blog/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.png",
+      "patch": "cc91ac35a354712d65fd090fe8999ec5c084025b2e2c8f51f1a277a332e54ff0",
+      "readback": "cc91ac35a354712d65fd090fe8999ec5c084025b2e2c8f51f1a277a332e54ff0",
+      "match": true
+    },
+    {
+      "file": "blog/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.png",
+      "patch": "20bd600be4fb68ae71693e5f6c59ffaeda1f28245b0d5f5cc3bd481fd992d4e2",
+      "readback": "20bd600be4fb68ae71693e5f6c59ffaeda1f28245b0d5f5cc3bd481fd992d4e2",
+      "match": true
+    },
+    {
+      "file": "blog/optimized/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg",
+      "patch": "d92b258434ad4191de7579fc33953576c7e0c9effc7b1d794ee87762e5649846",
+      "readback": "d92b258434ad4191de7579fc33953576c7e0c9effc7b1d794ee87762e5649846",
+      "match": true
+    },
+    {
+      "file": "blog/optimized/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg",
+      "patch": "cc1adf867afe66754deafc2f93f4fc1755aa9248b80b31116dfec80eea069d8e",
+      "readback": "cc1adf867afe66754deafc2f93f4fc1755aa9248b80b31116dfec80eea069d8e",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-return-inspection/naming-ledger-en-v1.svg",
+      "patch": "d8d9690d4ada0f8c965e092d3aa6f8da1c48f848730a9a22873050145a62d88a",
+      "readback": "d8d9690d4ada0f8c965e092d3aa6f8da1c48f848730a9a22873050145a62d88a",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-return-inspection/naming-ledger-zh-v1.svg",
+      "patch": "4ba1631a47476bef36dcd58bc3cda9b31e8b3234a796bf62695793244dac3004",
+      "readback": "4ba1631a47476bef36dcd58bc3cda9b31e8b3234a796bf62695793244dac3004",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-return-inspection/six-frame-en-v1.svg",
+      "patch": "79b359999d3b9d159b3628b57464e8e167799c84760e693a18d439a77447902d",
+      "readback": "79b359999d3b9d159b3628b57464e8e167799c84760e693a18d439a77447902d",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-return-inspection/six-frame-zh-v1.svg",
+      "patch": "5857899632ef3e645e17941e9d7c5c17a5e4912d1a2afeab61c3302380c9d338",
+      "readback": "5857899632ef3e645e17941e9d7c5c17a5e4912d1a2afeab61c3302380c9d338",
+      "match": true
+    },
+    {
+      "file": "blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-en-v1.jpg",
+      "patch": "1eb9504967ad0366d3ad4ec4bfc5622fe0f64291d694e26fb7ceca05e8c64c0c",
+      "readback": "1eb9504967ad0366d3ad4ec4bfc5622fe0f64291d694e26fb7ceca05e8c64c0c",
+      "match": true
+    },
+    {
+      "file": "blog/thumbs/hero-tiktok-shop-return-inspection-six-photo-evidence-zh-v1.jpg",
+      "patch": "66218e967eb73ecc6b3910f21d834dd27b1d60a30cdcaaadd9c60e383dee3add",
+      "readback": "66218e967eb73ecc6b3910f21d834dd27b1d60a30cdcaaadd9c60e383dee3add",
+      "match": true
+    },
+    {
+      "file": "blog/tiktok-shop-return-inspection-six-photo-evidence.html",
+      "patch": "76984818bbf6459c26e2fcc5f4d5a0524b3663d8a658cd565df0f3eedcf423e9",
+      "readback": "76984818bbf6459c26e2fcc5f4d5a0524b3663d8a658cd565df0f3eedcf423e9",
+      "match": true
+    },
+    {
+      "file": "llms.txt",
+      "patch": "16d95c936ee6f97699a249d97b32be88521fa1dc3d9b51d4da44daadb41e4ac3",
+      "readback": "16d95c936ee6f97699a249d97b32be88521fa1dc3d9b51d4da44daadb41e4ac3",
+      "match": true
+    },
+    {
+      "file": "sitemap.xml",
+      "patch": "e7bb9b001f7393117c681d0d8f098879af72f383c78667f07b9fe018add80ae1",
+      "readback": "e7bb9b001f7393117c681d0d8f098879af72f383c78667f07b9fe018add80ae1",
+      "match": true
+    }
+  ]
+}

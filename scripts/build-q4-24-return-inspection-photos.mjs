@@ -1,0 +1,232 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import vm from 'node:vm';
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
+const sharp = require('/Users/wendylin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const root = path.resolve(import.meta.dirname, '..');
+const base = path.join(root, 'outputs/2026-10-20-current-live-baseline/ui_kits/website');
+const out = path.join(root, 'outputs/patches/2026-10-20-q4-24-return-inspection-photos');
+const slug = 'tiktok-shop-return-inspection-six-photo-evidence';
+const date = '2026-10-20';
+const url = `https://www.weglobalmarketing.com/blog/${slug}`;
+const enTitle = 'Photograph TikTok Shop Returns for the Decision You May Need to Defend';
+const zhTitle = 'TikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证';
+const enDescription = 'Use a six-frame return inspection photo protocol, condition grade and order-linked naming convention to make TikTok Shop decisions reviewable.';
+const zhDescription = '用六帧退货验货照片、状态分级和订单关联命名，让 TikTok Shop 售后决定可复核、可申诉。';
+const sources = {
+  requirements: 'https://seller-us.tiktok.com/university/essay?identity=1&knowledge_id=984433248438058',
+  evidence: 'https://seller-us.tiktok.com/university/essay?knowledge_id=7042659022210829',
+  escalation: 'https://seller-us.tiktok.com/university/essay?from=policy&identity=1&knowledge_id=3985068541478658&role=1',
+  policy: 'https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634',
+};
+const sha = value => crypto.createHash('sha256').update(value).digest('hex');
+const esc = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+
+await fs.rm(out, { recursive: true, force: true });
+for (const directory of ['assets', 'blog', 'blog/optimized', 'blog/thumbs', 'blog/q4-24-return-inspection']) await fs.mkdir(path.join(out, directory), { recursive: true });
+await fs.copyFile(path.join(base, 'assets/we-logo.png'), path.join(out, 'assets/we-logo.png'));
+
+const sceneData = (await fs.readFile(path.join(root, 'outputs/2026-10-20-q4-24-raw-scene-v1.png'))).toString('base64');
+const logoData = (await fs.readFile(path.join(out, 'assets/we-logo.png'))).toString('base64');
+
+function coverSvg(zh = false) {
+  const lines = zh ? ['退货验货', '六帧留证'] : ['RETURN', 'INSPECTION', 'PHOTO PROTOCOL'];
+  const sizes = zh ? [86, 78] : [85, 73, 58];
+  const ys = zh ? [285, 390] : [230, 320, 402];
+  const subtitle = zh ? '按未来可能申诉的标准拍' : 'PHOTOGRAPH THE DECISION YOU MAY DEFEND';
+  return `<svg width="1792" height="896" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="bg" x2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#ece7ff"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#5b4aa0" flood-opacity=".16"/></filter></defs><rect width="1792" height="896" fill="url(#bg)"/><path d="M1090 0h702v896H930c180-246 252-622 160-896z" fill="#f1edff"/><rect x="82" y="76" width="514" height="52" rx="26" fill="#e7edff"/><circle cx="110" cy="102" r="9" fill="#245bd7"/><text x="133" y="111" font-family="Arial,PingFang SC,sans-serif" font-size="21" font-weight="800" fill="#1746b8">TIKTOK SHOP U.S. / AFTERSALES OPERATIONS</text>${lines.map((line, i) => `<text x="82" y="${ys[i]}" font-family="Arial Narrow,Arial,PingFang SC,sans-serif" font-size="${sizes[i]}" font-weight="900" fill="${i === 1 ? '#245bd7' : '#17151a'}">${esc(line)}</text>`).join('')}<rect x="84" y="470" width="90" height="6" rx="3" fill="#245bd7"/><text x="82" y="535" font-family="Arial,PingFang SC,sans-serif" font-size="23" fill="#37332f">${esc(subtitle)}</text><image href="data:image/png;base64,${logoData}" x="78" y="692" width="150" height="110" preserveAspectRatio="xMidYMid meet"/><image href="data:image/png;base64,${sceneData}" x="790" y="90" width="925" height="725" preserveAspectRatio="xMidYMid meet" filter="url(#shadow)"/></svg>`;
+}
+
+for (const [lang, zh] of [['en', false], ['zh', true]]) {
+  const pngName = `hero-${slug}-${lang}-v1.png`;
+  const png = await sharp(Buffer.from(coverSvg(zh))).png().toBuffer();
+  await fs.writeFile(path.join(out, 'blog', pngName), png);
+  await sharp(png).resize(1280, 640, { fit: 'cover' }).jpeg({ quality: 90, chromaSubsampling: '4:4:4' }).toFile(path.join(out, 'blog/optimized', pngName.replace('.png', '.jpg')));
+  await sharp(png).resize(880, 440, { fit: 'cover' }).jpeg({ quality: 88, chromaSubsampling: '4:4:4' }).toFile(path.join(out, 'blog/thumbs', pngName.replace('.png', '.jpg')));
+}
+
+function sixFrameSvg(zh = false) {
+  const title = zh ? '六帧验货照片：让每张图回答一个问题' : 'Six inspection frames: one question per image';
+  const cards = zh ? [
+    ['01 标签与外箱', '这是不是同一票退货？', 'Return Label、六面外箱、封口状态'],
+    ['02 全部内容', '退回了什么？', '一次拍全商品、配件、赠品与包装'],
+    ['03 商品身份', '是不是原订单商品？', 'SKU、型号、序列号、尺码或颜色'],
+    ['04 整体状态', '商品总体成色如何？', '正面、背面与可见使用痕迹'],
+    ['05 问题特写', '影响决定的事实是什么？', '损坏、污染、缺件、拆封或标签'],
+    ['06 功能与尺度', '问题是否影响功能或转售？', '通电、测量、比例与关键对照'],
+  ] : [
+    ['01 LABEL + PARCEL', 'Is this the same return?', 'Return label, all parcel sides and seal condition'],
+    ['02 ALL CONTENTS', 'What came back?', 'Item, accessories, gifts and packaging together'],
+    ['03 PRODUCT ID', 'Is it the ordered item?', 'SKU, model, serial, size or color identifiers'],
+    ['04 OVERALL CONDITION', 'What is the total condition?', 'Front, back and visible signs of use'],
+    ['05 ISSUE CLOSE-UP', 'What fact changes the decision?', 'Damage, contamination, missing part, seal or tag'],
+    ['06 FUNCTION + SCALE', 'Does it affect use or resale?', 'Function test, measurement and reference scale'],
+  ];
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820"><rect width="1400" height="820" rx="34" fill="#fff"/><text x="64" y="82" font-family="Arial,PingFang SC" font-size="39" font-weight="800" fill="#171717">${esc(title)}</text><rect x="64" y="112" width="150" height="6" rx="3" fill="#ed168c"/>${cards.map((it, i) => { const x = 64 + (i % 3) * 430; const y = 160 + Math.floor(i / 3) * 290; return `<g><rect x="${x}" y="${y}" width="390" height="246" rx="24" fill="${i % 2 ? '#fbf9ff' : '#f2efff'}" stroke="#d8d1ef"/><rect x="${x + 26}" y="${y + 26}" width="70" height="34" rx="17" fill="#245bd7"/><text x="${x + 41}" y="${y + 49}" font-family="Arial,PingFang SC" font-size="15" font-weight="800" fill="#fff">${String(i + 1).padStart(2, '0')}</text><text x="${x + 26}" y="${y + 96}" font-family="Arial,PingFang SC" font-size="23" font-weight="800" fill="#171717">${esc(it[0])}</text><text x="${x + 26}" y="${y + 137}" font-family="Arial,PingFang SC" font-size="19" font-weight="700" fill="#245bd7">${esc(it[1])}</text><foreignObject x="${x + 26}" y="${y + 157}" width="334" height="70"><div xmlns="http://www.w3.org/1999/xhtml" style="font:17px Arial,'PingFang SC';line-height:1.45;color:#514b57">${esc(it[2])}</div></foreignObject></g>`; }).join('')}</svg>`;
+}
+
+function ledgerSvg(zh = false) {
+  const title = zh ? '命名与回读：照片离开相册后仍能证明事实' : 'Naming and readback: proof that survives the camera roll';
+  const example = zh ? 'ORD-4821__RETURN-LABEL__01__2026-10-20.jpg' : 'ORD-4821__RETURN-LABEL__01__2026-10-20.jpg';
+  const rows = zh ? [
+    ['Order ID', '连接售后案件与订单'],
+    ['Frame Code', '说明这张图要证明什么'],
+    ['Sequence', '保留拍摄顺序与完整性'],
+    ['Captured At', '记录采集日期与时间'],
+    ['Inspector', '具名验货负责人'],
+    ['Grade + Decision', '保存平台状态、提交内容与结果'],
+  ] : [
+    ['Order ID', 'Connects the case to the order'],
+    ['Frame code', 'Names the fact this image should prove'],
+    ['Sequence', 'Preserves order and completeness'],
+    ['Captured at', 'Records collection date and time'],
+    ['Inspector', 'Names the accountable receiver'],
+    ['Grade + decision', 'Stores live choice, submission and result'],
+  ];
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760"><rect width="1400" height="760" rx="34" fill="#fff"/><text x="64" y="82" font-family="Arial,PingFang SC" font-size="39" font-weight="800" fill="#171717">${esc(title)}</text><rect x="64" y="112" width="150" height="6" rx="3" fill="#245bd7"/><rect x="64" y="160" width="1272" height="92" rx="22" fill="#171717"/><text x="100" y="217" font-family="ui-monospace,Menlo,monospace" font-size="27" font-weight="700" fill="#fff">${esc(example)}</text>${rows.map((it, i) => { const y = 286 + i * 70; return `<g><rect x="64" y="${y}" width="1272" height="56" rx="16" fill="${i % 2 ? '#fbf9ff' : '#f1eeff'}"/><text x="96" y="${y + 36}" font-family="Arial,PingFang SC" font-size="19" font-weight="800" fill="#245bd7">${esc(it[0])}</text><text x="380" y="${y + 36}" font-family="Arial,PingFang SC" font-size="18" fill="#514b57">${esc(it[1])}</text></g>`; }).join('')}</svg>`;
+}
+
+await fs.writeFile(path.join(out, 'blog/q4-24-return-inspection/six-frame-en-v1.svg'), sixFrameSvg(false));
+await fs.writeFile(path.join(out, 'blog/q4-24-return-inspection/six-frame-zh-v1.svg'), sixFrameSvg(true));
+await fs.writeFile(path.join(out, 'blog/q4-24-return-inspection/naming-ledger-en-v1.svg'), ledgerSvg(false));
+await fs.writeFile(path.join(out, 'blog/q4-24-return-inspection/naming-ledger-zh-v1.svg'), ledgerSvg(true));
+
+const faqEn = [
+  ['Does TikTok Shop require exactly six return-inspection photos?', 'No. The current Returns Grading Framework allows up to six JPG or PNG images in that grading upload. The six-frame sequence in this article is a WEM operating protocol designed to use the available slots deliberately.'],
+  ['Can a seller upload a video in the Returns Grading Framework?', 'The current grading upload specifies JPG or PNG photos and no video. Other appeal or dispute paths may request or benefit from a continuous unboxing video, so preserve the broader evidence separately and follow the live case instructions.'],
+  ['What condition grades are currently shown?', 'The current U.S. framework lists Original, Minor damage / Functional, Severe damage / Unsellable, and Buyer shipped the wrong item. Read the live account because labels and paths may change.'],
+  ['Should warehouse staff edit or annotate the photos?', 'Keep an original, unedited capture. If an annotated copy is useful internally, save it as a separate derivative and never replace the source image.'],
+  ['What if the defect cannot be proven in a still image?', 'Record the stills that connect the parcel and item to the order, then preserve the appropriate function test, continuous unboxing video, inspection report or other case-specific evidence outside the six-photo grading set.'],
+  ['What is the smallest useful next action?', 'Create one six-frame shot list and filename template, then test it on five returns. Ask a second reviewer to determine the condition and missing facts without talking to the inspector.'],
+];
+const faqZh = [
+  ['TikTok Shop 是否强制必须拍六张退货验货照片？', '不是。当前 Returns Grading Framework 的该上传入口允许最多六张 JPG 或 PNG 图片。本文的六帧顺序是 WEM 为了有意识地使用这些槽位设计的运营协议，不是平台规定的固定镜头清单。'],
+  ['Returns Grading Framework 可以上传视频吗？', '当前分级上传入口写明使用 JPG 或 PNG 照片，不接受视频。其他申诉或争议路径可能要求或适合使用连续开箱视频，因此更完整的证据应另行保存，并以实时案件要求为准。'],
+  ['当前有哪些商品状态等级？', '当前美国站框架列出 Original、Minor damage / Functional、Severe damage / Unsellable，以及 Buyer shipped the wrong item。界面和标签可能变化，必须核对实时账号。'],
+  ['仓库人员可以编辑或标注照片吗？', '应保留未经编辑的原始照片。如果内部复核需要标注版本，应另存为衍生文件，不能覆盖原图。'],
+  ['如果静态照片无法证明功能故障怎么办？', '先用静态图把包裹和商品连接到订单，再在六张分级照片之外，保存适用的功能测试、连续开箱视频、质检报告或其他案件专属证据。'],
+  ['最小可用下一步是什么？', '建立一张六帧拍摄清单和统一命名模板，用五笔真实退货测试，再让第二名审核人不询问验货员，独立判断状态和缺失事实。'],
+];
+function faq(items, zh = false) { return `<section class="faq"><h2>${zh ? '常见问题' : 'Frequently asked questions'}</h2>${items.map(([q, a]) => `<div class="faq-item"><h3>${q}</h3><p>${a}</p></div>`).join('')}</section>`; }
+
+const EN = `<p class="eyebrow">TIKTOK SHOP U.S. · AFTERSALES OPERATIONS</p><h1>${enTitle}</h1><img class="hero" src="/blog/hero-${slug}-en-v1.png" alt="${enTitle}"><p class="byline">WE Marketing Team · Oct 20, 2026 · 16 min read</p>
+<p><strong>Direct answer:</strong> photograph a returned item as if a reviewer who never entered your warehouse may later need to understand the decision. First connect the parcel to the order. Then show everything received, prove the product identity, document overall condition, isolate the exact issue and show function or scale when relevant. Give every image a stable order-linked filename, preserve the originals and record the condition grade, owner, submission and outcome.</p>
+<p>The goal is not to create attractive product photography. It is to make one operational decision reproducible. A reviewer should be able to answer four questions without asking the inspector: Is this the right return? What came back? What condition was it in? Which visible fact supports the refund, rejection or appeal path?</p>
+<h2>Start with the current Returns Grading Framework</h2>
+<p>The current TikTok Shop U.S. requirements say seller-managed returns should be assessed after receipt. When the seller confirms the product was received, Seller Center may ask for one of four condition grades: Original, Minor damage / Functional, Severe damage / Unsellable, or Buyer shipped the wrong item. The case type can then lead to a full refund, a rejection with supporting details or a speedy-refund appeal with reason and evidence.</p>
+<p>For this grading upload, the current source specifies JPG or PNG photos, no video, a maximum of 5 MB per file and up to six images. An Additional Comments field may be available. Those are platform constraints, not a complete photography strategy. The six-frame protocol below is WEM operating guidance for using the available slots coherently. It is not an official mandatory shot list.</p>
+<h2>Frame 1: connect the parcel to the order</h2>
+<p>Begin with the return label and parcel exterior. Capture the readable order-linked identifier permitted by your internal privacy controls, the carrier label, the package shape and the seal condition. If damage or tampering is relevant, show all sides before opening. This first frame prevents a later close-up from becoming an unlinked image that could belong to any return.</p>
+<p>Keep the label and exterior in the same evidence sequence. If sensitive information must be minimized for a submission, preserve the controlled original and create a separate redacted derivative. Do not overwrite the file that proves the chain of custody.</p>
+<h2>Frame 2: show all returned contents together</h2>
+<p>Before rearranging the parcel, photograph the full contents: product, accessories, gifts, inserts, protective packaging and original retail packaging. This is the completeness frame. It is especially important for missing-item, wrong-item and resale-condition decisions. The image should let a reviewer compare what arrived with the original order contents list.</p>
+<p>A tight defect close-up cannot prove what else was or was not in the box. Use one wide frame as an inventory map, then use later frames to prove identity and condition.</p>
+<h2>Frame 3: prove product identity</h2>
+<p>Capture the identifiers that distinguish this item from a visually similar one: SKU label, model, serial number, size, color, batch code or another stable mark relevant to the category. Compare the image with the order-time SKU and dispatch evidence. If the buyer returned the wrong product, identity evidence is the core fact, not the inspector's opinion.</p>
+<p>Do not force every category into a serial-number workflow. Apparel may need size and tag views; electronics may need model and serial details; beauty products may need batch, seal and fill-state evidence. Name the identity fact before choosing the image.</p>
+<h2>Frames 4 and 5: separate overall condition from the deciding issue</h2>
+<p>Frame 4 should show the complete item from a useful angle and, where the six-image limit allows, include front and back in one clear composition. Frame 5 should isolate the exact condition that affects the grade or resale decision: a crack, stain, removed tag, broken seal, missing component, contamination, deep wear or another visible issue.</p>
+<p>Use neutral lighting, a clean background and a reference scale when size matters. Avoid filters, dramatic shadows and digital cleanup. An honest image with clear context is more useful than a polished image that hides surface condition or color.</p>
+<h2>Frame 6: show function, scale or the decisive comparison</h2>
+<p>The final slot should answer the remaining case-specific question. For a functional item, show the device powered on or a clear test state. For a size or material issue, show a measurement or label. For a missing-part claim, show the empty location next to the contents map. For a wrong-item return, place the returned identifier beside the order-time product reference in a controlled comparison.</p>
+<p>A still photo cannot prove every functional failure. If a continuous test or unboxing sequence is needed, preserve it as broader appeal or dispute evidence. Do not pretend the six-photo grading upload and the complete case file are the same thing.</p>
+<img src="/blog/q4-24-return-inspection/six-frame-en-v1.svg" alt="Six-frame TikTok Shop return inspection photo protocol">
+<h2>Grade only after the evidence sequence is complete</h2>
+<p>Do not choose a grade first and then photograph only what supports it. Complete the sequence, compare it with the order and dispatch records, then select the live condition grade. Record who inspected the item, when it was received, when it was opened and which facts drove the grade.</p>
+<p>Original should not be treated as a casual synonym for “looks fine.” Minor damage / Functional separates condition from usability. Severe damage / Unsellable needs evidence of the condition affecting resale, not only an unsupported label. Buyer shipped the wrong item depends on identity linkage. If the facts do not support the proposed grade, pause and route the case to the responsible aftersales owner.</p>
+<h2>Separate the grading photo set from the broader evidence file</h2>
+<p>The current After-Sales Evidence Guide recommends continuous, clear and unedited packing and return-unboxing videos, plus order-linked material appropriate to the dispute. Current escalation requirements can call for a return label, parcel exterior, complete unboxing video, all contents, product identifiers, dispatch evidence, inspection reports or authenticity records depending on the scenario.</p>
+<p>This is not a contradiction with the no-video grading upload. They are different surfaces and purposes. Keep the six JPG or PNG grading images as a concise decision set. Keep the continuous unboxing video and other source records in the controlled case folder for an appeal, dispute or later review. Submit only through the path and format shown in the live case.</p>
+<h2>Use filenames that survive outside the camera roll</h2>
+<p>A filename such as IMG_8241.jpg proves nothing after it leaves the phone. Use a stable convention such as <strong>ORDER-ID__FRAME-CODE__SEQUENCE__DATE.jpg</strong>. Example: ORD-4821__RETURN-LABEL__01__2026-10-20.jpg. Keep the capture timestamp, inspector, original hash or controlled storage location, condition grade and case reference in a small evidence ledger.</p>
+<p>Never rename files so aggressively that the original sequence is lost. Preserve original files in read-only storage, then create submission copies that comply with current file-size and privacy requirements. The evidence ledger should distinguish original, derivative, submitted and accepted states.</p>
+<img src="/blog/q4-24-return-inspection/naming-ledger-en-v1.svg" alt="Return inspection photo naming convention and evidence ledger">
+<h2>Run a two-person readback before the deadline</h2>
+<p>The inspector captures facts. A second reviewer checks whether the photos support the selected grade and case action. The reviewer should verify order linkage, completeness, identity, condition, contradictions, file format and size, and whether the live upload shows every intended image. If the second reviewer must call the inspector to understand a picture, the evidence is not self-explanatory yet.</p>
+<p>After submission, reopen the case and record the visible status, uploaded file count, comments, timestamp and any platform request for more information. Prepared, uploaded, submitted and finally decided are different states.</p>
+<h2>Operating example: a returned headset with a torn ear cushion</h2>
+<p>This is a hypothetical operating example, not a client result. Receiving scans the return and records the live deadline. Frame 1 links the return label and unopened parcel. Frame 2 shows the headset, cable, case and packaging. Frame 3 captures the model and serial. Frame 4 shows the overall headset. Frame 5 isolates the torn cushion with a scale reference. Frame 6 shows the headset powers on and pairs.</p>
+<p>The evidence supports two distinct facts: the unit functions, but its condition may affect resale. The aftersales owner compares those facts with the live grade definitions, order-time condition and dispatch record before choosing the action. The team keeps the continuous unboxing video in the case folder even though the grading upload accepts photos only.</p>
+<h2>Smallest useful next action</h2>
+<p>Print or pin one six-frame shot list at the receiving station today. Add the filename template and six ledger fields: Order ID, received time, inspector, frame code, proposed grade and reviewer. Test the protocol on five returns from different categories. Give the files to a second reviewer without explanation. Repair any frame that fails to prove its intended fact before automating the workflow.</p>
+<h2>Source notes</h2><p>This original WEM operating framework draws on the complete current TikTok Shop U.S. Seller University <a href="${sources.requirements}">Requirements for Managing Returns, Refunds, and Replacements</a>, dated September 17, 2026, the <a href="${sources.evidence}">After-Sales Evidence Guide for Appeals and Disputes</a>, the <a href="${sources.escalation}">Requirements for After-sales Dispute Escalations</a>, and the <a href="${sources.policy}">Customer Order Cancellation, Return, and Refund Policy</a>, revalidated October 20, 2026. The six-frame sequence and filename convention are WEM operating guidance. Deadlines, grades, file limits, interfaces and evidence requirements may change, so verify the live U.S. Seller Center before execution.</p>
+<h2>Related WEM guides</h2><section class="related-grid"><a href="/blog/tiktok-shop-return-rejection-evidence-isrr-risk"><strong>Return rejection evidence</strong><span>Check the evidence and ISRR risk before rejecting a return.</span></a><a href="/blog/tiktok-shop-chargeback-seven-day-evidence-pack"><strong>Seven-day chargeback pack</strong><span>Build the payment-dispute file before the clock starts.</span></a><a href="/blog/tiktok-shop-aftersales-automation-approval-rules"><strong>Aftersales automation</strong><span>Define which decisions the system may approve and when it must stop.</span></a></section>
+${faq(faqEn)}`;
+
+const ZH = `<p class="eyebrow">TIKTOK SHOP 美国站 · 售后运营</p><h1>${zhTitle}</h1><img class="hero" src="/blog/hero-${slug}-zh-v1.png" alt="${zhTitle}"><p class="byline">WE Marketing Team · 2026 年 10 月 20 日 · 16 分钟阅读</p>
+<p><strong>直接结论：</strong>退回商品的照片，应该让一个从未进入仓库的审核人也能复核这次决定。先把包裹连接到订单，再拍清全部退回内容、商品身份、整体状态、决定性问题，以及必要的功能或尺度。每张图使用稳定的订单关联文件名，保留未经编辑的原图，并记录状态分级、负责人、提交回读与最终结果。</p>
+<p>目标不是拍出漂亮的商品图，而是让一次售后决定可以被重现。审核者不询问验货员，也应该回答四个问题：这是不是正确的退货？实际退回了什么？商品是什么状态？哪个可见事实支持退款、拒绝或申诉路径？</p>
+<h2>先读当前 Returns Grading Framework</h2>
+<p>当前 TikTok Shop 美国站要求说明，卖家自主管理的退货在收到后需要评估。当卖家确认已经收到商品，Seller Center 可能要求选择四种状态之一：Original、Minor damage / Functional、Severe damage / Unsellable，或 Buyer shipped the wrong item。根据案件类型，后续可能是全额退款、附说明与证据的拒绝，或者针对 Speedy Refund 的申诉。</p>
+<p>当前这个分级上传入口要求使用 JPG 或 PNG 图片，不接受视频，单个文件不超过 5 MB，最多六张，并可能提供 Additional Comments。以上是平台约束，不是一套完整摄影方法。本文的六帧协议是 WEM 为了让六个槽位讲清同一件事而设计的运营方法，并非平台强制的官方镜头清单。</p>
+<h2>第 1 帧：先把包裹连接到订单</h2>
+<p>第一张拍 Return Label 与包裹外观。在公司隐私控制允许的范围内，保留可连接订单的标识、物流标签、包裹形状与封口状态。如果破损或疑似拆封与案件有关，开箱前拍全六面。这样后面的瑕疵特写不会变成一张无法证明属于哪笔退货的孤立图片。</p>
+<p>标签和外箱必须属于同一证据序列。如果提交时需要减少敏感信息，应把原图保存在受控位置，再另做脱敏副本，不能覆盖证明 Chain of Custody 的源文件。</p>
+<h2>第 2 帧：一次拍全实际退回内容</h2>
+<p>重新摆放之前，先拍下商品、配件、赠品、说明物、保护材料和原包装。这是完整性镜头，对缺件、退错商品和影响转售状态的决定尤其重要。审核者应能把这张图与原订单的 Contents List 对照。</p>
+<p>一张很紧的损坏特写不能证明箱子里还有什么或缺了什么。先用广角全景建立内容地图，再用后续镜头证明身份和状态。</p>
+<h2>第 3 帧：证明商品身份</h2>
+<p>拍下能把商品与相似商品区分开的标识：SKU 标签、型号、序列号、尺码、颜色、批次或其他适用于该品类的稳定标记，再与下单时 SKU 和出库证据核对。如果买家退回了错误商品，核心事实是身份连接，而不是验货员的主观判断。</p>
+<p>不要强迫所有品类使用序列号逻辑。服装可能需要尺码和吊牌；电子产品需要型号与序列号；美妆可能需要批次、封口与余量。先命名要证明的身份事实，再决定照片。</p>
+<h2>第 4 与第 5 帧：把整体状态和决定性问题分开</h2>
+<p>第 4 帧展示完整商品和有用角度，在六张限制允许时把正反面组织在一个清晰构图中。第 5 帧只隔离真正影响分级或转售决定的状态，例如裂痕、污渍、拆掉的吊牌、破坏的封口、缺少部件、污染或明显使用痕迹。</p>
+<p>使用中性灯光、干净背景；尺寸重要时加入比例尺。不要使用滤镜、戏剧化阴影或数码修饰。能看清背景和尺度的真实照片，比隐藏表面状态或颜色的精修照片更适合复核。</p>
+<h2>第 6 帧：展示功能、尺度或最后一个决定性对照</h2>
+<p>最后一个槽位用来回答本案件剩余的问题。功能商品可以展示通电或明确测试状态；尺码和材质问题可以展示测量或标签；缺件案件可以把空缺位置与第 2 帧的 Contents Map 对照；退错商品可以在受控画面中并列退回标识与下单时商品信息。</p>
+<p>静态照片无法证明所有功能故障。如果案件需要连续测试或开箱过程，应把它作为更完整的申诉或争议证据保存，不能假设六张分级照片等于完整案件文件。</p>
+<img src="/blog/q4-24-return-inspection/six-frame-zh-v1.svg" alt="TikTok Shop 六帧退货验货照片协议">
+<h2>证据序列完成后再选分级</h2>
+<p>不要先选择 Grade，再只拍支持它的内容。先完成六帧序列，与订单和出库记录比较，然后选择实时界面中的状态。记录谁验货、何时收到、何时开箱，以及哪些事实推动了分级。</p>
+<p>Original 不能只是“看起来还行”的随意说法；Minor damage / Functional 把外观状态与可用性分开；Severe damage / Unsellable 需要证明具体状态确实影响转售，而不是只写一个结论；Buyer shipped the wrong item 则依赖商品身份连接。如果事实无法支持拟选等级，应暂停并交给售后 Owner 复核。</p>
+<h2>六张分级图片和完整案件证据要分开保存</h2>
+<p>当前 After-Sales Evidence Guide 建议保存连续、清晰、未剪辑的打包和退货开箱视频，并按照争议场景准备能连接订单的材料。当前升级争议要求在不同场景下可能包括 Return Label、包裹外观、连续开箱视频、全部内容、商品标识、出库证据、质检报告或真伪材料。</p>
+<p>这与分级入口“不接受视频”并不矛盾，因为它们是不同入口与不同目的。六张 JPG 或 PNG 用作简洁的分级决定集；连续开箱视频和其他原始材料保存在受控案件文件夹中，用于后续申诉、争议或复盘。真正提交什么，必须以实时案件要求和格式为准。</p>
+<h2>文件离开手机相册后仍要能证明事实</h2>
+<p>IMG_8241.jpg 离开手机后几乎没有证明力。使用稳定命名：<strong>ORDER-ID__FRAME-CODE__SEQUENCE__DATE.jpg</strong>，例如 ORD-4821__RETURN-LABEL__01__2026-10-20.jpg。证据台账还要保存拍摄时间、验货员、原图哈希或受控位置、Condition Grade 与 Case Reference。</p>
+<p>不要为了改名而丢失原始顺序。原始文件进入只读存储，再创建符合当前文件大小和隐私要求的提交副本。台账要明确区分 Original、Derivative、Submitted 和 Accepted，不要用一个“已处理”覆盖所有阶段。</p>
+<img src="/blog/q4-24-return-inspection/naming-ledger-zh-v1.svg" alt="退货验货照片命名规则和证据台账">
+<h2>截止时间前做双人回读</h2>
+<p>验货员负责采集事实，第二名审核人检查照片是否支持所选 Grade 和案件动作。审核人要核对订单关联、完整性、商品身份、状态、矛盾、文件格式与大小，并确认实时上传界面显示了所有预期照片。如果第二名审核人必须打电话问验货员才能看懂图片，证据仍然不够自解释。</p>
+<p>提交后重新打开案件，记录可见状态、上传文件数量、Comments、时间戳，以及平台是否要求补充信息。Prepared、Uploaded、Submitted 和最终决定是不同状态。</p>
+<h2>运营示例：耳罩破损的退回耳机</h2>
+<p>这是一个假设运营案例，不是客户结果。收货人员扫描退件并记录实时截止时间。第 1 帧连接 Return Label 与未开箱包裹；第 2 帧拍耳机、线材、收纳盒和包装；第 3 帧拍型号和序列号；第 4 帧拍整体耳机；第 5 帧用比例尺展示破损耳罩；第 6 帧证明耳机能开机并完成连接。</p>
+<p>这组证据支持两个不同事实：设备可以运行，但商品状态可能影响转售。售后 Owner 在选择动作前，把事实与实时 Grade 定义、下单时状态和出库记录比较。即使分级入口只接受照片，团队仍把连续开箱视频保存在案件文件夹。</p>
+<h2>最小可用下一步</h2>
+<p>今天把六帧拍摄清单打印或固定在退货收货工位，并增加文件命名模板和六个台账字段：Order ID、Received Time、Inspector、Frame Code、Proposed Grade、Reviewer。用五笔不同品类退货测试，把文件直接交给第二名审核人，不做口头解释。任何无法证明目标事实的镜头，先修复再考虑自动化。</p>
+<h2>来源说明</h2><p>这套 WEM 原创运营框架基于 2026 年 10 月 20 日完整重新核验的 TikTok Shop 美国站 Seller University <a href="${sources.requirements}">Requirements for Managing Returns, Refunds, and Replacements</a>（页面日期 2026 年 9 月 17 日）、<a href="${sources.evidence}">After-Sales Evidence Guide for Appeals and Disputes</a>、<a href="${sources.escalation}">Requirements for After-sales Dispute Escalations</a>，以及 <a href="${sources.policy}">Customer Order Cancellation, Return, and Refund Policy</a>。六帧顺序和命名规则属于 WEM 运营方法。时限、分级、文件限制、界面与证据要求可能变化，执行前必须核对当前美国站 Seller Center。</p>
+<h2>相关 WEM 指南</h2><section class="related-grid"><a href="/blog/tiktok-shop-return-rejection-evidence-isrr-risk?lang=zh"><strong>退货拒绝证据</strong><span>拒绝退货前，检查证据和 ISRR 风险。</span></a><a href="/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh"><strong>七天拒付证据包</strong><span>倒计时开始前，就把支付争议文件准备好。</span></a><a href="/blog/tiktok-shop-aftersales-automation-approval-rules?lang=zh"><strong>售后自动化</strong><span>定义系统可以批准什么，以及何时必须停止。</span></a></section>
+${faq(faqZh, true)}`;
+
+const graph = { '@context': 'https://schema.org', '@graph': [
+  ...[[enTitle, enDescription, 'en-US', url, `hero-${slug}-en-v1.png`, faqEn], [zhTitle, zhDescription, 'zh-CN', `${url}?lang=zh`, `hero-${slug}-zh-v1.png`, faqZh]].flatMap(([headline, description, inLanguage, page, image, items]) => [
+    { '@type': 'BlogPosting', '@id': `${page}#article`, headline, description, inLanguage, datePublished: date, dateModified: date, mainEntityOfPage: { '@id': page }, image: { '@type': 'ImageObject', url: `https://www.weglobalmarketing.com/blog/${image}` }, author: { '@type': 'Organization', name: 'WE Marketing Team' }, publisher: { '@type': 'Organization', name: 'WE Marketing' }, citation: Object.values(sources) },
+    { '@type': 'FAQPage', '@id': `${page}#faq`, inLanguage, mainEntity: items.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })) },
+  ]),
+] };
+
+const prior = await fs.readFile(path.join(base, 'blog/tiktok-shop-chargeback-seven-day-evidence-pack.html'), 'utf8');
+const style = prior.match(/<style>[^]*?<\/style>/)[0];
+const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>document.documentElement.dataset.lang=new URLSearchParams(location.search).get('lang')==='zh'?'zh':'en';document.documentElement.lang=document.documentElement.dataset.lang==='zh'?'zh-CN':'en'</script><title>${enTitle} | WE Marketing</title><meta name="description" content="${enDescription}"><link rel="canonical" href="${url}"><link rel="alternate" hreflang="en-US" href="${url}"><link rel="alternate" hreflang="zh-CN" href="${url}?lang=zh"><link rel="alternate" hreflang="x-default" href="${url}"><script type="application/ld+json">${JSON.stringify(graph)}</script>${style}<script>if(new URLSearchParams(location.search).get('lang')==='zh'){document.title=${JSON.stringify(`${zhTitle} | WE Marketing`)};document.querySelector('meta[name=description]').content=${JSON.stringify(zhDescription)};document.querySelector('link[rel=canonical]').href='${url}?lang=zh'}</script></head><body><nav class="nav"><a class="logo" href="/"><img src="/assets/we-logo.png" alt="WE Marketing"></a><span class="spacer"></span><a href="/">OUR SERVICES</a><a href="/showcase">OUR WORK</a><a href="/blog">BLOG</a><span class="switch"><a class="en" href="/blog/${slug}">EN</a><a class="zh" href="/blog/${slug}?lang=zh">中文</a></span></nav><main class="wrap"><div class="tools"><a class="en" href="/blog">← BLOG</a><a class="zh" href="/blog?lang=zh">← 博客</a></div><article lang="en">${EN}</article><article lang="zh-CN">${ZH}</article></main><section class="cta"><h2 class="en">READY TO TALK<br>TO WEM?</h2><h2 class="zh">准备好和 WEM<br>一起把计划落地吗？</h2><p class="en">Turn return evidence into a reviewable operating decision.</p><p class="zh">把退货证据变成可复核的运营决定。</p><a class="en" href="https://scheduler.zoom.us/wendylin001">BOOK A DISCOVERY CALL</a><a class="zh" href="https://scheduler.zoom.us/wendylin001">预约咨询</a></section><footer class="footer"><img src="/assets/we-logo.png" alt="WE Marketing"><p class="en">WE Marketing connects strategy, creator operations, paid growth and TikTok Shop execution.</p><p class="zh">WE Marketing 帮助品牌连接策略、达人运营、付费增长与 TikTok Shop 执行。</p><p>© 2026 WE Marketing. All rights reserved.</p></footer></body></html>`;
+await fs.writeFile(path.join(out, 'blog', `${slug}.html`), html);
+
+let list = await fs.readFile(path.join(base, 'BlogList.jsx'), 'utf8');
+const row = { slug, tags: ['tiktok-shop', 'shop-operations', 'returns'], cat: { en: 'TIKTOK SHOP U.S. · AFTERSALES OPERATIONS', zh: 'TIKTOK SHOP 美国站 · 售后运营' }, title: { en: enTitle, zh: zhTitle }, excerpt: { en: 'Use six inspection frames to make every return decision reviewable.', zh: '用六帧验货照片，让每次退货决定都可复核。' }, date: { en: 'Oct 20, 2026', zh: '2026 年 10 月 20 日' }, read: { en: '16 min read', zh: '16 分钟阅读' }, image: { en: `hero-${slug}-en-v1.png`, zh: `hero-${slug}-zh-v1.png` } };
+list = list.replace('const BLOG_POSTS = [', `const BLOG_POSTS = [${JSON.stringify(row).replace(/"([A-Za-z_$][\w$]*)":/g, '$1:')},`);
+await fs.writeFile(path.join(out, 'BlogList.jsx'), list);
+const sandbox = {}; vm.createContext(sandbox); vm.runInContext(await fs.readFile(path.join(root, '.cache/babel-standalone-7.29.0.min.js'), 'utf8'), sandbox);
+const compiled = sandbox.Babel.transform(list, { presets: [['react', { runtime: 'classic' }]], compact: true, minified: true, sourceType: 'script' }).code + '\n';
+await fs.writeFile(path.join(out, 'BlogList.compiled.js'), compiled);
+const version = sha(compiled).slice(0, 12);
+await fs.writeFile(path.join(out, 'blog.html'), (await fs.readFile(path.join(base, 'blog.html'), 'utf8')).replace(/BlogList\.compiled\.js\?v=[^"']+/, `BlogList.compiled.js?v=${version}`));
+await fs.writeFile(path.join(out, 'sitemap.xml'), (await fs.readFile(path.join(base, 'sitemap.xml'), 'utf8')).replace('</urlset>', `<url><loc>${url}</loc><lastmod>${date}</lastmod></url><url><loc>${url}?lang=zh</loc><lastmod>${date}</lastmod></url></urlset>`));
+await fs.writeFile(path.join(out, 'llms.txt'), (await fs.readFile(path.join(base, 'llms.txt'), 'utf8')) + `\n- ${enTitle}: ${url}\n  - 中文：${url}?lang=zh\n`);
+
+if (EN.includes('—') || ZH.includes('—')) throw new Error('em dash found');
+const enWords = EN.replace(/<[^>]+>/g, ' ').trim().split(/\s+/).length;
+const zhChars = ZH.replace(/<[^>]+>/g, '').replace(/\s/g, '').length;
+const files = (await fs.readdir(out, { recursive: true, withFileTypes: true })).filter(entry => entry.isFile());
+if (enWords < 1300 || zhChars < 1800 || files.length !== 17) throw new Error(`gate failed: words=${enWords}, zh=${zhChars}, files=${files.length}`);
+console.log(JSON.stringify({ slug, enWords, zhChars, files: files.length, version, out }, null, 2));
