@@ -1,0 +1,75 @@
+{
+  "deploymentId": "dpl_8KpQVaLbrQyEdtrjKqB8PeXmKkD9",
+  "files": 17,
+  "allMatch": true,
+  "rows": [
+    {
+      "file": "BlogList.compiled.js",
+      "match": true
+    },
+    {
+      "file": "BlogList.jsx",
+      "match": true
+    },
+    {
+      "file": "assets/we-logo.png",
+      "match": true
+    },
+    {
+      "file": "blog.html",
+      "match": true
+    },
+    {
+      "file": "blog/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.png",
+      "match": true
+    },
+    {
+      "file": "blog/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.png",
+      "match": true
+    },
+    {
+      "file": "blog/optimized/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/optimized/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-evidence/frames-en-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-evidence/frames-zh-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-evidence/naming-en-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-24-evidence/naming-zh-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/tiktok-shop-return-inspection-photo-evidence.html",
+      "match": true
+    },
+    {
+      "file": "llms.txt",
+      "match": true
+    },
+    {
+      "file": "sitemap.xml",
+      "match": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-20-q4-24-return-inspection-photos",
+  "patchFingerprint": "e540e5b224dba64d43543131cd23439dac0171420aa915c58a68086cf3740152",
+  "pid": 43352,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/e540e5b224dba64d4354-production.log",
+  "url": "https://wem-website-m4u4zya31-wem1.vercel.app",
+  "deploymentId": "dpl_EBGYYMMg2bg3WHLevpz4KtG7exEi",
+  "exitCode": 0,
+  "updatedAt": "2026-10-20T13:26:13Z"
+}

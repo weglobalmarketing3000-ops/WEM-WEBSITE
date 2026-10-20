@@ -1,0 +1,484 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4193",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 160820,
+      "localSha256": "28fe9ff1b7a0bd0f07fcaf90cb4c19bbb39ea7b30ac16b1cb6f112ac909cc939",
+      "remoteSha256": "28fe9ff1b7a0bd0f07fcaf90cb4c19bbb39ea7b30ac16b1cb6f112ac909cc939",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 140882,
+      "localSha256": "71bcb53f390f5e9b35a998d8003f9960e1b8826c3194420d387da43cb87ab96f",
+      "remoteSha256": "71bcb53f390f5e9b35a998d8003f9960e1b8826c3194420d387da43cb87ab96f",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "a61d3b79c141bebb3155f987023b74b9108fab41f5f55a0c258c369c4dc4ddb5",
+      "remoteSha256": "a61d3b79c141bebb3155f987023b74b9108fab41f5f55a0c258c369c4dc4ddb5",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.png": {
+      "bytes": 134514,
+      "localSha256": "0310adef5a9cb1a5849c34056677e510c1122fcef4f09d07d0c7ec92b70cc7ee",
+      "remoteSha256": "0310adef5a9cb1a5849c34056677e510c1122fcef4f09d07d0c7ec92b70cc7ee",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.png": {
+      "bytes": 130874,
+      "localSha256": "37ee6fdc6d79b8ef42ec78a20d5214da822ecf9b7171e44ab69b7b22b49201b9",
+      "remoteSha256": "37ee6fdc6d79b8ef42ec78a20d5214da822ecf9b7171e44ab69b7b22b49201b9",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg": {
+      "bytes": 85762,
+      "localSha256": "2c71e58adf6b025167f170ee00d3bc90cbab90d3fc7cc001ec5b0fe9023ec208",
+      "remoteSha256": "2c71e58adf6b025167f170ee00d3bc90cbab90d3fc7cc001ec5b0fe9023ec208",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg": {
+      "bytes": 84169,
+      "localSha256": "5f732b98db57a12a02b51301740b45671235536afc2744a830acfc7251f2ea41",
+      "remoteSha256": "5f732b98db57a12a02b51301740b45671235536afc2744a830acfc7251f2ea41",
+      "match": true
+    },
+    "blog/q4-23-evidence/pack-en-v1.svg": {
+      "bytes": 1988,
+      "localSha256": "c62ad448faf8afc06cb8734bcf1031221e6e9dbdd6ec13aec2db9c7910dfb42c",
+      "remoteSha256": "c62ad448faf8afc06cb8734bcf1031221e6e9dbdd6ec13aec2db9c7910dfb42c",
+      "match": true
+    },
+    "blog/q4-23-evidence/pack-zh-v1.svg": {
+      "bytes": 1953,
+      "localSha256": "f539b9ec6bf0d86105268501de11e855e6ce1231a53a9f0e1f72cc170809f70e",
+      "remoteSha256": "f539b9ec6bf0d86105268501de11e855e6ce1231a53a9f0e1f72cc170809f70e",
+      "match": true
+    },
+    "blog/q4-23-evidence/route-en-v1.svg": {
+      "bytes": 1304,
+      "localSha256": "95bb9f953bd3e69891436bb5f40fa23cd7fe49e4a6ae4fa4b298bab40a9f4adf",
+      "remoteSha256": "95bb9f953bd3e69891436bb5f40fa23cd7fe49e4a6ae4fa4b298bab40a9f4adf",
+      "match": true
+    },
+    "blog/q4-23-evidence/route-zh-v1.svg": {
+      "bytes": 1287,
+      "localSha256": "2d86a377b762d5662fff1cd67c8ce3bdcf8f79c884f2b43577731d22a7e9cd59",
+      "remoteSha256": "2d86a377b762d5662fff1cd67c8ce3bdcf8f79c884f2b43577731d22a7e9cd59",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg": {
+      "bytes": 33235,
+      "localSha256": "17a4ba6741d08abbf162e9f8344e1cd6863b0abe1422b8af21439810efec573d",
+      "remoteSha256": "17a4ba6741d08abbf162e9f8344e1cd6863b0abe1422b8af21439810efec573d",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg": {
+      "bytes": 31528,
+      "localSha256": "37864a8690f5bd7e5f4e81a33197155a593d55638baa9023b44839f74a21cb14",
+      "remoteSha256": "37864a8690f5bd7e5f4e81a33197155a593d55638baa9023b44839f74a21cb14",
+      "match": true
+    },
+    "blog/tiktok-shop-chargeback-seven-day-evidence-pack.html": {
+      "bytes": 29966,
+      "localSha256": "effcb3dcea3b845dde3e74d54d4ddf44336463f833bee15bdb99018e1c5882c0",
+      "remoteSha256": "effcb3dcea3b845dde3e74d54d4ddf44336463f833bee15bdb99018e1c5882c0",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 36654,
+      "localSha256": "a8f6542445a6a430414cf63549d0905d86f03dc758e444fa92b1cb5c8a2c8c92",
+      "remoteSha256": "a8f6542445a6a430414cf63549d0905d86f03dc758e444fa92b1cb5c8a2c8c92",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 50704,
+      "localSha256": "63f4064bb27e51064cdf3beda01cece4b3bbb6aaac673e6735a207dce313199a",
+      "remoteSha256": "63f4064bb27e51064cdf3beda01cece4b3bbb6aaac673e6735a207dce313199a",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 24831,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-19",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-19",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "A Seven-Day TikTok Shop Chargeback Evidence Pack",
+      "documentTitle": "A Seven-Day TikTok Shop Chargeback Evidence Pack | WE Marketing",
+      "description": "A practical seven-day evidence pack for TikTok Shop chargeback appeals.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4193/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/pack-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/route-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4193/blog/tiktok-shop-chargeback-seven-day-evidence-pack.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 拒付争议：7 天内要准备好的证据包",
+      "documentTitle": "TikTok Shop 拒付争议：7 天内要准备好的证据包 | WE Marketing",
+      "description": "用七天证据包管理 TikTok Shop 拒付争议的运营方法。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4193/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/pack-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/route-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4193/blog/tiktok-shop-chargeback-seven-day-evidence-pack.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "A Seven-Day TikTok Shop Chargeback Evidence Pack",
+      "documentTitle": "A Seven-Day TikTok Shop Chargeback Evidence Pack | WE Marketing",
+      "description": "A practical seven-day evidence pack for TikTok Shop chargeback appeals.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4193/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/pack-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/route-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4193/blog/tiktok-shop-chargeback-seven-day-evidence-pack.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 拒付争议：7 天内要准备好的证据包",
+      "documentTitle": "TikTok Shop 拒付争议：7 天内要准备好的证据包 | WE Marketing",
+      "description": "用七天证据包管理 TikTok Shop 拒付争议的运营方法。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4193/blog/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/pack-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 720,
+          "src": "http://127.0.0.1:4193/blog/q4-23-evidence/route-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4193/blog/tiktok-shop-chargeback-seven-day-evidence-pack.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-chargeback-seven-day-evidence-pack"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [],
+      "script": "http://127.0.0.1:4193/BlogList.compiled.js?v=28fe9ff1b7a0",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

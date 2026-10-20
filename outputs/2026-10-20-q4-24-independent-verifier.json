@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-10-20T13:28:44.347Z",
+  "base": "https://www.weglobalmarketing.com",
+  "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=7d8f217c6946",
+  "rows": [
+    {
+      "rank": 0,
+      "slug": "tiktok-shop-return-inspection-photo-evidence",
+      "date": "2026-10-20",
+      "actualRank": 0,
+      "enDate": "Oct 20, 2026",
+      "zhDate": "2026 年 10 月 20 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    },
+    {
+      "rank": 1,
+      "slug": "tiktok-shop-chargeback-seven-day-evidence-pack",
+      "date": "2026-10-19",
+      "actualRank": 1,
+      "enDate": "Oct 19, 2026",
+      "zhDate": "2026 年 10 月 19 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    },
+    {
+      "rank": 2,
+      "slug": "tiktok-shop-return-rejection-evidence-isrr-risk",
+      "date": "2026-10-18",
+      "actualRank": 2,
+      "enDate": "Oct 18, 2026",
+      "zhDate": "2026 年 10 月 18 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    },
+    {
+      "rank": 3,
+      "slug": "tiktok-shop-aftersales-automation-approval-rules",
+      "date": "2026-10-17",
+      "actualRank": 3,
+      "enDate": "Oct 17, 2026",
+      "zhDate": "2026 年 10 月 17 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    },
+    {
+      "rank": 4,
+      "slug": "tiktok-shop-bfcm-2026-holiday-returns-liability",
+      "date": "2026-10-16",
+      "actualRank": 4,
+      "enDate": "Oct 16, 2026",
+      "zhDate": "2026 年 10 月 16 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    },
+    {
+      "rank": 5,
+      "slug": "tiktok-shop-bfcm-fulfillment-extension-order-sla",
+      "date": "2026-10-15",
+      "actualRank": 5,
+      "enDate": "Oct 15, 2026",
+      "zhDate": "2026 年 10 月 15 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    },
+    {
+      "rank": 6,
+      "slug": "tiktok-shop-order-capacity-q4-demand-spike",
+      "date": "2026-10-14",
+      "actualRank": 6,
+      "enDate": "Oct 14, 2026",
+      "zhDate": "2026 年 10 月 14 日",
+      "dateMatch": true,
+      "sitemapEn": true,
+      "sitemapZh": true
+    }
+  ],
+  "schemas": [
+    {
+      "language": "en-US",
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-20",
+      "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-photo-evidence"
+    },
+    {
+      "language": "zh-CN",
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-20",
+      "page": "https://www.weglobalmarketing.com/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh"
+    }
+  ],
+  "checks": {
+    "rankOrder": true,
+    "dates": true,
+    "sitemap": true,
+    "schemaDate": true
+  },
+  "passed": true
+}
