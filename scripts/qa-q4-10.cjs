@@ -28,6 +28,7 @@ const configs = {
   'q4-22': { patch: '2026-10-18-q4-22-isrr-return-evidence', prefix: '2026-10-18-q4-22', slug: 'tiktok-shop-return-rejection-evidence-isrr-risk', date: '2026-10-18', enDate: 'Oct 18, 2026', zhDate: '2026 年 10 月 18 日', expectedFiles: 17, expectedImages: 3, indexRank: 2 },
   'q4-23': { patch: '2026-10-19-q4-23-chargeback-evidence', prefix: '2026-10-19-q4-23', slug: 'tiktok-shop-chargeback-seven-day-evidence-pack', date: '2026-10-19', enDate: 'Oct 19, 2026', zhDate: '2026 年 10 月 19 日', expectedFiles: 17, expectedImages: 3, indexRank: 1 },
   'q4-24': { patch: '2026-10-20-q4-24-return-inspection-photos', prefix: '2026-10-20-q4-24', slug: 'tiktok-shop-return-inspection-photo-evidence', date: '2026-10-20', enDate: 'Oct 20, 2026', zhDate: '2026 年 10 月 20 日', expectedFiles: 17, expectedImages: 3, indexRank: 0 },
+  'q4-25': { patch: '2026-10-21-q4-25-evidence-ledger', prefix: '2026-10-21-q4-25', slug: 'tiktok-shop-order-to-appeal-evidence-ledger', date: '2026-10-21', enDate: 'Oct 21, 2026', zhDate: '2026 年 10 月 21 日', expectedFiles: 17, expectedImages: 3, indexRank: 0, imageVersion: 'v2' },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];
@@ -170,10 +171,13 @@ async function waitImage(locator) {
   if (local) {
     const source = await fs.readFile(path.join(patchDir, 'BlogList.jsx'), 'utf8');
     const indexHtml = await fs.readFile(path.join(patchDir, 'blog.html'), 'utf8');
-    report.checks.index = (source.includes(`slug:'${slug}'`) || source.includes(`slug:"${slug}"`)) && (source.includes(`en:'${config.enDate}'`) || source.includes(`en:"${config.enDate}"`)) && (source.includes(`zh:'${config.zhDate}'`) || source.includes(`zh:"${config.zhDate}"`)) && source.includes(`hero-${slug}-en-v1.png`) && source.includes(`hero-${slug}-zh-v1.png`) && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(indexHtml);
+    const indexRank = config.indexRank || 0;
+    const imageVersion = config.imageVersion || 'v1';
+    report.checks.index = source.includes(slug) && source.includes(config.enDate) && source.includes(config.zhDate) && source.includes(`hero-${slug}-en-${imageVersion}.png`) && source.includes(`hero-${slug}-zh-${imageVersion}.png`) && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(indexHtml) && report.index.every((entry) => entry.cards.length > indexRank && entry.cards[indexRank].href.split('?')[0].endsWith(slug) && entry.cards[indexRank].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[indexRank].image === 880 && entry.cards[indexRank].imageSrc.includes(entry.lang === 'zh' ? `-zh-${imageVersion}` : `-en-${imageVersion}`) && !entry.overflow && entry.errors.length === 0);
   } else {
     const indexRank = config.indexRank || 0;
-    report.checks.index = report.index.every((entry) => entry.cards.length > indexRank && entry.cards[indexRank].href.split('?')[0].endsWith(slug) && entry.cards[indexRank].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[indexRank].image === 880 && entry.cards[indexRank].imageSrc.includes(entry.lang === 'zh' ? '-zh-v1' : '-en-v1') && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
+    const imageVersion = config.imageVersion || 'v1';
+    report.checks.index = report.index.every((entry) => entry.cards.length > indexRank && entry.cards[indexRank].href.split('?')[0].endsWith(slug) && entry.cards[indexRank].text.includes(entry.lang === 'zh' ? config.zhDate : config.enDate) && entry.cards[indexRank].image === 880 && entry.cards[indexRank].imageSrc.includes(entry.lang === 'zh' ? `-zh-${imageVersion}` : `-en-${imageVersion}`) && /BlogList\.compiled\.js\?v=[a-f0-9]{12}/.test(entry.script || '') && !entry.overflow && entry.errors.length === 0);
   }
   report.checks.discovery = sitemap.includes(`<loc>${articleUrl}</loc><lastmod>${config.date}</lastmod>`) && sitemap.includes(`<loc>${articleUrl}?lang=zh</loc><lastmod>${config.date}</lastmod>`) && llms.includes(articleUrl);
   report.passed = Object.values(report.checks).every(Boolean);

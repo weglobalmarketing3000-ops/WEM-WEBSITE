@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-21-q4-25-evidence-ledger",
+  "patchFingerprint": "8411902fc58b71738ed7a4e328eb4489caa9d65e26e183c17b280df89d84488f",
+  "pid": 56396,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/8411902fc58b71738ed7-preview.log",
+  "url": "https://wem-website-evw2yp3aw-wem1.vercel.app",
+  "deploymentId": "dpl_BJT3DsaXpJaBTvHGyWWxteP6of5R",
+  "exitCode": 0,
+  "updatedAt": "2026-10-21T13:32:33Z"
+}
