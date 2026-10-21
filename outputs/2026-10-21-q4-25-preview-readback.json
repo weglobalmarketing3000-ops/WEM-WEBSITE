@@ -1,0 +1,74 @@
+{
+  "deployment": "dpl_14M2HTfKtzhUhqHhLj62Ym1rtAGF",
+  "files": [
+    {
+      "file": "BlogList.compiled.js",
+      "match": true
+    },
+    {
+      "file": "BlogList.jsx",
+      "match": true
+    },
+    {
+      "file": "assets/we-logo.png",
+      "match": true
+    },
+    {
+      "file": "blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.png",
+      "match": true
+    },
+    {
+      "file": "blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.png",
+      "match": true
+    },
+    {
+      "file": "blog/optimized/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/optimized/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-25-evidence/handoff-en-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-25-evidence/handoff-zh-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-25-evidence/ledger-en-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/q4-25-evidence/ledger-zh-v1.svg",
+      "match": true
+    },
+    {
+      "file": "blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg",
+      "match": true
+    },
+    {
+      "file": "blog/tiktok-shop-order-to-appeal-evidence-ledger.html",
+      "match": true
+    },
+    {
+      "file": "blog.html",
+      "match": true
+    },
+    {
+      "file": "llms.txt",
+      "match": true
+    },
+    {
+      "file": "sitemap.xml",
+      "match": true
+    }
+  ],
+  "passed": true
+}

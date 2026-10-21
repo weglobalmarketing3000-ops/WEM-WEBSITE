@@ -1,0 +1,48 @@
+Retrieving project…
+Deploying wem1/wem-website
+Inspect: https://vercel.com/wem1/wem-website/87qqfbwQzrn2LN8dcF1WWXwKknNu [2s]
+Production: https://wem-website-bhepqo9dw-wem1.vercel.app [2s]
+Building...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 1750 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 64.7.0
+Building: Build Completed in .vercel/build-output [4s]
+Building: Deploying outputs...
+Building: Deployment completed
+Building: Creating build cache...
+Building: Skipping cache upload because no files were prepared
+[2K[1A[2K[GProduction: https://wem-website-bhepqo9dw-wem1.vercel.app [23s]
+Completing...
+Aliased: https://wem-website-wem1.vercel.app [23s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_87qqfbwQzrn2LN8dcF1WWXwKknNu",
+    "url": "https://wem-website-bhepqo9dw-wem1.vercel.app",
+    "inspectorUrl": "https://vercel.com/wem1/wem-website/87qqfbwQzrn2LN8dcF1WWXwKknNu",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_87qqfbwQzrn2LN8dcF1WWXwKknNu"
+  },
+  "message": "Deployment wem-website-bhepqo9dw-wem1.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect wem-website-bhepqo9dw-wem1.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
+npm notice
+npm notice New minor version of npm available! 11.12.1 -> 11.21.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.21.1
+npm notice To update run: npm install -g npm@11.21.1
+npm notice

@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-21T13:08:41.670Z",
+  "sources": [
+    {
+      "name": "content-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "status": 200,
+      "bytes": 225851,
+      "saved": "content-policy.html"
+    },
+    {
+      "name": "seller-terms",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1331308753078058&lang=en",
+      "status": 200,
+      "bytes": 437358,
+      "saved": "seller-terms.html"
+    },
+    {
+      "name": "fulfillment-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3995852763301633",
+      "status": 200,
+      "bytes": 267075,
+      "saved": "fulfillment-policy.html"
+    },
+    {
+      "name": "returns-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=984433248438058",
+      "status": 200,
+      "bytes": 377333,
+      "saved": "returns-policy.html"
+    },
+    {
+      "name": "chargeback-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=7989055607670570",
+      "status": 200,
+      "bytes": 110784,
+      "saved": "chargeback-policy.html"
+    },
+    {
+      "name": "seller-enforcement-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=2380042836166443",
+      "status": 200,
+      "bytes": 160355,
+      "saved": "seller-enforcement-policy.html"
+    }
+  ],
+  "passed": true
+}

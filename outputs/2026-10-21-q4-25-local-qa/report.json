@@ -1,0 +1,636 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4188",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 162510,
+      "localSha256": "39672ee725cfd503940506c69ab2fdc1fa6e78ddf264fef906654b0bb759e608",
+      "remoteSha256": "39672ee725cfd503940506c69ab2fdc1fa6e78ddf264fef906654b0bb759e608",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 142392,
+      "localSha256": "cca4731ecc14d990ee3cdfc01daf7e7b5e3c87e6cce2c2f1301934a1b9ec26e8",
+      "remoteSha256": "cca4731ecc14d990ee3cdfc01daf7e7b5e3c87e6cce2c2f1301934a1b9ec26e8",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "0944d13b7ab6d7970eca9dde1ed68c62c94eb2f85e9ecf62cf4469fb85802373",
+      "remoteSha256": "0944d13b7ab6d7970eca9dde1ed68c62c94eb2f85e9ecf62cf4469fb85802373",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.png": {
+      "bytes": 117486,
+      "localSha256": "355522b2013bd230ad7f07d2a2b67f9bab36967937816dea1e22b3ccfc55cc04",
+      "remoteSha256": "355522b2013bd230ad7f07d2a2b67f9bab36967937816dea1e22b3ccfc55cc04",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.png": {
+      "bytes": 115416,
+      "localSha256": "ef4c79e52e6077ac425be9d196515aabeb9520d0938159eebb6ef1f1279a8ab3",
+      "remoteSha256": "ef4c79e52e6077ac425be9d196515aabeb9520d0938159eebb6ef1f1279a8ab3",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg": {
+      "bytes": 74981,
+      "localSha256": "779fb5a9e711b12924c1644a080415c1f42520632f6d4fdfbd8698358040882b",
+      "remoteSha256": "779fb5a9e711b12924c1644a080415c1f42520632f6d4fdfbd8698358040882b",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg": {
+      "bytes": 71803,
+      "localSha256": "aba0ad59cc225b0553469a58399a8c9f27f8214b41142661dfef037c16cd751b",
+      "remoteSha256": "aba0ad59cc225b0553469a58399a8c9f27f8214b41142661dfef037c16cd751b",
+      "match": true
+    },
+    "blog/q4-25-evidence/handoff-en-v1.svg": {
+      "bytes": 3882,
+      "localSha256": "b89f1564eb740a4a4f3b3d2e3b6dff0c92c76abc2cabd07b09931c41ecdcdb2f",
+      "remoteSha256": "b89f1564eb740a4a4f3b3d2e3b6dff0c92c76abc2cabd07b09931c41ecdcdb2f",
+      "match": true
+    },
+    "blog/q4-25-evidence/handoff-zh-v1.svg": {
+      "bytes": 3950,
+      "localSha256": "ae0d2a314dd3e0edcf5aa5db2ef04f93c8c7020d2ccfd33d1ba3da44d581afbe",
+      "remoteSha256": "ae0d2a314dd3e0edcf5aa5db2ef04f93c8c7020d2ccfd33d1ba3da44d581afbe",
+      "match": true
+    },
+    "blog/q4-25-evidence/ledger-en-v1.svg": {
+      "bytes": 2357,
+      "localSha256": "6378cd1456b9be3e901357d631ee3eb769f4aab665ed5fd3ccb5a168dc9eabe6",
+      "remoteSha256": "6378cd1456b9be3e901357d631ee3eb769f4aab665ed5fd3ccb5a168dc9eabe6",
+      "match": true
+    },
+    "blog/q4-25-evidence/ledger-zh-v1.svg": {
+      "bytes": 2343,
+      "localSha256": "5e8ebbe786c6224344cf7d2a73880544d53044365514e4f7817f77ac778f0c92",
+      "remoteSha256": "5e8ebbe786c6224344cf7d2a73880544d53044365514e4f7817f77ac778f0c92",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg": {
+      "bytes": 29707,
+      "localSha256": "a4ff517fefb1657d1c15ff444fc16a70957d274631b11fd34a12f81519ca6e77",
+      "remoteSha256": "a4ff517fefb1657d1c15ff444fc16a70957d274631b11fd34a12f81519ca6e77",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg": {
+      "bytes": 27155,
+      "localSha256": "a3549fa7cc8d95ca953f33cc2c91ae1e8ed1a3ed93419a74706fe1b3cfd91455",
+      "remoteSha256": "a3549fa7cc8d95ca953f33cc2c91ae1e8ed1a3ed93419a74706fe1b3cfd91455",
+      "match": true
+    },
+    "blog/tiktok-shop-order-to-appeal-evidence-ledger.html": {
+      "bytes": 33501,
+      "localSha256": "0f30d819cf8b889e299b73f4b685da691f4996bb2ca4d60106d1d8a694cce95f",
+      "remoteSha256": "0f30d819cf8b889e299b73f4b685da691f4996bb2ca4d60106d1d8a694cce95f",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 37168,
+      "localSha256": "b1d580767231d47b6916316141abcabf61f4d2b3fb107a07ec0e2edabd7d4dc0",
+      "remoteSha256": "b1d580767231d47b6916316141abcabf61f4d2b3fb107a07ec0e2edabd7d4dc0",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 51254,
+      "localSha256": "cb179265c22d0a753f35effd05c445b6b7ffe93bb218722fb301c3eaf4ed5b50",
+      "remoteSha256": "cb179265c22d0a753f35effd05c445b6b7ffe93bb218722fb301c3eaf4ed5b50",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 27344,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-21",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-21",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Build One TikTok Shop Evidence Ledger From Order to Appeal",
+      "documentTitle": "Build One TikTok Shop Evidence Ledger From Order to Appeal | WE Marketing",
+      "description": "A cross-functional TikTok Shop evidence ledger connecting content, orders, fulfillment, returns, chargebacks and appeals.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/ledger-en-v1.svg"
+        },
+        {
+          "width": 1200,
+          "height": 620,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/handoff-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-order-to-appeal-evidence-ledger.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "从下单到申诉：建立一份 TikTok Shop 全链路证据台账",
+      "documentTitle": "从下单到申诉：建立一份 TikTok Shop 全链路证据台账 | WE Marketing",
+      "description": "建立贯穿内容、订单、履约、退货、拒付与申诉的 TikTok Shop 全链路证据台账。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/ledger-zh-v1.svg"
+        },
+        {
+          "width": 1200,
+          "height": 620,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/handoff-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-order-to-appeal-evidence-ledger.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "Build One TikTok Shop Evidence Ledger From Order to Appeal",
+      "documentTitle": "Build One TikTok Shop Evidence Ledger From Order to Appeal | WE Marketing",
+      "description": "A cross-functional TikTok Shop evidence ledger connecting content, orders, fulfillment, returns, chargebacks and appeals.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/ledger-en-v1.svg"
+        },
+        {
+          "width": 1200,
+          "height": 620,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/handoff-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-order-to-appeal-evidence-ledger.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "从下单到申诉：建立一份 TikTok Shop 全链路证据台账",
+      "documentTitle": "从下单到申诉：建立一份 TikTok Shop 全链路证据台账 | WE Marketing",
+      "description": "建立贯穿内容、订单、履约、退货、拒付与申诉的 TikTok Shop 全链路证据台账。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4188/blog/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/ledger-zh-v1.svg"
+        },
+        {
+          "width": 1200,
+          "height": 620,
+          "src": "http://127.0.0.1:4188/blog/q4-25-evidence/handoff-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4188/blog/tiktok-shop-order-to-appeal-evidence-ledger.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-order-to-appeal-evidence-ledger"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack",
+          "text": "Oct 19, 2026\nTIKTOK-SHOP\nPAYMENTS\nA Seven-Day TikTok Shop Chargeback Evidence Pack\n\nBuild the evidence before the chargeback clock begins.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-chargeback-seven-day-evidence-pack?lang=zh",
+          "text": "2026 年 10 月 19 日\nTIKTOK-SHOP\nPAYMENTS\nTikTok Shop 拒付争议：7 天内要准备好的证据包\n\n在拒付时钟启动前，把证据包准备好。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4188/blog/thumbs/hero-tiktok-shop-chargeback-seven-day-evidence-pack-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4188/BlogList.compiled.js?v=39672ee725cf",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
