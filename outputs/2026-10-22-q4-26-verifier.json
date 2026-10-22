@@ -1,0 +1,90 @@
+{
+  "verifiedAt": "2026-10-22T13:14:12.672Z",
+  "deploymentId": "dpl_CwPJpHBfZn5na59XDUF5emLZhxZH",
+  "readyState": "READY",
+  "ranks": {
+    "tiktok-shop-smart-promotion-performance-cost": 1,
+    "tiktok-shop-order-to-appeal-evidence-ledger": 2,
+    "tiktok-shop-return-inspection-photo-evidence": 3,
+    "tiktok-shop-chargeback-seven-day-evidence-pack": 4,
+    "tiktok-shop-return-rejection-evidence-isrr-risk": 5,
+    "tiktok-shop-aftersales-automation-approval-rules": 6,
+    "tiktok-shop-bfcm-2026-holiday-returns-liability": 7
+  },
+  "imageRequests": 98,
+  "checks": [
+    [
+      "custom domain deployment",
+      true
+    ],
+    [
+      "deployment READY",
+      true
+    ],
+    [
+      "q4-26 through q4-20 order",
+      true
+    ],
+    [
+      "all bilingual routes 200",
+      true
+    ],
+    [
+      "all BlogPosting dates",
+      true
+    ],
+    [
+      "all article images 200",
+      true
+    ],
+    [
+      "q4-26 CTA/footer",
+      true
+    ],
+    [
+      "q4-26 sitemap EN/ZH",
+      true
+    ],
+    [
+      "q4-26 llms",
+      true
+    ],
+    [
+      "article no-store",
+      true
+    ],
+    [
+      "www.weglobalmarketing.com tiktok-shop-return-inspection-six-photo-evidence",
+      true
+    ],
+    [
+      "www.weglobalmarketing.com tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+      true
+    ],
+    [
+      "www.weglobalmarketing.com tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      true
+    ],
+    [
+      "www.weglobalmarketing.com tiktok-shop-bfcm-2026-holiday-return-window-liability?lang=zh",
+      true
+    ],
+    [
+      "weglobalmarketing.com tiktok-shop-return-inspection-six-photo-evidence",
+      true
+    ],
+    [
+      "weglobalmarketing.com tiktok-shop-return-inspection-six-photo-evidence?lang=zh",
+      true
+    ],
+    [
+      "weglobalmarketing.com tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      true
+    ],
+    [
+      "weglobalmarketing.com tiktok-shop-bfcm-2026-holiday-return-window-liability?lang=zh",
+      true
+    ]
+  ],
+  "passed": true
+}

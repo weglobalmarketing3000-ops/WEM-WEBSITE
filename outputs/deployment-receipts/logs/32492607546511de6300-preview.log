@@ -1,0 +1,32 @@
+Retrieving project…
+Deploying wem1/wem-website
+Uploading [--------------------] (0.0B/1.6MB)
+Uploading [=====---------------] (424.3KB/1.6MB)
+Uploading [==========----------] (855.5KB/1.6MB)
+Uploading [===============-----] (1.2MB/1.6MB)
+Uploading [====================] (1.6MB/1.6MB)
+Inspect: https://vercel.com/wem1/wem-website/4gXErH353JZSpXagf9d4at5EsAHJ [8s]
+Preview: https://wem-website-d6hl0ma0v-wem1.vercel.app [8s]
+https://wem-website-d6hl0ma0v-wem1.vercel.appBuilding...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 1769 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 64.7.0
+Building: Build Completed in .vercel/build-output [4s]
+Building: Deploying outputs...
+Building: Deployment completed
+Building: Creating build cache...
+Building: Skipping cache upload because no files were prepared
+[2K[1A[2K[GPreview: https://wem-website-d6hl0ma0v-wem1.vercel.app [28s]
+Completing...
+To deploy to production (www.weglobalmarketing.com +1), run `vercel --prod`
+
+Common next commands:
+- `vercel inspect wem-website-d6hl0ma0v-wem1.vercel.app --logs`
+- `vercel redeploy wem-website-d6hl0ma0v-wem1.vercel.app`
+- `vercel deploy --prod`
+> Tip: Run `npx plugins add vercel/vercel-plugin` to enhance your agent experience

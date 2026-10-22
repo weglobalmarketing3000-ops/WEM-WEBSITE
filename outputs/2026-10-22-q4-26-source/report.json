@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-22T13:09:11.697Z",
+  "sources": [
+    {
+      "name": "smart-promotion-faq",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=4827354015483691&lang=en",
+      "status": 200,
+      "bytes": 261665,
+      "saved": "smart-promotion-faq.html"
+    },
+    {
+      "name": "program-performance-and-costs",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=386652959082253&lang=en",
+      "status": 200,
+      "bytes": 249702,
+      "saved": "program-performance-and-costs.html"
+    },
+    {
+      "name": "seller-spending-insights",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1898073370461966&lang=en",
+      "status": 200,
+      "bytes": 196073,
+      "saved": "seller-spending-insights.html"
+    }
+  ],
+  "passed": true
+}
