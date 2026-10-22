@@ -29,6 +29,7 @@ const configs = {
   'q4-23': { patch: '2026-10-19-q4-23-chargeback-evidence', prefix: '2026-10-19-q4-23', slug: 'tiktok-shop-chargeback-seven-day-evidence-pack', date: '2026-10-19', enDate: 'Oct 19, 2026', zhDate: '2026 年 10 月 19 日', expectedFiles: 17, expectedImages: 3, indexRank: 1 },
   'q4-24': { patch: '2026-10-20-q4-24-return-inspection-photos', prefix: '2026-10-20-q4-24', slug: 'tiktok-shop-return-inspection-photo-evidence', date: '2026-10-20', enDate: 'Oct 20, 2026', zhDate: '2026 年 10 月 20 日', expectedFiles: 17, expectedImages: 3, indexRank: 0 },
   'q4-25': { patch: '2026-10-21-q4-25-evidence-ledger', prefix: '2026-10-21-q4-25', slug: 'tiktok-shop-order-to-appeal-evidence-ledger', date: '2026-10-21', enDate: 'Oct 21, 2026', zhDate: '2026 年 10 月 21 日', expectedFiles: 17, expectedImages: 3, indexRank: 0, imageVersion: 'v2' },
+  'q4-26': { patch: '2026-10-22-q4-26-smart-promotion', prefix: '2026-10-22-q4-26', slug: 'tiktok-shop-smart-promotion-performance-cost-growth', date: '2026-10-22', enDate: 'Oct 22, 2026', zhDate: '2026 年 10 月 22 日', expectedFiles: 17, expectedImages: 3, indexRank: 0, imageVersion: 'v2' },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
 const config = configs[target];

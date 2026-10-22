@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-22-q4-26-smart-promotion",
+  "patchFingerprint": "5db766e47367196dc5bf2bc4257d2c369f04c673977a53d6312e995cb8a71531",
+  "pid": 94421,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/5db766e47367196dc5bf-preview.log",
+  "url": "https://wem-website-ihvcl063g-wem1.vercel.app",
+  "deploymentId": "dpl_7xBAdbkPQqMwPjmcFesqS7X3n8uV",
+  "exitCode": 0,
+  "updatedAt": "2026-10-22T13:17:09Z"
+}

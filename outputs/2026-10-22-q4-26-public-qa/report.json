@@ -1,0 +1,636 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 163292,
+      "localSha256": "d8d2e8bf58ee04a961c8eedb527889bf58b70134096d0ec401bc4b2cedf1fd1b",
+      "remoteSha256": "d8d2e8bf58ee04a961c8eedb527889bf58b70134096d0ec401bc4b2cedf1fd1b",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 143257,
+      "localSha256": "acd93f7a8a9e15f32f232912b28474553f576a0a29dc4e8e6a3a5e282f7b2353",
+      "remoteSha256": "acd93f7a8a9e15f32f232912b28474553f576a0a29dc4e8e6a3a5e282f7b2353",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "5289f5a79d71df3cfd13db29190e62a769f58395b2d47dbbd57ee89e544abc99",
+      "remoteSha256": "5289f5a79d71df3cfd13db29190e62a769f58395b2d47dbbd57ee89e544abc99",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.png": {
+      "bytes": 1768645,
+      "localSha256": "0275639ba8d25e335b3fb6da097cf8f8906a9e238f444616b47c825e707f5a55",
+      "remoteSha256": "0275639ba8d25e335b3fb6da097cf8f8906a9e238f444616b47c825e707f5a55",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.png": {
+      "bytes": 1770340,
+      "localSha256": "5e9debc4fa0426c18f5cc0d4fd58d933d581b014291475ac8636c9c817d2ea2e",
+      "remoteSha256": "5e9debc4fa0426c18f5cc0d4fd58d933d581b014291475ac8636c9c817d2ea2e",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg": {
+      "bytes": 151249,
+      "localSha256": "a43504023f56f030138ad328e3ed0ace1c2abd922befff65a1a7bf8187ead0ae",
+      "remoteSha256": "a43504023f56f030138ad328e3ed0ace1c2abd922befff65a1a7bf8187ead0ae",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg": {
+      "bytes": 140234,
+      "localSha256": "3f9b5c7bcdf4e1367d679d4eaf52314e64dc82e85772b32fd756e8bdaded900f",
+      "remoteSha256": "3f9b5c7bcdf4e1367d679d4eaf52314e64dc82e85772b32fd756e8bdaded900f",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/decision-loop-en-v1.svg": {
+      "bytes": 2093,
+      "localSha256": "fd993ce3449469498ff5a6f81eef995e219aa6260a6833d0bffd20dda7d28d4b",
+      "remoteSha256": "fd993ce3449469498ff5a6f81eef995e219aa6260a6833d0bffd20dda7d28d4b",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/decision-loop-zh-v1.svg": {
+      "bytes": 2049,
+      "localSha256": "fa694e4921b6dbfde218f126452a0857c06f52f1e069e9d9b277b51fec5fe053",
+      "remoteSha256": "fa694e4921b6dbfde218f126452a0857c06f52f1e069e9d9b277b51fec5fe053",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/growth-read-en-v1.svg": {
+      "bytes": 2144,
+      "localSha256": "6c65209ac3f1d585cbb729587534df35efb428d9690fc486fabfd431bfa59440",
+      "remoteSha256": "6c65209ac3f1d585cbb729587534df35efb428d9690fc486fabfd431bfa59440",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/growth-read-zh-v1.svg": {
+      "bytes": 2121,
+      "localSha256": "b2f11533cbdbc51960553c0c16921dcb01d1ce9e8f0cf48f15f30dccfa513c84",
+      "remoteSha256": "b2f11533cbdbc51960553c0c16921dcb01d1ce9e8f0cf48f15f30dccfa513c84",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg": {
+      "bytes": 55143,
+      "localSha256": "d3efaeaa6a3fd43e2fb8348eb95a4faf3e17d9d408e01a504910ac893ee5fac9",
+      "remoteSha256": "d3efaeaa6a3fd43e2fb8348eb95a4faf3e17d9d408e01a504910ac893ee5fac9",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg": {
+      "bytes": 49526,
+      "localSha256": "7ed8e42bcc904b820715a574329a08f776a069682e3758e7080d504649b91888",
+      "remoteSha256": "7ed8e42bcc904b820715a574329a08f776a069682e3758e7080d504649b91888",
+      "match": true
+    },
+    "blog/tiktok-shop-smart-promotion-performance-cost-growth.html": {
+      "bytes": 31349,
+      "localSha256": "1ac32dc605d912bfc8f43b1a9fe799c68933d2659e613f842cc1a4e3670064fa",
+      "remoteSha256": "1ac32dc605d912bfc8f43b1a9fe799c68933d2659e613f842cc1a4e3670064fa",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 37456,
+      "localSha256": "21265b32aba2a89f0908a9efacaf66dd74b0495a21e240d5193fa668a659b039",
+      "remoteSha256": "21265b32aba2a89f0908a9efacaf66dd74b0495a21e240d5193fa668a659b039",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 51544,
+      "localSha256": "eacc9a3dddd998b2741c816da983c73b9d167938d7012e519b905ff5c83458f5",
+      "remoteSha256": "eacc9a3dddd998b2741c816da983c73b9d167938d7012e519b905ff5c83458f5",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 25922,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-22",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-22",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth",
+      "documentTitle": "TikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth | WE Marketing",
+      "description": "Read TikTok Shop Smart Promotion performance, actual settlement cost and contribution before calling it growth.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/growth-read-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/decision-loop-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长",
+      "documentTitle": "TikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长 | WE Marketing",
+      "description": "用六张图记录可关联、可复核的 TikTok Shop 退货验货证据。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/growth-read-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/decision-loop-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth",
+      "documentTitle": "TikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth | WE Marketing",
+      "description": "Read TikTok Shop Smart Promotion performance, actual settlement cost and contribution before calling it growth.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/growth-read-en-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/decision-loop-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长",
+      "documentTitle": "TikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长 | WE Marketing",
+      "description": "用六张图记录可关联、可复核的 TikTok Shop 退货验货证据。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/growth-read-zh-v1.svg"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "https://www.weglobalmarketing.com/blog/q4-26-smart-promotion/decision-loop-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-smart-promotion-performance-cost-growth"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence",
+          "text": "Oct 20, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nPhotograph TikTok Shop Returns for the Decision You May Need to Defend\n\nUse six connected frames to preserve return identity, condition and decision evidence.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-return-inspection-photo-evidence?lang=zh",
+          "text": "2026 年 10 月 20 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop 退货验货怎么拍：按未来可能申诉的标准留证\n\n用六个互相关联的镜头，保留退货身份、状态与决策证据。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-return-inspection-photo-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=d8d2e8bf58ee",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

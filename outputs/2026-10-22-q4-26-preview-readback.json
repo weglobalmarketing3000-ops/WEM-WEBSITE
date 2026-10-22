@@ -1,0 +1,127 @@
+{
+  "deploymentId": "dpl_7xBAdbkPQqMwPjmcFesqS7X3n8uV",
+  "url": "https://wem-website-ihvcl063g-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 163292,
+      "localSha256": "d8d2e8bf58ee04a961c8eedb527889bf58b70134096d0ec401bc4b2cedf1fd1b",
+      "remoteSha256": "d8d2e8bf58ee04a961c8eedb527889bf58b70134096d0ec401bc4b2cedf1fd1b",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 143257,
+      "localSha256": "acd93f7a8a9e15f32f232912b28474553f576a0a29dc4e8e6a3a5e282f7b2353",
+      "remoteSha256": "acd93f7a8a9e15f32f232912b28474553f576a0a29dc4e8e6a3a5e282f7b2353",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "5289f5a79d71df3cfd13db29190e62a769f58395b2d47dbbd57ee89e544abc99",
+      "remoteSha256": "5289f5a79d71df3cfd13db29190e62a769f58395b2d47dbbd57ee89e544abc99",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.png",
+      "bytes": 1768645,
+      "localSha256": "0275639ba8d25e335b3fb6da097cf8f8906a9e238f444616b47c825e707f5a55",
+      "remoteSha256": "0275639ba8d25e335b3fb6da097cf8f8906a9e238f444616b47c825e707f5a55",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.png",
+      "bytes": 1770340,
+      "localSha256": "5e9debc4fa0426c18f5cc0d4fd58d933d581b014291475ac8636c9c817d2ea2e",
+      "remoteSha256": "5e9debc4fa0426c18f5cc0d4fd58d933d581b014291475ac8636c9c817d2ea2e",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg",
+      "bytes": 151249,
+      "localSha256": "a43504023f56f030138ad328e3ed0ace1c2abd922befff65a1a7bf8187ead0ae",
+      "remoteSha256": "a43504023f56f030138ad328e3ed0ace1c2abd922befff65a1a7bf8187ead0ae",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg",
+      "bytes": 140234,
+      "localSha256": "3f9b5c7bcdf4e1367d679d4eaf52314e64dc82e85772b32fd756e8bdaded900f",
+      "remoteSha256": "3f9b5c7bcdf4e1367d679d4eaf52314e64dc82e85772b32fd756e8bdaded900f",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/decision-loop-en-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-26-smart-promotion/decision-loop-en-v1.svg",
+      "bytes": 2093,
+      "localSha256": "fd993ce3449469498ff5a6f81eef995e219aa6260a6833d0bffd20dda7d28d4b",
+      "remoteSha256": "fd993ce3449469498ff5a6f81eef995e219aa6260a6833d0bffd20dda7d28d4b",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/decision-loop-zh-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-26-smart-promotion/decision-loop-zh-v1.svg",
+      "bytes": 2049,
+      "localSha256": "fa694e4921b6dbfde218f126452a0857c06f52f1e069e9d9b277b51fec5fe053",
+      "remoteSha256": "fa694e4921b6dbfde218f126452a0857c06f52f1e069e9d9b277b51fec5fe053",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/growth-read-en-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-26-smart-promotion/growth-read-en-v1.svg",
+      "bytes": 2144,
+      "localSha256": "6c65209ac3f1d585cbb729587534df35efb428d9690fc486fabfd431bfa59440",
+      "remoteSha256": "6c65209ac3f1d585cbb729587534df35efb428d9690fc486fabfd431bfa59440",
+      "match": true
+    },
+    "blog/q4-26-smart-promotion/growth-read-zh-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-26-smart-promotion/growth-read-zh-v1.svg",
+      "bytes": 2121,
+      "localSha256": "b2f11533cbdbc51960553c0c16921dcb01d1ce9e8f0cf48f15f30dccfa513c84",
+      "remoteSha256": "b2f11533cbdbc51960553c0c16921dcb01d1ce9e8f0cf48f15f30dccfa513c84",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg",
+      "bytes": 55143,
+      "localSha256": "d3efaeaa6a3fd43e2fb8348eb95a4faf3e17d9d408e01a504910ac893ee5fac9",
+      "remoteSha256": "d3efaeaa6a3fd43e2fb8348eb95a4faf3e17d9d408e01a504910ac893ee5fac9",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg",
+      "bytes": 49526,
+      "localSha256": "7ed8e42bcc904b820715a574329a08f776a069682e3758e7080d504649b91888",
+      "remoteSha256": "7ed8e42bcc904b820715a574329a08f776a069682e3758e7080d504649b91888",
+      "match": true
+    },
+    "blog/tiktok-shop-smart-promotion-performance-cost-growth.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-smart-promotion-performance-cost-growth.html",
+      "bytes": 31349,
+      "localSha256": "1ac32dc605d912bfc8f43b1a9fe799c68933d2659e613f842cc1a4e3670064fa",
+      "remoteSha256": "1ac32dc605d912bfc8f43b1a9fe799c68933d2659e613f842cc1a4e3670064fa",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 37456,
+      "localSha256": "21265b32aba2a89f0908a9efacaf66dd74b0495a21e240d5193fa668a659b039",
+      "remoteSha256": "21265b32aba2a89f0908a9efacaf66dd74b0495a21e240d5193fa668a659b039",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 51544,
+      "localSha256": "eacc9a3dddd998b2741c816da983c73b9d167938d7012e519b905ff5c83458f5",
+      "remoteSha256": "eacc9a3dddd998b2741c816da983c73b9d167938d7012e519b905ff5c83458f5",
+      "match": true
+    }
+  },
+  "passed": true
+}
