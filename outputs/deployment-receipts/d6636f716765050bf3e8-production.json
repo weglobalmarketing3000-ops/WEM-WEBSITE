@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-23-q4-27-better-price-rewards",
+  "patchFingerprint": "d6636f716765050bf3e8044f1f0214e458d1abfc79321ca2e29a89dca8b35dec",
+  "pid": 28405,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/d6636f716765050bf3e8-production.log",
+  "url": "https://wem-website-dgy4g70bh-wem1.vercel.app",
+  "deploymentId": "dpl_HoiNErprdS5ZpbwWjiRb4KniDVzU",
+  "exitCode": 0,
+  "updatedAt": "2026-10-23T10:25:53Z"
+}

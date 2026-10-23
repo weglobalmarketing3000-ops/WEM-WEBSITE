@@ -1,0 +1,113 @@
+{
+  "deploymentId": "dpl_Emh2BBQJMPmD6nr84vvSFjEQpuTy",
+  "url": "https://wem-website-jjng8ubnt-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 164117,
+      "localSha256": "65f847aa2b975d25ebfd696008d6067b3f707477cb51b27f369774fd0c82649c",
+      "remoteSha256": "65f847aa2b975d25ebfd696008d6067b3f707477cb51b27f369774fd0c82649c",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 144125,
+      "localSha256": "3a49fd3e33599647de82e05ecaddd4be60886b93e13bd770e5c9bd3b4af4f8cf",
+      "remoteSha256": "3a49fd3e33599647de82e05ecaddd4be60886b93e13bd770e5c9bd3b4af4f8cf",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "remotePath": "/src/ui_kits/website/assets/we-logo.png",
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "7e9f63d09021816a4b3984a40335112828b313f9bcda29dcdc8b0cf953dbb2bb",
+      "remoteSha256": "7e9f63d09021816a4b3984a40335112828b313f9bcda29dcdc8b0cf953dbb2bb",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.png",
+      "bytes": 1666543,
+      "localSha256": "6af37b0e5efe78cd3ee52a2f622b65fa0416eb901a5b41fe710b288d29708cf8",
+      "remoteSha256": "6af37b0e5efe78cd3ee52a2f622b65fa0416eb901a5b41fe710b288d29708cf8",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.png": {
+      "remotePath": "/src/ui_kits/website/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.png",
+      "bytes": 1668966,
+      "localSha256": "6f4f1972ac8c0c1359e81c0b37a83955e3dc4ce7350d81a528cce0b4aeb4bb78",
+      "remoteSha256": "6f4f1972ac8c0c1359e81c0b37a83955e3dc4ce7350d81a528cce0b4aeb4bb78",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg",
+      "bytes": 128129,
+      "localSha256": "715fc142211d3f0de8da8c361e1fe04f1cb44612fab4c9bb6aee9fa5b633f264",
+      "remoteSha256": "715fc142211d3f0de8da8c361e1fe04f1cb44612fab4c9bb6aee9fa5b633f264",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/optimized/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg",
+      "bytes": 120215,
+      "localSha256": "5f3f002f738b2dcf7698d55529e24192e0419b5eed60c8555a27fd9fe8db468f",
+      "remoteSha256": "5f3f002f738b2dcf7698d55529e24192e0419b5eed60c8555a27fd9fe8db468f",
+      "match": true
+    },
+    "blog/q4-27-better-price-rewards/sku-check-en-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-27-better-price-rewards/sku-check-en-v1.svg",
+      "bytes": 2097,
+      "localSha256": "efe15454b9c041d0689b02820ac4f5b86ccacfbb55997a569bcb71b6ef109fd4",
+      "remoteSha256": "efe15454b9c041d0689b02820ac4f5b86ccacfbb55997a569bcb71b6ef109fd4",
+      "match": true
+    },
+    "blog/q4-27-better-price-rewards/sku-check-zh-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/q4-27-better-price-rewards/sku-check-zh-v1.svg",
+      "bytes": 2093,
+      "localSha256": "dc29162a0225335f130b1843094537c487515eedea15afbc53f47ba36df5c0a7",
+      "remoteSha256": "dc29162a0225335f130b1843094537c487515eedea15afbc53f47ba36df5c0a7",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg",
+      "bytes": 46391,
+      "localSha256": "83198ab8c585a01da212117b42f623c96cff4d77712045394451b51411ef4f87",
+      "remoteSha256": "83198ab8c585a01da212117b42f623c96cff4d77712045394451b51411ef4f87",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg": {
+      "remotePath": "/src/ui_kits/website/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg",
+      "bytes": 41929,
+      "localSha256": "c579e98ed650ab059f0ffcd1cbf709dfba23efdd7357bcb4d0397a4f930cbb2d",
+      "remoteSha256": "c579e98ed650ab059f0ffcd1cbf709dfba23efdd7357bcb4d0397a4f930cbb2d",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html",
+      "bytes": 29938,
+      "localSha256": "b7d1ce47ed164e8c33cd4a33ea053a28d32ca1b8e5ad66227a5d2b9a35a1225c",
+      "remoteSha256": "b7d1ce47ed164e8c33cd4a33ea053a28d32ca1b8e5ad66227a5d2b9a35a1225c",
+      "match": true
+    },
+    "llms.txt": {
+      "remotePath": "/src/ui_kits/website/llms.txt",
+      "bytes": 37762,
+      "localSha256": "3c33eb4d9f92ec807f73b8af541b08929e5789685705b40660c4dff702edb267",
+      "remoteSha256": "3c33eb4d9f92ec807f73b8af541b08929e5789685705b40660c4dff702edb267",
+      "match": true
+    },
+    "sitemap.xml": {
+      "remotePath": "/src/ui_kits/website/sitemap.xml",
+      "bytes": 51846,
+      "localSha256": "071e74860d47c0e3180ff6462dfb37af26368f1f36132d9f59dd2d1f68cb9270",
+      "remoteSha256": "071e74860d47c0e3180ff6462dfb37af26368f1f36132d9f59dd2d1f68cb9270",
+      "match": true
+    }
+  },
+  "passed": true
+}

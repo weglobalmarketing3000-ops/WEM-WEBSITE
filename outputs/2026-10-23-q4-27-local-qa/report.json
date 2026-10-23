@@ -1,0 +1,604 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:8878",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 164117,
+      "localSha256": "65f847aa2b975d25ebfd696008d6067b3f707477cb51b27f369774fd0c82649c",
+      "remoteSha256": "65f847aa2b975d25ebfd696008d6067b3f707477cb51b27f369774fd0c82649c",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 144125,
+      "localSha256": "3a49fd3e33599647de82e05ecaddd4be60886b93e13bd770e5c9bd3b4af4f8cf",
+      "remoteSha256": "3a49fd3e33599647de82e05ecaddd4be60886b93e13bd770e5c9bd3b4af4f8cf",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "7e9f63d09021816a4b3984a40335112828b313f9bcda29dcdc8b0cf953dbb2bb",
+      "remoteSha256": "7e9f63d09021816a4b3984a40335112828b313f9bcda29dcdc8b0cf953dbb2bb",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.png": {
+      "bytes": 1666543,
+      "localSha256": "6af37b0e5efe78cd3ee52a2f622b65fa0416eb901a5b41fe710b288d29708cf8",
+      "remoteSha256": "6af37b0e5efe78cd3ee52a2f622b65fa0416eb901a5b41fe710b288d29708cf8",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.png": {
+      "bytes": 1668966,
+      "localSha256": "6f4f1972ac8c0c1359e81c0b37a83955e3dc4ce7350d81a528cce0b4aeb4bb78",
+      "remoteSha256": "6f4f1972ac8c0c1359e81c0b37a83955e3dc4ce7350d81a528cce0b4aeb4bb78",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg": {
+      "bytes": 128129,
+      "localSha256": "715fc142211d3f0de8da8c361e1fe04f1cb44612fab4c9bb6aee9fa5b633f264",
+      "remoteSha256": "715fc142211d3f0de8da8c361e1fe04f1cb44612fab4c9bb6aee9fa5b633f264",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg": {
+      "bytes": 120215,
+      "localSha256": "5f3f002f738b2dcf7698d55529e24192e0419b5eed60c8555a27fd9fe8db468f",
+      "remoteSha256": "5f3f002f738b2dcf7698d55529e24192e0419b5eed60c8555a27fd9fe8db468f",
+      "match": true
+    },
+    "blog/q4-27-better-price-rewards/sku-check-en-v1.svg": {
+      "bytes": 2097,
+      "localSha256": "efe15454b9c041d0689b02820ac4f5b86ccacfbb55997a569bcb71b6ef109fd4",
+      "remoteSha256": "efe15454b9c041d0689b02820ac4f5b86ccacfbb55997a569bcb71b6ef109fd4",
+      "match": true
+    },
+    "blog/q4-27-better-price-rewards/sku-check-zh-v1.svg": {
+      "bytes": 2093,
+      "localSha256": "dc29162a0225335f130b1843094537c487515eedea15afbc53f47ba36df5c0a7",
+      "remoteSha256": "dc29162a0225335f130b1843094537c487515eedea15afbc53f47ba36df5c0a7",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg": {
+      "bytes": 46391,
+      "localSha256": "83198ab8c585a01da212117b42f623c96cff4d77712045394451b51411ef4f87",
+      "remoteSha256": "83198ab8c585a01da212117b42f623c96cff4d77712045394451b51411ef4f87",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg": {
+      "bytes": 41929,
+      "localSha256": "c579e98ed650ab059f0ffcd1cbf709dfba23efdd7357bcb4d0397a4f930cbb2d",
+      "remoteSha256": "c579e98ed650ab059f0ffcd1cbf709dfba23efdd7357bcb4d0397a4f930cbb2d",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html": {
+      "bytes": 29938,
+      "localSha256": "b7d1ce47ed164e8c33cd4a33ea053a28d32ca1b8e5ad66227a5d2b9a35a1225c",
+      "remoteSha256": "b7d1ce47ed164e8c33cd4a33ea053a28d32ca1b8e5ad66227a5d2b9a35a1225c",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 37762,
+      "localSha256": "3c33eb4d9f92ec807f73b8af541b08929e5789685705b40660c4dff702edb267",
+      "remoteSha256": "3c33eb4d9f92ec807f73b8af541b08929e5789685705b40660c4dff702edb267",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 51846,
+      "localSha256": "071e74860d47c0e3180ff6462dfb37af26368f1f36132d9f59dd2d1f68cb9270",
+      "remoteSha256": "071e74860d47c0e3180ff6462dfb37af26368f1f36132d9f59dd2d1f68cb9270",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 24797,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-23",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-23",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees",
+      "documentTitle": "TikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees | WE Marketing",
+      "description": "Model TikTok Shop BFCM Better Price Rewards after margin, returns and fees, then choose the SKU tier that can hold contribution.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8878/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:8878/blog/q4-27-better-price-rewards/sku-check-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:8878/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算",
+      "documentTitle": "TikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算 | WE Marketing",
+      "description": "TikTok Shop BFCM Better Price Rewards 先把毛利、退货、费用和单 SKU 贡献算清，再决定报名价格层级。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8878/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:8878/blog/q4-27-better-price-rewards/sku-check-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:8878/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees",
+      "documentTitle": "TikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees | WE Marketing",
+      "description": "Model TikTok Shop BFCM Better Price Rewards after margin, returns and fees, then choose the SKU tier that can hold contribution.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8878/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:8878/blog/q4-27-better-price-rewards/sku-check-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:8878/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算",
+      "documentTitle": "TikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算 | WE Marketing",
+      "description": "TikTok Shop BFCM Better Price Rewards 先把毛利、退货、费用和单 SKU 贡献算清，再决定报名价格层级。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:8878/blog/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.png"
+        },
+        {
+          "width": 1300,
+          "height": 590,
+          "src": "http://127.0.0.1:8878/blog/q4-27-better-price-rewards/sku-check-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:8878/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger",
+          "text": "Oct 21, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nBuild One TikTok Shop Evidence Ledger From Order to Appeal\n\nMake every order handoff, decision and appeal evidence readable.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-en-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-to-appeal-evidence-ledger?lang=zh",
+          "text": "2026 年 10 月 21 日\nTIKTOK-SHOP\n店铺运营\n从下单到申诉：建立一份 TikTok Shop 全链路证据台账\n\n让每次订单交接、决策与申诉都能被读回。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:8878/blog/thumbs/hero-tiktok-shop-order-to-appeal-evidence-ledger-zh-v2.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:8878/BlogList.compiled.js?v=65f847aa2b97",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
