@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-23-q4-27-better-price-rewards-repair",
+  "patchFingerprint": "dc4ec8feb0b3e6322166b5ad91fce2aad111d84f031bba6f4bab7ed23e57b8f1",
+  "pid": 73047,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/dc4ec8feb0b3e6322166-preview.log",
+  "url": "https://wem-website-gey3jhcox-wem1.vercel.app",
+  "deploymentId": "dpl_7UAN1eLNUsT6mKX6pDzD2yxTBFMj",
+  "exitCode": 0,
+  "updatedAt": "2026-10-23T13:07:41Z"
+}
