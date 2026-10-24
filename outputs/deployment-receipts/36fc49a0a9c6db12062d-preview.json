@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-24-q4-28-virtual-bundles",
+  "patchFingerprint": "36fc49a0a9c6db12062d775647a6b8f2d1633a6579f383cef3f6209ff58a4019",
+  "pid": 10714,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/36fc49a0a9c6db12062d-preview.log",
+  "url": "https://wem-website-2qqc5ctjw-wem1.vercel.app",
+  "deploymentId": "dpl_FpgT8EpDrLPP71btWeAjnVvTr77b",
+  "exitCode": 0,
+  "updatedAt": "2026-10-24T13:10:29Z"
+}

@@ -1,0 +1,72 @@
+{
+  "verifiedAt": "2026-10-24T13:12:06.771Z",
+  "deploymentId": "dpl_FkwvoCErts5Vaga6Hc3gpDS5Qguh",
+  "readyState": "READY",
+  "ranks": {
+    "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns": 1,
+    "tiktok-shop-bfcm-better-price-rewards-margin-returns-fees": 2,
+    "tiktok-shop-smart-promotion-performance-cost-growth": 3,
+    "tiktok-shop-order-to-appeal-evidence-ledger": 4,
+    "tiktok-shop-return-inspection-photo-evidence": 5,
+    "tiktok-shop-chargeback-seven-day-evidence-pack": 6,
+    "tiktok-shop-return-rejection-evidence-isrr-risk": 7,
+    "tiktok-shop-aftersales-automation-approval-rules": 8,
+    "tiktok-shop-bfcm-2026-holiday-returns-liability": 9
+  },
+  "imageRequests": 28,
+  "checks": [
+    [
+      "custom domain deployment",
+      true
+    ],
+    [
+      "deployment READY",
+      true
+    ],
+    [
+      "q4-28 through q4-20 order",
+      true
+    ],
+    [
+      "all bilingual routes 200",
+      true
+    ],
+    [
+      "all BlogPosting dates",
+      true
+    ],
+    [
+      "q4-28 and q4-27 images 200",
+      true
+    ],
+    [
+      "q4-28 localized body visuals",
+      true
+    ],
+    [
+      "q4-27 repaired second visuals",
+      true
+    ],
+    [
+      "q4-28 CTA/footer",
+      true
+    ],
+    [
+      "q4-28 sitemap EN/ZH",
+      true
+    ],
+    [
+      "q4-28 llms",
+      true
+    ],
+    [
+      "article no-store",
+      true
+    ],
+    [
+      "legacy redirects both domains",
+      true
+    ]
+  ],
+  "passed": true
+}

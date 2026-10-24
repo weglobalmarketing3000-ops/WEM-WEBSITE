@@ -38,6 +38,7 @@ const configs = {
   'q4-25': { patch: '2026-10-21-q4-25-evidence-ledger', prefix: '2026-10-21-q4-25', slug: 'tiktok-shop-order-to-appeal-evidence-ledger', date: '2026-10-21', enDate: 'Oct 21, 2026', zhDate: '2026 年 10 月 21 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-26': { patch: '2026-10-22-q4-26-smart-promotion', prefix: '2026-10-22-q4-26', slug: 'tiktok-shop-smart-promotion-performance-cost', date: '2026-10-22', enDate: 'Oct 22, 2026', zhDate: '2026 年 10 月 22 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-27-current': { patch: '2026-10-23-q4-27-better-price-rewards-repair', prefix: '2026-10-23-q4-27-current', slug: 'tiktok-shop-bfcm-better-price-rewards-margin-returns-fees', date: '2026-10-23', enDate: 'Oct 23, 2026', zhDate: '2026 年 10 月 23 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
+  'q4-28-current': { patch: '2026-10-24-q4-28-virtual-bundles', prefix: '2026-10-24-q4-28-current', slug: 'tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns', date: '2026-10-24', enDate: 'Oct 24, 2026', zhDate: '2026 年 10 月 24 日', expectedFiles: 20, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);

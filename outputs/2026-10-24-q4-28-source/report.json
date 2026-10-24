@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-24T13:04:07.383Z",
+  "sources": [
+    {
+      "name": "virtual-bundles",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=894944353240878&lang=en",
+      "status": 200,
+      "bytes": 692389,
+      "saved": "virtual-bundles.html"
+    },
+    {
+      "name": "aigc-product-images",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5892224899909383&lang=en",
+      "status": 200,
+      "bytes": 119064,
+      "saved": "aigc-product-images.html"
+    },
+    {
+      "name": "returns-refunds",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634&lang=en",
+      "status": 200,
+      "bytes": 994007,
+      "saved": "returns-refunds.html"
+    }
+  ],
+  "passed": true
+}
