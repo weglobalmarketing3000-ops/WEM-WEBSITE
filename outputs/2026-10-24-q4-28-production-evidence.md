@@ -1,0 +1,23 @@
+# q4-28 production evidence — 2026-10-24 PT
+
+- Topic: TikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story
+- English: https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns
+- Chinese: https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh
+- Original approved publication date: `2026-10-24`
+- Final target-only patch: `outputs/patches/2026-10-24-q4-28-virtual-bundles`
+- Patch fingerprint: `1f8d51b5884627840ef54b6057e1b696332b62e838b7f764f3e77f3fbb89a6ef`
+- Build depth: 1,378 English words; 2,127 Chinese characters; six FAQs per language
+- Visual preview acceptance: final EN/ZH covers and 880 x 440 thumbnails were compared with Articles 1–3. They retain the approved headline, official WEM logo, warm-white/lavender palette and one cohesive soft-3D operating scene. The first diagrammatic cover was rejected and is not deployed.
+- English cover SHA-256: `57e7139f003608beb080b019440e36d8fcecca6711eeda59630c9539ce6af0aa`
+- Chinese cover SHA-256: `03cfaccffb715eec409891f8b843b4ccce23593e6c2648630576920cf498935d`
+- Local QA: `outputs/2026-10-24-q4-28-local-qa/report.json`, hashes/schema/render/index/discovery all true after final cover and article rebuild
+- Immutable preview: `dpl_7oUMsnf2Mjvy9wn3QegjEPCzUBab` / `https://wem-website-la6i8vpd8-wem1.vercel.app`; authenticated API readback matched the exact 15/15 target files
+- Production was reconstructed from the newer current baseline `dpl_FkwvoCErts5Vaga6Hc3gpDS5Qguh`, preserving its authorized changes before applying q4-28
+- Final production: `dpl_8npJwnWq3GMzwpVbEBCbfkMytuqm` / `https://wem-website-ei72b49mi-wem1.vercel.app`
+- Production receipt: `outputs/deployment-receipts/1f8d51b5884627840ef5-production.json`, `succeeded / production_health_complete / exit 0`
+- Production exact readback: `outputs/2026-10-24-q4-28-production-readback.json`, 15/15 matched
+- Domain readback: both `www.weglobalmarketing.com` and `weglobalmarketing.com` resolve to `dpl_8npJwnWq3GMzwpVbEBCbfkMytuqm`
+- Anonymous public QA: `outputs/2026-10-24-q4-28-public-qa/report.json`, hashes/schema/render/index/discovery all true
+- Public visual acceptance: EN/ZH desktop and 390 x 844 mobile render the localized cover, body visual, source notes, three related guides, six FAQs, CTA and footer with no errors or overflow
+- Fresh and warm EN/ZH index checks show q4-28 at rank 1 with visible date `Oct 24, 2026` / `2026 年 10 月 24 日` and the localized v1 thumbnail
+- Independent verifier: 5/5 passed; rank 1 slug/date, both `BlogPosting.datePublished` values and sitemap `lastmod` all equal `2026-10-24`

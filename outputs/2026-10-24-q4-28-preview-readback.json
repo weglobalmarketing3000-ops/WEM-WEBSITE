@@ -1,0 +1,12 @@
+{
+  "deploymentId": "dpl_7oUMsnf2Mjvy9wn3QegjEPCzUBab",
+  "url": "https://wem-website-la6i8vpd8-wem1.vercel.app",
+  "patchFingerprint": "1f8d51b5884627840ef54b6057e1b696332b62e838b7f764f3e77f3fbb89a6ef",
+  "files": 15,
+  "matched": 15,
+  "allMatch": true,
+  "coverHashes": {
+    "en": "57e7139f003608beb080b019440e36d8fcecca6711eeda59630c9539ce6af0aa",
+    "zh": "03cfaccffb715eec409891f8b843b4ccce23593e6c2648630576920cf498935d"
+  }
+}

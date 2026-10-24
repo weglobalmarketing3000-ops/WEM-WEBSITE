@@ -1,0 +1,604 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 164938,
+      "localSha256": "4102b0892e0037077e685066de25c1ed1fd850d7f1c955302cdea11858a2b455",
+      "remoteSha256": "4102b0892e0037077e685066de25c1ed1fd850d7f1c955302cdea11858a2b455",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 144986,
+      "localSha256": "1c996058a15dde01df9c76d4bd359dce2d0684462a23feb72a7a9e6abe10d819",
+      "remoteSha256": "1c996058a15dde01df9c76d4bd359dce2d0684462a23feb72a7a9e6abe10d819",
+      "match": true
+    },
+    "assets/we-logo.png": {
+      "bytes": 28617,
+      "localSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "remoteSha256": "a4c2f8b8ed8bdd4d0751f9a28245b63e0603d3705ee1ffa959a0803269673394",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "1f358bccfcaa9cb15f039a18507abe65bdfa5ed5410285a916e753ee7969e5e4",
+      "remoteSha256": "1f358bccfcaa9cb15f039a18507abe65bdfa5ed5410285a916e753ee7969e5e4",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.png": {
+      "bytes": 1784853,
+      "localSha256": "57e7139f003608beb080b019440e36d8fcecca6711eeda59630c9539ce6af0aa",
+      "remoteSha256": "57e7139f003608beb080b019440e36d8fcecca6711eeda59630c9539ce6af0aa",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.png": {
+      "bytes": 1785093,
+      "localSha256": "03cfaccffb715eec409891f8b843b4ccce23593e6c2648630576920cf498935d",
+      "remoteSha256": "03cfaccffb715eec409891f8b843b4ccce23593e6c2648630576920cf498935d",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.jpg": {
+      "bytes": 137784,
+      "localSha256": "7453ce9496abb2cc3e48cb37c69f8c879eaeddf838fc14cd015a3a1b95f744fe",
+      "remoteSha256": "7453ce9496abb2cc3e48cb37c69f8c879eaeddf838fc14cd015a3a1b95f744fe",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.jpg": {
+      "bytes": 136327,
+      "localSha256": "f6a81ee2d523e9c156b1c3940229b48fd79c2cbdf07ce7d7d76b053cf4decf0e",
+      "remoteSha256": "f6a81ee2d523e9c156b1c3940229b48fd79c2cbdf07ce7d7d76b053cf4decf0e",
+      "match": true
+    },
+    "blog/q4-28-virtual-bundles/fact-chain-en-v1.svg": {
+      "bytes": 1361,
+      "localSha256": "437d906217d231437f847b90ed669089aa27301617d531720e4e91692b5fe1a6",
+      "remoteSha256": "437d906217d231437f847b90ed669089aa27301617d531720e4e91692b5fe1a6",
+      "match": true
+    },
+    "blog/q4-28-virtual-bundles/fact-chain-zh-v1.svg": {
+      "bytes": 1358,
+      "localSha256": "25eb17f17e09b0d25419658db9360f38e05a5fb8c0227f204b8a1d25597911c0",
+      "remoteSha256": "25eb17f17e09b0d25419658db9360f38e05a5fb8c0227f204b8a1d25597911c0",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.jpg": {
+      "bytes": 50191,
+      "localSha256": "f1767a3087b3e0d5c84e8cc3a75c0afd06d14a8d8bf45a413f6877ac8fbf08e9",
+      "remoteSha256": "f1767a3087b3e0d5c84e8cc3a75c0afd06d14a8d8bf45a413f6877ac8fbf08e9",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.jpg": {
+      "bytes": 49523,
+      "localSha256": "258f767b76ac0f945736484fdc792801602ef0a244881dfeae9498c26fcd1f91",
+      "remoteSha256": "258f767b76ac0f945736484fdc792801602ef0a244881dfeae9498c26fcd1f91",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns.html": {
+      "bytes": 30320,
+      "localSha256": "fc5f1788e1d68fc5014d2cb37d8525b0e0502d6a8ae18b41ef61ded7f3ae7d29",
+      "remoteSha256": "fc5f1788e1d68fc5014d2cb37d8525b0e0502d6a8ae18b41ef61ded7f3ae7d29",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 38061,
+      "localSha256": "83868ad54efd29410856be897df5ee098fb629c8e94c0f586d1e139998fcfcfb",
+      "remoteSha256": "83868ad54efd29410856be897df5ee098fb629c8e94c0f586d1e139998fcfcfb",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 52134,
+      "localSha256": "376ab6104cca60c0dd38d29a53d1c33cd674ad401ccae52938eafcef755bd49d",
+      "remoteSha256": "376ab6104cca60c0dd38d29a53d1c33cd674ad401ccae52938eafcef755bd49d",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 24785,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-24",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-24",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story",
+      "documentTitle": "TikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story | WE Marketing",
+      "description": "Make TikTok Shop BFCM Virtual Bundles operationally true across offer, inventory, fulfillment and returns.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/q4-28-virtual-bundles/fact-chain-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实",
+      "documentTitle": "TikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实 | WE Marketing",
+      "description": "TikTok Shop BFCM Better Price Rewards 先把毛利、退货、费用和单 SKU 贡献算清，再决定报名价格层级。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/q4-28-virtual-bundles/fact-chain-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story",
+      "documentTitle": "TikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story | WE Marketing",
+      "description": "Make TikTok Shop BFCM Virtual Bundles operationally true across offer, inventory, fulfillment and returns.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/q4-28-virtual-bundles/fact-chain-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实",
+      "documentTitle": "TikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实 | WE Marketing",
+      "description": "TikTok Shop BFCM Better Price Rewards 先把毛利、退货、费用和单 SKU 贡献算清，再决定报名价格层级。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/q4-28-virtual-bundles/fact-chain-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+          "text": "Oct 24, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story\n\nMake the BFCM bundle offer, component inventory, fulfillment and returns tell one story.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+          "text": "Oct 24, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story\n\nMake the BFCM bundle offer, component inventory, fulfillment and returns tell one story.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+          "text": "2026 年 10 月 24 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实\n\n让 BFCM 套装的优惠、组件库存、履约和退货说同一套事实。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+          "text": "2026 年 10 月 24 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实\n\n让 BFCM 套装的优惠、组件库存、履约和退货说同一套事实。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+          "text": "Oct 24, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story\n\nMake the BFCM bundle offer, component inventory, fulfillment and returns tell one story.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+          "text": "Oct 24, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop Virtual Bundles for BFCM: Keep the Offer, Inventory and Returns Telling One Story\n\nMake the BFCM bundle offer, component inventory, fulfillment and returns tell one story.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees",
+          "text": "Oct 23, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards: Model the Reward After Margin, Returns and Fees\n\nModel margin, returns and fees before you select a Better Price Rewards tier.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+          "text": "Oct 22, 2026\nTIKTOK-SHOP\nSHOP OPERATIONS\nTikTok Shop Smart Promotion: Read Performance and Cost Before You Call It Growth\n\nReconcile attributed performance to actual cost and contribution before calling it growth.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-en-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+          "text": "2026 年 10 月 24 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实\n\n让 BFCM 套装的优惠、组件库存、履约和退货说同一套事实。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns?lang=zh",
+          "text": "2026 年 10 月 24 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 虚拟组合装：优惠、库存和退货必须是同一套事实\n\n让 BFCM 套装的优惠、组件库存、履约和退货说同一套事实。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-better-price-rewards-margin-returns-fees?lang=zh",
+          "text": "2026 年 10 月 23 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Better Price Rewards：奖励要放进毛利、退货和费用后再算\n\n先把毛利、退货和费用算完，再选择 Better Price Rewards 层级。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-better-price-rewards-margin-returns-fees-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-smart-promotion-performance-cost-growth?lang=zh",
+          "text": "2026 年 10 月 22 日\nTIKTOK-SHOP\n店铺运营\nTikTok Shop Smart Promotion 怎么看：先读效果和成本，再判断是不是增长\n\n先把归因表现与实际成本、贡献对齐，再判断是不是增长。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-smart-promotion-performance-cost-growth-zh-v2.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=4102b0892e00",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
