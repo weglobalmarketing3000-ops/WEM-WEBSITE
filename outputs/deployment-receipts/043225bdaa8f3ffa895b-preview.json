@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-25-q4-29-current-repair",
+  "patchFingerprint": "043225bdaa8f3ffa895b3f0edea6f6a110148ae50c2eb893447d142fb2c16e64",
+  "pid": 54670,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/043225bdaa8f3ffa895b-preview.log",
+  "url": "https://wem-website-6r0x54xp9-wem1.vercel.app",
+  "deploymentId": "dpl_6FPrCCm6L54JpRj2hdE2GPxhycKB",
+  "exitCode": 0,
+  "updatedAt": "2026-10-25T13:08:58Z"
+}

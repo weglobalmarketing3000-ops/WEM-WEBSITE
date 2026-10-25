@@ -1,0 +1,23 @@
+{
+  "fetchedAt": "2026-10-25T13:04:58.889Z",
+  "sources": [
+    {
+      "name": "tiktok-shipping-protection.html",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=1043867350730510&lang=en",
+      "status": 200,
+      "bytes": 200557
+    },
+    {
+      "name": "seller-shipping-protection.html",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3569596666382098&lang=en",
+      "status": 200,
+      "bytes": 217966
+    },
+    {
+      "name": "tiktok-shipping-orders.html",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=2334828973737741&lang=en",
+      "status": 200,
+      "bytes": 279404
+    }
+  ]
+}

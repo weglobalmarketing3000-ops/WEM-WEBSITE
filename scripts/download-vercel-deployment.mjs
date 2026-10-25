@@ -26,7 +26,10 @@ if (includeDirectory) {
     for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
       const absolute = path.join(directory, entry.name);
       if (entry.isDirectory()) await collect(absolute);
-      else wanted.add(path.relative(includeDirectory, absolute).split(path.sep).join('/'));
+      else {
+        const relative = path.relative(includeDirectory, absolute).split(path.sep).join('/');
+        if (relative !== '.wem-delete-paths') wanted.add(relative);
+      }
     }
   }
   await collect(includeDirectory);

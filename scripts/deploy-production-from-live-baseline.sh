@@ -220,9 +220,33 @@ if (( ${#batch_pids[@]} > 0 )); then
 fi
 fi
 
-rsync -a --exclude '.DS_Store' "$patch_dir/" "$snapshot/ui_kits/website/.vercel/output/static/"
+rsync -a --exclude '.DS_Store' --exclude '.wem-delete-paths' "$patch_dir/" "$snapshot/ui_kits/website/.vercel/output/static/"
+
+# A fingerprinted patch may retire an exact static route so Vercel can apply a
+# permanent redirect for that path. The manifest is never published, paths must
+# be normalized relatives, and deletion stays inside the temporary snapshot.
+delete_manifest="$patch_dir/.wem-delete-paths"
+if [[ -f "$delete_manifest" ]]; then
+  while IFS= read -r delete_relative || [[ -n "$delete_relative" ]]; do
+    [[ -z "$delete_relative" || "$delete_relative" == \#* ]] && continue
+    [[ "$delete_relative" != /* && "$delete_relative" != *".."* ]] || {
+      echo "Refusing unsafe deletion path: $delete_relative" >&2
+      exit 1
+    }
+    delete_target="$snapshot/ui_kits/website/.vercel/output/static/$delete_relative"
+    [[ -f "$delete_target" ]] || {
+      echo "Refusing deletion because the baseline file is missing: $delete_relative" >&2
+      exit 1
+    }
+    rm -f -- "$delete_target"
+  done < "$delete_manifest"
+fi
 rsync -a "$snapshot/ui_kits/website/.vercel/output/static/" "$snapshot/ui_kits/website/"
-cp "$vercel_config" "$snapshot/ui_kits/website/vercel.json"
+if [[ -f "$patch_dir/vercel.json" ]]; then
+  cp "$patch_dir/vercel.json" "$snapshot/ui_kits/website/vercel.json"
+else
+  cp "$vercel_config" "$snapshot/ui_kits/website/vercel.json"
+fi
 rm -f "$snapshot/files.json" "$snapshot/file-map.tsv"
 
 for required_static_file in index.html robots.txt sitemap.xml llms.txt blog.html; do

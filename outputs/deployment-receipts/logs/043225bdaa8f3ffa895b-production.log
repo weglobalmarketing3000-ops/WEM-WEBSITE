@@ -1,0 +1,40 @@
+Retrieving project…
+Deploying wem1/wem-website
+Inspect: https://vercel.com/wem1/wem-website/8vmgz4qMmzvhpRW2L11KUtZVRYdi [2s]
+Production: https://wem-website-6vdzjwvto-wem1.vercel.app [2s]
+Building...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 1810 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 65.1.0
+Building: Build Completed in /vercel/output [3s]
+Building: Deploying outputs...
+[2K[1A[2K[GProduction: https://wem-website-6vdzjwvto-wem1.vercel.app [16s]
+Completing...
+Aliased: https://wem-website-wem1.vercel.app [16s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_8vmgz4qMmzvhpRW2L11KUtZVRYdi",
+    "url": "https://wem-website-6vdzjwvto-wem1.vercel.app",
+    "inspectorUrl": "https://vercel.com/wem1/wem-website/8vmgz4qMmzvhpRW2L11KUtZVRYdi",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_8vmgz4qMmzvhpRW2L11KUtZVRYdi"
+  },
+  "message": "Deployment wem-website-6vdzjwvto-wem1.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect wem-website-6vdzjwvto-wem1.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

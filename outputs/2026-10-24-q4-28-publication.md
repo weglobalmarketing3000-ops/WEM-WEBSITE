@@ -4,7 +4,8 @@
 - English: https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns
 - Chinese: https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns?lang=zh
 - Accepted production: `dpl_FkwvoCErts5Vaga6Hc3gpDS5Qguh`
-- Patch fingerprint: `7d95c0dcba43e2f5f2d1c7765d367eecf8ffbd524719e641f71d3a7b49a92aa0`
+- Deployment-receipt patch fingerprint: `36fc49a0a9c6db12062d775647a6b8f2d1633a6579f383cef3f6209ff58a4019`
+- Receipt: `outputs/deployment-receipts/36fc49a0a9c6db12062d-production.json` (`succeeded / production_health_complete / exit 0`). The previously recorded `7d95c0dcba43e2f5f2d1c7765d367eecf8ffbd524719e641f71d3a7b49a92aa0` was an aggregate content hash, not the deployment helper's patch fingerprint.
 - Scope: 20 files, including q4-28 bilingual publication and q4-27 second localized body-visual repair.
 - Content gates: 1,741 English words; 3,789 Chinese non-whitespace characters; six FAQs and three article images per language.
 - Preview: `dpl_FpgT8EpDrLPP71btWeAjnVvTr77b`, exact 20-file SHA-256 readback passed.

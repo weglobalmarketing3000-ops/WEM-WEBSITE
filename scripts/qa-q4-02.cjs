@@ -39,6 +39,7 @@ const configs = {
   'q4-26': { patch: '2026-10-22-q4-26-smart-promotion', prefix: '2026-10-22-q4-26', slug: 'tiktok-shop-smart-promotion-performance-cost', date: '2026-10-22', enDate: 'Oct 22, 2026', zhDate: '2026 年 10 月 22 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-27-current': { patch: '2026-10-23-q4-27-better-price-rewards-repair', prefix: '2026-10-23-q4-27-current', slug: 'tiktok-shop-bfcm-better-price-rewards-margin-returns-fees', date: '2026-10-23', enDate: 'Oct 23, 2026', zhDate: '2026 年 10 月 23 日', expectedFiles: 17, expectedImages: 3, rank: 1 },
   'q4-28-current': { patch: '2026-10-24-q4-28-virtual-bundles', prefix: '2026-10-24-q4-28-current', slug: 'tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns', date: '2026-10-24', enDate: 'Oct 24, 2026', zhDate: '2026 年 10 月 24 日', expectedFiles: 20, expectedImages: 3, rank: 1 },
+  'q4-29-current': { patch: '2026-10-25-q4-29-current-repair', prefix: '2026-10-25-q4-29-current', slug: 'tiktok-shop-shipping-protection-insurance-evidence', date: '2026-10-25', enDate: 'Oct 25, 2026', zhDate: '2026 年 10 月 25 日', expectedFiles: 10, expectedImages: 3, rank: 1 },
   'q4-06-repair': { patch: '2026-10-03-q4-05-q4-06-regression-repair', prefix: '2026-10-03-q4-06-regression-repair', slug: 'tiktok-shop-creator-commission-video-usage-rights', date: '2026-10-02', enDate: 'Oct 2, 2026', zhDate: '2026 年 10 月 2 日', expectedFiles: 6, expectedImages: 1, rank: 2 },
 };
 if (!configs[target]) throw new Error(`Unknown target: ${target}`);
@@ -94,11 +95,15 @@ async function waitImage(locator) {
     for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
       const absolute = path.join(directory, entry.name);
       if (entry.isDirectory()) await walk(absolute);
-      else files.push(path.relative(patchDir, absolute));
+      else {
+        const relative = path.relative(patchDir, absolute);
+        if (relative !== '.wem-delete-paths') files.push(relative);
+      }
     }
   }
   await walk(patchDir);
   for (const relative of files.sort()) {
+    if (!local && relative === 'vercel.json') continue;
     const localBytes = await fs.readFile(path.join(patchDir, relative));
     const remoteBytes = await fetchBytes(routeFor(relative));
     report.files[relative] = { bytes: remoteBytes.length, localSha256: hash(localBytes), remoteSha256: hash(remoteBytes), match: hash(localBytes) === hash(remoteBytes) };
@@ -197,7 +202,8 @@ async function waitImage(locator) {
   const llms = (await fetchBytes('/llms.txt')).toString();
   const hashExclude = new Set(config.hashExclude || []);
   const scopedHashEntries = Object.entries(report.files).filter(([relative]) => !hashExclude.has(relative));
-  report.checks.hashes = Object.keys(report.files).length === config.expectedFiles && scopedHashEntries.every(([, file]) => file.match && file.bytes > 100);
+  const expectedPublishedFiles = config.expectedFiles - (!local && files.includes('vercel.json') ? 1 : 0);
+  report.checks.hashes = Object.keys(report.files).length === expectedPublishedFiles && scopedHashEntries.every(([, file]) => file.match && file.bytes > 100);
   report.checks.schema = report.raw.bytes > 15000 && report.raw.canonical === articleUrl && report.raw.alternates['en-US'] === articleUrl && report.raw.alternates['zh-CN'] === `${articleUrl}?lang=zh` && report.raw.alternates['x-default'] === articleUrl && report.raw.posts.length === 2 && report.raw.posts.every((post) => post.date === config.date) && report.raw.faqs.length === 2 && report.raw.faqs.every((faq) => faq.count === 6);
   report.checks.render = report.pages.every((page) => page.status === 200 && page.active && page.inactive && page.title.length > 20 && page.description.length > 35 && page.images.length === config.expectedImages && page.images.every((image) => image.width > 0) && page.faq === 6 && page.related === 3 && page.source && page.cta && page.footer && page.booking && page.ready && page.h1Style.weight === '850' && page.h1Style.color === 'rgb(23, 23, 23)' && page.sourceStyle.weight === '800' && page.sourceStyle.color === 'rgb(23, 23, 23)' && page.paragraphStyle.color === 'rgb(55, 51, 47)' && page.paragraphStyle.size === (page.viewport === 'mobile' ? '16px' : '18px') && !page.overflow && !page.undefinedText && !page.literalMarkdown && page.errors.length === 0 && page.canonical === `${articleUrl}${page.lang === 'zh-CN' ? '?lang=zh' : ''}` && page.switched.htmlLang === (page.lang === 'en' ? 'zh-CN' : 'en') && page.switched.canonical === `${articleUrl}${page.lang === 'en' ? '?lang=zh' : ''}`);
   if (local) {
