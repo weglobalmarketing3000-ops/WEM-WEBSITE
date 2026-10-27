@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-10-27T13:07:11.642Z",
+  "sources": [
+    {
+      "id": "q4-30-cancellation-policy",
+      "url": "https://seller-us.tiktok.com/university/essay?default_language=en&identity=1&knowledge_id=3253210454181634",
+      "finalUrl": "https://seller-us.tiktok.com/university/essay?default_language=en&identity=1&knowledge_id=3253210454181634",
+      "status": 200,
+      "ok": true,
+      "bytes": 994289,
+      "sha256": "2ec0d696d0e9271766549012a9cf975f4ad08c79bde35d14994b3806da560ec4",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "creator-runway-bfcm-guide",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894&source_type=ai_university_home",
+      "finalUrl": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894&source_type=ai_university_home",
+      "status": 200,
+      "ok": true,
+      "bytes": 309618,
+      "sha256": "2dca6ebcc3ca588affe74ff834b17f335edbd8c4d5367331baff717c235a2ef4",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "wem-beauty-case",
+      "url": "https://www.weglobalmarketing.com/showcase#case-beauty-gmv-growth",
+      "finalUrl": "https://www.weglobalmarketing.com/showcase",
+      "status": 200,
+      "ok": true,
+      "bytes": 6515,
+      "sha256": "5f93d63467dfbe8a9162585243dc8bd3a66464176fad871b186ecd87b258b83b",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ]
+}

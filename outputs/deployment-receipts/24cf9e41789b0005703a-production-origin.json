@@ -1,0 +1,17 @@
+{
+  "state": "succeeded",
+  "stage": "origin_reconciled_from_immutable_deployment_delta",
+  "mode": "production",
+  "receiptType": "recovered_origin_evidence",
+  "previousDeploymentId": "dpl_GkL4LL9uZYt2ckWFEioXbJpVvc6b",
+  "deploymentId": "dpl_E1nkaYnSNPRdGQLA433ng5WVWMkM",
+  "url": "https://wem-website-24qao5ble-wem1.vercel.app",
+  "readyState": "READY",
+  "source": "cli",
+  "createdAt": "2026-10-27T10:27:00.517Z",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-27-origin-reconciliation/creator-runway/patch",
+  "patchFingerprint": "24cf9e41789b0005703a29a59f1602c50f7bb39e93fe8c8bc59a909a98e95d18",
+  "changedFiles": 14,
+  "deletedFiles": [],
+  "exitCode": 0
+}

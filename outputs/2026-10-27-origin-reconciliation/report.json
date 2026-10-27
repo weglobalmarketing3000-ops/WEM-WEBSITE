@@ -1,0 +1,190 @@
+{
+  "reconciledAt": "2026-10-27T13:05:21.765Z",
+  "targets": [
+    {
+      "state": "succeeded",
+      "stage": "origin_reconciled_from_immutable_deployment_delta",
+      "mode": "production",
+      "receiptType": "recovered_origin_evidence",
+      "previousDeploymentId": "dpl_8vmgz4qMmzvhpRW2L11KUtZVRYdi",
+      "deploymentId": "dpl_GkL4LL9uZYt2ckWFEioXbJpVvc6b",
+      "url": "https://wem-website-dt49pla7m-wem1.vercel.app",
+      "readyState": "READY",
+      "source": "cli",
+      "createdAt": "2026-10-26T10:25:33.697Z",
+      "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-27-origin-reconciliation/q4-30/patch",
+      "patchFingerprint": "d64e2f53c2e6fd049b19e96a51a3ef4ab9285e244e2e9a29bf1cf87f6a2e99f3",
+      "changedFiles": 15,
+      "deletedFiles": [],
+      "exitCode": 0,
+      "receipt": "outputs/deployment-receipts/d64e2f53c2e6fd049b19-production-origin.json",
+      "files": [
+        {
+          "relative": "blog.html",
+          "sha256": "f23579c25e1a0ffaabc908cdc34b9352af9a204add69d41e0af903ab3844c672",
+          "bytes": 11078
+        },
+        {
+          "relative": "blog/hero-tiktok-shop-order-cancellation-control-en-v1.png",
+          "sha256": "e6b863b8793a253f771447c0525782f73fec04ff998893c0f5d3b7f071a8ba9e",
+          "bytes": 1302087
+        },
+        {
+          "relative": "blog/hero-tiktok-shop-order-cancellation-control-zh-v1.png",
+          "sha256": "e44c6d417017050bea1f53ac9257f5d45bd1ebf2b1a9cb8b55ad595d7eef2ce2",
+          "bytes": 1298027
+        },
+        {
+          "relative": "blog/optimized/hero-tiktok-shop-order-cancellation-control-en-v1.jpg",
+          "sha256": "b685fa3179547e9800da7ca6cceef9ddbfd08eee25932d9c4759138040c45c6b",
+          "bytes": 137976
+        },
+        {
+          "relative": "blog/optimized/hero-tiktok-shop-order-cancellation-control-zh-v1.jpg",
+          "sha256": "713992f18663bc381009bb6fe3dc9e0669dc7b188bdaa70d09250c53bf099b57",
+          "bytes": 131004
+        },
+        {
+          "relative": "blog/q4-30-cancellation-control/state-gate-en-v1.svg",
+          "sha256": "a9641e97f475e4755acbbc5248f40432034efcc2b3c65122bb742cbe6905038e",
+          "bytes": 1378
+        },
+        {
+          "relative": "blog/q4-30-cancellation-control/state-gate-zh-v1.svg",
+          "sha256": "6f9d117bb1a5cc1ed552ff6834c17040656976bbb8f121eed8849b453890a92c",
+          "bytes": 1353
+        },
+        {
+          "relative": "blog/thumbs/hero-tiktok-shop-order-cancellation-control-en-v1.jpg",
+          "sha256": "32c67a49d0b6c9351d2f4f5c32c631869d9b07dbaaac264107f94febef8de47f",
+          "bytes": 47938
+        },
+        {
+          "relative": "blog/thumbs/hero-tiktok-shop-order-cancellation-control-zh-v1.jpg",
+          "sha256": "c5d4e382151775a850219591dd989783235617c46b05002f5386013ef2482f30",
+          "bytes": 45363
+        },
+        {
+          "relative": "blog/tiktok-shop-order-cancellation-control.html",
+          "sha256": "b2e9923ea6088b7d4045a8ffb4dccdbd588738c51fae1e0d6c2d41ae0d885213",
+          "bytes": 28493
+        },
+        {
+          "relative": "BlogList.compiled.js",
+          "sha256": "4604a077a164fb5886d1d09de95810ddca2f569c06174b7edf85d49f93fca773",
+          "bytes": 166531
+        },
+        {
+          "relative": "BlogList.jsx",
+          "sha256": "fd425e4f44f2564c8dfe911c074da55a97373b28720cb00f683e4e42d0b44e1f",
+          "bytes": 146659
+        },
+        {
+          "relative": "llms.txt",
+          "sha256": "8c4ca856800a04369124a5b374c190e3c8bd91cec596f41656675aae73dca6e7",
+          "bytes": 38628
+        },
+        {
+          "relative": "sitemap.xml",
+          "sha256": "9df91d653e34ebb4bad22d0b13e949e8243d7b82886a6a561d4f20633c729b9b",
+          "bytes": 52686
+        },
+        {
+          "relative": "vercel.json",
+          "sha256": "e40209ed7a5399c250a0c1f3bc1dda696fc902967c6417eec224f6aa7b8016f7",
+          "bytes": 1847
+        }
+      ]
+    },
+    {
+      "state": "succeeded",
+      "stage": "origin_reconciled_from_immutable_deployment_delta",
+      "mode": "production",
+      "receiptType": "recovered_origin_evidence",
+      "previousDeploymentId": "dpl_GkL4LL9uZYt2ckWFEioXbJpVvc6b",
+      "deploymentId": "dpl_E1nkaYnSNPRdGQLA433ng5WVWMkM",
+      "url": "https://wem-website-24qao5ble-wem1.vercel.app",
+      "readyState": "READY",
+      "source": "cli",
+      "createdAt": "2026-10-27T10:27:00.517Z",
+      "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-27-origin-reconciliation/creator-runway/patch",
+      "patchFingerprint": "24cf9e41789b0005703a29a59f1602c50f7bb39e93fe8c8bc59a909a98e95d18",
+      "changedFiles": 14,
+      "deletedFiles": [],
+      "exitCode": 0,
+      "receipt": "outputs/deployment-receipts/24cf9e41789b0005703a-production-origin.json",
+      "files": [
+        {
+          "relative": "blog.html",
+          "sha256": "c2b2c3a970a0162cd0fca10a121374903a70db4d9b3269d4611f87be808aad4d",
+          "bytes": 11078
+        },
+        {
+          "relative": "blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.png",
+          "sha256": "0c69291cad5e7b1cca7b22b8e4abc6662caf1e42502bc18f7206735a3c0e45aa",
+          "bytes": 1780388
+        },
+        {
+          "relative": "blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.png",
+          "sha256": "3f813e87858b753ab2eab5fc7f5541dce92be84386d4f4c4c989111e38a4fd27",
+          "bytes": 1781045
+        },
+        {
+          "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg",
+          "sha256": "9a13f30b361ed7940d21456ef0a32d862b445f47a303a216df1205e625c5629c",
+          "bytes": 121421
+        },
+        {
+          "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg",
+          "sha256": "d9b3c71bc1c6745562096aa0023df52d4895eac8d8a89c2c34899621d58a9737",
+          "bytes": 122380
+        },
+        {
+          "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg",
+          "sha256": "16f7f7b12ac017eb8cc443a71f64a502eceb5d7b1567824f1f881fdd6400e4e8",
+          "bytes": 43532
+        },
+        {
+          "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg",
+          "sha256": "8805442477aae1e5ff3461e3ffb2227aba79e4a44dfafc709c56094740709673",
+          "bytes": 43625
+        },
+        {
+          "relative": "blog/tiktok-shop-bfcm-2026-creator-content-runway.html",
+          "sha256": "e9019dec088476a4466f3b2b7925df159afd438748d2e829293de3dcf83b5255",
+          "bytes": 37041
+        },
+        {
+          "relative": "blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-en-v1.svg",
+          "sha256": "1ecd59fbacc8367e452f66f95c6332af32c9187a892f473100eb587b30bd81a4",
+          "bytes": 1342
+        },
+        {
+          "relative": "blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-zh-v1.svg",
+          "sha256": "bc2254aaa3685261365af2bc2cc0bdb984c8394e6c9d4f1b3cb0ced132356fda",
+          "bytes": 1335
+        },
+        {
+          "relative": "BlogList.compiled.js",
+          "sha256": "b6be5bfdb397540b2356927c4433a999d90ab3f26181ce5a47f72b0bc2eab2ab",
+          "bytes": 167390
+        },
+        {
+          "relative": "BlogList.jsx",
+          "sha256": "bdaa6c0364f6318caef58900b67fee36a6890e4f429c185fe260eacdc2a155c6",
+          "bytes": 147558
+        },
+        {
+          "relative": "llms.txt",
+          "sha256": "184cc44438383b9cda424c22dfd34c8e27b611a5fbde1e2534b34534e5e1f4af",
+          "bytes": 38891
+        },
+        {
+          "relative": "sitemap.xml",
+          "sha256": "d570bb51243374061ddd013f6aad0d85266d333deb1076876bd7c9f50b122782",
+          "bytes": 52962
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 167390,
+      "localSha256": "b6be5bfdb397540b2356927c4433a999d90ab3f26181ce5a47f72b0bc2eab2ab",
+      "remoteSha256": "b6be5bfdb397540b2356927c4433a999d90ab3f26181ce5a47f72b0bc2eab2ab",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 147558,
+      "localSha256": "bdaa6c0364f6318caef58900b67fee36a6890e4f429c185fe260eacdc2a155c6",
+      "remoteSha256": "bdaa6c0364f6318caef58900b67fee36a6890e4f429c185fe260eacdc2a155c6",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "c2b2c3a970a0162cd0fca10a121374903a70db4d9b3269d4611f87be808aad4d",
+      "remoteSha256": "c2b2c3a970a0162cd0fca10a121374903a70db4d9b3269d4611f87be808aad4d",
+      "match": true
+    },
+    "blog/q4-28-virtual-bundles/offer-return-chain-en-v1.svg": {
+      "bytes": 2137,
+      "localSha256": "aed42f6ef8b027738718adee8c0c251a66d2f05565cdb82fb233cf2d818d5768",
+      "remoteSha256": "aed42f6ef8b027738718adee8c0c251a66d2f05565cdb82fb233cf2d818d5768",
+      "match": true
+    },
+    "blog/q4-28-virtual-bundles/offer-return-chain-zh-v1.svg": {
+      "bytes": 2126,
+      "localSha256": "36981d79ee8be69eda2bdcba264555f22bfba68215a67ddd9eec39954080afc2",
+      "remoteSha256": "36981d79ee8be69eda2bdcba264555f22bfba68215a67ddd9eec39954080afc2",
+      "match": true
+    },
+    "blog/q4-29-shipping-protection/claim-closeout-en-v1.svg": {
+      "bytes": 2634,
+      "localSha256": "d0acaf113095405cade6eeeceaae6c32a86f3d48ef8e2a55b7f122c7a58ca032",
+      "remoteSha256": "d0acaf113095405cade6eeeceaae6c32a86f3d48ef8e2a55b7f122c7a58ca032",
+      "match": true
+    },
+    "blog/q4-29-shipping-protection/claim-closeout-zh-v1.svg": {
+      "bytes": 2600,
+      "localSha256": "e4cebf8ca5e355b95915c8c5b8d863e2ef82b147821ee174d82cb7aff056d67b",
+      "remoteSha256": "e4cebf8ca5e355b95915c8c5b8d863e2ef82b147821ee174d82cb7aff056d67b",
+      "match": true
+    },
+    "blog/q4-30-cancellation-control/owner-readback-en-v1.svg": {
+      "bytes": 1821,
+      "localSha256": "e138de9821cac379ae365c93e09014d12b17cbd1a415d444b2b23b1e3ff12b81",
+      "remoteSha256": "e138de9821cac379ae365c93e09014d12b17cbd1a415d444b2b23b1e3ff12b81",
+      "match": true
+    },
+    "blog/q4-30-cancellation-control/owner-readback-zh-v1.svg": {
+      "bytes": 1810,
+      "localSha256": "27f215c5cdf4bc80e018616a17e3713e2fd4fc93322af741acf0ae79df5b7e69",
+      "remoteSha256": "27f215c5cdf4bc80e018616a17e3713e2fd4fc93322af741acf0ae79df5b7e69",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-creator-content-runway.html": {
+      "bytes": 37400,
+      "localSha256": "cf5598ca18497bc6bd4dea45b6c826f240e0242cc91d5c1702dab738b9139773",
+      "remoteSha256": "cf5598ca18497bc6bd4dea45b6c826f240e0242cc91d5c1702dab738b9139773",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-en-v1.svg": {
+      "bytes": 1836,
+      "localSha256": "b5738f7705be1ec11a8f6e6e19aed6a0f57f07a04fb202ed5523cac1fb99e618",
+      "remoteSha256": "b5738f7705be1ec11a8f6e6e19aed6a0f57f07a04fb202ed5523cac1fb99e618",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-zh-v1.svg": {
+      "bytes": 1819,
+      "localSha256": "57b2648ca50a84550a796d3fb6cf385ce0534fc0c178469289961f2a7dd383f2",
+      "remoteSha256": "57b2648ca50a84550a796d3fb6cf385ce0534fc0c178469289961f2a7dd383f2",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns.html": {
+      "bytes": 30551,
+      "localSha256": "1c08f0eec64dc581f8aaefe7040e339da51e780d6e94391c17f3fc1863165c13",
+      "remoteSha256": "1c08f0eec64dc581f8aaefe7040e339da51e780d6e94391c17f3fc1863165c13",
+      "match": true
+    },
+    "blog/tiktok-shop-order-cancellation-control.html": {
+      "bytes": 29091,
+      "localSha256": "37680fc5c954716ac51487d856c4020306d841f480d019d9d10bcf99a641670f",
+      "remoteSha256": "37680fc5c954716ac51487d856c4020306d841f480d019d9d10bcf99a641670f",
+      "match": true
+    },
+    "blog/tiktok-shop-shipping-protection-insurance-evidence.html": {
+      "bytes": 30949,
+      "localSha256": "6c4122fc030c8fb1005b139479aed47744d212453a45ab55bbd230475e2e6be5",
+      "remoteSha256": "6c4122fc030c8fb1005b139479aed47744d212453a45ab55bbd230475e2e6be5",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 38891,
+      "localSha256": "184cc44438383b9cda424c22dfd34c8e27b611a5fbde1e2534b34534e5e1f4af",
+      "remoteSha256": "184cc44438383b9cda424c22dfd34c8e27b611a5fbde1e2534b34534e5e1f4af",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 52962,
+      "localSha256": "d570bb51243374061ddd013f6aad0d85266d333deb1076876bd7c9f50b122782",
+      "remoteSha256": "d570bb51243374061ddd013f6aad0d85266d333deb1076876bd7c9f50b122782",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 30227,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-27",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-27",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale",
+      "documentTitle": "TikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale | WE Marketing",
+      "description": "Build a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-en-v1.svg"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？",
+      "documentTitle": "TikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？ | WE Marketing",
+      "description": "用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-zh-v1.svg"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale",
+      "documentTitle": "TikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale | WE Marketing",
+      "description": "Build a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-en-v1.svg"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？",
+      "documentTitle": "TikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？ | WE Marketing",
+      "description": "用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-zh-v1.svg"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-creator-content-runway"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control",
+          "text": "Oct 26, 2026\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop Order Cancellation Control: Pending, Awaiting Shipment and Auction Orders\n\nUse order state, live action and readback to control cancellations without false promises.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence",
+          "text": "Oct 25, 2026\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop Shipping Protection and Insurance: Capture the Evidence Before the Package Is Lost\n\nBuild the readable evidence chain before loss, damage or DNR needs a claim.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control",
+          "text": "Oct 26, 2026\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop Order Cancellation Control: Pending, Awaiting Shipment and Auction Orders\n\nUse order state, live action and readback to control cancellations without false promises.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence",
+          "text": "Oct 25, 2026\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop Shipping Protection and Insurance: Capture the Evidence Before the Package Is Lost\n\nBuild the readable evidence chain before loss, damage or DNR needs a claim.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control?lang=zh",
+          "text": "2026 年 10 月 26 日\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop 订单取消怎么管：Pending、待发货和 Auction 分开处理\n\n用订单状态、实时动作和结果读回来管理取消请求，避免错误承诺。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence?lang=zh",
+          "text": "2026 年 10 月 25 日\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop 物流保障和保险：包裹丢失前就要准备证据\n\n在丢失、破损或 DNR 发生前，先建立可读的证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control?lang=zh",
+          "text": "2026 年 10 月 26 日\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop 订单取消怎么管：Pending、待发货和 Auction 分开处理\n\n用订单状态、实时动作和结果读回来管理取消请求，避免错误承诺。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence?lang=zh",
+          "text": "2026 年 10 月 25 日\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop 物流保障和保险：包裹丢失前就要准备证据\n\n在丢失、破损或 DNR 发生前，先建立可读的证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control",
+          "text": "Oct 26, 2026\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop Order Cancellation Control: Pending, Awaiting Shipment and Auction Orders\n\nUse order state, live action and readback to control cancellations without false promises.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence",
+          "text": "Oct 25, 2026\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop Shipping Protection and Insurance: Capture the Evidence Before the Package Is Lost\n\nBuild the readable evidence chain before loss, damage or DNR needs a claim.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control",
+          "text": "Oct 26, 2026\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop Order Cancellation Control: Pending, Awaiting Shipment and Auction Orders\n\nUse order state, live action and readback to control cancellations without false promises.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence",
+          "text": "Oct 25, 2026\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop Shipping Protection and Insurance: Capture the Evidence Before the Package Is Lost\n\nBuild the readable evidence chain before loss, damage or DNR needs a claim.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control?lang=zh",
+          "text": "2026 年 10 月 26 日\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop 订单取消怎么管：Pending、待发货和 Auction 分开处理\n\n用订单状态、实时动作和结果读回来管理取消请求，避免错误承诺。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence?lang=zh",
+          "text": "2026 年 10 月 25 日\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop 物流保障和保险：包裹丢失前就要准备证据\n\n在丢失、破损或 DNR 发生前，先建立可读的证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-order-cancellation-control?lang=zh",
+          "text": "2026 年 10 月 26 日\nTIKTOK-SHOP\nORDER-CONTROL\nTikTok Shop 订单取消怎么管：Pending、待发货和 Auction 分开处理\n\n用订单状态、实时动作和结果读回来管理取消请求，避免错误承诺。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-order-cancellation-control-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-shipping-protection-insurance-evidence?lang=zh",
+          "text": "2026 年 10 月 25 日\nTIKTOK-SHOP\nSHIPPING\nTikTok Shop 物流保障和保险：包裹丢失前就要准备证据\n\n在丢失、破损或 DNR 发生前，先建立可读的证据链。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-shipping-protection-insurance-evidence-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=b6be5bfdb397",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}
