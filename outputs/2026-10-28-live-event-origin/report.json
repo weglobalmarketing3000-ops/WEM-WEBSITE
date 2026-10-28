@@ -1,0 +1,96 @@
+{
+  "reconciledAt": "2026-10-28T13:01:43.954Z",
+  "state": "succeeded",
+  "stage": "origin_reconciled_from_immutable_deployment_delta",
+  "mode": "production",
+  "receiptType": "recovered_origin_evidence",
+  "previousDeploymentId": "dpl_Gh8ALR6hpUC4TEUrxPm9ZB9iaJ1D",
+  "deploymentId": "dpl_D6T6wPjWD2VCTMVez54ovRWC3GKh",
+  "url": "https://wem-website-no3cqbxbq-wem1.vercel.app",
+  "readyState": "READY",
+  "source": "cli",
+  "createdAt": "2026-10-28T10:20:18.133Z",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-28-live-event-origin/patch",
+  "patchFingerprint": "d68f94fbb01a86ba993bded8bccb89e3ed03373b0492832b9ed1a1973cac7a0f",
+  "changedFiles": 15,
+  "deletedFiles": [],
+  "exitCode": 0,
+  "receipt": "outputs/deployment-receipts/d68f94fbb01a86ba993b-production-origin.json",
+  "files": [
+    {
+      "relative": "BlogList.compiled.js",
+      "sha256": "c02f34c61776af56643dad088c1299dd5b60f600cef8216769ba6cff717e2f25",
+      "bytes": 168280
+    },
+    {
+      "relative": "BlogList.jsx",
+      "sha256": "8554f0f686bea3625f96a45b14be03884c9d2925cc26ee3f52bddf1e0295a500",
+      "bytes": 148488
+    },
+    {
+      "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg",
+      "sha256": "1850648e9559a963cca879dcba0688899d176f1b1164db6a30675f06561d365f",
+      "bytes": 155368
+    },
+    {
+      "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg",
+      "sha256": "eeabb44657d7791fad55d08a416a8b59e08c4a5401401efb059b6d5f4862f308",
+      "bytes": 152571
+    },
+    {
+      "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg",
+      "sha256": "e94e7d86a3205039ce85ffaab4bc7bb346048fab7fec84b3af09ded129cf9ac8",
+      "bytes": 55590
+    },
+    {
+      "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg",
+      "sha256": "f030515cd4fed267b8ac439a43f2ace8b4ebf44a6098c18dc7383aab6eeee467",
+      "bytes": 54489
+    },
+    {
+      "relative": "blog/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.png",
+      "sha256": "fdef7e4c38fc4691bcbc351390875425df9d16a7b6f54510cb188926c563e265",
+      "bytes": 2151089
+    },
+    {
+      "relative": "blog/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.png",
+      "sha256": "2f4b27012423a88a38ffe1eb6ee617a5739afc11ab6978ea032412377305c0a5",
+      "bytes": 2146477
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-live-event-planning.html",
+      "sha256": "827690ab224002f639269f8c8cf395f1b90409a31e062bbed4df36638296dbf3",
+      "bytes": 37038
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-live-event-planning/live-plan-en-v1.svg",
+      "sha256": "02aba8510e5030d48c4c1cbcec8bea6ca89c7d96ab5f7af79fa701aef1c00a1d",
+      "bytes": 1343
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-live-event-planning/live-plan-zh-v1.svg",
+      "sha256": "b9a601f2435d860435ef65b6e4f120776f99485f02f48c6489eeb0ff709cf464",
+      "bytes": 1326
+    },
+    {
+      "relative": "blog.html",
+      "sha256": "1f0ee650329b6626b946b8b67c71206238498c4f3165ce80039f36ed88eb2f22",
+      "bytes": 11078
+    },
+    {
+      "relative": "llms.txt",
+      "sha256": "75ff225a7d0074ba0d6cf7ad6c99f99e33c47075adaa80162d6698374e0a6d2d",
+      "bytes": 39135
+    },
+    {
+      "relative": "sitemap.xml",
+      "sha256": "1d668268de242d14a23304389f0586bec3e6b0bf6e342a01e7bc2aedce983079",
+      "bytes": 53232
+    },
+    {
+      "relative": "vercel.json",
+      "sha256": "e40209ed7a5399c250a0c1f3bc1dda696fc902967c6417eec224f6aa7b8016f7",
+      "bytes": 1847
+    }
+  ]
+}

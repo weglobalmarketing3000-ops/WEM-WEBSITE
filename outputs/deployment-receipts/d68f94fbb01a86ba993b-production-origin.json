@@ -1,0 +1,17 @@
+{
+  "state": "succeeded",
+  "stage": "origin_reconciled_from_immutable_deployment_delta",
+  "mode": "production",
+  "receiptType": "recovered_origin_evidence",
+  "previousDeploymentId": "dpl_Gh8ALR6hpUC4TEUrxPm9ZB9iaJ1D",
+  "deploymentId": "dpl_D6T6wPjWD2VCTMVez54ovRWC3GKh",
+  "url": "https://wem-website-no3cqbxbq-wem1.vercel.app",
+  "readyState": "READY",
+  "source": "cli",
+  "createdAt": "2026-10-28T10:20:18.133Z",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-28-live-event-origin/patch",
+  "patchFingerprint": "d68f94fbb01a86ba993bded8bccb89e3ed03373b0492832b9ed1a1973cac7a0f",
+  "changedFiles": 15,
+  "deletedFiles": [],
+  "exitCode": 0
+}

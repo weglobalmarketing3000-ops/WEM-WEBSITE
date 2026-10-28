@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-28-live-event-current-repair",
+  "patchFingerprint": "803d34d83671154b695ff4b1e0e014598e79a87ab894aed6f13cce299c1db082",
+  "pid": 72935,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/803d34d83671154b695f-production.log",
+  "url": "https://wem-website-dwdhydjqo-wem1.vercel.app",
+  "deploymentId": "dpl_E7MqU8MEyBNcrAuwmXxGfjBSEBmw",
+  "exitCode": 0,
+  "updatedAt": "2026-10-28T13:11:21Z"
+}
