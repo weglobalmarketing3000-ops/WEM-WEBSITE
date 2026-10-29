@@ -1,0 +1,96 @@
+{
+  "reconciledAt": "2026-10-29T13:01:58.370Z",
+  "state": "succeeded",
+  "stage": "origin_reconciled_from_immutable_deployment_delta",
+  "mode": "production",
+  "receiptType": "recovered_origin_evidence",
+  "previousDeploymentId": "dpl_E7MqU8MEyBNcrAuwmXxGfjBSEBmw",
+  "deploymentId": "dpl_GPWTUXupw2Y2XXPR4hDVTKftB4pU",
+  "url": "https://wem-website-qojys0rb1-wem1.vercel.app",
+  "readyState": "READY",
+  "source": "cli",
+  "createdAt": "2026-10-29T10:18:41.658Z",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-29-gift-search-origin/patch",
+  "patchFingerprint": "d42caa35ecb81568610996572fcaad56af8203fd7c1164ffdabd8850f3150417",
+  "changedFiles": 15,
+  "deletedFiles": [],
+  "exitCode": 0,
+  "receipt": "outputs/deployment-receipts/d42caa35ecb815686109-production-origin.json",
+  "files": [
+    {
+      "relative": "BlogList.compiled.js",
+      "sha256": "7bac544baf86cb920a09b9946e98248c66a59d11974cd623aa6f6eaa526c0e32",
+      "bytes": 169212
+    },
+    {
+      "relative": "BlogList.jsx",
+      "sha256": "7606ae3b36e6fe709e06e0ccaee2639d76ff91303506f5b1a1c2370722df74cf",
+      "bytes": 149460
+    },
+    {
+      "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v1.jpg",
+      "sha256": "5a8d517acaf637cdc44ee0b02b58a33c673bbc19654e49ea8276f4f2647e0fb6",
+      "bytes": 235459
+    },
+    {
+      "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v1.jpg",
+      "sha256": "b4b09c1a7b3479eaa69a5dd7d8634e1e14b1186aba8d66cb726c4dfc638f5612",
+      "bytes": 234011
+    },
+    {
+      "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v1.jpg",
+      "sha256": "58e63027d64d1a76a110042c9e8039fc59bcc1fec413f7703872cb4768e0fcf7",
+      "bytes": 84201
+    },
+    {
+      "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v1.jpg",
+      "sha256": "432494d6b2c6b5cd3d86d484bf0d952f4e4a70cd9c8e6bd502bbc7c327b00e7e",
+      "bytes": 83225
+    },
+    {
+      "relative": "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v1.png",
+      "sha256": "7457859c09b710618685aad89dd0c77bf09c666719e4e7cda77de27cff00a3a4",
+      "bytes": 1803162
+    },
+    {
+      "relative": "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v1.png",
+      "sha256": "935a3ac409b390ab5e06e831a02cab23f78180eb208dc7d68542395c854cb919",
+      "bytes": 1805090
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-gift-search-product-page.html",
+      "sha256": "637182b7ea97a9c1b11d3c3b467d048c378b0bc13b0956769e91a9b4790d00c2",
+      "bytes": 37728
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg",
+      "sha256": "7de789f5c1602260f8062342ee476e63dc23a99bdeb76d724e17b0aa518b59d1",
+      "bytes": 1355
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg",
+      "sha256": "fd3fa9f13a4fd6daf7c046457fa14257c52abc1193f4623e016974b75759df79",
+      "bytes": 1347
+    },
+    {
+      "relative": "blog.html",
+      "sha256": "19c993c2c54e2ebd3da833671f1be35de8296583628ad99108942c0704c3d4fe",
+      "bytes": 11078
+    },
+    {
+      "relative": "llms.txt",
+      "sha256": "fc7165bf00492d8ac4d7ef611ddcbd137ce2e8c2750fb78d77fbacbb951a67b2",
+      "bytes": 39409
+    },
+    {
+      "relative": "sitemap.xml",
+      "sha256": "c9bbbcb37258b50f7c23f152d453fd95d3d2d405c76828e63b53f9f383b1e951",
+      "bytes": 53512
+    },
+    {
+      "relative": "vercel.json",
+      "sha256": "e40209ed7a5399c250a0c1f3bc1dda696fc902967c6417eec224f6aa7b8016f7",
+      "bytes": 1847
+    }
+  ]
+}

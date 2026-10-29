@@ -1,0 +1,17 @@
+{
+  "state": "succeeded",
+  "stage": "origin_reconciled_from_immutable_deployment_delta",
+  "mode": "production",
+  "receiptType": "recovered_origin_evidence",
+  "previousDeploymentId": "dpl_E7MqU8MEyBNcrAuwmXxGfjBSEBmw",
+  "deploymentId": "dpl_GPWTUXupw2Y2XXPR4hDVTKftB4pU",
+  "url": "https://wem-website-qojys0rb1-wem1.vercel.app",
+  "readyState": "READY",
+  "source": "cli",
+  "createdAt": "2026-10-29T10:18:41.658Z",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/2026-10-29-gift-search-origin/patch",
+  "patchFingerprint": "d42caa35ecb81568610996572fcaad56af8203fd7c1164ffdabd8850f3150417",
+  "changedFiles": 15,
+  "deletedFiles": [],
+  "exitCode": 0
+}

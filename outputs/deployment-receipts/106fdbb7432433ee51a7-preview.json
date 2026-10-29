@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-29-gift-search-current-repair",
+  "patchFingerprint": "106fdbb7432433ee51a7c66e421d789f4cd8490a7de7971c6230bba44046f830",
+  "pid": 13608,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/106fdbb7432433ee51a7-preview.log",
+  "url": "https://wem-website-lskb252sj-wem1.vercel.app",
+  "deploymentId": "dpl_GUGmexmjNhjV4gjakfZpQ86PX5Wq",
+  "exitCode": 0,
+  "updatedAt": "2026-10-29T13:11:35Z"
+}

@@ -1,0 +1,23 @@
+{
+  "fetchedAt": "2026-10-29T13:03:43.538Z",
+  "sources": [
+    {
+      "id": "tiktok-shop-bfcm-2026-guide",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894&source_type=ai_university_home",
+      "finalUrl": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894&source_type=ai_university_home",
+      "status": 200,
+      "bytes": 280020,
+      "sha256": "86f2109ee8740f095d3af277668a3a728284c9c1d61a18ed21594ba826017566",
+      "file": "outputs/2026-10-29-gift-search-sources/tiktok-shop-bfcm-2026-guide.html"
+    },
+    {
+      "id": "wem-fashion-case",
+      "url": "https://www.weglobalmarketing.com/showcase#case-fashion-cold-start",
+      "finalUrl": "https://www.weglobalmarketing.com/showcase",
+      "status": 200,
+      "bytes": 6515,
+      "sha256": "5f93d63467dfbe8a9162585243dc8bd3a66464176fad871b186ecd87b258b83b",
+      "file": "outputs/2026-10-29-gift-search-sources/wem-fashion-case.html"
+    }
+  ]
+}

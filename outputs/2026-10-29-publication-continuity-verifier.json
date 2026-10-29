@@ -1,0 +1,536 @@
+{
+  "verifiedAt": "2026-10-29T13:14:49.977Z",
+  "deploymentId": "dpl_9EmMoyHdJHMJqG6AAeq1P6otwmzd",
+  "readyState": "READY",
+  "ranks": {
+    "tiktok-shop-bfcm-2026-gift-search-product-page": 1,
+    "tiktok-shop-bfcm-2026-live-event-planning": 2,
+    "tiktok-shop-bfcm-2026-creator-content-runway": 3,
+    "tiktok-shop-order-cancellation-control": 4,
+    "tiktok-shop-shipping-protection-insurance-evidence": 5,
+    "tiktok-shop-bfcm-virtual-bundles-inventory-returns": 6,
+    "tiktok-shop-bfcm-better-price-rewards-margin-returns-fees": 7,
+    "tiktok-shop-smart-promotion-performance-cost-growth": 8,
+    "tiktok-shop-order-to-appeal-evidence-ledger": 9,
+    "tiktok-shop-return-inspection-photo-evidence": 10,
+    "tiktok-shop-chargeback-seven-day-evidence-pack": 11,
+    "tiktok-shop-return-rejection-evidence-isrr-risk": 12,
+    "tiktok-shop-aftersales-automation-approval-rules": 13,
+    "tiktok-shop-bfcm-2026-holiday-returns-liability": 14
+  },
+  "imageRequests": [
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/live-plan-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/readiness-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/live-plan-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/readiness-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/live-plan-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/readiness-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/live-plan-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-live-event-planning/readiness-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/runway-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-creator-content-runway/release-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-order-cancellation-control-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/state-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/owner-readback-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-order-cancellation-control-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/state-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/owner-readback-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-order-cancellation-control-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/state-gate-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/owner-readback-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-order-cancellation-control-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/state-gate-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-30-cancellation-control/owner-readback-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-shipping-protection-insurance-evidence-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/evidence-chain-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/claim-closeout-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-shipping-protection-insurance-evidence-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/evidence-chain-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/claim-closeout-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-shipping-protection-insurance-evidence-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/evidence-chain-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/claim-closeout-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-shipping-protection-insurance-evidence-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/evidence-chain-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-29-shipping-protection/claim-closeout-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/fact-chain-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/offer-return-chain-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/fact-chain-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/offer-return-chain-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/assets/we-logo.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-en-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/fact-chain-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/offer-return-chain-en-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/hero-tiktok-shop-bfcm-virtual-bundles-inventory-returns-zh-v1.png",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/fact-chain-zh-v1.svg",
+      "status": 200
+    },
+    {
+      "source": "/blog/q4-28-virtual-bundles/offer-return-chain-zh-v1.svg",
+      "status": 200
+    }
+  ],
+  "redirectResults": [
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-smart-promotion-performance-cost",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-smart-promotion-performance-cost",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-return-inspection-six-photo-evidence",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-return-inspection-six-photo-evidence",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-smart-promotion-performance-cost",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-smart-promotion-performance-cost",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-return-inspection-six-photo-evidence",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-return-inspection-six-photo-evidence",
+      "language": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "language": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "oldSlug": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "language": "?lang=zh",
+      "passed": true
+    }
+  ],
+  "checks": [
+    [
+      "custom domain deployment",
+      true
+    ],
+    [
+      "deployment READY",
+      true
+    ],
+    [
+      "gift search through q4-20 order",
+      true
+    ],
+    [
+      "all bilingual routes 200",
+      true
+    ],
+    [
+      "all BlogPosting dates",
+      true
+    ],
+    [
+      "current and continuity images 200",
+      true
+    ],
+    [
+      "gift-search localized body visuals",
+      true
+    ],
+    [
+      "gift-search corrected covers",
+      true
+    ],
+    [
+      "gift-search CTA and footer",
+      true
+    ],
+    [
+      "gift-search complete current sources",
+      true
+    ],
+    [
+      "live event continuity",
+      true
+    ],
+    [
+      "creator continuity",
+      true
+    ],
+    [
+      "q4-30 continuity",
+      true
+    ],
+    [
+      "q4-29 continuity",
+      true
+    ],
+    [
+      "q4-28 continuity",
+      true
+    ],
+    [
+      "sitemap EN/ZH current targets",
+      true
+    ],
+    [
+      "llms current targets",
+      true
+    ],
+    [
+      "article no-store",
+      true
+    ],
+    [
+      "legacy redirects both domains",
+      true
+    ]
+  ],
+  "passed": true
+}
