@@ -1,0 +1,690 @@
+{
+  "status": "local_qa_complete",
+  "mode": "local",
+  "base": "http://127.0.0.1:4181",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 169212,
+      "localSha256": "21bf1c39c2b6467c1654f1d88f15cd834f90c2831b083c88029707f32943411d",
+      "remoteSha256": "21bf1c39c2b6467c1654f1d88f15cd834f90c2831b083c88029707f32943411d",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 149460,
+      "localSha256": "a253c1f013178936a08fdbeaceeb9db7b1edcdc244bf2ce5c5dfa4242e655240",
+      "remoteSha256": "a253c1f013178936a08fdbeaceeb9db7b1edcdc244bf2ce5c5dfa4242e655240",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "a206a5ba4b7a62a0a50ebacfc3474ae179ed95f07dc1a184be2ea4bdad562094",
+      "remoteSha256": "a206a5ba4b7a62a0a50ebacfc3474ae179ed95f07dc1a184be2ea4bdad562094",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v1.png": {
+      "bytes": 1803162,
+      "localSha256": "7457859c09b710618685aad89dd0c77bf09c666719e4e7cda77de27cff00a3a4",
+      "remoteSha256": "7457859c09b710618685aad89dd0c77bf09c666719e4e7cda77de27cff00a3a4",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png": {
+      "bytes": 1524107,
+      "localSha256": "772ea1ab787668f6ce5c8df3266c0c7fe3f3b002f8462a978b01a79828ec1534",
+      "remoteSha256": "772ea1ab787668f6ce5c8df3266c0c7fe3f3b002f8462a978b01a79828ec1534",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v1.png": {
+      "bytes": 1805090,
+      "localSha256": "935a3ac409b390ab5e06e831a02cab23f78180eb208dc7d68542395c854cb919",
+      "remoteSha256": "935a3ac409b390ab5e06e831a02cab23f78180eb208dc7d68542395c854cb919",
+      "match": true
+    },
+    "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png": {
+      "bytes": 1523451,
+      "localSha256": "c115cfa5f8b6a43f82de813ccd5674a73e298f07d0cccc61ccaed59285e71b44",
+      "remoteSha256": "c115cfa5f8b6a43f82de813ccd5674a73e298f07d0cccc61ccaed59285e71b44",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v1.jpg": {
+      "bytes": 235459,
+      "localSha256": "5a8d517acaf637cdc44ee0b02b58a33c673bbc19654e49ea8276f4f2647e0fb6",
+      "remoteSha256": "5a8d517acaf637cdc44ee0b02b58a33c673bbc19654e49ea8276f4f2647e0fb6",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg": {
+      "bytes": 137883,
+      "localSha256": "62b0141bc9b4ecfe1d3375ab445f162f88d07336574b21d2f81d072269170c02",
+      "remoteSha256": "62b0141bc9b4ecfe1d3375ab445f162f88d07336574b21d2f81d072269170c02",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v1.jpg": {
+      "bytes": 234011,
+      "localSha256": "b4b09c1a7b3479eaa69a5dd7d8634e1e14b1186aba8d66cb726c4dfc638f5612",
+      "remoteSha256": "b4b09c1a7b3479eaa69a5dd7d8634e1e14b1186aba8d66cb726c4dfc638f5612",
+      "match": true
+    },
+    "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg": {
+      "bytes": 134997,
+      "localSha256": "5c90db3513e5a4c58687e3cd320f923b2ec74ef0141dd4ca9a7418799de4afd8",
+      "remoteSha256": "5c90db3513e5a4c58687e3cd320f923b2ec74ef0141dd4ca9a7418799de4afd8",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v1.jpg": {
+      "bytes": 84201,
+      "localSha256": "58e63027d64d1a76a110042c9e8039fc59bcc1fec413f7703872cb4768e0fcf7",
+      "remoteSha256": "58e63027d64d1a76a110042c9e8039fc59bcc1fec413f7703872cb4768e0fcf7",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg": {
+      "bytes": 50158,
+      "localSha256": "6669b58f684c28727bf61fb9f909e5e3ab965246827700c59a2d1270fbef4b45",
+      "remoteSha256": "6669b58f684c28727bf61fb9f909e5e3ab965246827700c59a2d1270fbef4b45",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v1.jpg": {
+      "bytes": 83225,
+      "localSha256": "432494d6b2c6b5cd3d86d484bf0d952f4e4a70cd9c8e6bd502bbc7c327b00e7e",
+      "remoteSha256": "432494d6b2c6b5cd3d86d484bf0d952f4e4a70cd9c8e6bd502bbc7c327b00e7e",
+      "match": true
+    },
+    "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg": {
+      "bytes": 48681,
+      "localSha256": "57375f79cd5f58abb828d227af543ad24eef0e7667481c3b18a77806d8f0f796",
+      "remoteSha256": "57375f79cd5f58abb828d227af543ad24eef0e7667481c3b18a77806d8f0f796",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page.html": {
+      "bytes": 38424,
+      "localSha256": "a8c29c0d06166fd1c04bfe08c0d8e29d0c5de5484746c225674be684094956d6",
+      "remoteSha256": "a8c29c0d06166fd1c04bfe08c0d8e29d0c5de5484746c225674be684094956d6",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg": {
+      "bytes": 1175,
+      "localSha256": "97c1c9f26357b902873e2de35595d0c5d23a92e47d9d7b0f79008734d221c3d5",
+      "remoteSha256": "97c1c9f26357b902873e2de35595d0c5d23a92e47d9d7b0f79008734d221c3d5",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg": {
+      "bytes": 1154,
+      "localSha256": "81343995ac7f510f36498d37c8e254686f17053df4d047bb76b53052cc66c05f",
+      "remoteSha256": "81343995ac7f510f36498d37c8e254686f17053df4d047bb76b53052cc66c05f",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg": {
+      "bytes": 1355,
+      "localSha256": "7de789f5c1602260f8062342ee476e63dc23a99bdeb76d724e17b0aa518b59d1",
+      "remoteSha256": "7de789f5c1602260f8062342ee476e63dc23a99bdeb76d724e17b0aa518b59d1",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg": {
+      "bytes": 1347,
+      "localSha256": "fd3fa9f13a4fd6daf7c046457fa14257c52abc1193f4623e016974b75759df79",
+      "remoteSha256": "fd3fa9f13a4fd6daf7c046457fa14257c52abc1193f4623e016974b75759df79",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-live-event-planning.html": {
+      "bytes": 37657,
+      "localSha256": "797ad583b68a7df8452ce224d60d97e5f19dc850a25e085aa70b5e7386ce6153",
+      "remoteSha256": "797ad583b68a7df8452ce224d60d97e5f19dc850a25e085aa70b5e7386ce6153",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-live-event-planning/readiness-gate-en-v1.svg": {
+      "bytes": 1177,
+      "localSha256": "3e51eccc9729ec035a97752004a8d2098fdfb553e49d2e14ce2486ab990e6d70",
+      "remoteSha256": "3e51eccc9729ec035a97752004a8d2098fdfb553e49d2e14ce2486ab990e6d70",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-live-event-planning/readiness-gate-zh-v1.svg": {
+      "bytes": 1169,
+      "localSha256": "36ddcf810e7346ec65714cf652c91e8c2f57d188c25688bac3ec2e8e92b326cb",
+      "remoteSha256": "36ddcf810e7346ec65714cf652c91e8c2f57d188c25688bac3ec2e8e92b326cb",
+      "match": true
+    },
+    "llms.txt": {
+      "bytes": 39409,
+      "localSha256": "fc7165bf00492d8ac4d7ef611ddcbd137ce2e8c2750fb78d77fbacbb951a67b2",
+      "remoteSha256": "fc7165bf00492d8ac4d7ef611ddcbd137ce2e8c2750fb78d77fbacbb951a67b2",
+      "match": true
+    },
+    "sitemap.xml": {
+      "bytes": 53512,
+      "localSha256": "c9bbbcb37258b50f7c23f152d453fd95d3d2d405c76828e63b53f9f383b1e951",
+      "remoteSha256": "c9bbbcb37258b50f7c23f152d453fd95d3d2d405c76828e63b53f9f383b1e951",
+      "match": true
+    },
+    "vercel.json": {
+      "bytes": 3209,
+      "localSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "remoteSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 31033,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-29",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-29",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page",
+      "documentTitle": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page | WE Marketing",
+      "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白",
+      "documentTitle": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白 | WE Marketing",
+      "description": "黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page",
+      "documentTitle": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page | WE Marketing",
+      "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page.html?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白",
+      "documentTitle": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白 | WE Marketing",
+      "description": "黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "http://127.0.0.1:4181/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "http://127.0.0.1:4181/blog/tiktok-shop-bfcm-2026-gift-search-product-page.html",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway",
+          "text": "Oct 27, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM 2026: Build a Creator Content Runway Before the Sale\n\nBuild a TikTok Shop BFCM creator plan around hero products, sample follow-through, useful content and controlled amplification.",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-en-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-creator-content-runway?lang=zh",
+          "text": "2026 年 10 月 27 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 2026 黑五达人预热：邀请名单之后，内容怎么真正跑起来？\n\n用 Wendy 的运营判断，把 TikTok Shop 黑五达人匹配、寄样、内容、反馈与放大接起来。",
+          "image": 880,
+          "imageSrc": "http://127.0.0.1:4181/blog/thumbs/hero-tiktok-shop-bfcm-2026-creator-content-runway-zh-v1.jpg"
+        }
+      ],
+      "script": "http://127.0.0.1:4181/BlogList.compiled.js?v=21bf1c39c2b6",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

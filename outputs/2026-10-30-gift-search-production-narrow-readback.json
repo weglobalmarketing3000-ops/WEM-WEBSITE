@@ -1,0 +1,36 @@
+{
+  "deploymentId": "dpl_5nzKqnJUZSiYgSQwRBVDkY6DJmis",
+  "url": "https://wem-website-g7121qjb0-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-2026-gift-search-product-page.html",
+      "bytes": 38424,
+      "localSha256": "a8c29c0d06166fd1c04bfe08c0d8e29d0c5de5484746c225674be684094956d6",
+      "remoteSha256": "a8c29c0d06166fd1c04bfe08c0d8e29d0c5de5484746c225674be684094956d6",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg",
+      "bytes": 1175,
+      "localSha256": "97c1c9f26357b902873e2de35595d0c5d23a92e47d9d7b0f79008734d221c3d5",
+      "remoteSha256": "97c1c9f26357b902873e2de35595d0c5d23a92e47d9d7b0f79008734d221c3d5",
+      "match": true
+    },
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg",
+      "bytes": 1154,
+      "localSha256": "81343995ac7f510f36498d37c8e254686f17053df4d047bb76b53052cc66c05f",
+      "remoteSha256": "81343995ac7f510f36498d37c8e254686f17053df4d047bb76b53052cc66c05f",
+      "match": true
+    },
+    "vercel.json": {
+      "remotePath": "/src/ui_kits/website/vercel.json",
+      "bytes": 3209,
+      "localSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "remoteSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "match": true
+    }
+  },
+  "passed": true
+}

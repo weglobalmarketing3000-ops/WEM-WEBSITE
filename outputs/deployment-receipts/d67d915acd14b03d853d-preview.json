@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-30-gift-search-continuity-repair",
+  "patchFingerprint": "d67d915acd14b03d853dda8a56c5a5da10a9c440c84fc22f31de2ed1e8f4d878",
+  "pid": 46601,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/d67d915acd14b03d853d-preview.log",
+  "url": "https://wem-website-8t4f7adxc-wem1.vercel.app",
+  "deploymentId": "dpl_861s3hCUS5pqHCL7ueSwANmVw5Xm",
+  "exitCode": 0,
+  "updatedAt": "2026-10-30T13:06:54Z"
+}

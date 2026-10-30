@@ -1,0 +1,66 @@
+{
+  "reconciledAt": "2026-10-30T13:01:35.441Z",
+  "acceptedDeploymentId": "dpl_9EmMoyHdJHMJqG6AAeq1P6otwmzd",
+  "currentDeploymentId": "dpl_8x8EQTpocFQbmKcmorNczFMCdc7i",
+  "currentUrl": "https://wem-website-lvoqguixs-wem1.vercel.app",
+  "readyState": "READY",
+  "createdAt": "2026-10-29T13:35:00.784Z",
+  "creator": {
+    "uid": "C8zgLmUsUUitUha9gOjS9A9W",
+    "username": "weglobalmarketing3000-5352"
+  },
+  "meta": {
+    "actor": "codex"
+  },
+  "changedFiles": [
+    {
+      "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg",
+      "bytes": 137883,
+      "sha256": "62b0141bc9b4ecfe1d3375ab445f162f88d07336574b21d2f81d072269170c02"
+    },
+    {
+      "relative": "blog/optimized/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg",
+      "bytes": 134997,
+      "sha256": "5c90db3513e5a4c58687e3cd320f923b2ec74ef0141dd4ca9a7418799de4afd8"
+    },
+    {
+      "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg",
+      "bytes": 50158,
+      "sha256": "6669b58f684c28727bf61fb9f909e5e3ab965246827700c59a2d1270fbef4b45"
+    },
+    {
+      "relative": "blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg",
+      "bytes": 48681,
+      "sha256": "57375f79cd5f58abb828d227af543ad24eef0e7667481c3b18a77806d8f0f796"
+    },
+    {
+      "relative": "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png",
+      "bytes": 1524107,
+      "sha256": "772ea1ab787668f6ce5c8df3266c0c7fe3f3b002f8462a978b01a79828ec1534"
+    },
+    {
+      "relative": "blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png",
+      "bytes": 1523451,
+      "sha256": "c115cfa5f8b6a43f82de813ccd5674a73e298f07d0cccc61ccaed59285e71b44"
+    },
+    {
+      "relative": "blog/tiktok-shop-bfcm-2026-gift-search-product-page.html",
+      "bytes": 37728,
+      "sha256": "5a6ed445ca409900f9116e5c46228ed2fe39a3b11eaa3a3eed88ead93e57bfa3"
+    },
+    {
+      "relative": "blog.html",
+      "bytes": 11078,
+      "sha256": "a206a5ba4b7a62a0a50ebacfc3474ae179ed95f07dc1a184be2ea4bdad562094"
+    },
+    {
+      "relative": "vercel.json",
+      "bytes": 1847,
+      "sha256": "e40209ed7a5399c250a0c1f3bc1dda696fc902967c6417eec224f6aa7b8016f7"
+    }
+  ],
+  "deletedFiles": [
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg",
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg"
+  ]
+}
