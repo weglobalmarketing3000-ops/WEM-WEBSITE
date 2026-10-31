@@ -1,0 +1,125 @@
+{
+  "verifiedAt": "2026-10-31T13:12:48.096Z",
+  "deploymentId": "dpl_BsWiEz8XeSHMVrmrjsiaQKSePQ4Z",
+  "readyState": "READY",
+  "ranks": {
+    "tiktok-shop-bfcm-post-sale-continuation": 1,
+    "tiktok-shop-bfcm-2026-gift-search-product-page": 2
+  },
+  "expectedCompiledHash": "320702b93b98",
+  "redirectsResult": [
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "?lang=zh",
+      "passed": true
+    }
+  ],
+  "checks": {
+    "customDomainDeployment": true,
+    "deploymentReady": true,
+    "preservedPostRank1": true,
+    "repairedGiftRank2": true,
+    "repairedGiftCard": true,
+    "cacheKey": true,
+    "giftBilingual200": true,
+    "giftSchemaDate": true,
+    "postPreserved200": true,
+    "postSchemaDate": true,
+    "v2CoverHashes": true,
+    "discovery": true,
+    "noStore": true,
+    "redirects": true
+  },
+  "passed": true
+}

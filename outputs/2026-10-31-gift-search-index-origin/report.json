@@ -1,0 +1,32 @@
+{
+  "reconciledAt": "2026-10-31T13:03:08.279Z",
+  "deploymentId": "dpl_F2YdBewCQtCUihMT97AEUaVE8un4",
+  "deploymentUrl": "https://wem-website-g5kjg54in-wem1.vercel.app",
+  "deploymentReadyState": "READY",
+  "deploymentCreatedAt": "2026-10-31T10:20:39.972Z",
+  "deploymentCreatedAtPt": "2026-10-31 03:20:39 PDT",
+  "deploymentMetadata": null,
+  "gitSource": null,
+  "planAuthorizationForPreservedPostSale": "not_found",
+  "preservedUnrelatedSlug": "tiktok-shop-bfcm-post-sale-continuation",
+  "repairedSlug": "tiktok-shop-bfcm-2026-gift-search-product-page",
+  "repairedDate": "2026-10-29",
+  "repairedCoverVersion": "v2",
+  "sitemapGiftDateCorrectBeforeRepair": true,
+  "sitemapPreservedPostSale": true,
+  "llmsGiftPresent": true,
+  "llmsPreservedPostSale": true,
+  "originalHashes": {
+    "list": "aec726f18187719cdff70238c27d620543ff2ee24f05414c81faf730bccd506b",
+    "compiled": "2cdcaaec0272db00af838a12e8552c70022fd3a8ea668ce4177e93c51713d6db",
+    "blog": "033d6dc39364e043ba5458ee270a426dcfe4add253f2322e6c3eae8d70d4a78f",
+    "sitemap": "5c3cc46a0fcfc3c54a2e40de277f946ee73029da871b65430dedd15a48c48e56",
+    "llms": "5fd61fb644e87d1540790f29ba312ad8e5766371d6d01b85e04a456db97a39e8"
+  },
+  "repairedHashes": {
+    "list": "3d346008b9785d63febe078f17f70fe0ff86235be522ffa7f347352eb4e38c48",
+    "compiled": "320702b93b986ba950d745084302708ea4401dae94d2ea3750d8263d1a9238b8",
+    "blog": "5c2360b5fe0889a677681a7fb73fb0ce93e95fd4f30034e85dff0ec30cc5ab55"
+  },
+  "cacheVersion": "320702b93b98"
+}

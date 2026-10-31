@@ -1,0 +1,552 @@
+{
+  "status": "public_qa_complete",
+  "mode": "public",
+  "base": "https://www.weglobalmarketing.com",
+  "files": {
+    "BlogList.compiled.js": {
+      "bytes": 172290,
+      "localSha256": "320702b93b986ba950d745084302708ea4401dae94d2ea3750d8263d1a9238b8",
+      "remoteSha256": "320702b93b986ba950d745084302708ea4401dae94d2ea3750d8263d1a9238b8",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "bytes": 151244,
+      "localSha256": "3d346008b9785d63febe078f17f70fe0ff86235be522ffa7f347352eb4e38c48",
+      "remoteSha256": "3d346008b9785d63febe078f17f70fe0ff86235be522ffa7f347352eb4e38c48",
+      "match": true
+    },
+    "blog.html": {
+      "bytes": 11078,
+      "localSha256": "5c2360b5fe0889a677681a7fb73fb0ce93e95fd4f30034e85dff0ec30cc5ab55",
+      "remoteSha256": "5c2360b5fe0889a677681a7fb73fb0ce93e95fd4f30034e85dff0ec30cc5ab55",
+      "match": true
+    }
+  },
+  "raw": {
+    "bytes": 31033,
+    "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+    "alternates": {
+      "en-US": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "zh-CN": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "x-default": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+    },
+    "posts": [
+      {
+        "language": "en-US",
+        "date": "2026-10-29",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png"
+        }
+      },
+      {
+        "language": "zh-CN",
+        "date": "2026-10-29",
+        "page": {
+          "@id": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "language": "en-US",
+        "count": 6
+      },
+      {
+        "language": "zh-CN",
+        "count": 6
+      }
+    ]
+  },
+  "pages": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page",
+      "documentTitle": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page | WE Marketing",
+      "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白",
+      "documentTitle": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白 | WE Marketing",
+      "description": "黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "69.12px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "53.76px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "18px",
+        "color": "rgb(55, 51, 47)",
+        "line": "32.04px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page",
+      "documentTitle": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page | WE Marketing",
+      "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "42.9px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-en-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-en-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "switched": {
+        "htmlLang": "zh-CN",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+      },
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh-CN",
+      "status": 200,
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白",
+      "documentTitle": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白 | WE Marketing",
+      "description": "黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+      "active": true,
+      "inactive": true,
+      "h1Style": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35.1px",
+        "weight": "850",
+        "color": "rgb(23, 23, 23)"
+      },
+      "sourceStyle": {
+        "font": "Inter, \"Helvetica Neue\", -apple-system, system-ui, sans-serif",
+        "size": "35px",
+        "weight": "800",
+        "color": "rgb(23, 23, 23)"
+      },
+      "paragraphStyle": {
+        "size": "16px",
+        "color": "rgb(55, 51, 47)",
+        "line": "26.88px"
+      },
+      "images": [
+        {
+          "width": 1792,
+          "height": 896,
+          "src": "https://www.weglobalmarketing.com/blog/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.png"
+        },
+        {
+          "width": 1280,
+          "height": 520,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-search-zh-v1.svg"
+        },
+        {
+          "width": 1000,
+          "height": 220,
+          "src": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page/gift-readiness-gate-zh-v1.svg"
+        }
+      ],
+      "faq": 6,
+      "related": 3,
+      "source": true,
+      "cta": true,
+      "footer": true,
+      "booking": true,
+      "ready": true,
+      "overflow": false,
+      "undefinedText": false,
+      "literalMarkdown": false,
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "switched": {
+        "htmlLang": "en",
+        "url": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+      },
+      "errors": []
+    }
+  ],
+  "index": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation",
+          "text": "Oct 30, 2026\nTIKTOK-SHOP\nBFCM\nAfter TikTok Shop BFCM: Which Products, Creators and Content Should Keep Running?\n\nA practical TikTok Shop BFCM post-sale decision system for deciding which products, creators and content to continue, adapt or hold.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation",
+          "text": "Oct 30, 2026\nTIKTOK-SHOP\nBFCM\nAfter TikTok Shop BFCM: Which Products, Creators and Content Should Keep Running?\n\nA practical TikTok Shop BFCM post-sale decision system for deciding which products, creators and content to continue, adapt or hold.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation?lang=zh",
+          "text": "2026 年 10 月 30 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五结束后：哪些商品、达人和内容该继续跑？\n\n用一套可执行的 TikTok Shop 黑五后判断系统，决定商品、达人与内容该继续、调整还是暂停。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation?lang=zh",
+          "text": "2026 年 10 月 30 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五结束后：哪些商品、达人和内容该继续跑？\n\n用一套可执行的 TikTok Shop 黑五后判断系统，决定商品、达人与内容该继续、调整还是暂停。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation",
+          "text": "Oct 30, 2026\nTIKTOK-SHOP\nBFCM\nAfter TikTok Shop BFCM: Which Products, Creators and Content Should Keep Running?\n\nA practical TikTok Shop BFCM post-sale decision system for deciding which products, creators and content to continue, adapt or hold.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation",
+          "text": "Oct 30, 2026\nTIKTOK-SHOP\nBFCM\nAfter TikTok Shop BFCM: Which Products, Creators and Content Should Keep Running?\n\nA practical TikTok Shop BFCM post-sale decision system for deciding which products, creators and content to continue, adapt or hold.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-en-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+          "text": "Oct 29, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page\n\nConnect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-en-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning",
+          "text": "Oct 28, 2026\nTIKTOK-SHOP\nBFCM\nTikTok Shop BFCM LIVE Planning: Give Every Session a Job\n\nPlan TikTok Shop BFCM LIVE around a clear session job, host fit, hero products, accurate offers, short-video teasers and a useful review process.",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-en-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "fresh",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation?lang=zh",
+          "text": "2026 年 10 月 30 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五结束后：哪些商品、达人和内容该继续跑？\n\n用一套可执行的 TikTok Shop 黑五后判断系统，决定商品、达人与内容该继续、调整还是暂停。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "cache": "warm",
+      "cards": [
+        {
+          "href": "/blog/tiktok-shop-bfcm-post-sale-continuation?lang=zh",
+          "text": "2026 年 10 月 30 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五结束后：哪些商品、达人和内容该继续跑？\n\n用一套可执行的 TikTok Shop 黑五后判断系统，决定商品、达人与内容该继续、调整还是暂停。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-post-sale-continuation-zh-v1.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+          "text": "2026 年 10 月 29 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白\n\n把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-gift-search-product-page-zh-v2.jpg"
+        },
+        {
+          "href": "/blog/tiktok-shop-bfcm-2026-live-event-planning?lang=zh",
+          "text": "2026 年 10 月 28 日\nTIKTOK-SHOP\nBFCM\nTikTok Shop 黑五 LIVE 怎么排：先让每一场有明确任务\n\n黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+          "image": 880,
+          "imageSrc": "https://www.weglobalmarketing.com/blog/thumbs/hero-tiktok-shop-bfcm-2026-live-event-planning-zh-v1.jpg"
+        }
+      ],
+      "script": "https://www.weglobalmarketing.com/BlogList.compiled.js?v=320702b93b98",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "checks": {
+    "hashes": true,
+    "schema": true,
+    "render": true,
+    "index": true,
+    "discovery": true
+  },
+  "passed": true
+}

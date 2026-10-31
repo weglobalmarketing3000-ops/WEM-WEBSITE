@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "deployment_ready",
+  "mode": "preview",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-10-31-gift-search-index-continuity",
+  "patchFingerprint": "00134fb83df518f4956ab98a578adca3056b72f0696e378656ce8306edb79d42",
+  "pid": 70476,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/00134fb83df518f4956a-preview.log",
+  "url": "https://wem-website-okjm8l008-wem1.vercel.app",
+  "deploymentId": "dpl_GXP3qrsyS612EbfRdjcaynQRCcbd",
+  "exitCode": 0,
+  "updatedAt": "2026-10-31T13:07:03Z"
+}

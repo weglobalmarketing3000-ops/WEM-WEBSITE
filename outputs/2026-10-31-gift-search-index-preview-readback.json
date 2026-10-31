@@ -1,0 +1,36 @@
+{
+  "deploymentId": "dpl_GXP3qrsyS612EbfRdjcaynQRCcbd",
+  "url": "https://wem-website-okjm8l008-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "BlogList.compiled.js": {
+      "remotePath": "/src/ui_kits/website/BlogList.compiled.js",
+      "bytes": 172290,
+      "localSha256": "320702b93b986ba950d745084302708ea4401dae94d2ea3750d8263d1a9238b8",
+      "remoteSha256": "320702b93b986ba950d745084302708ea4401dae94d2ea3750d8263d1a9238b8",
+      "match": true
+    },
+    "BlogList.jsx": {
+      "remotePath": "/src/ui_kits/website/BlogList.jsx",
+      "bytes": 151244,
+      "localSha256": "3d346008b9785d63febe078f17f70fe0ff86235be522ffa7f347352eb4e38c48",
+      "remoteSha256": "3d346008b9785d63febe078f17f70fe0ff86235be522ffa7f347352eb4e38c48",
+      "match": true
+    },
+    "blog.html": {
+      "remotePath": "/src/ui_kits/website/blog.html",
+      "bytes": 11078,
+      "localSha256": "5c2360b5fe0889a677681a7fb73fb0ce93e95fd4f30034e85dff0ec30cc5ab55",
+      "remoteSha256": "5c2360b5fe0889a677681a7fb73fb0ce93e95fd4f30034e85dff0ec30cc5ab55",
+      "match": true
+    },
+    "vercel.json": {
+      "remotePath": "/src/ui_kits/website/vercel.json",
+      "bytes": 3209,
+      "localSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "remoteSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "match": true
+    }
+  },
+  "passed": true
+}
