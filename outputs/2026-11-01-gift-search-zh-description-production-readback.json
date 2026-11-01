@@ -1,0 +1,22 @@
+{
+  "deploymentId": "dpl_CEQLgqXRhPsJ5VYZEjy9qSEfN5Q5",
+  "url": "https://wem-website-d7el0nqb1-wem1.vercel.app",
+  "readyState": "READY",
+  "files": {
+    "blog/tiktok-shop-bfcm-2026-gift-search-product-page.html": {
+      "remotePath": "/src/ui_kits/website/blog/tiktok-shop-bfcm-2026-gift-search-product-page.html",
+      "bytes": 38397,
+      "localSha256": "bed4184f4df17ca05245780356df39457e65ba4f2a231d02b28fab83243432bc",
+      "remoteSha256": "bed4184f4df17ca05245780356df39457e65ba4f2a231d02b28fab83243432bc",
+      "match": true
+    },
+    "vercel.json": {
+      "remotePath": "/src/ui_kits/website/vercel.json",
+      "bytes": 3209,
+      "localSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "remoteSha256": "4cdc31948efdc48b00a120b0f0c05204e8f461b41e75d8b3a1c8243f5420478d",
+      "match": true
+    }
+  },
+  "passed": true
+}

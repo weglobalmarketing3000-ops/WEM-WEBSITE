@@ -1,0 +1,224 @@
+{
+  "verifiedAt": "2026-11-01T14:15:06.974Z",
+  "deploymentId": "dpl_CEQLgqXRhPsJ5VYZEjy9qSEfN5Q5",
+  "readyState": "READY",
+  "compiledHash": "fa707b7657e0",
+  "rendered": [
+    {
+      "viewport": "desktop",
+      "lang": "en",
+      "status": 200,
+      "errors": [],
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page | WE Marketing",
+      "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "overflow": false,
+      "images": [
+        500,
+        1792,
+        1280,
+        1000,
+        1792,
+        1280,
+        1000,
+        500
+      ],
+      "switched": {
+        "htmlLang": "zh-CN",
+        "description": "把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+      }
+    },
+    {
+      "viewport": "desktop",
+      "lang": "zh",
+      "status": 200,
+      "errors": [],
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白 | WE Marketing",
+      "description": "把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "overflow": false,
+      "images": [
+        500,
+        1792,
+        1280,
+        1000,
+        1792,
+        1280,
+        1000,
+        500
+      ],
+      "switched": {
+        "htmlLang": "en",
+        "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "lang": "en",
+      "status": 200,
+      "errors": [],
+      "htmlLang": "en",
+      "title": "TikTok Shop BFCM Search Strategy: Connect Gift Discovery to the Product Page | WE Marketing",
+      "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page",
+      "overflow": false,
+      "images": [
+        500,
+        1792,
+        1280,
+        1000,
+        1792,
+        1280,
+        1000,
+        500
+      ],
+      "switched": {
+        "htmlLang": "zh-CN",
+        "description": "把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh"
+      }
+    },
+    {
+      "viewport": "mobile",
+      "lang": "zh",
+      "status": 200,
+      "errors": [],
+      "htmlLang": "zh-CN",
+      "title": "TikTok Shop 黑五搜索策略：把送礼内容接到商品页，让用户找得到也选得明白 | WE Marketing",
+      "description": "把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。",
+      "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page?lang=zh",
+      "overflow": false,
+      "images": [
+        500,
+        1792,
+        1280,
+        1000,
+        1792,
+        1280,
+        1000,
+        500
+      ],
+      "switched": {
+        "htmlLang": "en",
+        "description": "Connect TikTok Shop BFCM gift discovery to a clear product page with accurate product language, variants, offer details and delivery expectations.",
+        "canonical": "https://www.weglobalmarketing.com/blog/tiktok-shop-bfcm-2026-gift-search-product-page"
+      }
+    }
+  ],
+  "redirectResults": [
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://www.weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-smart-promotion-performance-cost",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-return-inspection-six-photo-evidence",
+      "lang": "?lang=zh",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "domain": "https://weglobalmarketing.com",
+      "from": "tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "lang": "?lang=zh",
+      "passed": true
+    }
+  ],
+  "checks": {
+    "customDomainDeployment": true,
+    "deploymentReady": true,
+    "rankAndCache": true,
+    "articleRoutes": true,
+    "articleSchema": true,
+    "renderedDescriptionParity": true,
+    "renderedLanguageSwitch": true,
+    "v2CoverHashes": true,
+    "discovery": true,
+    "noStore": true,
+    "redirects": true
+  },
+  "passed": true
+}

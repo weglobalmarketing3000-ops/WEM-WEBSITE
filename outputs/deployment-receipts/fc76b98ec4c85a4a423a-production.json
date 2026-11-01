@@ -1,0 +1,13 @@
+{
+  "state": "succeeded",
+  "stage": "production_health_complete",
+  "mode": "production",
+  "patch": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/patches/2026-11-01-gift-search-zh-description",
+  "patchFingerprint": "fc76b98ec4c85a4a423a2575d6fa93d40ae43731af9099acdb5a745502c59c0a",
+  "pid": 33505,
+  "log": "/Users/wendylin/Downloads/WE Marketing Design System/outputs/deployment-receipts/logs/fc76b98ec4c85a4a423a-production.log",
+  "url": "https://wem-website-d7el0nqb1-wem1.vercel.app",
+  "deploymentId": "dpl_CEQLgqXRhPsJ5VYZEjy9qSEfN5Q5",
+  "exitCode": 0,
+  "updatedAt": "2026-11-01T14:14:07Z"
+}

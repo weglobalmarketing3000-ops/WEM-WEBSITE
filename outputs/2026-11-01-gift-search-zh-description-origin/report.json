@@ -1,0 +1,22 @@
+{
+  "reconciledAt": "2026-11-01T14:06:39.158Z",
+  "deploymentId": "dpl_AsQwpZBQCtuhbGxNKnNDTkp7s2gz",
+  "deploymentUrl": "https://wem-website-az4ao5xk9-wem1.vercel.app",
+  "deploymentReadyState": "READY",
+  "deploymentCreatedAt": "2026-10-31T13:29:54.366Z",
+  "deploymentCreatedAtPt": "2026-10-31 06:29:54 PDT",
+  "deploymentMetadata": null,
+  "gitSource": null,
+  "planAuthorizationForNovember1": "not_found",
+  "preservedIndexSha256": "fa707b7657e084b19abfee8b589039c1e66171f22dae8046a05c41be86ded761",
+  "preservedIndexCacheVersion": "fa707b7657e0",
+  "preservedPostSale": true,
+  "preservedGiftIndexDate": true,
+  "preservedGiftV2Covers": true,
+  "sitemapGiftDate": true,
+  "llmsGiftPresent": true,
+  "originalArticleSha256": "a8c29c0d06166fd1c04bfe08c0d8e29d0c5de5484746c225674be684094956d6",
+  "repairedArticleSha256": "bed4184f4df17ca05245780356df39457e65ba4f2a231d02b28fab83243432bc",
+  "incorrectDescription": "黑五 LIVE 先确定每场任务，再安排主播、主推品、Offer、预热视频与复盘。结合 WE Marketing 健康类案例，连接产品教育和直播执行。",
+  "approvedDescription": "把 TikTok Shop 黑五送礼内容接到搜索和商品页，用准确名称、变体、优惠与配送信息帮助用户找到并选对商品。"
+}

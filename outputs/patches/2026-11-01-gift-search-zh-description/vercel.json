@@ -1,0 +1,144 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/(about|affiliate|services|showcase|blog)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/services/creator-content",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/blog/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/blog/thumbs/(.*).jpg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/blog/optimized/(.*).jpg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).jsx",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).compiled.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/_compiled/(.*).js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/vendor/(.*).js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/lucide-lite.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/services/creator-content/avatars/(.*).webp",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/blog/tiktok-shop-bfcm-virtual-bundles-offer-inventory-returns",
+      "destination": "/blog/tiktok-shop-bfcm-virtual-bundles-inventory-returns",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tiktok-shop-smart-promotion-performance-cost",
+      "destination": "/blog/tiktok-shop-smart-promotion-performance-cost-growth",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tiktok-shop-return-inspection-six-photo-evidence",
+      "destination": "/blog/tiktok-shop-return-inspection-photo-evidence",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tiktok-shop-bfcm-2026-holiday-return-window-liability",
+      "destination": "/blog/tiktok-shop-bfcm-2026-holiday-returns-liability",
+      "permanent": true
+    }
+  ]
+}
